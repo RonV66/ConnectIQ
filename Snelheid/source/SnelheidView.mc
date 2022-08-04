@@ -24,43 +24,21 @@ class SnelheidView extends WatchUi.DataField {
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-        var obscurityFlags = DataField.getObscurityFlags();
-
         // Setting edge System.UNIT_METRIC or System.UNIT_STATUTE
         mMetric = System.getDeviceSettings().paceUnits;
-
-        // Top left quadrant so we'll use the top left layout
-        if (obscurityFlags == (OBSCURE_TOP | OBSCURE_LEFT)) {
-            View.setLayout(Rez.Layouts.TopLeftLayout(dc));
-
-        // Top right quadrant so we'll use the top right layout
-        } else if (obscurityFlags == (OBSCURE_TOP | OBSCURE_RIGHT)) {
-            View.setLayout(Rez.Layouts.TopRightLayout(dc));
-
-        // Bottom left quadrant so we'll use the bottom left layout
-        } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_LEFT)) {
-            View.setLayout(Rez.Layouts.BottomLeftLayout(dc));
-
-        // Bottom right quadrant so we'll use the bottom right layout
-        } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_RIGHT)) {
-            View.setLayout(Rez.Layouts.BottomRightLayout(dc));
-
-        // Use the generic, centered layout
-        } else {
-            var hoogte = dc.getHeight();
-            if (hoogte < 60) {
-                View.setLayout(Rez.Layouts.Klein(dc));
-                gebruiktefont = Graphics.FONT_NUMBER_MILD;
-            } else if ((hoogte >= 60) and (hoogte < 80)) {
-                View.setLayout(Rez.Layouts.Middel1(dc));
-                gebruiktefont = Graphics.FONT_NUMBER_MEDIUM;
-            } else if ((hoogte >= 80) and (hoogte < 100)) {
-                View.setLayout(Rez.Layouts.Middel2(dc));
-                gebruiktefont = Graphics.FONT_NUMBER_HOT;
-            } else if (hoogte >= 100) {
-                View.setLayout(Rez.Layouts.Groot(dc));
-                gebruiktefont = Graphics.FONT_NUMBER_THAI_HOT;
-            }
+        var hoogte = dc.getHeight();
+        if (hoogte < 60) {
+            View.setLayout(Rez.Layouts.Klein(dc));
+            gebruiktefont = Graphics.FONT_NUMBER_MILD;
+        } else if ((hoogte >= 60) and (hoogte < 80)) {
+            View.setLayout(Rez.Layouts.Middel1(dc));
+            gebruiktefont = Graphics.FONT_NUMBER_MEDIUM;
+        } else if ((hoogte >= 80) and (hoogte < 100)) {
+            View.setLayout(Rez.Layouts.Middel2(dc));
+            gebruiktefont = Graphics.FONT_NUMBER_HOT;
+        } else if (hoogte >= 100) {
+            View.setLayout(Rez.Layouts.Groot(dc));
+            gebruiktefont = Graphics.FONT_NUMBER_THAI_HOT;
         }
 
         var valueView = View.findDrawableById("value");
@@ -72,7 +50,8 @@ class SnelheidView extends WatchUi.DataField {
         locatieY = eenheidView.locY;
 
         // plaats label "Speed" boven aan
-        valueView.setText(Rez.Strings.label);
+        var labelView = View.findDrawableById("label") as Text;
+        labelView.setText(Rez.Strings.label);
 
         // plaats snelheid eenheid
         if (mMetric == System.UNIT_METRIC) {
@@ -155,18 +134,12 @@ class SnelheidView extends WatchUi.DataField {
         tekst.setText(mValue.format("%.1f"));
 
         var t=mValue.format("%.1f");
-        var w=dc.getTextWidthInPixels(t, gebruiktefont) as Numeric;
+        var w=dc.getTextWidthInPixels(t, gebruiktefont);
 
-        if ((gebruiktefont == Graphics.FONT_NUMBER_MILD) or (gebruiktefont == Graphics.FONT_NUMBER_MEDIUM)) {
-            eenheid.setFont(Graphics.FONT_XTINY);
-            eenheid.locX = locatieX + (w / 2);
-            eenheid.locY = locatieY + 5;
-        }
-        else {
-            eenheid.setFont(Graphics.FONT_SMALL);
-            eenheid.locX = locatieX + 3 + (w / 2);
-            eenheid.locY = locatieY - 10;
-        }
+        eenheid.setFont(Graphics.FONT_TINY);
+        eenheid.locX = locatieX + 2 + (w / 2);
+        eenheid.locY = locatieY;
+
         if (mMetric == System.UNIT_METRIC) {
             eenheid.setText("km" + "\n" + "h");
         } else {
