@@ -14,10 +14,6 @@
 		{
 			"name": "Test",
 			"path": ".\\Test"
-		},
-		{
-			"name": "ConnectIQ",
-			"path": "ConnectIQ"
 		}
 	],
 	"settings": {
