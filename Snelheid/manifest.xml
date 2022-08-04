@@ -14,6 +14,11 @@
             "Monkey C: Edit Products" - Lets you add or remove any product
         -->
         <iq:products>
+            <iq:product id="edge1030"/>
+            <iq:product id="edge1030bontrager"/>
+            <iq:product id="edge1030plus"/>
+            <iq:product id="edge1040"/>
+            <iq:product id="edge130plus"/>
             <iq:product id="edge530"/>
             <iq:product id="edge830"/>
             <iq:product id="edgeexplore2"/>
