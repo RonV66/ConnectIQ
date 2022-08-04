@@ -2,11 +2,13 @@ import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
+import Toybox.System;
 
 class TestView extends WatchUi.DataField {
 
     hidden var mValue as Numeric;
     hidden var mEenheid as Text;
+        var x = 0;
 
     function initialize() {
         DataField.initialize();
@@ -42,7 +44,7 @@ class TestView extends WatchUi.DataField {
             var valueView = View.findDrawableById("value");
             valueView.locY = valueView.locY + 7;
             var eenheidView = View.findDrawableById("eenheid");
-            eenheidView.locX = eenheidView.locX + 45;
+            eenheidView.locX = eenheidView.locX + 85;
         }
 
         (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
@@ -80,8 +82,13 @@ class TestView extends WatchUi.DataField {
         value.setText(mValue.format("%.2f"));
 
         var eenheid = View.findDrawableById("eenheid") as Text;
-        eenheid.setFont(Graphics.FONT_GLANCE_NUMBER);
-        eenheid.setText("KM" + "\n" + "H");
+
+        x += 1;
+        if (x > 25) {x = 1;}
+//        eenheid.setFont(Graphics.FONT_SYSTEM_NUMBER_THAI_HOT);
+        System.println(x);
+        eenheid.setFont(x);
+        eenheid.setText("km" + "\n" + "h");
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
