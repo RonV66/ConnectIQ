@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Hello",
+			"path": ".\\Hello"
+		},
+		{
+			"name": "Snelheid",
+			"path": ".\\Snelheid"
+		},
+		{
+			"name": "Test",
+			"path": ".\\Test"
+		},
+		{
+			"name": "ConnectIQ",
+			"path": "ConnectIQ"
+		},
+		{
+			"name": "ConnectIQ-1",
+			"path": "..\\ConnectIQ-1"
+		}
+	],
+	"settings": {
+		"makefile.extensionOutputFolder": "./.vscode"
+	},
+	"extensions": {
+		"recommendations": [
+			"ghisguth.monkey-c"
+		]
+	}
+}
