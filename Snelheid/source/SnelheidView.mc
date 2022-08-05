@@ -2,17 +2,14 @@ import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
-import Toybox.System;
+//import Toybox.System;
 
 class SnelheidView extends WatchUi.DataField {
 
     hidden var mValue as Numeric;
     hidden var vijfprocent as Numeric;
     hidden var verschil as Numeric;
-    hidden var mMetric;
-    hidden var gebruiktefont;
-    hidden var locatieX as Numeric;
-    hidden var locatieY as Numeric;
+    hidden var mMetric = System.getDeviceSettings().paceUnits;
     
     function initialize() {
         DataField.initialize();
@@ -24,40 +21,27 @@ class SnelheidView extends WatchUi.DataField {
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-        // Setting edge System.UNIT_METRIC or System.UNIT_STATUTE
-        mMetric = System.getDeviceSettings().paceUnits;
+
         var hoogte = dc.getHeight();
         if (hoogte < 60) {
             View.setLayout(Rez.Layouts.Klein(dc));
-            gebruiktefont = Graphics.FONT_NUMBER_MILD;
         } else if ((hoogte >= 60) and (hoogte < 80)) {
             View.setLayout(Rez.Layouts.Middel1(dc));
-            gebruiktefont = Graphics.FONT_NUMBER_MEDIUM;
         } else if ((hoogte >= 80) and (hoogte < 100)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-            gebruiktefont = Graphics.FONT_NUMBER_HOT;
         } else if (hoogte >= 100) {
             View.setLayout(Rez.Layouts.Groot(dc));
-            gebruiktefont = Graphics.FONT_NUMBER_THAI_HOT;
         }
 
         var valueView = View.findDrawableById("value");
-        valueView.locX = valueView.locX - 10;
         valueView.locY = valueView.locY + 10;
-
-        var eenheidView = View.findDrawableById("eenheid");
-        locatieX = eenheidView.locX;
-        locatieY = eenheidView.locY;
 
         // plaats label "Speed" boven aan
         var labelView = View.findDrawableById("label") as Text;
-        labelView.setText(Rez.Strings.label);
-
-        // plaats snelheid eenheid
         if (mMetric == System.UNIT_METRIC) {
-            eenheidView.setText("km" + "\n" + "h");
+            labelView.setText(Rez.Strings.labelmetric);
         } else {
-            eenheidView.setText("m" + "\n" + "h");
+            labelView.setText(Rez.Strings.labelstatute);
         }
     }
 
@@ -79,9 +63,7 @@ class SnelheidView extends WatchUi.DataField {
         }
 
         if (info has :currentSpeed){
-            if ((info.currentSpeed == null) or (info.timerState == 0)){
-                mValue = -1;
-            } else {
+            if (info.currentSpeed != null){
                 switch (mMetric) {
                     case System.UNIT_METRIC:
                         mValue = 3.6 * info.currentSpeed;
@@ -90,6 +72,8 @@ class SnelheidView extends WatchUi.DataField {
                         mValue = 2.23693629 * info.currentSpeed;
                         break;
                 }
+            } else {
+                mValue = 0.0f;
             }
         }
     }
@@ -103,53 +87,31 @@ class SnelheidView extends WatchUi.DataField {
          // Set the foreground color and value
         var label = View.findDrawableById("label") as Text;
         var value = View.findDrawableById("value") as Text;
-        var eenheid = View.findDrawableById("eenheid") as Text;
         switch (verschil) {
             case 0:
                 achtergrond.setColor(getBackgroundColor());
                 if (getBackgroundColor() == Graphics.COLOR_BLACK) {
                     label.setColor(Graphics.COLOR_WHITE);
                     value.setColor(Graphics.COLOR_WHITE);
-                    eenheid.setColor(Graphics.COLOR_WHITE);
                 } else {
                     label.setColor(Graphics.COLOR_BLACK);
                     value.setColor(Graphics.COLOR_BLACK);
-                    eenheid.setColor(Graphics.COLOR_BLACK);
                 }
                 break;
             case -1:
                 label.setColor(Graphics.COLOR_WHITE);
                 value.setColor(Graphics.COLOR_WHITE);
-                eenheid.setColor(Graphics.COLOR_WHITE);
                 achtergrond.setColor(Graphics.COLOR_DK_GREEN);
                 break;
             case 1:
                 label.setColor(Graphics.COLOR_WHITE);
                 value.setColor(Graphics.COLOR_WHITE);
-                eenheid.setColor(Graphics.COLOR_WHITE);
                 achtergrond.setColor(Graphics.COLOR_DK_RED);
                 break;
         }
 
         // Set the value
-        if (mValue < 0) {
-            value.setText("__._");
-        } else {
-            value.setText(mValue.format("%.1f"));
-        }
-
-        var t=mValue.format("%.1f");
-        var w=dc.getTextWidthInPixels(t, gebruiktefont);
-
-        eenheid.setFont(Graphics.FONT_TINY);
-        eenheid.locX = locatieX + 2 + (w / 2);
-        eenheid.locY = locatieY;
-
-        if (mMetric == System.UNIT_METRIC) {
-            eenheid.setText("km" + "\n" + "h");
-        } else {
-            eenheid.setText("m" + "\n" + "h");
-        }
+        value.setText(mValue.format("%.1f"));
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);

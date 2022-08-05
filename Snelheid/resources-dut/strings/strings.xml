@@ -1,5 +1,5 @@
 <strings>
     <string id="AppName">Snelheid</string>
-
-    <string id="label">Snelheid</string>
+    <string id="labelmetric">Snelheid (km/h)</string>
+    <string id="labelstatute">Snelheid (m/h)</string>
 </strings>
