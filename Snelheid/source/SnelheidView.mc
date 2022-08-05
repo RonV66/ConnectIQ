@@ -77,8 +77,11 @@ class SnelheidView extends WatchUi.DataField {
                 verschil = -1;
             }
         }
+
         if (info has :currentSpeed){
-            if (info.currentSpeed != null){
+            if ((info.currentSpeed == null) or (info.timerState == 0)){
+                mValue = -1;
+            } else {
                 switch (mMetric) {
                     case System.UNIT_METRIC:
                         mValue = 3.6 * info.currentSpeed;
@@ -87,8 +90,6 @@ class SnelheidView extends WatchUi.DataField {
                         mValue = 2.23693629 * info.currentSpeed;
                         break;
                 }
-            } else {
-                mValue = 0.0f;
             }
         }
     }
@@ -101,37 +102,41 @@ class SnelheidView extends WatchUi.DataField {
 
          // Set the foreground color and value
         var label = View.findDrawableById("label") as Text;
-        var tekst = View.findDrawableById("value") as Text;
+        var value = View.findDrawableById("value") as Text;
         var eenheid = View.findDrawableById("eenheid") as Text;
         switch (verschil) {
             case 0:
                 achtergrond.setColor(getBackgroundColor());
                 if (getBackgroundColor() == Graphics.COLOR_BLACK) {
                     label.setColor(Graphics.COLOR_WHITE);
-                    tekst.setColor(Graphics.COLOR_WHITE);
+                    value.setColor(Graphics.COLOR_WHITE);
                     eenheid.setColor(Graphics.COLOR_WHITE);
                 } else {
                     label.setColor(Graphics.COLOR_BLACK);
-                    tekst.setColor(Graphics.COLOR_BLACK);
+                    value.setColor(Graphics.COLOR_BLACK);
                     eenheid.setColor(Graphics.COLOR_BLACK);
                 }
                 break;
             case -1:
                 label.setColor(Graphics.COLOR_WHITE);
-                tekst.setColor(Graphics.COLOR_WHITE);
+                value.setColor(Graphics.COLOR_WHITE);
                 eenheid.setColor(Graphics.COLOR_WHITE);
                 achtergrond.setColor(Graphics.COLOR_DK_GREEN);
                 break;
             case 1:
                 label.setColor(Graphics.COLOR_WHITE);
-                tekst.setColor(Graphics.COLOR_WHITE);
+                value.setColor(Graphics.COLOR_WHITE);
                 eenheid.setColor(Graphics.COLOR_WHITE);
                 achtergrond.setColor(Graphics.COLOR_DK_RED);
                 break;
         }
 
-        // Set the foreground color and value
-        tekst.setText(mValue.format("%.1f"));
+        // Set the value
+        if (mValue < 0) {
+            value.setText("__._");
+        } else {
+            value.setText(mValue.format("%.1f"));
+        }
 
         var t=mValue.format("%.1f");
         var w=dc.getTextWidthInPixels(t, gebruiktefont);
