@@ -105,28 +105,37 @@
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="8389163" symbol="COLOR_ORANGE"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
         <entry id="9" object="true" symbol="TestApp"/>
         <entry id="14" method="true" symbol="MainLayout"/>
-        <entry field="true" id="20" symbol="mValue"/>
+        <entry field="true" id="24" symbol="mValue"/>
+        <entry field="true" id="8389158" symbol="COLOR_LT_GRAY"/>
+        <entry field="true" id="8389159" symbol="COLOR_DK_GRAY"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="19" symbol="AppName"/>
+        <entry field="true" id="8389168" symbol="COLOR_DK_BLUE"/>
+        <entry field="true" id="23" symbol="AppName"/>
+        <entry field="true" id="8389162" symbol="COLOR_DK_RED"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="8389157" symbol="COLOR_WHITE"/>
         <entry id="8388631" module="true" symbol="Activity"/>
+        <entry field="true" id="8389160" symbol="COLOR_BLACK"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry field="true" id="8389138" symbol="label"/>
+        <entry field="true" id="8389170" symbol="COLOR_PINK"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="8389161" symbol="COLOR_RED"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="12" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="21" symbol="mEenheid"/>
+        <entry field="true" id="25" symbol="mEenheid"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
@@ -135,9 +144,12 @@
         <entry id="8389131" method="true" symbol="setColor"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="21" symbol="voorgrondlaag"/>
         <entry id="15" method="true" symbol="TopLeftLayout"/>
+        <entry field="true" id="19" symbol="achtergrondlaag"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="8389166" symbol="COLOR_DK_GREEN"/>
         <entry id="17" method="true" symbol="BottomLeftLayout"/>
         <entry id="18" method="true" symbol="BottomRightLayout"/>
         <entry id="8388640" module="true" symbol="Lang"/>
@@ -146,15 +158,21 @@
         <entry id="8389068" method="true" symbol="draw"/>
         <entry field="true" id="13" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="8389167" symbol="COLOR_BLUE"/>
+        <entry field="true" id="22" symbol="voorgrondhoog"/>
+        <entry field="true" id="20" symbol="achtergrondhoog"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="8389169" symbol="COLOR_PURPLE"/>
         <entry field="true" id="8388747" symbol="currentHeartRate"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
+        <entry field="true" id="8389164" symbol="COLOR_YELLOW"/>
+        <entry field="true" id="8389165" symbol="COLOR_GREEN"/>
         <entry id="11" module="true" symbol="Layouts"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8388635" module="true" symbol="Application"/>
@@ -178,32 +196,50 @@
         <entry arg="true" endPc="268436675" name="dc" stackId="1" startPc="268436323"/>
         <entry endPc="268437273" name="rez_cmp_local_text_value" stackId="6" startPc="268436688"/>
         <entry endPc="268437273" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268436688"/>
-        <entry endPc="268437273" name="rez_cmp_local_custom_drawable_71397048716399859211" stackId="4" startPc="268436688"/>
         <entry endPc="268437273" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268436688"/>
         <entry endPc="268437273" name="rez_cmp_local_text_eenheid" stackId="7" startPc="268436688"/>
         <entry endPc="268437273" name="rez_cmp_local_text_label" stackId="5" startPc="268436688"/>
+        <entry endPc="268437273" name="rez_cmp_local_custom_drawable_12394367292427517021" stackId="4" startPc="268436688"/>
         <entry arg="true" endPc="268437274" name="dc" stackId="1" startPc="268436676"/>
         <entry endPc="268437613" name="rez_cmp_local_text_value" stackId="4" startPc="268437287"/>
         <entry endPc="268437613" name="rez_cmp_local_text_label" stackId="3" startPc="268437287"/>
-        <entry endPc="268437613" name="rez_cmp_local_custom_drawable_26191003191505201716" stackId="2" startPc="268437287"/>
+        <entry endPc="268437613" name="rez_cmp_local_custom_drawable_12260424205237491531" stackId="2" startPc="268437287"/>
         <entry arg="true" endPc="268437614" name="dc" stackId="1" startPc="268437275"/>
         <entry endPc="268437953" name="rez_cmp_local_text_value" stackId="4" startPc="268437627"/>
+        <entry endPc="268437953" name="rez_cmp_local_custom_drawable_52801452814701742151" stackId="2" startPc="268437627"/>
         <entry endPc="268437953" name="rez_cmp_local_text_label" stackId="3" startPc="268437627"/>
-        <entry endPc="268437953" name="rez_cmp_local_custom_drawable_14318021047035685781" stackId="2" startPc="268437627"/>
         <entry arg="true" endPc="268437954" name="dc" stackId="1" startPc="268437615"/>
         <entry endPc="268438293" name="rez_cmp_local_text_value" stackId="4" startPc="268437967"/>
+        <entry endPc="268438293" name="rez_cmp_local_custom_drawable_24353788888475834418" stackId="2" startPc="268437967"/>
         <entry endPc="268438293" name="rez_cmp_local_text_label" stackId="3" startPc="268437967"/>
-        <entry endPc="268438293" name="rez_cmp_local_custom_drawable_18962828293641844311" stackId="2" startPc="268437967"/>
         <entry arg="true" endPc="268438294" name="dc" stackId="1" startPc="268437955"/>
         <entry endPc="268438633" name="rez_cmp_local_text_value" stackId="4" startPc="268438307"/>
-        <entry endPc="268438633" name="rez_cmp_local_custom_drawable_72695704516893837691" stackId="2" startPc="268438307"/>
         <entry endPc="268438633" name="rez_cmp_local_text_label" stackId="3" startPc="268438307"/>
+        <entry endPc="268438633" name="rez_cmp_local_custom_drawable_90303009615034654804" stackId="2" startPc="268438307"/>
         <entry arg="true" endPc="268438634" name="dc" stackId="1" startPc="268438295"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="achtergrondlaag"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_DK_GREEN"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="achtergrondhoog"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_RED"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="label"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_YELLOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="voorgrondlaag"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_LT_GRAY"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="voorgrondhoog"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_BLACK"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_DK_RED"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_DK_BLUE"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_WHITE"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_ORANGE"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_BLUE"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_PINK"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_DK_GRAY"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_GREEN"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_PURPLE"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
@@ -216,7 +252,7 @@
         <dataEntry label="globals/Rez/Layouts" offset="488" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry label="globals/Rez/JsonData" offset="559" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry label="globals/Rez/Strings" offset="590" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/TestView" offset="637" parentId="globals" symbolId="TestView" type="class"/>
+        <dataEntry label="globals/TestView" offset="781" parentId="globals" symbolId="TestView" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435521" name="initialize" parent="Background" startPc="268435456">

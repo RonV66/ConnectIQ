@@ -10,6 +10,10 @@ class SnelheidView extends WatchUi.DataField {
     hidden var vijfprocent as Numeric;
     hidden var verschil as Numeric;
     hidden var mMetric = System.getDeviceSettings().paceUnits;
+    hidden var achtergrondhoog;
+    hidden var achtergrondlaag;
+    hidden var voorgrondhoog;
+    hidden var voorgrondlaag;
     
     function initialize() {
         DataField.initialize();
@@ -43,6 +47,12 @@ class SnelheidView extends WatchUi.DataField {
         } else {
             labelView.setText(Rez.Strings.labelstatute);
         }
+
+        // Achtergrond en voorgrond kleur instellingen opvragen
+        achtergrondhoog  = Application.Properties.getValue("achtergrondhoog");
+        achtergrondlaag  = Application.Properties.getValue("achtergrondlaag");
+        voorgrondhoog  = Application.Properties.getValue("voorgrondhoog");
+        voorgrondlaag  = Application.Properties.getValue("voorgrondlaag");
     }
 
     // The given info object contains all the current workout information.
@@ -54,10 +64,10 @@ class SnelheidView extends WatchUi.DataField {
         verschil = 0;
         if (info.averageSpeed != null){
             vijfprocent = (info.averageSpeed * 5) / 100;
-            if (info.currentSpeed + vijfprocent < info.averageSpeed){
+            if (info.currentSpeed - vijfprocent > info.averageSpeed){
                 verschil = 1;
             }
-            if (info.currentSpeed - vijfprocent > info.averageSpeed){
+            if (info.currentSpeed + vijfprocent < info.averageSpeed){
                 verschil = -1;
             }
         }
@@ -98,15 +108,15 @@ class SnelheidView extends WatchUi.DataField {
                     value.setColor(Graphics.COLOR_BLACK);
                 }
                 break;
-            case -1:
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
-                achtergrond.setColor(Graphics.COLOR_DK_GREEN);
-                break;
             case 1:
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
-                achtergrond.setColor(Graphics.COLOR_DK_RED);
+                label.setColor(voorgrondhoog);
+                value.setColor(voorgrondhoog);
+                achtergrond.setColor(achtergrondhoog);
+                break;
+            case -1:
+                label.setColor(voorgrondlaag);
+                value.setColor(voorgrondlaag);
+                achtergrond.setColor(achtergrondlaag);
                 break;
         }
 
