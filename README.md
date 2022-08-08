@@ -2,7 +2,7 @@
 Garmin Connect IQ apps
 
 Test is for testing some statements.<br>
-Hello is for getting to know Comnnect IQ apps.<br>
+Hello is for getting to know Garmin Connect IQ apps.<br>
 <br>
 Snelheid is a Datafield for an edge device.<br>
 It displays the speed an background will be<br>
