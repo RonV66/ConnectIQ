@@ -2,96 +2,123 @@ import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
+import Toybox.Position;
 import Toybox.System;
 
 class TestView extends WatchUi.DataField {
 
-    hidden var mValue as Numeric;
-    hidden var mEenheid as Text;
-        var x = 0;
+    var W;
+	var H;
+    var F;
+    var FONT = Graphics.FONT_XTINY;
+    var clockRads = 0;
+    var hoek = 0;
+    var radius = 0;
+    var middelpuntX;
+    var middelpuntY;
+    var rad = new [4];
+    var p = [[0,0],[0,0],[0,0],[0,0],[0,0]];
 
     function initialize() {
         DataField.initialize();
-        mValue = 0.0f;
     }
 
-    // Set your layout here. Anytime the size of obscurity of
-    // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-        var obscurityFlags = DataField.getObscurityFlags();
+    	W = dc.getWidth();
+    	H = dc.getHeight();
+        F = dc.getFontHeight(FONT);
+        middelpuntX = W/2;
+        middelpuntY = H/4;
 
-        // Top left quadrant so we'll use the top left layout
-        if (obscurityFlags == (OBSCURE_TOP | OBSCURE_LEFT)) {
-            View.setLayout(Rez.Layouts.TopLeftLayout(dc));
+        rad[0] = Math.sqrt(Math.pow(0,2) + Math.pow(-35,2));
+        rad[1] = Math.sqrt(Math.pow(30,2) + Math.pow(20,2));
+        rad[2] = Math.sqrt(Math.pow(0,2) + Math.pow(5,2));
+        rad[3] = Math.sqrt(Math.pow(-30,2) + Math.pow(20,2));
 
-        // Top right quadrant so we'll use the top right layout
-        } else if (obscurityFlags == (OBSCURE_TOP | OBSCURE_RIGHT)) {
-            View.setLayout(Rez.Layouts.TopRightLayout(dc));
-
-        // Bottom left quadrant so we'll use the bottom left layout
-        } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_LEFT)) {
-            View.setLayout(Rez.Layouts.BottomLeftLayout(dc));
-
-        // Bottom right quadrant so we'll use the bottom right layout
-        } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_RIGHT)) {
-            View.setLayout(Rez.Layouts.BottomRightLayout(dc));
-
-        // Use the generic, centered layout
-        } else {
-            View.setLayout(Rez.Layouts.MainLayout(dc));
-            var labelView = View.findDrawableById("label");
-            labelView.locY = labelView.locY - 16;
-            var valueView = View.findDrawableById("value");
-            valueView.locY = valueView.locY + 7;
-            var eenheidView = View.findDrawableById("eenheid");
-            eenheidView.locX = eenheidView.locX + 85;
-        }
-
-        (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
+        ////////////////////////////////////
     }
 
-    // The given info object contains all the current workout information.
-    // Calculate a value and save it locally in this method.
-    // Note that compute() and onUpdate() are asynchronous, and there is no
-    // guarantee that compute() will be called before onUpdate().
     function compute(info as Activity.Info) as Void {
-        // See Activity.Info in the documentation for available information.
-        if(info has :currentHeartRate){
-            if(info.currentHeartRate != null){
-                mValue = info.currentHeartRate as Number;
-            } else {
-                mValue = 0.0f;
+
+        if (info has :currentHeading) {
+            if (info.currentHeading != null) {
+                hoek = Math.toDegrees(info.currentHeading);
             }
         }
     }
 
-    // Display the value you computed here. This will be called
-    // once a second when the data field is visible.
     function onUpdate(dc as Dc) as Void {
-        // Set the background color
-        (View.findDrawableById("Background") as Text).setColor(getBackgroundColor());
 
-        // Set the foreground color and value
-        var value = View.findDrawableById("value") as Text;
-        if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-            value.setColor(Graphics.COLOR_WHITE);
-        } else {
-            value.setColor(Graphics.COLOR_BLACK);
-        }
+        ////////////////////////////////////
 
-        value.setText(mValue.format("%.2f"));
+    	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(5);
+        dc.drawCircle(W / 2, H / 4, 50);
+        dc.drawCircle(W / 2, (H / 4) * 3, 50);
 
-        var eenheid = View.findDrawableById("eenheid") as Text;
+        ////////////////////////////////////
 
-        x += 1;
-        if (x > 25) {x = 1;}
-//        eenheid.setFont(Graphics.FONT_SYSTEM_NUMBER_THAI_HOT);
-        System.println(x);
-        eenheid.setFont(x);
-        eenheid.setText("km" + "\n" + "h");
+    	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+
+        var string = "WNOZNWNOZOZW";
+        dc.drawText((W / 2) - 65, (H / 4) - (F / 2), FONT, string.substring(0, 1), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2), (H / 4) - 65 - (F / 2), FONT, string.substring(1, 2), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) + 65, (H / 4) - (F / 2), FONT, string.substring(2, 3), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2), (H / 4) + 65 - (F / 2), FONT, string.substring(3, 4), Graphics.TEXT_JUSTIFY_CENTER);
+
+        dc.drawText((W / 2) - 50, (H / 4) - 50 - (F / 2), FONT, string.substring(4, 6), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) + 50, (H / 4) - 50 - (F / 2), FONT, string.substring(6, 8), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) + 50, (H / 4) + 50 - (F / 2), FONT, string.substring(8, 10), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) - 50, (H / 4) + 50 - (F / 2), FONT, string.substring(10, 12), Graphics.TEXT_JUSTIFY_CENTER);
+
+        ////////////////////////////////////
+
+        dc.drawText((W / 2) - 65, (H / 4) * 3 - (F / 2), FONT, string.substring(0, 1), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2), (H / 4) * 3 - 65 - (F / 2), FONT, string.substring(1, 2), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) + 65, (H / 4) * 3 - (F / 2), FONT, string.substring(2, 3), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2), (H / 4) * 3 + 65 - (F / 2), FONT, string.substring(3, 4), Graphics.TEXT_JUSTIFY_CENTER);
+
+        dc.drawText((W / 2) - 50, (H / 4) * 3 - 50 - (F / 2), FONT, string.substring(4, 6), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) + 50, (H / 4) * 3 - 50 - (F / 2), FONT, string.substring(6, 8), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) + 50, (H / 4) * 3 + 50 - (F / 2), FONT, string.substring(8, 10), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) - 50, (H / 4) * 3 + 50 - (F / 2), FONT, string.substring(10, 12), Graphics.TEXT_JUSTIFY_CENTER);
+
+        ////////////////////////////////////
+
+        dc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_TRANSPARENT);
+        /////////////////////////////////////////////////////////
+        clockRads = Math.toRadians(hoek);
+        var cos = Math.cos(clockRads);
+        var sin = Math.sin(clockRads);
+        p[0][0] = middelpuntX + (rad[0] * sin);
+        p[0][1] = middelpuntY - (rad[0] * cos);
+        p[4][0] = p[0][0];
+        p[4][1] = p[0][1];
+        /////////////////////////////////////////////////////////
+        clockRads = Math.toRadians(hoek + 120);
+        cos = Math.cos(clockRads);
+        sin = Math.sin(clockRads);
+        p[1][0] = middelpuntX + (rad[1] * sin);
+        p[1][1] = middelpuntY - (rad[1] * cos);
+        /////////////////////////////////////////////////////////
+        clockRads = Math.toRadians(hoek + 180);
+        cos = Math.cos(clockRads);
+        sin = Math.sin(clockRads);
+        p[2][0] = middelpuntX + (rad[2] * sin);
+        p[2][1] = middelpuntY - (rad[2] * cos);
+        ////////////////////////////////////////////////////////
+        clockRads = Math.toRadians(hoek + 240);
+        cos = Math.cos(clockRads);
+        sin = Math.sin(clockRads);
+        p[3][0] = middelpuntX + (rad[3] * sin);
+        p[3][1] = middelpuntY - (rad[3] * cos);
+        ////////////////////////////////////////////////////////
+        dc.fillPolygon(p);
 
         // Call parent's onUpdate(dc) to redraw the layout
-        View.onUpdate(dc);
+//        View.onUpdate(dc);
+
     }
+
 
 }
