@@ -1,5 +1,5 @@
 <strings>
-    <string id="AppName">Snelheid</string>
+    <string id="AppName">Speed</string>
 
     <string id="labelmetric">Speed (km/h)</string>
     <string id="labelstatute">Speed (m/h)</string>
@@ -8,6 +8,10 @@
     <string id="achtergrondhoog">Background color above 5%</string>
     <string id="voorgrondlaag">Foreground color below 5%</string>
     <string id="voorgrondhoog">Foreground color above 5%</string>
+
+    <string id="gemiddeldesnelheidTitel">Average speed</string>
+    <string id="gemiddeldesnelheidPrompt">Between 0 and 60</string>
+    <string id="gemiddeldesnelheidError">Error enter a numeric value between 0 and 60</string>
 
     <string id="COLOR_WHITE">White</string>
     <string id="COLOR_LT_GRAY">Light Gray</string>

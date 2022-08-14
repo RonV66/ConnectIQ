@@ -1,0 +1,30 @@
+<strings>
+    <string id="AppName">Geschwindigkeit</string>
+
+    <string id="labelmetric">Geschwindigkeit (km/h)</string>
+    <string id="labelstatute">Geschwindigkeit (m/h)</string>
+
+    <string id="achtergrondlaag">Hintergrund Farbe unter 5%</string>
+    <string id="achtergrondhoog">Hintergrund Farbe oben 5%</string>
+    <string id="voorgrondlaag">Textfarbe unter 5%</string>
+    <string id="voorgrondhoog">Textfarbe oben 5%</string>
+
+    <string id="gemiddeldesnelheidTitel">Durchschnittsgeschwindigkeit</string>
+    <string id="gemiddeldesnelheidPrompt">Zwischen 0 und 60</string>
+    <string id="gemiddeldesnelheidError">Fehler Geben Sie eine Zahl zwischen 0 und 60 ein</string>
+
+    <string id="COLOR_WHITE">Weiß</string>
+    <string id="COLOR_LT_GRAY">Hell Grau</string>
+    <string id="COLOR_DK_GRAY">Dunkel Grau</string>
+    <string id="COLOR_BLACK">Schwarz</string>
+    <string id="COLOR_RED">Rot</string>
+    <string id="COLOR_DK_RED">Dunkel Rot</string>
+    <string id="COLOR_ORANGE">Orange</string>
+    <string id="COLOR_YELLOW">Gelb</string>
+    <string id="COLOR_GREEN">Grün</string>
+    <string id="COLOR_DK_GREEN">Dunkel Grün</string>
+    <string id="COLOR_BLUE">Blau</string>
+    <string id="COLOR_DK_BLUE">Dunkel Blau</string>
+    <string id="COLOR_PURPLE">Violett</string>
+    <string id="COLOR_PINK">Rosa</string>
+</strings>
