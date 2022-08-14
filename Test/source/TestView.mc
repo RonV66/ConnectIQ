@@ -4,6 +4,8 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.Position;
 import Toybox.System;
+import Toybox.Math;
+import Toybox.Sensor;
 
 class TestView extends WatchUi.DataField {
 
@@ -18,10 +20,13 @@ class TestView extends WatchUi.DataField {
     var middelpuntY;
     var rad = new [4];
     var p = [[0,0],[0,0],[0,0],[0,0],[0,0]];
+    var x = 0;
+    private var  koers as String;
 
     function initialize() {
         DataField.initialize();
-    }
+        koers = "---bpm";
+      }
 
     function onLayout(dc as Dc) as Void {
     	W = dc.getWidth();
@@ -36,15 +41,25 @@ class TestView extends WatchUi.DataField {
         rad[3] = Math.sqrt(Math.pow(-30,2) + Math.pow(20,2));
 
         ////////////////////////////////////
+
     }
 
     function compute(info as Activity.Info) as Void {
 
-        if (info has :currentHeading) {
-            if (info.currentHeading != null) {
+//        System.println(info.heading);
+//        System.println(info.currentHeading);
+//        System.println(info.track);
+//        System.println("-");
+
+//        if (info has :currentHeading) {
+//            if (info.currentHeading != null) {
                 hoek = Math.toDegrees(info.currentHeading);
-            }
-        }
+//                System.println (info.currentHeading + "+" + hoek);
+//            } else {
+//                hoek = 0;
+//            }
+//        }
+        x++;
     }
 
     function onUpdate(dc as Dc) as Void {
@@ -114,6 +129,15 @@ class TestView extends WatchUi.DataField {
         p[3][1] = middelpuntY - (rad[3] * cos);
         ////////////////////////////////////////////////////////
         dc.fillPolygon(p);
+
+        dc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(W/2, 220, Graphics.FONT_LARGE, hoek , Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(W/2, 180, Graphics.FONT_LARGE, x , Graphics.TEXT_JUSTIFY_CENTER);
+
+        var info2 = new SensorInfo();
+//        System.println (info2.getInfo().heading);
+
+        
 
         // Call parent's onUpdate(dc) to redraw the layout
 //        View.onUpdate(dc);

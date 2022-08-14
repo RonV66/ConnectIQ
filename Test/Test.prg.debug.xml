@@ -11,94 +11,96 @@
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestBackground.mc" id="3" lineNum="23" parent="globals/Background" pc="268435537" symbol="draw"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestBackground.mc" id="3" lineNum="24" parent="globals/Background" pc="268435541" symbol="draw"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestBackground.mc" id="3" lineNum="25" parent="globals/Background" pc="268435573" symbol="draw"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268439035" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268439035" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268439186" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268439186" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="6" lineNum="7" parent="globals/TestApp" pc="268435586" symbol="initialize"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="6" lineNum="8" parent="globals/TestApp" pc="268435590" symbol="initialize"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="7" lineNum="12" parent="globals/TestApp" pc="268435609" symbol="onStart"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="8" lineNum="16" parent="globals/TestApp" pc="268435614" symbol="onStop"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="9" lineNum="20" parent="globals/TestApp" pc="268435619" symbol="getInitialView"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="9" lineNum="21" parent="globals/TestApp" pc="268435623" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="10" lineNum="5" parent="globals/TestApp" pc="268439054" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="10" lineNum="5" parent="globals/TestApp" pc="268439054" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="10" lineNum="5" parent="globals/TestApp" pc="268439205" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="10" lineNum="5" parent="globals/TestApp" pc="268439205" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="11" lineNum="26" parent="globals" pc="268435661" symbol="getApp"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestApp.mc" id="11" lineNum="27" parent="globals" pc="268435673" symbol="getApp"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="13" lineNum="22" parent="globals/TestView" pc="268435690" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="13" lineNum="23" parent="globals/TestView" pc="268435694" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="26" parent="globals/TestView" pc="268435713" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="27" parent="globals/TestView" pc="268435717" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="28" parent="globals/TestView" pc="268435736" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="29" parent="globals/TestView" pc="268435755" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="30" parent="globals/TestView" pc="268435782" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="31" parent="globals/TestView" pc="268435804" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="33" parent="globals/TestView" pc="268435826" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="34" parent="globals/TestView" pc="268435912" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="35" parent="globals/TestView" pc="268435998" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="36" parent="globals/TestView" pc="268436084" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="15" lineNum="41" parent="globals/TestView" pc="268436171" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="15" lineNum="43" parent="globals/TestView" pc="268436175" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="15" lineNum="44" parent="globals/TestView" pc="268436186" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="15" lineNum="45" parent="globals/TestView" pc="268436199" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="50" parent="globals/TestView" pc="268436239" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="54" parent="globals/TestView" pc="268436243" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="55" parent="globals/TestView" pc="268436279" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="56" parent="globals/TestView" pc="268436296" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="57" parent="globals/TestView" pc="268436341" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="61" parent="globals/TestView" pc="268436392" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="63" parent="globals/TestView" pc="268436428" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="64" parent="globals/TestView" pc="268436435" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="65" parent="globals/TestView" pc="268436537" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="66" parent="globals/TestView" pc="268436639" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="67" parent="globals/TestView" pc="268436741" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="69" parent="globals/TestView" pc="268436843" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="70" parent="globals/TestView" pc="268436951" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="71" parent="globals/TestView" pc="268437059" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="72" parent="globals/TestView" pc="268437167" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="76" parent="globals/TestView" pc="268437275" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="77" parent="globals/TestView" pc="268437383" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="78" parent="globals/TestView" pc="268437491" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="79" parent="globals/TestView" pc="268437599" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="81" parent="globals/TestView" pc="268437707" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="82" parent="globals/TestView" pc="268437821" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="83" parent="globals/TestView" pc="268437935" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="84" parent="globals/TestView" pc="268438049" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="88" parent="globals/TestView" pc="268438163" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="90" parent="globals/TestView" pc="268438199" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="91" parent="globals/TestView" pc="268438232" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="92" parent="globals/TestView" pc="268438259" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="93" parent="globals/TestView" pc="268438286" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="94" parent="globals/TestView" pc="268438332" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="95" parent="globals/TestView" pc="268438378" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="96" parent="globals/TestView" pc="268438418" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="98" parent="globals/TestView" pc="268438458" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="99" parent="globals/TestView" pc="268438497" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="100" parent="globals/TestView" pc="268438524" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="101" parent="globals/TestView" pc="268438551" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="102" parent="globals/TestView" pc="268438597" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="104" parent="globals/TestView" pc="268438643" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="105" parent="globals/TestView" pc="268438682" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="106" parent="globals/TestView" pc="268438709" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="107" parent="globals/TestView" pc="268438736" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="108" parent="globals/TestView" pc="268438782" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="110" parent="globals/TestView" pc="268438828" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="111" parent="globals/TestView" pc="268438867" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="112" parent="globals/TestView" pc="268438894" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="113" parent="globals/TestView" pc="268438921" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="114" parent="globals/TestView" pc="268438967" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="116" parent="globals/TestView" pc="268439013" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="8" parent="globals/TestView" pc="268439103" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="13" parent="globals/TestView" pc="268439121" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="19" parent="globals/TestView" pc="268439141" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="20" parent="globals/TestView" pc="268439155" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="8" parent="globals/TestView" pc="268439103" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="19" lineNum="2" parent="globals/Rez/Drawables" pc="268439097" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="20" lineNum="6" parent="globals/Rez/Fonts" pc="268439099" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="21" lineNum="8" parent="globals/Rez/JsonData" pc="268439101" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="22" lineNum="10" parent="globals/Rez/Layouts" pc="268439100" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="23" lineNum="12" parent="globals/Rez/Menus" pc="268439098" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="24" lineNum="14" parent="globals/Rez/Strings" pc="268439102" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="25" lineNum="1" parent="globals/Rez" pc="268439073" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="25" lineNum="1" parent="globals/Rez" pc="268439073" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="13" lineNum="23" parent="globals/TestView" pc="268435690" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="13" lineNum="24" parent="globals/TestView" pc="268435694" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="27" parent="globals/TestView" pc="268435713" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="28" parent="globals/TestView" pc="268435717" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="29" parent="globals/TestView" pc="268435736" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="30" parent="globals/TestView" pc="268435755" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="31" parent="globals/TestView" pc="268435782" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="32" parent="globals/TestView" pc="268435804" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="34" parent="globals/TestView" pc="268435826" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="35" parent="globals/TestView" pc="268435912" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="36" parent="globals/TestView" pc="268435998" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="14" lineNum="37" parent="globals/TestView" pc="268436084" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="15" lineNum="42" parent="globals/TestView" pc="268436171" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="15" lineNum="46" parent="globals/TestView" pc="268436175" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="15" lineNum="52" parent="globals/TestView" pc="268436208" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="55" parent="globals/TestView" pc="268436228" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="59" parent="globals/TestView" pc="268436232" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="60" parent="globals/TestView" pc="268436268" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="61" parent="globals/TestView" pc="268436285" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="62" parent="globals/TestView" pc="268436330" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="66" parent="globals/TestView" pc="268436381" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="68" parent="globals/TestView" pc="268436417" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="69" parent="globals/TestView" pc="268436424" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="70" parent="globals/TestView" pc="268436526" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="71" parent="globals/TestView" pc="268436628" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="72" parent="globals/TestView" pc="268436730" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="74" parent="globals/TestView" pc="268436832" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="75" parent="globals/TestView" pc="268436940" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="76" parent="globals/TestView" pc="268437048" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="77" parent="globals/TestView" pc="268437156" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="81" parent="globals/TestView" pc="268437264" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="82" parent="globals/TestView" pc="268437372" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="83" parent="globals/TestView" pc="268437480" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="84" parent="globals/TestView" pc="268437588" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="86" parent="globals/TestView" pc="268437696" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="87" parent="globals/TestView" pc="268437810" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="88" parent="globals/TestView" pc="268437924" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="89" parent="globals/TestView" pc="268438038" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="93" parent="globals/TestView" pc="268438152" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="95" parent="globals/TestView" pc="268438188" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="96" parent="globals/TestView" pc="268438221" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="97" parent="globals/TestView" pc="268438248" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="98" parent="globals/TestView" pc="268438275" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="99" parent="globals/TestView" pc="268438321" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="100" parent="globals/TestView" pc="268438367" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="101" parent="globals/TestView" pc="268438407" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="103" parent="globals/TestView" pc="268438447" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="104" parent="globals/TestView" pc="268438486" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="105" parent="globals/TestView" pc="268438513" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="106" parent="globals/TestView" pc="268438540" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="107" parent="globals/TestView" pc="268438586" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="109" parent="globals/TestView" pc="268438632" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="110" parent="globals/TestView" pc="268438671" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="111" parent="globals/TestView" pc="268438698" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="112" parent="globals/TestView" pc="268438725" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="113" parent="globals/TestView" pc="268438771" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="115" parent="globals/TestView" pc="268438817" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="116" parent="globals/TestView" pc="268438856" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="117" parent="globals/TestView" pc="268438883" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="118" parent="globals/TestView" pc="268438910" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="119" parent="globals/TestView" pc="268438956" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="121" parent="globals/TestView" pc="268439002" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="123" parent="globals/TestView" pc="268439022" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="124" parent="globals/TestView" pc="268439058" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="16" lineNum="125" parent="globals/TestView" pc="268439121" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="8" parent="globals/TestView" pc="268439254" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="13" parent="globals/TestView" pc="268439272" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="19" parent="globals/TestView" pc="268439292" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="20" parent="globals/TestView" pc="268439306" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Test\\source\\TestView.mc" id="17" lineNum="8" parent="globals/TestView" pc="268439254" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="19" lineNum="2" parent="globals/Rez/Drawables" pc="268439248" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="20" lineNum="6" parent="globals/Rez/Fonts" pc="268439250" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="21" lineNum="8" parent="globals/Rez/JsonData" pc="268439252" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="22" lineNum="10" parent="globals/Rez/Layouts" pc="268439251" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="23" lineNum="12" parent="globals/Rez/Menus" pc="268439249" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="24" lineNum="14" parent="globals/Rez/Strings" pc="268439253" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="25" lineNum="1" parent="globals/Rez" pc="268439224" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="25" lineNum="1" parent="globals/Rez" pc="268439224" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -109,7 +111,6 @@
         <entry field="true" id="22" symbol="middelpuntY"/>
         <entry field="true" id="21" symbol="middelpuntX"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="8388757" symbol="currentHeading"/>
         <entry field="true" id="14" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
@@ -152,6 +153,7 @@
         <entry id="8388642" module="true" symbol="Position"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8390078" symbol="x"/>
         <entry field="true" id="24" symbol="p"/>
         <entry field="true" id="15" symbol="W"/>
         <entry field="true" id="16" symbol="H"/>
@@ -164,11 +166,11 @@
         <entry arg="true" endPc="268435613" name="state" stackId="1" startPc="268435609"/>
         <entry arg="true" endPc="268435618" name="state" stackId="1" startPc="268435614"/>
         <entry arg="true" endPc="268436170" name="dc" stackId="1" startPc="268435713"/>
-        <entry arg="true" endPc="268436238" name="info" stackId="1" startPc="268436171"/>
-        <entry endPc="268439032" name="sin" stackId="4" startPc="268436243"/>
-        <entry endPc="268439032" name="string" stackId="2" startPc="268436243"/>
-        <entry endPc="268439032" name="cos" stackId="3" startPc="268436243"/>
-        <entry arg="true" endPc="268439033" name="dc" stackId="1" startPc="268436239"/>
+        <entry arg="true" endPc="268436227" name="info" stackId="1" startPc="268436171"/>
+        <entry endPc="268439183" name="sin" stackId="4" startPc="268436232"/>
+        <entry endPc="268439183" name="string" stackId="2" startPc="268436232"/>
+        <entry endPc="268439183" name="cos" stackId="3" startPc="268436232"/>
+        <entry arg="true" endPc="268439184" name="dc" stackId="1" startPc="268436228"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -200,7 +202,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439053" name="&lt;init&gt;" parent="Background" startPc="268439035">
+        <functionEntry accessMode="protected" endPc="268439204" name="&lt;init&gt;" parent="Background" startPc="268439186">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435608" name="initialize" parent="TestApp" startPc="268435586">
@@ -217,7 +219,7 @@
         <functionEntry accessMode="public" endPc="268435660" name="getInitialView" parent="TestApp" startPc="268435619">
             <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439072" name="&lt;init&gt;" parent="TestApp" startPc="268439054">
+        <functionEntry accessMode="protected" endPc="268439223" name="&lt;init&gt;" parent="TestApp" startPc="268439205">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435689" name="getApp" startPc="268435661">
@@ -230,36 +232,36 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436238" name="compute" parent="TestView" startPc="268436171">
+        <functionEntry accessMode="public" endPc="268436227" name="compute" parent="TestView" startPc="268436171">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439033" name="onUpdate" parent="TestView" startPc="268436239">
+        <functionEntry accessMode="public" endPc="268439184" name="onUpdate" parent="TestView" startPc="268436228">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439369" name="&lt;init&gt;" parent="TestView" startPc="268439103">
+        <functionEntry accessMode="protected" endPc="268439520" name="&lt;init&gt;" parent="TestView" startPc="268439254">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439097" name="&lt;init&gt;" parent="Drawables" startPc="268439097">
+        <functionEntry accessMode="protected" endPc="268439248" name="&lt;init&gt;" parent="Drawables" startPc="268439248">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439099" name="&lt;init&gt;" parent="Fonts" startPc="268439099">
+        <functionEntry accessMode="protected" endPc="268439250" name="&lt;init&gt;" parent="Fonts" startPc="268439250">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439101" name="&lt;init&gt;" parent="JsonData" startPc="268439101">
+        <functionEntry accessMode="protected" endPc="268439252" name="&lt;init&gt;" parent="JsonData" startPc="268439252">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439100" name="&lt;init&gt;" parent="Layouts" startPc="268439100">
+        <functionEntry accessMode="protected" endPc="268439251" name="&lt;init&gt;" parent="Layouts" startPc="268439251">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439098" name="&lt;init&gt;" parent="Menus" startPc="268439098">
+        <functionEntry accessMode="protected" endPc="268439249" name="&lt;init&gt;" parent="Menus" startPc="268439249">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439102" name="&lt;init&gt;" parent="Strings" startPc="268439102">
+        <functionEntry accessMode="protected" endPc="268439253" name="&lt;init&gt;" parent="Strings" startPc="268439253">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439096" name="&lt;init&gt;" parent="Rez" startPc="268439073">
+        <functionEntry accessMode="protected" endPc="268439247" name="&lt;init&gt;" parent="Rez" startPc="268439224">
             <documentation/>
         </functionEntry>
     </functions>
