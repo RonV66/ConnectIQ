@@ -9,10 +9,6 @@
     <string id="voorgrondlaag">Textfarbe unter 5%</string>
     <string id="voorgrondhoog">Textfarbe oben 5%</string>
 
-    <string id="gemiddeldesnelheidTitel">Durchschnittsgeschwindigkeit</string>
-    <string id="gemiddeldesnelheidPrompt">Zwischen 0 und 60</string>
-    <string id="gemiddeldesnelheidError">Fehler Geben Sie eine Zahl zwischen 0 und 60 ein</string>
-
     <string id="COLOR_WHITE">Weiß</string>
     <string id="COLOR_LT_GRAY">Hell Grau</string>
     <string id="COLOR_DK_GRAY">Dunkel Grau</string>

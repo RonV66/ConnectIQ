@@ -2,7 +2,6 @@ import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
-import Toybox.System;
 
 class SnelheidView extends WatchUi.DataField {
 
@@ -14,12 +13,11 @@ class SnelheidView extends WatchUi.DataField {
     hidden var achtergrondlaag;
     hidden var voorgrondhoog;
     hidden var voorgrondlaag;
-    hidden var ingesteldegemiddeldesnelheid;
     
     function initialize() {
         DataField.initialize();
         mValue = 0.0f;
-        vijfprocent = 0;
+        vijfprocent = 0.0f;
         verschil = 0;
     }
 
@@ -54,41 +52,20 @@ class SnelheidView extends WatchUi.DataField {
         achtergrondlaag  = Application.Properties.getValue("achtergrondlaag");
         voorgrondhoog  = Application.Properties.getValue("voorgrondhoog");
         voorgrondlaag  = Application.Properties.getValue("voorgrondlaag");
-
-        switch (mMetric) {
-            case System.UNIT_METRIC:
-                ingesteldegemiddeldesnelheid = Application.Properties.getValue("gemiddeldesnelheid") / 3.6;
-                break;
-            case System.UNIT_STATUTE:
-                ingesteldegemiddeldesnelheid = Application.Properties.getValue("gemiddeldesnelheid") / 2.23693629;
-                break;
-        }
     }
 
-    // The given info object contains all the current workout information.
-    // Calculate a value and save it locally in this method.
-    // Note that compute() and onUpdate() are asynchronous, and there is no
-    // guarantee that compute() will be called before onUpdate().
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
-        verschil = 0;
-        var huidigesnelheid = info.currentSpeed;
-        var gemiddeldesnelheid = 0;
-        if (ingesteldegemiddeldesnelheid == 0) {
-            if (info.averageSpeed != null) { gemiddeldesnelheid = info.averageSpeed; }
-        } else {
-            gemiddeldesnelheid = ingesteldegemiddeldesnelheid;
+       verschil = 0;
+        if (info.averageSpeed != null){
+            vijfprocent = (info.averageSpeed * 5) / 100;
+            if (info.currentSpeed - vijfprocent > info.averageSpeed){
+                verschil = 1;
+            }
+            if (info.currentSpeed + vijfprocent < info.averageSpeed){
+                verschil = -1;
+            }
         }
-
-        vijfprocent = (gemiddeldesnelheid * 5) / 100;
-        if (huidigesnelheid - vijfprocent > gemiddeldesnelheid) {
-            verschil = 1;
-        }
-        if (huidigesnelheid + vijfprocent < gemiddeldesnelheid) {
-            verschil = -1;
-        }
-
-        System.println (huidigesnelheid * 3.6 + " - " + gemiddeldesnelheid * 3.6);
 
         if (info has :currentSpeed){
             if (info.currentSpeed != null){
