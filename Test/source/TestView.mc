@@ -3,9 +3,9 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.Position;
-import Toybox.System;
-import Toybox.Math;
-import Toybox.Sensor;
+//import Toybox.System;
+//import Toybox.Math;
+//import Toybox.Sensor;
 
 class TestView extends WatchUi.DataField {
 
@@ -20,20 +20,17 @@ class TestView extends WatchUi.DataField {
     var middelpuntY;
     var rad = new [4];
     var p = [[0,0],[0,0],[0,0],[0,0],[0,0]];
-    var x = 0;
-    private var  koers as String;
 
     function initialize() {
         DataField.initialize();
-        koers = "---bpm";
-      }
+    }
 
     function onLayout(dc as Dc) as Void {
     	W = dc.getWidth();
     	H = dc.getHeight();
         F = dc.getFontHeight(FONT);
         middelpuntX = W/2;
-        middelpuntY = H/4;
+        middelpuntY = H/2;
 
         rad[0] = Math.sqrt(Math.pow(0,2) + Math.pow(-35,2));
         rad[1] = Math.sqrt(Math.pow(30,2) + Math.pow(20,2));
@@ -45,62 +42,35 @@ class TestView extends WatchUi.DataField {
     }
 
     function compute(info as Activity.Info) as Void {
-
-//        System.println(info.heading);
-//        System.println(info.currentHeading);
-//        System.println(info.track);
-//        System.println("-");
-
-//        if (info has :currentHeading) {
-//            if (info.currentHeading != null) {
-                hoek = Math.toDegrees(info.currentHeading);
-//                System.println (info.currentHeading + "+" + hoek);
-//            } else {
-//                hoek = 0;
-//            }
-//        }
-        x++;
+       hoek = Math.toDegrees(info.currentHeading);
     }
 
     function onUpdate(dc as Dc) as Void {
 
         ////////////////////////////////////
 
-    	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+    	dc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_TRANSPARENT);
         dc.setPenWidth(5);
-        dc.drawCircle(W / 2, H / 4, 50);
-        dc.drawCircle(W / 2, (H / 4) * 3, 50);
+        dc.fillCircle(W / 2, H / 2, 56);
 
         ////////////////////////////////////
 
     	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
 
         var string = "WNOZNWNOZOZW";
-        dc.drawText((W / 2) - 65, (H / 4) - (F / 2), FONT, string.substring(0, 1), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2), (H / 4) - 65 - (F / 2), FONT, string.substring(1, 2), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) + 65, (H / 4) - (F / 2), FONT, string.substring(2, 3), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2), (H / 4) + 65 - (F / 2), FONT, string.substring(3, 4), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) - 65, (H / 2) - (F / 2), FONT, string.substring(0, 1), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2), (H / 2) - 65 - (F / 2), FONT, string.substring(1, 2), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) + 65, (H / 2) - (F / 2), FONT, string.substring(2, 3), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2), (H / 2) + 65 - (F / 2), FONT, string.substring(3, 4), Graphics.TEXT_JUSTIFY_CENTER);
 
-        dc.drawText((W / 2) - 50, (H / 4) - 50 - (F / 2), FONT, string.substring(4, 6), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) + 50, (H / 4) - 50 - (F / 2), FONT, string.substring(6, 8), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) + 50, (H / 4) + 50 - (F / 2), FONT, string.substring(8, 10), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) - 50, (H / 4) + 50 - (F / 2), FONT, string.substring(10, 12), Graphics.TEXT_JUSTIFY_CENTER);
-
-        ////////////////////////////////////
-
-        dc.drawText((W / 2) - 65, (H / 4) * 3 - (F / 2), FONT, string.substring(0, 1), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2), (H / 4) * 3 - 65 - (F / 2), FONT, string.substring(1, 2), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) + 65, (H / 4) * 3 - (F / 2), FONT, string.substring(2, 3), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2), (H / 4) * 3 + 65 - (F / 2), FONT, string.substring(3, 4), Graphics.TEXT_JUSTIFY_CENTER);
-
-        dc.drawText((W / 2) - 50, (H / 4) * 3 - 50 - (F / 2), FONT, string.substring(4, 6), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) + 50, (H / 4) * 3 - 50 - (F / 2), FONT, string.substring(6, 8), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) + 50, (H / 4) * 3 + 50 - (F / 2), FONT, string.substring(8, 10), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) - 50, (H / 4) * 3 + 50 - (F / 2), FONT, string.substring(10, 12), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) - 50, (H / 2) - 50 - (F / 2), FONT, string.substring(4, 6), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) + 50, (H / 2) - 50 - (F / 2), FONT, string.substring(6, 8), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) + 50, (H / 2) + 50 - (F / 2), FONT, string.substring(8, 10), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((W / 2) - 50, (H / 2) + 50 - (F / 2), FONT, string.substring(10, 12), Graphics.TEXT_JUSTIFY_CENTER);
 
         ////////////////////////////////////
 
-        dc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         /////////////////////////////////////////////////////////
         clockRads = Math.toRadians(hoek);
         var cos = Math.cos(clockRads);
@@ -130,19 +100,11 @@ class TestView extends WatchUi.DataField {
         ////////////////////////////////////////////////////////
         dc.fillPolygon(p);
 
-        dc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(W/2, 220, Graphics.FONT_LARGE, hoek , Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(W/2, 180, Graphics.FONT_LARGE, x , Graphics.TEXT_JUSTIFY_CENTER);
-
-        var info2 = new SensorInfo();
-//        System.println (info2.getInfo().heading);
-
-        
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(W/2, 260, Graphics.FONT_LARGE, hoek.format("%.0f"), Graphics.TEXT_JUSTIFY_CENTER);
 
         // Call parent's onUpdate(dc) to redraw the layout
 //        View.onUpdate(dc);
 
     }
-
-
 }
