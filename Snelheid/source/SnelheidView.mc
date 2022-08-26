@@ -6,26 +6,29 @@ import Toybox.WatchUi;
 class SnelheidView extends WatchUi.DataField {
 
     hidden var mValue as Numeric;
-    hidden var vijfprocent as Numeric;
     hidden var verschil as Numeric;
+    hidden var V as Numeric;
     hidden var mMetric = System.getDeviceSettings().paceUnits;
     hidden var achtergrondhoog;
     hidden var achtergrondlaag;
     hidden var voorgrondhoog;
     hidden var voorgrondlaag;
+    hidden var breedte;
+    hidden var hoogte;
+
     
     function initialize() {
         DataField.initialize();
         mValue = 0.0f;
-        vijfprocent = 0.0f;
         verschil = 0;
+        V = 0.0f;
     }
 
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-
-        var hoogte = dc.getHeight();
+    	breedte = dc.getWidth();
+        hoogte = dc.getHeight();
         if (hoogte < 60) {
             View.setLayout(Rez.Layouts.Klein(dc));
         } else if ((hoogte >= 60) and (hoogte < 80)) {
@@ -56,13 +59,13 @@ class SnelheidView extends WatchUi.DataField {
 
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
-       verschil = 0;
-        if (info.averageSpeed != null){
-            vijfprocent = (info.averageSpeed * 5) / 100;
-            if (info.currentSpeed - vijfprocent > info.averageSpeed){
+        verschil = 0;
+        if ((info.averageSpeed != null) and (info.averageSpeed != 0)) {
+            V = (info.currentSpeed - info.averageSpeed) / info.averageSpeed;
+            if (V > 0.05) {
                 verschil = 1;
             }
-            if (info.currentSpeed + vijfprocent < info.averageSpeed){
+            if (V < -0.05) {
                 verschil = -1;
             }
         }
@@ -117,9 +120,62 @@ class SnelheidView extends WatchUi.DataField {
 
         // Set the value
         value.setText(mValue.format("%.1f"));
-
+        
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
-    }
 
+        if (hoogte > 80) {
+            var x;
+            var aantalblokjes = 19;
+            var midden = 4;
+            var blokjeB = breedte / aantalblokjes;
+            var blokjeH = 10;
+
+            if (V < -0.5 ) {midden = 0;}
+            if ((V >= -0.5) and (V < -0.44375 )) {midden = 1;}
+            if ((V >= -0.44375) and (V < -0.3875 )) {midden = 2;}
+            if ((V >= -0.3875) and (V < -0.33125 )) {midden = 3;}
+            if ((V >= -0.33125) and (V < -0.275 )) {midden = 4;}
+            if ((V >= -0.275) and (V < -0.21875 )) {midden = 5;}
+            if ((V >= -0.21875) and (V < -0.1625 )) {midden = 6;}
+            if ((V >= -0.1625) and (V < -0.10625 )) {midden = 7;}
+            if ((V >= -0.10625) and (V < -0.05 )) {midden = 8;}
+
+            if ((V >= -0.05) and (V < 0.05)) {midden = 9;}
+
+            if ((V >= 0.05) and (V < 0.10625 )) {midden = 10;}
+            if ((V >= 0.10625) and (V < 0.1625 )) {midden = 11;}
+            if ((V >= 0.1625) and (V < 0.21875 )) {midden = 12;}
+            if ((V >= 0.21875) and (V < 0.275 )) {midden = 13;}
+            if ((V >= 0.275) and (V < 0.33125 )) {midden = 14;}
+            if ((V >= 0.33125) and (V < 0.3875 )) {midden = 15;}
+            if ((V >= 0.3875) and (V < 0.44375 )) {midden = 16;}
+            if ((V >= 0.44375) and (V < 0.5 )) {midden = 17;}
+            if (V >= 0.5) {midden = 18;}
+
+            for ( x=0; x<aantalblokjes; x+=1 ) {
+                //dc.setColor(blokjesKleur[x], Graphics.COLOR_TRANSPARENT);
+                
+                if (verschil == 0) {
+                    if (getBackgroundColor() == Graphics.COLOR_BLACK) {
+                        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+                    } else {
+                        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+                    }
+                } else if (verschil == 1) {
+                    dc.setColor(voorgrondhoog, Graphics.COLOR_TRANSPARENT);
+                } else if (verschil == -1) {
+                    dc.setColor(voorgrondlaag, Graphics.COLOR_TRANSPARENT);
+                }
+                
+                if ((x == midden + 1) or (x == midden - 1)) {
+                    dc.fillRoundedRectangle(7+x * blokjeB, hoogte - 17, blokjeB, blokjeH + 5, 1);
+                } else if (x == midden) {
+                    dc.fillRoundedRectangle(7+x * blokjeB, hoogte - 22, blokjeB, blokjeH + 10, 1);
+                } else {
+                    dc.fillRoundedRectangle(7+x * blokjeB, hoogte - 12, blokjeB, blokjeH, 1);
+                }
+            }
+        }
+    }
 }
