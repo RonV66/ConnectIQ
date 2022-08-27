@@ -15,13 +15,14 @@ class SnelheidView extends WatchUi.DataField {
     hidden var voorgrondlaag;
     hidden var breedte;
     hidden var hoogte;
-
+    hidden var vorigemidden;
     
     function initialize() {
         DataField.initialize();
         mValue = 0.0f;
         verschil = 0;
         V = 0.0f;
+        vorigemidden = 9;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -127,35 +128,33 @@ class SnelheidView extends WatchUi.DataField {
         if (hoogte > 80) {
             var x;
             var aantalblokjes = 19;
-            var midden = 4;
+            var midden = 9;
             var blokjeB = breedte / aantalblokjes;
             var blokjeH = 10;
 
-            if (V < -0.5 ) {midden = 0;}
-            if ((V >= -0.5) and (V < -0.44375 )) {midden = 1;}
-            if ((V >= -0.44375) and (V < -0.3875 )) {midden = 2;}
-            if ((V >= -0.3875) and (V < -0.33125 )) {midden = 3;}
-            if ((V >= -0.33125) and (V < -0.275 )) {midden = 4;}
-            if ((V >= -0.275) and (V < -0.21875 )) {midden = 5;}
-            if ((V >= -0.21875) and (V < -0.1625 )) {midden = 6;}
-            if ((V >= -0.1625) and (V < -0.10625 )) {midden = 7;}
-            if ((V >= -0.10625) and (V < -0.05 )) {midden = 8;}
+            if (V < -0.4 ) {midden = 0;}
+            if ((V >= -0.4) and (V < -0.35625 )) {midden = 1;}
+            if ((V >= -0.35625) and (V < -0.3125 )) {midden = 2;}
+            if ((V >= -0.3125) and (V < -0.26875 )) {midden = 3;}
+            if ((V >= -0.26875) and (V < -0.225 )) {midden = 4;}
+            if ((V >= -0.225) and (V < -0.18125 )) {midden = 5;}
+            if ((V >= -0.18125) and (V < -0.1375 )) {midden = 6;}
+            if ((V >= -0.1375) and (V < -0.09375 )) {midden = 7;}
+            if ((V >= -0.09375) and (V < -0.05 )) {midden = 8;}
 
             if ((V >= -0.05) and (V < 0.05)) {midden = 9;}
 
-            if ((V >= 0.05) and (V < 0.10625 )) {midden = 10;}
-            if ((V >= 0.10625) and (V < 0.1625 )) {midden = 11;}
-            if ((V >= 0.1625) and (V < 0.21875 )) {midden = 12;}
-            if ((V >= 0.21875) and (V < 0.275 )) {midden = 13;}
-            if ((V >= 0.275) and (V < 0.33125 )) {midden = 14;}
-            if ((V >= 0.33125) and (V < 0.3875 )) {midden = 15;}
-            if ((V >= 0.3875) and (V < 0.44375 )) {midden = 16;}
-            if ((V >= 0.44375) and (V < 0.5 )) {midden = 17;}
-            if (V >= 0.5) {midden = 18;}
+            if ((V >= 0.05) and (V < 0.09375 )) {midden = 10;}
+            if ((V >= 0.09375) and (V < 0.1375 )) {midden = 11;}
+            if ((V >= 0.1375) and (V < 0.18125 )) {midden = 12;}
+            if ((V >= 0.18125) and (V < 0.225 )) {midden = 13;}
+            if ((V >= 0.225) and (V < 0.26875 )) {midden = 14;}
+            if ((V >= 0.26875) and (V < 0.3125 )) {midden = 15;}
+            if ((V >= 0.3125) and (V < 0.35625 )) {midden = 16;}
+            if ((V >= 0.35625) and (V < 0.4 )) {midden = 17;}
+            if (V >= 0.4) {midden = 18;}
 
             for ( x=0; x<aantalblokjes; x+=1 ) {
-                //dc.setColor(blokjesKleur[x], Graphics.COLOR_TRANSPARENT);
-                
                 if (verschil == 0) {
                     if (getBackgroundColor() == Graphics.COLOR_BLACK) {
                         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -167,15 +166,35 @@ class SnelheidView extends WatchUi.DataField {
                 } else if (verschil == -1) {
                     dc.setColor(voorgrondlaag, Graphics.COLOR_TRANSPARENT);
                 }
-                
-                if ((x == midden + 1) or (x == midden - 1)) {
-                    dc.fillRoundedRectangle(7+x * blokjeB, hoogte - 17, blokjeB, blokjeH + 5, 1);
+
+/*                if ((x == midden + 1) or (x == midden - 1)) {
+                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 17, blokjeB, blokjeH + 5, 1);
                 } else if (x == midden) {
-                    dc.fillRoundedRectangle(7+x * blokjeB, hoogte - 22, blokjeB, blokjeH + 10, 1);
+                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 22, blokjeB, blokjeH + 10, 1);
                 } else {
-                    dc.fillRoundedRectangle(7+x * blokjeB, hoogte - 12, blokjeB, blokjeH, 1);
+                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 12, blokjeB, blokjeH, 1);
+                }
+*/
+                var blokjemidden = [(midden + 1), (midden - 1)];
+                var blokjehoog = midden;
+                if (midden > vorigemidden) {
+                    blokjemidden = [(midden - 1), (midden - 2)];
+                    blokjehoog = midden;
+                }
+                if (midden < vorigemidden) {
+                    blokjemidden = [(midden + 2), (midden + 1)];
+                    blokjehoog = midden;
+                }
+
+                if ((x == blokjemidden[0]) or (x == blokjemidden[1])) {
+                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 17, blokjeB, blokjeH + 5, 1);
+                } else if (x == blokjehoog) {
+                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 22, blokjeB, blokjeH + 10, 1);
+                } else {
+                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 12, blokjeB, blokjeH, 1);
                 }
             }
+            vorigemidden = midden;
         }
     }
 }
