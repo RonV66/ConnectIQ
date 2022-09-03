@@ -132,27 +132,27 @@ class SnelheidView extends WatchUi.DataField {
             var blokjeB = breedte / aantalblokjes;
             var blokjeH = 10;
 
-            if (V < -0.4 ) {midden = 0;}
-            if ((V >= -0.4) and (V < -0.35625 )) {midden = 1;}
-            if ((V >= -0.35625) and (V < -0.3125 )) {midden = 2;}
-            if ((V >= -0.3125) and (V < -0.26875 )) {midden = 3;}
-            if ((V >= -0.26875) and (V < -0.225 )) {midden = 4;}
-            if ((V >= -0.225) and (V < -0.18125 )) {midden = 5;}
-            if ((V >= -0.18125) and (V < -0.1375 )) {midden = 6;}
-            if ((V >= -0.1375) and (V < -0.09375 )) {midden = 7;}
-            if ((V >= -0.09375) and (V < -0.05 )) {midden = 8;}
+            if (V < -0.350000 ) {midden = 0;}
+            if ((V >= -0.350000) and (V < -0.311112 )) {midden = 1;}
+            if ((V >= -0.311112) and (V < -0.272223 )) {midden = 2;}
+            if ((V >= -0.272223) and (V < -0.233334 )) {midden = 3;}
+            if ((V >= -0.233334) and (V < -0.194445 )) {midden = 4;}
+            if ((V >= -0.194445) and (V < -0.155556 )) {midden = 5;}
+            if ((V >= -0.155556) and (V < -0.116667 )) {midden = 6;}
+            if ((V >= -0.116667) and (V < -0.077778 )) {midden = 7;}
+            if ((V >= -0.077778) and (V < -0.038889 )) {midden = 8;}
 
-            if ((V >= -0.05) and (V < 0.05)) {midden = 9;}
+            if ((V >= -0.038889) and (V < 0.038889 )) {midden = 9;}
 
-            if ((V >= 0.05) and (V < 0.09375 )) {midden = 10;}
-            if ((V >= 0.09375) and (V < 0.1375 )) {midden = 11;}
-            if ((V >= 0.1375) and (V < 0.18125 )) {midden = 12;}
-            if ((V >= 0.18125) and (V < 0.225 )) {midden = 13;}
-            if ((V >= 0.225) and (V < 0.26875 )) {midden = 14;}
-            if ((V >= 0.26875) and (V < 0.3125 )) {midden = 15;}
-            if ((V >= 0.3125) and (V < 0.35625 )) {midden = 16;}
-            if ((V >= 0.35625) and (V < 0.4 )) {midden = 17;}
-            if (V >= 0.4) {midden = 18;}
+            if ((V < 0.077778) and (V >= 0.038889 )) {midden = 10;}
+            if ((V < 0.116667) and (V >= 0.077778 )) {midden = 11;}
+            if ((V < 0.155556) and (V >= 0.116667 )) {midden = 12;}
+            if ((V < 0.194445) and (V >= 0.155556 )) {midden = 13;}
+            if ((V < 0.233334) and (V >= 0.194445 )) {midden = 14;}
+            if ((V < 0.272223) and (V >= 0.233334 )) {midden = 15;}
+            if ((V < 0.311112) and (V >= 0.272223 )) {midden = 16;}
+            if ((V < 0.350000) and (V >= 0.311112 )) {midden = 17;}
+            if (V > 0.350000 ) {midden = 18;}
 
             for ( x=0; x<aantalblokjes; x+=1 ) {
                 if (verschil == 0) {
@@ -187,11 +187,11 @@ class SnelheidView extends WatchUi.DataField {
                 }
 
                 if ((x == blokjemidden[0]) or (x == blokjemidden[1])) {
-                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 17, blokjeB, blokjeH + 5, 1);
+                    dc.fillRoundedRectangle(10 + x * blokjeB, hoogte - 17, blokjeB, blokjeH + 5, 1);
                 } else if (x == blokjehoog) {
-                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 22, blokjeB, blokjeH + 10, 1);
+                    dc.fillRoundedRectangle(10 + x * blokjeB, hoogte - 22, blokjeB, blokjeH + 10, 1);
                 } else {
-                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 12, blokjeB, blokjeH, 1);
+                    dc.fillRoundedRectangle(10 + x * blokjeB, hoogte - 12, blokjeB, blokjeH, 1);
                 }
             }
             vorigemidden = midden;
