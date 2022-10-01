@@ -8,33 +8,34 @@
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloApp.mc" id="3" lineNum="16" parent="globals/HelloApp" pc="268435484" symbol="onStop"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloApp.mc" id="4" lineNum="20" parent="globals/HelloApp" pc="268435489" symbol="getInitialView"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloApp.mc" id="4" lineNum="21" parent="globals/HelloApp" pc="268435493" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloApp.mc" id="5" lineNum="5" parent="globals/HelloApp" pc="268435725" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloApp.mc" id="5" lineNum="5" parent="globals/HelloApp" pc="268435725" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloApp.mc" id="5" lineNum="5" parent="globals/HelloApp" pc="268435719" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloApp.mc" id="5" lineNum="5" parent="globals/HelloApp" pc="268435719" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloApp.mc" id="6" lineNum="26" parent="globals" pc="268435531" symbol="getApp"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloApp.mc" id="6" lineNum="27" parent="globals" pc="268435543" symbol="getApp"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="8" lineNum="10" parent="globals/HelloView" pc="268435560" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="8" lineNum="11" parent="globals/HelloView" pc="268435564" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="8" lineNum="12" parent="globals/HelloView" pc="268435582" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="19" parent="globals/HelloView" pc="268435596" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="21" parent="globals/HelloView" pc="268435600" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="22" parent="globals/HelloView" pc="268435613" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="24" parent="globals/HelloView" pc="268435638" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="26" parent="globals/HelloView" pc="268435651" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="10" lineNum="6" parent="globals/HelloView" pc="268435706" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="10" lineNum="6" parent="globals/HelloView" pc="268435706" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="12" lineNum="2" parent="globals/Rez/Drawables" pc="268435700" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="13" lineNum="6" parent="globals/Rez/Fonts" pc="268435702" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="14" lineNum="8" parent="globals/Rez/JsonData" pc="268435704" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="15" lineNum="10" parent="globals/Rez/Layouts" pc="268435703" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="16" lineNum="12" parent="globals/Rez/Menus" pc="268435701" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="17" lineNum="14" parent="globals/Rez/Strings" pc="268435705" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="18" lineNum="1" parent="globals/Rez" pc="268435676" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="18" lineNum="1" parent="globals/Rez" pc="268435676" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="8" lineNum="11" parent="globals/HelloView" pc="268435560" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="8" lineNum="12" parent="globals/HelloView" pc="268435564" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="8" lineNum="13" parent="globals/HelloView" pc="268435582" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="21" parent="globals/HelloView" pc="268435596" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="23" parent="globals/HelloView" pc="268435600" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="24" parent="globals/HelloView" pc="268435613" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="26" parent="globals/HelloView" pc="268435632" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="9" lineNum="28" parent="globals/HelloView" pc="268435645" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="10" lineNum="7" parent="globals/HelloView" pc="268435700" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\Hello\\source\\HelloView.mc" id="10" lineNum="7" parent="globals/HelloView" pc="268435700" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="12" lineNum="2" parent="globals/Rez/Drawables" pc="268435694" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="13" lineNum="6" parent="globals/Rez/Fonts" pc="268435696" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="14" lineNum="8" parent="globals/Rez/JsonData" pc="268435698" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="15" lineNum="10" parent="globals/Rez/Layouts" pc="268435697" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="16" lineNum="12" parent="globals/Rez/Menus" pc="268435695" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="17" lineNum="14" parent="globals/Rez/Strings" pc="268435699" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="18" lineNum="1" parent="globals/Rez" pc="268435670" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="18" lineNum="1" parent="globals/Rez" pc="268435670" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
         <entry id="10" object="true" symbol="HelloView"/>
+        <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="14" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
@@ -70,7 +71,7 @@
     <localVars>
         <entry arg="true" endPc="268435483" name="state" stackId="1" startPc="268435479"/>
         <entry arg="true" endPc="268435488" name="state" stackId="1" startPc="268435484"/>
-        <entry arg="true" endPc="268435674" name="info" stackId="1" startPc="268435596"/>
+        <entry arg="true" endPc="268435668" name="info" stackId="1" startPc="268435596"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -103,7 +104,7 @@
         <functionEntry accessMode="public" endPc="268435530" name="getInitialView" parent="HelloApp" startPc="268435489">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268435743" name="&lt;init&gt;" parent="HelloApp" startPc="268435725">
+        <functionEntry accessMode="protected" endPc="268435737" name="&lt;init&gt;" parent="HelloApp" startPc="268435719">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435559" name="getApp" startPc="268435531">
@@ -112,32 +113,32 @@
         <functionEntry accessMode="public" endPc="268435595" name="initialize" parent="HelloView" startPc="268435560">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435674" name="compute" parent="HelloView" startPc="268435596">
+        <functionEntry accessMode="public" endPc="268435668" name="compute" parent="HelloView" startPc="268435596">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268435724" name="&lt;init&gt;" parent="HelloView" startPc="268435706">
+        <functionEntry accessMode="protected" endPc="268435718" name="&lt;init&gt;" parent="HelloView" startPc="268435700">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268435700" name="&lt;init&gt;" parent="Drawables" startPc="268435700">
+        <functionEntry accessMode="protected" endPc="268435694" name="&lt;init&gt;" parent="Drawables" startPc="268435694">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268435702" name="&lt;init&gt;" parent="Fonts" startPc="268435702">
+        <functionEntry accessMode="protected" endPc="268435696" name="&lt;init&gt;" parent="Fonts" startPc="268435696">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268435704" name="&lt;init&gt;" parent="JsonData" startPc="268435704">
+        <functionEntry accessMode="protected" endPc="268435698" name="&lt;init&gt;" parent="JsonData" startPc="268435698">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268435703" name="&lt;init&gt;" parent="Layouts" startPc="268435703">
+        <functionEntry accessMode="protected" endPc="268435697" name="&lt;init&gt;" parent="Layouts" startPc="268435697">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268435701" name="&lt;init&gt;" parent="Menus" startPc="268435701">
+        <functionEntry accessMode="protected" endPc="268435695" name="&lt;init&gt;" parent="Menus" startPc="268435695">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268435705" name="&lt;init&gt;" parent="Strings" startPc="268435705">
+        <functionEntry accessMode="protected" endPc="268435699" name="&lt;init&gt;" parent="Strings" startPc="268435699">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268435699" name="&lt;init&gt;" parent="Rez" startPc="268435676">
+        <functionEntry accessMode="protected" endPc="268435693" name="&lt;init&gt;" parent="Rez" startPc="268435670">
             <documentation/>
         </functionEntry>
     </functions>

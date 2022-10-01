@@ -2,6 +2,7 @@ import Toybox.Activity;
 import Toybox.Lang;
 import Toybox.Time;
 import Toybox.WatchUi;
+using Toybox.UserProfile;
 
 class HelloView extends WatchUi.SimpleDataField {
     var snelheid = 0;
@@ -10,6 +11,7 @@ class HelloView extends WatchUi.SimpleDataField {
     function initialize() {
         SimpleDataField.initialize();
         label = "Snelheid";
+        
     }
     
     // The given info object contains all the current workout
@@ -19,7 +21,7 @@ class HelloView extends WatchUi.SimpleDataField {
     function compute(info as Activity.Info) as Numeric or Duration or String or Null {
         // See Activity.Info in the documentation for available information.
         if (info.currentSpeed != null) {
-            snelheid = info.currentSpeed * 3.6;
+            snelheid = info.currentSpeed;
         } else {
             snelheid = 0;
         }

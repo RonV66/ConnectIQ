@@ -15,6 +15,10 @@
 			"name": "Test",
 			"path": ".\\Test"
 		}
+		{
+			"name": "PowerMeter",
+			"path": ".\\PowerMeter"
+		}
 	],
 	"settings": {
 		"makefile.extensionOutputFolder": "./.vscode"
