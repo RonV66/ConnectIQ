@@ -1,0 +1,25 @@
+<strings>
+    <string id="AppName">PowerMeter</string>
+
+    <string id="label">Watt</string>
+
+    <string id="achtergrondlaag">Achtergrond kleur onder de 5%</string>
+    <string id="achtergrondhoog">Achtergrond kleur boven de 5%</string>
+    <string id="voorgrondlaag">Voorgrond kleur onder de 5%</string>
+    <string id="voorgrondhoog">Voorgrond kleur boven de 5%</string>
+
+    <string id="COLOR_WHITE">Wit</string>
+    <string id="COLOR_LT_GRAY">Licht Grijs</string>
+    <string id="COLOR_DK_GRAY">Donker Grijs</string>
+    <string id="COLOR_BLACK">Zwart</string>
+    <string id="COLOR_RED">Rood</string>
+    <string id="COLOR_DK_RED">Donker Rood</string>
+    <string id="COLOR_ORANGE">Oranje</string>
+    <string id="COLOR_YELLOW">Geel</string>
+    <string id="COLOR_GREEN">Groen</string>
+    <string id="COLOR_DK_GREEN">Donker Groen</string>
+    <string id="COLOR_BLUE">Blauw</string>
+    <string id="COLOR_DK_BLUE">Donker Blauw</string>
+    <string id="COLOR_PURPLE">Paars</string>
+    <string id="COLOR_PINK">Roze</string>
+</strings>

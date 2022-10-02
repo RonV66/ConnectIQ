@@ -167,14 +167,6 @@ class SnelheidView extends WatchUi.DataField {
                     dc.setColor(voorgrondlaag, Graphics.COLOR_TRANSPARENT);
                 }
 
-/*                if ((x == midden + 1) or (x == midden - 1)) {
-                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 17, blokjeB, blokjeH + 5, 1);
-                } else if (x == midden) {
-                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 22, blokjeB, blokjeH + 10, 1);
-                } else {
-                    dc.fillRoundedRectangle(8+x * blokjeB, hoogte - 12, blokjeB, blokjeH, 1);
-                }
-*/
                 var blokjemidden = [(midden + 1), (midden - 1)];
                 var blokjehoog = midden;
                 if (midden > vorigemidden) {
