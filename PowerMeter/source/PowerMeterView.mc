@@ -8,7 +8,6 @@ class PowerMeterView extends WatchUi.DataField {
     hidden var mValue as Number;
     hidden var verschil as Number;
     hidden var V as Number;
-//    hidden var mMetric = System.getDeviceSettings().paceUnits;
     hidden var achtergrondhoog;
     hidden var achtergrondlaag;
     hidden var voorgrondhoog;
@@ -16,6 +15,8 @@ class PowerMeterView extends WatchUi.DataField {
     hidden var breedte;
     hidden var hoogte;
     hidden var vorigemidden;
+    hidden var currentPower;
+    hidden var averagePower;
 
     function initialize() {
         DataField.initialize();
@@ -51,7 +52,6 @@ class PowerMeterView extends WatchUi.DataField {
         achtergrondlaag  = Application.Properties.getValue("achtergrondlaag");
         voorgrondhoog  = Application.Properties.getValue("voorgrondhoog");
         voorgrondlaag  = Application.Properties.getValue("voorgrondlaag");
-
     }
 
     // The given info object contains all the current workout information.
@@ -61,21 +61,21 @@ class PowerMeterView extends WatchUi.DataField {
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
         verschil = 0;
-        if ((info.averagePower != null) and (info.averagePower != 0)) {
-            V = ((info.currentPower - info.averagePower) * 100) / info.averagePower;
-            System.print(V + "\n");
-            if (V > 5) {
-                verschil = 1;
-            }
-            if (V < -5) {
-                verschil = -1;
-            }
-        }
-
         if (info has :currentPower){
-            System.print(info.currentPower + " - " + info.averagePower + "\n");
+            currentPower = info.currentPower;
+            averagePower = info.averagePower;
+
+            if ((averagePower != null) and (averagePower != 0)) {
+                V = ((currentPower - averagePower) * 100) / averagePower;
+                if (V > 5) {
+                    verschil = 1;
+                } else if (V < -5) {
+                    verschil = -1;
+                }
+            }
+
             if (info.currentPower != null){
-                    mValue = info.currentPower;
+                mValue = currentPower;
             } else {
                 mValue = 0;
             }
@@ -115,7 +115,7 @@ class PowerMeterView extends WatchUi.DataField {
         }
 
         // Set the value
-        value.setText(mValue.format("%d"));
+        value.setText(mValue.format("%0d"));
         
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
@@ -128,26 +128,26 @@ class PowerMeterView extends WatchUi.DataField {
             var blokjeH = 10;
 
             if (V < -35 ) {midden = 0;}
-            if ((V >= -35) and (V < -32 )) {midden = 1;}
-            if ((V >= -32) and (V < -28 )) {midden = 2;}
-            if ((V >= -28) and (V < -24 )) {midden = 3;}
-            if ((V >= -24) and (V < -20 )) {midden = 4;}
-            if ((V >= -20) and (V < -16 )) {midden = 5;}
-            if ((V >= -16) and (V < -13 )) {midden = 6;}
-            if ((V >= -13) and (V < -9 )) {midden = 7;}
-            if ((V >= -9) and (V < -5 )) {midden = 8;}
+            else if ((V >= -35) and (V < -32 )) {midden = 1;}
+            else if ((V >= -32) and (V < -28 )) {midden = 2;}
+            else if ((V >= -28) and (V < -24 )) {midden = 3;}
+            else if ((V >= -24) and (V < -20 )) {midden = 4;}
+            else if ((V >= -20) and (V < -16 )) {midden = 5;}
+            else if ((V >= -16) and (V < -13 )) {midden = 6;}
+            else if ((V >= -13) and (V < -9 )) {midden = 7;}
+            else if ((V >= -9) and (V < -5 )) {midden = 8;}
 
-            if ((V >= -5) and (V < 5 )) {midden = 9;}
+            else if ((V >= -5) and (V < 5 )) {midden = 9;}
 
-            if ((V < 9) and (V >= 5 )) {midden = 10;}
-            if ((V < 13) and (V >= 9 )) {midden = 11;}
-            if ((V < 16) and (V >= 13 )) {midden = 12;}
-            if ((V < 20) and (V >= 16 )) {midden = 13;}
-            if ((V < 24) and (V >= 20 )) {midden = 14;}
-            if ((V < 28) and (V >= 24 )) {midden = 15;}
-            if ((V < 32) and (V >= 28 )) {midden = 16;}
-            if ((V < 35) and (V >= 32 )) {midden = 17;}
-            if (V > 35 ) {midden = 18;}
+            else if ((V < 9) and (V >= 5 )) {midden = 10;}
+            else if ((V < 13) and (V >= 9 )) {midden = 11;}
+            else if ((V < 16) and (V >= 13 )) {midden = 12;}
+            else if ((V < 20) and (V >= 16 )) {midden = 13;}
+            else if ((V < 24) and (V >= 20 )) {midden = 14;}
+            else if ((V < 28) and (V >= 24 )) {midden = 15;}
+            else if ((V < 32) and (V >= 28 )) {midden = 16;}
+            else if ((V < 35) and (V >= 32 )) {midden = 17;}
+            else if (V > 35 ) {midden = 18;}
 
             for ( x=0; x<aantalblokjes; x+=1 ) {
                 if (verschil == 0) {
@@ -162,14 +162,14 @@ class PowerMeterView extends WatchUi.DataField {
                     dc.setColor(voorgrondlaag, Graphics.COLOR_TRANSPARENT);
                 }
 
-                var blokjemidden = [(midden + 1), (midden - 1)];
+                var blokjemidden = [(midden - 1), (midden + 1)];
                 var blokjehoog = midden;
                 if (midden > vorigemidden) {
-                    blokjemidden = [(midden - 1), (midden - 2)];
+                    blokjemidden = [(midden - 2), (midden - 1)];
                     blokjehoog = midden;
                 }
                 if (midden < vorigemidden) {
-                    blokjemidden = [(midden + 2), (midden + 1)];
+                    blokjemidden = [(midden + 1), (midden + 2)];
                     blokjehoog = midden;
                 }
 
@@ -184,5 +184,4 @@ class PowerMeterView extends WatchUi.DataField {
             vorigemidden = midden;
         }
     }
-
 }

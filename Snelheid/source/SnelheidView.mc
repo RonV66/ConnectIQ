@@ -16,6 +16,8 @@ class SnelheidView extends WatchUi.DataField {
     hidden var breedte;
     hidden var hoogte;
     hidden var vorigemidden;
+    hidden var currentSpeed;
+    hidden var averageSpeed;
     
     function initialize() {
         DataField.initialize();
@@ -61,26 +63,21 @@ class SnelheidView extends WatchUi.DataField {
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
         verschil = 0;
-        if ((info.averageSpeed != null) and (info.averageSpeed != 0)) {
-            V = (info.currentSpeed - info.averageSpeed) / info.averageSpeed;
-            if (V > 0.05) {
-                verschil = 1;
-            }
-            if (V < -0.05) {
-                verschil = -1;
-            }
-        }
-
         if (info has :currentSpeed){
-            if (info.currentSpeed != null){
-                switch (mMetric) {
-                    case System.UNIT_METRIC:
-                        mValue = 3.6 * info.currentSpeed;
-                        break;
-                    case System.UNIT_STATUTE:
-                        mValue = 2.23693629 * info.currentSpeed;
-                        break;
+            currentSpeed = info.currentSpeed;
+            averageSpeed = info.averageSpeed;
+
+            if ((averageSpeed != null) and (averageSpeed != 0)) {
+                V = ((currentSpeed - averageSpeed) * 100) / averageSpeed;
+                if (V > 5) {
+                    verschil = 1;
+                } else if (V < -5) {
+                    verschil = -1;
                 }
+            }
+
+            if (currentSpeed != null) {
+                mValue = currentSpeed * ((mMetric == System.UNIT_METRIC) ? (3.6) : (2.23693629));
             } else {
                 mValue = 0.0f;
             }
@@ -133,26 +130,26 @@ class SnelheidView extends WatchUi.DataField {
             var blokjeH = 10;
 
             if (V < -0.350000 ) {midden = 0;}
-            if ((V >= -0.350000) and (V < -0.311112 )) {midden = 1;}
-            if ((V >= -0.311112) and (V < -0.272223 )) {midden = 2;}
-            if ((V >= -0.272223) and (V < -0.233334 )) {midden = 3;}
-            if ((V >= -0.233334) and (V < -0.194445 )) {midden = 4;}
-            if ((V >= -0.194445) and (V < -0.155556 )) {midden = 5;}
-            if ((V >= -0.155556) and (V < -0.116667 )) {midden = 6;}
-            if ((V >= -0.116667) and (V < -0.077778 )) {midden = 7;}
-            if ((V >= -0.077778) and (V < -0.038889 )) {midden = 8;}
+            else if ((V >= -35.0000) and (V < -31.1112 )) {midden = 1;}
+            else if ((V >= -31.1112) and (V < -27.2223 )) {midden = 2;}
+            else if ((V >= -27.2223) and (V < -23.3334 )) {midden = 3;}
+            else if ((V >= -23.3334) and (V < -19.4445 )) {midden = 4;}
+            else if ((V >= -19.4445) and (V < -15.5556 )) {midden = 5;}
+            else if ((V >= -15.5556) and (V < -11.6667 )) {midden = 6;}
+            else if ((V >= -11.6667) and (V <  -7.7778 )) {midden = 7;}
+            else if ((V >=  -7.7778) and (V <  -3.8889 )) {midden = 8;}
 
-            if ((V >= -0.038889) and (V < 0.038889 )) {midden = 9;}
+            else if ((V >= -3.8889) and (V < 3.8889 )) {midden = 9;}
 
-            if ((V < 0.077778) and (V >= 0.038889 )) {midden = 10;}
-            if ((V < 0.116667) and (V >= 0.077778 )) {midden = 11;}
-            if ((V < 0.155556) and (V >= 0.116667 )) {midden = 12;}
-            if ((V < 0.194445) and (V >= 0.155556 )) {midden = 13;}
-            if ((V < 0.233334) and (V >= 0.194445 )) {midden = 14;}
-            if ((V < 0.272223) and (V >= 0.233334 )) {midden = 15;}
-            if ((V < 0.311112) and (V >= 0.272223 )) {midden = 16;}
-            if ((V < 0.350000) and (V >= 0.311112 )) {midden = 17;}
-            if (V > 0.350000 ) {midden = 18;}
+            else if ((V <  7.7778) and (V >=  3.8889 )) {midden = 10;}
+            else if ((V < 11.6667) and (V >=  7.7778 )) {midden = 11;}
+            else if ((V < 15.5556) and (V >= 11.6667 )) {midden = 12;}
+            else if ((V < 19.4445) and (V >= 15.5556 )) {midden = 13;}
+            else if ((V < 23.3334) and (V >= 19.4445 )) {midden = 14;}
+            else if ((V < 27.2223) and (V >= 23.3334 )) {midden = 15;}
+            else if ((V < 31.1112) and (V >= 27.2223 )) {midden = 16;}
+            else if ((V < 35.0000) and (V >= 31.1112 )) {midden = 17;}
+            else if (V > 35.0000 ) {midden = 18;}
 
             for ( x=0; x<aantalblokjes; x+=1 ) {
                 if (verschil == 0) {
