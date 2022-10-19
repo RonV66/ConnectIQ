@@ -19,6 +19,10 @@
 			"name": "PowerMeter",
 			"path": ".\\PowerMeter"
 		}
+		{
+			"name": "HeartRate",
+			"path": ".\\HeartRate"
+		}
 	],
 	"settings": {
 		"makefile.extensionOutputFolder": "./.vscode"

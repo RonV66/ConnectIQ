@@ -63,12 +63,13 @@ class SnelheidView extends WatchUi.DataField {
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
         verschil = 0;
-        if (info has :currentSpeed){
+        if (info has :currentSpeed) {
             currentSpeed = info.currentSpeed;
             averageSpeed = info.averageSpeed;
 
             if ((averageSpeed != null) and (averageSpeed != 0)) {
                 V = ((currentSpeed - averageSpeed) * 100) / averageSpeed;
+                System.println(V);
                 if (V > 5) {
                     verschil = 1;
                 } else if (V < -5) {
@@ -129,7 +130,7 @@ class SnelheidView extends WatchUi.DataField {
             var blokjeB = breedte / aantalblokjes;
             var blokjeH = 10;
 
-            if (V < -0.350000 ) {midden = 0;}
+            if (V < -35.0000 ) {midden = 0;}
             else if ((V >= -35.0000) and (V < -31.1112 )) {midden = 1;}
             else if ((V >= -31.1112) and (V < -27.2223 )) {midden = 2;}
             else if ((V >= -27.2223) and (V < -23.3334 )) {midden = 3;}
