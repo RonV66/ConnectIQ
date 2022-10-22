@@ -4,6 +4,7 @@
         <property id="achtergrondhoog" type="number">0x00AA00</property>
         <property id="voorgrondlaag" type="number">0xFFFFFF</property>
         <property id="voorgrondhoog" type="number">0xFFFFFF</property>
+        <property id="powerGemiddeldeTijd" type="number">3</property>
     </properties>
 
     <settings>
@@ -77,6 +78,14 @@
                 <listEntry value="0x0000FF">@Strings.COLOR_DK_BLUE</listEntry>
                 <listEntry value="0xAA00FF">@Strings.COLOR_PURPLE</listEntry>
                 <listEntry value="0xFF00FF">@Strings.COLOR_PINK</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.powerGemiddeldeTijd" title="@Strings.powerGemiddeldeTijd">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.sec0</listEntry>
+                <listEntry value="3">@Strings.sec3</listEntry>
+                <listEntry value="5">@Strings.sec5</listEntry>
+                <listEntry value="10">@Strings.sec10</listEntry>
             </settingConfig>
         </setting>
     </settings>

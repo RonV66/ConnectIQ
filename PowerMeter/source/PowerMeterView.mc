@@ -17,6 +17,9 @@ class PowerMeterView extends WatchUi.DataField {
     hidden var vorigemidden;
     hidden var currentPower;
     hidden var averagePower;
+    hidden var powerGemiddeldeArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    hidden var powerGemiddeldeTijd;
+    hidden var teller;
 
     function initialize() {
         DataField.initialize();
@@ -24,6 +27,7 @@ class PowerMeterView extends WatchUi.DataField {
         verschil = 0;
         V = 0;
         vorigemidden = 9;
+        teller = 0;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -52,6 +56,8 @@ class PowerMeterView extends WatchUi.DataField {
         achtergrondlaag  = Application.Properties.getValue("achtergrondlaag");
         voorgrondhoog  = Application.Properties.getValue("voorgrondhoog");
         voorgrondlaag  = Application.Properties.getValue("voorgrondlaag");
+
+        powerGemiddeldeTijd = Application.Properties.getValue("powerGemiddeldeTijd");
     }
 
     // The given info object contains all the current workout information.
@@ -62,26 +68,35 @@ class PowerMeterView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
         verschil = 0;
         if (info has :currentPower){
-            currentPower = info.currentPower;
-            averagePower = info.averagePower;
-
-            if ((averagePower != null) and (averagePower != 0)) {
-                V = ((currentPower - averagePower) * 100) / averagePower;
-                if (V > 5) {
-                    verschil = 1;
-                } else if (V < -5) {
-                    verschil = -1;
-                }
-            }
-
             if (info.currentPower != null){
-                mValue = currentPower;
+                currentPower = info.currentPower;
+
+                if (powerGemiddeldeTijd != 0) {
+                    if (teller == powerGemiddeldeTijd) {teller = 0;}
+                    powerGemiddeldeArray[teller] = currentPower;
+                    teller += 1;
+                    mValue = 0;
+                    for (var y=0; y<powerGemiddeldeTijd; y++) {
+                        mValue += powerGemiddeldeArray[y];
+                    }
+                    mValue = mValue / powerGemiddeldeTijd;
+                } else {
+                    mValue = currentPower;
+                }
+                if ((info.averagePower != null) and (info.averagePower != 0)) {
+                    averagePower = info.averagePower;
+                    V = ((mValue - averagePower) * 100) / averagePower;
+                    if (V > 5) {
+                        verschil = 1;
+                    } else if (V < -5) {
+                        verschil = -1;
+                    }
+                }
             } else {
                 mValue = 0;
             }
         }
     }
-
     // Display the value you computed here. This will be called
     // once a second when the data field is visible.
     function onUpdate(dc as Dc) as Void {

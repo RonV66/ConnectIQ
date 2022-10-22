@@ -22,4 +22,10 @@
     <string id="COLOR_DK_BLUE">Dunkel Blau</string>
     <string id="COLOR_PURPLE">Violett</string>
     <string id="COLOR_PINK">Rosa</string>
+
+    <string id="powerGemiddeldeTijd">Leistungsdurchschnitt</string>
+    <string id="sec0">0 Sekunden</string>
+    <string id="sec3">3 Sekunden</string>
+    <string id="sec5">5 Sekunden</string>
+    <string id="sec10">10 Sekunden</string>
 </strings>

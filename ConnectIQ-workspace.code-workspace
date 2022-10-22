@@ -14,14 +14,18 @@
 		{
 			"name": "Test",
 			"path": ".\\Test"
-		}
+		},
 		{
 			"name": "PowerMeter",
 			"path": ".\\PowerMeter"
-		}
+		},
 		{
 			"name": "HeartRate",
 			"path": ".\\HeartRate"
+		},
+		{
+			"name": "ETA",
+			"path": ".\\ETA"
 		}
 	],
 	"settings": {
