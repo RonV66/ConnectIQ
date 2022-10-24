@@ -2,19 +2,20 @@ import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
-using Toybox.Time;
-using Toybox.Time.Gregorian;
+import Toybox.Time;
+import Toybox.Time.Gregorian;
 
 class ETAView extends WatchUi.DataField {
 
-    hidden var mValue as String;
+    hidden var mValue;
     hidden var breedte;
     hidden var hoogte;
     hidden var tijdDisplay;
 
     function initialize() {
         DataField.initialize();
-        mValue = "--:--:--";
+        mValue = "--:--";
+        tijdDisplay = 0;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -22,7 +23,6 @@ class ETAView extends WatchUi.DataField {
     function onLayout(dc as Dc) as Void {
       	breedte = dc.getWidth();
         hoogte = dc.getHeight();
-        System.print(hoogte);
         if (hoogte < 70) {
             View.setLayout(Rez.Layouts.Klein(dc));
         } else if ((hoogte >= 70) and (hoogte < 80)) {
@@ -48,9 +48,9 @@ class ETAView extends WatchUi.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
-        var tijdNow = Time.now();
+        var tijdNow = new Time.Moment(Time.now().value());
         var tijdNowGregorian = Gregorian.info(tijdNow, Time.FORMAT_SHORT);
-        if ((info.averageSpeed  != null) and (info.averageSpeed  != 0) and (info.distanceToDestination != 0)) {
+        if ((info.averageSpeed  != null) and (info.averageSpeed  != 0) and (info.distanceToDestination != null) and (info.distanceToDestination != 0)) {
             var etaInSeconds = info.distanceToDestination / info.averageSpeed;
             var tijdInSeconds = new Time.Duration(etaInSeconds);
 
@@ -58,25 +58,23 @@ class ETAView extends WatchUi.DataField {
 //////////////////
                 var tijdInSecondsUur = Math.floor(etaInSeconds / 3600);
                 var tijdInSecondsMinuut = Math.floor((etaInSeconds - (tijdInSecondsUur * 3600)) / 60);
-                var tijdInSecondsSeconde = Math.floor(etaInSeconds - (tijdInSecondsUur * 3600) - (tijdInSecondsMinuut * 60));
-                mValue = tijdInSecondsUur.format("%02d") + ":" + tijdInSecondsMinuut.format("%02d") + ":" + tijdInSecondsSeconde.format("%02d");
+                mValue = tijdInSecondsUur.format("%02d") + ":" + tijdInSecondsMinuut.format("%02d");
 //////////////////
             } else {
                 var tijdETA = tijdNow.add(tijdInSeconds);
                 var tijdETAGregorian = Gregorian.info(tijdETA, Time.FORMAT_SHORT);
                 var dateString = Lang.format(
-                    "$1$:$2$:$3$",
+                    "$1$:$2$",
                     [
                         tijdETAGregorian.hour.format("%02d"),
                         tijdETAGregorian.min.format("%02d"),
-                        tijdETAGregorian.sec.format("%02d")
                     ]
                 );
                 mValue = dateString;
 //////////////////
             }
         } else {
-            mValue = "--:--:--";
+            mValue = "--:--";
         }
     }
 
@@ -93,7 +91,6 @@ class ETAView extends WatchUi.DataField {
         } else {
             value.setColor(Graphics.COLOR_BLACK);
         }
-//        value.setText(mValue.format("%.2f"));
         value.setText(mValue);
 
         // Call parent's onUpdate(dc) to redraw the layout

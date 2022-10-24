@@ -13,6 +13,7 @@ class PowerMeterView extends WatchUi.DataField {
     hidden var voorgrondhoog;
     hidden var voorgrondlaag;
     hidden var breedte;
+    
     hidden var hoogte;
     hidden var vorigemidden;
     hidden var currentPower;
@@ -52,12 +53,13 @@ class PowerMeterView extends WatchUi.DataField {
         (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
 
         // Achtergrond en voorgrond kleur instellingen opvragen
-        achtergrondhoog  = Application.Properties.getValue("achtergrondhoog");
-        achtergrondlaag  = Application.Properties.getValue("achtergrondlaag");
-        voorgrondhoog  = Application.Properties.getValue("voorgrondhoog");
-        voorgrondlaag  = Application.Properties.getValue("voorgrondlaag");
+        achtergrondhoog = Application.Properties.getValue("achtergrondhoog");
+        achtergrondlaag = Application.Properties.getValue("achtergrondlaag");
+        voorgrondhoog = Application.Properties.getValue("voorgrondhoog");
+        voorgrondlaag = Application.Properties.getValue("voorgrondlaag");
 
         powerGemiddeldeTijd = Application.Properties.getValue("powerGemiddeldeTijd");
+        System.print(Application.Properties.getValue("powerGemiddeldeTijd"));
     }
 
     // The given info object contains all the current workout information.

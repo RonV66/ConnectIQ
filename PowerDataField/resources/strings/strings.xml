@@ -1,0 +1,13 @@
+<strings>
+    <string id="AppName">PowerDataField</string>
+
+    <string id="label">Watt</string>
+    
+    <string id="ftp">FTP</string>
+    <string id="errorFtp">A numeric value between 10 and 4000 please</string>
+    <string id="powerGemiddeldeTijd">Power average</string>
+    <string id="sec0">0 seconds</string>
+    <string id="sec3">3 seconds</string>
+    <string id="sec5">5 seconds</string>
+    <string id="sec10">10 seconds</string>
+</strings>

@@ -2,8 +2,7 @@ import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
-using Toybox.UserProfile;
-import Toybox.System;
+import Toybox.UserProfile;
 
 class HeartRateView extends WatchUi.DataField {
 
@@ -39,7 +38,6 @@ class HeartRateView extends WatchUi.DataField {
         // plaats label "Speed" boven aan
         var labelView = View.findDrawableById("label") as Text;
         labelView.setText(Rez.Strings.label);
-
     }
 
     // The given info object contains all the current workout information.
@@ -78,6 +76,13 @@ class HeartRateView extends WatchUi.DataField {
         switch (currentZone) {
             case 0:
                 achtergrond.setColor(getBackgroundColor());
+                if (getBackgroundColor() == Graphics.COLOR_BLACK) {
+                    label.setColor(Graphics.COLOR_WHITE);
+                    value.setColor(Graphics.COLOR_WHITE);
+                } else {
+                    label.setColor(Graphics.COLOR_BLACK);
+                    value.setColor(Graphics.COLOR_BLACK);
+                }
                 break;
             case 1:
                 achtergrond.setColor(Graphics.COLOR_LT_GRAY);

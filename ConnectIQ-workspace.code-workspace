@@ -26,6 +26,10 @@
 		{
 			"name": "ETA",
 			"path": ".\\ETA"
+		},
+		{
+			"name": "PowerDataField",
+			"path": ".\\PowerDataField"
 		}
 	],
 	"settings": {

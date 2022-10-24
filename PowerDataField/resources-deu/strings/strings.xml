@@ -1,0 +1,13 @@
+<strings>
+    <string id="AppName">Leistungsmesser</string>
+
+    <string id="label">Watt</string>
+
+    <string id="ftp">FTP</string>
+    <string id="errorFtp">Bitte geben Sie einen Zahlenwert zwischen 10 und 4000 ein</string>
+    <string id="powerGemiddeldeTijd">Leistungsdurchschnitt</string>
+    <string id="sec0">0 Sekunden</string>
+    <string id="sec3">3 Sekunden</string>
+    <string id="sec5">5 Sekunden</string>
+    <string id="sec10">10 Sekunden</string>
+</strings>
