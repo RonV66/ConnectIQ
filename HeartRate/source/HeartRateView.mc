@@ -86,30 +86,34 @@ class HeartRateView extends WatchUi.DataField {
                 break;
             case 1:
                 achtergrond.setColor(Graphics.COLOR_LT_GRAY);
+                label.setColor(Graphics.COLOR_WHITE);
+                value.setColor(Graphics.COLOR_WHITE);
                 break;
             case 2:
                 achtergrond.setColor(Graphics.COLOR_DK_BLUE);
+                label.setColor(Graphics.COLOR_WHITE);
+                value.setColor(Graphics.COLOR_WHITE);
                 break;
             case 3:
                 achtergrond.setColor(Graphics.COLOR_DK_GREEN);
+                label.setColor(Graphics.COLOR_WHITE);
+                value.setColor(Graphics.COLOR_WHITE);
                 break;
             case 4:
-                achtergrond.setColor(Graphics.COLOR_YELLOW);
+                achtergrond.setColor(0xFFFF00);  //Graphics.COLOR_YELLOW
+                label.setColor(Graphics.COLOR_BLACK);
+                value.setColor(Graphics.COLOR_BLACK);
                 break;
             case 5:
                 achtergrond.setColor(Graphics.COLOR_RED);
+                label.setColor(Graphics.COLOR_WHITE);
+                value.setColor(Graphics.COLOR_WHITE);
                 break;
             case 6:
                 achtergrond.setColor(Graphics.COLOR_PURPLE);
+                label.setColor(Graphics.COLOR_WHITE);
+                value.setColor(Graphics.COLOR_WHITE);
                 break;
-        }
-
-        if ((getBackgroundColor() == Graphics.COLOR_WHITE) and (currentZone == 0)) {
-            label.setColor(Graphics.COLOR_BLACK);
-            value.setColor(Graphics.COLOR_BLACK);
-        } else {
-            label.setColor(Graphics.COLOR_WHITE);
-            value.setColor(Graphics.COLOR_WHITE);
         }
 
         value.setText(mValue.format("%.0f"));

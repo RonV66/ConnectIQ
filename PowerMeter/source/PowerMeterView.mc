@@ -13,7 +13,6 @@ class PowerMeterView extends WatchUi.DataField {
     hidden var voorgrondhoog;
     hidden var voorgrondlaag;
     hidden var breedte;
-    
     hidden var hoogte;
     hidden var vorigemidden;
     hidden var currentPower;
@@ -167,18 +166,6 @@ class PowerMeterView extends WatchUi.DataField {
             else if (V > 35 ) {midden = 18;}
 
             for ( x=0; x<aantalblokjes; x+=1 ) {
-                if (verschil == 0) {
-                    if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-                        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-                    } else {
-                        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-                    }
-                } else if (verschil == 1) {
-                    dc.setColor(voorgrondhoog, Graphics.COLOR_TRANSPARENT);
-                } else if (verschil == -1) {
-                    dc.setColor(voorgrondlaag, Graphics.COLOR_TRANSPARENT);
-                }
-
                 var blokjemidden = [(midden - 1), (midden + 1)];
                 var blokjehoog = midden;
                 if (midden > vorigemidden) {

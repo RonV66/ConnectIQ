@@ -16,8 +16,8 @@
                 <listEntry value="0x000000">@Strings.COLOR_BLACK</listEntry>
                 <listEntry value="0xFF0000">@Strings.COLOR_RED</listEntry>
                 <listEntry value="0xAA0000">@Strings.COLOR_DK_RED</listEntry>
-                <listEntry value="0xFF5500">@Strings.COLOR_ORANGE</listEntry>
-                <listEntry value="0xFFAA00">@Strings.COLOR_YELLOW</listEntry>
+                <listEntry value="0xFFAA55">@Strings.COLOR_ORANGE</listEntry>
+                <listEntry value="0xFFFF00">@Strings.COLOR_YELLOW</listEntry>
                 <listEntry value="0x00FF00">@Strings.COLOR_GREEN</listEntry>
                 <listEntry value="0x00AA00">@Strings.COLOR_DK_GREEN</listEntry>
                 <listEntry value="0x00AAFF">@Strings.COLOR_BLUE</listEntry>
@@ -34,8 +34,8 @@
                 <listEntry value="0x000000">@Strings.COLOR_BLACK</listEntry>
                 <listEntry value="0xFF0000">@Strings.COLOR_RED</listEntry>
                 <listEntry value="0xAA0000">@Strings.COLOR_DK_RED</listEntry>
-                <listEntry value="0xFF5500">@Strings.COLOR_ORANGE</listEntry>
-                <listEntry value="0xFFAA00">@Strings.COLOR_YELLOW</listEntry>
+                <listEntry value="0xFFAA55">@Strings.COLOR_ORANGE</listEntry>
+                <listEntry value="0xFFFF00">@Strings.COLOR_YELLOW</listEntry>
                 <listEntry value="0x00FF00">@Strings.COLOR_GREEN</listEntry>
                 <listEntry value="0x00AA00">@Strings.COLOR_DK_GREEN</listEntry>
                 <listEntry value="0x00AAFF">@Strings.COLOR_BLUE</listEntry>
@@ -52,8 +52,8 @@
                 <listEntry value="0x000000">@Strings.COLOR_BLACK</listEntry>
                 <listEntry value="0xFF0000">@Strings.COLOR_RED</listEntry>
                 <listEntry value="0xAA0000">@Strings.COLOR_DK_RED</listEntry>
-                <listEntry value="0xFF5500">@Strings.COLOR_ORANGE</listEntry>
-                <listEntry value="0xFFAA00">@Strings.COLOR_YELLOW</listEntry>
+                <listEntry value="0xFFAA55">@Strings.COLOR_ORANGE</listEntry>
+                <listEntry value="0xFFFF00">@Strings.COLOR_YELLOW</listEntry>
                 <listEntry value="0x00FF00">@Strings.COLOR_GREEN</listEntry>
                 <listEntry value="0x00AA00">@Strings.COLOR_DK_GREEN</listEntry>
                 <listEntry value="0x00AAFF">@Strings.COLOR_BLUE</listEntry>
@@ -70,8 +70,8 @@
                 <listEntry value="0x000000">@Strings.COLOR_BLACK</listEntry>
                 <listEntry value="0xFF0000">@Strings.COLOR_RED</listEntry>
                 <listEntry value="0xAA0000">@Strings.COLOR_DK_RED</listEntry>
-                <listEntry value="0xFF5500">@Strings.COLOR_ORANGE</listEntry>
-                <listEntry value="0xFFAA00">@Strings.COLOR_YELLOW</listEntry>
+                <listEntry value="0xFFAA55">@Strings.COLOR_ORANGE</listEntry>
+                <listEntry value="0xFFFF00">@Strings.COLOR_YELLOW</listEntry>
                 <listEntry value="0x00FF00">@Strings.COLOR_GREEN</listEntry>
                 <listEntry value="0x00AA00">@Strings.COLOR_DK_GREEN</listEntry>
                 <listEntry value="0x00AAFF">@Strings.COLOR_BLUE</listEntry>
