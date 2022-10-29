@@ -2,6 +2,7 @@
     <properties>
         <property id="ftp" type="number">200</property>
         <property id="powerGemiddeldeTijd" type="number">3</property>
+        <property id="displayBar" type="number">0</property>
     </properties>
     
     <settings>
@@ -14,6 +15,12 @@
                 <listEntry value="3">@Strings.sec3</listEntry>
                 <listEntry value="5">@Strings.sec5</listEntry>
                 <listEntry value="10">@Strings.sec10</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.displayBar" title="@Strings.displayBar">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.displayBarNee</listEntry>
+                <listEntry value="1">@Strings.displayBarJa</listEntry>
             </settingConfig>
         </setting>
     </settings>

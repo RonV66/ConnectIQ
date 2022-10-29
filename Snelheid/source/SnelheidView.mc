@@ -123,7 +123,7 @@ class SnelheidView extends WatchUi.DataField {
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
 
-        if (hoogte > 80) {
+        if (hoogte > 100) {
             var x;
             var aantalblokjes = 19;
             var midden = 9;

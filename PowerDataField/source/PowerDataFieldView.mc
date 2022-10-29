@@ -11,6 +11,8 @@ class PowerDataFieldView extends WatchUi.DataField {
     hidden var currentPower;
     hidden var averagePower;
     hidden var V as Number;
+    hidden var SSlow as Number;
+    hidden var SShigh as Number;
     hidden var powerGemiddeldeArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     hidden var powerGemiddeldeTijd;
     hidden var teller;
@@ -21,6 +23,10 @@ class PowerDataFieldView extends WatchUi.DataField {
     hidden var hoogte;
     hidden var vorigemidden;
 
+    hidden var valueView;
+    hidden var labelView;
+    hidden var sweetspotView;
+
     function initialize() {
         DataField.initialize();
         mValue = 0;
@@ -28,6 +34,9 @@ class PowerDataFieldView extends WatchUi.DataField {
         powerZone = 0;
         ftp = 0;
         V = 0;
+        SSlow = 0;
+        SShigh = 0;
+        powerGemiddeldeTijd = 0;
         vorigemidden = 9;
     }
 
@@ -46,22 +55,28 @@ class PowerDataFieldView extends WatchUi.DataField {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 
-        var valueView = View.findDrawableById("value");
+        valueView = View.findDrawableById("value") as Text;
         valueView.locY = valueView.locY + 10;
 
-        // plaats label "Power" boven aan
-        (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
+        sweetspotView = View.findDrawableById("sweetspot") as Text;
+        sweetspotView.locX = breedte - 15;
+
+        labelView = View.findDrawableById("label") as Text;
+        labelView.setText(Rez.Strings.label);
 
         ftp = Application.Properties.getValue("ftp");
         powerGemiddeldeTijd = Application.Properties.getValue("powerGemiddeldeTijd");
 
         powerZoneProcenten[0] = 0;
-        powerZoneProcenten[1] = (ftp * 54) /100;
-        powerZoneProcenten[2] = (ftp * 75) /100;
-        powerZoneProcenten[3] = (ftp * 89) /100;
-        powerZoneProcenten[4] = (ftp * 105) /100;
-        powerZoneProcenten[5] = (ftp * 120) /100;
-        powerZoneProcenten[6] = (ftp * 150) /100;
+        powerZoneProcenten[1] = (ftp * 54) / 100;
+        powerZoneProcenten[2] = (ftp * 75) / 100;
+        powerZoneProcenten[3] = (ftp * 89) / 100;
+        powerZoneProcenten[4] = (ftp * 105) / 100;
+        powerZoneProcenten[5] = (ftp * 120) / 100;
+        powerZoneProcenten[6] = (ftp * 150) / 100;
+
+        SSlow = (ftp * 86) / 100;
+        SShigh = (ftp * 95) / 100;
     }
 
     // The given info object contains all the current workout information.
@@ -85,9 +100,8 @@ class PowerDataFieldView extends WatchUi.DataField {
                 } else {
                     mValue = currentPower;
                 }
-                if ((info.averagePower != null) and (info.averagePower != 0)) {
-                    averagePower = info.averagePower;
-                    V = ((mValue - averagePower) * 100) / averagePower;
+                if (ftp != 0) {
+                    V = ((mValue - ftp) * 100) / ftp;
                 }
             } else {
                 mValue = 0;
@@ -108,55 +122,65 @@ class PowerDataFieldView extends WatchUi.DataField {
         // Get the background color
         var achtergrond = View.findDrawableById("Background") as Text;
 
-         // Set the foreground color and value
-        var label = View.findDrawableById("label") as Text;
-        var value = View.findDrawableById("value") as Text;
+        if ((mValue >= SSlow) and (mValue <= SShigh)) {
+            sweetspotView.setText(Rez.Strings.sweetspot);
+        } else {
+            sweetspotView.setText("");
+        }
 
+         // Set the foreground color and value
         switch (powerZone) {
             case 0:
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
-                achtergrond.setColor(Graphics.COLOR_LT_GRAY);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
+                sweetspotView.setColor(Graphics.COLOR_WHITE);
+                achtergrond.setColor(0x808080); // (Graphics.COLOR_GRAY);
                 break;
             case 1:
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
+                sweetspotView.setColor(Graphics.COLOR_WHITE);
                 achtergrond.setColor(Graphics.COLOR_DK_BLUE);
                 break;
             case 2:
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
+                sweetspotView.setColor(Graphics.COLOR_WHITE);
                 achtergrond.setColor(Graphics.COLOR_DK_GREEN);
                 break;
             case 3:
-                label.setColor(Graphics.COLOR_BLACK);
-                value.setColor(Graphics.COLOR_BLACK);
+                labelView.setColor(Graphics.COLOR_BLACK);
+                valueView.setColor(Graphics.COLOR_BLACK);
+                sweetspotView.setColor(Graphics.COLOR_BLACK);
                 achtergrond.setColor(0xFFFF00);  //Graphics.COLOR_YELLOW
                 break;
             case 4:
-                label.setColor(Graphics.COLOR_BLACK);
-                value.setColor(Graphics.COLOR_BLACK);
+                labelView.setColor(Graphics.COLOR_BLACK);
+                valueView.setColor(Graphics.COLOR_BLACK);
+                sweetspotView.setColor(Graphics.COLOR_BLACK);
                 achtergrond.setColor(0xFFAA55);  //Graphics.COLOR_ORANGE
                 break;
             case 5:
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
+                sweetspotView.setColor(Graphics.COLOR_WHITE);
                 achtergrond.setColor(Graphics.COLOR_RED);
                 break;
             case 6:
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
+                sweetspotView.setColor(Graphics.COLOR_WHITE);
                 achtergrond.setColor(Graphics.COLOR_DK_RED);
                 break;
         }
 
         // Set the value
-        value.setText(mValue.format("%0d"));
+        valueView.setText(mValue.format("%0d"));
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
 
-        if (hoogte > 80) {
+        if ((hoogte > 100) and (Application.Properties.getValue("displayBar"))) {
             var x;
             var aantalblokjes = 19;
             var midden = 9;

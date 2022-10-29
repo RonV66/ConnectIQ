@@ -2,6 +2,7 @@
     <string id="AppName">PowerDataField</string>
 
     <string id="label">Watt</string>
+    <string id="sweetspot">SS</string>
     
     <string id="ftp">FTP</string>
     <string id="errorFtp">A numeric value between 10 and 4000 please</string>
@@ -10,4 +11,7 @@
     <string id="sec3">3 seconds</string>
     <string id="sec5">5 seconds</string>
     <string id="sec10">10 seconds</string>
+    <string id="displayBar">Display Bar</string>
+    <string id="displayBarNee">No</string>    
+    <string id="displayBarJa">Yes</string>
 </strings>

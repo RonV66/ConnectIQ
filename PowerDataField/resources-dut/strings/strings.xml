@@ -2,6 +2,7 @@
     <string id="AppName">VermogensMeter</string>
 
     <string id="label">Watt</string>
+    <string id="sweetspot">SS</string>
 
     <string id="ftp">FTP</string>
     <string id="errorFtp">Een getal tussen de 10 en 4000 a.u.b.</string>
@@ -10,4 +11,8 @@
     <string id="sec3">3 seconden</string>
     <string id="sec5">5 seconden</string>
     <string id="sec10">10 seconden</string>
+    <string id="displayBar">Bar tonen</string>
+    <string id="displayBarNee">Nee</string>    
+    <string id="displayBarJa">Ja</string>
+
 </strings>
