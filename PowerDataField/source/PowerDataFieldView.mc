@@ -13,11 +13,11 @@ class PowerDataFieldView extends WatchUi.DataField {
     hidden var V as Number;
     hidden var SSlow as Number;
     hidden var SShigh as Number;
-    hidden var powerGemiddeldeArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    hidden var powerGemiddeldeArray;
     hidden var powerGemiddeldeTijd;
     hidden var teller;
     hidden var powerZone;
-    hidden var powerZoneProcenten = [0, 0, 0, 0, 0, 0, 0 ];
+    hidden var powerZoneProcenten = new [6];
 
     hidden var breedte;
     hidden var hoogte;
@@ -38,6 +38,20 @@ class PowerDataFieldView extends WatchUi.DataField {
         SShigh = 0;
         powerGemiddeldeTijd = 0;
         vorigemidden = 9;
+
+        powerGemiddeldeTijd = Application.Properties.getValue("powerGemiddeldeTijd");
+        powerGemiddeldeArray = new [powerGemiddeldeTijd];
+        for (var x=0; x<powerGemiddeldeTijd; x++) { powerGemiddeldeArray[x] = 0; }
+
+        ftp = Application.Properties.getValue("ftp");
+        powerZoneProcenten[0] = (ftp * 54) / 100;
+        powerZoneProcenten[1] = (ftp * 75) / 100;
+        powerZoneProcenten[2] = (ftp * 89) / 100;
+        powerZoneProcenten[3] = (ftp * 105) / 100;
+        powerZoneProcenten[4] = (ftp * 120) / 100;
+        powerZoneProcenten[5] = (ftp * 150) / 100;
+        SSlow = (ftp * 86) / 100;
+        SShigh = (ftp * 95) / 100;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -63,20 +77,6 @@ class PowerDataFieldView extends WatchUi.DataField {
 
         labelView = View.findDrawableById("label") as Text;
         labelView.setText(Rez.Strings.label);
-
-        ftp = Application.Properties.getValue("ftp");
-        powerGemiddeldeTijd = Application.Properties.getValue("powerGemiddeldeTijd");
-
-        powerZoneProcenten[0] = 0;
-        powerZoneProcenten[1] = (ftp * 54) / 100;
-        powerZoneProcenten[2] = (ftp * 75) / 100;
-        powerZoneProcenten[3] = (ftp * 89) / 100;
-        powerZoneProcenten[4] = (ftp * 105) / 100;
-        powerZoneProcenten[5] = (ftp * 120) / 100;
-        powerZoneProcenten[6] = (ftp * 150) / 100;
-
-        SSlow = (ftp * 86) / 100;
-        SShigh = (ftp * 95) / 100;
     }
 
     // The given info object contains all the current workout information.
@@ -88,15 +88,10 @@ class PowerDataFieldView extends WatchUi.DataField {
         if (info has :currentPower){
             if (info.currentPower != null){
                 currentPower = info.currentPower;
-                if (powerGemiddeldeTijd != 0) {
-                    if (teller == powerGemiddeldeTijd) {teller = 0;}
+                if (powerGemiddeldeTijd > 0) {
                     powerGemiddeldeArray[teller] = currentPower;
-                    teller += 1;
-                    mValue = 0;
-                    for (var y=0; y<powerGemiddeldeTijd; y++) {
-                        mValue += powerGemiddeldeArray[y];
-                    }
-                    mValue = mValue / powerGemiddeldeTijd;
+                    teller = (teller < (powerGemiddeldeTijd-1)) ? (teller+1) : 0;
+                    mValue = Math.mean(powerGemiddeldeArray);
                 } else {
                     mValue = currentPower;
                 }
@@ -106,13 +101,13 @@ class PowerDataFieldView extends WatchUi.DataField {
             } else {
                 mValue = 0;
             }
-            if (mValue < powerZoneProcenten[1]) {powerZone = 0;}
-            else if ((mValue >= powerZoneProcenten[1]) and (mValue < powerZoneProcenten[2])) {powerZone = 1;}
-            else if ((mValue >= powerZoneProcenten[2]) and (mValue < powerZoneProcenten[3])) {powerZone = 2;}
-            else if ((mValue >= powerZoneProcenten[3]) and (mValue < powerZoneProcenten[4])) {powerZone = 3;}
-            else if ((mValue >= powerZoneProcenten[4]) and (mValue < powerZoneProcenten[5])) {powerZone = 4;}
-            else if ((mValue >= powerZoneProcenten[5]) and (mValue < powerZoneProcenten[6])) {powerZone = 5;}
-            else if (mValue >= powerZoneProcenten[6]) {powerZone = 6;}
+            if (mValue < powerZoneProcenten[0]) {powerZone = 0;}
+            else if ((mValue >= powerZoneProcenten[0]) and (mValue < powerZoneProcenten[1])) {powerZone = 1;}
+            else if ((mValue >= powerZoneProcenten[1]) and (mValue < powerZoneProcenten[2])) {powerZone = 2;}
+            else if ((mValue >= powerZoneProcenten[2]) and (mValue < powerZoneProcenten[3])) {powerZone = 3;}
+            else if ((mValue >= powerZoneProcenten[3]) and (mValue < powerZoneProcenten[4])) {powerZone = 4;}
+            else if ((mValue >= powerZoneProcenten[4]) and (mValue < powerZoneProcenten[5])) {powerZone = 5;}
+            else if (mValue >= powerZoneProcenten[5]) {powerZone = 6;}
         }
     }
 

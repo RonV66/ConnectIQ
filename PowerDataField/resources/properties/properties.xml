@@ -15,6 +15,7 @@
                 <listEntry value="3">@Strings.sec3</listEntry>
                 <listEntry value="5">@Strings.sec5</listEntry>
                 <listEntry value="10">@Strings.sec10</listEntry>
+                <listEntry value="30">@Strings.sec30</listEntry>
             </settingConfig>
         </setting>
         <setting propertyKey="@Properties.displayBar" title="@Strings.displayBar">
