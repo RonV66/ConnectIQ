@@ -10,12 +10,15 @@ class ETAView extends WatchUi.DataField {
     hidden var mValue;
     hidden var breedte;
     hidden var hoogte;
-    hidden var tijdDisplay;
+//    hidden var tijdDisplay;
+
+    hidden var valueView;
+    hidden var labelView;
 
     function initialize() {
         DataField.initialize();
         mValue = "--:--";
-        tijdDisplay = 0;
+//        tijdDisplay = Application.Properties.getValue("tijdDisplay");
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -33,13 +36,11 @@ class ETAView extends WatchUi.DataField {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 
-        var valueView = View.findDrawableById("value");
+        valueView = View.findDrawableById("value");
         valueView.locY = valueView.locY + 10;
 
-        var labelView = View.findDrawableById("label") as Text;
+        labelView = View.findDrawableById("label") as Text;
         labelView.setText(Rez.Strings.label);
-
-        tijdDisplay = Application.Properties.getValue("tijdDisplay");
     }
 
     // The given info object contains all the current workout information.
@@ -54,7 +55,7 @@ class ETAView extends WatchUi.DataField {
             var etaInSeconds = info.distanceToDestination / info.averageSpeed;
             var tijdInSeconds = new Time.Duration(etaInSeconds);
 
-            if (tijdDisplay == 0) {
+            if (Application.Properties.getValue("tijdDisplay") == 0) {
 //////////////////
                 var tijdInSecondsUur = Math.floor(etaInSeconds / 3600);
                 var tijdInSecondsMinuut = Math.floor((etaInSeconds - (tijdInSecondsUur * 3600)) / 60);
@@ -85,13 +86,13 @@ class ETAView extends WatchUi.DataField {
         (View.findDrawableById("Background") as Text).setColor(getBackgroundColor());
 
         // Set the foreground color and value
-        var value = View.findDrawableById("value") as Text;
+//        var value = View.findDrawableById("value") as Text;
         if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-            value.setColor(Graphics.COLOR_WHITE);
+            valueView.setColor(Graphics.COLOR_WHITE);
         } else {
-            value.setColor(Graphics.COLOR_BLACK);
+            valueView.setColor(Graphics.COLOR_BLACK);
         }
-        value.setText(mValue);
+        valueView.setText(mValue);
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);

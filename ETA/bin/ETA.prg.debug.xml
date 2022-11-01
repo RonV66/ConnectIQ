@@ -2,131 +2,128 @@
 <debugInfo>
     <manifest filename="C:\Users\veldenr\ConnectIQ\ETA\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="1" lineNum="15" parent="globals/ETAView" pc="268435456" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="1" lineNum="16" parent="globals/ETAView" pc="268435460" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="1" lineNum="17" parent="globals/ETAView" pc="268435478" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="1" lineNum="18" parent="globals/ETAView" pc="268435491" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="23" parent="globals/ETAView" pc="268435505" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="24" parent="globals/ETAView" pc="268435509" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="25" parent="globals/ETAView" pc="268435528" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="26" parent="globals/ETAView" pc="268435547" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="27" parent="globals/ETAView" pc="268435564" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="28" parent="globals/ETAView" pc="268435610" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="29" parent="globals/ETAView" pc="268435647" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="30" parent="globals/ETAView" pc="268435693" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="31" parent="globals/ETAView" pc="268435730" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="32" parent="globals/ETAView" pc="268435776" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="33" parent="globals/ETAView" pc="268435793" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="36" parent="globals/ETAView" pc="268435839" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="37" parent="globals/ETAView" pc="268435863" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="39" parent="globals/ETAView" pc="268435885" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="40" parent="globals/ETAView" pc="268435909" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="42" parent="globals/ETAView" pc="268435941" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="49" parent="globals/ETAView" pc="268435978" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="51" parent="globals/ETAView" pc="268435982" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="52" parent="globals/ETAView" pc="268436034" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="53" parent="globals/ETAView" pc="268436065" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="54" parent="globals/ETAView" pc="268436134" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="55" parent="globals/ETAView" pc="268436153" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="57" parent="globals/ETAView" pc="268436183" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="59" parent="globals/ETAView" pc="268436200" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="60" parent="globals/ETAView" pc="268436227" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="61" parent="globals/ETAView" pc="268436263" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="64" parent="globals/ETAView" pc="268436313" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="65" parent="globals/ETAView" pc="268436328" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="66" parent="globals/ETAView" pc="268436359" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="73" parent="globals/ETAView" pc="268436447" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="77" parent="globals/ETAView" pc="268436460" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="83" parent="globals/ETAView" pc="268436474" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="85" parent="globals/ETAView" pc="268436478" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="88" parent="globals/ETAView" pc="268436521" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="89" parent="globals/ETAView" pc="268436545" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="90" parent="globals/ETAView" pc="268436572" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="92" parent="globals/ETAView" pc="268436599" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="94" parent="globals/ETAView" pc="268436623" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="97" parent="globals/ETAView" pc="268436643" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="5" lineNum="8" parent="globals/ETAView" pc="268440361" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="5" lineNum="8" parent="globals/ETAView" pc="268440361" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="7" lineNum="7" parent="globals/ETAApp" pc="268436664" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="7" lineNum="8" parent="globals/ETAApp" pc="268436668" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="8" lineNum="12" parent="globals/ETAApp" pc="268436687" symbol="onStart"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="9" lineNum="16" parent="globals/ETAApp" pc="268436692" symbol="onStop"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="10" lineNum="20" parent="globals/ETAApp" pc="268436697" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="10" lineNum="21" parent="globals/ETAApp" pc="268436701" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="11" lineNum="5" parent="globals/ETAApp" pc="268440312" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="11" lineNum="5" parent="globals/ETAApp" pc="268440312" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="12" lineNum="26" parent="globals" pc="268436739" symbol="getApp"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="12" lineNum="27" parent="globals" pc="268436751" symbol="getApp"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="14" lineNum="9" parent="globals/Background" pc="268436768" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="14" lineNum="10" parent="globals/Background" pc="268436772" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="14" lineNum="14" parent="globals/Background" pc="268436793" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="14" lineNum="16" parent="globals/Background" pc="268436813" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="15" lineNum="19" parent="globals/Background" pc="268436834" symbol="setColor"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="15" lineNum="20" parent="globals/Background" pc="268436838" symbol="setColor"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="16" lineNum="23" parent="globals/Background" pc="268436849" symbol="draw"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="16" lineNum="24" parent="globals/Background" pc="268436853" symbol="draw"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="16" lineNum="25" parent="globals/Background" pc="268436885" symbol="draw"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="17" lineNum="5" parent="globals/Background" pc="268440293" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="17" lineNum="5" parent="globals/Background" pc="268440293" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="19" lineNum="2" parent="globals/Rez/Drawables" pc="268440355" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="20" lineNum="6" parent="globals/Rez/Fonts" pc="268440357" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="21" lineNum="8" parent="globals/Rez/JsonData" pc="268440359" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="22" lineNum="17" parent="globals/Rez/Layouts" pc="268436898" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="19" parent="globals/Rez/Layouts" pc="268436910" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="20" parent="globals/Rez/Layouts" pc="268436923" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268436936" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="23" parent="globals/Rez/Layouts" pc="268436960" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268437123" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268437286" symbol="MainLayout"/>
-        <entry filename="Rez" id="23" lineNum="35" parent="globals/Rez/Layouts" pc="268437324" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="37" parent="globals/Rez/Layouts" pc="268437336" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="39" parent="globals/Rez/Layouts" pc="268437349" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="40" parent="globals/Rez/Layouts" pc="268437373" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="41" parent="globals/Rez/Layouts" pc="268437516" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="43" parent="globals/Rez/Layouts" pc="268437688" symbol="Klein"/>
-        <entry filename="Rez" id="24" lineNum="52" parent="globals/Rez/Layouts" pc="268437726" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="54" parent="globals/Rez/Layouts" pc="268437738" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="56" parent="globals/Rez/Layouts" pc="268437751" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="57" parent="globals/Rez/Layouts" pc="268437775" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="58" parent="globals/Rez/Layouts" pc="268437918" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="60" parent="globals/Rez/Layouts" pc="268438090" symbol="Middel1"/>
-        <entry filename="Rez" id="25" lineNum="69" parent="globals/Rez/Layouts" pc="268438128" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="71" parent="globals/Rez/Layouts" pc="268438140" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="73" parent="globals/Rez/Layouts" pc="268438153" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="74" parent="globals/Rez/Layouts" pc="268438177" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="75" parent="globals/Rez/Layouts" pc="268438320" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="77" parent="globals/Rez/Layouts" pc="268438492" symbol="Middel2"/>
-        <entry filename="Rez" id="26" lineNum="86" parent="globals/Rez/Layouts" pc="268438530" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="88" parent="globals/Rez/Layouts" pc="268438542" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="90" parent="globals/Rez/Layouts" pc="268438555" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="91" parent="globals/Rez/Layouts" pc="268438579" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="92" parent="globals/Rez/Layouts" pc="268438722" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="94" parent="globals/Rez/Layouts" pc="268438894" symbol="Groot"/>
-        <entry filename="Rez" id="27" lineNum="103" parent="globals/Rez/Layouts" pc="268438932" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="106" parent="globals/Rez/Layouts" pc="268438944" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="107" parent="globals/Rez/Layouts" pc="268438968" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="108" parent="globals/Rez/Layouts" pc="268439101" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="110" parent="globals/Rez/Layouts" pc="268439234" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="28" lineNum="119" parent="globals/Rez/Layouts" pc="268439272" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="122" parent="globals/Rez/Layouts" pc="268439284" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="123" parent="globals/Rez/Layouts" pc="268439308" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="124" parent="globals/Rez/Layouts" pc="268439441" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="126" parent="globals/Rez/Layouts" pc="268439574" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="29" lineNum="135" parent="globals/Rez/Layouts" pc="268439612" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="138" parent="globals/Rez/Layouts" pc="268439624" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="139" parent="globals/Rez/Layouts" pc="268439648" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="140" parent="globals/Rez/Layouts" pc="268439781" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="142" parent="globals/Rez/Layouts" pc="268439914" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="30" lineNum="151" parent="globals/Rez/Layouts" pc="268439952" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="154" parent="globals/Rez/Layouts" pc="268439964" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="155" parent="globals/Rez/Layouts" pc="268439988" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="156" parent="globals/Rez/Layouts" pc="268440121" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="158" parent="globals/Rez/Layouts" pc="268440254" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="31" lineNum="10" parent="globals/Rez/Layouts" pc="268440358" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="32" lineNum="163" parent="globals/Rez/Menus" pc="268440356" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="33" lineNum="165" parent="globals/Rez/Strings" pc="268440360" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268440331" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268440331" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="1" lineNum="18" parent="globals/ETAView" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="1" lineNum="19" parent="globals/ETAView" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="1" lineNum="20" parent="globals/ETAView" pc="268435478" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="26" parent="globals/ETAView" pc="268435492" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="27" parent="globals/ETAView" pc="268435496" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="28" parent="globals/ETAView" pc="268435515" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="29" parent="globals/ETAView" pc="268435534" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="30" parent="globals/ETAView" pc="268435551" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="31" parent="globals/ETAView" pc="268435597" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="32" parent="globals/ETAView" pc="268435634" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="33" parent="globals/ETAView" pc="268435680" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="34" parent="globals/ETAView" pc="268435717" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="35" parent="globals/ETAView" pc="268435763" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="36" parent="globals/ETAView" pc="268435780" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="39" parent="globals/ETAView" pc="268435826" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="40" parent="globals/ETAView" pc="268435856" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="42" parent="globals/ETAView" pc="268435890" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="2" lineNum="43" parent="globals/ETAView" pc="268435920" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="50" parent="globals/ETAView" pc="268435959" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="52" parent="globals/ETAView" pc="268435963" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="53" parent="globals/ETAView" pc="268436015" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="54" parent="globals/ETAView" pc="268436046" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="55" parent="globals/ETAView" pc="268436115" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="56" parent="globals/ETAView" pc="268436134" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="58" parent="globals/ETAView" pc="268436164" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="60" parent="globals/ETAView" pc="268436201" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="61" parent="globals/ETAView" pc="268436228" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="62" parent="globals/ETAView" pc="268436264" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="65" parent="globals/ETAView" pc="268436314" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="66" parent="globals/ETAView" pc="268436329" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="67" parent="globals/ETAView" pc="268436360" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="74" parent="globals/ETAView" pc="268436448" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="3" lineNum="78" parent="globals/ETAView" pc="268436461" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="84" parent="globals/ETAView" pc="268436475" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="86" parent="globals/ETAView" pc="268436479" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="90" parent="globals/ETAView" pc="268436522" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="91" parent="globals/ETAView" pc="268436549" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="93" parent="globals/ETAView" pc="268436582" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="95" parent="globals/ETAView" pc="268436612" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="4" lineNum="98" parent="globals/ETAView" pc="268436638" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="5" lineNum="8" parent="globals/ETAView" pc="268440356" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAView.mc" id="5" lineNum="8" parent="globals/ETAView" pc="268440356" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="7" lineNum="7" parent="globals/ETAApp" pc="268436659" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="7" lineNum="8" parent="globals/ETAApp" pc="268436663" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="8" lineNum="12" parent="globals/ETAApp" pc="268436682" symbol="onStart"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="9" lineNum="16" parent="globals/ETAApp" pc="268436687" symbol="onStop"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="10" lineNum="20" parent="globals/ETAApp" pc="268436692" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="10" lineNum="21" parent="globals/ETAApp" pc="268436696" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="11" lineNum="5" parent="globals/ETAApp" pc="268440307" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="11" lineNum="5" parent="globals/ETAApp" pc="268440307" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="12" lineNum="26" parent="globals" pc="268436734" symbol="getApp"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETAApp.mc" id="12" lineNum="27" parent="globals" pc="268436746" symbol="getApp"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="14" lineNum="9" parent="globals/Background" pc="268436763" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="14" lineNum="10" parent="globals/Background" pc="268436767" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="14" lineNum="14" parent="globals/Background" pc="268436788" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="14" lineNum="16" parent="globals/Background" pc="268436808" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="15" lineNum="19" parent="globals/Background" pc="268436829" symbol="setColor"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="15" lineNum="20" parent="globals/Background" pc="268436833" symbol="setColor"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="16" lineNum="23" parent="globals/Background" pc="268436844" symbol="draw"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="16" lineNum="24" parent="globals/Background" pc="268436848" symbol="draw"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="16" lineNum="25" parent="globals/Background" pc="268436880" symbol="draw"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="17" lineNum="5" parent="globals/Background" pc="268440288" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\ETA\\source\\ETABackground.mc" id="17" lineNum="5" parent="globals/Background" pc="268440288" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="19" lineNum="2" parent="globals/Rez/Drawables" pc="268440350" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="20" lineNum="6" parent="globals/Rez/Fonts" pc="268440352" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="21" lineNum="8" parent="globals/Rez/JsonData" pc="268440354" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="22" lineNum="17" parent="globals/Rez/Layouts" pc="268436893" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="19" parent="globals/Rez/Layouts" pc="268436905" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="20" parent="globals/Rez/Layouts" pc="268436918" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268436931" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="23" parent="globals/Rez/Layouts" pc="268436955" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268437118" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268437281" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="35" parent="globals/Rez/Layouts" pc="268437319" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="37" parent="globals/Rez/Layouts" pc="268437331" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="39" parent="globals/Rez/Layouts" pc="268437344" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="40" parent="globals/Rez/Layouts" pc="268437368" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="41" parent="globals/Rez/Layouts" pc="268437511" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="43" parent="globals/Rez/Layouts" pc="268437683" symbol="Klein"/>
+        <entry filename="Rez" id="24" lineNum="52" parent="globals/Rez/Layouts" pc="268437721" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="54" parent="globals/Rez/Layouts" pc="268437733" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="56" parent="globals/Rez/Layouts" pc="268437746" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="57" parent="globals/Rez/Layouts" pc="268437770" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="58" parent="globals/Rez/Layouts" pc="268437913" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="60" parent="globals/Rez/Layouts" pc="268438085" symbol="Middel1"/>
+        <entry filename="Rez" id="25" lineNum="69" parent="globals/Rez/Layouts" pc="268438123" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="71" parent="globals/Rez/Layouts" pc="268438135" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="73" parent="globals/Rez/Layouts" pc="268438148" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="74" parent="globals/Rez/Layouts" pc="268438172" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="75" parent="globals/Rez/Layouts" pc="268438315" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="77" parent="globals/Rez/Layouts" pc="268438487" symbol="Middel2"/>
+        <entry filename="Rez" id="26" lineNum="86" parent="globals/Rez/Layouts" pc="268438525" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="88" parent="globals/Rez/Layouts" pc="268438537" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="90" parent="globals/Rez/Layouts" pc="268438550" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="91" parent="globals/Rez/Layouts" pc="268438574" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="92" parent="globals/Rez/Layouts" pc="268438717" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="94" parent="globals/Rez/Layouts" pc="268438889" symbol="Groot"/>
+        <entry filename="Rez" id="27" lineNum="103" parent="globals/Rez/Layouts" pc="268438927" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="106" parent="globals/Rez/Layouts" pc="268438939" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="107" parent="globals/Rez/Layouts" pc="268438963" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="108" parent="globals/Rez/Layouts" pc="268439096" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="110" parent="globals/Rez/Layouts" pc="268439229" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="28" lineNum="119" parent="globals/Rez/Layouts" pc="268439267" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="122" parent="globals/Rez/Layouts" pc="268439279" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="123" parent="globals/Rez/Layouts" pc="268439303" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="124" parent="globals/Rez/Layouts" pc="268439436" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="126" parent="globals/Rez/Layouts" pc="268439569" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="29" lineNum="135" parent="globals/Rez/Layouts" pc="268439607" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="138" parent="globals/Rez/Layouts" pc="268439619" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="139" parent="globals/Rez/Layouts" pc="268439643" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="140" parent="globals/Rez/Layouts" pc="268439776" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="142" parent="globals/Rez/Layouts" pc="268439909" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="30" lineNum="151" parent="globals/Rez/Layouts" pc="268439947" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="154" parent="globals/Rez/Layouts" pc="268439959" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="155" parent="globals/Rez/Layouts" pc="268439983" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="156" parent="globals/Rez/Layouts" pc="268440116" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="158" parent="globals/Rez/Layouts" pc="268440249" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="31" lineNum="10" parent="globals/Rez/Layouts" pc="268440353" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="32" lineNum="163" parent="globals/Rez/Menus" pc="268440351" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="33" lineNum="165" parent="globals/Rez/Strings" pc="268440355" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268440326" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268440326" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -150,6 +147,7 @@
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="30" symbol="valueView"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="12" module="true" symbol="Menus"/>
@@ -178,6 +176,7 @@
         <entry id="8389068" method="true" symbol="draw"/>
         <entry field="true" id="13" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="31" symbol="labelView"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
@@ -194,68 +193,65 @@
         <entry id="20" method="true" symbol="TopRightLayout"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268435976" name="valueView" stackId="2" startPc="268435509"/>
-        <entry endPc="268435976" name="labelView" stackId="3" startPc="268435509"/>
-        <entry arg="true" endPc="268435977" name="dc" stackId="1" startPc="268435505"/>
-        <entry endPc="268436309" name="tijdInSecondsMinuut" stackId="7" startPc="268436200"/>
-        <entry endPc="268436309" name="tijdInSecondsUur" stackId="6" startPc="268436200"/>
-        <entry endPc="268436456" name="tijdETAGregorian" stackId="9" startPc="268436313"/>
-        <entry endPc="268436456" name="tijdETA" stackId="8" startPc="268436313"/>
-        <entry endPc="268436456" name="dateString" stackId="10" startPc="268436313"/>
-        <entry endPc="268436456" name="tijdInSeconds" stackId="5" startPc="268436134"/>
-        <entry endPc="268436456" name="etaInSeconds" stackId="4" startPc="268436134"/>
-        <entry endPc="268436472" name="tijdNowGregorian" stackId="3" startPc="268435982"/>
-        <entry endPc="268436472" name="tijdNow" stackId="2" startPc="268435982"/>
-        <entry arg="true" endPc="268436473" name="info" stackId="1" startPc="268435978"/>
-        <entry endPc="268436662" name="value" stackId="2" startPc="268436478"/>
-        <entry arg="true" endPc="268436663" name="dc" stackId="1" startPc="268436474"/>
+        <entry arg="true" endPc="268435958" name="dc" stackId="1" startPc="268435492"/>
+        <entry endPc="268436310" name="tijdInSecondsMinuut" stackId="7" startPc="268436201"/>
+        <entry endPc="268436310" name="tijdInSecondsUur" stackId="6" startPc="268436201"/>
+        <entry endPc="268436457" name="tijdETAGregorian" stackId="9" startPc="268436314"/>
+        <entry endPc="268436457" name="tijdETA" stackId="8" startPc="268436314"/>
+        <entry endPc="268436457" name="dateString" stackId="10" startPc="268436314"/>
+        <entry endPc="268436457" name="tijdInSeconds" stackId="5" startPc="268436115"/>
+        <entry endPc="268436457" name="etaInSeconds" stackId="4" startPc="268436115"/>
+        <entry endPc="268436473" name="tijdNowGregorian" stackId="3" startPc="268435963"/>
+        <entry endPc="268436473" name="tijdNow" stackId="2" startPc="268435963"/>
+        <entry arg="true" endPc="268436474" name="info" stackId="1" startPc="268435959"/>
+        <entry arg="true" endPc="268436658" name="dc" stackId="1" startPc="268436475"/>
+        <entry arg="true" endPc="268436686" name="state" stackId="1" startPc="268436682"/>
         <entry arg="true" endPc="268436691" name="state" stackId="1" startPc="268436687"/>
-        <entry arg="true" endPc="268436696" name="state" stackId="1" startPc="268436692"/>
-        <entry endPc="268436832" name="dictionary" stackId="1" startPc="268436772"/>
-        <entry arg="true" endPc="268436848" name="color" stackId="1" startPc="268436834"/>
-        <entry arg="true" endPc="268436897" name="dc" stackId="1" startPc="268436849"/>
-        <entry endPc="268437322" name="rez_cmp_local_text_value" stackId="6" startPc="268436910"/>
-        <entry endPc="268437322" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268436910"/>
-        <entry endPc="268437322" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268436910"/>
-        <entry endPc="268437322" name="rez_cmp_local_text_label" stackId="5" startPc="268436910"/>
-        <entry endPc="268437322" name="rez_cmp_local_custom_drawable_24633135645455145976" stackId="4" startPc="268436910"/>
-        <entry arg="true" endPc="268437323" name="dc" stackId="1" startPc="268436898"/>
-        <entry endPc="268437724" name="rez_cmp_local_text_value" stackId="5" startPc="268437336"/>
-        <entry endPc="268437724" name="rez_cmp_local_custom_drawable_14339968023293449127" stackId="3" startPc="268437336"/>
-        <entry endPc="268437724" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268437336"/>
-        <entry endPc="268437724" name="rez_cmp_local_text_label" stackId="4" startPc="268437336"/>
-        <entry arg="true" endPc="268437725" name="dc" stackId="1" startPc="268437324"/>
-        <entry endPc="268438126" name="rez_cmp_local_text_value" stackId="5" startPc="268437738"/>
-        <entry endPc="268438126" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268437738"/>
-        <entry endPc="268438126" name="rez_cmp_local_custom_drawable_99850207379398433815" stackId="3" startPc="268437738"/>
-        <entry endPc="268438126" name="rez_cmp_local_text_label" stackId="4" startPc="268437738"/>
-        <entry arg="true" endPc="268438127" name="dc" stackId="1" startPc="268437726"/>
-        <entry endPc="268438528" name="rez_cmp_local_text_value" stackId="5" startPc="268438140"/>
-        <entry endPc="268438528" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438140"/>
-        <entry endPc="268438528" name="rez_cmp_local_custom_drawable_99431243811979101381" stackId="3" startPc="268438140"/>
-        <entry endPc="268438528" name="rez_cmp_local_text_label" stackId="4" startPc="268438140"/>
-        <entry arg="true" endPc="268438529" name="dc" stackId="1" startPc="268438128"/>
-        <entry endPc="268438930" name="rez_cmp_local_custom_drawable_15006557651283274435" stackId="3" startPc="268438542"/>
-        <entry endPc="268438930" name="rez_cmp_local_text_value" stackId="5" startPc="268438542"/>
-        <entry endPc="268438930" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438542"/>
-        <entry endPc="268438930" name="rez_cmp_local_text_label" stackId="4" startPc="268438542"/>
-        <entry arg="true" endPc="268438931" name="dc" stackId="1" startPc="268438530"/>
-        <entry endPc="268439270" name="rez_cmp_local_text_value" stackId="4" startPc="268438944"/>
-        <entry endPc="268439270" name="rez_cmp_local_custom_drawable_62549069321411465821" stackId="2" startPc="268438944"/>
-        <entry endPc="268439270" name="rez_cmp_local_text_label" stackId="3" startPc="268438944"/>
-        <entry arg="true" endPc="268439271" name="dc" stackId="1" startPc="268438932"/>
-        <entry endPc="268439610" name="rez_cmp_local_text_value" stackId="4" startPc="268439284"/>
-        <entry endPc="268439610" name="rez_cmp_local_text_label" stackId="3" startPc="268439284"/>
-        <entry endPc="268439610" name="rez_cmp_local_custom_drawable_10882650734949280141" stackId="2" startPc="268439284"/>
-        <entry arg="true" endPc="268439611" name="dc" stackId="1" startPc="268439272"/>
-        <entry endPc="268439950" name="rez_cmp_local_text_value" stackId="4" startPc="268439624"/>
-        <entry endPc="268439950" name="rez_cmp_local_custom_drawable_38910231310527691732" stackId="2" startPc="268439624"/>
-        <entry endPc="268439950" name="rez_cmp_local_text_label" stackId="3" startPc="268439624"/>
-        <entry arg="true" endPc="268439951" name="dc" stackId="1" startPc="268439612"/>
-        <entry endPc="268440290" name="rez_cmp_local_text_value" stackId="4" startPc="268439964"/>
-        <entry endPc="268440290" name="rez_cmp_local_text_label" stackId="3" startPc="268439964"/>
-        <entry endPc="268440290" name="rez_cmp_local_custom_drawable_48265822784732294865" stackId="2" startPc="268439964"/>
-        <entry arg="true" endPc="268440291" name="dc" stackId="1" startPc="268439952"/>
+        <entry endPc="268436827" name="dictionary" stackId="1" startPc="268436767"/>
+        <entry arg="true" endPc="268436843" name="color" stackId="1" startPc="268436829"/>
+        <entry arg="true" endPc="268436892" name="dc" stackId="1" startPc="268436844"/>
+        <entry endPc="268437317" name="rez_cmp_local_text_value" stackId="6" startPc="268436905"/>
+        <entry endPc="268437317" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268436905"/>
+        <entry endPc="268437317" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268436905"/>
+        <entry endPc="268437317" name="rez_cmp_local_text_label" stackId="5" startPc="268436905"/>
+        <entry endPc="268437317" name="rez_cmp_local_custom_drawable_86358958917985040149" stackId="4" startPc="268436905"/>
+        <entry arg="true" endPc="268437318" name="dc" stackId="1" startPc="268436893"/>
+        <entry endPc="268437719" name="rez_cmp_local_text_value" stackId="5" startPc="268437331"/>
+        <entry endPc="268437719" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268437331"/>
+        <entry endPc="268437719" name="rez_cmp_local_custom_drawable_21439387801995675863" stackId="3" startPc="268437331"/>
+        <entry endPc="268437719" name="rez_cmp_local_text_label" stackId="4" startPc="268437331"/>
+        <entry arg="true" endPc="268437720" name="dc" stackId="1" startPc="268437319"/>
+        <entry endPc="268438121" name="rez_cmp_local_text_value" stackId="5" startPc="268437733"/>
+        <entry endPc="268438121" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268437733"/>
+        <entry endPc="268438121" name="rez_cmp_local_text_label" stackId="4" startPc="268437733"/>
+        <entry endPc="268438121" name="rez_cmp_local_custom_drawable_16692851579084358031" stackId="3" startPc="268437733"/>
+        <entry arg="true" endPc="268438122" name="dc" stackId="1" startPc="268437721"/>
+        <entry endPc="268438523" name="rez_cmp_local_text_value" stackId="5" startPc="268438135"/>
+        <entry endPc="268438523" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438135"/>
+        <entry endPc="268438523" name="rez_cmp_local_custom_drawable_17959391420755267736" stackId="3" startPc="268438135"/>
+        <entry endPc="268438523" name="rez_cmp_local_text_label" stackId="4" startPc="268438135"/>
+        <entry arg="true" endPc="268438524" name="dc" stackId="1" startPc="268438123"/>
+        <entry endPc="268438925" name="rez_cmp_local_text_value" stackId="5" startPc="268438537"/>
+        <entry endPc="268438925" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438537"/>
+        <entry endPc="268438925" name="rez_cmp_local_custom_drawable_89984866264723321911" stackId="3" startPc="268438537"/>
+        <entry endPc="268438925" name="rez_cmp_local_text_label" stackId="4" startPc="268438537"/>
+        <entry arg="true" endPc="268438926" name="dc" stackId="1" startPc="268438525"/>
+        <entry endPc="268439265" name="rez_cmp_local_text_value" stackId="4" startPc="268438939"/>
+        <entry endPc="268439265" name="rez_cmp_local_custom_drawable_93342367218360136071" stackId="2" startPc="268438939"/>
+        <entry endPc="268439265" name="rez_cmp_local_text_label" stackId="3" startPc="268438939"/>
+        <entry arg="true" endPc="268439266" name="dc" stackId="1" startPc="268438927"/>
+        <entry endPc="268439605" name="rez_cmp_local_text_value" stackId="4" startPc="268439279"/>
+        <entry endPc="268439605" name="rez_cmp_local_custom_drawable_13995287491398326965" stackId="2" startPc="268439279"/>
+        <entry endPc="268439605" name="rez_cmp_local_text_label" stackId="3" startPc="268439279"/>
+        <entry arg="true" endPc="268439606" name="dc" stackId="1" startPc="268439267"/>
+        <entry endPc="268439945" name="rez_cmp_local_text_value" stackId="4" startPc="268439619"/>
+        <entry endPc="268439945" name="rez_cmp_local_text_label" stackId="3" startPc="268439619"/>
+        <entry endPc="268439945" name="rez_cmp_local_custom_drawable_82578384411468553681" stackId="2" startPc="268439619"/>
+        <entry arg="true" endPc="268439946" name="dc" stackId="1" startPc="268439607"/>
+        <entry endPc="268440285" name="rez_cmp_local_text_value" stackId="4" startPc="268439959"/>
+        <entry endPc="268440285" name="rez_cmp_local_custom_drawable_13101078025599920920" stackId="2" startPc="268439959"/>
+        <entry endPc="268440285" name="rez_cmp_local_text_label" stackId="3" startPc="268439959"/>
+        <entry arg="true" endPc="268440286" name="dc" stackId="1" startPc="268439947"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -279,113 +275,113 @@
         <dataEntry label="globals/ETAView" offset="693" parentId="globals" symbolId="ETAView" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435504" name="initialize" parent="ETAView" startPc="268435456">
+        <functionEntry accessMode="public" endPc="268435491" name="initialize" parent="ETAView" startPc="268435456">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435977" name="onLayout" parent="ETAView" startPc="268435505">
+        <functionEntry accessMode="public" endPc="268435958" name="onLayout" parent="ETAView" startPc="268435492">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436473" name="compute" parent="ETAView" startPc="268435978">
+        <functionEntry accessMode="public" endPc="268436474" name="compute" parent="ETAView" startPc="268435959">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436663" name="onUpdate" parent="ETAView" startPc="268436474">
+        <functionEntry accessMode="public" endPc="268436658" name="onUpdate" parent="ETAView" startPc="268436475">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440379" name="&lt;init&gt;" parent="ETAView" startPc="268440361">
+        <functionEntry accessMode="protected" endPc="268440374" name="&lt;init&gt;" parent="ETAView" startPc="268440356">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436686" name="initialize" parent="ETAApp" startPc="268436664">
+        <functionEntry accessMode="public" endPc="268436681" name="initialize" parent="ETAApp" startPc="268436659">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436691" name="onStart" parent="ETAApp" startPc="268436687">
+        <functionEntry accessMode="public" endPc="268436686" name="onStart" parent="ETAApp" startPc="268436682">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436696" name="onStop" parent="ETAApp" startPc="268436692">
+        <functionEntry accessMode="public" endPc="268436691" name="onStop" parent="ETAApp" startPc="268436687">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436738" name="getInitialView" parent="ETAApp" startPc="268436697">
+        <functionEntry accessMode="public" endPc="268436733" name="getInitialView" parent="ETAApp" startPc="268436692">
             <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440330" name="&lt;init&gt;" parent="ETAApp" startPc="268440312">
+        <functionEntry accessMode="protected" endPc="268440325" name="&lt;init&gt;" parent="ETAApp" startPc="268440307">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436767" name="getApp" startPc="268436739">
+        <functionEntry accessMode="public" endPc="268436762" name="getApp" startPc="268436734">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436833" name="initialize" parent="Background" startPc="268436768">
+        <functionEntry accessMode="public" endPc="268436828" name="initialize" parent="Background" startPc="268436763">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436848" name="setColor" parent="Background" startPc="268436834">
+        <functionEntry accessMode="public" endPc="268436843" name="setColor" parent="Background" startPc="268436829">
             <param id="color"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436897" name="draw" parent="Background" startPc="268436849">
+        <functionEntry accessMode="public" endPc="268436892" name="draw" parent="Background" startPc="268436844">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440311" name="&lt;init&gt;" parent="Background" startPc="268440293">
+        <functionEntry accessMode="protected" endPc="268440306" name="&lt;init&gt;" parent="Background" startPc="268440288">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440355" name="&lt;init&gt;" parent="Drawables" startPc="268440355">
+        <functionEntry accessMode="protected" endPc="268440350" name="&lt;init&gt;" parent="Drawables" startPc="268440350">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440357" name="&lt;init&gt;" parent="Fonts" startPc="268440357">
+        <functionEntry accessMode="protected" endPc="268440352" name="&lt;init&gt;" parent="Fonts" startPc="268440352">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440359" name="&lt;init&gt;" parent="JsonData" startPc="268440359">
+        <functionEntry accessMode="protected" endPc="268440354" name="&lt;init&gt;" parent="JsonData" startPc="268440354">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437323" name="MainLayout" parent="Layouts" startPc="268436898">
+        <functionEntry accessMode="public" endPc="268437318" name="MainLayout" parent="Layouts" startPc="268436893">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437725" name="Klein" parent="Layouts" startPc="268437324">
+        <functionEntry accessMode="public" endPc="268437720" name="Klein" parent="Layouts" startPc="268437319">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438127" name="Middel1" parent="Layouts" startPc="268437726">
+        <functionEntry accessMode="public" endPc="268438122" name="Middel1" parent="Layouts" startPc="268437721">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438529" name="Middel2" parent="Layouts" startPc="268438128">
+        <functionEntry accessMode="public" endPc="268438524" name="Middel2" parent="Layouts" startPc="268438123">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438931" name="Groot" parent="Layouts" startPc="268438530">
+        <functionEntry accessMode="public" endPc="268438926" name="Groot" parent="Layouts" startPc="268438525">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439271" name="TopLeftLayout" parent="Layouts" startPc="268438932">
+        <functionEntry accessMode="public" endPc="268439266" name="TopLeftLayout" parent="Layouts" startPc="268438927">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439611" name="TopRightLayout" parent="Layouts" startPc="268439272">
+        <functionEntry accessMode="public" endPc="268439606" name="TopRightLayout" parent="Layouts" startPc="268439267">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439951" name="BottomLeftLayout" parent="Layouts" startPc="268439612">
+        <functionEntry accessMode="public" endPc="268439946" name="BottomLeftLayout" parent="Layouts" startPc="268439607">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440291" name="BottomRightLayout" parent="Layouts" startPc="268439952">
+        <functionEntry accessMode="public" endPc="268440286" name="BottomRightLayout" parent="Layouts" startPc="268439947">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440358" name="&lt;init&gt;" parent="Layouts" startPc="268440358">
+        <functionEntry accessMode="protected" endPc="268440353" name="&lt;init&gt;" parent="Layouts" startPc="268440353">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440356" name="&lt;init&gt;" parent="Menus" startPc="268440356">
+        <functionEntry accessMode="protected" endPc="268440351" name="&lt;init&gt;" parent="Menus" startPc="268440351">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440360" name="&lt;init&gt;" parent="Strings" startPc="268440360">
+        <functionEntry accessMode="protected" endPc="268440355" name="&lt;init&gt;" parent="Strings" startPc="268440355">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268440354" name="&lt;init&gt;" parent="Rez" startPc="268440331">
+        <functionEntry accessMode="protected" endPc="268440349" name="&lt;init&gt;" parent="Rez" startPc="268440326">
             <documentation/>
         </functionEntry>
     </functions>
