@@ -86,11 +86,12 @@ class ETAView extends WatchUi.DataField {
         (View.findDrawableById("Background") as Text).setColor(getBackgroundColor());
 
         // Set the foreground color and value
-//        var value = View.findDrawableById("value") as Text;
         if (getBackgroundColor() == Graphics.COLOR_BLACK) {
             valueView.setColor(Graphics.COLOR_WHITE);
+            labelView.setColor(Graphics.COLOR_WHITE);
         } else {
             valueView.setColor(Graphics.COLOR_BLACK);
+            labelView.setColor(Graphics.COLOR_BLACK);
         }
         valueView.setText(mValue);
 
