@@ -18,6 +18,9 @@ class SnelheidView extends WatchUi.DataField {
     hidden var vorigemidden;
     hidden var currentSpeed;
     hidden var averageSpeed;
+
+    hidden var valueView;
+    hidden var labelView;
     
     function initialize() {
         DataField.initialize();
@@ -42,11 +45,11 @@ class SnelheidView extends WatchUi.DataField {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 
-        var valueView = View.findDrawableById("value");
+        valueView = View.findDrawableById("value");
         valueView.locY = valueView.locY + 10;
 
         // plaats label "Speed" boven aan
-        var labelView = View.findDrawableById("label") as Text;
+        labelView = View.findDrawableById("label") as Text;
         if (mMetric == System.UNIT_METRIC) {
             labelView.setText(Rez.Strings.labelmetric);
         } else {
@@ -64,21 +67,14 @@ class SnelheidView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
         verschil = 0;
         if (info has :currentSpeed) {
-            currentSpeed = info.currentSpeed;
-            averageSpeed = info.averageSpeed;
-
-            if ((averageSpeed != null) and (averageSpeed != 0)) {
-                V = ((currentSpeed - averageSpeed) * 100) / averageSpeed;
-                System.println(V);
-                if (V > 5) {
-                    verschil = 1;
-                } else if (V < -5) {
-                    verschil = -1;
-                }
-            }
-
-            if (currentSpeed != null) {
+            if (info.currentSpeed != null) {
+                currentSpeed = info.currentSpeed;
                 mValue = currentSpeed * ((mMetric == System.UNIT_METRIC) ? (3.6) : (2.23693629));
+                if ((info.averageSpeed != null) and (info.averageSpeed != 0)) {
+                    averageSpeed = info.averageSpeed;
+                    V = ((currentSpeed - averageSpeed) * 100) / averageSpeed;
+                    verschil = (V > 5) ? 1 : ((V < -5) ? -1 : 0);
+                }
             } else {
                 mValue = 0.0f;
             }
@@ -91,34 +87,31 @@ class SnelheidView extends WatchUi.DataField {
         // Get the background color
         var achtergrond = View.findDrawableById("Background") as Text;
 
-         // Set the foreground color and value
-        var label = View.findDrawableById("label") as Text;
-        var value = View.findDrawableById("value") as Text;
         switch (verschil) {
             case 0:
                 achtergrond.setColor(getBackgroundColor());
                 if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-                    label.setColor(Graphics.COLOR_WHITE);
-                    value.setColor(Graphics.COLOR_WHITE);
+                    labelView.setColor(Graphics.COLOR_WHITE);
+                    valueView.setColor(Graphics.COLOR_WHITE);
                 } else {
-                    label.setColor(Graphics.COLOR_BLACK);
-                    value.setColor(Graphics.COLOR_BLACK);
+                    labelView.setColor(Graphics.COLOR_BLACK);
+                    valueView.setColor(Graphics.COLOR_BLACK);
                 }
                 break;
             case 1:
-                label.setColor(voorgrondhoog);
-                value.setColor(voorgrondhoog);
+                labelView.setColor(voorgrondhoog);
+                valueView.setColor(voorgrondhoog);
                 achtergrond.setColor(achtergrondhoog);
                 break;
             case -1:
-                label.setColor(voorgrondlaag);
-                value.setColor(voorgrondlaag);
+                labelView.setColor(voorgrondlaag);
+                valueView.setColor(voorgrondlaag);
                 achtergrond.setColor(achtergrondlaag);
                 break;
         }
 
         // Set the value
-        value.setText(mValue.format("%.1f"));
+        valueView.setText(mValue.format("%.1f"));
         
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);

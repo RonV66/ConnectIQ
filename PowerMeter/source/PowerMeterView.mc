@@ -17,9 +17,12 @@ class PowerMeterView extends WatchUi.DataField {
     hidden var vorigemidden;
     hidden var currentPower;
     hidden var averagePower;
-    hidden var powerGemiddeldeArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    hidden var powerGemiddeldeArray;
     hidden var powerGemiddeldeTijd;
     hidden var teller;
+
+    hidden var valueView;
+    hidden var labelView;
 
     function initialize() {
         DataField.initialize();
@@ -28,6 +31,11 @@ class PowerMeterView extends WatchUi.DataField {
         V = 0;
         vorigemidden = 9;
         teller = 0;
+
+        powerGemiddeldeTijd = Application.Properties.getValue("powerGemiddeldeTijd");
+        powerGemiddeldeArray = new [powerGemiddeldeTijd];
+        for (var x=0; x<powerGemiddeldeTijd; x++) { powerGemiddeldeArray[x] = 0; }
+
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -45,20 +53,17 @@ class PowerMeterView extends WatchUi.DataField {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 
-        var valueView = View.findDrawableById("value");
+        valueView = View.findDrawableById("value");
         valueView.locY = valueView.locY + 10;
 
-        // plaats label "Power" boven aan
-        (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
+        labelView = View.findDrawableById("label") as Text;
+        labelView.setText(Rez.Strings.label);
 
         // Achtergrond en voorgrond kleur instellingen opvragen
         achtergrondhoog = Application.Properties.getValue("achtergrondhoog");
         achtergrondlaag = Application.Properties.getValue("achtergrondlaag");
         voorgrondhoog = Application.Properties.getValue("voorgrondhoog");
         voorgrondlaag = Application.Properties.getValue("voorgrondlaag");
-
-        powerGemiddeldeTijd = Application.Properties.getValue("powerGemiddeldeTijd");
-        System.print(Application.Properties.getValue("powerGemiddeldeTijd"));
     }
 
     // The given info object contains all the current workout information.
@@ -72,26 +77,17 @@ class PowerMeterView extends WatchUi.DataField {
             if (info.currentPower != null){
                 currentPower = info.currentPower;
 
-                if (powerGemiddeldeTijd != 0) {
-                    if (teller == powerGemiddeldeTijd) {teller = 0;}
+                if (powerGemiddeldeTijd > 0) {
                     powerGemiddeldeArray[teller] = currentPower;
-                    teller += 1;
-                    mValue = 0;
-                    for (var y=0; y<powerGemiddeldeTijd; y++) {
-                        mValue += powerGemiddeldeArray[y];
-                    }
-                    mValue = mValue / powerGemiddeldeTijd;
+                    teller = (teller < (powerGemiddeldeTijd-1)) ? (teller+1) : 0;
+                    mValue = Math.mean(powerGemiddeldeArray);
                 } else {
                     mValue = currentPower;
                 }
                 if ((info.averagePower != null) and (info.averagePower != 0)) {
                     averagePower = info.averagePower;
                     V = ((mValue - averagePower) * 100) / averagePower;
-                    if (V > 5) {
-                        verschil = 1;
-                    } else if (V < -5) {
-                        verschil = -1;
-                    }
+                    verschil = (V > 5) ? 1 : ((V < -5) ? -1 : 0);
                 }
             } else {
                 mValue = 0;
@@ -104,34 +100,31 @@ class PowerMeterView extends WatchUi.DataField {
         // Get the background color
         var achtergrond = View.findDrawableById("Background") as Text;
 
-         // Set the foreground color and value
-        var label = View.findDrawableById("label") as Text;
-        var value = View.findDrawableById("value") as Text;
         switch (verschil) {
             case 0:
                 achtergrond.setColor(getBackgroundColor());
                 if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-                    label.setColor(Graphics.COLOR_WHITE);
-                    value.setColor(Graphics.COLOR_WHITE);
+                    labelView.setColor(Graphics.COLOR_WHITE);
+                    valueView.setColor(Graphics.COLOR_WHITE);
                 } else {
-                    label.setColor(Graphics.COLOR_BLACK);
-                    value.setColor(Graphics.COLOR_BLACK);
+                    labelView.setColor(Graphics.COLOR_BLACK);
+                    valueView.setColor(Graphics.COLOR_BLACK);
                 }
                 break;
             case 1:
-                label.setColor(voorgrondhoog);
-                value.setColor(voorgrondhoog);
+                labelView.setColor(voorgrondhoog);
+                valueView.setColor(voorgrondhoog);
                 achtergrond.setColor(achtergrondhoog);
                 break;
             case -1:
-                label.setColor(voorgrondlaag);
-                value.setColor(voorgrondlaag);
+                labelView.setColor(voorgrondlaag);
+                valueView.setColor(voorgrondlaag);
                 achtergrond.setColor(achtergrondlaag);
                 break;
         }
 
         // Set the value
-        value.setText(mValue.format("%0d"));
+        valueView.setText(mValue.format("%0d"));
         
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);

@@ -11,211 +11,203 @@
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterBackground.mc" id="3" lineNum="23" parent="globals/Background" pc="268435537" symbol="draw"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterBackground.mc" id="3" lineNum="24" parent="globals/Background" pc="268435541" symbol="draw"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterBackground.mc" id="3" lineNum="25" parent="globals/Background" pc="268435573" symbol="draw"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268442073" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268442073" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268442068" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268442068" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="6" lineNum="7" parent="globals/PowerMeterApp" pc="268435586" symbol="initialize"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="6" lineNum="8" parent="globals/PowerMeterApp" pc="268435590" symbol="initialize"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="7" lineNum="12" parent="globals/PowerMeterApp" pc="268435609" symbol="onStart"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="8" lineNum="16" parent="globals/PowerMeterApp" pc="268435614" symbol="onStop"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="9" lineNum="20" parent="globals/PowerMeterApp" pc="268435619" symbol="getInitialView"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="9" lineNum="21" parent="globals/PowerMeterApp" pc="268435623" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="10" lineNum="5" parent="globals/PowerMeterApp" pc="268442092" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="10" lineNum="5" parent="globals/PowerMeterApp" pc="268442092" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="10" lineNum="5" parent="globals/PowerMeterApp" pc="268442087" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="10" lineNum="5" parent="globals/PowerMeterApp" pc="268442087" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="11" lineNum="26" parent="globals" pc="268435661" symbol="getApp"/>
         <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterApp.mc" id="11" lineNum="27" parent="globals" pc="268435673" symbol="getApp"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="24" parent="globals/PowerMeterView" pc="268435690" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="25" parent="globals/PowerMeterView" pc="268435694" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="26" parent="globals/PowerMeterView" pc="268435712" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="27" parent="globals/PowerMeterView" pc="268435725" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="28" parent="globals/PowerMeterView" pc="268435738" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="29" parent="globals/PowerMeterView" pc="268435751" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="30" parent="globals/PowerMeterView" pc="268435764" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="35" parent="globals/PowerMeterView" pc="268435778" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="36" parent="globals/PowerMeterView" pc="268435782" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="37" parent="globals/PowerMeterView" pc="268435801" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="38" parent="globals/PowerMeterView" pc="268435820" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="39" parent="globals/PowerMeterView" pc="268435837" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="40" parent="globals/PowerMeterView" pc="268435883" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="41" parent="globals/PowerMeterView" pc="268435920" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="42" parent="globals/PowerMeterView" pc="268435966" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="43" parent="globals/PowerMeterView" pc="268436003" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="44" parent="globals/PowerMeterView" pc="268436049" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="45" parent="globals/PowerMeterView" pc="268436066" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="48" parent="globals/PowerMeterView" pc="268436112" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="49" parent="globals/PowerMeterView" pc="268436136" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="52" parent="globals/PowerMeterView" pc="268436158" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="55" parent="globals/PowerMeterView" pc="268436210" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="56" parent="globals/PowerMeterView" pc="268436246" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="57" parent="globals/PowerMeterView" pc="268436282" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="58" parent="globals/PowerMeterView" pc="268436318" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="60" parent="globals/PowerMeterView" pc="268436354" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="61" parent="globals/PowerMeterView" pc="268436390" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="68" parent="globals/PowerMeterView" pc="268436437" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="70" parent="globals/PowerMeterView" pc="268436441" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="71" parent="globals/PowerMeterView" pc="268436454" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="72" parent="globals/PowerMeterView" pc="268436465" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="73" parent="globals/PowerMeterView" pc="268436478" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="75" parent="globals/PowerMeterView" pc="268436494" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="76" parent="globals/PowerMeterView" pc="268436511" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="76" parent="globals/PowerMeterView" pc="268436531" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="77" parent="globals/PowerMeterView" pc="268436547" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="78" parent="globals/PowerMeterView" pc="268436572" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="79" parent="globals/PowerMeterView" pc="268436591" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="80" parent="globals/PowerMeterView" pc="268436604" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="81" parent="globals/PowerMeterView" pc="268436625" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="83" parent="globals/PowerMeterView" pc="268436663" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="85" parent="globals/PowerMeterView" pc="268436691" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="87" parent="globals/PowerMeterView" pc="268436707" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="88" parent="globals/PowerMeterView" pc="268436740" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="89" parent="globals/PowerMeterView" pc="268436756" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="90" parent="globals/PowerMeterView" pc="268436796" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="91" parent="globals/PowerMeterView" pc="268436813" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="92" parent="globals/PowerMeterView" pc="268436829" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="93" parent="globals/PowerMeterView" pc="268436846" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="97" parent="globals/PowerMeterView" pc="268436868" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="103" parent="globals/PowerMeterView" pc="268436885" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="105" parent="globals/PowerMeterView" pc="268436889" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="108" parent="globals/PowerMeterView" pc="268436913" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="109" parent="globals/PowerMeterView" pc="268436937" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="110" parent="globals/PowerMeterView" pc="268436961" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="112" parent="globals/PowerMeterView" pc="268437039" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="113" parent="globals/PowerMeterView" pc="268437062" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="114" parent="globals/PowerMeterView" pc="268437089" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="115" parent="globals/PowerMeterView" pc="268437113" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="117" parent="globals/PowerMeterView" pc="268437140" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="118" parent="globals/PowerMeterView" pc="268437164" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="120" parent="globals/PowerMeterView" pc="268437188" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="122" parent="globals/PowerMeterView" pc="268437191" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="123" parent="globals/PowerMeterView" pc="268437211" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="124" parent="globals/PowerMeterView" pc="268437231" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="125" parent="globals/PowerMeterView" pc="268437251" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="127" parent="globals/PowerMeterView" pc="268437254" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="128" parent="globals/PowerMeterView" pc="268437274" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="129" parent="globals/PowerMeterView" pc="268437294" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="130" parent="globals/PowerMeterView" pc="268437314" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="134" parent="globals/PowerMeterView" pc="268437317" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="137" parent="globals/PowerMeterView" pc="268437351" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="139" parent="globals/PowerMeterView" pc="268437371" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="140" parent="globals/PowerMeterView" pc="268437388" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="141" parent="globals/PowerMeterView" pc="268437388" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="142" parent="globals/PowerMeterView" pc="268437395" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="143" parent="globals/PowerMeterView" pc="268437402" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="144" parent="globals/PowerMeterView" pc="268437415" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="146" parent="globals/PowerMeterView" pc="268437422" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="146" parent="globals/PowerMeterView" pc="268437439" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="147" parent="globals/PowerMeterView" pc="268437449" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="147" parent="globals/PowerMeterView" pc="268437486" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="148" parent="globals/PowerMeterView" pc="268437496" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="148" parent="globals/PowerMeterView" pc="268437533" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="149" parent="globals/PowerMeterView" pc="268437543" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="149" parent="globals/PowerMeterView" pc="268437580" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="150" parent="globals/PowerMeterView" pc="268437590" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="150" parent="globals/PowerMeterView" pc="268437627" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="151" parent="globals/PowerMeterView" pc="268437637" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="151" parent="globals/PowerMeterView" pc="268437674" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="152" parent="globals/PowerMeterView" pc="268437684" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="152" parent="globals/PowerMeterView" pc="268437721" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="153" parent="globals/PowerMeterView" pc="268437731" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="153" parent="globals/PowerMeterView" pc="268437768" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="154" parent="globals/PowerMeterView" pc="268437778" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="154" parent="globals/PowerMeterView" pc="268437815" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="156" parent="globals/PowerMeterView" pc="268437825" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="156" parent="globals/PowerMeterView" pc="268437862" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="158" parent="globals/PowerMeterView" pc="268437872" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="158" parent="globals/PowerMeterView" pc="268437909" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="159" parent="globals/PowerMeterView" pc="268437919" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="159" parent="globals/PowerMeterView" pc="268437956" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="160" parent="globals/PowerMeterView" pc="268437966" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="160" parent="globals/PowerMeterView" pc="268438003" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="161" parent="globals/PowerMeterView" pc="268438013" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="161" parent="globals/PowerMeterView" pc="268438050" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="162" parent="globals/PowerMeterView" pc="268438060" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="162" parent="globals/PowerMeterView" pc="268438097" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="163" parent="globals/PowerMeterView" pc="268438107" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="163" parent="globals/PowerMeterView" pc="268438144" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="164" parent="globals/PowerMeterView" pc="268438154" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="164" parent="globals/PowerMeterView" pc="268438191" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="165" parent="globals/PowerMeterView" pc="268438201" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="165" parent="globals/PowerMeterView" pc="268438238" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="166" parent="globals/PowerMeterView" pc="268438248" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="166" parent="globals/PowerMeterView" pc="268438265" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="168" parent="globals/PowerMeterView" pc="268438275" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="169" parent="globals/PowerMeterView" pc="268438290" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="170" parent="globals/PowerMeterView" pc="268438330" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="171" parent="globals/PowerMeterView" pc="268438334" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="172" parent="globals/PowerMeterView" pc="268438348" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="173" parent="globals/PowerMeterView" pc="268438388" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="175" parent="globals/PowerMeterView" pc="268438395" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="176" parent="globals/PowerMeterView" pc="268438409" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="177" parent="globals/PowerMeterView" pc="268438449" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="180" parent="globals/PowerMeterView" pc="268438456" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="181" parent="globals/PowerMeterView" pc="268438487" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="182" parent="globals/PowerMeterView" pc="268438542" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="183" parent="globals/PowerMeterView" pc="268438550" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="185" parent="globals/PowerMeterView" pc="268438605" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="188" parent="globals/PowerMeterView" pc="268438664" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="17" lineNum="6" parent="globals/PowerMeterView" pc="268442141" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="17" lineNum="20" parent="globals/PowerMeterView" pc="268442159" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="17" lineNum="6" parent="globals/PowerMeterView" pc="268442141" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="19" lineNum="2" parent="globals/Rez/Drawables" pc="268442135" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="20" lineNum="6" parent="globals/Rez/Fonts" pc="268442137" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="21" lineNum="8" parent="globals/Rez/JsonData" pc="268442139" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="22" lineNum="17" parent="globals/Rez/Layouts" pc="268438678" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="19" parent="globals/Rez/Layouts" pc="268438690" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="20" parent="globals/Rez/Layouts" pc="268438703" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268438716" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="23" parent="globals/Rez/Layouts" pc="268438740" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268438903" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268439066" symbol="MainLayout"/>
-        <entry filename="Rez" id="23" lineNum="35" parent="globals/Rez/Layouts" pc="268439104" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="37" parent="globals/Rez/Layouts" pc="268439116" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="39" parent="globals/Rez/Layouts" pc="268439129" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="40" parent="globals/Rez/Layouts" pc="268439153" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="41" parent="globals/Rez/Layouts" pc="268439296" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="43" parent="globals/Rez/Layouts" pc="268439468" symbol="Klein"/>
-        <entry filename="Rez" id="24" lineNum="52" parent="globals/Rez/Layouts" pc="268439506" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="54" parent="globals/Rez/Layouts" pc="268439518" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="56" parent="globals/Rez/Layouts" pc="268439531" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="57" parent="globals/Rez/Layouts" pc="268439555" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="58" parent="globals/Rez/Layouts" pc="268439698" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="60" parent="globals/Rez/Layouts" pc="268439870" symbol="Middel1"/>
-        <entry filename="Rez" id="25" lineNum="69" parent="globals/Rez/Layouts" pc="268439908" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="71" parent="globals/Rez/Layouts" pc="268439920" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="73" parent="globals/Rez/Layouts" pc="268439933" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="74" parent="globals/Rez/Layouts" pc="268439957" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="75" parent="globals/Rez/Layouts" pc="268440100" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="77" parent="globals/Rez/Layouts" pc="268440272" symbol="Middel2"/>
-        <entry filename="Rez" id="26" lineNum="86" parent="globals/Rez/Layouts" pc="268440310" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="88" parent="globals/Rez/Layouts" pc="268440322" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="90" parent="globals/Rez/Layouts" pc="268440335" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="91" parent="globals/Rez/Layouts" pc="268440359" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="92" parent="globals/Rez/Layouts" pc="268440502" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="94" parent="globals/Rez/Layouts" pc="268440674" symbol="Groot"/>
-        <entry filename="Rez" id="27" lineNum="103" parent="globals/Rez/Layouts" pc="268440712" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="106" parent="globals/Rez/Layouts" pc="268440724" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="107" parent="globals/Rez/Layouts" pc="268440748" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="108" parent="globals/Rez/Layouts" pc="268440881" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="110" parent="globals/Rez/Layouts" pc="268441014" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="28" lineNum="119" parent="globals/Rez/Layouts" pc="268441052" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="122" parent="globals/Rez/Layouts" pc="268441064" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="123" parent="globals/Rez/Layouts" pc="268441088" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="124" parent="globals/Rez/Layouts" pc="268441221" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="126" parent="globals/Rez/Layouts" pc="268441354" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="29" lineNum="135" parent="globals/Rez/Layouts" pc="268441392" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="138" parent="globals/Rez/Layouts" pc="268441404" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="139" parent="globals/Rez/Layouts" pc="268441428" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="140" parent="globals/Rez/Layouts" pc="268441561" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="142" parent="globals/Rez/Layouts" pc="268441694" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="30" lineNum="151" parent="globals/Rez/Layouts" pc="268441732" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="154" parent="globals/Rez/Layouts" pc="268441744" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="155" parent="globals/Rez/Layouts" pc="268441768" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="156" parent="globals/Rez/Layouts" pc="268441901" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="158" parent="globals/Rez/Layouts" pc="268442034" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="31" lineNum="10" parent="globals/Rez/Layouts" pc="268442138" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="32" lineNum="163" parent="globals/Rez/Menus" pc="268442136" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="33" lineNum="165" parent="globals/Rez/Strings" pc="268442140" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268442111" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268442111" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="27" parent="globals/PowerMeterView" pc="268435690" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="28" parent="globals/PowerMeterView" pc="268435694" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="29" parent="globals/PowerMeterView" pc="268435712" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="30" parent="globals/PowerMeterView" pc="268435725" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="31" parent="globals/PowerMeterView" pc="268435738" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="32" parent="globals/PowerMeterView" pc="268435751" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="33" parent="globals/PowerMeterView" pc="268435764" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="35" parent="globals/PowerMeterView" pc="268435777" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="36" parent="globals/PowerMeterView" pc="268435813" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="37" parent="globals/PowerMeterView" pc="268435830" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="13" lineNum="37" parent="globals/PowerMeterView" pc="268435851" symbol="initialize"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="43" parent="globals/PowerMeterView" pc="268435881" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="44" parent="globals/PowerMeterView" pc="268435885" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="45" parent="globals/PowerMeterView" pc="268435904" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="46" parent="globals/PowerMeterView" pc="268435923" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="47" parent="globals/PowerMeterView" pc="268435940" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="48" parent="globals/PowerMeterView" pc="268435986" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="49" parent="globals/PowerMeterView" pc="268436023" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="50" parent="globals/PowerMeterView" pc="268436069" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="51" parent="globals/PowerMeterView" pc="268436106" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="52" parent="globals/PowerMeterView" pc="268436152" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="53" parent="globals/PowerMeterView" pc="268436169" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="56" parent="globals/PowerMeterView" pc="268436215" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="57" parent="globals/PowerMeterView" pc="268436245" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="59" parent="globals/PowerMeterView" pc="268436279" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="60" parent="globals/PowerMeterView" pc="268436309" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="63" parent="globals/PowerMeterView" pc="268436347" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="64" parent="globals/PowerMeterView" pc="268436383" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="65" parent="globals/PowerMeterView" pc="268436419" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="14" lineNum="66" parent="globals/PowerMeterView" pc="268436455" symbol="onLayout"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="73" parent="globals/PowerMeterView" pc="268436492" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="75" parent="globals/PowerMeterView" pc="268436496" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="76" parent="globals/PowerMeterView" pc="268436509" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="77" parent="globals/PowerMeterView" pc="268436520" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="78" parent="globals/PowerMeterView" pc="268436533" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="80" parent="globals/PowerMeterView" pc="268436549" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="81" parent="globals/PowerMeterView" pc="268436566" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="82" parent="globals/PowerMeterView" pc="268436591" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="83" parent="globals/PowerMeterView" pc="268436647" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="85" parent="globals/PowerMeterView" pc="268436683" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="87" parent="globals/PowerMeterView" pc="268436699" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="88" parent="globals/PowerMeterView" pc="268436732" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="89" parent="globals/PowerMeterView" pc="268436748" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="90" parent="globals/PowerMeterView" pc="268436788" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="15" lineNum="93" parent="globals/PowerMeterView" pc="268436857" symbol="compute"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="99" parent="globals/PowerMeterView" pc="268436874" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="101" parent="globals/PowerMeterView" pc="268436878" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="103" parent="globals/PowerMeterView" pc="268436902" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="105" parent="globals/PowerMeterView" pc="268436980" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="106" parent="globals/PowerMeterView" pc="268437003" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="107" parent="globals/PowerMeterView" pc="268437030" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="108" parent="globals/PowerMeterView" pc="268437060" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="110" parent="globals/PowerMeterView" pc="268437093" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="111" parent="globals/PowerMeterView" pc="268437123" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="113" parent="globals/PowerMeterView" pc="268437153" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="115" parent="globals/PowerMeterView" pc="268437156" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="116" parent="globals/PowerMeterView" pc="268437182" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="117" parent="globals/PowerMeterView" pc="268437208" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="118" parent="globals/PowerMeterView" pc="268437228" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="120" parent="globals/PowerMeterView" pc="268437231" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="121" parent="globals/PowerMeterView" pc="268437257" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="122" parent="globals/PowerMeterView" pc="268437283" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="123" parent="globals/PowerMeterView" pc="268437303" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="127" parent="globals/PowerMeterView" pc="268437306" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="130" parent="globals/PowerMeterView" pc="268437346" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="132" parent="globals/PowerMeterView" pc="268437366" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="133" parent="globals/PowerMeterView" pc="268437383" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="134" parent="globals/PowerMeterView" pc="268437383" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="135" parent="globals/PowerMeterView" pc="268437390" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="136" parent="globals/PowerMeterView" pc="268437397" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="137" parent="globals/PowerMeterView" pc="268437410" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="139" parent="globals/PowerMeterView" pc="268437417" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="139" parent="globals/PowerMeterView" pc="268437434" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="140" parent="globals/PowerMeterView" pc="268437444" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="140" parent="globals/PowerMeterView" pc="268437481" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="141" parent="globals/PowerMeterView" pc="268437491" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="141" parent="globals/PowerMeterView" pc="268437528" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="142" parent="globals/PowerMeterView" pc="268437538" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="142" parent="globals/PowerMeterView" pc="268437575" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="143" parent="globals/PowerMeterView" pc="268437585" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="143" parent="globals/PowerMeterView" pc="268437622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="144" parent="globals/PowerMeterView" pc="268437632" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="144" parent="globals/PowerMeterView" pc="268437669" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="145" parent="globals/PowerMeterView" pc="268437679" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="145" parent="globals/PowerMeterView" pc="268437716" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="146" parent="globals/PowerMeterView" pc="268437726" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="146" parent="globals/PowerMeterView" pc="268437763" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="147" parent="globals/PowerMeterView" pc="268437773" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="147" parent="globals/PowerMeterView" pc="268437810" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="149" parent="globals/PowerMeterView" pc="268437820" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="149" parent="globals/PowerMeterView" pc="268437857" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="151" parent="globals/PowerMeterView" pc="268437867" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="151" parent="globals/PowerMeterView" pc="268437904" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="152" parent="globals/PowerMeterView" pc="268437914" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="152" parent="globals/PowerMeterView" pc="268437951" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="153" parent="globals/PowerMeterView" pc="268437961" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="153" parent="globals/PowerMeterView" pc="268437998" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="154" parent="globals/PowerMeterView" pc="268438008" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="154" parent="globals/PowerMeterView" pc="268438045" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="155" parent="globals/PowerMeterView" pc="268438055" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="155" parent="globals/PowerMeterView" pc="268438092" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="156" parent="globals/PowerMeterView" pc="268438102" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="156" parent="globals/PowerMeterView" pc="268438139" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="157" parent="globals/PowerMeterView" pc="268438149" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="157" parent="globals/PowerMeterView" pc="268438186" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="158" parent="globals/PowerMeterView" pc="268438196" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="158" parent="globals/PowerMeterView" pc="268438233" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="159" parent="globals/PowerMeterView" pc="268438243" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="159" parent="globals/PowerMeterView" pc="268438260" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="161" parent="globals/PowerMeterView" pc="268438270" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="162" parent="globals/PowerMeterView" pc="268438285" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="163" parent="globals/PowerMeterView" pc="268438325" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="164" parent="globals/PowerMeterView" pc="268438329" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="165" parent="globals/PowerMeterView" pc="268438343" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="166" parent="globals/PowerMeterView" pc="268438383" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="168" parent="globals/PowerMeterView" pc="268438390" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="169" parent="globals/PowerMeterView" pc="268438404" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="170" parent="globals/PowerMeterView" pc="268438444" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="173" parent="globals/PowerMeterView" pc="268438451" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="174" parent="globals/PowerMeterView" pc="268438482" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="175" parent="globals/PowerMeterView" pc="268438537" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="176" parent="globals/PowerMeterView" pc="268438545" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="178" parent="globals/PowerMeterView" pc="268438600" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="16" lineNum="181" parent="globals/PowerMeterView" pc="268438659" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="17" lineNum="6" parent="globals/PowerMeterView" pc="268442136" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerMeter\\source\\PowerMeterView.mc" id="17" lineNum="6" parent="globals/PowerMeterView" pc="268442136" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="19" lineNum="2" parent="globals/Rez/Drawables" pc="268442130" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="20" lineNum="6" parent="globals/Rez/Fonts" pc="268442132" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="21" lineNum="8" parent="globals/Rez/JsonData" pc="268442134" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="22" lineNum="17" parent="globals/Rez/Layouts" pc="268438673" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="19" parent="globals/Rez/Layouts" pc="268438685" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="20" parent="globals/Rez/Layouts" pc="268438698" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268438711" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="23" parent="globals/Rez/Layouts" pc="268438735" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268438898" symbol="MainLayout"/>
+        <entry filename="Rez" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268439061" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="35" parent="globals/Rez/Layouts" pc="268439099" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="37" parent="globals/Rez/Layouts" pc="268439111" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="39" parent="globals/Rez/Layouts" pc="268439124" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="40" parent="globals/Rez/Layouts" pc="268439148" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="41" parent="globals/Rez/Layouts" pc="268439291" symbol="Klein"/>
+        <entry filename="Rez" id="23" lineNum="43" parent="globals/Rez/Layouts" pc="268439463" symbol="Klein"/>
+        <entry filename="Rez" id="24" lineNum="52" parent="globals/Rez/Layouts" pc="268439501" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="54" parent="globals/Rez/Layouts" pc="268439513" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="56" parent="globals/Rez/Layouts" pc="268439526" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="57" parent="globals/Rez/Layouts" pc="268439550" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="58" parent="globals/Rez/Layouts" pc="268439693" symbol="Middel1"/>
+        <entry filename="Rez" id="24" lineNum="60" parent="globals/Rez/Layouts" pc="268439865" symbol="Middel1"/>
+        <entry filename="Rez" id="25" lineNum="69" parent="globals/Rez/Layouts" pc="268439903" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="71" parent="globals/Rez/Layouts" pc="268439915" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="73" parent="globals/Rez/Layouts" pc="268439928" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="74" parent="globals/Rez/Layouts" pc="268439952" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="75" parent="globals/Rez/Layouts" pc="268440095" symbol="Middel2"/>
+        <entry filename="Rez" id="25" lineNum="77" parent="globals/Rez/Layouts" pc="268440267" symbol="Middel2"/>
+        <entry filename="Rez" id="26" lineNum="86" parent="globals/Rez/Layouts" pc="268440305" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="88" parent="globals/Rez/Layouts" pc="268440317" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="90" parent="globals/Rez/Layouts" pc="268440330" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="91" parent="globals/Rez/Layouts" pc="268440354" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="92" parent="globals/Rez/Layouts" pc="268440497" symbol="Groot"/>
+        <entry filename="Rez" id="26" lineNum="94" parent="globals/Rez/Layouts" pc="268440669" symbol="Groot"/>
+        <entry filename="Rez" id="27" lineNum="103" parent="globals/Rez/Layouts" pc="268440707" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="106" parent="globals/Rez/Layouts" pc="268440719" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="107" parent="globals/Rez/Layouts" pc="268440743" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="108" parent="globals/Rez/Layouts" pc="268440876" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="110" parent="globals/Rez/Layouts" pc="268441009" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="28" lineNum="119" parent="globals/Rez/Layouts" pc="268441047" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="122" parent="globals/Rez/Layouts" pc="268441059" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="123" parent="globals/Rez/Layouts" pc="268441083" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="124" parent="globals/Rez/Layouts" pc="268441216" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="126" parent="globals/Rez/Layouts" pc="268441349" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="29" lineNum="135" parent="globals/Rez/Layouts" pc="268441387" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="138" parent="globals/Rez/Layouts" pc="268441399" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="139" parent="globals/Rez/Layouts" pc="268441423" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="140" parent="globals/Rez/Layouts" pc="268441556" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="142" parent="globals/Rez/Layouts" pc="268441689" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="30" lineNum="151" parent="globals/Rez/Layouts" pc="268441727" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="154" parent="globals/Rez/Layouts" pc="268441739" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="155" parent="globals/Rez/Layouts" pc="268441763" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="156" parent="globals/Rez/Layouts" pc="268441896" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="158" parent="globals/Rez/Layouts" pc="268442029" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="31" lineNum="10" parent="globals/Rez/Layouts" pc="268442133" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="32" lineNum="163" parent="globals/Rez/Menus" pc="268442131" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="33" lineNum="165" parent="globals/Rez/Strings" pc="268442135" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268442106" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268442106" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -244,6 +236,7 @@
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry field="true" id="8389161" symbol="COLOR_RED"/>
+        <entry field="true" id="41" symbol="valueView"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="12" module="true" symbol="Menus"/>
@@ -277,6 +270,7 @@
         <entry id="8389068" method="true" symbol="draw"/>
         <entry field="true" id="13" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="42" symbol="labelView"/>
         <entry field="true" id="8389167" symbol="COLOR_BLUE"/>
         <entry field="true" id="25" symbol="voorgrondhoog"/>
         <entry field="true" id="28" symbol="achtergrondhoog"/>
@@ -313,63 +307,60 @@
         <entry arg="true" endPc="268435585" name="dc" stackId="1" startPc="268435537"/>
         <entry arg="true" endPc="268435613" name="state" stackId="1" startPc="268435609"/>
         <entry arg="true" endPc="268435618" name="state" stackId="1" startPc="268435614"/>
-        <entry endPc="268436435" name="valueView" stackId="2" startPc="268435782"/>
-        <entry arg="true" endPc="268436436" name="dc" stackId="1" startPc="268435778"/>
-        <entry endPc="268436662" name="y" stackId="2" startPc="268436625"/>
-        <entry arg="true" endPc="268436884" name="info" stackId="1" startPc="268436437"/>
-        <entry endPc="268438650" name="blokjemidden" stackId="10" startPc="268438290"/>
-        <entry endPc="268438650" name="blokjehoog" stackId="11" startPc="268438290"/>
-        <entry endPc="268438673" name="blokjeH" stackId="9" startPc="268437388"/>
-        <entry endPc="268438673" name="x" stackId="5" startPc="268437388"/>
-        <entry endPc="268438673" name="midden" stackId="7" startPc="268437388"/>
-        <entry endPc="268438673" name="blokjeB" stackId="8" startPc="268437388"/>
-        <entry endPc="268438673" name="aantalblokjes" stackId="6" startPc="268437388"/>
-        <entry endPc="268438676" name="label" stackId="3" startPc="268436889"/>
-        <entry endPc="268438676" name="achtergrond" stackId="2" startPc="268436889"/>
-        <entry endPc="268438676" name="value" stackId="4" startPc="268436889"/>
-        <entry arg="true" endPc="268438677" name="dc" stackId="1" startPc="268436885"/>
-        <entry endPc="268439102" name="rez_cmp_local_text_value" stackId="6" startPc="268438690"/>
-        <entry endPc="268439102" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438690"/>
-        <entry endPc="268439102" name="rez_cmp_local_custom_drawable_20618998733734656143" stackId="4" startPc="268438690"/>
-        <entry endPc="268439102" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438690"/>
-        <entry endPc="268439102" name="rez_cmp_local_text_label" stackId="5" startPc="268438690"/>
-        <entry arg="true" endPc="268439103" name="dc" stackId="1" startPc="268438678"/>
-        <entry endPc="268439504" name="rez_cmp_local_text_value" stackId="5" startPc="268439116"/>
-        <entry endPc="268439504" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439116"/>
-        <entry endPc="268439504" name="rez_cmp_local_text_label" stackId="4" startPc="268439116"/>
-        <entry endPc="268439504" name="rez_cmp_local_custom_drawable_19292668531405603373" stackId="3" startPc="268439116"/>
-        <entry arg="true" endPc="268439505" name="dc" stackId="1" startPc="268439104"/>
-        <entry endPc="268439906" name="rez_cmp_local_text_value" stackId="5" startPc="268439518"/>
-        <entry endPc="268439906" name="rez_cmp_local_custom_drawable_53773377143326782116" stackId="3" startPc="268439518"/>
-        <entry endPc="268439906" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439518"/>
-        <entry endPc="268439906" name="rez_cmp_local_text_label" stackId="4" startPc="268439518"/>
-        <entry arg="true" endPc="268439907" name="dc" stackId="1" startPc="268439506"/>
-        <entry endPc="268440308" name="rez_cmp_local_text_value" stackId="5" startPc="268439920"/>
-        <entry endPc="268440308" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439920"/>
-        <entry endPc="268440308" name="rez_cmp_local_text_label" stackId="4" startPc="268439920"/>
-        <entry endPc="268440308" name="rez_cmp_local_custom_drawable_99874186451557648434" stackId="3" startPc="268439920"/>
-        <entry arg="true" endPc="268440309" name="dc" stackId="1" startPc="268439908"/>
-        <entry endPc="268440710" name="rez_cmp_local_text_value" stackId="5" startPc="268440322"/>
-        <entry endPc="268440710" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268440322"/>
-        <entry endPc="268440710" name="rez_cmp_local_custom_drawable_19742266251777973644" stackId="3" startPc="268440322"/>
-        <entry endPc="268440710" name="rez_cmp_local_text_label" stackId="4" startPc="268440322"/>
-        <entry arg="true" endPc="268440711" name="dc" stackId="1" startPc="268440310"/>
-        <entry endPc="268441050" name="rez_cmp_local_text_value" stackId="4" startPc="268440724"/>
-        <entry endPc="268441050" name="rez_cmp_local_custom_drawable_71783241232549714613" stackId="2" startPc="268440724"/>
-        <entry endPc="268441050" name="rez_cmp_local_text_label" stackId="3" startPc="268440724"/>
-        <entry arg="true" endPc="268441051" name="dc" stackId="1" startPc="268440712"/>
-        <entry endPc="268441390" name="rez_cmp_local_text_value" stackId="4" startPc="268441064"/>
-        <entry endPc="268441390" name="rez_cmp_local_custom_drawable_17094895301657721075" stackId="2" startPc="268441064"/>
-        <entry endPc="268441390" name="rez_cmp_local_text_label" stackId="3" startPc="268441064"/>
-        <entry arg="true" endPc="268441391" name="dc" stackId="1" startPc="268441052"/>
-        <entry endPc="268441730" name="rez_cmp_local_text_value" stackId="4" startPc="268441404"/>
-        <entry endPc="268441730" name="rez_cmp_local_custom_drawable_15745496647930268541" stackId="2" startPc="268441404"/>
-        <entry endPc="268441730" name="rez_cmp_local_text_label" stackId="3" startPc="268441404"/>
-        <entry arg="true" endPc="268441731" name="dc" stackId="1" startPc="268441392"/>
-        <entry endPc="268442070" name="rez_cmp_local_text_value" stackId="4" startPc="268441744"/>
-        <entry endPc="268442070" name="rez_cmp_local_custom_drawable_37320609311192541210" stackId="2" startPc="268441744"/>
-        <entry endPc="268442070" name="rez_cmp_local_text_label" stackId="3" startPc="268441744"/>
-        <entry arg="true" endPc="268442071" name="dc" stackId="1" startPc="268441732"/>
+        <entry endPc="268435879" name="x" stackId="1" startPc="268435851"/>
+        <entry arg="true" endPc="268436491" name="dc" stackId="1" startPc="268435881"/>
+        <entry arg="true" endPc="268436873" name="info" stackId="1" startPc="268436492"/>
+        <entry endPc="268438645" name="blokjemidden" stackId="8" startPc="268438285"/>
+        <entry endPc="268438645" name="blokjehoog" stackId="9" startPc="268438285"/>
+        <entry endPc="268438668" name="blokjeH" stackId="7" startPc="268437383"/>
+        <entry endPc="268438668" name="x" stackId="3" startPc="268437383"/>
+        <entry endPc="268438668" name="midden" stackId="5" startPc="268437383"/>
+        <entry endPc="268438668" name="blokjeB" stackId="6" startPc="268437383"/>
+        <entry endPc="268438668" name="aantalblokjes" stackId="4" startPc="268437383"/>
+        <entry endPc="268438671" name="achtergrond" stackId="2" startPc="268436878"/>
+        <entry arg="true" endPc="268438672" name="dc" stackId="1" startPc="268436874"/>
+        <entry endPc="268439097" name="rez_cmp_local_text_value" stackId="6" startPc="268438685"/>
+        <entry endPc="268439097" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438685"/>
+        <entry endPc="268439097" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438685"/>
+        <entry endPc="268439097" name="rez_cmp_local_custom_drawable_17241784242009478136" stackId="4" startPc="268438685"/>
+        <entry endPc="268439097" name="rez_cmp_local_text_label" stackId="5" startPc="268438685"/>
+        <entry arg="true" endPc="268439098" name="dc" stackId="1" startPc="268438673"/>
+        <entry endPc="268439499" name="rez_cmp_local_text_value" stackId="5" startPc="268439111"/>
+        <entry endPc="268439499" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439111"/>
+        <entry endPc="268439499" name="rez_cmp_local_custom_drawable_76707229617322650732" stackId="3" startPc="268439111"/>
+        <entry endPc="268439499" name="rez_cmp_local_text_label" stackId="4" startPc="268439111"/>
+        <entry arg="true" endPc="268439500" name="dc" stackId="1" startPc="268439099"/>
+        <entry endPc="268439901" name="rez_cmp_local_text_value" stackId="5" startPc="268439513"/>
+        <entry endPc="268439901" name="rez_cmp_local_custom_drawable_20091866261042192418" stackId="3" startPc="268439513"/>
+        <entry endPc="268439901" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439513"/>
+        <entry endPc="268439901" name="rez_cmp_local_text_label" stackId="4" startPc="268439513"/>
+        <entry arg="true" endPc="268439902" name="dc" stackId="1" startPc="268439501"/>
+        <entry endPc="268440303" name="rez_cmp_local_text_value" stackId="5" startPc="268439915"/>
+        <entry endPc="268440303" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439915"/>
+        <entry endPc="268440303" name="rez_cmp_local_text_label" stackId="4" startPc="268439915"/>
+        <entry endPc="268440303" name="rez_cmp_local_custom_drawable_19779848019206379611" stackId="3" startPc="268439915"/>
+        <entry arg="true" endPc="268440304" name="dc" stackId="1" startPc="268439903"/>
+        <entry endPc="268440705" name="rez_cmp_local_text_value" stackId="5" startPc="268440317"/>
+        <entry endPc="268440705" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268440317"/>
+        <entry endPc="268440705" name="rez_cmp_local_text_label" stackId="4" startPc="268440317"/>
+        <entry endPc="268440705" name="rez_cmp_local_custom_drawable_32785617148578994599" stackId="3" startPc="268440317"/>
+        <entry arg="true" endPc="268440706" name="dc" stackId="1" startPc="268440305"/>
+        <entry endPc="268441045" name="rez_cmp_local_text_value" stackId="4" startPc="268440719"/>
+        <entry endPc="268441045" name="rez_cmp_local_custom_drawable_83965346615966297851" stackId="2" startPc="268440719"/>
+        <entry endPc="268441045" name="rez_cmp_local_text_label" stackId="3" startPc="268440719"/>
+        <entry arg="true" endPc="268441046" name="dc" stackId="1" startPc="268440707"/>
+        <entry endPc="268441385" name="rez_cmp_local_text_value" stackId="4" startPc="268441059"/>
+        <entry endPc="268441385" name="rez_cmp_local_custom_drawable_80346435521752418427" stackId="2" startPc="268441059"/>
+        <entry endPc="268441385" name="rez_cmp_local_text_label" stackId="3" startPc="268441059"/>
+        <entry arg="true" endPc="268441386" name="dc" stackId="1" startPc="268441047"/>
+        <entry endPc="268441725" name="rez_cmp_local_text_value" stackId="4" startPc="268441399"/>
+        <entry endPc="268441725" name="rez_cmp_local_text_label" stackId="3" startPc="268441399"/>
+        <entry endPc="268441725" name="rez_cmp_local_custom_drawable_92311861191094734521" stackId="2" startPc="268441399"/>
+        <entry arg="true" endPc="268441726" name="dc" stackId="1" startPc="268441387"/>
+        <entry endPc="268442065" name="rez_cmp_local_text_value" stackId="4" startPc="268441739"/>
+        <entry endPc="268442065" name="rez_cmp_local_custom_drawable_13310385191856883391" stackId="2" startPc="268441739"/>
+        <entry endPc="268442065" name="rez_cmp_local_text_label" stackId="3" startPc="268441739"/>
+        <entry arg="true" endPc="268442066" name="dc" stackId="1" startPc="268441727"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -424,7 +415,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442091" name="&lt;init&gt;" parent="Background" startPc="268442073">
+        <functionEntry accessMode="protected" endPc="268442086" name="&lt;init&gt;" parent="Background" startPc="268442068">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435608" name="initialize" parent="PowerMeterApp" startPc="268435586">
@@ -441,85 +432,85 @@
         <functionEntry accessMode="public" endPc="268435660" name="getInitialView" parent="PowerMeterApp" startPc="268435619">
             <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442110" name="&lt;init&gt;" parent="PowerMeterApp" startPc="268442092">
+        <functionEntry accessMode="protected" endPc="268442105" name="&lt;init&gt;" parent="PowerMeterApp" startPc="268442087">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435689" name="getApp" startPc="268435661">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435777" name="initialize" parent="PowerMeterView" startPc="268435690">
+        <functionEntry accessMode="public" endPc="268435880" name="initialize" parent="PowerMeterView" startPc="268435690">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436436" name="onLayout" parent="PowerMeterView" startPc="268435778">
+        <functionEntry accessMode="public" endPc="268436491" name="onLayout" parent="PowerMeterView" startPc="268435881">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436884" name="compute" parent="PowerMeterView" startPc="268436437">
+        <functionEntry accessMode="public" endPc="268436873" name="compute" parent="PowerMeterView" startPc="268436492">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438677" name="onUpdate" parent="PowerMeterView" startPc="268436885">
+        <functionEntry accessMode="public" endPc="268438672" name="onUpdate" parent="PowerMeterView" startPc="268436874">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442303" name="&lt;init&gt;" parent="PowerMeterView" startPc="268442141">
+        <functionEntry accessMode="protected" endPc="268442154" name="&lt;init&gt;" parent="PowerMeterView" startPc="268442136">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442135" name="&lt;init&gt;" parent="Drawables" startPc="268442135">
+        <functionEntry accessMode="protected" endPc="268442130" name="&lt;init&gt;" parent="Drawables" startPc="268442130">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442137" name="&lt;init&gt;" parent="Fonts" startPc="268442137">
+        <functionEntry accessMode="protected" endPc="268442132" name="&lt;init&gt;" parent="Fonts" startPc="268442132">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442139" name="&lt;init&gt;" parent="JsonData" startPc="268442139">
+        <functionEntry accessMode="protected" endPc="268442134" name="&lt;init&gt;" parent="JsonData" startPc="268442134">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439103" name="MainLayout" parent="Layouts" startPc="268438678">
+        <functionEntry accessMode="public" endPc="268439098" name="MainLayout" parent="Layouts" startPc="268438673">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439505" name="Klein" parent="Layouts" startPc="268439104">
+        <functionEntry accessMode="public" endPc="268439500" name="Klein" parent="Layouts" startPc="268439099">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439907" name="Middel1" parent="Layouts" startPc="268439506">
+        <functionEntry accessMode="public" endPc="268439902" name="Middel1" parent="Layouts" startPc="268439501">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440309" name="Middel2" parent="Layouts" startPc="268439908">
+        <functionEntry accessMode="public" endPc="268440304" name="Middel2" parent="Layouts" startPc="268439903">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440711" name="Groot" parent="Layouts" startPc="268440310">
+        <functionEntry accessMode="public" endPc="268440706" name="Groot" parent="Layouts" startPc="268440305">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441051" name="TopLeftLayout" parent="Layouts" startPc="268440712">
+        <functionEntry accessMode="public" endPc="268441046" name="TopLeftLayout" parent="Layouts" startPc="268440707">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441391" name="TopRightLayout" parent="Layouts" startPc="268441052">
+        <functionEntry accessMode="public" endPc="268441386" name="TopRightLayout" parent="Layouts" startPc="268441047">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441731" name="BottomLeftLayout" parent="Layouts" startPc="268441392">
+        <functionEntry accessMode="public" endPc="268441726" name="BottomLeftLayout" parent="Layouts" startPc="268441387">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442071" name="BottomRightLayout" parent="Layouts" startPc="268441732">
+        <functionEntry accessMode="public" endPc="268442066" name="BottomRightLayout" parent="Layouts" startPc="268441727">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442138" name="&lt;init&gt;" parent="Layouts" startPc="268442138">
+        <functionEntry accessMode="protected" endPc="268442133" name="&lt;init&gt;" parent="Layouts" startPc="268442133">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442136" name="&lt;init&gt;" parent="Menus" startPc="268442136">
+        <functionEntry accessMode="protected" endPc="268442131" name="&lt;init&gt;" parent="Menus" startPc="268442131">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442140" name="&lt;init&gt;" parent="Strings" startPc="268442140">
+        <functionEntry accessMode="protected" endPc="268442135" name="&lt;init&gt;" parent="Strings" startPc="268442135">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442134" name="&lt;init&gt;" parent="Rez" startPc="268442111">
+        <functionEntry accessMode="protected" endPc="268442129" name="&lt;init&gt;" parent="Rez" startPc="268442106">
             <documentation/>
         </functionEntry>
     </functions>

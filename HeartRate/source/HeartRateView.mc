@@ -9,12 +9,14 @@ class HeartRateView extends WatchUi.DataField {
     hidden var mValue as Numeric;
     hidden var heartRateZones;
     hidden var currentZone;
+    hidden var labelView;
+    hidden var valueView;
 
     function initialize() {
         DataField.initialize();
         mValue = 0.0f;
-        heartRateZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
         currentZone = 0;
+        heartRateZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -32,11 +34,11 @@ class HeartRateView extends WatchUi.DataField {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 
-        var valueView = View.findDrawableById("value");
+        valueView = View.findDrawableById("value");
         valueView.locY = valueView.locY + 10;
 
         // plaats label "Speed" boven aan
-        var labelView = View.findDrawableById("label") as Text;
+        labelView = View.findDrawableById("label") as Text;
         labelView.setText(Rez.Strings.label);
     }
 
@@ -69,54 +71,50 @@ class HeartRateView extends WatchUi.DataField {
         // Set the background color
         var achtergrond = View.findDrawableById("Background") as Text;
 
-        // Set the foreground color and value
-        var label = View.findDrawableById("label") as Text;
-        var value = View.findDrawableById("value") as Text;
-
         switch (currentZone) {
             case 0:
                 achtergrond.setColor(getBackgroundColor());
                 if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-                    label.setColor(Graphics.COLOR_WHITE);
-                    value.setColor(Graphics.COLOR_WHITE);
+                    labelView.setColor(Graphics.COLOR_WHITE);
+                    valueView.setColor(Graphics.COLOR_WHITE);
                 } else {
-                    label.setColor(Graphics.COLOR_BLACK);
-                    value.setColor(Graphics.COLOR_BLACK);
+                    labelView.setColor(Graphics.COLOR_BLACK);
+                    valueView.setColor(Graphics.COLOR_BLACK);
                 }
                 break;
             case 1:
                 achtergrond.setColor(Graphics.COLOR_LT_GRAY);
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
                 break;
             case 2:
                 achtergrond.setColor(Graphics.COLOR_DK_BLUE);
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
                 break;
             case 3:
                 achtergrond.setColor(Graphics.COLOR_DK_GREEN);
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
                 break;
             case 4:
                 achtergrond.setColor(0xFFFF00);  //Graphics.COLOR_YELLOW
-                label.setColor(Graphics.COLOR_BLACK);
-                value.setColor(Graphics.COLOR_BLACK);
+                labelView.setColor(Graphics.COLOR_BLACK);
+                valueView.setColor(Graphics.COLOR_BLACK);
                 break;
             case 5:
                 achtergrond.setColor(Graphics.COLOR_RED);
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
                 break;
             case 6:
                 achtergrond.setColor(Graphics.COLOR_PURPLE);
-                label.setColor(Graphics.COLOR_WHITE);
-                value.setColor(Graphics.COLOR_WHITE);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
                 break;
         }
 
-        value.setText(mValue.format("%.0f"));
+        valueView.setText(mValue.format("%.0f"));
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
