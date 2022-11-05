@@ -86,8 +86,8 @@ class PowerDataFieldView extends WatchUi.DataField {
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
         if (info has :currentPower){
-            if (info.currentPower != null){
-                currentPower = info.currentPower;
+            currentPower = info.currentPower;
+            if (currentPower != null){
                 if (powerGemiddeldeTijd > 0) {
                     powerGemiddeldeArray[teller] = currentPower;
                     teller = (teller < (powerGemiddeldeTijd-1)) ? (teller+1) : 0;

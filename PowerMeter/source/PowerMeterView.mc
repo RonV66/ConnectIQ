@@ -74,9 +74,8 @@ class PowerMeterView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
         verschil = 0;
         if (info has :currentPower){
-            if (info.currentPower != null){
-                currentPower = info.currentPower;
-
+            currentPower = info.currentPower;
+            if (currentPower != null){
                 if (powerGemiddeldeTijd > 0) {
                     powerGemiddeldeArray[teller] = currentPower;
                     teller = (teller < (powerGemiddeldeTijd-1)) ? (teller+1) : 0;
@@ -84,8 +83,8 @@ class PowerMeterView extends WatchUi.DataField {
                 } else {
                     mValue = currentPower;
                 }
-                if ((info.averagePower != null) and (info.averagePower != 0)) {
-                    averagePower = info.averagePower;
+                averagePower = info.averagePower;
+                if ((averagePower != null) and (averagePower != 0)) {
                     V = ((mValue - averagePower) * 100) / averagePower;
                     verschil = (V > 5) ? 1 : ((V < -5) ? -1 : 0);
                 }

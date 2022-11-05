@@ -64,14 +64,13 @@ class SnelheidView extends WatchUi.DataField {
     }
 
     function compute(info as Activity.Info) as Void {
-        // See Activity.Info in the documentation for available information.
         verschil = 0;
         if (info has :currentSpeed) {
-            if (info.currentSpeed != null) {
-                currentSpeed = info.currentSpeed;
+            currentSpeed = info.currentSpeed;
+            if (currentSpeed != null) {
                 mValue = currentSpeed * ((mMetric == System.UNIT_METRIC) ? (3.6) : (2.23693629));
-                if ((info.averageSpeed != null) and (info.averageSpeed != 0)) {
-                    averageSpeed = info.averageSpeed;
+                averageSpeed = info.averageSpeed;
+                if ((averageSpeed != null) and (averageSpeed != 0)) {
                     V = ((currentSpeed - averageSpeed) * 100) / averageSpeed;
                     verschil = (V > 5) ? 1 : ((V < -5) ? -1 : 0);
                 }
@@ -81,8 +80,6 @@ class SnelheidView extends WatchUi.DataField {
         }
     }
 
-    // Display the value you computed here. This will be called
-    // once a second when the data field is visible.
     function onUpdate(dc as Dc) as Void {
         // Get the background color
         var achtergrond = View.findDrawableById("Background") as Text;
