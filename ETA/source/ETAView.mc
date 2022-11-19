@@ -49,20 +49,25 @@ class ETAView extends WatchUi.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
-        var tijdNow = new Time.Moment(Time.now().value());
-        var tijdNowGregorian = Gregorian.info(tijdNow, Time.FORMAT_SHORT);
-        if ((info.averageSpeed  != null) and (info.averageSpeed  != 0) and (info.distanceToDestination != null) and (info.distanceToDestination != 0)) {
-            var etaInSeconds = info.distanceToDestination / info.averageSpeed;
-            var tijdInSeconds = new Time.Duration(etaInSeconds);
+
+        if ((info.averageSpeed  != null) and (info.averageSpeed  != 0) and (info.currentSpeed != 0) and (info.distanceToDestination != null) and (info.distanceToDestination != 0)) {
+            var etaInSeconds = info.distanceToDestination / (((info.averageSpeed * 3) + info.currentSpeed)/4);
 
             if (Application.Properties.getValue("tijdDisplay") == 0) {
 //////////////////
-                var tijdInSecondsUur = Math.floor(etaInSeconds / 3600);
-                var tijdInSecondsMinuut = Math.floor((etaInSeconds - (tijdInSecondsUur * 3600)) / 60);
-                mValue = tijdInSecondsUur.format("%02d") + ":" + tijdInSecondsMinuut.format("%02d");
+                var Uur = Math.floor(etaInSeconds / 3600);
+                var Minuut = Math.floor((etaInSeconds - (Uur * 3600)) / 60);
+                var Seconden = Math.floor(etaInSeconds - (Uur * 3600) - (Minuut * 60));
+                if (Uur > 0) {
+                    mValue = Uur.format("%02d") + ":" + Minuut.format("%02d");
+                } else {
+                    mValue = Minuut.format("%02d") + ":" + Seconden.format("%02d");
+                }
 //////////////////
             } else {
-                var tijdETA = tijdNow.add(tijdInSeconds);
+                var tijdNu = new Time.Moment(Time.now().value());
+                var tijdTegaanInSeconds = new Time.Duration(etaInSeconds);
+                var tijdETA = tijdNu.add(tijdTegaanInSeconds);
                 var tijdETAGregorian = Gregorian.info(tijdETA, Time.FORMAT_SHORT);
                 var dateString = Lang.format(
                     "$1$:$2$",
