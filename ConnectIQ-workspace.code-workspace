@@ -16,10 +16,6 @@
 			"path": ".\\Test"
 		},
 		{
-			"name": "PowerMeter",
-			"path": ".\\PowerMeter"
-		},
-		{
 			"name": "HeartRate",
 			"path": ".\\HeartRate"
 		},
