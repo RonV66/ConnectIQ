@@ -2,6 +2,7 @@ import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
+import Toybox.UserProfile;
 
 class PowerDataFieldView extends WatchUi.DataField {
 
@@ -27,6 +28,9 @@ class PowerDataFieldView extends WatchUi.DataField {
     hidden var labelView;
     hidden var sweetspotView;
 
+    hidden var gewicht;
+    hidden var displayW;
+
     function initialize() {
         DataField.initialize();
         mValue = 0;
@@ -38,6 +42,9 @@ class PowerDataFieldView extends WatchUi.DataField {
         SShigh = 0;
         powerGemiddeldeTijd = 0;
         vorigemidden = 9;
+
+        var profile = UserProfile.getProfile();
+        gewicht = profile.weight;
 
         powerGemiddeldeTijd = Application.Properties.getValue("powerGemiddeldeTijd");
         powerGemiddeldeArray = new [powerGemiddeldeTijd];
@@ -52,6 +59,9 @@ class PowerDataFieldView extends WatchUi.DataField {
         powerZoneProcenten[5] = (ftp * 150) / 100;
         SSlow = (ftp * 86) / 100;
         SShigh = (ftp * 95) / 100;
+
+        displayW = Application.Properties.getValue("display");
+        System.println(displayW);
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -76,7 +86,11 @@ class PowerDataFieldView extends WatchUi.DataField {
         sweetspotView.locX = breedte - 15;
 
         labelView = View.findDrawableById("label") as Text;
-        labelView.setText(Rez.Strings.label);
+        if (displayW) {
+            labelView.setText(Rez.Strings.wattperkg);
+        } else {
+            labelView.setText(Rez.Strings.label);
+        }
     }
 
     // The given info object contains all the current workout information.
@@ -87,7 +101,7 @@ class PowerDataFieldView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
         if (info has :currentPower){
             currentPower = info.currentPower;
-            if (currentPower != null){
+            if (currentPower != null) {
                 if (powerGemiddeldeTijd > 0) {
                     powerGemiddeldeArray[teller] = currentPower;
                     teller = (teller < (powerGemiddeldeTijd-1)) ? (teller+1) : 0;
@@ -108,6 +122,10 @@ class PowerDataFieldView extends WatchUi.DataField {
             else if ((mValue >= powerZoneProcenten[3]) and (mValue < powerZoneProcenten[4])) {powerZone = 4;}
             else if ((mValue >= powerZoneProcenten[4]) and (mValue < powerZoneProcenten[5])) {powerZone = 5;}
             else if (mValue >= powerZoneProcenten[5]) {powerZone = 6;}
+
+            if (displayW) {
+                mValue = mValue * 1000 / gewicht;
+            }
         }
     }
 
@@ -170,7 +188,11 @@ class PowerDataFieldView extends WatchUi.DataField {
         }
 
         // Set the value
-        valueView.setText(mValue.format("%0d"));
+        if (displayW) {
+            valueView.setText(mValue.format("%0.2f"));
+        } else {
+            valueView.setText(mValue.format("%0d"));
+        }
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);

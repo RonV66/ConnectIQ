@@ -2,6 +2,7 @@
     <string id="AppName">PowerDataField</string>
 
     <string id="label">Watt</string>
+    <string id="wattperkg">W/kg</string>
     <string id="sweetspot">SS</string>
     
     <string id="ftp">FTP</string>
@@ -15,4 +16,7 @@
     <string id="displayBar">Display Bar</string>
     <string id="displayBarNee">No</string>    
     <string id="displayBarJa">Yes</string>
+    <string id="display">Display</string>
+    <string id="displayWatts">Watts</string>
+    <string id="displayWperKG">W/Kg</string>
 </strings>

@@ -3,6 +3,7 @@
         <property id="ftp" type="number">200</property>
         <property id="powerGemiddeldeTijd" type="number">3</property>
         <property id="displayBar" type="number">0</property>
+        <property id="display" type="number">0</property>
     </properties>
     
     <settings>
@@ -22,6 +23,12 @@
             <settingConfig type="list">
                 <listEntry value="0">@Strings.displayBarNee</listEntry>
                 <listEntry value="1">@Strings.displayBarJa</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.display" title="@Strings.display">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.displayWatts</listEntry>
+                <listEntry value="1">@Strings.displayWperKG</listEntry>
             </settingConfig>
         </setting>
     </settings>

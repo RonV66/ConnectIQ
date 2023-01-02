@@ -2,6 +2,7 @@
     <string id="AppName">VermogensMeter</string>
 
     <string id="label">Watt</string>
+    <string id="wattperkg">W/kg</string>
     <string id="sweetspot">SS</string>
 
     <string id="ftp">FTP</string>
@@ -15,5 +16,7 @@
     <string id="displayBar">Bar tonen</string>
     <string id="displayBarNee">Nee</string>    
     <string id="displayBarJa">Ja</string>
-
+    <string id="display">Display</string>
+    <string id="displayWatts">Watts</string>
+    <string id="displayWperKG">W/Kg</string>
 </strings>
