@@ -168,10 +168,10 @@ class PowerDataFieldView extends WatchUi.DataField {
                 achtergrond.setColor(0xFFFF00);  //Graphics.COLOR_YELLOW
                 break;
             case 4:
-                labelView.setColor(Graphics.COLOR_BLACK);
-                valueView.setColor(Graphics.COLOR_BLACK);
-                sweetspotView.setColor(Graphics.COLOR_BLACK);
-                achtergrond.setColor(0xFF833C);  //Graphics.COLOR_ORANGE
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
+                sweetspotView.setColor(Graphics.COLOR_WHITE);
+                achtergrond.setColor(0xFAA918);  //Graphics.COLOR_ORANGE
                 break;
             case 5:
                 labelView.setColor(Graphics.COLOR_WHITE);

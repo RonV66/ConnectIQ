@@ -98,17 +98,17 @@ class HeartRateView extends WatchUi.DataField {
                 valueView.setColor(Graphics.COLOR_WHITE);
                 break;
             case 4:
-                achtergrond.setColor(0xFFFF00);  //Graphics.COLOR_YELLOW
-                labelView.setColor(Graphics.COLOR_BLACK);
-                valueView.setColor(Graphics.COLOR_BLACK);
+                achtergrond.setColor(0xFAA918);  //Graphics.COLOR_ORANGE
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
                 break;
             case 5:
-                achtergrond.setColor(0xFF833C);  //Graphics.COLOR_ORANGE
-                labelView.setColor(Graphics.COLOR_BLACK);
-                valueView.setColor(Graphics.COLOR_BLACK);
+                achtergrond.setColor(Graphics.COLOR_RED);
+                labelView.setColor(Graphics.COLOR_WHITE);
+                valueView.setColor(Graphics.COLOR_WHITE);
                 break;
             case 6:
-                achtergrond.setColor(Graphics.COLOR_RED);
+                achtergrond.setColor(Graphics.COLOR_DK_RED);
                 labelView.setColor(Graphics.COLOR_WHITE);
                 valueView.setColor(Graphics.COLOR_WHITE);
                 break;
