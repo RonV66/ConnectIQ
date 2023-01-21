@@ -27,6 +27,7 @@ class PowerDataFieldView extends WatchUi.DataField {
     hidden var valueView;
     hidden var labelView;
     hidden var sweetspotView;
+    hidden var sweetSpot;
 
     hidden var gewicht;
     hidden var displayW;
@@ -40,6 +41,7 @@ class PowerDataFieldView extends WatchUi.DataField {
         V = 0;
         SSlow = 0;
         SShigh = 0;
+        sweetSpot = false;
         powerGemiddeldeTijd = 0;
         vorigemidden = 9;
 
@@ -61,7 +63,6 @@ class PowerDataFieldView extends WatchUi.DataField {
         SShigh = (ftp * 95) / 100;
 
         displayW = Application.Properties.getValue("display");
-        System.println(displayW);
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -123,6 +124,12 @@ class PowerDataFieldView extends WatchUi.DataField {
             else if ((mValue >= powerZoneProcenten[4]) and (mValue < powerZoneProcenten[5])) {powerZone = 5;}
             else if (mValue >= powerZoneProcenten[5]) {powerZone = 6;}
 
+            if ((mValue >= SSlow) and (mValue <= SShigh)) {
+                sweetSpot = true;
+            } else {
+                sweetSpot = false;
+            }
+
             if (displayW) {
                 mValue = mValue * 1000 / gewicht;
             }
@@ -135,7 +142,7 @@ class PowerDataFieldView extends WatchUi.DataField {
         // Get the background color
         var achtergrond = View.findDrawableById("Background") as Text;
 
-        if ((mValue >= SSlow) and (mValue <= SShigh)) {
+        if (sweetSpot) {
             sweetspotView.setText(Rez.Strings.sweetspot);
         } else {
             sweetspotView.setText("");
