@@ -23,4 +23,8 @@
     <string id="COLOR_DK_BLUE">Dunkel Blau</string>
     <string id="COLOR_PURPLE">Violett</string>
     <string id="COLOR_PINK">Rosa</string>
+
+    <string id="displayBar">Balken anzeigen</string>
+    <string id="displayBarNee">Nein</string>    
+    <string id="displayBarJa">Ja</string>
 </strings>

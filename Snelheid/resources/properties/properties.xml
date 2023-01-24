@@ -4,6 +4,7 @@
         <property id="achtergrondhoog" type="number">0x00AA00</property>
         <property id="voorgrondlaag" type="number">0xFFFFFF</property>
         <property id="voorgrondhoog" type="number">0xFFFFFF</property>
+        <property id="displayBar" type="number">1</property>
     </properties>
 
     <settings>
@@ -77,6 +78,12 @@
                 <listEntry value="0x0000FF">@Strings.COLOR_DK_BLUE</listEntry>
                 <listEntry value="0xAA00FF">@Strings.COLOR_PURPLE</listEntry>
                 <listEntry value="0xFF00FF">@Strings.COLOR_PINK</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.displayBar" title="@Strings.displayBar">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.displayBarNee</listEntry>
+                <listEntry value="1">@Strings.displayBarJa</listEntry>
             </settingConfig>
         </setting>
     </settings>

@@ -204,7 +204,7 @@ class PowerDataFieldView extends WatchUi.DataField {
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
 
-        if ((hoogte > 100) and (Application.Properties.getValue("displayBar"))) {
+        if ((hoogte > 90) and (Application.Properties.getValue("displayBar"))) {
             var x;
             var aantalblokjes = 19;
             var midden = 9;

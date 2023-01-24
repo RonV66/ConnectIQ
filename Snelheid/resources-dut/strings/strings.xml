@@ -23,4 +23,8 @@
     <string id="COLOR_DK_BLUE">Donker Blauw</string>
     <string id="COLOR_PURPLE">Paars</string>
     <string id="COLOR_PINK">Roze</string>
+
+    <string id="displayBar">Bar tonen</string>
+    <string id="displayBarNee">Nee</string>    
+    <string id="displayBarJa">Ja</string>
 </strings>

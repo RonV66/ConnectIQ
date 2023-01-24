@@ -23,4 +23,8 @@
     <string id="COLOR_DK_BLUE">Dark Blue</string>
     <string id="COLOR_PURPLE">Purple</string>
     <string id="COLOR_PINK">Pink</string>
+
+    <string id="displayBar">Display Bar</string>
+    <string id="displayBarNee">No</string>    
+    <string id="displayBarJa">Yes</string>
 </strings>
