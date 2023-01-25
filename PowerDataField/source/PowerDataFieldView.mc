@@ -32,6 +32,14 @@ class PowerDataFieldView extends WatchUi.DataField {
     hidden var gewicht;
     hidden var displayW;
 
+    hidden var aantalblokjes;
+    hidden var midden;
+    hidden var blokjeB;
+    hidden var blokjeH;
+    hidden var blokjeHH;
+    hidden var blokjeHHH;
+    hidden var inspringen;
+
     function initialize() {
         DataField.initialize();
         mValue = 0;
@@ -92,6 +100,19 @@ class PowerDataFieldView extends WatchUi.DataField {
         } else {
             labelView.setText(Rez.Strings.label);
         }
+
+        aantalblokjes = 19;
+        midden = 9;
+        blokjeB = breedte / aantalblokjes;
+        blokjeH = 10;
+        blokjeHH = 15;
+        blokjeHHH = 20;
+        if (hoogte < 120) {
+            blokjeH = 8;
+            blokjeHH = 11;
+            blokjeHHH = 14;
+        }
+        inspringen = (breedte - (aantalblokjes*blokjeB)) / 2;
     }
 
     // The given info object contains all the current workout information.
@@ -205,12 +226,6 @@ class PowerDataFieldView extends WatchUi.DataField {
         View.onUpdate(dc);
 
         if ((hoogte > 90) and (Application.Properties.getValue("displayBar"))) {
-            var x;
-            var aantalblokjes = 19;
-            var midden = 9;
-            var blokjeB = breedte / aantalblokjes;
-            var blokjeH = 10;
-
             if (V < -35 ) {midden = 0;}
             else if ((V >= -35) and (V < -32 )) {midden = 1;}
             else if ((V >= -32) and (V < -28 )) {midden = 2;}
@@ -233,24 +248,23 @@ class PowerDataFieldView extends WatchUi.DataField {
             else if ((V < 35) and (V >= 32 )) {midden = 17;}
             else if (V > 35 ) {midden = 18;}
 
-            for ( x=0; x<aantalblokjes; x+=1 ) {
-                var blokjemidden = [(midden - 1), (midden + 1)];
+            for (var x=0; x<aantalblokjes; x+=1 ) {
+                var blokjemidden = [(midden + 1), (midden - 1)];
                 var blokjehoog = midden;
                 if (midden > vorigemidden) {
-                    blokjemidden = [(midden - 2), (midden - 1)];
+                    blokjemidden = [(midden - 1), (midden - 2)];
                     blokjehoog = midden;
                 }
                 if (midden < vorigemidden) {
-                    blokjemidden = [(midden + 1), (midden + 2)];
+                    blokjemidden = [(midden + 2), (midden + 1)];
                     blokjehoog = midden;
                 }
-
                 if ((x == blokjemidden[0]) or (x == blokjemidden[1])) {
-                    dc.fillRoundedRectangle(10 + x * blokjeB, hoogte - 17, blokjeB, blokjeH + 5, 1);
+                    dc.fillRoundedRectangle(inspringen + x * blokjeB, hoogte - blokjeHH, blokjeB, blokjeHH, 1);
                 } else if (x == blokjehoog) {
-                    dc.fillRoundedRectangle(10 + x * blokjeB, hoogte - 22, blokjeB, blokjeH + 10, 1);
+                    dc.fillRoundedRectangle(inspringen + x * blokjeB, hoogte - blokjeHHH, blokjeB, blokjeHHH, 1);
                 } else {
-                    dc.fillRoundedRectangle(10 + x * blokjeB, hoogte - 12, blokjeB, blokjeH, 1);
+                    dc.fillRoundedRectangle(inspringen + x * blokjeB, hoogte - blokjeH, blokjeB, blokjeH, 1);
                 }
             }
             vorigemidden = midden;

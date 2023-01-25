@@ -21,6 +21,14 @@ class SnelheidView extends WatchUi.DataField {
 
     hidden var valueView;
     hidden var labelView;
+
+    hidden var aantalblokjes;
+    hidden var midden;
+    hidden var blokjeB;
+    hidden var blokjeH;
+    hidden var blokjeHH;
+    hidden var blokjeHHH;
+    hidden var inspringen;
     
     function initialize() {
         DataField.initialize();
@@ -61,6 +69,19 @@ class SnelheidView extends WatchUi.DataField {
         achtergrondlaag  = Application.Properties.getValue("achtergrondlaag");
         voorgrondhoog  = Application.Properties.getValue("voorgrondhoog");
         voorgrondlaag  = Application.Properties.getValue("voorgrondlaag");
+
+        aantalblokjes = 19;
+        midden = 9;
+        blokjeB = breedte / aantalblokjes;
+        blokjeH = 10;
+        blokjeHH = 15;
+        blokjeHHH = 20;
+        if (hoogte < 120) {
+            blokjeH = 8;
+            blokjeHH = 11;
+            blokjeHHH = 14;
+        }
+        inspringen = (breedte - (aantalblokjes*blokjeB)) / 2;
     }
 
     function compute(info as Activity.Info) as Void {
@@ -114,12 +135,6 @@ class SnelheidView extends WatchUi.DataField {
         View.onUpdate(dc);
 
         if ((hoogte > 90) and (Application.Properties.getValue("displayBar"))) {
-            var x;
-            var aantalblokjes = 19;
-            var midden = 9;
-            var blokjeB = breedte / aantalblokjes;
-            var blokjeH = 10;
-
             if (V < -35.0000 ) {midden = 0;}
             else if ((V >= -35.0000) and (V < -31.1112 )) {midden = 1;}
             else if ((V >= -31.1112) and (V < -27.2223 )) {midden = 2;}
@@ -142,7 +157,7 @@ class SnelheidView extends WatchUi.DataField {
             else if ((V < 35.0000) and (V >= 31.1112 )) {midden = 17;}
             else if (V > 35.0000 ) {midden = 18;}
 
-            for ( x=0; x<aantalblokjes; x+=1 ) {
+            for (var x=0; x<aantalblokjes; x+=1 ) {
                 var blokjemidden = [(midden + 1), (midden - 1)];
                 var blokjehoog = midden;
                 if (midden > vorigemidden) {
@@ -153,13 +168,12 @@ class SnelheidView extends WatchUi.DataField {
                     blokjemidden = [(midden + 2), (midden + 1)];
                     blokjehoog = midden;
                 }
-
                 if ((x == blokjemidden[0]) or (x == blokjemidden[1])) {
-                    dc.fillRoundedRectangle(10 + x * blokjeB, hoogte - 17, blokjeB, blokjeH + 5, 1);
+                    dc.fillRoundedRectangle(inspringen + x * blokjeB, hoogte - blokjeHH, blokjeB, blokjeHH, 1);
                 } else if (x == blokjehoog) {
-                    dc.fillRoundedRectangle(10 + x * blokjeB, hoogte - 22, blokjeB, blokjeH + 10, 1);
+                    dc.fillRoundedRectangle(inspringen + x * blokjeB, hoogte - blokjeHHH, blokjeB, blokjeHHH, 1);
                 } else {
-                    dc.fillRoundedRectangle(10 + x * blokjeB, hoogte - 12, blokjeB, blokjeH, 1);
+                    dc.fillRoundedRectangle(inspringen + x * blokjeB, hoogte - blokjeH, blokjeB, blokjeH, 1);
                 }
             }
             vorigemidden = midden;
