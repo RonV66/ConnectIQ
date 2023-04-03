@@ -26,6 +26,10 @@
 		{
 			"name": "PowerDataField",
 			"path": ".\\PowerDataField"
+		},
+		{
+			"name": "RadarLight",
+			"path": ".\\RadarLight"
 		}
 	],
 	"settings": {
