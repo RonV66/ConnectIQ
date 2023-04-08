@@ -1,587 +1,595 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-    <manifest filename="C:\Users\veldenr\ConnectIQ\PowerDataField\manifest.xml"/>
+    <manifest filename="C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="1" lineNum="9" parent="globals/Background" pc="268435456" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="1" lineNum="10" parent="globals/Background" pc="268435460" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="1" lineNum="14" parent="globals/Background" pc="268435481" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="1" lineNum="16" parent="globals/Background" pc="268435501" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="2" lineNum="19" parent="globals/Background" pc="268435522" symbol="setColor"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="2" lineNum="20" parent="globals/Background" pc="268435526" symbol="setColor"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="3" lineNum="23" parent="globals/Background" pc="268435537" symbol="draw"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="3" lineNum="24" parent="globals/Background" pc="268435541" symbol="draw"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="3" lineNum="25" parent="globals/Background" pc="268435573" symbol="draw"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268444668" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268444668" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="43" parent="globals/PowerDataFieldView" pc="268435586" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="44" parent="globals/PowerDataFieldView" pc="268435590" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="45" parent="globals/PowerDataFieldView" pc="268435608" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="46" parent="globals/PowerDataFieldView" pc="268435621" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="47" parent="globals/PowerDataFieldView" pc="268435634" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="48" parent="globals/PowerDataFieldView" pc="268435647" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="49" parent="globals/PowerDataFieldView" pc="268435660" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="50" parent="globals/PowerDataFieldView" pc="268435673" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="51" parent="globals/PowerDataFieldView" pc="268435686" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="52" parent="globals/PowerDataFieldView" pc="268435699" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="53" parent="globals/PowerDataFieldView" pc="268435709" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="54" parent="globals/PowerDataFieldView" pc="268435722" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="56" parent="globals/PowerDataFieldView" pc="268435735" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="57" parent="globals/PowerDataFieldView" pc="268435752" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="59" parent="globals/PowerDataFieldView" pc="268435768" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="60" parent="globals/PowerDataFieldView" pc="268435804" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="61" parent="globals/PowerDataFieldView" pc="268435821" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="61" parent="globals/PowerDataFieldView" pc="268435842" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="63" parent="globals/PowerDataFieldView" pc="268435871" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="64" parent="globals/PowerDataFieldView" pc="268435907" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="65" parent="globals/PowerDataFieldView" pc="268435941" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="66" parent="globals/PowerDataFieldView" pc="268435975" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="67" parent="globals/PowerDataFieldView" pc="268436009" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="68" parent="globals/PowerDataFieldView" pc="268436043" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="69" parent="globals/PowerDataFieldView" pc="268436077" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="70" parent="globals/PowerDataFieldView" pc="268436111" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="71" parent="globals/PowerDataFieldView" pc="268436139" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="6" lineNum="73" parent="globals/PowerDataFieldView" pc="268436167" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="78" parent="globals/PowerDataFieldView" pc="268436204" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="79" parent="globals/PowerDataFieldView" pc="268436208" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="80" parent="globals/PowerDataFieldView" pc="268436227" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="81" parent="globals/PowerDataFieldView" pc="268436246" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="82" parent="globals/PowerDataFieldView" pc="268436263" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="83" parent="globals/PowerDataFieldView" pc="268436309" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="84" parent="globals/PowerDataFieldView" pc="268436346" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="85" parent="globals/PowerDataFieldView" pc="268436392" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="86" parent="globals/PowerDataFieldView" pc="268436429" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="87" parent="globals/PowerDataFieldView" pc="268436475" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="88" parent="globals/PowerDataFieldView" pc="268436492" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="91" parent="globals/PowerDataFieldView" pc="268436538" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="92" parent="globals/PowerDataFieldView" pc="268436568" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="94" parent="globals/PowerDataFieldView" pc="268436602" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="95" parent="globals/PowerDataFieldView" pc="268436632" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="97" parent="globals/PowerDataFieldView" pc="268436660" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="98" parent="globals/PowerDataFieldView" pc="268436690" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="99" parent="globals/PowerDataFieldView" pc="268436701" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="101" parent="globals/PowerDataFieldView" pc="268436742" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="104" parent="globals/PowerDataFieldView" pc="268436780" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="105" parent="globals/PowerDataFieldView" pc="268436793" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="106" parent="globals/PowerDataFieldView" pc="268436806" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="107" parent="globals/PowerDataFieldView" pc="268436831" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="108" parent="globals/PowerDataFieldView" pc="268436844" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="109" parent="globals/PowerDataFieldView" pc="268436857" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="110" parent="globals/PowerDataFieldView" pc="268436870" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="111" parent="globals/PowerDataFieldView" pc="268436887" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="112" parent="globals/PowerDataFieldView" pc="268436900" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="113" parent="globals/PowerDataFieldView" pc="268436913" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="7" lineNum="115" parent="globals/PowerDataFieldView" pc="268436929" symbol="onLayout"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="122" parent="globals/PowerDataFieldView" pc="268436970" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="124" parent="globals/PowerDataFieldView" pc="268436974" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="125" parent="globals/PowerDataFieldView" pc="268436985" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="126" parent="globals/PowerDataFieldView" pc="268437001" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="127" parent="globals/PowerDataFieldView" pc="268437014" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="128" parent="globals/PowerDataFieldView" pc="268437031" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="129" parent="globals/PowerDataFieldView" pc="268437056" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="130" parent="globals/PowerDataFieldView" pc="268437112" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="132" parent="globals/PowerDataFieldView" pc="268437148" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="134" parent="globals/PowerDataFieldView" pc="268437164" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="135" parent="globals/PowerDataFieldView" pc="268437181" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="138" parent="globals/PowerDataFieldView" pc="268437227" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="140" parent="globals/PowerDataFieldView" pc="268437240" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="140" parent="globals/PowerDataFieldView" pc="268437266" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="141" parent="globals/PowerDataFieldView" pc="268437282" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="141" parent="globals/PowerDataFieldView" pc="268437337" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="142" parent="globals/PowerDataFieldView" pc="268437353" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="142" parent="globals/PowerDataFieldView" pc="268437408" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="143" parent="globals/PowerDataFieldView" pc="268437424" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="143" parent="globals/PowerDataFieldView" pc="268437479" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="144" parent="globals/PowerDataFieldView" pc="268437495" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="144" parent="globals/PowerDataFieldView" pc="268437550" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="145" parent="globals/PowerDataFieldView" pc="268437566" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="145" parent="globals/PowerDataFieldView" pc="268437621" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="146" parent="globals/PowerDataFieldView" pc="268437637" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="146" parent="globals/PowerDataFieldView" pc="268437663" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="148" parent="globals/PowerDataFieldView" pc="268437679" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="149" parent="globals/PowerDataFieldView" pc="268437722" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="151" parent="globals/PowerDataFieldView" pc="268437735" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="154" parent="globals/PowerDataFieldView" pc="268437745" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="8" lineNum="155" parent="globals/PowerDataFieldView" pc="268437756" symbol="compute"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="162" parent="globals/PowerDataFieldView" pc="268437794" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="164" parent="globals/PowerDataFieldView" pc="268437798" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="166" parent="globals/PowerDataFieldView" pc="268437822" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="167" parent="globals/PowerDataFieldView" pc="268437833" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="169" parent="globals/PowerDataFieldView" pc="268437874" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="173" parent="globals/PowerDataFieldView" pc="268437897" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="175" parent="globals/PowerDataFieldView" pc="268438051" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="176" parent="globals/PowerDataFieldView" pc="268438081" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="177" parent="globals/PowerDataFieldView" pc="268438111" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="178" parent="globals/PowerDataFieldView" pc="268438141" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="179" parent="globals/PowerDataFieldView" pc="268438158" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="181" parent="globals/PowerDataFieldView" pc="268438161" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="182" parent="globals/PowerDataFieldView" pc="268438191" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="183" parent="globals/PowerDataFieldView" pc="268438221" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="184" parent="globals/PowerDataFieldView" pc="268438251" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="185" parent="globals/PowerDataFieldView" pc="268438275" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="187" parent="globals/PowerDataFieldView" pc="268438278" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="188" parent="globals/PowerDataFieldView" pc="268438308" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="189" parent="globals/PowerDataFieldView" pc="268438338" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="190" parent="globals/PowerDataFieldView" pc="268438368" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="191" parent="globals/PowerDataFieldView" pc="268438392" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="193" parent="globals/PowerDataFieldView" pc="268438395" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="194" parent="globals/PowerDataFieldView" pc="268438425" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="195" parent="globals/PowerDataFieldView" pc="268438455" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="196" parent="globals/PowerDataFieldView" pc="268438485" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="197" parent="globals/PowerDataFieldView" pc="268438502" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="199" parent="globals/PowerDataFieldView" pc="268438505" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="200" parent="globals/PowerDataFieldView" pc="268438535" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="201" parent="globals/PowerDataFieldView" pc="268438565" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="202" parent="globals/PowerDataFieldView" pc="268438595" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="203" parent="globals/PowerDataFieldView" pc="268438612" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="205" parent="globals/PowerDataFieldView" pc="268438615" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="206" parent="globals/PowerDataFieldView" pc="268438645" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="207" parent="globals/PowerDataFieldView" pc="268438675" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="208" parent="globals/PowerDataFieldView" pc="268438705" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="209" parent="globals/PowerDataFieldView" pc="268438729" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="211" parent="globals/PowerDataFieldView" pc="268438732" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="212" parent="globals/PowerDataFieldView" pc="268438762" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="213" parent="globals/PowerDataFieldView" pc="268438792" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="214" parent="globals/PowerDataFieldView" pc="268438822" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="215" parent="globals/PowerDataFieldView" pc="268438846" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="219" parent="globals/PowerDataFieldView" pc="268438849" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="220" parent="globals/PowerDataFieldView" pc="268438860" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="222" parent="globals/PowerDataFieldView" pc="268438903" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="226" parent="globals/PowerDataFieldView" pc="268438943" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="228" parent="globals/PowerDataFieldView" pc="268438963" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="229" parent="globals/PowerDataFieldView" pc="268439014" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="229" parent="globals/PowerDataFieldView" pc="268439031" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="230" parent="globals/PowerDataFieldView" pc="268439047" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="230" parent="globals/PowerDataFieldView" pc="268439084" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="231" parent="globals/PowerDataFieldView" pc="268439100" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="231" parent="globals/PowerDataFieldView" pc="268439137" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="232" parent="globals/PowerDataFieldView" pc="268439153" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="232" parent="globals/PowerDataFieldView" pc="268439190" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="233" parent="globals/PowerDataFieldView" pc="268439206" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="233" parent="globals/PowerDataFieldView" pc="268439243" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="234" parent="globals/PowerDataFieldView" pc="268439259" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="234" parent="globals/PowerDataFieldView" pc="268439296" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="235" parent="globals/PowerDataFieldView" pc="268439312" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="235" parent="globals/PowerDataFieldView" pc="268439349" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="236" parent="globals/PowerDataFieldView" pc="268439365" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="236" parent="globals/PowerDataFieldView" pc="268439402" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="237" parent="globals/PowerDataFieldView" pc="268439418" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="237" parent="globals/PowerDataFieldView" pc="268439455" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="239" parent="globals/PowerDataFieldView" pc="268439471" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="239" parent="globals/PowerDataFieldView" pc="268439508" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="241" parent="globals/PowerDataFieldView" pc="268439524" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="241" parent="globals/PowerDataFieldView" pc="268439561" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="242" parent="globals/PowerDataFieldView" pc="268439577" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="242" parent="globals/PowerDataFieldView" pc="268439614" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="243" parent="globals/PowerDataFieldView" pc="268439630" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="243" parent="globals/PowerDataFieldView" pc="268439667" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="244" parent="globals/PowerDataFieldView" pc="268439683" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="244" parent="globals/PowerDataFieldView" pc="268439720" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="245" parent="globals/PowerDataFieldView" pc="268439736" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="245" parent="globals/PowerDataFieldView" pc="268439773" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="246" parent="globals/PowerDataFieldView" pc="268439789" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="246" parent="globals/PowerDataFieldView" pc="268439826" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="247" parent="globals/PowerDataFieldView" pc="268439842" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="247" parent="globals/PowerDataFieldView" pc="268439879" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="248" parent="globals/PowerDataFieldView" pc="268439895" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="248" parent="globals/PowerDataFieldView" pc="268439932" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="249" parent="globals/PowerDataFieldView" pc="268439948" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="249" parent="globals/PowerDataFieldView" pc="268439965" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="251" parent="globals/PowerDataFieldView" pc="268439981" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="252" parent="globals/PowerDataFieldView" pc="268440002" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="253" parent="globals/PowerDataFieldView" pc="268440054" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="254" parent="globals/PowerDataFieldView" pc="268440064" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="255" parent="globals/PowerDataFieldView" pc="268440084" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="256" parent="globals/PowerDataFieldView" pc="268440136" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="258" parent="globals/PowerDataFieldView" pc="268440149" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="259" parent="globals/PowerDataFieldView" pc="268440169" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="260" parent="globals/PowerDataFieldView" pc="268440221" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="262" parent="globals/PowerDataFieldView" pc="268440234" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="263" parent="globals/PowerDataFieldView" pc="268440265" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="264" parent="globals/PowerDataFieldView" pc="268440338" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="265" parent="globals/PowerDataFieldView" pc="268440346" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="267" parent="globals/PowerDataFieldView" pc="268440419" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="9" lineNum="270" parent="globals/PowerDataFieldView" pc="268440502" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="10" lineNum="7" parent="globals/PowerDataFieldView" pc="268444687" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="10" lineNum="21" parent="globals/PowerDataFieldView" pc="268444705" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="10" lineNum="7" parent="globals/PowerDataFieldView" pc="268444687" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="12" lineNum="7" parent="globals/PowerDataFieldApp" pc="268440522" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="12" lineNum="8" parent="globals/PowerDataFieldApp" pc="268440526" symbol="initialize"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="13" lineNum="12" parent="globals/PowerDataFieldApp" pc="268440545" symbol="onStart"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="14" lineNum="16" parent="globals/PowerDataFieldApp" pc="268440550" symbol="onStop"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="15" lineNum="20" parent="globals/PowerDataFieldApp" pc="268440555" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="15" lineNum="21" parent="globals/PowerDataFieldApp" pc="268440559" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="16" lineNum="5" parent="globals/PowerDataFieldApp" pc="268444649" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="16" lineNum="5" parent="globals/PowerDataFieldApp" pc="268444649" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="17" lineNum="26" parent="globals" pc="268440597" symbol="getApp"/>
-        <entry filename="C:\\Users\\veldenr\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="17" lineNum="27" parent="globals" pc="268440609" symbol="getApp"/>
-        <entry filename="Rez" id="19" lineNum="2" parent="globals/Rez/Drawables" pc="268444744" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="20" lineNum="6" parent="globals/Rez/Fonts" pc="268444746" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="21" lineNum="8" parent="globals/Rez/JsonData" pc="268444748" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="22" lineNum="17" parent="globals/Rez/Layouts" pc="268440626" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="19" parent="globals/Rez/Layouts" pc="268440638" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="20" parent="globals/Rez/Layouts" pc="268440651" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268440664" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="23" parent="globals/Rez/Layouts" pc="268440688" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268440851" symbol="MainLayout"/>
-        <entry filename="Rez" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268441014" symbol="MainLayout"/>
-        <entry filename="Rez" id="23" lineNum="35" parent="globals/Rez/Layouts" pc="268441052" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="37" parent="globals/Rez/Layouts" pc="268441064" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="39" parent="globals/Rez/Layouts" pc="268441077" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="40" parent="globals/Rez/Layouts" pc="268441101" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="41" parent="globals/Rez/Layouts" pc="268441244" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="42" parent="globals/Rez/Layouts" pc="268441416" symbol="Klein"/>
-        <entry filename="Rez" id="23" lineNum="44" parent="globals/Rez/Layouts" pc="268441563" symbol="Klein"/>
-        <entry filename="Rez" id="24" lineNum="53" parent="globals/Rez/Layouts" pc="268441611" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="55" parent="globals/Rez/Layouts" pc="268441623" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="57" parent="globals/Rez/Layouts" pc="268441636" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="58" parent="globals/Rez/Layouts" pc="268441660" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="59" parent="globals/Rez/Layouts" pc="268441803" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="60" parent="globals/Rez/Layouts" pc="268441975" symbol="Middel1"/>
-        <entry filename="Rez" id="24" lineNum="62" parent="globals/Rez/Layouts" pc="268442122" symbol="Middel1"/>
-        <entry filename="Rez" id="25" lineNum="71" parent="globals/Rez/Layouts" pc="268442170" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="73" parent="globals/Rez/Layouts" pc="268442182" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="75" parent="globals/Rez/Layouts" pc="268442195" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="76" parent="globals/Rez/Layouts" pc="268442219" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="77" parent="globals/Rez/Layouts" pc="268442362" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="78" parent="globals/Rez/Layouts" pc="268442534" symbol="Middel2"/>
-        <entry filename="Rez" id="25" lineNum="80" parent="globals/Rez/Layouts" pc="268442681" symbol="Middel2"/>
-        <entry filename="Rez" id="26" lineNum="89" parent="globals/Rez/Layouts" pc="268442729" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="91" parent="globals/Rez/Layouts" pc="268442741" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="93" parent="globals/Rez/Layouts" pc="268442754" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="94" parent="globals/Rez/Layouts" pc="268442778" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="95" parent="globals/Rez/Layouts" pc="268442921" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="96" parent="globals/Rez/Layouts" pc="268443093" symbol="Groot"/>
-        <entry filename="Rez" id="26" lineNum="98" parent="globals/Rez/Layouts" pc="268443240" symbol="Groot"/>
-        <entry filename="Rez" id="27" lineNum="107" parent="globals/Rez/Layouts" pc="268443288" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="110" parent="globals/Rez/Layouts" pc="268443300" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="111" parent="globals/Rez/Layouts" pc="268443324" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="112" parent="globals/Rez/Layouts" pc="268443457" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="27" lineNum="114" parent="globals/Rez/Layouts" pc="268443590" symbol="TopLeftLayout"/>
-        <entry filename="Rez" id="28" lineNum="123" parent="globals/Rez/Layouts" pc="268443628" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="126" parent="globals/Rez/Layouts" pc="268443640" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="127" parent="globals/Rez/Layouts" pc="268443664" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="128" parent="globals/Rez/Layouts" pc="268443797" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="28" lineNum="130" parent="globals/Rez/Layouts" pc="268443930" symbol="TopRightLayout"/>
-        <entry filename="Rez" id="29" lineNum="139" parent="globals/Rez/Layouts" pc="268443968" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="142" parent="globals/Rez/Layouts" pc="268443980" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="143" parent="globals/Rez/Layouts" pc="268444004" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="144" parent="globals/Rez/Layouts" pc="268444137" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="29" lineNum="146" parent="globals/Rez/Layouts" pc="268444270" symbol="BottomLeftLayout"/>
-        <entry filename="Rez" id="30" lineNum="155" parent="globals/Rez/Layouts" pc="268444308" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="158" parent="globals/Rez/Layouts" pc="268444320" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="159" parent="globals/Rez/Layouts" pc="268444344" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="160" parent="globals/Rez/Layouts" pc="268444477" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="30" lineNum="162" parent="globals/Rez/Layouts" pc="268444610" symbol="BottomRightLayout"/>
-        <entry filename="Rez" id="31" lineNum="10" parent="globals/Rez/Layouts" pc="268444747" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="32" lineNum="167" parent="globals/Rez/Menus" pc="268444745" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="33" lineNum="169" parent="globals/Rez/Strings" pc="268444749" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268444720" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="34" lineNum="1" parent="globals/Rez" pc="268444720" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="2" lineNum="5" parent="globals/Background" pc="268435486" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="3" lineNum="19" parent="globals/Background" pc="268435505" symbol="setColor"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="3" lineNum="20" parent="globals/Background" pc="268435507" symbol="setColor"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="4" lineNum="9" parent="globals/Background" pc="268435518" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="4" lineNum="10" parent="globals/Background" pc="268435522" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="4" lineNum="14" parent="globals/Background" pc="268435543" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="4" lineNum="16" parent="globals/Background" pc="268435563" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="5" lineNum="23" parent="globals/Background" pc="268435577" symbol="draw"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="5" lineNum="24" parent="globals/Background" pc="268435579" symbol="draw"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldBackground.mc" id="5" lineNum="25" parent="globals/Background" pc="268435604" symbol="draw"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="6" lineNum="5" parent="globals/PowerDataFieldApp" pc="268435617" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="7" lineNum="12" parent="globals/PowerDataFieldApp" pc="268435636" symbol="onStart"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="8" lineNum="20" parent="globals/PowerDataFieldApp" pc="268435639" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="8" lineNum="21" parent="globals/PowerDataFieldApp" pc="268435641" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="9" lineNum="7" parent="globals/PowerDataFieldApp" pc="268435682" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="9" lineNum="8" parent="globals/PowerDataFieldApp" pc="268435684" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="10" lineNum="16" parent="globals/PowerDataFieldApp" pc="268435703" symbol="onStop"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268435706" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="12" lineNum="7" parent="globals/PowerDataFieldView" pc="268435730" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="12" lineNum="21" parent="globals/PowerDataFieldView" pc="268435748" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="124" parent="globals/PowerDataFieldView" pc="268435763" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="126" parent="globals/PowerDataFieldView" pc="268435765" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="127" parent="globals/PowerDataFieldView" pc="268435776" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="128" parent="globals/PowerDataFieldView" pc="268435792" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="129" parent="globals/PowerDataFieldView" pc="268435805" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="130" parent="globals/PowerDataFieldView" pc="268435822" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="131" parent="globals/PowerDataFieldView" pc="268435847" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="132" parent="globals/PowerDataFieldView" pc="268435903" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="134" parent="globals/PowerDataFieldView" pc="268435939" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="136" parent="globals/PowerDataFieldView" pc="268435955" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="137" parent="globals/PowerDataFieldView" pc="268435972" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="140" parent="globals/PowerDataFieldView" pc="268436018" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="142" parent="globals/PowerDataFieldView" pc="268436031" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="142" parent="globals/PowerDataFieldView" pc="268436057" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="143" parent="globals/PowerDataFieldView" pc="268436073" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="143" parent="globals/PowerDataFieldView" pc="268436128" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="144" parent="globals/PowerDataFieldView" pc="268436144" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="144" parent="globals/PowerDataFieldView" pc="268436199" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="145" parent="globals/PowerDataFieldView" pc="268436215" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="145" parent="globals/PowerDataFieldView" pc="268436270" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="146" parent="globals/PowerDataFieldView" pc="268436286" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="146" parent="globals/PowerDataFieldView" pc="268436341" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="147" parent="globals/PowerDataFieldView" pc="268436357" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="147" parent="globals/PowerDataFieldView" pc="268436412" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="148" parent="globals/PowerDataFieldView" pc="268436428" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="148" parent="globals/PowerDataFieldView" pc="268436454" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="150" parent="globals/PowerDataFieldView" pc="268436470" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="151" parent="globals/PowerDataFieldView" pc="268436513" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="153" parent="globals/PowerDataFieldView" pc="268436526" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="156" parent="globals/PowerDataFieldView" pc="268436536" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="157" parent="globals/PowerDataFieldView" pc="268436547" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="78" parent="globals/PowerDataFieldView" pc="268436585" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="79" parent="globals/PowerDataFieldView" pc="268436587" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="80" parent="globals/PowerDataFieldView" pc="268436606" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="81" parent="globals/PowerDataFieldView" pc="268436625" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="82" parent="globals/PowerDataFieldView" pc="268436642" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="83" parent="globals/PowerDataFieldView" pc="268436696" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="84" parent="globals/PowerDataFieldView" pc="268436733" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="85" parent="globals/PowerDataFieldView" pc="268436787" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="86" parent="globals/PowerDataFieldView" pc="268436824" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="87" parent="globals/PowerDataFieldView" pc="268436878" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="88" parent="globals/PowerDataFieldView" pc="268436915" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="89" parent="globals/PowerDataFieldView" pc="268436969" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="90" parent="globals/PowerDataFieldView" pc="268436986" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="93" parent="globals/PowerDataFieldView" pc="268437040" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="94" parent="globals/PowerDataFieldView" pc="268437074" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="96" parent="globals/PowerDataFieldView" pc="268437108" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="97" parent="globals/PowerDataFieldView" pc="268437142" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="99" parent="globals/PowerDataFieldView" pc="268437170" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="100" parent="globals/PowerDataFieldView" pc="268437204" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="101" parent="globals/PowerDataFieldView" pc="268437215" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="103" parent="globals/PowerDataFieldView" pc="268437260" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="106" parent="globals/PowerDataFieldView" pc="268437302" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="107" parent="globals/PowerDataFieldView" pc="268437315" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="108" parent="globals/PowerDataFieldView" pc="268437328" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="109" parent="globals/PowerDataFieldView" pc="268437353" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="110" parent="globals/PowerDataFieldView" pc="268437366" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="111" parent="globals/PowerDataFieldView" pc="268437379" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="112" parent="globals/PowerDataFieldView" pc="268437392" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="113" parent="globals/PowerDataFieldView" pc="268437409" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="114" parent="globals/PowerDataFieldView" pc="268437422" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="115" parent="globals/PowerDataFieldView" pc="268437435" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="14" lineNum="117" parent="globals/PowerDataFieldView" pc="268437451" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="43" parent="globals/PowerDataFieldView" pc="268437492" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="44" parent="globals/PowerDataFieldView" pc="268437496" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="45" parent="globals/PowerDataFieldView" pc="268437514" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="46" parent="globals/PowerDataFieldView" pc="268437527" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="47" parent="globals/PowerDataFieldView" pc="268437540" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="48" parent="globals/PowerDataFieldView" pc="268437553" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="49" parent="globals/PowerDataFieldView" pc="268437566" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="50" parent="globals/PowerDataFieldView" pc="268437579" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="51" parent="globals/PowerDataFieldView" pc="268437592" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="52" parent="globals/PowerDataFieldView" pc="268437605" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="53" parent="globals/PowerDataFieldView" pc="268437615" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="54" parent="globals/PowerDataFieldView" pc="268437628" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="56" parent="globals/PowerDataFieldView" pc="268437641" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="57" parent="globals/PowerDataFieldView" pc="268437658" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="59" parent="globals/PowerDataFieldView" pc="268437674" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="60" parent="globals/PowerDataFieldView" pc="268437710" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="61" parent="globals/PowerDataFieldView" pc="268437727" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="61" parent="globals/PowerDataFieldView" pc="268437748" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="63" parent="globals/PowerDataFieldView" pc="268437777" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="64" parent="globals/PowerDataFieldView" pc="268437813" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="65" parent="globals/PowerDataFieldView" pc="268437847" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="66" parent="globals/PowerDataFieldView" pc="268437881" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="67" parent="globals/PowerDataFieldView" pc="268437915" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="68" parent="globals/PowerDataFieldView" pc="268437949" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="69" parent="globals/PowerDataFieldView" pc="268437983" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="70" parent="globals/PowerDataFieldView" pc="268438017" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="71" parent="globals/PowerDataFieldView" pc="268438045" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="15" lineNum="73" parent="globals/PowerDataFieldView" pc="268438073" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="164" parent="globals/PowerDataFieldView" pc="268438110" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="166" parent="globals/PowerDataFieldView" pc="268438114" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="168" parent="globals/PowerDataFieldView" pc="268438142" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="169" parent="globals/PowerDataFieldView" pc="268438153" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="171" parent="globals/PowerDataFieldView" pc="268438198" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="175" parent="globals/PowerDataFieldView" pc="268438221" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="177" parent="globals/PowerDataFieldView" pc="268438372" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="178" parent="globals/PowerDataFieldView" pc="268438395" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="179" parent="globals/PowerDataFieldView" pc="268438418" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="180" parent="globals/PowerDataFieldView" pc="268438441" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="181" parent="globals/PowerDataFieldView" pc="268438458" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="183" parent="globals/PowerDataFieldView" pc="268438461" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="184" parent="globals/PowerDataFieldView" pc="268438484" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="185" parent="globals/PowerDataFieldView" pc="268438507" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="186" parent="globals/PowerDataFieldView" pc="268438530" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="187" parent="globals/PowerDataFieldView" pc="268438547" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="189" parent="globals/PowerDataFieldView" pc="268438550" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="190" parent="globals/PowerDataFieldView" pc="268438573" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="191" parent="globals/PowerDataFieldView" pc="268438596" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="192" parent="globals/PowerDataFieldView" pc="268438619" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="193" parent="globals/PowerDataFieldView" pc="268438636" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="195" parent="globals/PowerDataFieldView" pc="268438639" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="196" parent="globals/PowerDataFieldView" pc="268438662" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="197" parent="globals/PowerDataFieldView" pc="268438685" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="198" parent="globals/PowerDataFieldView" pc="268438708" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="199" parent="globals/PowerDataFieldView" pc="268438725" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="201" parent="globals/PowerDataFieldView" pc="268438728" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="202" parent="globals/PowerDataFieldView" pc="268438751" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="203" parent="globals/PowerDataFieldView" pc="268438774" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="204" parent="globals/PowerDataFieldView" pc="268438797" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="205" parent="globals/PowerDataFieldView" pc="268438814" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="207" parent="globals/PowerDataFieldView" pc="268438817" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="208" parent="globals/PowerDataFieldView" pc="268438840" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="209" parent="globals/PowerDataFieldView" pc="268438863" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="210" parent="globals/PowerDataFieldView" pc="268438886" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="211" parent="globals/PowerDataFieldView" pc="268438903" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="213" parent="globals/PowerDataFieldView" pc="268438906" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="214" parent="globals/PowerDataFieldView" pc="268438929" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="215" parent="globals/PowerDataFieldView" pc="268438952" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="216" parent="globals/PowerDataFieldView" pc="268438975" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="217" parent="globals/PowerDataFieldView" pc="268438992" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="221" parent="globals/PowerDataFieldView" pc="268438996" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="222" parent="globals/PowerDataFieldView" pc="268439007" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="224" parent="globals/PowerDataFieldView" pc="268439050" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="228" parent="globals/PowerDataFieldView" pc="268439090" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="230" parent="globals/PowerDataFieldView" pc="268439114" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="231" parent="globals/PowerDataFieldView" pc="268439165" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="231" parent="globals/PowerDataFieldView" pc="268439182" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="232" parent="globals/PowerDataFieldView" pc="268439198" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="232" parent="globals/PowerDataFieldView" pc="268439235" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="233" parent="globals/PowerDataFieldView" pc="268439251" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="233" parent="globals/PowerDataFieldView" pc="268439288" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="234" parent="globals/PowerDataFieldView" pc="268439304" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="234" parent="globals/PowerDataFieldView" pc="268439341" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="235" parent="globals/PowerDataFieldView" pc="268439357" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="235" parent="globals/PowerDataFieldView" pc="268439394" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="236" parent="globals/PowerDataFieldView" pc="268439410" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="236" parent="globals/PowerDataFieldView" pc="268439447" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="237" parent="globals/PowerDataFieldView" pc="268439463" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="237" parent="globals/PowerDataFieldView" pc="268439500" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="238" parent="globals/PowerDataFieldView" pc="268439516" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="238" parent="globals/PowerDataFieldView" pc="268439553" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="239" parent="globals/PowerDataFieldView" pc="268439569" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="239" parent="globals/PowerDataFieldView" pc="268439606" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="241" parent="globals/PowerDataFieldView" pc="268439622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="241" parent="globals/PowerDataFieldView" pc="268439659" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="243" parent="globals/PowerDataFieldView" pc="268439675" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="243" parent="globals/PowerDataFieldView" pc="268439712" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="244" parent="globals/PowerDataFieldView" pc="268439728" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="244" parent="globals/PowerDataFieldView" pc="268439765" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="245" parent="globals/PowerDataFieldView" pc="268439781" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="245" parent="globals/PowerDataFieldView" pc="268439818" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="246" parent="globals/PowerDataFieldView" pc="268439834" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="246" parent="globals/PowerDataFieldView" pc="268439871" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="247" parent="globals/PowerDataFieldView" pc="268439887" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="247" parent="globals/PowerDataFieldView" pc="268439924" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="248" parent="globals/PowerDataFieldView" pc="268439940" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="248" parent="globals/PowerDataFieldView" pc="268439977" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="249" parent="globals/PowerDataFieldView" pc="268439993" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="249" parent="globals/PowerDataFieldView" pc="268440030" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="250" parent="globals/PowerDataFieldView" pc="268440046" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="250" parent="globals/PowerDataFieldView" pc="268440083" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="251" parent="globals/PowerDataFieldView" pc="268440099" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="251" parent="globals/PowerDataFieldView" pc="268440116" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="253" parent="globals/PowerDataFieldView" pc="268440132" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="254" parent="globals/PowerDataFieldView" pc="268440153" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="255" parent="globals/PowerDataFieldView" pc="268440205" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="256" parent="globals/PowerDataFieldView" pc="268440215" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="257" parent="globals/PowerDataFieldView" pc="268440235" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="258" parent="globals/PowerDataFieldView" pc="268440287" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="260" parent="globals/PowerDataFieldView" pc="268440300" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="261" parent="globals/PowerDataFieldView" pc="268440320" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="262" parent="globals/PowerDataFieldView" pc="268440372" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="264" parent="globals/PowerDataFieldView" pc="268440385" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="265" parent="globals/PowerDataFieldView" pc="268440416" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="266" parent="globals/PowerDataFieldView" pc="268440489" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="267" parent="globals/PowerDataFieldView" pc="268440497" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="269" parent="globals/PowerDataFieldView" pc="268440570" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="272" parent="globals/PowerDataFieldView" pc="268440653" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="47" parent="globals/Rez/Layouts" pc="268440673" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="48" parent="globals/Rez/Layouts" pc="268440685" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="50" parent="globals/Rez/Layouts" pc="268440698" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="52" parent="globals/Rez/Layouts" pc="268440726" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="54" parent="globals/Rez/Layouts" pc="268440841" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="56" parent="globals/Rez/Layouts" pc="268440985" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="58" parent="globals/Rez/Layouts" pc="268441097" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="61" parent="globals/Rez/Layouts" pc="268441144" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="62" parent="globals/Rez/Layouts" pc="268441156" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="64" parent="globals/Rez/Layouts" pc="268441169" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="66" parent="globals/Rez/Layouts" pc="268441197" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="68" parent="globals/Rez/Layouts" pc="268441312" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="70" parent="globals/Rez/Layouts" pc="268441456" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="72" parent="globals/Rez/Layouts" pc="268441568" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="133" parent="globals/Rez/Layouts" pc="268441615" symbol="BottomRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="134" parent="globals/Rez/Layouts" pc="268441627" symbol="BottomRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="136" parent="globals/Rez/Layouts" pc="268441655" symbol="BottomRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="138" parent="globals/Rez/Layouts" pc="268441767" symbol="BottomRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="140" parent="globals/Rez/Layouts" pc="268441879" symbol="BottomRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="113" parent="globals/Rez/Layouts" pc="268441916" symbol="TopRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="114" parent="globals/Rez/Layouts" pc="268441928" symbol="TopRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="116" parent="globals/Rez/Layouts" pc="268441956" symbol="TopRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="118" parent="globals/Rez/Layouts" pc="268442068" symbol="TopRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="120" parent="globals/Rez/Layouts" pc="268442180" symbol="TopRightLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="89" parent="globals/Rez/Layouts" pc="268442217" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="90" parent="globals/Rez/Layouts" pc="268442229" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="92" parent="globals/Rez/Layouts" pc="268442242" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="94" parent="globals/Rez/Layouts" pc="268442270" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="96" parent="globals/Rez/Layouts" pc="268442385" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="98" parent="globals/Rez/Layouts" pc="268442529" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="100" parent="globals/Rez/Layouts" pc="268442641" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="123" parent="globals/Rez/Layouts" pc="268442688" symbol="BottomLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="124" parent="globals/Rez/Layouts" pc="268442700" symbol="BottomLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="126" parent="globals/Rez/Layouts" pc="268442728" symbol="BottomLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="128" parent="globals/Rez/Layouts" pc="268442840" symbol="BottomLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="130" parent="globals/Rez/Layouts" pc="268442952" symbol="BottomLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="23" lineNum="33" parent="globals/Rez/Layouts" pc="268442989" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="23" lineNum="34" parent="globals/Rez/Layouts" pc="268443001" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="23" lineNum="36" parent="globals/Rez/Layouts" pc="268443014" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="23" lineNum="38" parent="globals/Rez/Layouts" pc="268443042" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="23" lineNum="40" parent="globals/Rez/Layouts" pc="268443157" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="23" lineNum="42" parent="globals/Rez/Layouts" pc="268443301" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="23" lineNum="44" parent="globals/Rez/Layouts" pc="268443413" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="24" lineNum="75" parent="globals/Rez/Layouts" pc="268443460" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="24" lineNum="76" parent="globals/Rez/Layouts" pc="268443472" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="24" lineNum="78" parent="globals/Rez/Layouts" pc="268443485" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="24" lineNum="80" parent="globals/Rez/Layouts" pc="268443513" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="24" lineNum="82" parent="globals/Rez/Layouts" pc="268443628" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="24" lineNum="84" parent="globals/Rez/Layouts" pc="268443772" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="24" lineNum="86" parent="globals/Rez/Layouts" pc="268443884" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="25" lineNum="103" parent="globals/Rez/Layouts" pc="268443931" symbol="TopLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="25" lineNum="104" parent="globals/Rez/Layouts" pc="268443943" symbol="TopLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="25" lineNum="106" parent="globals/Rez/Layouts" pc="268443971" symbol="TopLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="25" lineNum="108" parent="globals/Rez/Layouts" pc="268444083" symbol="TopLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="25" lineNum="110" parent="globals/Rez/Layouts" pc="268444195" symbol="TopLeftLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="26" lineNum="19" parent="globals/Rez/Layouts" pc="268444232" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="26" lineNum="20" parent="globals/Rez/Layouts" pc="268444244" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268444257" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268444270" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="26" lineNum="26" parent="globals/Rez/Layouts" pc="268444298" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="26" lineNum="28" parent="globals/Rez/Layouts" pc="268444433" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\RonV66\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="26" lineNum="30" parent="globals/Rez/Layouts" pc="268444568" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="20" symbol="powerZoneProcenten"/>
+        <entry field="true" id="33" symbol="powerZoneProcenten"/>
         <entry field="true" id="14" symbol="SSlow"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="10" object="true" symbol="PowerDataFieldApp"/>
-        <entry id="40" method="true" symbol="MainLayout"/>
-        <entry field="true" id="26" symbol="sweetspotView"/>
-        <entry field="true" id="49" symbol="sweetspot"/>
-        <entry field="true" id="11" symbol="mValue"/>
-        <entry field="true" id="55" symbol="displayBar"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="9" object="true" symbol="PowerDataFieldApp"/>
+        <entry id="44" method="true" symbol="MainLayout"/>
+        <entry field="true" id="35" symbol="sweetspotView"/>
+        <entry field="true" id="63" symbol="sweetspot"/>
+        <entry field="true" id="28" symbol="mValue"/>
+        <entry field="true" id="52" symbol="displayBar"/>
         <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="58" symbol="AppName"/>
-        <entry id="44" method="true" symbol="Groot"/>
+        <entry field="true" id="50" symbol="AppName"/>
+        <entry id="42" method="true" symbol="Groot"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry field="true" id="27" symbol="sweetSpot"/>
+        <entry field="true" id="34" symbol="sweetSpot"/>
         <entry field="true" id="8389138" symbol="label"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="19" symbol="powerZone"/>
-        <entry field="true" id="52" symbol="displayBarNee"/>
+        <entry field="true" id="32" symbol="powerZone"/>
+        <entry field="true" id="54" symbol="displayBarNee"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="57" symbol="displayBarJa"/>
-        <entry field="true" id="24" symbol="valueView"/>
+        <entry field="true" id="53" symbol="displayBarJa"/>
+        <entry field="true" id="37" symbol="valueView"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="38" module="true" symbol="Menus"/>
+        <entry id="12" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="12" symbol="ftp"/>
+        <entry field="true" id="23" symbol="ftp"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="29" symbol="displayW"/>
+        <entry field="true" id="22" symbol="displayW"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
         <entry id="8389137" method="true" symbol="compute"/>
-        <entry field="true" id="15" symbol="SShigh"/>
+        <entry field="true" id="13" symbol="SShigh"/>
         <entry field="true" id="8388742" symbol="currentPower"/>
-        <entry field="true" id="34" symbol="blokjeHH"/>
+        <entry field="true" id="19" symbol="blokjeHH"/>
         <entry id="8389131" method="true" symbol="setColor"/>
-        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-        <entry id="43" method="true" symbol="Middel2"/>
-        <entry id="42" method="true" symbol="Middel1"/>
-        <entry id="9" object="true" symbol="PowerDataFieldView"/>
-        <entry field="true" id="31" symbol="midden"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="47" method="true" symbol="Middel3"/>
+        <entry id="46" method="true" symbol="Middel2"/>
+        <entry id="45" method="true" symbol="Middel1"/>
+        <entry id="10" object="true" symbol="PowerDataFieldView"/>
+        <entry field="true" id="29" symbol="midden"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="63" symbol="displayWperKG"/>
-        <entry id="45" method="true" symbol="TopLeftLayout"/>
-        <entry field="true" id="30" symbol="aantalblokjes"/>
-        <entry id="41" method="true" symbol="Klein"/>
+        <entry field="true" id="56" symbol="displayWperKG"/>
+        <entry id="48" method="true" symbol="TopLeftLayout"/>
+        <entry field="true" id="16" symbol="aantalblokjes"/>
+        <entry id="43" method="true" symbol="Klein"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="35" symbol="blokjeHHH"/>
-        <entry id="47" method="true" symbol="BottomLeftLayout"/>
-        <entry field="true" id="56" symbol="sec30"/>
-        <entry field="true" id="50" symbol="display"/>
-        <entry id="48" method="true" symbol="BottomRightLayout"/>
-        <entry field="true" id="18" symbol="teller"/>
-        <entry field="true" id="16" symbol="powerGemiddeldeArray"/>
-        <entry field="true" id="61" symbol="sec10"/>
+        <entry field="true" id="20" symbol="blokjeHHH"/>
+        <entry id="40" method="true" symbol="BottomLeftLayout"/>
+        <entry field="true" id="61" symbol="sec30"/>
+        <entry field="true" id="51" symbol="display"/>
+        <entry id="41" method="true" symbol="BottomRightLayout"/>
+        <entry field="true" id="36" symbol="teller"/>
+        <entry field="true" id="30" symbol="powerGemiddeldeArray"/>
+        <entry field="true" id="59" symbol="sec10"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="8389130" symbol="mColor"/>
         <entry id="8389068" method="true" symbol="draw"/>
         <entry field="true" id="39" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry field="true" id="25" symbol="labelView"/>
-        <entry field="true" id="59" symbol="wattperkg"/>
-        <entry field="true" id="28" symbol="gewicht"/>
+        <entry field="true" id="27" symbol="labelView"/>
+        <entry field="true" id="64" symbol="wattperkg"/>
+        <entry field="true" id="24" symbol="gewicht"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="54" symbol="errorFtp"/>
+        <entry field="true" id="57" symbol="errorFtp"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="53" symbol="displayWatts"/>
+        <entry field="true" id="55" symbol="displayWatts"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry field="true" id="21" symbol="breedte"/>
-        <entry field="true" id="17" symbol="powerGemiddeldeTijd"/>
-        <entry field="true" id="23" symbol="vorigemidden"/>
+        <entry field="true" id="31" symbol="powerGemiddeldeTijd"/>
+        <entry field="true" id="38" symbol="vorigemidden"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
-        <entry field="true" id="22" symbol="hoogte"/>
-        <entry id="37" module="true" symbol="Layouts"/>
-        <entry field="true" id="36" symbol="inspringen"/>
-        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
-        <entry field="true" id="33" symbol="blokjeH"/>
-        <entry field="true" id="32" symbol="blokjeB"/>
+        <entry field="true" id="25" symbol="hoogte"/>
+        <entry id="11" module="true" symbol="Layouts"/>
+        <entry field="true" id="26" symbol="inspringen"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="18" symbol="blokjeH"/>
+        <entry field="true" id="17" symbol="blokjeB"/>
         <entry field="true" id="8388743" symbol="averagePower"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="13" symbol="V"/>
-        <entry field="true" id="60" symbol="sec5"/>
-        <entry field="true" id="62" symbol="sec3"/>
-        <entry field="true" id="51" symbol="sec0"/>
-        <entry id="46" method="true" symbol="TopRightLayout"/>
+        <entry field="true" id="15" symbol="V"/>
+        <entry field="true" id="62" symbol="sec5"/>
+        <entry field="true" id="60" symbol="sec3"/>
+        <entry field="true" id="58" symbol="sec0"/>
+        <entry id="49" method="true" symbol="TopRightLayout"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268435520" name="dictionary" stackId="1" startPc="268435460"/>
-        <entry arg="true" endPc="268435536" name="color" stackId="1" startPc="268435522"/>
-        <entry arg="true" endPc="268435585" name="dc" stackId="1" startPc="268435537"/>
-        <entry endPc="268435870" name="x" stackId="2" startPc="268435842"/>
-        <entry endPc="268436202" name="profile" stackId="1" startPc="268435590"/>
-        <entry arg="true" endPc="268436969" name="dc" stackId="1" startPc="268436204"/>
-        <entry arg="true" endPc="268437793" name="info" stackId="1" startPc="268436970"/>
-        <entry endPc="268440488" name="blokjemidden" stackId="4" startPc="268440002"/>
-        <entry endPc="268440488" name="blokjehoog" stackId="5" startPc="268440002"/>
-        <entry endPc="268440501" name="x" stackId="3" startPc="268440002"/>
-        <entry endPc="268440520" name="achtergrond" stackId="2" startPc="268437798"/>
-        <entry arg="true" endPc="268440521" name="dc" stackId="1" startPc="268437794"/>
-        <entry arg="true" endPc="268440549" name="state" stackId="1" startPc="268440545"/>
-        <entry arg="true" endPc="268440554" name="state" stackId="1" startPc="268440550"/>
-        <entry endPc="268441050" name="rez_cmp_local_text_value" stackId="6" startPc="268440638"/>
-        <entry endPc="268441050" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268440638"/>
-        <entry endPc="268441050" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268440638"/>
-        <entry endPc="268441050" name="rez_cmp_local_text_label" stackId="5" startPc="268440638"/>
-        <entry endPc="268441050" name="rez_cmp_local_custom_drawable_32686686311186993185" stackId="4" startPc="268440638"/>
-        <entry arg="true" endPc="268441051" name="dc" stackId="1" startPc="268440626"/>
-        <entry endPc="268441609" name="rez_cmp_local_text_value" stackId="5" startPc="268441064"/>
-        <entry endPc="268441609" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441064"/>
-        <entry endPc="268441609" name="rez_cmp_local_custom_drawable_18113542085137310205" stackId="3" startPc="268441064"/>
-        <entry endPc="268441609" name="rez_cmp_local_text_label" stackId="4" startPc="268441064"/>
-        <entry endPc="268441609" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268441064"/>
-        <entry arg="true" endPc="268441610" name="dc" stackId="1" startPc="268441052"/>
-        <entry endPc="268442168" name="rez_cmp_local_text_value" stackId="5" startPc="268441623"/>
-        <entry endPc="268442168" name="rez_cmp_local_custom_drawable_18914366242260468119" stackId="3" startPc="268441623"/>
-        <entry endPc="268442168" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441623"/>
-        <entry endPc="268442168" name="rez_cmp_local_text_label" stackId="4" startPc="268441623"/>
-        <entry endPc="268442168" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268441623"/>
-        <entry arg="true" endPc="268442169" name="dc" stackId="1" startPc="268441611"/>
-        <entry endPc="268442727" name="rez_cmp_local_text_value" stackId="5" startPc="268442182"/>
-        <entry endPc="268442727" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268442182"/>
-        <entry endPc="268442727" name="rez_cmp_local_custom_drawable_15724739483051654381" stackId="3" startPc="268442182"/>
-        <entry endPc="268442727" name="rez_cmp_local_text_label" stackId="4" startPc="268442182"/>
-        <entry endPc="268442727" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268442182"/>
-        <entry arg="true" endPc="268442728" name="dc" stackId="1" startPc="268442170"/>
-        <entry endPc="268443286" name="rez_cmp_local_text_value" stackId="5" startPc="268442741"/>
-        <entry endPc="268443286" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268442741"/>
-        <entry endPc="268443286" name="rez_cmp_local_custom_drawable_17073955661419841697" stackId="3" startPc="268442741"/>
-        <entry endPc="268443286" name="rez_cmp_local_text_label" stackId="4" startPc="268442741"/>
-        <entry endPc="268443286" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268442741"/>
-        <entry arg="true" endPc="268443287" name="dc" stackId="1" startPc="268442729"/>
-        <entry endPc="268443626" name="rez_cmp_local_text_value" stackId="4" startPc="268443300"/>
-        <entry endPc="268443626" name="rez_cmp_local_custom_drawable_21048382231337116234" stackId="2" startPc="268443300"/>
-        <entry endPc="268443626" name="rez_cmp_local_text_label" stackId="3" startPc="268443300"/>
-        <entry arg="true" endPc="268443627" name="dc" stackId="1" startPc="268443288"/>
-        <entry endPc="268443966" name="rez_cmp_local_text_value" stackId="4" startPc="268443640"/>
-        <entry endPc="268443966" name="rez_cmp_local_custom_drawable_46241566239523212119" stackId="2" startPc="268443640"/>
-        <entry endPc="268443966" name="rez_cmp_local_text_label" stackId="3" startPc="268443640"/>
-        <entry arg="true" endPc="268443967" name="dc" stackId="1" startPc="268443628"/>
-        <entry endPc="268444306" name="rez_cmp_local_text_value" stackId="4" startPc="268443980"/>
-        <entry endPc="268444306" name="rez_cmp_local_custom_drawable_16840827941320530888" stackId="2" startPc="268443980"/>
-        <entry endPc="268444306" name="rez_cmp_local_text_label" stackId="3" startPc="268443980"/>
-        <entry arg="true" endPc="268444307" name="dc" stackId="1" startPc="268443968"/>
-        <entry endPc="268444646" name="rez_cmp_local_text_value" stackId="4" startPc="268444320"/>
-        <entry endPc="268444646" name="rez_cmp_local_custom_drawable_85771743738226919961" stackId="2" startPc="268444320"/>
-        <entry endPc="268444646" name="rez_cmp_local_text_label" stackId="3" startPc="268444320"/>
-        <entry arg="true" endPc="268444647" name="dc" stackId="1" startPc="268444308"/>
+        <entry arg="true" endPc="268435517" name="color" stackId="1" startPc="268435505"/>
+        <entry endPc="268435575" name="dictionary" stackId="1" startPc="268435522"/>
+        <entry arg="true" endPc="268435616" name="dc" stackId="1" startPc="268435577"/>
+        <entry arg="true" endPc="268436584" name="info" stackId="1" startPc="268435763"/>
+        <entry arg="true" endPc="268437491" name="dc" stackId="1" startPc="268436585"/>
+        <entry endPc="268438108" name="profile" stackId="1" startPc="268437496"/>
+        <entry endPc="268437776" name="x" stackId="2" startPc="268437748"/>
+        <entry arg="true" endPc="268440672" name="dc" stackId="1" startPc="268438110"/>
+        <entry endPc="268440671" name="achtergrond" stackId="2" startPc="268438114"/>
+        <entry endPc="268440652" name="x" stackId="3" startPc="268440153"/>
+        <entry endPc="268440639" name="blokjemidden" stackId="4" startPc="268440153"/>
+        <entry endPc="268440639" name="blokjehoog" stackId="5" startPc="268440153"/>
+        <entry arg="true" endPc="268441143" name="dc" stackId="1" startPc="268440673"/>
+        <entry endPc="268441143" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268440685"/>
+        <entry endPc="268441143" name="rez_cmp_local_custom_drawable_20725125801827852283" stackId="3" startPc="268440685"/>
+        <entry endPc="268441143" name="rez_cmp_local_text_label" stackId="4" startPc="268440685"/>
+        <entry endPc="268441143" name="rez_cmp_local_text_value" stackId="5" startPc="268440685"/>
+        <entry endPc="268441143" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268440685"/>
+        <entry arg="true" endPc="268441614" name="dc" stackId="1" startPc="268441144"/>
+        <entry endPc="268441614" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441156"/>
+        <entry endPc="268441614" name="rez_cmp_local_custom_drawable_23827157112105409224" stackId="3" startPc="268441156"/>
+        <entry endPc="268441614" name="rez_cmp_local_text_label" stackId="4" startPc="268441156"/>
+        <entry endPc="268441614" name="rez_cmp_local_text_value" stackId="5" startPc="268441156"/>
+        <entry endPc="268441614" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268441156"/>
+        <entry arg="true" endPc="268441915" name="dc" stackId="1" startPc="268441615"/>
+        <entry endPc="268441915" name="rez_cmp_local_custom_drawable_55262768216567345037" stackId="2" startPc="268441627"/>
+        <entry endPc="268441915" name="rez_cmp_local_text_label" stackId="3" startPc="268441627"/>
+        <entry endPc="268441915" name="rez_cmp_local_text_value" stackId="4" startPc="268441627"/>
+        <entry arg="true" endPc="268442216" name="dc" stackId="1" startPc="268441916"/>
+        <entry endPc="268442216" name="rez_cmp_local_custom_drawable_12797474342104664931" stackId="2" startPc="268441928"/>
+        <entry endPc="268442216" name="rez_cmp_local_text_label" stackId="3" startPc="268441928"/>
+        <entry endPc="268442216" name="rez_cmp_local_text_value" stackId="4" startPc="268441928"/>
+        <entry arg="true" endPc="268442687" name="dc" stackId="1" startPc="268442217"/>
+        <entry endPc="268442687" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268442229"/>
+        <entry endPc="268442687" name="rez_cmp_local_custom_drawable_65386866822644278812" stackId="3" startPc="268442229"/>
+        <entry endPc="268442687" name="rez_cmp_local_text_label" stackId="4" startPc="268442229"/>
+        <entry endPc="268442687" name="rez_cmp_local_text_value" stackId="5" startPc="268442229"/>
+        <entry endPc="268442687" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268442229"/>
+        <entry arg="true" endPc="268442988" name="dc" stackId="1" startPc="268442688"/>
+        <entry endPc="268442988" name="rez_cmp_local_custom_drawable_79933928119461105661" stackId="2" startPc="268442700"/>
+        <entry endPc="268442988" name="rez_cmp_local_text_label" stackId="3" startPc="268442700"/>
+        <entry endPc="268442988" name="rez_cmp_local_text_value" stackId="4" startPc="268442700"/>
+        <entry arg="true" endPc="268443459" name="dc" stackId="1" startPc="268442989"/>
+        <entry endPc="268443459" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268443001"/>
+        <entry endPc="268443459" name="rez_cmp_local_custom_drawable_15611469861262407314" stackId="3" startPc="268443001"/>
+        <entry endPc="268443459" name="rez_cmp_local_text_label" stackId="4" startPc="268443001"/>
+        <entry endPc="268443459" name="rez_cmp_local_text_value" stackId="5" startPc="268443001"/>
+        <entry endPc="268443459" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268443001"/>
+        <entry arg="true" endPc="268443930" name="dc" stackId="1" startPc="268443460"/>
+        <entry endPc="268443930" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268443472"/>
+        <entry endPc="268443930" name="rez_cmp_local_custom_drawable_54563759209058680699" stackId="3" startPc="268443472"/>
+        <entry endPc="268443930" name="rez_cmp_local_text_label" stackId="4" startPc="268443472"/>
+        <entry endPc="268443930" name="rez_cmp_local_text_value" stackId="5" startPc="268443472"/>
+        <entry endPc="268443930" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268443472"/>
+        <entry arg="true" endPc="268444231" name="dc" stackId="1" startPc="268443931"/>
+        <entry endPc="268444231" name="rez_cmp_local_custom_drawable_30658328620893211729" stackId="2" startPc="268443943"/>
+        <entry endPc="268444231" name="rez_cmp_local_text_label" stackId="3" startPc="268443943"/>
+        <entry endPc="268444231" name="rez_cmp_local_text_value" stackId="4" startPc="268443943"/>
+        <entry arg="true" endPc="268444604" name="dc" stackId="1" startPc="268444232"/>
+        <entry endPc="268444604" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268444244"/>
+        <entry endPc="268444604" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268444244"/>
+        <entry endPc="268444604" name="rez_cmp_local_custom_drawable_17087687271739630153" stackId="4" startPc="268444244"/>
+        <entry endPc="268444604" name="rez_cmp_local_text_label" stackId="5" startPc="268444244"/>
+        <entry endPc="268444604" name="rez_cmp_local_text_value" stackId="6" startPc="268444244"/>
     </localVars>
     <annotations>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sweetspot"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ftp"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="display"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec0"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayBarNee"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayWatts"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="label"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="errorFtp"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayBar"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec30"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayBarJa"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayWatts"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="wattperkg"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="powerGemiddeldeTijd"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec5"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec10"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayBar"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayBarNee"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayWperKG"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec5"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec0"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sweetspot"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="powerGemiddeldeTijd"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayBarJa"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ftp"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec10"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="label"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sec30"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/PowerDataFieldApp" offset="166" parentId="globals" symbolId="PowerDataFieldApp" type="class"/>
-        <dataEntry label="globals/Background" offset="237" parentId="globals" symbolId="Background" type="class"/>
-        <dataEntry label="globals/PowerDataFieldView" offset="308" parentId="globals" symbolId="PowerDataFieldView" type="class"/>
-        <dataEntry label="globals/Rez" offset="603" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Background" offset="166" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/PowerDataFieldApp" offset="237" parentId="globals" symbolId="PowerDataFieldApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="308" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/PowerDataFieldView" offset="387" parentId="globals" symbolId="PowerDataFieldView" type="class"/>
         <dataEntry label="globals/Rez/Drawables" offset="682" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="721" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="752" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="783" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="886" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="917" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="721" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="832" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="863" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="894" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1069" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435521" name="initialize" parent="Background" startPc="268435456">
+        <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435536" name="setColor" parent="Background" startPc="268435522">
+        <functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="Background" startPc="268435486">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435517" name="setColor" parent="Background" startPc="268435505">
             <param id="color"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435585" name="draw" parent="Background" startPc="268435537">
+        <functionEntry accessMode="public" endPc="268435576" name="initialize" parent="Background" startPc="268435518">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435616" name="draw" parent="Background" startPc="268435577">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444686" name="&lt;init&gt;" parent="Background" startPc="268444668">
+        <functionEntry accessMode="public" endPc="268435635" name="&lt;init&gt;" parent="PowerDataFieldApp" startPc="268435617">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436203" name="initialize" parent="PowerDataFieldView" startPc="268435586">
+        <functionEntry accessMode="public" endPc="268435638" name="onStart" parent="PowerDataFieldApp" startPc="268435636">
+            <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436969" name="onLayout" parent="PowerDataFieldView" startPc="268436204">
-            <param id="dc"/>
+        <functionEntry accessMode="public" endPc="268435681" name="getInitialView" parent="PowerDataFieldApp" startPc="268435639">
+            <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435702" name="initialize" parent="PowerDataFieldApp" startPc="268435682">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437793" name="compute" parent="PowerDataFieldView" startPc="268436970">
+        <functionEntry accessMode="public" endPc="268435705" name="onStop" parent="PowerDataFieldApp" startPc="268435703">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435729" name="&lt;init&gt;" parent="Rez" startPc="268435706">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435762" name="&lt;init&gt;" parent="PowerDataFieldView" startPc="268435730">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436584" name="compute" parent="PowerDataFieldView" startPc="268435763">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440521" name="onUpdate" parent="PowerDataFieldView" startPc="268437794">
+        <functionEntry accessMode="public" endPc="268437491" name="onLayout" parent="PowerDataFieldView" startPc="268436585">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444719" name="&lt;init&gt;" parent="PowerDataFieldView" startPc="268444687">
+        <functionEntry accessMode="public" endPc="268438109" name="initialize" parent="PowerDataFieldView" startPc="268437492">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440544" name="initialize" parent="PowerDataFieldApp" startPc="268440522">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268440549" name="onStart" parent="PowerDataFieldApp" startPc="268440545">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268440554" name="onStop" parent="PowerDataFieldApp" startPc="268440550">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268440596" name="getInitialView" parent="PowerDataFieldApp" startPc="268440555">
-            <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444667" name="&lt;init&gt;" parent="PowerDataFieldApp" startPc="268444649">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268440625" name="getApp" startPc="268440597">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444744" name="&lt;init&gt;" parent="Drawables" startPc="268444744">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444746" name="&lt;init&gt;" parent="Fonts" startPc="268444746">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444748" name="&lt;init&gt;" parent="JsonData" startPc="268444748">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268441051" name="MainLayout" parent="Layouts" startPc="268440626">
+        <functionEntry accessMode="public" endPc="268440672" name="onUpdate" parent="PowerDataFieldView" startPc="268438110">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441610" name="Klein" parent="Layouts" startPc="268441052">
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441143" name="Middel1" parent="Layouts" startPc="268440673">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442169" name="Middel1" parent="Layouts" startPc="268441611">
+        <functionEntry accessMode="public" endPc="268441614" name="Middel2" parent="Layouts" startPc="268441144">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442728" name="Middel2" parent="Layouts" startPc="268442170">
+        <functionEntry accessMode="public" endPc="268441915" name="BottomRightLayout" parent="Layouts" startPc="268441615">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443287" name="Groot" parent="Layouts" startPc="268442729">
+        <functionEntry accessMode="public" endPc="268442216" name="TopRightLayout" parent="Layouts" startPc="268441916">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443627" name="TopLeftLayout" parent="Layouts" startPc="268443288">
+        <functionEntry accessMode="public" endPc="268442687" name="Groot" parent="Layouts" startPc="268442217">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443967" name="TopRightLayout" parent="Layouts" startPc="268443628">
+        <functionEntry accessMode="public" endPc="268442988" name="BottomLeftLayout" parent="Layouts" startPc="268442688">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444307" name="BottomLeftLayout" parent="Layouts" startPc="268443968">
+        <functionEntry accessMode="public" endPc="268443459" name="Klein" parent="Layouts" startPc="268442989">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444647" name="BottomRightLayout" parent="Layouts" startPc="268444308">
+        <functionEntry accessMode="public" endPc="268443930" name="Middel3" parent="Layouts" startPc="268443460">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444747" name="&lt;init&gt;" parent="Layouts" startPc="268444747">
+        <functionEntry accessMode="public" endPc="268444231" name="TopLeftLayout" parent="Layouts" startPc="268443931">
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444745" name="&lt;init&gt;" parent="Menus" startPc="268444745">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444749" name="&lt;init&gt;" parent="Strings" startPc="268444749">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268444743" name="&lt;init&gt;" parent="Rez" startPc="268444720">
+        <functionEntry accessMode="public" endPc="268444604" name="MainLayout" parent="Layouts" startPc="268444232">
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
     </functions>

@@ -10,7 +10,7 @@ class ETAView extends WatchUi.DataField {
     hidden var mValue;
     hidden var breedte;
     hidden var hoogte;
-//    hidden var tijdDisplay;
+    hidden var etaInSeconds as Float = 0.0;
 
     hidden var valueView;
     hidden var labelView;
@@ -24,15 +24,17 @@ class ETAView extends WatchUi.DataField {
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-      	breedte = dc.getWidth();
+      	//breedte = dc.getWidth();
         hoogte = dc.getHeight();
-        if (hoogte < 70) {
+        if (hoogte < 60) {
             View.setLayout(Rez.Layouts.Klein(dc));
-        } else if ((hoogte >= 70) and (hoogte < 80)) {
+        } else if ((hoogte >= 60) and (hoogte < 80)) {
             View.setLayout(Rez.Layouts.Middel1(dc));
-        } else if ((hoogte >= 80) and (hoogte < 100)) {
+        } else if ((hoogte >= 80) and (hoogte < 95)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-        } else if (hoogte >= 100) {
+        } else if ((hoogte >= 95) and (hoogte < 120)) {
+            View.setLayout(Rez.Layouts.Middel3(dc));
+        } else if (hoogte >= 120) {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 
@@ -51,7 +53,8 @@ class ETAView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
 
         if ((info.averageSpeed  != null) and (info.averageSpeed  != 0) and (info.currentSpeed != 0) and (info.distanceToDestination != null) and (info.distanceToDestination != 0)) {
-            var etaInSeconds = info.distanceToDestination / (((info.averageSpeed * 3) + info.currentSpeed)/4);
+            etaInSeconds = info.distanceToDestination / (((info.averageSpeed * 3) + info.currentSpeed)/4);
+            System.println(etaInSeconds);
 
             if (Application.Properties.getValue("tijdDisplay") == 0) {
 //////////////////
@@ -66,9 +69,9 @@ class ETAView extends WatchUi.DataField {
 //////////////////
             } else {
                 var tijdNu = new Time.Moment(Time.now().value());
-                var tijdTegaanInSeconds = new Time.Duration(etaInSeconds);
-                var tijdETA = tijdNu.add(tijdTegaanInSeconds);
-                var tijdETAGregorian = Gregorian.info(tijdETA, Time.FORMAT_SHORT);
+                var tijdTegaanInSeconds = new Time.Duration(etaInSeconds.toNumber());
+                tijdNu = tijdNu.add(tijdTegaanInSeconds);
+                var tijdETAGregorian = Gregorian.info(tijdNu, Time.FORMAT_SHORT);
                 var dateString = Lang.format(
                     "$1$:$2$",
                     [

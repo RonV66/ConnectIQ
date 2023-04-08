@@ -2,109 +2,120 @@ import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
-import Toybox.Position;
-//import Toybox.System;
-//import Toybox.Math;
-//import Toybox.Sensor;
 
 class TestView extends WatchUi.DataField {
 
-    var W;
-	var H;
-    var F;
-    var FONT = Graphics.FONT_XTINY;
-    var clockRads = 0;
-    var hoek = 0;
-    var radius = 0;
-    var middelpuntX;
-    var middelpuntY;
-    var rad = new [4];
-    var p = [[0,0],[0,0],[0,0],[0,0],[0,0]];
+    hidden var mValue as String;
+    hidden var breedte;
+    hidden var hoogte;
+    hidden var x = 0;
+    hidden var valueView;
+    hidden var labelView;
 
     function initialize() {
         DataField.initialize();
+        mValue = "---";
     }
 
+    // Set your layout here. Anytime the size of obscurity of
+    // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-    	W = dc.getWidth();
-    	H = dc.getHeight();
-        F = dc.getFontHeight(FONT);
-        middelpuntX = W/2;
-        middelpuntY = H/2;
 
-        rad[0] = Math.sqrt(Math.pow(0,2) + Math.pow(-35,2));
-        rad[1] = Math.sqrt(Math.pow(30,2) + Math.pow(20,2));
-        rad[2] = Math.sqrt(Math.pow(0,2) + Math.pow(5,2));
-        rad[3] = Math.sqrt(Math.pow(-30,2) + Math.pow(20,2));
+/*
+      	breedte = dc.getWidth();
+        hoogte = dc.getHeight();
+        if (hoogte < 60) {
+            View.setLayout(Rez.Layouts.Klein(dc));
+        } else if ((hoogte >= 60) and (hoogte < 95)) {
+            View.setLayout(Rez.Layouts.Middel1(dc));
+        } else if ((hoogte >= 95) and (hoogte < 100)) {
+            View.setLayout(Rez.Layouts.Middel2(dc));
+        } else if (hoogte >= 100) {
+            View.setLayout(Rez.Layouts.Groot(dc));
+        }
+*/
+        View.setLayout(Rez.Layouts.MainLayout(dc));
+        labelView = View.findDrawableById("label");
+        labelView.locY = labelView.locY - 16;
+        valueView = View.findDrawableById("value");
+        valueView.locY = valueView.locY + 7;
 
-        ////////////////////////////////////
+        (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
+        (View.findDrawableById("value") as Text).setText(Rez.Strings.label);
+
+        System.println(Graphics.getFontHeight(Graphics.FONT_XTINY));
+        System.println(Graphics.getFontHeight(Graphics.FONT_TINY));
+        System.println(Graphics.getFontHeight(Graphics.FONT_SMALL));
+        System.println(Graphics.getFontHeight(Graphics.FONT_MEDIUM));
+        System.println(Graphics.getFontHeight(Graphics.FONT_LARGE));
+        System.println(Graphics.getFontHeight(Graphics.FONT_NUMBER_MILD));
+        System.println(Graphics.getFontHeight(Graphics.FONT_NUMBER_MEDIUM));
+        System.println(Graphics.getFontHeight(Graphics.FONT_NUMBER_HOT));
+        System.println(Graphics.getFontHeight(Graphics.FONT_NUMBER_THAI_HOT));
+
 
     }
 
+    // The given info object contains all the current workout information.
+    // Calculate a value and save it locally in this method.
+    // Note that compute() and onUpdate() are asynchronous, and there is no
+    // guarantee that compute() will be called before onUpdate().
     function compute(info as Activity.Info) as Void {
-       hoek = Math.toDegrees(info.currentHeading);
+        // See Activity.Info in the documentation for available information.\
+        //mValue = "01:00";
     }
 
+    // Display the value you computed here. This will be called
+    // once a second when the data field is visible.
     function onUpdate(dc as Dc) as Void {
+        // Set the background color
+        //(View.findDrawableById("Background") as Text).setColor(Graphics.COLOR_BLACK);
 
-        ////////////////////////////////////
+        // ((hoogte < 60) {
+        //View.setLayout(Rez.Layouts.Klein(dc));
+        // ((hoogte >= 60) and (hoogte < 95)) {
+        //View.setLayout(Rez.Layouts.Middel1(dc));
+        // ((hoogte >= 95) and (hoogte < 100)) {
+        //View.setLayout(Rez.Layouts.Middel2(dc));
+        // (hoogte >= 100) {
+        //View.setLayout(Rez.Layouts.Groot(dc));
 
-    	dc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_TRANSPARENT);
-        dc.setPenWidth(5);
-        dc.fillCircle(W / 2, H / 2, 56);
+        //labelView.setColor(Graphics.COLOR_BLACK);
+        x = x + 1;
+        if (x == 1) {
+            (View.findDrawableById("value") as Text).setFont(Graphics.FONT_TINY);
+            mValue = "01:00";
+        } else if (x == 2) {
+            (View.findDrawableById("value") as Text).setFont(Graphics.FONT_NUMBER_MILD);
+            mValue = "02:00";
+        } else if (x == 3) {
+            (View.findDrawableById("value") as Text).setFont(Graphics.FONT_NUMBER_MEDIUM);
+            mValue = "03:00";
+        } else if (x == 4) {
+            (View.findDrawableById("value") as Text).setFont(Graphics.FONT_NUMBER_HOT);
+            mValue = "04:00";
+        } else if (x == 5) {
+            (View.findDrawableById("value") as Text).setFont(Graphics.FONT_NUMBER_THAI_HOT);
+            mValue = "05:00";
+        } else if (x == 6) {
+            (View.findDrawableById("value") as Text).setFont(Graphics.FONT_GLANCE);
+            mValue = "06:00";
+        } else if (x == 7) {
+            (View.findDrawableById("value") as Text).setFont(Graphics.FONT_GLANCE_NUMBER);
+            mValue = "07:00";
+        }
+        if (x == 7) {
+            x = 0;
+        }
+//        System.println(x);
 
-        ////////////////////////////////////
-
-    	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-
-        var string = "WNOZNWNOZOZW";
-        dc.drawText((W / 2) - 65, (H / 2) - (F / 2), FONT, string.substring(0, 1), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2), (H / 2) - 65 - (F / 2), FONT, string.substring(1, 2), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) + 65, (H / 2) - (F / 2), FONT, string.substring(2, 3), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2), (H / 2) + 65 - (F / 2), FONT, string.substring(3, 4), Graphics.TEXT_JUSTIFY_CENTER);
-
-        dc.drawText((W / 2) - 50, (H / 2) - 50 - (F / 2), FONT, string.substring(4, 6), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) + 50, (H / 2) - 50 - (F / 2), FONT, string.substring(6, 8), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) + 50, (H / 2) + 50 - (F / 2), FONT, string.substring(8, 10), Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText((W / 2) - 50, (H / 2) + 50 - (F / 2), FONT, string.substring(10, 12), Graphics.TEXT_JUSTIFY_CENTER);
-
-        ////////////////////////////////////
-
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        /////////////////////////////////////////////////////////
-        clockRads = Math.toRadians(hoek);
-        var cos = Math.cos(clockRads);
-        var sin = Math.sin(clockRads);
-        p[0][0] = middelpuntX + (rad[0] * sin);
-        p[0][1] = middelpuntY - (rad[0] * cos);
-        p[4][0] = p[0][0];
-        p[4][1] = p[0][1];
-        /////////////////////////////////////////////////////////
-        clockRads = Math.toRadians(hoek + 120);
-        cos = Math.cos(clockRads);
-        sin = Math.sin(clockRads);
-        p[1][0] = middelpuntX + (rad[1] * sin);
-        p[1][1] = middelpuntY - (rad[1] * cos);
-        /////////////////////////////////////////////////////////
-        clockRads = Math.toRadians(hoek + 180);
-        cos = Math.cos(clockRads);
-        sin = Math.sin(clockRads);
-        p[2][0] = middelpuntX + (rad[2] * sin);
-        p[2][1] = middelpuntY - (rad[2] * cos);
-        ////////////////////////////////////////////////////////
-        clockRads = Math.toRadians(hoek + 240);
-        cos = Math.cos(clockRads);
-        sin = Math.sin(clockRads);
-        p[3][0] = middelpuntX + (rad[3] * sin);
-        p[3][1] = middelpuntY - (rad[3] * cos);
-        ////////////////////////////////////////////////////////
-        dc.fillPolygon(p);
-
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(W/2, 260, Graphics.FONT_LARGE, hoek.format("%.0f"), Graphics.TEXT_JUSTIFY_CENTER);
+        // Set the foreground color and value
+        //valueView = View.findDrawableById("value") as Text;
+        //valueView.setColor(Graphics.COLOR_BLACK);
+        valueView.setText(mValue);
 
         // Call parent's onUpdate(dc) to redraw the layout
-//        View.onUpdate(dc);
-
+        View.onUpdate(dc);
     }
+
 }

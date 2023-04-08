@@ -41,15 +41,17 @@ class SnelheidView extends WatchUi.DataField {
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-    	breedte = dc.getWidth();
+    	//breedte = dc.getWidth();
         hoogte = dc.getHeight();
         if (hoogte < 60) {
             View.setLayout(Rez.Layouts.Klein(dc));
         } else if ((hoogte >= 60) and (hoogte < 80)) {
             View.setLayout(Rez.Layouts.Middel1(dc));
-        } else if ((hoogte >= 80) and (hoogte < 100)) {
+        } else if ((hoogte >= 80) and (hoogte < 95)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-        } else if (hoogte >= 100) {
+        } else if ((hoogte >= 95) and (hoogte < 120)) {
+            View.setLayout(Rez.Layouts.Middel3(dc));
+        } else if (hoogte >= 120) {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 

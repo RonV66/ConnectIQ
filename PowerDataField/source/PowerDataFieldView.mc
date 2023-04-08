@@ -14,11 +14,11 @@ class PowerDataFieldView extends WatchUi.DataField {
     hidden var V as Number;
     hidden var SSlow as Number;
     hidden var SShigh as Number;
-    hidden var powerGemiddeldeArray;
+    hidden var powerGemiddeldeArray as Array<Number>;
     hidden var powerGemiddeldeTijd;
     hidden var teller;
     hidden var powerZone;
-    hidden var powerZoneProcenten = new [6];
+    hidden var powerZoneProcenten as Array<Number> = new [6];
 
     hidden var breedte;
     hidden var hoogte;
@@ -82,9 +82,11 @@ class PowerDataFieldView extends WatchUi.DataField {
             View.setLayout(Rez.Layouts.Klein(dc));
         } else if ((hoogte >= 60) and (hoogte < 80)) {
             View.setLayout(Rez.Layouts.Middel1(dc));
-        } else if ((hoogte >= 80) and (hoogte < 100)) {
+        } else if ((hoogte >= 80) and (hoogte < 95)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-        } else if (hoogte >= 100) {
+        } else if ((hoogte >= 95) and (hoogte < 120)) {
+            View.setLayout(Rez.Layouts.Middel3(dc));
+        } else if (hoogte >= 120) {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 

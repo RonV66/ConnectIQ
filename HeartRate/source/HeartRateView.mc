@@ -7,7 +7,7 @@ import Toybox.UserProfile;
 class HeartRateView extends WatchUi.DataField {
 
     hidden var mValue as Numeric;
-    hidden var heartRateZones;
+    hidden var heartRateZones as Array<Number>;
     hidden var currentZone;
     hidden var labelView;
     hidden var valueView;
@@ -22,15 +22,17 @@ class HeartRateView extends WatchUi.DataField {
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-    	var breedte = dc.getWidth();
+    	//var breedte = dc.getWidth();
         var hoogte = dc.getHeight();
         if (hoogte < 60) {
             View.setLayout(Rez.Layouts.Klein(dc));
         } else if ((hoogte >= 60) and (hoogte < 80)) {
             View.setLayout(Rez.Layouts.Middel1(dc));
-        } else if ((hoogte >= 80) and (hoogte < 100)) {
+        } else if ((hoogte >= 80) and (hoogte < 95)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-        } else if (hoogte >= 100) {
+        } else if ((hoogte >= 95) and (hoogte < 120)) {
+            View.setLayout(Rez.Layouts.Middel3(dc));
+        } else if (hoogte >= 120) {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 
@@ -49,7 +51,7 @@ class HeartRateView extends WatchUi.DataField {
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
         if(info has :currentHeartRate){
-            if(info.currentHeartRate != null){
+            if(info.currentHeartRate != null) {
                 mValue = info.currentHeartRate as Number;
                 if (mValue < heartRateZones[0]) {currentZone = 0;}
                 else if ((mValue >= heartRateZones[0]) and (mValue < heartRateZones[1])) {currentZone = 1;}

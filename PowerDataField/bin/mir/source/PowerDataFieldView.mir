@@ -1,0 +1,1878 @@
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 5; ]
+import Toybox.UserProfile;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 7; ]
+class PowerDataFieldView extends WatchUi.DataField{
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 7; ]
+    <init> {
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 21 15 ]
+        %tmp.2 = 6;
+        %tmp.1 = newa %tmp.2;
+        putv self :powerZoneProcenten %tmp.1;
+    }
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 9; @position = 15; ]
+    protected
+    var mValue as Numeric;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 10; @position = 15; ]
+    protected
+    var ftp;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 12; @position = 15; ]
+    protected
+    var currentPower;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 13; @position = 15; ]
+    protected
+    var averagePower;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 14; @position = 15; ]
+    protected
+    var V as Number;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 15; @position = 15; ]
+    protected
+    var SSlow as Number;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 16; @position = 15; ]
+    protected
+    var SShigh as Number;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 17; @position = 15; ]
+    protected
+    var powerGemiddeldeArray as Array<Number>;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 18; @position = 15; ]
+    protected
+    var powerGemiddeldeTijd;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 19; @position = 15; ]
+    protected
+    var teller;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 20; @position = 15; ]
+    protected
+    var powerZone;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 21; @position = 15; ]
+    protected
+    var powerZoneProcenten as Array<Number>;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 23; @position = 15; ]
+    protected
+    var breedte;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 24; @position = 15; ]
+    protected
+    var hoogte;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 25; @position = 15; ]
+    protected
+    var vorigemidden;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 27; @position = 15; ]
+    protected
+    var valueView;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 28; @position = 15; ]
+    protected
+    var labelView;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 29; @position = 15; ]
+    protected
+    var sweetspotView;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 30; @position = 15; ]
+    protected
+    var sweetSpot;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 32; @position = 15; ]
+    protected
+    var gewicht;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 33; @position = 15; ]
+    protected
+    var displayW;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 35; @position = 15; ]
+    protected
+    var aantalblokjes;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 36; @position = 15; ]
+    protected
+    var midden;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 37; @position = 15; ]
+    protected
+    var blokjeB;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 38; @position = 15; ]
+    protected
+    var blokjeH;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 39; @position = 15; ]
+    protected
+    var blokjeHH;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 40; @position = 15; ]
+    protected
+    var blokjeHHH;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 41; @position = 15; ]
+    protected
+    var inspringen;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 43; ]
+    function initialize() as Void {
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_43_26_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 44 8 ]
+        %tmp.2 = getv ? :DataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 45 8 ]
+        %tmp.4 = 0;
+        putv self :mValue %tmp.4;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 46 8 ]
+        %tmp.5 = 0;
+        putv self :teller %tmp.5;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 47 8 ]
+        %tmp.6 = 0;
+        putv self :powerZone %tmp.6;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 48 8 ]
+        %tmp.7 = 0;
+        putv self :ftp %tmp.7;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 49 8 ]
+        %tmp.8 = 0;
+        putv self :V %tmp.8;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 50 8 ]
+        %tmp.9 = 0;
+        putv self :SSlow %tmp.9;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 51 8 ]
+        %tmp.10 = 0;
+        putv self :SShigh %tmp.10;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 52 8 ]
+        %tmp.11 = false;
+        putv self :sweetSpot %tmp.11;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 53 8 ]
+        %tmp.12 = 0;
+        putv self :powerGemiddeldeTijd %tmp.12;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 54 8 ]
+        %tmp.13 = 9;
+        putv self :vorigemidden %tmp.13;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 56 8 ]
+        [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_43_26_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_43_26_stop" ]
+        %profile.1 = local;
+        %tmp.14 = getm $.Toybox.UserProfile;
+        %tmp.15 = getv function %tmp.14 :getProfile;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        lputv %profile.1 %tmp.16;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 57 8 ]
+        %tmp.17 = lgetv %profile.1;
+        %tmp.18 = getv %tmp.17 :weight;
+        putv self :gewicht %tmp.18;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 59 8 ]
+        %tmp.20 = getv ? :Application;
+        %tmp.21 = getv %tmp.20 :Properties;
+        %tmp.22 = getv function %tmp.21 :getValue;
+        %tmp.23 = "powerGemiddeldeTijd";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        putv self :powerGemiddeldeTijd %tmp.24;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 60 8 ]
+        %tmp.27 = getv ? :powerGemiddeldeTijd;
+        %tmp.25 = newa %tmp.27;
+        putv self :powerGemiddeldeArray %tmp.25;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 61 8 ]
+        for @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_test @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_incr @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_init:
+        [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_begin" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_end" ]
+        %x.2 = local;
+        %tmp.28 = 0;
+        lputv %x.2 %tmp.28;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_test:
+        %tmp.30 = lgetv %x.2;
+        %tmp.32 = getv ? :powerGemiddeldeTijd;
+        %tmp.33 = lt %tmp.30 %tmp.32;
+        bf %tmp.33 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_begin:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_50_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 61 52 ]
+        %tmp.34 = getv self :powerGemiddeldeArray;
+        %tmp.35 = 0;
+        %tmp.37 = lgetv %x.2;
+        aputv %tmp.34 %tmp.37 %tmp.35;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_50_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_incr:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 61 ]
+        %tmp.40 = lgetv %x.2;
+        %tmp.41 = add %tmp.40 1;
+        lputv %x.2 %tmp.41;
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_test;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_61_8_for_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 63 8 ]
+        %tmp.43 = getv ? :Application;
+        %tmp.44 = getv %tmp.43 :Properties;
+        %tmp.45 = getv function %tmp.44 :getValue;
+        %tmp.46 = "ftp";
+        %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
+        putv self :ftp %tmp.47;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 64 8 ]
+        %tmp.48 = getv self :powerZoneProcenten;
+        %tmp.50 = getv ? :ftp;
+        %tmp.51 = 54;
+        %tmp.52 = mul %tmp.50 %tmp.51;
+        %tmp.53 = 100;
+        %tmp.54 = div %tmp.52 %tmp.53;
+        %tmp.55 = 0;
+        aputv %tmp.48 %tmp.55 %tmp.54;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 65 8 ]
+        %tmp.56 = getv self :powerZoneProcenten;
+        %tmp.58 = getv ? :ftp;
+        %tmp.59 = 75;
+        %tmp.60 = mul %tmp.58 %tmp.59;
+        %tmp.61 = 100;
+        %tmp.62 = div %tmp.60 %tmp.61;
+        %tmp.63 = 1;
+        aputv %tmp.56 %tmp.63 %tmp.62;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 66 8 ]
+        %tmp.64 = getv self :powerZoneProcenten;
+        %tmp.66 = getv ? :ftp;
+        %tmp.67 = 89;
+        %tmp.68 = mul %tmp.66 %tmp.67;
+        %tmp.69 = 100;
+        %tmp.70 = div %tmp.68 %tmp.69;
+        %tmp.71 = 2;
+        aputv %tmp.64 %tmp.71 %tmp.70;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 67 8 ]
+        %tmp.72 = getv self :powerZoneProcenten;
+        %tmp.74 = getv ? :ftp;
+        %tmp.75 = 105;
+        %tmp.76 = mul %tmp.74 %tmp.75;
+        %tmp.77 = 100;
+        %tmp.78 = div %tmp.76 %tmp.77;
+        %tmp.79 = 3;
+        aputv %tmp.72 %tmp.79 %tmp.78;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 68 8 ]
+        %tmp.80 = getv self :powerZoneProcenten;
+        %tmp.82 = getv ? :ftp;
+        %tmp.83 = 120;
+        %tmp.84 = mul %tmp.82 %tmp.83;
+        %tmp.85 = 100;
+        %tmp.86 = div %tmp.84 %tmp.85;
+        %tmp.87 = 4;
+        aputv %tmp.80 %tmp.87 %tmp.86;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 69 8 ]
+        %tmp.88 = getv self :powerZoneProcenten;
+        %tmp.90 = getv ? :ftp;
+        %tmp.91 = 150;
+        %tmp.92 = mul %tmp.90 %tmp.91;
+        %tmp.93 = 100;
+        %tmp.94 = div %tmp.92 %tmp.93;
+        %tmp.95 = 5;
+        aputv %tmp.88 %tmp.95 %tmp.94;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 70 8 ]
+        %tmp.97 = getv ? :ftp;
+        %tmp.98 = 86;
+        %tmp.99 = mul %tmp.97 %tmp.98;
+        %tmp.100 = 100;
+        %tmp.101 = div %tmp.99 %tmp.100;
+        putv self :SSlow %tmp.101;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 71 8 ]
+        %tmp.103 = getv ? :ftp;
+        %tmp.104 = 95;
+        %tmp.105 = mul %tmp.103 %tmp.104;
+        %tmp.106 = 100;
+        %tmp.107 = div %tmp.105 %tmp.106;
+        putv self :SShigh %tmp.107;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 73 8 ]
+        %tmp.109 = getv ? :Application;
+        %tmp.110 = getv %tmp.109 :Properties;
+        %tmp.111 = getv function %tmp.110 :getValue;
+        %tmp.112 = "display";
+        %tmp.113 = invoke %tmp.110 %tmp.111(%tmp.112);
+        putv self :displayW %tmp.113;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_43_26_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 78; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_78_40_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 79 5 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        putv self :breedte %tmp.3;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 80 8 ]
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        putv self :hoogte %tmp.6;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 81 8 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_81_8_if_stmt:
+        %tmp.8 = getv ? :hoogte;
+        %tmp.9 = 60;
+        %tmp.10 = lt %tmp.8 %tmp.9;
+        bf %tmp.10 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_81_8_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_81_8_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_81_25_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 82 12 ]
+        %tmp.12 = getv ? :View;
+        %tmp.13 = getv function %tmp.12 :setLayout;
+        %tmp.15 = getv ? :Rez;
+        %tmp.16 = getv %tmp.15 :Layouts;
+        %tmp.17 = getv function %tmp.16 :Klein;
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.19);
+        invoke %tmp.12 %tmp.13(%tmp.20);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_81_25_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_81_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_81_8_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 83 15 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_15_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_19_begin:
+        %tmp.22 = getv ? :hoogte;
+        %tmp.23 = 60;
+        %tmp.24 = gte %tmp.22 %tmp.23;
+        %tmp.25 = dup %tmp.24;
+        bf %tmp.25 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_38_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_38_true:
+        %tmp.27 = getv ? :hoogte;
+        %tmp.28 = 80;
+        %tmp.29 = lt %tmp.27 %tmp.28;
+        %tmp.30 = and %tmp.24 %tmp.29;
+        push %tmp.30;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_38_end:
+        %tmp.31 = phi [%tmp.25 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_19_begin] [%tmp.30 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_38_true] [%tmp.31 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_38_end];
+        bf %tmp.31 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_15_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_15_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_53_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 84 12 ]
+        %tmp.33 = getv ? :View;
+        %tmp.34 = getv function %tmp.33 :setLayout;
+        %tmp.36 = getv ? :Rez;
+        %tmp.37 = getv %tmp.36 :Layouts;
+        %tmp.38 = getv function %tmp.37 :Middel1;
+        %tmp.40 = lgetv %dc;
+        %tmp.41 = invoke %tmp.37 %tmp.38(%tmp.40);
+        invoke %tmp.33 %tmp.34(%tmp.41);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_53_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_15_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_15_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 85 15 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_15_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_19_begin:
+        %tmp.43 = getv ? :hoogte;
+        %tmp.44 = 80;
+        %tmp.45 = gte %tmp.43 %tmp.44;
+        %tmp.46 = dup %tmp.45;
+        bf %tmp.46 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_38_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_38_true:
+        %tmp.48 = getv ? :hoogte;
+        %tmp.49 = 95;
+        %tmp.50 = lt %tmp.48 %tmp.49;
+        %tmp.51 = and %tmp.45 %tmp.50;
+        push %tmp.51;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_38_end:
+        %tmp.52 = phi [%tmp.46 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_19_begin] [%tmp.51 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_38_true] [%tmp.52 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_38_end];
+        bf %tmp.52 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_15_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_15_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_53_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 86 12 ]
+        %tmp.54 = getv ? :View;
+        %tmp.55 = getv function %tmp.54 :setLayout;
+        %tmp.57 = getv ? :Rez;
+        %tmp.58 = getv %tmp.57 :Layouts;
+        %tmp.59 = getv function %tmp.58 :Middel2;
+        %tmp.61 = lgetv %dc;
+        %tmp.62 = invoke %tmp.58 %tmp.59(%tmp.61);
+        invoke %tmp.54 %tmp.55(%tmp.62);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_53_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_15_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_15_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 87 15 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_15_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_19_begin:
+        %tmp.64 = getv ? :hoogte;
+        %tmp.65 = 95;
+        %tmp.66 = gte %tmp.64 %tmp.65;
+        %tmp.67 = dup %tmp.66;
+        bf %tmp.67 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_38_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_38_true:
+        %tmp.69 = getv ? :hoogte;
+        %tmp.70 = 120;
+        %tmp.71 = lt %tmp.69 %tmp.70;
+        %tmp.72 = and %tmp.66 %tmp.71;
+        push %tmp.72;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_38_end:
+        %tmp.73 = phi [%tmp.67 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_19_begin] [%tmp.72 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_38_true] [%tmp.73 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_38_end];
+        bf %tmp.73 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_15_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_15_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_54_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 88 12 ]
+        %tmp.75 = getv ? :View;
+        %tmp.76 = getv function %tmp.75 :setLayout;
+        %tmp.78 = getv ? :Rez;
+        %tmp.79 = getv %tmp.78 :Layouts;
+        %tmp.80 = getv function %tmp.79 :Middel3;
+        %tmp.82 = lgetv %dc;
+        %tmp.83 = invoke %tmp.79 %tmp.80(%tmp.82);
+        invoke %tmp.75 %tmp.76(%tmp.83);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_54_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_15_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_15_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 89 15 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_89_15_if_stmt:
+        %tmp.85 = getv ? :hoogte;
+        %tmp.86 = 120;
+        %tmp.87 = gte %tmp.85 %tmp.86;
+        bf %tmp.87 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_89_15_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_89_15_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_89_34_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 90 12 ]
+        %tmp.89 = getv ? :View;
+        %tmp.90 = getv function %tmp.89 :setLayout;
+        %tmp.92 = getv ? :Rez;
+        %tmp.93 = getv %tmp.92 :Layouts;
+        %tmp.94 = getv function %tmp.93 :Groot;
+        %tmp.96 = lgetv %dc;
+        %tmp.97 = invoke %tmp.93 %tmp.94(%tmp.96);
+        invoke %tmp.89 %tmp.90(%tmp.97);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_89_34_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_89_15_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_89_15_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_87_15_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_85_15_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_83_15_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_81_8_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 93 8 ]
+        %tmp.99 = getv ? :View;
+        %tmp.100 = getv function %tmp.99 :findDrawableById;
+        %tmp.101 = "value";
+        %tmp.102 = invoke %tmp.99 %tmp.100(%tmp.101);
+        %tmp.103 = as %tmp.102 Text;
+        putv self :valueView %tmp.103;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 94 8 ]
+        %tmp.104 = getv self :valueView;
+        %tmp.106 = getv ? :valueView;
+        %tmp.107 = getv %tmp.106 :locY;
+        %tmp.108 = 10;
+        %tmp.109 = add %tmp.107 %tmp.108;
+        putv %tmp.104 :locY %tmp.109;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 96 8 ]
+        %tmp.111 = getv ? :View;
+        %tmp.112 = getv function %tmp.111 :findDrawableById;
+        %tmp.113 = "sweetspot";
+        %tmp.114 = invoke %tmp.111 %tmp.112(%tmp.113);
+        %tmp.115 = as %tmp.114 Text;
+        putv self :sweetspotView %tmp.115;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 97 8 ]
+        %tmp.116 = getv self :sweetspotView;
+        %tmp.118 = getv ? :breedte;
+        %tmp.119 = 15;
+        %tmp.120 = sub %tmp.118 %tmp.119;
+        putv %tmp.116 :locX %tmp.120;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 99 8 ]
+        %tmp.122 = getv ? :View;
+        %tmp.123 = getv function %tmp.122 :findDrawableById;
+        %tmp.124 = "label";
+        %tmp.125 = invoke %tmp.122 %tmp.123(%tmp.124);
+        %tmp.126 = as %tmp.125 Text;
+        putv self :labelView %tmp.126;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 100 8 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_100_8_if_stmt:
+        %tmp.128 = getv ? :displayW;
+        bf %tmp.128 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_100_8_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_100_8_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_100_22_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 101 12 ]
+        %tmp.130 = getv ? :labelView;
+        %tmp.131 = getv function %tmp.130 :setText;
+        %tmp.133 = getv ? :Rez;
+        %tmp.134 = getv %tmp.133 :Strings;
+        %tmp.135 = getv %tmp.134 :wattperkg;
+        invoke %tmp.130 %tmp.131(%tmp.135);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_100_22_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_100_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_100_8_if_false:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_102_15_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 103 12 ]
+        %tmp.137 = getv ? :labelView;
+        %tmp.138 = getv function %tmp.137 :setText;
+        %tmp.140 = getv ? :Rez;
+        %tmp.141 = getv %tmp.140 :Strings;
+        %tmp.142 = getv %tmp.141 :label;
+        invoke %tmp.137 %tmp.138(%tmp.142);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_102_15_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_100_8_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 106 8 ]
+        %tmp.143 = 19;
+        putv self :aantalblokjes %tmp.143;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 107 8 ]
+        %tmp.144 = 9;
+        putv self :midden %tmp.144;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 108 8 ]
+        %tmp.146 = getv ? :breedte;
+        %tmp.148 = getv ? :aantalblokjes;
+        %tmp.149 = div %tmp.146 %tmp.148;
+        putv self :blokjeB %tmp.149;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 109 8 ]
+        %tmp.150 = 10;
+        putv self :blokjeH %tmp.150;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 110 8 ]
+        %tmp.151 = 15;
+        putv self :blokjeHH %tmp.151;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 111 8 ]
+        %tmp.152 = 20;
+        putv self :blokjeHHH %tmp.152;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 112 8 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_112_8_if_stmt:
+        %tmp.154 = getv ? :hoogte;
+        %tmp.155 = 120;
+        %tmp.156 = lt %tmp.154 %tmp.155;
+        bf %tmp.156 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_112_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_112_8_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_112_26_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 113 12 ]
+        %tmp.157 = 8;
+        putv self :blokjeH %tmp.157;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 114 12 ]
+        %tmp.158 = 11;
+        putv self :blokjeHH %tmp.158;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 115 12 ]
+        %tmp.159 = 14;
+        putv self :blokjeHHH %tmp.159;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_112_26_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_112_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_112_8_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 117 8 ]
+        %tmp.161 = getv ? :breedte;
+        %tmp.163 = getv ? :aantalblokjes;
+        %tmp.165 = getv ? :blokjeB;
+        %tmp.166 = mul %tmp.163 %tmp.165;
+        %tmp.167 = sub %tmp.161 %tmp.166;
+        %tmp.168 = 2;
+        %tmp.169 = div %tmp.167 %tmp.168;
+        putv self :inspringen %tmp.169;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_78_40_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 124; ]
+    function compute(info as Activity.Info) as Void {
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_124_52_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 126 8 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_126_8_if_stmt:
+        %tmp.2 = lgetv %info;
+        %tmp.4 = const :currentPower;
+        %tmp.5 = canhazplz %tmp.2 %tmp.4;
+        bf %tmp.5 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_126_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_126_8_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_126_35_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 127 12 ]
+        %tmp.6 = lgetv %info;
+        %tmp.7 = as %tmp.6 { (interface { var currentPower; }) };
+        %tmp.8 = getv %tmp.7 :currentPower;
+        putv self :currentPower %tmp.8;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 128 12 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_128_12_if_stmt:
+        %tmp.10 = getv ? :currentPower;
+        %tmp.11 = null;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bf %tmp.12 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_128_12_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_128_12_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_128_38_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 129 16 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_129_16_if_stmt:
+        %tmp.14 = getv ? :powerGemiddeldeTijd;
+        %tmp.15 = 0;
+        %tmp.16 = gt %tmp.14 %tmp.15;
+        bf %tmp.16 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_129_16_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_129_16_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_129_45_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 130 20 ]
+        %tmp.17 = getv self :powerGemiddeldeArray;
+        %tmp.19 = getv ? :currentPower;
+        %tmp.20 = as %tmp.19 { (!Null) };
+        %tmp.22 = getv ? :teller;
+        aputv %tmp.17 %tmp.22 %tmp.20;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 131 20 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_begin:
+        %tmp.24 = getv ? :teller;
+        %tmp.26 = getv ? :powerGemiddeldeTijd;
+        %tmp.27 = 1;
+        %tmp.28 = sub %tmp.26 %tmp.27;
+        %tmp.29 = lt %tmp.24 %tmp.28;
+        bf %tmp.29 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_true:
+        %tmp.31 = getv ? :teller;
+        %tmp.32 = 1;
+        %tmp.33 = add %tmp.31 %tmp.32;
+        push %tmp.33;
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_false:
+        %tmp.34 = 0;
+        push %tmp.34;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_end:
+        %tmp.35 = phi [%tmp.29 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_begin] [%tmp.33 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_true] [%tmp.34 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_false] [%tmp.35 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_131_29_end];
+        putv self :teller %tmp.35;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 132 20 ]
+        %tmp.37 = getv ? :Math;
+        %tmp.38 = getv function %tmp.37 :mean;
+        %tmp.40 = getv ? :powerGemiddeldeArray;
+        %tmp.41 = invoke %tmp.37 %tmp.38(%tmp.40);
+        putv self :mValue %tmp.41;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_129_45_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_129_16_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_129_16_if_false:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_133_23_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 134 20 ]
+        %tmp.43 = getv ? :currentPower;
+        putv self :mValue %tmp.43;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_133_23_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_129_16_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 136 16 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_136_16_if_stmt:
+        %tmp.45 = getv ? :ftp;
+        %tmp.46 = 0;
+        %tmp.47 = ne %tmp.45 %tmp.46;
+        bf %tmp.47 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_136_16_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_136_16_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_136_30_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 137 20 ]
+        %tmp.49 = getv ? :mValue;
+        %tmp.51 = getv ? :ftp;
+        %tmp.52 = sub %tmp.49 %tmp.51;
+        %tmp.53 = 100;
+        %tmp.54 = mul %tmp.52 %tmp.53;
+        %tmp.56 = getv ? :ftp;
+        %tmp.57 = div %tmp.54 %tmp.56;
+        putv self :V %tmp.57;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_136_30_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_136_16_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_136_16_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_128_38_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_128_12_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_128_12_if_false:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_139_19_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 140 16 ]
+        %tmp.58 = 0;
+        putv self :mValue %tmp.58;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_139_19_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_128_12_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 142 12 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_142_12_if_stmt:
+        %tmp.60 = getv ? :mValue;
+        %tmp.62 = getv ? :powerZoneProcenten;
+        %tmp.63 = 0;
+        %tmp.64 = agetv %tmp.62 %tmp.63;
+        %tmp.65 = lt %tmp.60 %tmp.64;
+        bf %tmp.65 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_142_12_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_142_12_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_142_48_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 142 49 ]
+        %tmp.66 = 0;
+        putv self :powerZone %tmp.66;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_142_48_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_142_12_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_142_12_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 143 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_21_begin:
+        %tmp.68 = getv ? :mValue;
+        %tmp.70 = getv ? :powerZoneProcenten;
+        %tmp.71 = 0;
+        %tmp.72 = agetv %tmp.70 %tmp.71;
+        %tmp.73 = gte %tmp.68 %tmp.72;
+        %tmp.74 = dup %tmp.73;
+        bf %tmp.74 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_59_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_59_true:
+        %tmp.76 = getv ? :mValue;
+        %tmp.78 = getv ? :powerZoneProcenten;
+        %tmp.79 = 1;
+        %tmp.80 = agetv %tmp.78 %tmp.79;
+        %tmp.81 = lt %tmp.76 %tmp.80;
+        %tmp.82 = and %tmp.73 %tmp.81;
+        push %tmp.82;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_59_end:
+        %tmp.83 = phi [%tmp.74 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_21_begin] [%tmp.82 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_59_true] [%tmp.83 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_59_end];
+        bf %tmp.83 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_93_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 143 94 ]
+        %tmp.84 = 1;
+        putv self :powerZone %tmp.84;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_93_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 144 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_21_begin:
+        %tmp.86 = getv ? :mValue;
+        %tmp.88 = getv ? :powerZoneProcenten;
+        %tmp.89 = 1;
+        %tmp.90 = agetv %tmp.88 %tmp.89;
+        %tmp.91 = gte %tmp.86 %tmp.90;
+        %tmp.92 = dup %tmp.91;
+        bf %tmp.92 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_59_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_59_true:
+        %tmp.94 = getv ? :mValue;
+        %tmp.96 = getv ? :powerZoneProcenten;
+        %tmp.97 = 2;
+        %tmp.98 = agetv %tmp.96 %tmp.97;
+        %tmp.99 = lt %tmp.94 %tmp.98;
+        %tmp.100 = and %tmp.91 %tmp.99;
+        push %tmp.100;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_59_end:
+        %tmp.101 = phi [%tmp.92 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_21_begin] [%tmp.100 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_59_true] [%tmp.101 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_59_end];
+        bf %tmp.101 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_93_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 144 94 ]
+        %tmp.102 = 2;
+        putv self :powerZone %tmp.102;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_93_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 145 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_21_begin:
+        %tmp.104 = getv ? :mValue;
+        %tmp.106 = getv ? :powerZoneProcenten;
+        %tmp.107 = 2;
+        %tmp.108 = agetv %tmp.106 %tmp.107;
+        %tmp.109 = gte %tmp.104 %tmp.108;
+        %tmp.110 = dup %tmp.109;
+        bf %tmp.110 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_59_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_59_true:
+        %tmp.112 = getv ? :mValue;
+        %tmp.114 = getv ? :powerZoneProcenten;
+        %tmp.115 = 3;
+        %tmp.116 = agetv %tmp.114 %tmp.115;
+        %tmp.117 = lt %tmp.112 %tmp.116;
+        %tmp.118 = and %tmp.109 %tmp.117;
+        push %tmp.118;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_59_end:
+        %tmp.119 = phi [%tmp.110 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_21_begin] [%tmp.118 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_59_true] [%tmp.119 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_59_end];
+        bf %tmp.119 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_93_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 145 94 ]
+        %tmp.120 = 3;
+        putv self :powerZone %tmp.120;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_93_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 146 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_21_begin:
+        %tmp.122 = getv ? :mValue;
+        %tmp.124 = getv ? :powerZoneProcenten;
+        %tmp.125 = 3;
+        %tmp.126 = agetv %tmp.124 %tmp.125;
+        %tmp.127 = gte %tmp.122 %tmp.126;
+        %tmp.128 = dup %tmp.127;
+        bf %tmp.128 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_59_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_59_true:
+        %tmp.130 = getv ? :mValue;
+        %tmp.132 = getv ? :powerZoneProcenten;
+        %tmp.133 = 4;
+        %tmp.134 = agetv %tmp.132 %tmp.133;
+        %tmp.135 = lt %tmp.130 %tmp.134;
+        %tmp.136 = and %tmp.127 %tmp.135;
+        push %tmp.136;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_59_end:
+        %tmp.137 = phi [%tmp.128 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_21_begin] [%tmp.136 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_59_true] [%tmp.137 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_59_end];
+        bf %tmp.137 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_93_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 146 94 ]
+        %tmp.138 = 4;
+        putv self :powerZone %tmp.138;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_93_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 147 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_21_begin:
+        %tmp.140 = getv ? :mValue;
+        %tmp.142 = getv ? :powerZoneProcenten;
+        %tmp.143 = 4;
+        %tmp.144 = agetv %tmp.142 %tmp.143;
+        %tmp.145 = gte %tmp.140 %tmp.144;
+        %tmp.146 = dup %tmp.145;
+        bf %tmp.146 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_59_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_59_true:
+        %tmp.148 = getv ? :mValue;
+        %tmp.150 = getv ? :powerZoneProcenten;
+        %tmp.151 = 5;
+        %tmp.152 = agetv %tmp.150 %tmp.151;
+        %tmp.153 = lt %tmp.148 %tmp.152;
+        %tmp.154 = and %tmp.145 %tmp.153;
+        push %tmp.154;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_59_end:
+        %tmp.155 = phi [%tmp.146 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_21_begin] [%tmp.154 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_59_true] [%tmp.155 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_59_end];
+        bf %tmp.155 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_93_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 147 94 ]
+        %tmp.156 = 5;
+        putv self :powerZone %tmp.156;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_93_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 148 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_148_17_if_stmt:
+        %tmp.158 = getv ? :mValue;
+        %tmp.160 = getv ? :powerZoneProcenten;
+        %tmp.161 = 5;
+        %tmp.162 = agetv %tmp.160 %tmp.161;
+        %tmp.163 = gte %tmp.158 %tmp.162;
+        bf %tmp.163 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_148_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_148_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_148_54_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 148 55 ]
+        %tmp.164 = 6;
+        putv self :powerZone %tmp.164;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_148_54_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_148_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_148_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_147_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_146_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_145_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_144_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_143_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_142_12_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 150 12 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_12_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_16_begin:
+        %tmp.166 = getv ? :mValue;
+        %tmp.168 = getv ? :SSlow;
+        %tmp.169 = gte %tmp.166 %tmp.168;
+        %tmp.170 = dup %tmp.169;
+        bf %tmp.170 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_38_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_38_true:
+        %tmp.172 = getv ? :mValue;
+        %tmp.174 = getv ? :SShigh;
+        %tmp.175 = lte %tmp.172 %tmp.174;
+        %tmp.176 = and %tmp.169 %tmp.175;
+        push %tmp.176;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_38_end:
+        %tmp.177 = phi [%tmp.170 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_16_begin] [%tmp.176 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_38_true] [%tmp.177 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_38_end];
+        bf %tmp.177 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_12_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_12_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_58_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 151 16 ]
+        %tmp.178 = true;
+        putv self :sweetSpot %tmp.178;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_58_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_12_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_12_if_false:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_152_19_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 153 16 ]
+        %tmp.179 = false;
+        putv self :sweetSpot %tmp.179;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_152_19_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_150_12_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 156 12 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_156_12_if_stmt:
+        %tmp.181 = getv ? :displayW;
+        bf %tmp.181 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_156_12_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_156_12_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_156_26_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 157 16 ]
+        %tmp.183 = getv ? :mValue;
+        %tmp.184 = 1000;
+        %tmp.185 = mul %tmp.183 %tmp.184;
+        %tmp.187 = getv ? :gewicht;
+        %tmp.188 = div %tmp.185 %tmp.187;
+        putv self :mValue %tmp.188;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_156_26_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_156_12_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_156_12_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_126_35_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_126_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_126_8_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_124_52_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 164; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_164_40_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 166 8 ]
+        [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_164_40_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_164_40_stop" ]
+        %achtergrond.1 = local;
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "Background";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Text;
+        lputv %achtergrond.1 %tmp.6;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 168 8 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_168_8_if_stmt:
+        %tmp.8 = getv ? :sweetSpot;
+        bf %tmp.8 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_168_8_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_168_8_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_168_23_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 169 12 ]
+        %tmp.10 = getv ? :sweetspotView;
+        %tmp.11 = getv function %tmp.10 :setText;
+        %tmp.13 = getv ? :Rez;
+        %tmp.14 = getv %tmp.13 :Strings;
+        %tmp.15 = getv %tmp.14 :sweetspot;
+        invoke %tmp.10 %tmp.11(%tmp.15);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_168_23_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_168_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_168_8_if_false:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_170_15_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 171 12 ]
+        %tmp.17 = getv ? :sweetspotView;
+        %tmp.18 = getv function %tmp.17 :setText;
+        %tmp.19 = "";
+        invoke %tmp.17 %tmp.18(%tmp.19);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_170_15_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_168_8_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 175 8 ]
+        %tmp.21 = getv ? :powerZone;
+        push %tmp.21;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_switchCaseBegin:
+        %tmp.22 = dup %tmp.21;
+        %tmp.23 = 0;
+        %tmp.24 = getv function %tmp.22 :equals;
+        %tmp.25 = invoke %tmp.22 %tmp.24 (%tmp.23);
+        bt %tmp.25 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_176_12;
+        %tmp.26 = dup %tmp.21;
+        %tmp.27 = 1;
+        %tmp.28 = getv function %tmp.26 :equals;
+        %tmp.29 = invoke %tmp.26 %tmp.28 (%tmp.27);
+        bt %tmp.29 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_182_12;
+        %tmp.30 = dup %tmp.21;
+        %tmp.31 = 2;
+        %tmp.32 = getv function %tmp.30 :equals;
+        %tmp.33 = invoke %tmp.30 %tmp.32 (%tmp.31);
+        bt %tmp.33 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_188_12;
+        %tmp.34 = dup %tmp.21;
+        %tmp.35 = 3;
+        %tmp.36 = getv function %tmp.34 :equals;
+        %tmp.37 = invoke %tmp.34 %tmp.36 (%tmp.35);
+        bt %tmp.37 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_194_12;
+        %tmp.38 = dup %tmp.21;
+        %tmp.39 = 4;
+        %tmp.40 = getv function %tmp.38 :equals;
+        %tmp.41 = invoke %tmp.38 %tmp.40 (%tmp.39);
+        bt %tmp.41 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_200_12;
+        %tmp.42 = dup %tmp.21;
+        %tmp.43 = 5;
+        %tmp.44 = getv function %tmp.42 :equals;
+        %tmp.45 = invoke %tmp.42 %tmp.44 (%tmp.43);
+        bt %tmp.45 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_206_12;
+        %tmp.46 = dup %tmp.21;
+        %tmp.47 = 6;
+        %tmp.48 = getv function %tmp.46 :equals;
+        %tmp.49 = invoke %tmp.46 %tmp.48 (%tmp.47);
+        bt %tmp.49 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_212_12;
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_defaultCodeBegin;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_176_12:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 177 16 ]
+        %tmp.51 = getv ? :labelView;
+        %tmp.52 = getv function %tmp.51 :setColor;
+        %tmp.53 = getm $.Toybox.Graphics;
+        %tmp.54 = getv %tmp.53 :COLOR_WHITE;
+        invoke %tmp.51 %tmp.52(%tmp.54);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 178 16 ]
+        %tmp.56 = getv ? :valueView;
+        %tmp.57 = getv function %tmp.56 :setColor;
+        %tmp.58 = getm $.Toybox.Graphics;
+        %tmp.59 = getv %tmp.58 :COLOR_WHITE;
+        invoke %tmp.56 %tmp.57(%tmp.59);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 179 16 ]
+        %tmp.61 = getv ? :sweetspotView;
+        %tmp.62 = getv function %tmp.61 :setColor;
+        %tmp.63 = getm $.Toybox.Graphics;
+        %tmp.64 = getv %tmp.63 :COLOR_WHITE;
+        invoke %tmp.61 %tmp.62(%tmp.64);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 180 16 ]
+        %tmp.65 = lgetv %achtergrond.1;
+        %tmp.66 = getv function %tmp.65 :setColor;
+        %tmp.67 = 0x808080;
+        invoke %tmp.65 %tmp.66(%tmp.67);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 181 16 ]
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_switchCaseEnd;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_182_12:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 183 16 ]
+        %tmp.69 = getv ? :labelView;
+        %tmp.70 = getv function %tmp.69 :setColor;
+        %tmp.71 = getm $.Toybox.Graphics;
+        %tmp.72 = getv %tmp.71 :COLOR_WHITE;
+        invoke %tmp.69 %tmp.70(%tmp.72);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 184 16 ]
+        %tmp.74 = getv ? :valueView;
+        %tmp.75 = getv function %tmp.74 :setColor;
+        %tmp.76 = getm $.Toybox.Graphics;
+        %tmp.77 = getv %tmp.76 :COLOR_WHITE;
+        invoke %tmp.74 %tmp.75(%tmp.77);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 185 16 ]
+        %tmp.79 = getv ? :sweetspotView;
+        %tmp.80 = getv function %tmp.79 :setColor;
+        %tmp.81 = getm $.Toybox.Graphics;
+        %tmp.82 = getv %tmp.81 :COLOR_WHITE;
+        invoke %tmp.79 %tmp.80(%tmp.82);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 186 16 ]
+        %tmp.83 = lgetv %achtergrond.1;
+        %tmp.84 = getv function %tmp.83 :setColor;
+        %tmp.85 = getm $.Toybox.Graphics;
+        %tmp.86 = getv %tmp.85 :COLOR_DK_BLUE;
+        invoke %tmp.83 %tmp.84(%tmp.86);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 187 16 ]
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_switchCaseEnd;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_188_12:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 189 16 ]
+        %tmp.88 = getv ? :labelView;
+        %tmp.89 = getv function %tmp.88 :setColor;
+        %tmp.90 = getm $.Toybox.Graphics;
+        %tmp.91 = getv %tmp.90 :COLOR_WHITE;
+        invoke %tmp.88 %tmp.89(%tmp.91);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 190 16 ]
+        %tmp.93 = getv ? :valueView;
+        %tmp.94 = getv function %tmp.93 :setColor;
+        %tmp.95 = getm $.Toybox.Graphics;
+        %tmp.96 = getv %tmp.95 :COLOR_WHITE;
+        invoke %tmp.93 %tmp.94(%tmp.96);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 191 16 ]
+        %tmp.98 = getv ? :sweetspotView;
+        %tmp.99 = getv function %tmp.98 :setColor;
+        %tmp.100 = getm $.Toybox.Graphics;
+        %tmp.101 = getv %tmp.100 :COLOR_WHITE;
+        invoke %tmp.98 %tmp.99(%tmp.101);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 192 16 ]
+        %tmp.102 = lgetv %achtergrond.1;
+        %tmp.103 = getv function %tmp.102 :setColor;
+        %tmp.104 = getm $.Toybox.Graphics;
+        %tmp.105 = getv %tmp.104 :COLOR_DK_GREEN;
+        invoke %tmp.102 %tmp.103(%tmp.105);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 193 16 ]
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_switchCaseEnd;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_194_12:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 195 16 ]
+        %tmp.107 = getv ? :labelView;
+        %tmp.108 = getv function %tmp.107 :setColor;
+        %tmp.109 = getm $.Toybox.Graphics;
+        %tmp.110 = getv %tmp.109 :COLOR_BLACK;
+        invoke %tmp.107 %tmp.108(%tmp.110);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 196 16 ]
+        %tmp.112 = getv ? :valueView;
+        %tmp.113 = getv function %tmp.112 :setColor;
+        %tmp.114 = getm $.Toybox.Graphics;
+        %tmp.115 = getv %tmp.114 :COLOR_BLACK;
+        invoke %tmp.112 %tmp.113(%tmp.115);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 197 16 ]
+        %tmp.117 = getv ? :sweetspotView;
+        %tmp.118 = getv function %tmp.117 :setColor;
+        %tmp.119 = getm $.Toybox.Graphics;
+        %tmp.120 = getv %tmp.119 :COLOR_BLACK;
+        invoke %tmp.117 %tmp.118(%tmp.120);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 198 16 ]
+        %tmp.121 = lgetv %achtergrond.1;
+        %tmp.122 = getv function %tmp.121 :setColor;
+        %tmp.123 = 0xFFFF00;
+        invoke %tmp.121 %tmp.122(%tmp.123);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 199 16 ]
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_switchCaseEnd;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_200_12:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 201 16 ]
+        %tmp.125 = getv ? :labelView;
+        %tmp.126 = getv function %tmp.125 :setColor;
+        %tmp.127 = getm $.Toybox.Graphics;
+        %tmp.128 = getv %tmp.127 :COLOR_WHITE;
+        invoke %tmp.125 %tmp.126(%tmp.128);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 202 16 ]
+        %tmp.130 = getv ? :valueView;
+        %tmp.131 = getv function %tmp.130 :setColor;
+        %tmp.132 = getm $.Toybox.Graphics;
+        %tmp.133 = getv %tmp.132 :COLOR_WHITE;
+        invoke %tmp.130 %tmp.131(%tmp.133);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 203 16 ]
+        %tmp.135 = getv ? :sweetspotView;
+        %tmp.136 = getv function %tmp.135 :setColor;
+        %tmp.137 = getm $.Toybox.Graphics;
+        %tmp.138 = getv %tmp.137 :COLOR_WHITE;
+        invoke %tmp.135 %tmp.136(%tmp.138);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 204 16 ]
+        %tmp.139 = lgetv %achtergrond.1;
+        %tmp.140 = getv function %tmp.139 :setColor;
+        %tmp.141 = 0xFAA918;
+        invoke %tmp.139 %tmp.140(%tmp.141);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 205 16 ]
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_switchCaseEnd;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_206_12:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 207 16 ]
+        %tmp.143 = getv ? :labelView;
+        %tmp.144 = getv function %tmp.143 :setColor;
+        %tmp.145 = getm $.Toybox.Graphics;
+        %tmp.146 = getv %tmp.145 :COLOR_WHITE;
+        invoke %tmp.143 %tmp.144(%tmp.146);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 208 16 ]
+        %tmp.148 = getv ? :valueView;
+        %tmp.149 = getv function %tmp.148 :setColor;
+        %tmp.150 = getm $.Toybox.Graphics;
+        %tmp.151 = getv %tmp.150 :COLOR_WHITE;
+        invoke %tmp.148 %tmp.149(%tmp.151);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 209 16 ]
+        %tmp.153 = getv ? :sweetspotView;
+        %tmp.154 = getv function %tmp.153 :setColor;
+        %tmp.155 = getm $.Toybox.Graphics;
+        %tmp.156 = getv %tmp.155 :COLOR_WHITE;
+        invoke %tmp.153 %tmp.154(%tmp.156);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 210 16 ]
+        %tmp.157 = lgetv %achtergrond.1;
+        %tmp.158 = getv function %tmp.157 :setColor;
+        %tmp.159 = getm $.Toybox.Graphics;
+        %tmp.160 = getv %tmp.159 :COLOR_RED;
+        invoke %tmp.157 %tmp.158(%tmp.160);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 211 16 ]
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_switchCaseEnd;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_212_12:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 213 16 ]
+        %tmp.162 = getv ? :labelView;
+        %tmp.163 = getv function %tmp.162 :setColor;
+        %tmp.164 = getm $.Toybox.Graphics;
+        %tmp.165 = getv %tmp.164 :COLOR_WHITE;
+        invoke %tmp.162 %tmp.163(%tmp.165);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 214 16 ]
+        %tmp.167 = getv ? :valueView;
+        %tmp.168 = getv function %tmp.167 :setColor;
+        %tmp.169 = getm $.Toybox.Graphics;
+        %tmp.170 = getv %tmp.169 :COLOR_WHITE;
+        invoke %tmp.167 %tmp.168(%tmp.170);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 215 16 ]
+        %tmp.172 = getv ? :sweetspotView;
+        %tmp.173 = getv function %tmp.172 :setColor;
+        %tmp.174 = getm $.Toybox.Graphics;
+        %tmp.175 = getv %tmp.174 :COLOR_WHITE;
+        invoke %tmp.172 %tmp.173(%tmp.175);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 216 16 ]
+        %tmp.176 = lgetv %achtergrond.1;
+        %tmp.177 = getv function %tmp.176 :setColor;
+        %tmp.178 = getm $.Toybox.Graphics;
+        %tmp.179 = getv %tmp.178 :COLOR_DK_RED;
+        invoke %tmp.176 %tmp.177(%tmp.179);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 217 16 ]
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_switchCaseEnd;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_defaultCodeBegin:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_175_8_switchCaseEnd:
+        pop;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 221 8 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_221_8_if_stmt:
+        %tmp.181 = getv ? :displayW;
+        bf %tmp.181 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_221_8_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_221_8_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_221_22_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 222 12 ]
+        %tmp.183 = getv ? :valueView;
+        %tmp.184 = getv function %tmp.183 :setText;
+        %tmp.186 = getv ? :mValue;
+        %tmp.187 = getv function %tmp.186 :format;
+        %tmp.188 = "%0.2f";
+        %tmp.189 = invoke %tmp.186 %tmp.187(%tmp.188);
+        invoke %tmp.183 %tmp.184(%tmp.189);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_221_22_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_221_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_221_8_if_false:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_223_15_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 224 12 ]
+        %tmp.191 = getv ? :valueView;
+        %tmp.192 = getv function %tmp.191 :setText;
+        %tmp.194 = getv ? :mValue;
+        %tmp.195 = getv function %tmp.194 :format;
+        %tmp.196 = "%0d";
+        %tmp.197 = invoke %tmp.194 %tmp.195(%tmp.196);
+        invoke %tmp.191 %tmp.192(%tmp.197);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_223_15_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_221_8_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 228 8 ]
+        %tmp.199 = getv ? :View;
+        %tmp.200 = getv function %tmp.199 :onUpdate;
+        %tmp.202 = lgetv %dc;
+        invoke %tmp.199 %tmp.200(%tmp.202);
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 230 8 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_8_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_12_begin:
+        %tmp.204 = getv ? :hoogte;
+        %tmp.205 = 90;
+        %tmp.206 = gt %tmp.204 %tmp.205;
+        %tmp.207 = dup %tmp.206;
+        bf %tmp.207 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_30_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_30_true:
+        %tmp.209 = getv ? :Application;
+        %tmp.210 = getv %tmp.209 :Properties;
+        %tmp.211 = getv function %tmp.210 :getValue;
+        %tmp.212 = "displayBar";
+        %tmp.213 = invoke %tmp.210 %tmp.211(%tmp.212);
+        %tmp.214 = and %tmp.206 %tmp.213;
+        push %tmp.214;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_30_end:
+        %tmp.215 = phi [%tmp.207 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_12_begin] [%tmp.214 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_30_true] [%tmp.215 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_30_end];
+        bf %tmp.215 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_8_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_79_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 231 12 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_231_12_if_stmt:
+        %tmp.217 = getv ? :V;
+        %tmp.218 = 35;
+        %tmp.219 = sub 0 %tmp.218;
+        %tmp.220 = lt %tmp.217 %tmp.219;
+        bf %tmp.220 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_231_12_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_231_12_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_231_26_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 231 27 ]
+        %tmp.221 = 0;
+        putv self :midden %tmp.221;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_231_26_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_231_12_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_231_12_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 232 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_21_begin:
+        %tmp.223 = getv ? :V;
+        %tmp.224 = 35;
+        %tmp.225 = sub 0 %tmp.224;
+        %tmp.226 = gte %tmp.223 %tmp.225;
+        %tmp.227 = dup %tmp.226;
+        bf %tmp.227 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_36_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_36_true:
+        %tmp.229 = getv ? :V;
+        %tmp.230 = 32;
+        %tmp.231 = sub 0 %tmp.230;
+        %tmp.232 = lt %tmp.229 %tmp.231;
+        %tmp.233 = and %tmp.226 %tmp.232;
+        push %tmp.233;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_36_end:
+        %tmp.234 = phi [%tmp.227 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_21_begin] [%tmp.233 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_36_true] [%tmp.234 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_36_end];
+        bf %tmp.234 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_48_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 232 49 ]
+        %tmp.235 = 1;
+        putv self :midden %tmp.235;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_48_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 233 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_21_begin:
+        %tmp.237 = getv ? :V;
+        %tmp.238 = 32;
+        %tmp.239 = sub 0 %tmp.238;
+        %tmp.240 = gte %tmp.237 %tmp.239;
+        %tmp.241 = dup %tmp.240;
+        bf %tmp.241 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_36_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_36_true:
+        %tmp.243 = getv ? :V;
+        %tmp.244 = 28;
+        %tmp.245 = sub 0 %tmp.244;
+        %tmp.246 = lt %tmp.243 %tmp.245;
+        %tmp.247 = and %tmp.240 %tmp.246;
+        push %tmp.247;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_36_end:
+        %tmp.248 = phi [%tmp.241 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_21_begin] [%tmp.247 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_36_true] [%tmp.248 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_36_end];
+        bf %tmp.248 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_48_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 233 49 ]
+        %tmp.249 = 2;
+        putv self :midden %tmp.249;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_48_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 234 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_21_begin:
+        %tmp.251 = getv ? :V;
+        %tmp.252 = 28;
+        %tmp.253 = sub 0 %tmp.252;
+        %tmp.254 = gte %tmp.251 %tmp.253;
+        %tmp.255 = dup %tmp.254;
+        bf %tmp.255 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_36_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_36_true:
+        %tmp.257 = getv ? :V;
+        %tmp.258 = 24;
+        %tmp.259 = sub 0 %tmp.258;
+        %tmp.260 = lt %tmp.257 %tmp.259;
+        %tmp.261 = and %tmp.254 %tmp.260;
+        push %tmp.261;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_36_end:
+        %tmp.262 = phi [%tmp.255 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_21_begin] [%tmp.261 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_36_true] [%tmp.262 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_36_end];
+        bf %tmp.262 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_48_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 234 49 ]
+        %tmp.263 = 3;
+        putv self :midden %tmp.263;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_48_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 235 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_21_begin:
+        %tmp.265 = getv ? :V;
+        %tmp.266 = 24;
+        %tmp.267 = sub 0 %tmp.266;
+        %tmp.268 = gte %tmp.265 %tmp.267;
+        %tmp.269 = dup %tmp.268;
+        bf %tmp.269 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_36_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_36_true:
+        %tmp.271 = getv ? :V;
+        %tmp.272 = 20;
+        %tmp.273 = sub 0 %tmp.272;
+        %tmp.274 = lt %tmp.271 %tmp.273;
+        %tmp.275 = and %tmp.268 %tmp.274;
+        push %tmp.275;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_36_end:
+        %tmp.276 = phi [%tmp.269 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_21_begin] [%tmp.275 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_36_true] [%tmp.276 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_36_end];
+        bf %tmp.276 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_48_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 235 49 ]
+        %tmp.277 = 4;
+        putv self :midden %tmp.277;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_48_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 236 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_21_begin:
+        %tmp.279 = getv ? :V;
+        %tmp.280 = 20;
+        %tmp.281 = sub 0 %tmp.280;
+        %tmp.282 = gte %tmp.279 %tmp.281;
+        %tmp.283 = dup %tmp.282;
+        bf %tmp.283 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_36_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_36_true:
+        %tmp.285 = getv ? :V;
+        %tmp.286 = 16;
+        %tmp.287 = sub 0 %tmp.286;
+        %tmp.288 = lt %tmp.285 %tmp.287;
+        %tmp.289 = and %tmp.282 %tmp.288;
+        push %tmp.289;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_36_end:
+        %tmp.290 = phi [%tmp.283 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_21_begin] [%tmp.289 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_36_true] [%tmp.290 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_36_end];
+        bf %tmp.290 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_48_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 236 49 ]
+        %tmp.291 = 5;
+        putv self :midden %tmp.291;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_48_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 237 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_21_begin:
+        %tmp.293 = getv ? :V;
+        %tmp.294 = 16;
+        %tmp.295 = sub 0 %tmp.294;
+        %tmp.296 = gte %tmp.293 %tmp.295;
+        %tmp.297 = dup %tmp.296;
+        bf %tmp.297 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_36_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_36_true:
+        %tmp.299 = getv ? :V;
+        %tmp.300 = 13;
+        %tmp.301 = sub 0 %tmp.300;
+        %tmp.302 = lt %tmp.299 %tmp.301;
+        %tmp.303 = and %tmp.296 %tmp.302;
+        push %tmp.303;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_36_end:
+        %tmp.304 = phi [%tmp.297 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_21_begin] [%tmp.303 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_36_true] [%tmp.304 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_36_end];
+        bf %tmp.304 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_48_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 237 49 ]
+        %tmp.305 = 6;
+        putv self :midden %tmp.305;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_48_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 238 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_21_begin:
+        %tmp.307 = getv ? :V;
+        %tmp.308 = 13;
+        %tmp.309 = sub 0 %tmp.308;
+        %tmp.310 = gte %tmp.307 %tmp.309;
+        %tmp.311 = dup %tmp.310;
+        bf %tmp.311 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_36_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_36_true:
+        %tmp.313 = getv ? :V;
+        %tmp.314 = 9;
+        %tmp.315 = sub 0 %tmp.314;
+        %tmp.316 = lt %tmp.313 %tmp.315;
+        %tmp.317 = and %tmp.310 %tmp.316;
+        push %tmp.317;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_36_end:
+        %tmp.318 = phi [%tmp.311 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_21_begin] [%tmp.317 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_36_true] [%tmp.318 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_36_end];
+        bf %tmp.318 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_47_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 238 48 ]
+        %tmp.319 = 7;
+        putv self :midden %tmp.319;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_47_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 239 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_21_begin:
+        %tmp.321 = getv ? :V;
+        %tmp.322 = 9;
+        %tmp.323 = sub 0 %tmp.322;
+        %tmp.324 = gte %tmp.321 %tmp.323;
+        %tmp.325 = dup %tmp.324;
+        bf %tmp.325 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_35_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_35_true:
+        %tmp.327 = getv ? :V;
+        %tmp.328 = 5;
+        %tmp.329 = sub 0 %tmp.328;
+        %tmp.330 = lt %tmp.327 %tmp.329;
+        %tmp.331 = and %tmp.324 %tmp.330;
+        push %tmp.331;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_35_end:
+        %tmp.332 = phi [%tmp.325 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_21_begin] [%tmp.331 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_35_true] [%tmp.332 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_35_end];
+        bf %tmp.332 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_46_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 239 47 ]
+        %tmp.333 = 8;
+        putv self :midden %tmp.333;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_46_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 241 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_21_begin:
+        %tmp.335 = getv ? :V;
+        %tmp.336 = 5;
+        %tmp.337 = sub 0 %tmp.336;
+        %tmp.338 = gte %tmp.335 %tmp.337;
+        %tmp.339 = dup %tmp.338;
+        bf %tmp.339 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_35_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_35_true:
+        %tmp.341 = getv ? :V;
+        %tmp.342 = 5;
+        %tmp.343 = lt %tmp.341 %tmp.342;
+        %tmp.344 = and %tmp.338 %tmp.343;
+        push %tmp.344;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_35_end:
+        %tmp.345 = phi [%tmp.339 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_21_begin] [%tmp.344 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_35_true] [%tmp.345 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_35_end];
+        bf %tmp.345 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_45_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 241 46 ]
+        %tmp.346 = 9;
+        putv self :midden %tmp.346;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_45_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 243 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_21_begin:
+        %tmp.348 = getv ? :V;
+        %tmp.349 = 9;
+        %tmp.350 = lt %tmp.348 %tmp.349;
+        %tmp.351 = dup %tmp.350;
+        bf %tmp.351 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_33_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_33_true:
+        %tmp.353 = getv ? :V;
+        %tmp.354 = 5;
+        %tmp.355 = gte %tmp.353 %tmp.354;
+        %tmp.356 = and %tmp.350 %tmp.355;
+        push %tmp.356;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_33_end:
+        %tmp.357 = phi [%tmp.351 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_21_begin] [%tmp.356 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_33_true] [%tmp.357 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_33_end];
+        bf %tmp.357 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_44_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 243 45 ]
+        %tmp.358 = 10;
+        putv self :midden %tmp.358;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_44_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 244 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_21_begin:
+        %tmp.360 = getv ? :V;
+        %tmp.361 = 13;
+        %tmp.362 = lt %tmp.360 %tmp.361;
+        %tmp.363 = dup %tmp.362;
+        bf %tmp.363 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_34_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_34_true:
+        %tmp.365 = getv ? :V;
+        %tmp.366 = 9;
+        %tmp.367 = gte %tmp.365 %tmp.366;
+        %tmp.368 = and %tmp.362 %tmp.367;
+        push %tmp.368;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_34_end:
+        %tmp.369 = phi [%tmp.363 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_21_begin] [%tmp.368 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_34_true] [%tmp.369 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_34_end];
+        bf %tmp.369 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_45_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 244 46 ]
+        %tmp.370 = 11;
+        putv self :midden %tmp.370;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_45_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 245 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_21_begin:
+        %tmp.372 = getv ? :V;
+        %tmp.373 = 16;
+        %tmp.374 = lt %tmp.372 %tmp.373;
+        %tmp.375 = dup %tmp.374;
+        bf %tmp.375 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_34_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_34_true:
+        %tmp.377 = getv ? :V;
+        %tmp.378 = 13;
+        %tmp.379 = gte %tmp.377 %tmp.378;
+        %tmp.380 = and %tmp.374 %tmp.379;
+        push %tmp.380;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_34_end:
+        %tmp.381 = phi [%tmp.375 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_21_begin] [%tmp.380 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_34_true] [%tmp.381 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_34_end];
+        bf %tmp.381 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_46_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 245 47 ]
+        %tmp.382 = 12;
+        putv self :midden %tmp.382;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_46_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 246 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_21_begin:
+        %tmp.384 = getv ? :V;
+        %tmp.385 = 20;
+        %tmp.386 = lt %tmp.384 %tmp.385;
+        %tmp.387 = dup %tmp.386;
+        bf %tmp.387 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_34_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_34_true:
+        %tmp.389 = getv ? :V;
+        %tmp.390 = 16;
+        %tmp.391 = gte %tmp.389 %tmp.390;
+        %tmp.392 = and %tmp.386 %tmp.391;
+        push %tmp.392;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_34_end:
+        %tmp.393 = phi [%tmp.387 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_21_begin] [%tmp.392 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_34_true] [%tmp.393 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_34_end];
+        bf %tmp.393 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_46_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 246 47 ]
+        %tmp.394 = 13;
+        putv self :midden %tmp.394;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_46_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 247 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_21_begin:
+        %tmp.396 = getv ? :V;
+        %tmp.397 = 24;
+        %tmp.398 = lt %tmp.396 %tmp.397;
+        %tmp.399 = dup %tmp.398;
+        bf %tmp.399 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_34_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_34_true:
+        %tmp.401 = getv ? :V;
+        %tmp.402 = 20;
+        %tmp.403 = gte %tmp.401 %tmp.402;
+        %tmp.404 = and %tmp.398 %tmp.403;
+        push %tmp.404;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_34_end:
+        %tmp.405 = phi [%tmp.399 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_21_begin] [%tmp.404 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_34_true] [%tmp.405 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_34_end];
+        bf %tmp.405 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_46_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 247 47 ]
+        %tmp.406 = 14;
+        putv self :midden %tmp.406;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_46_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 248 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_21_begin:
+        %tmp.408 = getv ? :V;
+        %tmp.409 = 28;
+        %tmp.410 = lt %tmp.408 %tmp.409;
+        %tmp.411 = dup %tmp.410;
+        bf %tmp.411 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_34_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_34_true:
+        %tmp.413 = getv ? :V;
+        %tmp.414 = 24;
+        %tmp.415 = gte %tmp.413 %tmp.414;
+        %tmp.416 = and %tmp.410 %tmp.415;
+        push %tmp.416;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_34_end:
+        %tmp.417 = phi [%tmp.411 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_21_begin] [%tmp.416 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_34_true] [%tmp.417 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_34_end];
+        bf %tmp.417 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_46_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 248 47 ]
+        %tmp.418 = 15;
+        putv self :midden %tmp.418;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_46_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 249 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_21_begin:
+        %tmp.420 = getv ? :V;
+        %tmp.421 = 32;
+        %tmp.422 = lt %tmp.420 %tmp.421;
+        %tmp.423 = dup %tmp.422;
+        bf %tmp.423 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_34_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_34_true:
+        %tmp.425 = getv ? :V;
+        %tmp.426 = 28;
+        %tmp.427 = gte %tmp.425 %tmp.426;
+        %tmp.428 = and %tmp.422 %tmp.427;
+        push %tmp.428;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_34_end:
+        %tmp.429 = phi [%tmp.423 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_21_begin] [%tmp.428 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_34_true] [%tmp.429 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_34_end];
+        bf %tmp.429 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_46_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 249 47 ]
+        %tmp.430 = 16;
+        putv self :midden %tmp.430;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_46_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 250 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_17_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_21_begin:
+        %tmp.432 = getv ? :V;
+        %tmp.433 = 35;
+        %tmp.434 = lt %tmp.432 %tmp.433;
+        %tmp.435 = dup %tmp.434;
+        bf %tmp.435 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_34_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_34_true:
+        %tmp.437 = getv ? :V;
+        %tmp.438 = 32;
+        %tmp.439 = gte %tmp.437 %tmp.438;
+        %tmp.440 = and %tmp.434 %tmp.439;
+        push %tmp.440;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_34_end:
+        %tmp.441 = phi [%tmp.435 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_21_begin] [%tmp.440 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_34_true] [%tmp.441 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_34_end];
+        bf %tmp.441 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_17_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_46_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 250 47 ]
+        %tmp.442 = 17;
+        putv self :midden %tmp.442;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_46_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_17_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 251 17 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_251_17_if_stmt:
+        %tmp.444 = getv ? :V;
+        %tmp.445 = 35;
+        %tmp.446 = gt %tmp.444 %tmp.445;
+        bf %tmp.446 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_251_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_251_17_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_251_30_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 251 31 ]
+        %tmp.447 = 18;
+        putv self :midden %tmp.447;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_251_30_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_251_17_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_251_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_250_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_249_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_248_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_247_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_246_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_245_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_244_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_243_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_241_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_239_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_238_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_237_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_236_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_235_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_234_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_233_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_232_17_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_231_12_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 253 12 ]
+        for @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_test @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_incr @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_init:
+        [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_begin" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_end" ]
+        %x.2 = local;
+        %tmp.448 = 0;
+        lputv %x.2 %tmp.448;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_test:
+        %tmp.450 = lgetv %x.2;
+        %tmp.452 = getv ? :aantalblokjes;
+        %tmp.453 = lt %tmp.450 %tmp.452;
+        bf %tmp.453 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_begin:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_50_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 254 16 ]
+        [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_50_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_50_stop" ]
+        %blokjemidden.3 = local;
+        %tmp.454 = newa 2;
+        %tmp.456 = getv ? :midden;
+        %tmp.457 = 1;
+        %tmp.458 = add %tmp.456 %tmp.457;
+        %tmp.459 = dup %tmp.454;
+        %tmp.460 = aputv %tmp.459 0 %tmp.458;
+        %tmp.462 = getv ? :midden;
+        %tmp.463 = 1;
+        %tmp.464 = sub %tmp.462 %tmp.463;
+        %tmp.465 = dup %tmp.460;
+        %tmp.466 = aputv %tmp.465 1 %tmp.464;
+        lputv %blokjemidden.3 %tmp.466;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 255 16 ]
+        [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_50_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_50_stop" ]
+        %blokjehoog.4 = local;
+        %tmp.468 = getv ? :midden;
+        lputv %blokjehoog.4 %tmp.468;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 256 16 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_256_16_if_stmt:
+        %tmp.470 = getv ? :midden;
+        %tmp.472 = getv ? :vorigemidden;
+        %tmp.473 = gt %tmp.470 %tmp.472;
+        bf %tmp.473 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_256_16_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_256_16_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_256_43_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 257 20 ]
+        %tmp.474 = newa 2;
+        %tmp.476 = getv ? :midden;
+        %tmp.477 = 1;
+        %tmp.478 = sub %tmp.476 %tmp.477;
+        %tmp.479 = dup %tmp.474;
+        %tmp.480 = aputv %tmp.479 0 %tmp.478;
+        %tmp.482 = getv ? :midden;
+        %tmp.483 = 2;
+        %tmp.484 = sub %tmp.482 %tmp.483;
+        %tmp.485 = dup %tmp.480;
+        %tmp.486 = aputv %tmp.485 1 %tmp.484;
+        lputv %blokjemidden.3 %tmp.486;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 258 20 ]
+        %tmp.488 = getv ? :midden;
+        lputv %blokjehoog.4 %tmp.488;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_256_43_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_256_16_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_256_16_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 260 16 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_260_16_if_stmt:
+        %tmp.490 = getv ? :midden;
+        %tmp.492 = getv ? :vorigemidden;
+        %tmp.493 = lt %tmp.490 %tmp.492;
+        bf %tmp.493 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_260_16_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_260_16_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_260_43_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 261 20 ]
+        %tmp.494 = newa 2;
+        %tmp.496 = getv ? :midden;
+        %tmp.497 = 2;
+        %tmp.498 = add %tmp.496 %tmp.497;
+        %tmp.499 = dup %tmp.494;
+        %tmp.500 = aputv %tmp.499 0 %tmp.498;
+        %tmp.502 = getv ? :midden;
+        %tmp.503 = 1;
+        %tmp.504 = add %tmp.502 %tmp.503;
+        %tmp.505 = dup %tmp.500;
+        %tmp.506 = aputv %tmp.505 1 %tmp.504;
+        lputv %blokjemidden.3 %tmp.506;
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 262 20 ]
+        %tmp.508 = getv ? :midden;
+        lputv %blokjehoog.4 %tmp.508;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_260_43_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_260_16_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_260_16_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 264 16 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_16_if_stmt:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_20_begin:
+        %tmp.510 = lgetv %x.2;
+        %tmp.512 = lgetv %blokjemidden.3;
+        %tmp.513 = 0;
+        %tmp.514 = agetv %tmp.512 %tmp.513;
+        %tmp.515 = eq %tmp.510 %tmp.514;
+        %tmp.516 = dup %tmp.515;
+        bt %tmp.516 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_46_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_46_false:
+        %tmp.518 = lgetv %x.2;
+        %tmp.520 = lgetv %blokjemidden.3;
+        %tmp.521 = 1;
+        %tmp.522 = agetv %tmp.520 %tmp.521;
+        %tmp.523 = eq %tmp.518 %tmp.522;
+        %tmp.524 = or %tmp.515 %tmp.523;
+        push %tmp.524;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_46_end:
+        %tmp.525 = phi [%tmp.516 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_20_begin] [%tmp.524 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_46_false] [%tmp.525 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_46_end];
+        bf %tmp.525 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_16_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_16_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_70_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 265 20 ]
+        %tmp.526 = lgetv %dc;
+        %tmp.527 = getv function %tmp.526 :fillRoundedRectangle;
+        %tmp.529 = getv ? :inspringen;
+        %tmp.531 = lgetv %x.2;
+        %tmp.533 = getv ? :blokjeB;
+        %tmp.534 = mul %tmp.531 %tmp.533;
+        %tmp.535 = add %tmp.529 %tmp.534;
+        %tmp.537 = getv ? :hoogte;
+        %tmp.539 = getv ? :blokjeHH;
+        %tmp.540 = sub %tmp.537 %tmp.539;
+        %tmp.542 = getv ? :blokjeB;
+        %tmp.544 = getv ? :blokjeHH;
+        %tmp.545 = 1;
+        invoke %tmp.526 %tmp.527(%tmp.535, %tmp.540, %tmp.542, %tmp.544, %tmp.545);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_70_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_16_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_16_if_false:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 266 23 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_266_23_if_stmt:
+        %tmp.547 = lgetv %x.2;
+        %tmp.549 = lgetv %blokjehoog.4;
+        %tmp.550 = eq %tmp.547 %tmp.549;
+        bf %tmp.550 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_266_23_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_266_23_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_266_44_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 267 20 ]
+        %tmp.551 = lgetv %dc;
+        %tmp.552 = getv function %tmp.551 :fillRoundedRectangle;
+        %tmp.554 = getv ? :inspringen;
+        %tmp.556 = lgetv %x.2;
+        %tmp.558 = getv ? :blokjeB;
+        %tmp.559 = mul %tmp.556 %tmp.558;
+        %tmp.560 = add %tmp.554 %tmp.559;
+        %tmp.562 = getv ? :hoogte;
+        %tmp.564 = getv ? :blokjeHHH;
+        %tmp.565 = sub %tmp.562 %tmp.564;
+        %tmp.567 = getv ? :blokjeB;
+        %tmp.569 = getv ? :blokjeHHH;
+        %tmp.570 = 1;
+        invoke %tmp.551 %tmp.552(%tmp.560, %tmp.565, %tmp.567, %tmp.569, %tmp.570);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_266_44_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_266_23_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_266_23_if_false:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_268_23_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 269 20 ]
+        %tmp.571 = lgetv %dc;
+        %tmp.572 = getv function %tmp.571 :fillRoundedRectangle;
+        %tmp.574 = getv ? :inspringen;
+        %tmp.576 = lgetv %x.2;
+        %tmp.578 = getv ? :blokjeB;
+        %tmp.579 = mul %tmp.576 %tmp.578;
+        %tmp.580 = add %tmp.574 %tmp.579;
+        %tmp.582 = getv ? :hoogte;
+        %tmp.584 = getv ? :blokjeH;
+        %tmp.585 = sub %tmp.582 %tmp.584;
+        %tmp.587 = getv ? :blokjeB;
+        %tmp.589 = getv ? :blokjeH;
+        %tmp.590 = 1;
+        invoke %tmp.571 %tmp.572(%tmp.580, %tmp.585, %tmp.587, %tmp.589, %tmp.590);
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_268_23_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_266_23_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_264_16_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_50_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_incr:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 253 ]
+        %tmp.591 = lgetv %x.2;
+        %tmp.592 = 1;
+        %tmp.593 = add %tmp.591 %tmp.592;
+        lputv %x.2 %tmp.593;
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_test;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_253_12_for_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 272 12 ]
+        %tmp.595 = getv ? :midden;
+        putv self :vorigemidden %tmp.595;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_79_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_230_8_if_end:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_164_40_stop:
+    }
+}
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc"; @line = 1; ]
+<init> {
+}

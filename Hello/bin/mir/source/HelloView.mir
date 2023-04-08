@@ -1,0 +1,70 @@
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 5; ]
+using Toybox.UserProfile;
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 7; ]
+class HelloView extends WatchUi.SimpleDataField{
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 8; @position = 8; ]
+    var snelheid = 0;
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 11; ]
+    function initialize() as Void {
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_11_26_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc" 12 8 ]
+        %tmp.2 = getv ? :SimpleDataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc" 13 8 ]
+        %tmp.4 = "Snelheid";
+        putv self :label %tmp.4;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_11_26_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 21; ]
+    function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_21_85_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc" 23 8 ]
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_23_8_if_stmt:
+        %tmp.1 = lgetv %info;
+        %tmp.2 = getv %tmp.1 :currentSpeed;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        bf %tmp.4 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_23_8_if_false;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_23_8_if_true:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_23_39_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc" 24 12 ]
+        %tmp.5 = lgetv %info;
+        %tmp.6 = getv %tmp.5 :currentSpeed;
+        putv self :snelheid %tmp.6;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_23_39_stop:
+        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_23_8_if_end;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_23_8_if_false:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_25_15_start:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc" 26 12 ]
+        %tmp.7 = 0;
+        putv self :snelheid %tmp.7;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_25_15_stop:
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_23_8_if_end:
+[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc" 28 8 ]
+        %tmp.9 = getv ? :snelheid;
+        %tmp.10 = getv function %tmp.9 :format;
+        %tmp.11 = "%.1f";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        ret %tmp.12;
+C_Users_Ronnie_Documents_RonV66_ConnectIQ_Hello_source_HelloView_mc_21_85_stop:
+    }
+}
+[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Hello\source\HelloView.mc"; @line = 1; ]
+<init> {
+}

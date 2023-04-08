@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Run App",
             "stopAtLaunch": false,
-            "device": "edge830"
+            "device": "${command:GetTargetDevice}"
         },
         {
             "type": "monkeyc",

@@ -30,6 +30,10 @@
 		{
 			"name": "RadarLight",
 			"path": ".\\RadarLight"
+		},
+		{
+			"name": "Test",
+			"path": "Test/Test"
 		}
 	],
 	"settings": {
