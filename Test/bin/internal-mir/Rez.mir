@@ -1,68 +1,72 @@
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
         <init> {
         }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var myfont as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var roboto_bold_120 as Symbol;
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 17; ]
     module JsonData {
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 15; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 17; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 18; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 20; ]
     module Layouts {
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 18; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 20; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 19; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 21; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 20 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 22 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getHeight;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 22 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 24 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             %tmp.4 = lgetv %dc;
             %tmp.5 = getv function %tmp.4 :getWidth;
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 24 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
-            %rez_cmp_local_custom_drawable_13866270129207149879.3 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 26 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
+            %rez_cmp_local_custom_drawable_16476470261469862401.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_13866270129207149879.3 %tmp.7;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 26 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            lputv %rez_cmp_local_custom_drawable_16476470261469862401.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 28 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_label.4 = local;
             %tmp.13 = getm $.Toybox.WatchUi;
             %tmp.14 = getv function ? %tmp.13 :Text;
@@ -83,353 +87,346 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.33 = dup %tmp.26;
             %tmp.34 = aputv %tmp.33 %tmp.28 %tmp.32;
             %tmp.36 = const :locY;
-            %tmp.38 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            %tmp.39 = lgetv %dc;
-            %tmp.40 = getv function %tmp.39 :getFontHeight;
-            %tmp.41 = getm $.Toybox.Graphics;
-            %tmp.42 = getv %tmp.41 :FONT_TINY;
-            %tmp.43 = invoke %tmp.39 %tmp.40(%tmp.42);
-            %tmp.44 = sub %tmp.38 %tmp.43;
-            %tmp.45 = 0.5;
-            %tmp.46 = mul %tmp.44 %tmp.45;
-            %tmp.47 = dup %tmp.34;
-            %tmp.48 = aputv %tmp.47 %tmp.36 %tmp.46;
-            %tmp.50 = const :justification;
-            %tmp.51 = getm $.Toybox.Graphics;
-            %tmp.52 = getv %tmp.51 :TEXT_JUSTIFY_CENTER;
-            %tmp.53 = dup %tmp.48;
-            %tmp.54 = aputv %tmp.53 %tmp.50 %tmp.52;
-            %tmp.56 = const :font;
-            %tmp.57 = getm $.Toybox.Graphics;
-            %tmp.58 = getv %tmp.57 :FONT_TINY;
-            %tmp.59 = dup %tmp.54;
-            %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
-            %tmp.11 = newc %tmp.14 (%tmp.60);
+            %tmp.37 = getm $.Toybox.WatchUi;
+            %tmp.38 = getv %tmp.37 :LAYOUT_VALIGN_TOP;
+            %tmp.39 = dup %tmp.34;
+            %tmp.40 = aputv %tmp.39 %tmp.36 %tmp.38;
+            %tmp.42 = const :justification;
+            %tmp.43 = getm $.Toybox.Graphics;
+            %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_CENTER;
+            %tmp.45 = dup %tmp.40;
+            %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
+            %tmp.48 = const :font;
+            %tmp.49 = getm $.Toybox.Graphics;
+            %tmp.50 = getv %tmp.49 :FONT_TINY;
+            %tmp.51 = dup %tmp.46;
+            %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+            %tmp.11 = newc %tmp.14 (%tmp.52);
             lputv %rez_cmp_local_text_label.4 %tmp.11;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 28 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 30 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_value.5 = local;
-            %tmp.63 = getm $.Toybox.WatchUi;
-            %tmp.64 = getv function ? %tmp.63 :Text;
-            %tmp.65 = newd 6;
-            %tmp.67 = const :identifier;
-            %tmp.68 = "value";
-            %tmp.69 = dup %tmp.65;
-            %tmp.70 = aputv %tmp.69 %tmp.67 %tmp.68;
-            %tmp.72 = const :color;
-            %tmp.73 = getm $.Toybox.Graphics;
-            %tmp.74 = getv %tmp.73 :COLOR_BLACK;
-            %tmp.75 = dup %tmp.70;
-            %tmp.76 = aputv %tmp.75 %tmp.72 %tmp.74;
-            %tmp.78 = const :locX;
-            %tmp.80 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            %tmp.81 = 0.5;
-            %tmp.82 = mul %tmp.80 %tmp.81;
-            %tmp.83 = dup %tmp.76;
-            %tmp.84 = aputv %tmp.83 %tmp.78 %tmp.82;
-            %tmp.86 = const :locY;
-            %tmp.88 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            %tmp.89 = lgetv %dc;
-            %tmp.90 = getv function %tmp.89 :getFontHeight;
-            %tmp.91 = getm $.Toybox.Graphics;
-            %tmp.92 = getv %tmp.91 :FONT_NUMBER_MILD;
-            %tmp.93 = invoke %tmp.89 %tmp.90(%tmp.92);
-            %tmp.94 = sub %tmp.88 %tmp.93;
-            %tmp.95 = 0.5;
-            %tmp.96 = mul %tmp.94 %tmp.95;
-            %tmp.97 = dup %tmp.84;
-            %tmp.98 = aputv %tmp.97 %tmp.86 %tmp.96;
-            %tmp.100 = const :justification;
-            %tmp.101 = getm $.Toybox.Graphics;
-            %tmp.102 = getv %tmp.101 :TEXT_JUSTIFY_CENTER;
-            %tmp.103 = dup %tmp.98;
-            %tmp.104 = aputv %tmp.103 %tmp.100 %tmp.102;
-            %tmp.106 = const :font;
-            %tmp.107 = getm $.Toybox.Graphics;
-            %tmp.108 = getv %tmp.107 :FONT_NUMBER_MILD;
-            %tmp.109 = dup %tmp.104;
-            %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
-            %tmp.61 = newc %tmp.64 (%tmp.110);
-            lputv %rez_cmp_local_text_value.5 %tmp.61;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 30 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %tmp.55 = getm $.Toybox.WatchUi;
+            %tmp.56 = getv function ? %tmp.55 :Text;
+            %tmp.57 = newd 6;
+            %tmp.59 = const :identifier;
+            %tmp.60 = "value";
+            %tmp.61 = dup %tmp.57;
+            %tmp.62 = aputv %tmp.61 %tmp.59 %tmp.60;
+            %tmp.64 = const :color;
+            %tmp.65 = getm $.Toybox.Graphics;
+            %tmp.66 = getv %tmp.65 :COLOR_BLACK;
+            %tmp.67 = dup %tmp.62;
+            %tmp.68 = aputv %tmp.67 %tmp.64 %tmp.66;
+            %tmp.70 = const :locX;
+            %tmp.72 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.73 = 0.5;
+            %tmp.74 = mul %tmp.72 %tmp.73;
+            %tmp.75 = dup %tmp.68;
+            %tmp.76 = aputv %tmp.75 %tmp.70 %tmp.74;
+            %tmp.78 = const :locY;
+            %tmp.80 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.81 = lgetv %dc;
+            %tmp.82 = getv function %tmp.81 :getFontHeight;
+            %tmp.83 = getm $.Toybox.Graphics;
+            %tmp.84 = getv %tmp.83 :FONT_MEDIUM;
+            %tmp.85 = invoke %tmp.81 %tmp.82(%tmp.84);
+            %tmp.86 = sub %tmp.80 %tmp.85;
+            %tmp.87 = 0.5;
+            %tmp.88 = mul %tmp.86 %tmp.87;
+            %tmp.89 = dup %tmp.76;
+            %tmp.90 = aputv %tmp.89 %tmp.78 %tmp.88;
+            %tmp.92 = const :justification;
+            %tmp.93 = getm $.Toybox.Graphics;
+            %tmp.94 = getv %tmp.93 :TEXT_JUSTIFY_CENTER;
+            %tmp.95 = dup %tmp.90;
+            %tmp.96 = aputv %tmp.95 %tmp.92 %tmp.94;
+            %tmp.98 = const :font;
+            %tmp.99 = getm $.Toybox.Graphics;
+            %tmp.100 = getv %tmp.99 :FONT_MEDIUM;
+            %tmp.101 = dup %tmp.96;
+            %tmp.102 = aputv %tmp.101 %tmp.98 %tmp.100;
+            %tmp.53 = newc %tmp.56 (%tmp.102);
+            lputv %rez_cmp_local_text_value.5 %tmp.53;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 32 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_value2.6 = local;
-            %tmp.113 = getm $.Toybox.WatchUi;
-            %tmp.114 = getv function ? %tmp.113 :Text;
-            %tmp.115 = newd 6;
-            %tmp.117 = const :identifier;
-            %tmp.118 = "value2";
-            %tmp.119 = dup %tmp.115;
-            %tmp.120 = aputv %tmp.119 %tmp.117 %tmp.118;
-            %tmp.122 = const :color;
-            %tmp.123 = getm $.Toybox.Graphics;
-            %tmp.124 = getv %tmp.123 :COLOR_BLACK;
-            %tmp.125 = dup %tmp.120;
-            %tmp.126 = aputv %tmp.125 %tmp.122 %tmp.124;
-            %tmp.128 = const :locX;
-            %tmp.130 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            %tmp.131 = 0.5;
-            %tmp.132 = mul %tmp.130 %tmp.131;
-            %tmp.133 = dup %tmp.126;
-            %tmp.134 = aputv %tmp.133 %tmp.128 %tmp.132;
-            %tmp.136 = const :locY;
-            %tmp.138 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            %tmp.139 = lgetv %dc;
-            %tmp.140 = getv function %tmp.139 :getFontHeight;
-            %tmp.141 = getm $.Toybox.Graphics;
-            %tmp.142 = getv %tmp.141 :FONT_NUMBER_MEDIUM;
-            %tmp.143 = invoke %tmp.139 %tmp.140(%tmp.142);
-            %tmp.144 = sub %tmp.138 %tmp.143;
-            %tmp.145 = 0.5;
-            %tmp.146 = mul %tmp.144 %tmp.145;
-            %tmp.147 = dup %tmp.134;
-            %tmp.148 = aputv %tmp.147 %tmp.136 %tmp.146;
-            %tmp.150 = const :justification;
-            %tmp.151 = getm $.Toybox.Graphics;
-            %tmp.152 = getv %tmp.151 :TEXT_JUSTIFY_CENTER;
-            %tmp.153 = dup %tmp.148;
-            %tmp.154 = aputv %tmp.153 %tmp.150 %tmp.152;
-            %tmp.156 = const :font;
-            %tmp.157 = getm $.Toybox.Graphics;
-            %tmp.158 = getv %tmp.157 :FONT_NUMBER_MEDIUM;
-            %tmp.159 = dup %tmp.154;
-            %tmp.160 = aputv %tmp.159 %tmp.156 %tmp.158;
-            %tmp.111 = newc %tmp.114 (%tmp.160);
-            lputv %rez_cmp_local_text_value2.6 %tmp.111;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 32 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %tmp.105 = getm $.Toybox.WatchUi;
+            %tmp.106 = getv function ? %tmp.105 :Text;
+            %tmp.107 = newd 6;
+            %tmp.109 = const :identifier;
+            %tmp.110 = "value2";
+            %tmp.111 = dup %tmp.107;
+            %tmp.112 = aputv %tmp.111 %tmp.109 %tmp.110;
+            %tmp.114 = const :color;
+            %tmp.115 = getm $.Toybox.Graphics;
+            %tmp.116 = getv %tmp.115 :COLOR_BLACK;
+            %tmp.117 = dup %tmp.112;
+            %tmp.118 = aputv %tmp.117 %tmp.114 %tmp.116;
+            %tmp.120 = const :locX;
+            %tmp.122 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.123 = 0.5;
+            %tmp.124 = mul %tmp.122 %tmp.123;
+            %tmp.125 = dup %tmp.118;
+            %tmp.126 = aputv %tmp.125 %tmp.120 %tmp.124;
+            %tmp.128 = const :locY;
+            %tmp.130 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.131 = lgetv %dc;
+            %tmp.132 = getv function %tmp.131 :getFontHeight;
+            %tmp.133 = getm $.Toybox.Graphics;
+            %tmp.134 = getv %tmp.133 :FONT_NUMBER_MEDIUM;
+            %tmp.135 = invoke %tmp.131 %tmp.132(%tmp.134);
+            %tmp.136 = sub %tmp.130 %tmp.135;
+            %tmp.137 = 0.5;
+            %tmp.138 = mul %tmp.136 %tmp.137;
+            %tmp.139 = dup %tmp.126;
+            %tmp.140 = aputv %tmp.139 %tmp.128 %tmp.138;
+            %tmp.142 = const :justification;
+            %tmp.143 = getm $.Toybox.Graphics;
+            %tmp.144 = getv %tmp.143 :TEXT_JUSTIFY_CENTER;
+            %tmp.145 = dup %tmp.140;
+            %tmp.146 = aputv %tmp.145 %tmp.142 %tmp.144;
+            %tmp.148 = const :font;
+            %tmp.149 = getm $.Toybox.Graphics;
+            %tmp.150 = getv %tmp.149 :FONT_NUMBER_MEDIUM;
+            %tmp.151 = dup %tmp.146;
+            %tmp.152 = aputv %tmp.151 %tmp.148 %tmp.150;
+            %tmp.103 = newc %tmp.106 (%tmp.152);
+            lputv %rez_cmp_local_text_value2.6 %tmp.103;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 34 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_value3.7 = local;
-            %tmp.163 = getm $.Toybox.WatchUi;
-            %tmp.164 = getv function ? %tmp.163 :Text;
-            %tmp.165 = newd 6;
-            %tmp.167 = const :identifier;
-            %tmp.168 = "value3";
-            %tmp.169 = dup %tmp.165;
-            %tmp.170 = aputv %tmp.169 %tmp.167 %tmp.168;
-            %tmp.172 = const :color;
-            %tmp.173 = getm $.Toybox.Graphics;
-            %tmp.174 = getv %tmp.173 :COLOR_BLACK;
-            %tmp.175 = dup %tmp.170;
-            %tmp.176 = aputv %tmp.175 %tmp.172 %tmp.174;
-            %tmp.178 = const :locX;
-            %tmp.180 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            %tmp.181 = 0.5;
-            %tmp.182 = mul %tmp.180 %tmp.181;
-            %tmp.183 = dup %tmp.176;
-            %tmp.184 = aputv %tmp.183 %tmp.178 %tmp.182;
-            %tmp.186 = const :locY;
-            %tmp.188 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            %tmp.189 = lgetv %dc;
-            %tmp.190 = getv function %tmp.189 :getFontHeight;
-            %tmp.191 = getm $.Toybox.Graphics;
-            %tmp.192 = getv %tmp.191 :FONT_NUMBER_HOT;
-            %tmp.193 = invoke %tmp.189 %tmp.190(%tmp.192);
-            %tmp.194 = sub %tmp.188 %tmp.193;
-            %tmp.195 = 0.5;
-            %tmp.196 = mul %tmp.194 %tmp.195;
-            %tmp.197 = dup %tmp.184;
-            %tmp.198 = aputv %tmp.197 %tmp.186 %tmp.196;
-            %tmp.200 = const :justification;
-            %tmp.201 = getm $.Toybox.Graphics;
-            %tmp.202 = getv %tmp.201 :TEXT_JUSTIFY_CENTER;
-            %tmp.203 = dup %tmp.198;
-            %tmp.204 = aputv %tmp.203 %tmp.200 %tmp.202;
-            %tmp.206 = const :font;
-            %tmp.207 = getm $.Toybox.Graphics;
-            %tmp.208 = getv %tmp.207 :FONT_NUMBER_HOT;
-            %tmp.209 = dup %tmp.204;
-            %tmp.210 = aputv %tmp.209 %tmp.206 %tmp.208;
-            %tmp.161 = newc %tmp.164 (%tmp.210);
-            lputv %rez_cmp_local_text_value3.7 %tmp.161;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 34 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %tmp.155 = getm $.Toybox.WatchUi;
+            %tmp.156 = getv function ? %tmp.155 :Text;
+            %tmp.157 = newd 6;
+            %tmp.159 = const :identifier;
+            %tmp.160 = "value3";
+            %tmp.161 = dup %tmp.157;
+            %tmp.162 = aputv %tmp.161 %tmp.159 %tmp.160;
+            %tmp.164 = const :color;
+            %tmp.165 = getm $.Toybox.Graphics;
+            %tmp.166 = getv %tmp.165 :COLOR_BLACK;
+            %tmp.167 = dup %tmp.162;
+            %tmp.168 = aputv %tmp.167 %tmp.164 %tmp.166;
+            %tmp.170 = const :locX;
+            %tmp.172 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.173 = 0.5;
+            %tmp.174 = mul %tmp.172 %tmp.173;
+            %tmp.175 = dup %tmp.168;
+            %tmp.176 = aputv %tmp.175 %tmp.170 %tmp.174;
+            %tmp.178 = const :locY;
+            %tmp.180 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.181 = lgetv %dc;
+            %tmp.182 = getv function %tmp.181 :getFontHeight;
+            %tmp.183 = getm $.Toybox.Graphics;
+            %tmp.184 = getv %tmp.183 :FONT_NUMBER_HOT;
+            %tmp.185 = invoke %tmp.181 %tmp.182(%tmp.184);
+            %tmp.186 = sub %tmp.180 %tmp.185;
+            %tmp.187 = 0.5;
+            %tmp.188 = mul %tmp.186 %tmp.187;
+            %tmp.189 = dup %tmp.176;
+            %tmp.190 = aputv %tmp.189 %tmp.178 %tmp.188;
+            %tmp.192 = const :justification;
+            %tmp.193 = getm $.Toybox.Graphics;
+            %tmp.194 = getv %tmp.193 :TEXT_JUSTIFY_CENTER;
+            %tmp.195 = dup %tmp.190;
+            %tmp.196 = aputv %tmp.195 %tmp.192 %tmp.194;
+            %tmp.198 = const :font;
+            %tmp.199 = getm $.Toybox.Graphics;
+            %tmp.200 = getv %tmp.199 :FONT_NUMBER_HOT;
+            %tmp.201 = dup %tmp.196;
+            %tmp.202 = aputv %tmp.201 %tmp.198 %tmp.200;
+            %tmp.153 = newc %tmp.156 (%tmp.202);
+            lputv %rez_cmp_local_text_value3.7 %tmp.153;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 36 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_value4.8 = local;
-            %tmp.213 = getm $.Toybox.WatchUi;
-            %tmp.214 = getv function ? %tmp.213 :Text;
-            %tmp.215 = newd 6;
-            %tmp.217 = const :identifier;
-            %tmp.218 = "value4";
-            %tmp.219 = dup %tmp.215;
-            %tmp.220 = aputv %tmp.219 %tmp.217 %tmp.218;
-            %tmp.222 = const :color;
-            %tmp.223 = getm $.Toybox.Graphics;
-            %tmp.224 = getv %tmp.223 :COLOR_BLACK;
-            %tmp.225 = dup %tmp.220;
-            %tmp.226 = aputv %tmp.225 %tmp.222 %tmp.224;
-            %tmp.228 = const :locX;
-            %tmp.230 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            %tmp.231 = 0.5;
-            %tmp.232 = mul %tmp.230 %tmp.231;
-            %tmp.233 = dup %tmp.226;
-            %tmp.234 = aputv %tmp.233 %tmp.228 %tmp.232;
-            %tmp.236 = const :locY;
-            %tmp.238 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            %tmp.239 = lgetv %dc;
-            %tmp.240 = getv function %tmp.239 :getFontHeight;
-            %tmp.241 = getm $.Toybox.Graphics;
-            %tmp.242 = getv %tmp.241 :FONT_NUMBER_THAI_HOT;
-            %tmp.243 = invoke %tmp.239 %tmp.240(%tmp.242);
-            %tmp.244 = sub %tmp.238 %tmp.243;
-            %tmp.245 = 0.5;
-            %tmp.246 = mul %tmp.244 %tmp.245;
-            %tmp.247 = dup %tmp.234;
-            %tmp.248 = aputv %tmp.247 %tmp.236 %tmp.246;
-            %tmp.250 = const :justification;
-            %tmp.251 = getm $.Toybox.Graphics;
-            %tmp.252 = getv %tmp.251 :TEXT_JUSTIFY_CENTER;
-            %tmp.253 = dup %tmp.248;
-            %tmp.254 = aputv %tmp.253 %tmp.250 %tmp.252;
-            %tmp.256 = const :font;
-            %tmp.257 = getm $.Toybox.Graphics;
-            %tmp.258 = getv %tmp.257 :FONT_NUMBER_THAI_HOT;
-            %tmp.259 = dup %tmp.254;
-            %tmp.260 = aputv %tmp.259 %tmp.256 %tmp.258;
-            %tmp.211 = newc %tmp.214 (%tmp.260);
-            lputv %rez_cmp_local_text_value4.8 %tmp.211;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 36 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %tmp.205 = getm $.Toybox.WatchUi;
+            %tmp.206 = getv function ? %tmp.205 :Text;
+            %tmp.207 = newd 6;
+            %tmp.209 = const :identifier;
+            %tmp.210 = "value4";
+            %tmp.211 = dup %tmp.207;
+            %tmp.212 = aputv %tmp.211 %tmp.209 %tmp.210;
+            %tmp.214 = const :color;
+            %tmp.215 = getm $.Toybox.Graphics;
+            %tmp.216 = getv %tmp.215 :COLOR_BLACK;
+            %tmp.217 = dup %tmp.212;
+            %tmp.218 = aputv %tmp.217 %tmp.214 %tmp.216;
+            %tmp.220 = const :locX;
+            %tmp.222 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.223 = 0.5;
+            %tmp.224 = mul %tmp.222 %tmp.223;
+            %tmp.225 = dup %tmp.218;
+            %tmp.226 = aputv %tmp.225 %tmp.220 %tmp.224;
+            %tmp.228 = const :locY;
+            %tmp.230 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.231 = lgetv %dc;
+            %tmp.232 = getv function %tmp.231 :getFontHeight;
+            %tmp.233 = getm $.Toybox.Graphics;
+            %tmp.234 = getv %tmp.233 :FONT_NUMBER_THAI_HOT;
+            %tmp.235 = invoke %tmp.231 %tmp.232(%tmp.234);
+            %tmp.236 = sub %tmp.230 %tmp.235;
+            %tmp.237 = 0.5;
+            %tmp.238 = mul %tmp.236 %tmp.237;
+            %tmp.239 = dup %tmp.226;
+            %tmp.240 = aputv %tmp.239 %tmp.228 %tmp.238;
+            %tmp.242 = const :justification;
+            %tmp.243 = getm $.Toybox.Graphics;
+            %tmp.244 = getv %tmp.243 :TEXT_JUSTIFY_CENTER;
+            %tmp.245 = dup %tmp.240;
+            %tmp.246 = aputv %tmp.245 %tmp.242 %tmp.244;
+            %tmp.248 = const :font;
+            %tmp.249 = getm $.Toybox.Graphics;
+            %tmp.250 = getv %tmp.249 :FONT_NUMBER_THAI_HOT;
+            %tmp.251 = dup %tmp.246;
+            %tmp.252 = aputv %tmp.251 %tmp.248 %tmp.250;
+            %tmp.203 = newc %tmp.206 (%tmp.252);
+            lputv %rez_cmp_local_text_value4.8 %tmp.203;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 38 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_value5.9 = local;
-            %tmp.263 = getm $.Toybox.WatchUi;
-            %tmp.264 = getv function ? %tmp.263 :Text;
-            %tmp.265 = newd 6;
-            %tmp.267 = const :identifier;
-            %tmp.268 = "value5";
-            %tmp.269 = dup %tmp.265;
-            %tmp.270 = aputv %tmp.269 %tmp.267 %tmp.268;
-            %tmp.272 = const :color;
-            %tmp.273 = getm $.Toybox.Graphics;
-            %tmp.274 = getv %tmp.273 :COLOR_BLACK;
-            %tmp.275 = dup %tmp.270;
-            %tmp.276 = aputv %tmp.275 %tmp.272 %tmp.274;
-            %tmp.278 = const :locX;
-            %tmp.280 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            %tmp.281 = 0.5;
-            %tmp.282 = mul %tmp.280 %tmp.281;
-            %tmp.283 = dup %tmp.276;
-            %tmp.284 = aputv %tmp.283 %tmp.278 %tmp.282;
-            %tmp.286 = const :locY;
-            %tmp.288 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            %tmp.289 = lgetv %dc;
-            %tmp.290 = getv function %tmp.289 :getFontHeight;
-            %tmp.291 = getm $.Toybox.Graphics;
-            %tmp.292 = getv %tmp.291 :FONT_GLANCE;
-            %tmp.293 = invoke %tmp.289 %tmp.290(%tmp.292);
-            %tmp.294 = sub %tmp.288 %tmp.293;
-            %tmp.295 = 0.5;
-            %tmp.296 = mul %tmp.294 %tmp.295;
-            %tmp.297 = dup %tmp.284;
-            %tmp.298 = aputv %tmp.297 %tmp.286 %tmp.296;
-            %tmp.300 = const :justification;
-            %tmp.301 = getm $.Toybox.Graphics;
-            %tmp.302 = getv %tmp.301 :TEXT_JUSTIFY_CENTER;
-            %tmp.303 = dup %tmp.298;
-            %tmp.304 = aputv %tmp.303 %tmp.300 %tmp.302;
-            %tmp.306 = const :font;
-            %tmp.307 = getm $.Toybox.Graphics;
-            %tmp.308 = getv %tmp.307 :FONT_GLANCE;
-            %tmp.309 = dup %tmp.304;
-            %tmp.310 = aputv %tmp.309 %tmp.306 %tmp.308;
-            %tmp.261 = newc %tmp.264 (%tmp.310);
-            lputv %rez_cmp_local_text_value5.9 %tmp.261;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 38 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %tmp.255 = getm $.Toybox.WatchUi;
+            %tmp.256 = getv function ? %tmp.255 :Text;
+            %tmp.257 = newd 6;
+            %tmp.259 = const :identifier;
+            %tmp.260 = "value5";
+            %tmp.261 = dup %tmp.257;
+            %tmp.262 = aputv %tmp.261 %tmp.259 %tmp.260;
+            %tmp.264 = const :color;
+            %tmp.265 = getm $.Toybox.Graphics;
+            %tmp.266 = getv %tmp.265 :COLOR_BLACK;
+            %tmp.267 = dup %tmp.262;
+            %tmp.268 = aputv %tmp.267 %tmp.264 %tmp.266;
+            %tmp.270 = const :locX;
+            %tmp.272 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.273 = 0.5;
+            %tmp.274 = mul %tmp.272 %tmp.273;
+            %tmp.275 = dup %tmp.268;
+            %tmp.276 = aputv %tmp.275 %tmp.270 %tmp.274;
+            %tmp.278 = const :locY;
+            %tmp.280 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.281 = lgetv %dc;
+            %tmp.282 = getv function %tmp.281 :getFontHeight;
+            %tmp.283 = getm $.Toybox.Graphics;
+            %tmp.284 = getv %tmp.283 :FONT_GLANCE;
+            %tmp.285 = invoke %tmp.281 %tmp.282(%tmp.284);
+            %tmp.286 = sub %tmp.280 %tmp.285;
+            %tmp.287 = 0.5;
+            %tmp.288 = mul %tmp.286 %tmp.287;
+            %tmp.289 = dup %tmp.276;
+            %tmp.290 = aputv %tmp.289 %tmp.278 %tmp.288;
+            %tmp.292 = const :justification;
+            %tmp.293 = getm $.Toybox.Graphics;
+            %tmp.294 = getv %tmp.293 :TEXT_JUSTIFY_CENTER;
+            %tmp.295 = dup %tmp.290;
+            %tmp.296 = aputv %tmp.295 %tmp.292 %tmp.294;
+            %tmp.298 = const :font;
+            %tmp.299 = getm $.Toybox.Graphics;
+            %tmp.300 = getv %tmp.299 :FONT_GLANCE;
+            %tmp.301 = dup %tmp.296;
+            %tmp.302 = aputv %tmp.301 %tmp.298 %tmp.300;
+            %tmp.253 = newc %tmp.256 (%tmp.302);
+            lputv %rez_cmp_local_text_value5.9 %tmp.253;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 40 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_value6.10 = local;
-            %tmp.313 = getm $.Toybox.WatchUi;
-            %tmp.314 = getv function ? %tmp.313 :Text;
-            %tmp.315 = newd 6;
-            %tmp.317 = const :identifier;
-            %tmp.318 = "value6";
-            %tmp.319 = dup %tmp.315;
-            %tmp.320 = aputv %tmp.319 %tmp.317 %tmp.318;
-            %tmp.322 = const :color;
-            %tmp.323 = getm $.Toybox.Graphics;
-            %tmp.324 = getv %tmp.323 :COLOR_BLACK;
-            %tmp.325 = dup %tmp.320;
-            %tmp.326 = aputv %tmp.325 %tmp.322 %tmp.324;
-            %tmp.328 = const :locX;
-            %tmp.330 = lgetv %rez_cmp_local_var_dc_getWidth.2;
-            %tmp.331 = 0.5;
-            %tmp.332 = mul %tmp.330 %tmp.331;
-            %tmp.333 = dup %tmp.326;
-            %tmp.334 = aputv %tmp.333 %tmp.328 %tmp.332;
-            %tmp.336 = const :locY;
-            %tmp.338 = lgetv %rez_cmp_local_var_dc_getHeight.1;
-            %tmp.339 = lgetv %dc;
-            %tmp.340 = getv function %tmp.339 :getFontHeight;
-            %tmp.341 = getm $.Toybox.Graphics;
-            %tmp.342 = getv %tmp.341 :FONT_GLANCE_NUMBER;
-            %tmp.343 = invoke %tmp.339 %tmp.340(%tmp.342);
-            %tmp.344 = sub %tmp.338 %tmp.343;
-            %tmp.345 = 0.5;
-            %tmp.346 = mul %tmp.344 %tmp.345;
-            %tmp.347 = dup %tmp.334;
-            %tmp.348 = aputv %tmp.347 %tmp.336 %tmp.346;
-            %tmp.350 = const :justification;
-            %tmp.351 = getm $.Toybox.Graphics;
-            %tmp.352 = getv %tmp.351 :TEXT_JUSTIFY_CENTER;
-            %tmp.353 = dup %tmp.348;
-            %tmp.354 = aputv %tmp.353 %tmp.350 %tmp.352;
-            %tmp.356 = const :font;
-            %tmp.357 = getm $.Toybox.Graphics;
-            %tmp.358 = getv %tmp.357 :FONT_GLANCE_NUMBER;
-            %tmp.359 = dup %tmp.354;
-            %tmp.360 = aputv %tmp.359 %tmp.356 %tmp.358;
-            %tmp.311 = newc %tmp.314 (%tmp.360);
-            lputv %rez_cmp_local_text_value6.10 %tmp.311;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 40 12 ]
-            %tmp.361 = newa Array<WatchUi.Drawable> 8;
-            %tmp.363 = lgetv %rez_cmp_local_custom_drawable_13866270129207149879.3;
+            %tmp.305 = getm $.Toybox.WatchUi;
+            %tmp.306 = getv function ? %tmp.305 :Text;
+            %tmp.307 = newd 6;
+            %tmp.309 = const :identifier;
+            %tmp.310 = "value6";
+            %tmp.311 = dup %tmp.307;
+            %tmp.312 = aputv %tmp.311 %tmp.309 %tmp.310;
+            %tmp.314 = const :color;
+            %tmp.315 = getm $.Toybox.Graphics;
+            %tmp.316 = getv %tmp.315 :COLOR_BLACK;
+            %tmp.317 = dup %tmp.312;
+            %tmp.318 = aputv %tmp.317 %tmp.314 %tmp.316;
+            %tmp.320 = const :locX;
+            %tmp.322 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.323 = 0.5;
+            %tmp.324 = mul %tmp.322 %tmp.323;
+            %tmp.325 = dup %tmp.318;
+            %tmp.326 = aputv %tmp.325 %tmp.320 %tmp.324;
+            %tmp.328 = const :locY;
+            %tmp.330 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.331 = lgetv %dc;
+            %tmp.332 = getv function %tmp.331 :getFontHeight;
+            %tmp.333 = getm $.Toybox.Graphics;
+            %tmp.334 = getv %tmp.333 :FONT_GLANCE_NUMBER;
+            %tmp.335 = invoke %tmp.331 %tmp.332(%tmp.334);
+            %tmp.336 = sub %tmp.330 %tmp.335;
+            %tmp.337 = 0.5;
+            %tmp.338 = mul %tmp.336 %tmp.337;
+            %tmp.339 = dup %tmp.326;
+            %tmp.340 = aputv %tmp.339 %tmp.328 %tmp.338;
+            %tmp.342 = const :justification;
+            %tmp.343 = getm $.Toybox.Graphics;
+            %tmp.344 = getv %tmp.343 :TEXT_JUSTIFY_CENTER;
+            %tmp.345 = dup %tmp.340;
+            %tmp.346 = aputv %tmp.345 %tmp.342 %tmp.344;
+            %tmp.348 = const :font;
+            %tmp.349 = getm $.Toybox.Graphics;
+            %tmp.350 = getv %tmp.349 :FONT_GLANCE_NUMBER;
+            %tmp.351 = dup %tmp.346;
+            %tmp.352 = aputv %tmp.351 %tmp.348 %tmp.350;
+            %tmp.303 = newc %tmp.306 (%tmp.352);
+            lputv %rez_cmp_local_text_value6.10 %tmp.303;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 42 12 ]
+            %tmp.353 = newa Array<WatchUi.Drawable> 8;
+            %tmp.355 = lgetv %rez_cmp_local_custom_drawable_16476470261469862401.3;
+            %tmp.356 = dup %tmp.353;
+            %tmp.357 = aputv %tmp.356 0 %tmp.355;
+            %tmp.359 = lgetv %rez_cmp_local_text_label.4;
+            %tmp.360 = dup %tmp.357;
+            %tmp.361 = aputv %tmp.360 1 %tmp.359;
+            %tmp.363 = lgetv %rez_cmp_local_text_value.5;
             %tmp.364 = dup %tmp.361;
-            %tmp.365 = aputv %tmp.364 0 %tmp.363;
-            %tmp.367 = lgetv %rez_cmp_local_text_label.4;
+            %tmp.365 = aputv %tmp.364 2 %tmp.363;
+            %tmp.367 = lgetv %rez_cmp_local_text_value2.6;
             %tmp.368 = dup %tmp.365;
-            %tmp.369 = aputv %tmp.368 1 %tmp.367;
-            %tmp.371 = lgetv %rez_cmp_local_text_value.5;
+            %tmp.369 = aputv %tmp.368 3 %tmp.367;
+            %tmp.371 = lgetv %rez_cmp_local_text_value3.7;
             %tmp.372 = dup %tmp.369;
-            %tmp.373 = aputv %tmp.372 2 %tmp.371;
-            %tmp.375 = lgetv %rez_cmp_local_text_value2.6;
+            %tmp.373 = aputv %tmp.372 4 %tmp.371;
+            %tmp.375 = lgetv %rez_cmp_local_text_value4.8;
             %tmp.376 = dup %tmp.373;
-            %tmp.377 = aputv %tmp.376 3 %tmp.375;
-            %tmp.379 = lgetv %rez_cmp_local_text_value3.7;
+            %tmp.377 = aputv %tmp.376 5 %tmp.375;
+            %tmp.379 = lgetv %rez_cmp_local_text_value5.9;
             %tmp.380 = dup %tmp.377;
-            %tmp.381 = aputv %tmp.380 4 %tmp.379;
-            %tmp.383 = lgetv %rez_cmp_local_text_value4.8;
+            %tmp.381 = aputv %tmp.380 6 %tmp.379;
+            %tmp.383 = lgetv %rez_cmp_local_text_value6.10;
             %tmp.384 = dup %tmp.381;
-            %tmp.385 = aputv %tmp.384 5 %tmp.383;
-            %tmp.387 = lgetv %rez_cmp_local_text_value5.9;
-            %tmp.388 = dup %tmp.385;
-            %tmp.389 = aputv %tmp.388 6 %tmp.387;
-            %tmp.391 = lgetv %rez_cmp_local_text_value6.10;
-            %tmp.392 = dup %tmp.389;
-            %tmp.393 = aputv %tmp.392 7 %tmp.391;
-            ret %tmp.393;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop:
+            %tmp.385 = aputv %tmp.384 7 %tmp.383;
+            ret %tmp.385;
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 43; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 45; ]
         function Klein(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 44 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 46 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getHeight;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 46 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 48 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             %tmp.4 = lgetv %dc;
             %tmp.5 = getv function %tmp.4 :getWidth;
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 48 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_stop" ]
-            %rez_cmp_local_custom_drawable_13271208852969993782.3 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 50 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_stop" ]
+            %rez_cmp_local_custom_drawable_34424549594202715272.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_13271208852969993782.3 %tmp.7;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 50 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_34424549594202715272.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 52 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_stop" ]
             %rez_cmp_local_text_label.4 = local;
             %tmp.13 = getm $.Toybox.WatchUi;
             %tmp.14 = getv function ? %tmp.13 :Text;
@@ -473,8 +470,8 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
             %tmp.11 = newc %tmp.14 (%tmp.60);
             lputv %rez_cmp_local_text_label.4 %tmp.11;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 52 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 54 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_stop" ]
             %rez_cmp_local_text_value.5 = local;
             %tmp.63 = getm $.Toybox.WatchUi;
             %tmp.64 = getv function ? %tmp.63 :Text;
@@ -518,9 +515,9 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
             %tmp.61 = newc %tmp.64 (%tmp.110);
             lputv %rez_cmp_local_text_value.5 %tmp.61;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 54 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 56 12 ]
             %tmp.111 = newa Array<WatchUi.Drawable> 3;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_13271208852969993782.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_34424549594202715272.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;
@@ -530,33 +527,33 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.122 = dup %tmp.119;
             %tmp.123 = aputv %tmp.122 2 %tmp.121;
             ret %tmp.123;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_43_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_45_69_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 57; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 59; ]
         function Middel1(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 58 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 60 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getHeight;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 60 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 62 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             %tmp.4 = lgetv %dc;
             %tmp.5 = getv function %tmp.4 :getWidth;
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 62 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
-            %rez_cmp_local_custom_drawable_87846928814903704431.3 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 64 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_stop" ]
+            %rez_cmp_local_custom_drawable_13586067731033881951.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_87846928814903704431.3 %tmp.7;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 64 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_13586067731033881951.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 66 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_stop" ]
             %rez_cmp_local_text_label.4 = local;
             %tmp.13 = getm $.Toybox.WatchUi;
             %tmp.14 = getv function ? %tmp.13 :Text;
@@ -600,8 +597,8 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
             %tmp.11 = newc %tmp.14 (%tmp.60);
             lputv %rez_cmp_local_text_label.4 %tmp.11;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 66 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 68 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_stop" ]
             %rez_cmp_local_text_value.5 = local;
             %tmp.63 = getm $.Toybox.WatchUi;
             %tmp.64 = getv function ? %tmp.63 :Text;
@@ -645,9 +642,9 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
             %tmp.61 = newc %tmp.64 (%tmp.110);
             lputv %rez_cmp_local_text_value.5 %tmp.61;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 68 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 70 12 ]
             %tmp.111 = newa Array<WatchUi.Drawable> 3;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_87846928814903704431.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_13586067731033881951.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;
@@ -657,33 +654,33 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.122 = dup %tmp.119;
             %tmp.123 = aputv %tmp.122 2 %tmp.121;
             ret %tmp.123;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 71; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 73; ]
         function Middel2(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 72 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 74 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getHeight;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 74 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 76 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             %tmp.4 = lgetv %dc;
             %tmp.5 = getv function %tmp.4 :getWidth;
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 76 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_stop" ]
-            %rez_cmp_local_custom_drawable_65199638521370468142.3 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 78 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_stop" ]
+            %rez_cmp_local_custom_drawable_17554883592559978764.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_65199638521370468142.3 %tmp.7;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 78 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_17554883592559978764.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 80 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_stop" ]
             %rez_cmp_local_text_label.4 = local;
             %tmp.13 = getm $.Toybox.WatchUi;
             %tmp.14 = getv function ? %tmp.13 :Text;
@@ -727,8 +724,8 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
             %tmp.11 = newc %tmp.14 (%tmp.60);
             lputv %rez_cmp_local_text_label.4 %tmp.11;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 80 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 82 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_stop" ]
             %rez_cmp_local_text_value.5 = local;
             %tmp.63 = getm $.Toybox.WatchUi;
             %tmp.64 = getv function ? %tmp.63 :Text;
@@ -772,9 +769,9 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
             %tmp.61 = newc %tmp.64 (%tmp.110);
             lputv %rez_cmp_local_text_value.5 %tmp.61;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 82 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 84 12 ]
             %tmp.111 = newa Array<WatchUi.Drawable> 3;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_65199638521370468142.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_17554883592559978764.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;
@@ -784,33 +781,33 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.122 = dup %tmp.119;
             %tmp.123 = aputv %tmp.122 2 %tmp.121;
             ret %tmp.123;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_73_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 85; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 87; ]
         function Groot(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 86 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 88 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getHeight;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 88 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 90 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             %tmp.4 = lgetv %dc;
             %tmp.5 = getv function %tmp.4 :getWidth;
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 90 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_stop" ]
-            %rez_cmp_local_custom_drawable_14693865771132534800.3 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 92 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_stop" ]
+            %rez_cmp_local_custom_drawable_13617826821180968308.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_14693865771132534800.3 %tmp.7;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 92 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_13617826821180968308.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 94 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_stop" ]
             %rez_cmp_local_text_label.4 = local;
             %tmp.13 = getm $.Toybox.WatchUi;
             %tmp.14 = getv function ? %tmp.13 :Text;
@@ -854,8 +851,8 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
             %tmp.11 = newc %tmp.14 (%tmp.60);
             lputv %rez_cmp_local_text_label.4 %tmp.11;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 94 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 96 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_stop" ]
             %rez_cmp_local_text_value.5 = local;
             %tmp.63 = getm $.Toybox.WatchUi;
             %tmp.64 = getv function ? %tmp.63 :Text;
@@ -899,9 +896,9 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
             %tmp.61 = newc %tmp.64 (%tmp.110);
             lputv %rez_cmp_local_text_value.5 %tmp.61;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 96 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 98 12 ]
             %tmp.111 = newa Array<WatchUi.Drawable> 3;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_14693865771132534800.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_13617826821180968308.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;
@@ -911,19 +908,19 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.122 = dup %tmp.119;
             %tmp.123 = aputv %tmp.122 2 %tmp.121;
             ret %tmp.123;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_85_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_87_69_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 99; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 101; ]
         function TopLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_99_77_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 100 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_99_77_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_99_77_stop" ]
-            %rez_cmp_local_custom_drawable_18319703161801976571.1 = local;
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_101_77_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 102 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_101_77_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_101_77_stop" ]
+            %rez_cmp_local_custom_drawable_15238692961756404832.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_18319703161801976571.1 %tmp.1;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 102 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_99_77_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_99_77_stop" ]
+            lputv %rez_cmp_local_custom_drawable_15238692961756404832.1 %tmp.1;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 104 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_101_77_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_101_77_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -957,8 +954,8 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 104 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_99_77_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_99_77_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 106 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_101_77_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_101_77_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -992,9 +989,9 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 106 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 108 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_18319703161801976571.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_15238692961756404832.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -1004,19 +1001,19 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_99_77_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_101_77_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 109; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 111; ]
         function TopRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_109_78_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 110 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_109_78_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_109_78_stop" ]
-            %rez_cmp_local_custom_drawable_36038024153216522962.1 = local;
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_111_78_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 112 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_111_78_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_111_78_stop" ]
+            %rez_cmp_local_custom_drawable_15379952603641526511.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_36038024153216522962.1 %tmp.1;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 112 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_109_78_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_109_78_stop" ]
+            lputv %rez_cmp_local_custom_drawable_15379952603641526511.1 %tmp.1;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 114 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_111_78_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_111_78_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -1050,8 +1047,8 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 114 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_109_78_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_109_78_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 116 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_111_78_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_111_78_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -1085,9 +1082,9 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 116 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 118 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_36038024153216522962.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_15379952603641526511.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -1097,19 +1094,19 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_109_78_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_111_78_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 119; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 121; ]
         function BottomLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_119_80_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 120 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_119_80_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_119_80_stop" ]
-            %rez_cmp_local_custom_drawable_16414857651104034043.1 = local;
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_121_80_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 122 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_121_80_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_121_80_stop" ]
+            %rez_cmp_local_custom_drawable_34817538105301134176.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_16414857651104034043.1 %tmp.1;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 122 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_119_80_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_119_80_stop" ]
+            lputv %rez_cmp_local_custom_drawable_34817538105301134176.1 %tmp.1;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 124 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_121_80_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_121_80_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -1143,8 +1140,8 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 124 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_119_80_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_119_80_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 126 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_121_80_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_121_80_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -1178,9 +1175,9 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 126 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 128 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_16414857651104034043.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_34817538105301134176.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -1190,19 +1187,19 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_119_80_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_121_80_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 129; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 131; ]
         function BottomRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_129_81_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 130 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_129_81_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_129_81_stop" ]
-            %rez_cmp_local_custom_drawable_28445218168831899144.1 = local;
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_131_81_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 132 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_131_81_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_131_81_stop" ]
+            %rez_cmp_local_custom_drawable_10875529611723212842.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_28445218168831899144.1 %tmp.1;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 132 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_129_81_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_129_81_stop" ]
+            lputv %rez_cmp_local_custom_drawable_10875529611723212842.1 %tmp.1;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 134 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_131_81_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_131_81_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -1236,8 +1233,8 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 134 12 ]
-            [ "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_129_81_start" "C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_129_81_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 136 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_131_81_start" "C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_131_81_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -1271,9 +1268,9 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 136 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen" 138 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_28445218168831899144.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_10875529611723212842.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -1283,26 +1280,26 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_m
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_129_81_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Test_bin_gen_006_B3843_00_source_Rez_mcgen_131_81_stop:
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 140; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 142; ]
     module Menus {
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 140; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 142; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 143; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 145; ]
     module Strings {
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 143; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 145; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 144; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 146; @position = 27; initialized = true; ]
         var label as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 145; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 147; @position = 27; initialized = true; ]
         var AppName as Symbol;
     }
 }
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }

@@ -1,405 +1,128 @@
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 1; ]
 import Toybox.Activity;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 2; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 2; ]
 import Toybox.Graphics;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 3; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 3; ]
 import Toybox.Lang;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 4; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 4; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 6; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 6; ]
 class TestView extends WatchUi.DataField{
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 6; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 6; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 8; @position = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 8; @position = 15; ]
     protected
     var mValue as String;
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 9; @position = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 9; @position = 15; ]
     protected
     var breedte;
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 10; @position = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 10; @position = 15; ]
     protected
     var hoogte;
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 11; @position = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 11; @position = 15; ]
     protected
     var x = 0;
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 12; @position = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 12; @position = 15; ]
     protected
     var valueView;
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 13; @position = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 13; @position = 15; ]
     protected
     var labelView;
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 15; @position = 8; ]
+    var customFont = null;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 17; ]
     function initialize() as Void {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_15_26_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 16 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_Test_source_TestView_mc_17_26_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 18 8 ]
         %tmp.2 = getv ? :DataField;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 17 8 ]
-        %tmp.4 = "---";
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 19 8 ]
+        %tmp.4 = "1966";
         putv self :mValue %tmp.4;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_15_26_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Test_source_TestView_mc_17_26_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 22; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 24; ]
     function onLayout(dc as Dc) as Void {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_22_40_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 37 8 ]
-        %tmp.2 = getv ? :View;
-        %tmp.3 = getv function %tmp.2 :setLayout;
-        %tmp.5 = getv ? :Rez;
-        %tmp.6 = getv %tmp.5 :Layouts;
-        %tmp.7 = getv function %tmp.6 :MainLayout;
-        %tmp.9 = lgetv %dc;
-        %tmp.10 = invoke %tmp.6 %tmp.7(%tmp.9);
-        invoke %tmp.2 %tmp.3(%tmp.10);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 38 8 ]
-        %tmp.12 = getv ? :View;
-        %tmp.13 = getv function %tmp.12 :findDrawableById;
-        %tmp.14 = "label";
-        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
-        putv self :labelView %tmp.15;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 39 8 ]
-        %tmp.16 = getv self :labelView;
-        %tmp.18 = getv ? :labelView;
-        %tmp.19 = getv %tmp.18 :locY;
-        %tmp.20 = 16;
-        %tmp.21 = sub %tmp.19 %tmp.20;
-        putv %tmp.16 :locY %tmp.21;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 40 8 ]
-        %tmp.23 = getv ? :View;
-        %tmp.24 = getv function %tmp.23 :findDrawableById;
-        %tmp.25 = "value";
-        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
-        putv self :valueView %tmp.26;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 41 8 ]
-        %tmp.27 = getv self :valueView;
-        %tmp.29 = getv ? :valueView;
-        %tmp.30 = getv %tmp.29 :locY;
-        %tmp.31 = 7;
-        %tmp.32 = add %tmp.30 %tmp.31;
-        putv %tmp.27 :locY %tmp.32;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 43 8 ]
-        %tmp.34 = getv ? :View;
-        %tmp.35 = getv function %tmp.34 :findDrawableById;
-        %tmp.36 = "label";
-        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
-        %tmp.38 = as %tmp.37 Text;
-        %tmp.39 = getv function %tmp.38 :setText;
-        %tmp.41 = getv ? :Rez;
-        %tmp.42 = getv %tmp.41 :Strings;
-        %tmp.43 = getv %tmp.42 :label;
-        invoke %tmp.38 %tmp.39(%tmp.43);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 44 8 ]
-        %tmp.45 = getv ? :View;
-        %tmp.46 = getv function %tmp.45 :findDrawableById;
-        %tmp.47 = "value";
-        %tmp.48 = invoke %tmp.45 %tmp.46(%tmp.47);
-        %tmp.49 = as %tmp.48 Text;
-        %tmp.50 = getv function %tmp.49 :setText;
-        %tmp.52 = getv ? :Rez;
-        %tmp.53 = getv %tmp.52 :Strings;
-        %tmp.54 = getv %tmp.53 :label;
-        invoke %tmp.49 %tmp.50(%tmp.54);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 46 8 ]
-        %tmp.56 = getv ? :System;
-        %tmp.57 = getv function %tmp.56 :println;
-        %tmp.58 = getm $.Toybox.Graphics;
-        %tmp.59 = getv function %tmp.58 :getFontHeight;
-        %tmp.60 = getm $.Toybox.Graphics;
-        %tmp.61 = getv %tmp.60 :FONT_XTINY;
-        %tmp.62 = invoke %tmp.58 %tmp.59(%tmp.61);
-        invoke %tmp.56 %tmp.57(%tmp.62);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 47 8 ]
-        %tmp.64 = getv ? :System;
-        %tmp.65 = getv function %tmp.64 :println;
-        %tmp.66 = getm $.Toybox.Graphics;
-        %tmp.67 = getv function %tmp.66 :getFontHeight;
-        %tmp.68 = getm $.Toybox.Graphics;
-        %tmp.69 = getv %tmp.68 :FONT_TINY;
-        %tmp.70 = invoke %tmp.66 %tmp.67(%tmp.69);
-        invoke %tmp.64 %tmp.65(%tmp.70);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 48 8 ]
-        %tmp.72 = getv ? :System;
-        %tmp.73 = getv function %tmp.72 :println;
-        %tmp.74 = getm $.Toybox.Graphics;
-        %tmp.75 = getv function %tmp.74 :getFontHeight;
-        %tmp.76 = getm $.Toybox.Graphics;
-        %tmp.77 = getv %tmp.76 :FONT_SMALL;
-        %tmp.78 = invoke %tmp.74 %tmp.75(%tmp.77);
-        invoke %tmp.72 %tmp.73(%tmp.78);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 49 8 ]
-        %tmp.80 = getv ? :System;
-        %tmp.81 = getv function %tmp.80 :println;
-        %tmp.82 = getm $.Toybox.Graphics;
-        %tmp.83 = getv function %tmp.82 :getFontHeight;
-        %tmp.84 = getm $.Toybox.Graphics;
-        %tmp.85 = getv %tmp.84 :FONT_MEDIUM;
-        %tmp.86 = invoke %tmp.82 %tmp.83(%tmp.85);
-        invoke %tmp.80 %tmp.81(%tmp.86);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 50 8 ]
-        %tmp.88 = getv ? :System;
-        %tmp.89 = getv function %tmp.88 :println;
-        %tmp.90 = getm $.Toybox.Graphics;
-        %tmp.91 = getv function %tmp.90 :getFontHeight;
-        %tmp.92 = getm $.Toybox.Graphics;
-        %tmp.93 = getv %tmp.92 :FONT_LARGE;
-        %tmp.94 = invoke %tmp.90 %tmp.91(%tmp.93);
-        invoke %tmp.88 %tmp.89(%tmp.94);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 51 8 ]
-        %tmp.96 = getv ? :System;
-        %tmp.97 = getv function %tmp.96 :println;
-        %tmp.98 = getm $.Toybox.Graphics;
-        %tmp.99 = getv function %tmp.98 :getFontHeight;
-        %tmp.100 = getm $.Toybox.Graphics;
-        %tmp.101 = getv %tmp.100 :FONT_NUMBER_MILD;
-        %tmp.102 = invoke %tmp.98 %tmp.99(%tmp.101);
-        invoke %tmp.96 %tmp.97(%tmp.102);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 52 8 ]
-        %tmp.104 = getv ? :System;
-        %tmp.105 = getv function %tmp.104 :println;
-        %tmp.106 = getm $.Toybox.Graphics;
-        %tmp.107 = getv function %tmp.106 :getFontHeight;
-        %tmp.108 = getm $.Toybox.Graphics;
-        %tmp.109 = getv %tmp.108 :FONT_NUMBER_MEDIUM;
-        %tmp.110 = invoke %tmp.106 %tmp.107(%tmp.109);
-        invoke %tmp.104 %tmp.105(%tmp.110);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 53 8 ]
-        %tmp.112 = getv ? :System;
-        %tmp.113 = getv function %tmp.112 :println;
-        %tmp.114 = getm $.Toybox.Graphics;
-        %tmp.115 = getv function %tmp.114 :getFontHeight;
-        %tmp.116 = getm $.Toybox.Graphics;
-        %tmp.117 = getv %tmp.116 :FONT_NUMBER_HOT;
-        %tmp.118 = invoke %tmp.114 %tmp.115(%tmp.117);
-        invoke %tmp.112 %tmp.113(%tmp.118);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 54 8 ]
-        %tmp.120 = getv ? :System;
-        %tmp.121 = getv function %tmp.120 :println;
-        %tmp.122 = getm $.Toybox.Graphics;
-        %tmp.123 = getv function %tmp.122 :getFontHeight;
-        %tmp.124 = getm $.Toybox.Graphics;
-        %tmp.125 = getv %tmp.124 :FONT_NUMBER_THAI_HOT;
-        %tmp.126 = invoke %tmp.122 %tmp.123(%tmp.125);
-        invoke %tmp.120 %tmp.121(%tmp.126);
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_22_40_stop:
-    }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 63; ]
-    function compute(info as Activity.Info) as Void {
-    }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 70; ]
-    function onUpdate(dc as Dc) as Void {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_70_40_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 84 8 ]
-        %tmp.2 = getv ? :x;
-        %tmp.3 = 1;
-        %tmp.4 = add %tmp.2 %tmp.3;
-        putv self :x %tmp.4;
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 85 8 ]
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_85_8_if_stmt:
-        %tmp.6 = getv ? :x;
-        %tmp.7 = 1;
-        %tmp.8 = eq %tmp.6 %tmp.7;
-        bf %tmp.8 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_85_8_if_false;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_85_8_if_true:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_85_20_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 86 12 ]
-        %tmp.10 = getv ? :View;
-        %tmp.11 = getv function %tmp.10 :findDrawableById;
-        %tmp.12 = "value";
-        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
-        %tmp.14 = as %tmp.13 Text;
-        %tmp.15 = getv function %tmp.14 :setFont;
-        %tmp.16 = getm $.Toybox.Graphics;
-        %tmp.17 = getv %tmp.16 :FONT_TINY;
-        invoke %tmp.14 %tmp.15(%tmp.17);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 87 12 ]
-        %tmp.18 = "01:00";
-        putv self :mValue %tmp.18;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_85_20_stop:
-        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_85_8_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_85_8_if_false:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 88 15 ]
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_88_15_if_stmt:
-        %tmp.20 = getv ? :x;
-        %tmp.21 = 2;
-        %tmp.22 = eq %tmp.20 %tmp.21;
-        bf %tmp.22 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_88_15_if_false;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_88_15_if_true:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_88_27_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 89 12 ]
+C_Users_Ronnie_Documents_ConnectIQ_Test_source_TestView_mc_24_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 26 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :loadResource;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Fonts;
+        %tmp.6 = getv %tmp.5 :roboto_bold_120;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+        putv self :customFont %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 40 8 ]
+        %tmp.9 = getv ? :View;
+        %tmp.10 = getv function %tmp.9 :setLayout;
+        %tmp.12 = getv ? :Rez;
+        %tmp.13 = getv %tmp.12 :Layouts;
+        %tmp.14 = getv function %tmp.13 :MainLayout;
+        %tmp.16 = lgetv %dc;
+        %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
+        invoke %tmp.9 %tmp.10(%tmp.17);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 41 8 ]
+        %tmp.19 = getv ? :View;
+        %tmp.20 = getv function %tmp.19 :findDrawableById;
+        %tmp.21 = "label";
+        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
+        putv self :labelView %tmp.22;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 43 8 ]
         %tmp.24 = getv ? :View;
         %tmp.25 = getv function %tmp.24 :findDrawableById;
         %tmp.26 = "value";
         %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
-        %tmp.28 = as %tmp.27 Text;
-        %tmp.29 = getv function %tmp.28 :setFont;
-        %tmp.30 = getm $.Toybox.Graphics;
-        %tmp.31 = getv %tmp.30 :FONT_NUMBER_MILD;
-        invoke %tmp.28 %tmp.29(%tmp.31);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 90 12 ]
-        %tmp.32 = "02:00";
-        putv self :mValue %tmp.32;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_88_27_stop:
-        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_88_15_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_88_15_if_false:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 91 15 ]
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_91_15_if_stmt:
-        %tmp.34 = getv ? :x;
-        %tmp.35 = 3;
-        %tmp.36 = eq %tmp.34 %tmp.35;
-        bf %tmp.36 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_91_15_if_false;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_91_15_if_true:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_91_27_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 92 12 ]
-        %tmp.38 = getv ? :View;
-        %tmp.39 = getv function %tmp.38 :findDrawableById;
-        %tmp.40 = "value";
-        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
-        %tmp.42 = as %tmp.41 Text;
-        %tmp.43 = getv function %tmp.42 :setFont;
-        %tmp.44 = getm $.Toybox.Graphics;
-        %tmp.45 = getv %tmp.44 :FONT_NUMBER_MEDIUM;
-        invoke %tmp.42 %tmp.43(%tmp.45);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 93 12 ]
-        %tmp.46 = "03:00";
-        putv self :mValue %tmp.46;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_91_27_stop:
-        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_91_15_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_91_15_if_false:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 94 15 ]
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_94_15_if_stmt:
-        %tmp.48 = getv ? :x;
-        %tmp.49 = 4;
-        %tmp.50 = eq %tmp.48 %tmp.49;
-        bf %tmp.50 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_94_15_if_false;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_94_15_if_true:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_94_27_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 95 12 ]
-        %tmp.52 = getv ? :View;
-        %tmp.53 = getv function %tmp.52 :findDrawableById;
-        %tmp.54 = "value";
-        %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
-        %tmp.56 = as %tmp.55 Text;
-        %tmp.57 = getv function %tmp.56 :setFont;
-        %tmp.58 = getm $.Toybox.Graphics;
-        %tmp.59 = getv %tmp.58 :FONT_NUMBER_HOT;
-        invoke %tmp.56 %tmp.57(%tmp.59);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 96 12 ]
-        %tmp.60 = "04:00";
-        putv self :mValue %tmp.60;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_94_27_stop:
-        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_94_15_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_94_15_if_false:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 97 15 ]
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_97_15_if_stmt:
-        %tmp.62 = getv ? :x;
-        %tmp.63 = 5;
-        %tmp.64 = eq %tmp.62 %tmp.63;
-        bf %tmp.64 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_97_15_if_false;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_97_15_if_true:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_97_27_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 98 12 ]
-        %tmp.66 = getv ? :View;
-        %tmp.67 = getv function %tmp.66 :findDrawableById;
-        %tmp.68 = "value";
-        %tmp.69 = invoke %tmp.66 %tmp.67(%tmp.68);
-        %tmp.70 = as %tmp.69 Text;
-        %tmp.71 = getv function %tmp.70 :setFont;
-        %tmp.72 = getm $.Toybox.Graphics;
-        %tmp.73 = getv %tmp.72 :FONT_NUMBER_THAI_HOT;
-        invoke %tmp.70 %tmp.71(%tmp.73);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 99 12 ]
-        %tmp.74 = "05:00";
-        putv self :mValue %tmp.74;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_97_27_stop:
-        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_97_15_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_97_15_if_false:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 100 15 ]
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_100_15_if_stmt:
-        %tmp.76 = getv ? :x;
-        %tmp.77 = 6;
-        %tmp.78 = eq %tmp.76 %tmp.77;
-        bf %tmp.78 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_100_15_if_false;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_100_15_if_true:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_100_27_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 101 12 ]
-        %tmp.80 = getv ? :View;
-        %tmp.81 = getv function %tmp.80 :findDrawableById;
-        %tmp.82 = "value";
-        %tmp.83 = invoke %tmp.80 %tmp.81(%tmp.82);
-        %tmp.84 = as %tmp.83 Text;
-        %tmp.85 = getv function %tmp.84 :setFont;
-        %tmp.86 = getm $.Toybox.Graphics;
-        %tmp.87 = getv %tmp.86 :FONT_GLANCE;
-        invoke %tmp.84 %tmp.85(%tmp.87);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 102 12 ]
-        %tmp.88 = "06:00";
-        putv self :mValue %tmp.88;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_100_27_stop:
-        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_100_15_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_100_15_if_false:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 103 15 ]
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_103_15_if_stmt:
-        %tmp.90 = getv ? :x;
-        %tmp.91 = 7;
-        %tmp.92 = eq %tmp.90 %tmp.91;
-        bf %tmp.92 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_103_15_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_103_15_if_true:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_103_27_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 104 12 ]
-        %tmp.94 = getv ? :View;
-        %tmp.95 = getv function %tmp.94 :findDrawableById;
-        %tmp.96 = "value";
-        %tmp.97 = invoke %tmp.94 %tmp.95(%tmp.96);
-        %tmp.98 = as %tmp.97 Text;
-        %tmp.99 = getv function %tmp.98 :setFont;
-        %tmp.100 = getm $.Toybox.Graphics;
-        %tmp.101 = getv %tmp.100 :FONT_GLANCE_NUMBER;
-        invoke %tmp.98 %tmp.99(%tmp.101);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 105 12 ]
-        %tmp.102 = "07:00";
-        putv self :mValue %tmp.102;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_103_27_stop:
-        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_103_15_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_103_15_if_end:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_100_15_if_end:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_97_15_if_end:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_94_15_if_end:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_91_15_if_end:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_88_15_if_end:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_85_8_if_end:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 107 8 ]
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_107_8_if_stmt:
-        %tmp.104 = getv ? :x;
-        %tmp.105 = 7;
-        %tmp.106 = eq %tmp.104 %tmp.105;
-        bf %tmp.106 @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_107_8_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_107_8_if_true:
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_107_20_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 108 12 ]
-        %tmp.107 = 0;
-        putv self :x %tmp.107;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_107_20_stop:
-        goto @C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_107_8_if_end;
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_107_8_if_end:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 115 8 ]
-        %tmp.109 = getv ? :valueView;
-        %tmp.110 = getv function %tmp.109 :setText;
-        %tmp.112 = getv ? :mValue;
-        invoke %tmp.109 %tmp.110(%tmp.112);
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc" 118 8 ]
-        %tmp.114 = getv ? :View;
-        %tmp.115 = getv function %tmp.114 :onUpdate;
-        %tmp.117 = lgetv %dc;
-        invoke %tmp.114 %tmp.115(%tmp.117);
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_Test_source_TestView_mc_70_40_stop:
+        putv self :valueView %tmp.27;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 44 8 ]
+        %tmp.28 = getv self :valueView;
+        %tmp.30 = getv ? :valueView;
+        %tmp.31 = getv %tmp.30 :locY;
+        %tmp.32 = 7;
+        %tmp.33 = sub %tmp.31 %tmp.32;
+        putv %tmp.28 :locY %tmp.33;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 47 8 ]
+        %tmp.35 = getv ? :View;
+        %tmp.36 = getv function %tmp.35 :findDrawableById;
+        %tmp.37 = "label";
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        %tmp.39 = as %tmp.38 Text;
+        %tmp.40 = getv function %tmp.39 :setText;
+        %tmp.42 = getv ? :Rez;
+        %tmp.43 = getv %tmp.42 :Strings;
+        %tmp.44 = getv %tmp.43 :label;
+        invoke %tmp.39 %tmp.40(%tmp.44);
+C_Users_Ronnie_Documents_ConnectIQ_Test_source_TestView_mc_24_40_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 66; ]
+    function compute(info as Activity.Info) as Void {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 73; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_Ronnie_Documents_ConnectIQ_Test_source_TestView_mc_73_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 120 8 ]
+        %tmp.2 = getv ? :valueView;
+        %tmp.3 = getv function %tmp.2 :setFont;
+        %tmp.5 = getv ? :customFont;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 121 8 ]
+        %tmp.7 = getv ? :valueView;
+        %tmp.8 = getv function %tmp.7 :setText;
+        %tmp.10 = getv ? :mValue;
+        invoke %tmp.7 %tmp.8(%tmp.10);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc" 124 8 ]
+        %tmp.12 = getv ? :View;
+        %tmp.13 = getv function %tmp.12 :onUpdate;
+        %tmp.15 = lgetv %dc;
+        invoke %tmp.12 %tmp.13(%tmp.15);
+C_Users_Ronnie_Documents_ConnectIQ_Test_source_TestView_mc_73_40_stop:
     }
 }
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\Test\source\TestView.mc"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Test\source\TestView.mc"; @line = 1; ]
 <init> {
 }

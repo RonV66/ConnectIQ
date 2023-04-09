@@ -12,15 +12,18 @@ class TestView extends WatchUi.DataField {
     hidden var valueView;
     hidden var labelView;
 
+    var customFont = null;
+
     function initialize() {
         DataField.initialize();
-        mValue = "---";
+        mValue = "1966";
     }
 
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
 
+        customFont = WatchUi.loadResource(Rez.Fonts.roboto_bold_120);
 /*
       	breedte = dc.getWidth();
         hoogte = dc.getHeight();
@@ -36,14 +39,14 @@ class TestView extends WatchUi.DataField {
 */
         View.setLayout(Rez.Layouts.MainLayout(dc));
         labelView = View.findDrawableById("label");
-        labelView.locY = labelView.locY - 16;
+//        labelView.locY = labelView.locY - 16;
         valueView = View.findDrawableById("value");
-        valueView.locY = valueView.locY + 7;
+        valueView.locY = valueView.locY - 7;
+
 
         (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
-        (View.findDrawableById("value") as Text).setText(Rez.Strings.label);
 
-        System.println(Graphics.getFontHeight(Graphics.FONT_XTINY));
+        /*System.println(Graphics.getFontHeight(Graphics.FONT_XTINY));
         System.println(Graphics.getFontHeight(Graphics.FONT_TINY));
         System.println(Graphics.getFontHeight(Graphics.FONT_SMALL));
         System.println(Graphics.getFontHeight(Graphics.FONT_MEDIUM));
@@ -51,7 +54,7 @@ class TestView extends WatchUi.DataField {
         System.println(Graphics.getFontHeight(Graphics.FONT_NUMBER_MILD));
         System.println(Graphics.getFontHeight(Graphics.FONT_NUMBER_MEDIUM));
         System.println(Graphics.getFontHeight(Graphics.FONT_NUMBER_HOT));
-        System.println(Graphics.getFontHeight(Graphics.FONT_NUMBER_THAI_HOT));
+        System.println(Graphics.getFontHeight(Graphics.FONT_NUMBER_THAI_HOT));*/
 
 
     }
@@ -81,7 +84,7 @@ class TestView extends WatchUi.DataField {
         //View.setLayout(Rez.Layouts.Groot(dc));
 
         //labelView.setColor(Graphics.COLOR_BLACK);
-        x = x + 1;
+/*        x = x + 1;
         if (x == 1) {
             (View.findDrawableById("value") as Text).setFont(Graphics.FONT_TINY);
             mValue = "01:00";
@@ -106,12 +109,15 @@ class TestView extends WatchUi.DataField {
         }
         if (x == 7) {
             x = 0;
-        }
+        }*/
 //        System.println(x);
 
         // Set the foreground color and value
         //valueView = View.findDrawableById("value") as Text;
         //valueView.setColor(Graphics.COLOR_BLACK);
+        //dc.drawText(dc.getWidth()/2, 30, myfonts, Lang.format(“$1$”,[clockTime.hour]), dc.TEXT_JUSTIFY_RIGHT);”
+        
+        valueView.setFont(customFont);
         valueView.setText(mValue);
 
         // Call parent's onUpdate(dc) to redraw the layout
