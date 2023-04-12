@@ -40,6 +40,8 @@ class PowerDataFieldView extends WatchUi.DataField {
     hidden var blokjeHHH;
     hidden var inspringen;
 
+    hidden var robotoFont = null;
+
     function initialize() {
         DataField.initialize();
         mValue = 0;
@@ -78,19 +80,25 @@ class PowerDataFieldView extends WatchUi.DataField {
     function onLayout(dc as Dc) as Void {
     	breedte = dc.getWidth();
         hoogte = dc.getHeight();
+
         if (hoogte < 75) {
             View.setLayout(Rez.Layouts.Middel1(dc));
-        } else if ((hoogte >= 75) and (hoogte < 90)) {
+        } else if ((hoogte >= 75) and (hoogte < 100)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-        } else if (hoogte >= 90) {
+        } else if (hoogte >= 100) {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
-
-        //System.println("breedte:" +breedte + "-" + "hoogte:" + hoogte);
-
+ 
         valueView = View.findDrawableById("value") as Text;
         valueView.locY = valueView.locY + 10;
 
+        if (hoogte >= 160) {
+            robotoFont = WatchUi.loadResource(Rez.Fonts.roboto_bold_120);
+            valueView.setFont(robotoFont);
+            valueView.locX = breedte / 2;
+            valueView.locY = (hoogte / 2) - (dc.getFontHeight(robotoFont) / 2);
+        }
+        
         sweetspotView = View.findDrawableById("sweetspot") as Text;
         sweetspotView.locX = breedte - 15;
 
@@ -111,6 +119,11 @@ class PowerDataFieldView extends WatchUi.DataField {
             blokjeH = 8;
             blokjeHH = 11;
             blokjeHHH = 14;
+        }
+        if (hoogte < 100) {
+            blokjeH = 4;
+            blokjeHH = 6;
+            blokjeHHH = 8;
         }
         inspringen = (breedte - (aantalblokjes*blokjeB)) / 2;
     }

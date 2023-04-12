@@ -22,17 +22,13 @@ class HeartRateView extends WatchUi.DataField {
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-    	//var breedte = dc.getWidth();
         var hoogte = dc.getHeight();
-        if (hoogte < 60) {
-            View.setLayout(Rez.Layouts.Klein(dc));
-        } else if ((hoogte >= 60) and (hoogte < 80)) {
+
+        if (hoogte < 75) {
             View.setLayout(Rez.Layouts.Middel1(dc));
-        } else if ((hoogte >= 80) and (hoogte < 95)) {
+        } else if ((hoogte >= 75) and (hoogte < 100)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-        } else if ((hoogte >= 95) and (hoogte < 120)) {
-            View.setLayout(Rez.Layouts.Middel3(dc));
-        } else if (hoogte >= 120) {
+        } else if (hoogte >= 100) {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 

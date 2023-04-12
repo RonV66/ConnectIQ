@@ -1,68 +1,70 @@
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 12; ]
         <init> {
         }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var roboto_bold_120 as Symbol;
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 16; ]
     module JsonData {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 15; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 16; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 18; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 19; ]
     module Layouts {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 18; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 19; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 19; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 20; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 20 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 21 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getHeight;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 22 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 23 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             %tmp.4 = lgetv %dc;
             %tmp.5 = getv function %tmp.4 :getWidth;
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 24 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
-            %rez_cmp_local_custom_drawable_89313326835284164277.3 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 25 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+            %rez_cmp_local_custom_drawable_77042451319949712281.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_89313326835284164277.3 %tmp.7;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 26 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            lputv %rez_cmp_local_custom_drawable_77042451319949712281.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 27 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
             %rez_cmp_local_text_label.4 = local;
             %tmp.13 = getm $.Toybox.WatchUi;
             %tmp.14 = getv function ? %tmp.13 :Text;
@@ -106,8 +108,8 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
             %tmp.11 = newc %tmp.14 (%tmp.60);
             lputv %rez_cmp_local_text_label.4 %tmp.11;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 28 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 29 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
             %rez_cmp_local_text_value.5 = local;
             %tmp.63 = getm $.Toybox.WatchUi;
             %tmp.64 = getv function ? %tmp.63 :Text;
@@ -151,9 +153,9 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
             %tmp.61 = newc %tmp.64 (%tmp.110);
             lputv %rez_cmp_local_text_value.5 %tmp.61;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 30 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 31 12 ]
             %tmp.111 = newa Array<WatchUi.Drawable> 3;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_89313326835284164277.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_77042451319949712281.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;
@@ -163,26 +165,26 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.122 = dup %tmp.119;
             %tmp.123 = aputv %tmp.122 2 %tmp.121;
             ret %tmp.123;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 33; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 34; ]
         function Klein(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 34 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 35 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 36 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop" ]
-            %rez_cmp_local_custom_drawable_12146016071449207251.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 37 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop" ]
+            %rez_cmp_local_custom_drawable_76812879062777330720.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_12146016071449207251.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 38 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_76812879062777330720.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 39 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -219,8 +221,8 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 40 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 41 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -266,9 +268,9 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 42 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 43 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_12146016071449207251.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_76812879062777330720.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -278,26 +280,26 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.112 = dup %tmp.109;
             %tmp.113 = aputv %tmp.112 2 %tmp.111;
             ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 45; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 46; ]
         function Middel1(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 46 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 47 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 48 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop" ]
-            %rez_cmp_local_custom_drawable_15079560131543764426.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 49 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_stop" ]
+            %rez_cmp_local_custom_drawable_19838895851332734024.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_15079560131543764426.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 50 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_19838895851332734024.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 51 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -334,8 +336,8 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 52 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 53 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -381,9 +383,9 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 54 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 55 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_15079560131543764426.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_19838895851332734024.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -393,26 +395,26 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.112 = dup %tmp.109;
             %tmp.113 = aputv %tmp.112 2 %tmp.111;
             ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_46_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 57; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 58; ]
         function Middel2(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 58 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 59 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 60 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
-            %rez_cmp_local_custom_drawable_20757807191564498046.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 61 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_stop" ]
+            %rez_cmp_local_custom_drawable_14298400301400712291.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_20757807191564498046.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 62 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_14298400301400712291.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 63 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -449,123 +451,8 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 64 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
-            %rez_cmp_local_text_value.4 = local;
-            %tmp.52 = getm $.Toybox.WatchUi;
-            %tmp.53 = getv function ? %tmp.52 :Text;
-            %tmp.54 = newd 6;
-            %tmp.56 = const :identifier;
-            %tmp.57 = "value";
-            %tmp.58 = dup %tmp.54;
-            %tmp.59 = aputv %tmp.58 %tmp.56 %tmp.57;
-            %tmp.61 = const :color;
-            %tmp.62 = getm $.Toybox.Graphics;
-            %tmp.63 = getv %tmp.62 :COLOR_WHITE;
-            %tmp.64 = dup %tmp.59;
-            %tmp.65 = aputv %tmp.64 %tmp.61 %tmp.63;
-            %tmp.67 = const :locX;
-            %tmp.69 = lgetv %rez_cmp_local_var_dc_getWidth.1;
-            %tmp.70 = 0.5;
-            %tmp.71 = mul %tmp.69 %tmp.70;
-            %tmp.72 = dup %tmp.65;
-            %tmp.73 = aputv %tmp.72 %tmp.67 %tmp.71;
-            %tmp.75 = const :locY;
-            %tmp.76 = lgetv %dc;
-            %tmp.77 = getv function %tmp.76 :getHeight;
-            %tmp.78 = invoke %tmp.76 %tmp.77();
-            %tmp.79 = lgetv %dc;
-            %tmp.80 = getv function %tmp.79 :getFontHeight;
-            %tmp.81 = getm $.Toybox.Graphics;
-            %tmp.82 = getv %tmp.81 :FONT_NUMBER_MEDIUM;
-            %tmp.83 = invoke %tmp.79 %tmp.80(%tmp.82);
-            %tmp.84 = sub %tmp.78 %tmp.83;
-            %tmp.85 = 0.5;
-            %tmp.86 = mul %tmp.84 %tmp.85;
-            %tmp.87 = dup %tmp.73;
-            %tmp.88 = aputv %tmp.87 %tmp.75 %tmp.86;
-            %tmp.90 = const :justification;
-            %tmp.91 = getm $.Toybox.Graphics;
-            %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_CENTER;
-            %tmp.93 = dup %tmp.88;
-            %tmp.94 = aputv %tmp.93 %tmp.90 %tmp.92;
-            %tmp.96 = const :font;
-            %tmp.97 = getm $.Toybox.Graphics;
-            %tmp.98 = getv %tmp.97 :FONT_NUMBER_MEDIUM;
-            %tmp.99 = dup %tmp.94;
-            %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
-            %tmp.50 = newc %tmp.53 (%tmp.100);
-            lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 66 12 ]
-            %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_20757807191564498046.2;
-            %tmp.104 = dup %tmp.101;
-            %tmp.105 = aputv %tmp.104 0 %tmp.103;
-            %tmp.107 = lgetv %rez_cmp_local_text_label.3;
-            %tmp.108 = dup %tmp.105;
-            %tmp.109 = aputv %tmp.108 1 %tmp.107;
-            %tmp.111 = lgetv %rez_cmp_local_text_value.4;
-            %tmp.112 = dup %tmp.109;
-            %tmp.113 = aputv %tmp.112 2 %tmp.111;
-            ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop:
-        }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 69; ]
-        function Middel3(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 70 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop" ]
-            %rez_cmp_local_var_dc_getWidth.1 = local;
-            %tmp.1 = lgetv %dc;
-            %tmp.2 = getv function %tmp.1 :getWidth;
-            %tmp.3 = invoke %tmp.1 %tmp.2();
-            lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 72 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop" ]
-            %rez_cmp_local_custom_drawable_10227564592306466277.2 = local;
-            %tmp.7 = getv ? :Background;
-            %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_10227564592306466277.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 74 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop" ]
-            %rez_cmp_local_text_label.3 = local;
-            %tmp.10 = getm $.Toybox.WatchUi;
-            %tmp.11 = getv function ? %tmp.10 :Text;
-            %tmp.12 = newd 6;
-            %tmp.14 = const :identifier;
-            %tmp.15 = "label";
-            %tmp.16 = dup %tmp.12;
-            %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
-            %tmp.19 = const :color;
-            %tmp.20 = getm $.Toybox.Graphics;
-            %tmp.21 = getv %tmp.20 :COLOR_BLACK;
-            %tmp.22 = dup %tmp.17;
-            %tmp.23 = aputv %tmp.22 %tmp.19 %tmp.21;
-            %tmp.25 = const :locX;
-            %tmp.27 = lgetv %rez_cmp_local_var_dc_getWidth.1;
-            %tmp.28 = 0.5;
-            %tmp.29 = mul %tmp.27 %tmp.28;
-            %tmp.30 = dup %tmp.23;
-            %tmp.31 = aputv %tmp.30 %tmp.25 %tmp.29;
-            %tmp.33 = const :locY;
-            %tmp.34 = getm $.Toybox.WatchUi;
-            %tmp.35 = getv %tmp.34 :LAYOUT_VALIGN_TOP;
-            %tmp.36 = dup %tmp.31;
-            %tmp.37 = aputv %tmp.36 %tmp.33 %tmp.35;
-            %tmp.39 = const :justification;
-            %tmp.40 = getm $.Toybox.Graphics;
-            %tmp.41 = getv %tmp.40 :TEXT_JUSTIFY_CENTER;
-            %tmp.42 = dup %tmp.37;
-            %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
-            %tmp.45 = const :font;
-            %tmp.46 = getm $.Toybox.Graphics;
-            %tmp.47 = getv %tmp.46 :FONT_SMALL;
-            %tmp.48 = dup %tmp.43;
-            %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
-            %tmp.8 = newc %tmp.11 (%tmp.49);
-            lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 76 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 65 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -611,9 +498,9 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 78 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 67 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_10227564592306466277.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_14298400301400712291.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -623,26 +510,26 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.112 = dup %tmp.109;
             %tmp.113 = aputv %tmp.112 2 %tmp.111;
             ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_58_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 81; ]
-        function Groot(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 82 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop" ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 70; ]
+        function Middel3(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 71 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 84 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop" ]
-            %rez_cmp_local_custom_drawable_12096623511216172422.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 73 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_stop" ]
+            %rez_cmp_local_custom_drawable_87473601617215684648.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_12096623511216172422.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 86 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_87473601617215684648.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 75 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -679,8 +566,8 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 88 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 77 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -726,9 +613,9 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 90 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 79 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_12096623511216172422.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_87473601617215684648.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -738,19 +625,134 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.112 = dup %tmp.109;
             %tmp.113 = aputv %tmp.112 2 %tmp.111;
             ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_70_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 93; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 82; ]
+        function Groot(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 83 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_stop" ]
+            %rez_cmp_local_var_dc_getWidth.1 = local;
+            %tmp.1 = lgetv %dc;
+            %tmp.2 = getv function %tmp.1 :getWidth;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 85 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_stop" ]
+            %rez_cmp_local_custom_drawable_60651228712254789628.2 = local;
+            %tmp.7 = getv ? :Background;
+            %tmp.4 = newc %tmp.7 ();
+            lputv %rez_cmp_local_custom_drawable_60651228712254789628.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 87 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_stop" ]
+            %rez_cmp_local_text_label.3 = local;
+            %tmp.10 = getm $.Toybox.WatchUi;
+            %tmp.11 = getv function ? %tmp.10 :Text;
+            %tmp.12 = newd 6;
+            %tmp.14 = const :identifier;
+            %tmp.15 = "label";
+            %tmp.16 = dup %tmp.12;
+            %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
+            %tmp.19 = const :color;
+            %tmp.20 = getm $.Toybox.Graphics;
+            %tmp.21 = getv %tmp.20 :COLOR_BLACK;
+            %tmp.22 = dup %tmp.17;
+            %tmp.23 = aputv %tmp.22 %tmp.19 %tmp.21;
+            %tmp.25 = const :locX;
+            %tmp.27 = lgetv %rez_cmp_local_var_dc_getWidth.1;
+            %tmp.28 = 0.5;
+            %tmp.29 = mul %tmp.27 %tmp.28;
+            %tmp.30 = dup %tmp.23;
+            %tmp.31 = aputv %tmp.30 %tmp.25 %tmp.29;
+            %tmp.33 = const :locY;
+            %tmp.34 = getm $.Toybox.WatchUi;
+            %tmp.35 = getv %tmp.34 :LAYOUT_VALIGN_TOP;
+            %tmp.36 = dup %tmp.31;
+            %tmp.37 = aputv %tmp.36 %tmp.33 %tmp.35;
+            %tmp.39 = const :justification;
+            %tmp.40 = getm $.Toybox.Graphics;
+            %tmp.41 = getv %tmp.40 :TEXT_JUSTIFY_CENTER;
+            %tmp.42 = dup %tmp.37;
+            %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
+            %tmp.45 = const :font;
+            %tmp.46 = getm $.Toybox.Graphics;
+            %tmp.47 = getv %tmp.46 :FONT_SMALL;
+            %tmp.48 = dup %tmp.43;
+            %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
+            %tmp.8 = newc %tmp.11 (%tmp.49);
+            lputv %rez_cmp_local_text_label.3 %tmp.8;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 89 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_stop" ]
+            %rez_cmp_local_text_value.4 = local;
+            %tmp.52 = getm $.Toybox.WatchUi;
+            %tmp.53 = getv function ? %tmp.52 :Text;
+            %tmp.54 = newd 6;
+            %tmp.56 = const :identifier;
+            %tmp.57 = "value";
+            %tmp.58 = dup %tmp.54;
+            %tmp.59 = aputv %tmp.58 %tmp.56 %tmp.57;
+            %tmp.61 = const :color;
+            %tmp.62 = getm $.Toybox.Graphics;
+            %tmp.63 = getv %tmp.62 :COLOR_WHITE;
+            %tmp.64 = dup %tmp.59;
+            %tmp.65 = aputv %tmp.64 %tmp.61 %tmp.63;
+            %tmp.67 = const :locX;
+            %tmp.69 = lgetv %rez_cmp_local_var_dc_getWidth.1;
+            %tmp.70 = 0.5;
+            %tmp.71 = mul %tmp.69 %tmp.70;
+            %tmp.72 = dup %tmp.65;
+            %tmp.73 = aputv %tmp.72 %tmp.67 %tmp.71;
+            %tmp.75 = const :locY;
+            %tmp.76 = lgetv %dc;
+            %tmp.77 = getv function %tmp.76 :getHeight;
+            %tmp.78 = invoke %tmp.76 %tmp.77();
+            %tmp.79 = lgetv %dc;
+            %tmp.80 = getv function %tmp.79 :getFontHeight;
+            %tmp.81 = getm $.Toybox.Graphics;
+            %tmp.82 = getv %tmp.81 :FONT_NUMBER_THAI_HOT;
+            %tmp.83 = invoke %tmp.79 %tmp.80(%tmp.82);
+            %tmp.84 = sub %tmp.78 %tmp.83;
+            %tmp.85 = 0.5;
+            %tmp.86 = mul %tmp.84 %tmp.85;
+            %tmp.87 = dup %tmp.73;
+            %tmp.88 = aputv %tmp.87 %tmp.75 %tmp.86;
+            %tmp.90 = const :justification;
+            %tmp.91 = getm $.Toybox.Graphics;
+            %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_CENTER;
+            %tmp.93 = dup %tmp.88;
+            %tmp.94 = aputv %tmp.93 %tmp.90 %tmp.92;
+            %tmp.96 = const :font;
+            %tmp.97 = getm $.Toybox.Graphics;
+            %tmp.98 = getv %tmp.97 :FONT_NUMBER_THAI_HOT;
+            %tmp.99 = dup %tmp.94;
+            %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
+            %tmp.50 = newc %tmp.53 (%tmp.100);
+            lputv %rez_cmp_local_text_value.4 %tmp.50;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 91 12 ]
+            %tmp.101 = newa Array<WatchUi.Drawable> 3;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_60651228712254789628.2;
+            %tmp.104 = dup %tmp.101;
+            %tmp.105 = aputv %tmp.104 0 %tmp.103;
+            %tmp.107 = lgetv %rez_cmp_local_text_label.3;
+            %tmp.108 = dup %tmp.105;
+            %tmp.109 = aputv %tmp.108 1 %tmp.107;
+            %tmp.111 = lgetv %rez_cmp_local_text_value.4;
+            %tmp.112 = dup %tmp.109;
+            %tmp.113 = aputv %tmp.112 2 %tmp.111;
+            ret %tmp.113;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_82_69_stop:
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 94; ]
         function TopLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_93_77_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 94 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_93_77_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_93_77_stop" ]
-            %rez_cmp_local_custom_drawable_75861567726022745106.1 = local;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_94_77_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 95 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_94_77_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_94_77_stop" ]
+            %rez_cmp_local_custom_drawable_90794205213841546293.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_75861567726022745106.1 %tmp.1;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 96 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_93_77_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_93_77_stop" ]
+            lputv %rez_cmp_local_custom_drawable_90794205213841546293.1 %tmp.1;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 97 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_94_77_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_94_77_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -784,8 +786,8 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 98 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_93_77_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_93_77_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 99 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_94_77_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_94_77_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -819,9 +821,9 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 100 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 101 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_75861567726022745106.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_90794205213841546293.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -831,19 +833,19 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_93_77_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_94_77_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 103; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 104; ]
         function TopRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_103_78_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 104 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_103_78_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_103_78_stop" ]
-            %rez_cmp_local_custom_drawable_57550680524290028915.1 = local;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_104_78_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 105 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_104_78_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_104_78_stop" ]
+            %rez_cmp_local_custom_drawable_65848533318435987811.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_57550680524290028915.1 %tmp.1;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 106 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_103_78_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_103_78_stop" ]
+            lputv %rez_cmp_local_custom_drawable_65848533318435987811.1 %tmp.1;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 107 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_104_78_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_104_78_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -877,8 +879,8 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 108 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_103_78_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_103_78_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 109 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_104_78_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_104_78_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -912,9 +914,9 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 110 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 111 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_57550680524290028915.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_65848533318435987811.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -924,19 +926,19 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_103_78_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_104_78_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 113; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 114; ]
         function BottomLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_113_80_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 114 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_113_80_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_113_80_stop" ]
-            %rez_cmp_local_custom_drawable_89627964957172673610.1 = local;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_114_80_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 115 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_114_80_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_114_80_stop" ]
+            %rez_cmp_local_custom_drawable_18585489193112659381.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_89627964957172673610.1 %tmp.1;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 116 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_113_80_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_113_80_stop" ]
+            lputv %rez_cmp_local_custom_drawable_18585489193112659381.1 %tmp.1;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 117 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_114_80_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_114_80_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -970,8 +972,8 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 118 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_113_80_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_113_80_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 119 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_114_80_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_114_80_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -1005,9 +1007,9 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 120 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 121 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_89627964957172673610.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_18585489193112659381.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -1017,19 +1019,19 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_113_80_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_114_80_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 123; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 124; ]
         function BottomRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_123_81_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 124 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_123_81_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_123_81_stop" ]
-            %rez_cmp_local_custom_drawable_51838280674662419521.1 = local;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_124_81_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 125 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_124_81_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_124_81_stop" ]
+            %rez_cmp_local_custom_drawable_26992941755432355393.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_51838280674662419521.1 %tmp.1;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 126 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_123_81_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_123_81_stop" ]
+            lputv %rez_cmp_local_custom_drawable_26992941755432355393.1 %tmp.1;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 127 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_124_81_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_124_81_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -1063,8 +1065,8 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 128 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_123_81_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_123_81_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 129 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_124_81_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_124_81_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -1098,9 +1100,9 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 130 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen" 131 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_51838280674662419521.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_26992941755432355393.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -1110,70 +1112,70 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_123_81_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3122_00_source_Rez_mcgen_124_81_stop:
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 134; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 135; ]
     module Menus {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 134; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 135; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 137; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 138; ]
     module Strings {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 137; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 138; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 138; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 139; @position = 27; initialized = true; ]
         var achtergrondlaag as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 139; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 140; @position = 27; initialized = true; ]
         var COLOR_DK_GREEN as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 140; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 141; @position = 27; initialized = true; ]
         var achtergrondhoog as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 141; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 142; @position = 27; initialized = true; ]
         var displayBarNee as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 142; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 143; @position = 27; initialized = true; ]
         var COLOR_RED as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 143; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 144; @position = 27; initialized = true; ]
         var COLOR_YELLOW as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 144; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 145; @position = 27; initialized = true; ]
         var displayBar as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 145; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 146; @position = 27; initialized = true; ]
         var voorgrondlaag as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 146; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 147; @position = 27; initialized = true; ]
         var COLOR_LT_GRAY as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 147; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 148; @position = 27; initialized = true; ]
         var displayBarJa as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 148; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 149; @position = 27; initialized = true; ]
         var voorgrondhoog as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 149; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 150; @position = 27; initialized = true; ]
         var AppName as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 150; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 151; @position = 27; initialized = true; ]
         var COLOR_BLACK as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 151; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 152; @position = 27; initialized = true; ]
         var COLOR_DK_RED as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 152; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 153; @position = 27; initialized = true; ]
         var COLOR_DK_BLUE as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 153; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 154; @position = 27; initialized = true; ]
         var COLOR_WHITE as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 154; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 155; @position = 27; initialized = true; ]
         var COLOR_ORANGE as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 155; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 156; @position = 27; initialized = true; ]
         var COLOR_BLUE as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 156; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 157; @position = 27; initialized = true; ]
         var COLOR_PINK as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 157; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 158; @position = 27; initialized = true; ]
         var COLOR_DK_GRAY as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 158; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 159; @position = 27; initialized = true; ]
         var labelmetric as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 159; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 160; @position = 27; initialized = true; ]
         var COLOR_GREEN as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 160; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 161; @position = 27; initialized = true; ]
         var COLOR_PURPLE as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 161; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 162; @position = 27; initialized = true; ]
         var labelstatute as Symbol;
     }
 }
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }

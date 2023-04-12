@@ -18,23 +18,18 @@ class ETAView extends WatchUi.DataField {
     function initialize() {
         DataField.initialize();
         mValue = "--:--";
-//        tijdDisplay = Application.Properties.getValue("tijdDisplay");
     }
 
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-      	//breedte = dc.getWidth();
         hoogte = dc.getHeight();
-        if (hoogte < 60) {
-            View.setLayout(Rez.Layouts.Klein(dc));
-        } else if ((hoogte >= 60) and (hoogte < 80)) {
+
+        if (hoogte < 75) {
             View.setLayout(Rez.Layouts.Middel1(dc));
-        } else if ((hoogte >= 80) and (hoogte < 95)) {
+        } else if ((hoogte >= 75) and (hoogte < 100)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-        } else if ((hoogte >= 95) and (hoogte < 120)) {
-            View.setLayout(Rez.Layouts.Middel3(dc));
-        } else if (hoogte >= 120) {
+        } else if (hoogte >= 100) {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 
@@ -54,7 +49,6 @@ class ETAView extends WatchUi.DataField {
 
         if ((info.averageSpeed  != null) and (info.averageSpeed  != 0) and (info.currentSpeed != 0) and (info.distanceToDestination != null) and (info.distanceToDestination != 0)) {
             etaInSeconds = info.distanceToDestination / (((info.averageSpeed * 3) + info.currentSpeed)/4);
-            System.println(etaInSeconds);
 
             if (Application.Properties.getValue("tijdDisplay") == 0) {
 //////////////////

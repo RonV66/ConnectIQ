@@ -10,6 +10,7 @@ module Rez {
     } // Drawables
 
     module Fonts {
+        (:initialized) var roboto_bold_120 as Symbol;
     } // Fonts
 
     module JsonData {
@@ -21,113 +22,113 @@ module Rez {
 
             var rez_cmp_local_var_dc_getWidth = dc.getWidth();
 
-            var rez_cmp_local_custom_drawable_89313326835284164277 = new Background();
+            var rez_cmp_local_custom_drawable_15798165701762666097 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_TINY)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_89313326835284164277, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_15798165701762666097, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function Klein(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_var_dc_getWidth = dc.getWidth();
 
-            var rez_cmp_local_custom_drawable_12146016071449207251 = new Background();
+            var rez_cmp_local_custom_drawable_59089590817335209431 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_BLACK, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>WatchUi.LAYOUT_VALIGN_TOP, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_NUMBER_MILD)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_MILD});
 
-            return [rez_cmp_local_custom_drawable_12146016071449207251, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_59089590817335209431, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function Middel1(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_var_dc_getWidth = dc.getWidth();
 
-            var rez_cmp_local_custom_drawable_15079560131543764426 = new Background();
+            var rez_cmp_local_custom_drawable_10158360361378048216 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_BLACK, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>WatchUi.LAYOUT_VALIGN_TOP, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_MEDIUM});
 
-            return [rez_cmp_local_custom_drawable_15079560131543764426, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_10158360361378048216, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function Middel2(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_var_dc_getWidth = dc.getWidth();
 
-            var rez_cmp_local_custom_drawable_20757807191564498046 = new Background();
-
-            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_BLACK, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>WatchUi.LAYOUT_VALIGN_TOP, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
-
-            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_MEDIUM});
-
-            return [rez_cmp_local_custom_drawable_20757807191564498046, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
-        }
-
-        function Middel3(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_var_dc_getWidth = dc.getWidth();
-
-            var rez_cmp_local_custom_drawable_10227564592306466277 = new Background();
+            var rez_cmp_local_custom_drawable_10178791443282053731 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_BLACK, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>WatchUi.LAYOUT_VALIGN_TOP, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_NUMBER_HOT)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_HOT});
 
-            return [rez_cmp_local_custom_drawable_10227564592306466277, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_10178791443282053731, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
-        function Groot(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+        function Middel3(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_var_dc_getWidth = dc.getWidth();
 
-            var rez_cmp_local_custom_drawable_12096623511216172422 = new Background();
+            var rez_cmp_local_custom_drawable_45125260550935823317 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_BLACK, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>WatchUi.LAYOUT_VALIGN_TOP, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_NUMBER_THAI_HOT)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
 
-            return [rez_cmp_local_custom_drawable_12096623511216172422, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_45125260550935823317, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+
+        function Groot(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_var_dc_getWidth = dc.getWidth();
+
+            var rez_cmp_local_custom_drawable_10933151801761806597 = new Background();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_BLACK, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>WatchUi.LAYOUT_VALIGN_TOP, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_NUMBER_THAI_HOT)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+
+            return [rez_cmp_local_custom_drawable_10933151801761806597, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function TopLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_75861567726022745106 = new Background();
+            var rez_cmp_local_custom_drawable_84583879748525117511 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>95, :locY=>75, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>95, :locY=>42, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_75861567726022745106, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_84583879748525117511, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function TopRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_57550680524290028915 = new Background();
+            var rez_cmp_local_custom_drawable_13510249522126126705 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>14, :locY=>75, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>14, :locY=>42, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_57550680524290028915, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_13510249522126126705, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function BottomLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_89627964957172673610 = new Background();
+            var rez_cmp_local_custom_drawable_13420030731702515868 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>95, :locY=>10, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>95, :locY=>27, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_89627964957172673610, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_13420030731702515868, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function BottomRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_51838280674662419521 = new Background();
+            var rez_cmp_local_custom_drawable_13161391021606924925 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>14, :locY=>10, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>14, :locY=>27, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_51838280674662419521, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_13161391021606924925, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

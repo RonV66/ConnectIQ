@@ -29,7 +29,9 @@ class SnelheidView extends WatchUi.DataField {
     hidden var blokjeHH;
     hidden var blokjeHHH;
     hidden var inspringen;
-    
+
+    hidden var robotoFont = null;
+
     function initialize() {
         DataField.initialize();
         mValue = 0.0f;
@@ -43,20 +45,24 @@ class SnelheidView extends WatchUi.DataField {
     function onLayout(dc as Dc) as Void {
     	breedte = dc.getWidth();
         hoogte = dc.getHeight();
-        if (hoogte < 60) {
-            View.setLayout(Rez.Layouts.Klein(dc));
-        } else if ((hoogte >= 60) and (hoogte < 80)) {
+
+        if (hoogte < 75) {
             View.setLayout(Rez.Layouts.Middel1(dc));
-        } else if ((hoogte >= 80) and (hoogte < 90)) {
+        } else if ((hoogte >= 75) and (hoogte < 100)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-        } else if ((hoogte >= 90) and (hoogte < 120)) {
-            View.setLayout(Rez.Layouts.Middel3(dc));
-        } else if (hoogte >= 120) {
+        } else if (hoogte >= 100) {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
 
         valueView = View.findDrawableById("value");
         valueView.locY = valueView.locY + 10;
+
+        if (hoogte >= 160) {
+            robotoFont = WatchUi.loadResource(Rez.Fonts.roboto_bold_120);
+            valueView.setFont(robotoFont);
+            valueView.locX = breedte / 2;
+            valueView.locY = (hoogte / 2) - (dc.getFontHeight(robotoFont) / 2);
+        }
 
         // plaats label "Speed" boven aan
         labelView = View.findDrawableById("label") as Text;
@@ -82,6 +88,11 @@ class SnelheidView extends WatchUi.DataField {
             blokjeH = 8;
             blokjeHH = 11;
             blokjeHHH = 14;
+        }
+        if (hoogte < 100) {
+            blokjeH = 4;
+            blokjeHH = 6;
+            blokjeHHH = 8;
         }
         inspringen = (breedte - (aantalblokjes*blokjeB)) / 2;
     }

@@ -1,29 +1,29 @@
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 1; ]
 import Toybox.Graphics;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 2; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 2; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 4; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 4; ]
 class RadarLightView extends WatchUi.View{
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 4; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 4; ]
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 4; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 4; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 6; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 6; ]
     function initialize() as Void {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_RadarLight_source_RadarLightView_mc_6_26_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc" 7 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_6_26_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 7 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_RadarLight_source_RadarLightView_mc_6_26_stop:
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_6_26_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 11; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 11; ]
     function onLayout(dc as Dc) as Void {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_RadarLight_source_RadarLightView_mc_11_40_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc" 12 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_11_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 12 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -32,25 +32,25 @@ C_Users_Ronnie_Documents_RonV66_ConnectIQ_RadarLight_source_RadarLightView_mc_11
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_RadarLight_source_RadarLightView_mc_11_40_stop:
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_11_40_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 18; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 18; ]
     function onShow() as Void {
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 22; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 22; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_RadarLight_source_RadarLightView_mc_22_40_start:
-[ "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc" 24 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_22_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 24 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
-C_Users_Ronnie_Documents_RonV66_ConnectIQ_RadarLight_source_RadarLightView_mc_22_40_stop:
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_22_40_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 30; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 30; ]
     function onHide() as Void {
     }
 }
-[ @file = "C:\Users\Ronnie\Documents\RonV66\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 1; ]
 <init> {
 }
