@@ -223,7 +223,7 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_60_27_start:
         %tmp.72 = getv function %tmp.71 :loadResource;
         %tmp.74 = getv ? :Rez;
         %tmp.75 = getv %tmp.74 :Fonts;
-        %tmp.76 = getv %tmp.75 :roboto_bold_120;
+        %tmp.76 = getv %tmp.75 :roboto_bold_136;
         %tmp.77 = invoke %tmp.71 %tmp.72(%tmp.76);
         putv self :robotoFont %tmp.77;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 62 12 ]

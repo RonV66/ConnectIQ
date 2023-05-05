@@ -12,32 +12,39 @@
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightApp.mc" id="5" lineNum="8" parent="globals/RadarLightApp" pc="268435553" symbol="initialize"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightApp.mc" id="6" lineNum="16" parent="globals/RadarLightApp" pc="268435572" symbol="onStop"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268435575" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="8" lineNum="4" parent="globals/RadarLightView" pc="268435599" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="10" lineNum="11" parent="globals/RadarLightView" pc="268435618" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="10" lineNum="12" parent="globals/RadarLightView" pc="268435620" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="11" lineNum="6" parent="globals/RadarLightView" pc="268435662" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="11" lineNum="7" parent="globals/RadarLightView" pc="268435664" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="13" lineNum="22" parent="globals/RadarLightView" pc="268435683" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="13" lineNum="24" parent="globals/RadarLightView" pc="268435685" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="14" lineNum="20" parent="globals/Rez/Layouts" pc="268435706" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="14" lineNum="21" parent="globals/Rez/Layouts" pc="268435718" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="14" lineNum="22" parent="globals/Rez/Layouts" pc="268435823" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="14" lineNum="24" parent="globals/Rez/Layouts" pc="268435887" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="8" lineNum="5" parent="globals/RadarLightView" pc="268435599" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="10" lineNum="20" parent="globals/RadarLightView" pc="268435618" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="10" lineNum="21" parent="globals/RadarLightView" pc="268435620" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="11" lineNum="9" parent="globals/RadarLightView" pc="268435662" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="11" lineNum="10" parent="globals/RadarLightView" pc="268435666" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="11" lineNum="11" parent="globals/RadarLightView" pc="268435684" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="11" lineNum="12" parent="globals/RadarLightView" pc="268435712" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="11" lineNum="13" parent="globals/RadarLightView" pc="268435742" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="11" lineNum="14" parent="globals/RadarLightView" pc="268435761" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="13" lineNum="31" parent="globals/RadarLightView" pc="268435791" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="13" lineNum="33" parent="globals/RadarLightView" pc="268435793" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\source\\RadarLightView.mc" id="13" lineNum="34" parent="globals/RadarLightView" pc="268435813" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="14" lineNum="20" parent="globals/Rez/Layouts" pc="268435863" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="14" lineNum="21" parent="globals/Rez/Layouts" pc="268435875" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="14" lineNum="22" parent="globals/Rez/Layouts" pc="268435980" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\RadarLight\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="14" lineNum="24" parent="globals/Rez/Layouts" pc="268436044" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="9" object="true" symbol="RadarLightApp"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="15" method="true" symbol="MainLayout"/>
+        <entry id="16" method="true" symbol="MainLayout"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="16" symbol="AppName"/>
+        <entry field="true" id="17" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="14" symbol="id_monkey"/>
+        <entry field="true" id="15" symbol="id_monkey"/>
+        <entry id="8389410" module="true" symbol="AntPlus"/>
+        <entry field="true" id="13" symbol="mijnList"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
@@ -52,7 +59,7 @@
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry field="true" id="14" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
@@ -69,9 +76,11 @@
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435661" name="dc" stackId="1" startPc="268435618"/>
-        <entry arg="true" endPc="268435705" name="dc" stackId="1" startPc="268435683"/>
-        <entry arg="true" endPc="268435903" name="dc" stackId="1" startPc="268435706"/>
-        <entry endPc="268435903" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268435718"/>
+        <entry endPc="268435789" name="mLightNetworkListener" stackId="1" startPc="268435666"/>
+        <entry endPc="268435789" name="mLightNetwork" stackId="2" startPc="268435666"/>
+        <entry arg="true" endPc="268435862" name="dc" stackId="1" startPc="268435791"/>
+        <entry arg="true" endPc="268436060" name="dc" stackId="1" startPc="268435863"/>
+        <entry endPc="268436060" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268435875"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -83,12 +92,12 @@
         <dataEntry label="globals/RadarLightApp" offset="158" parentId="globals" symbolId="RadarLightApp" type="class"/>
         <dataEntry label="globals/Rez" offset="229" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/RadarLightView" offset="308" parentId="globals" symbolId="RadarLightView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="387" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="434" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="473" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="504" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="535" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="574" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="395" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="442" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="481" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="512" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="543" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="582" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -124,13 +133,13 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435682" name="initialize" parent="RadarLightView" startPc="268435662">
+        <functionEntry accessMode="public" endPc="268435790" name="initialize" parent="RadarLightView" startPc="268435662">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="RadarLightView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435705" name="onUpdate" parent="RadarLightView" startPc="268435683">
+        <functionEntry accessMode="public" endPc="268435862" name="onUpdate" parent="RadarLightView" startPc="268435791">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -152,7 +161,7 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435903" name="MainLayout" parent="Layouts" startPc="268435706">
+        <functionEntry accessMode="public" endPc="268436060" name="MainLayout" parent="Layouts" startPc="268435863">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

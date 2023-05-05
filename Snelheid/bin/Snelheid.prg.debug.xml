@@ -146,7 +146,7 @@
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\source\\SnelheidBackground.mc" id="10" lineNum="23" parent="globals/Background" pc="268439042" symbol="draw"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\source\\SnelheidBackground.mc" id="10" lineNum="24" parent="globals/Background" pc="268439044" symbol="draw"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\source\\SnelheidBackground.mc" id="10" lineNum="25" parent="globals/Background" pc="268439069" symbol="draw"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268439082" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268439082" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\source\\SnelheidApp.mc" id="12" lineNum="5" parent="globals/SnelheidApp" pc="268439106" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\source\\SnelheidApp.mc" id="13" lineNum="12" parent="globals/SnelheidApp" pc="268439125" symbol="onStart"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\source\\SnelheidApp.mc" id="14" lineNum="20" parent="globals/SnelheidApp" pc="268439128" symbol="getInitialView"/>
@@ -154,80 +154,60 @@
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\source\\SnelheidApp.mc" id="15" lineNum="7" parent="globals/SnelheidApp" pc="268439171" symbol="initialize"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\source\\SnelheidApp.mc" id="15" lineNum="8" parent="globals/SnelheidApp" pc="268439173" symbol="initialize"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\source\\SnelheidApp.mc" id="16" lineNum="16" parent="globals/SnelheidApp" pc="268439192" symbol="onStop"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="46" parent="globals/Rez/Layouts" pc="268439195" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="47" parent="globals/Rez/Layouts" pc="268439207" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="49" parent="globals/Rez/Layouts" pc="268439220" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="51" parent="globals/Rez/Layouts" pc="268439248" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="53" parent="globals/Rez/Layouts" pc="268439363" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="55" parent="globals/Rez/Layouts" pc="268439507" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="58" parent="globals/Rez/Layouts" pc="268439544" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="59" parent="globals/Rez/Layouts" pc="268439556" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="61" parent="globals/Rez/Layouts" pc="268439569" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="63" parent="globals/Rez/Layouts" pc="268439597" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="65" parent="globals/Rez/Layouts" pc="268439712" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="67" parent="globals/Rez/Layouts" pc="268439856" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="124" parent="globals/Rez/Layouts" pc="268439893" symbol="BottomRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="125" parent="globals/Rez/Layouts" pc="268439905" symbol="BottomRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="127" parent="globals/Rez/Layouts" pc="268439933" symbol="BottomRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="129" parent="globals/Rez/Layouts" pc="268440045" symbol="BottomRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="131" parent="globals/Rez/Layouts" pc="268440157" symbol="BottomRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="104" parent="globals/Rez/Layouts" pc="268440194" symbol="TopRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="105" parent="globals/Rez/Layouts" pc="268440206" symbol="TopRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="107" parent="globals/Rez/Layouts" pc="268440234" symbol="TopRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="109" parent="globals/Rez/Layouts" pc="268440346" symbol="TopRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="111" parent="globals/Rez/Layouts" pc="268440458" symbol="TopRightLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="82" parent="globals/Rez/Layouts" pc="268440495" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="83" parent="globals/Rez/Layouts" pc="268440507" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="85" parent="globals/Rez/Layouts" pc="268440520" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="87" parent="globals/Rez/Layouts" pc="268440548" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="89" parent="globals/Rez/Layouts" pc="268440663" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="91" parent="globals/Rez/Layouts" pc="268440807" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="114" parent="globals/Rez/Layouts" pc="268440844" symbol="BottomLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="115" parent="globals/Rez/Layouts" pc="268440856" symbol="BottomLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="117" parent="globals/Rez/Layouts" pc="268440884" symbol="BottomLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="119" parent="globals/Rez/Layouts" pc="268440996" symbol="BottomLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="121" parent="globals/Rez/Layouts" pc="268441108" symbol="BottomLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="23" lineNum="34" parent="globals/Rez/Layouts" pc="268441145" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="23" lineNum="35" parent="globals/Rez/Layouts" pc="268441157" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="23" lineNum="37" parent="globals/Rez/Layouts" pc="268441170" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="23" lineNum="39" parent="globals/Rez/Layouts" pc="268441198" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="23" lineNum="41" parent="globals/Rez/Layouts" pc="268441313" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="23" lineNum="43" parent="globals/Rez/Layouts" pc="268441457" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="24" lineNum="70" parent="globals/Rez/Layouts" pc="268441494" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="24" lineNum="71" parent="globals/Rez/Layouts" pc="268441506" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="24" lineNum="73" parent="globals/Rez/Layouts" pc="268441519" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="24" lineNum="75" parent="globals/Rez/Layouts" pc="268441547" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="24" lineNum="77" parent="globals/Rez/Layouts" pc="268441662" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="24" lineNum="79" parent="globals/Rez/Layouts" pc="268441806" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="25" lineNum="94" parent="globals/Rez/Layouts" pc="268441843" symbol="TopLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="25" lineNum="95" parent="globals/Rez/Layouts" pc="268441855" symbol="TopLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="25" lineNum="97" parent="globals/Rez/Layouts" pc="268441883" symbol="TopLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="25" lineNum="99" parent="globals/Rez/Layouts" pc="268441995" symbol="TopLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="25" lineNum="101" parent="globals/Rez/Layouts" pc="268442107" symbol="TopLeftLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="26" lineNum="20" parent="globals/Rez/Layouts" pc="268442144" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="26" lineNum="21" parent="globals/Rez/Layouts" pc="268442156" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="26" lineNum="23" parent="globals/Rez/Layouts" pc="268442169" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="26" lineNum="25" parent="globals/Rez/Layouts" pc="268442182" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="26" lineNum="27" parent="globals/Rez/Layouts" pc="268442210" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="26" lineNum="29" parent="globals/Rez/Layouts" pc="268442345" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="26" lineNum="31" parent="globals/Rez/Layouts" pc="268442480" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="47" parent="globals/Rez/Layouts" pc="268439195" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="48" parent="globals/Rez/Layouts" pc="268439207" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="50" parent="globals/Rez/Layouts" pc="268439220" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="52" parent="globals/Rez/Layouts" pc="268439248" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="54" parent="globals/Rez/Layouts" pc="268439363" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="56" parent="globals/Rez/Layouts" pc="268439507" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="59" parent="globals/Rez/Layouts" pc="268439544" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="60" parent="globals/Rez/Layouts" pc="268439556" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="62" parent="globals/Rez/Layouts" pc="268439569" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="64" parent="globals/Rez/Layouts" pc="268439597" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="66" parent="globals/Rez/Layouts" pc="268439712" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="68" parent="globals/Rez/Layouts" pc="268439856" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="83" parent="globals/Rez/Layouts" pc="268439893" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="84" parent="globals/Rez/Layouts" pc="268439905" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="86" parent="globals/Rez/Layouts" pc="268439918" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="88" parent="globals/Rez/Layouts" pc="268439946" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="90" parent="globals/Rez/Layouts" pc="268440061" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="92" parent="globals/Rez/Layouts" pc="268440205" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="35" parent="globals/Rez/Layouts" pc="268440242" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="36" parent="globals/Rez/Layouts" pc="268440254" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="38" parent="globals/Rez/Layouts" pc="268440267" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="40" parent="globals/Rez/Layouts" pc="268440295" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="42" parent="globals/Rez/Layouts" pc="268440410" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="44" parent="globals/Rez/Layouts" pc="268440554" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="71" parent="globals/Rez/Layouts" pc="268440591" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="72" parent="globals/Rez/Layouts" pc="268440603" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="74" parent="globals/Rez/Layouts" pc="268440616" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="76" parent="globals/Rez/Layouts" pc="268440644" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="78" parent="globals/Rez/Layouts" pc="268440759" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="80" parent="globals/Rez/Layouts" pc="268440903" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="21" parent="globals/Rez/Layouts" pc="268440940" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268440952" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268440965" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268440978" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="28" parent="globals/Rez/Layouts" pc="268441006" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="30" parent="globals/Rez/Layouts" pc="268441141" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\Snelheid\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="32" parent="globals/Rez/Layouts" pc="268441276" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="8389163" symbol="COLOR_ORANGE"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry field="true" id="50" symbol="labelmetric"/>
-        <entry id="39" method="true" symbol="MainLayout"/>
+        <entry field="true" id="47" symbol="labelmetric"/>
+        <entry id="37" method="true" symbol="MainLayout"/>
         <entry field="true" id="24" symbol="mValue"/>
         <entry field="true" id="8389158" symbol="COLOR_LT_GRAY"/>
-        <entry field="true" id="47" symbol="displayBar"/>
+        <entry field="true" id="44" symbol="displayBar"/>
         <entry field="true" id="8389159" symbol="COLOR_DK_GRAY"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="8389168" symbol="COLOR_DK_BLUE"/>
-        <entry field="true" id="46" symbol="AppName"/>
-        <entry id="37" method="true" symbol="Groot"/>
-        <entry field="true" id="51" symbol="labelstatute"/>
+        <entry field="true" id="43" symbol="AppName"/>
+        <entry id="35" method="true" symbol="Groot"/>
+        <entry field="true" id="48" symbol="labelstatute"/>
         <entry field="true" id="8389162" symbol="COLOR_DK_RED"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
@@ -238,11 +218,11 @@
         <entry field="true" id="8389170" symbol="COLOR_PINK"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry id="10" object="true" symbol="SnelheidView"/>
-        <entry field="true" id="49" symbol="displayBarNee"/>
+        <entry field="true" id="46" symbol="displayBarNee"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="48" symbol="displayBarJa"/>
+        <entry field="true" id="45" symbol="displayBarJa"/>
         <entry field="true" id="8389161" symbol="COLOR_RED"/>
         <entry field="true" id="27" symbol="valueView"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
@@ -258,22 +238,19 @@
         <entry field="true" id="17" symbol="blokjeHH"/>
         <entry id="8389131" method="true" symbol="setColor"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-        <entry id="42" method="true" symbol="Middel3"/>
-        <entry id="41" method="true" symbol="Middel2"/>
-        <entry id="40" method="true" symbol="Middel1"/>
+        <entry id="40" method="true" symbol="Middel3"/>
+        <entry id="39" method="true" symbol="Middel2"/>
+        <entry id="38" method="true" symbol="Middel1"/>
         <entry field="true" id="25" symbol="midden"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry field="true" id="30" symbol="voorgrondlaag"/>
-        <entry id="43" method="true" symbol="TopLeftLayout"/>
         <entry field="true" id="14" symbol="achtergrondlaag"/>
         <entry field="true" id="12" symbol="aantalblokjes"/>
-        <entry id="38" method="true" symbol="Klein"/>
+        <entry id="36" method="true" symbol="Klein"/>
         <entry field="true" id="28" symbol="verschil"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry field="true" id="18" symbol="blokjeHHH"/>
         <entry field="true" id="8389166" symbol="COLOR_DK_GREEN"/>
-        <entry id="35" method="true" symbol="BottomLeftLayout"/>
-        <entry id="36" method="true" symbol="BottomRightLayout"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry field="true" id="26" symbol="robotoFont"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
@@ -307,10 +284,10 @@
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
         <entry field="true" id="16" symbol="blokjeH"/>
         <entry field="true" id="15" symbol="blokjeB"/>
-        <entry field="true" id="45" symbol="roboto_bold_120"/>
+        <entry field="true" id="42" symbol="roboto_bold_136"/>
+        <entry field="true" id="41" symbol="roboto_bold_120"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="11" symbol="V"/>
-        <entry id="44" method="true" symbol="TopRightLayout"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435812" name="info" stackId="1" startPc="268435536"/>
@@ -325,51 +302,35 @@
         <entry arg="true" endPc="268439081" name="dc" stackId="1" startPc="268439042"/>
         <entry arg="true" endPc="268439543" name="dc" stackId="1" startPc="268439195"/>
         <entry endPc="268439543" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439207"/>
-        <entry endPc="268439543" name="rez_cmp_local_custom_drawable_19838895851332734024" stackId="3" startPc="268439207"/>
+        <entry endPc="268439543" name="rez_cmp_local_custom_drawable_59195387112756409402" stackId="3" startPc="268439207"/>
         <entry endPc="268439543" name="rez_cmp_local_text_label" stackId="4" startPc="268439207"/>
         <entry endPc="268439543" name="rez_cmp_local_text_value" stackId="5" startPc="268439207"/>
         <entry arg="true" endPc="268439892" name="dc" stackId="1" startPc="268439544"/>
         <entry endPc="268439892" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439556"/>
-        <entry endPc="268439892" name="rez_cmp_local_custom_drawable_14298400301400712291" stackId="3" startPc="268439556"/>
+        <entry endPc="268439892" name="rez_cmp_local_custom_drawable_39665745261141257417" stackId="3" startPc="268439556"/>
         <entry endPc="268439892" name="rez_cmp_local_text_label" stackId="4" startPc="268439556"/>
         <entry endPc="268439892" name="rez_cmp_local_text_value" stackId="5" startPc="268439556"/>
-        <entry arg="true" endPc="268440193" name="dc" stackId="1" startPc="268439893"/>
-        <entry endPc="268440193" name="rez_cmp_local_custom_drawable_26992941755432355393" stackId="2" startPc="268439905"/>
-        <entry endPc="268440193" name="rez_cmp_local_text_label" stackId="3" startPc="268439905"/>
-        <entry endPc="268440193" name="rez_cmp_local_text_value" stackId="4" startPc="268439905"/>
-        <entry arg="true" endPc="268440494" name="dc" stackId="1" startPc="268440194"/>
-        <entry endPc="268440494" name="rez_cmp_local_custom_drawable_65848533318435987811" stackId="2" startPc="268440206"/>
-        <entry endPc="268440494" name="rez_cmp_local_text_label" stackId="3" startPc="268440206"/>
-        <entry endPc="268440494" name="rez_cmp_local_text_value" stackId="4" startPc="268440206"/>
-        <entry arg="true" endPc="268440843" name="dc" stackId="1" startPc="268440495"/>
-        <entry endPc="268440843" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268440507"/>
-        <entry endPc="268440843" name="rez_cmp_local_custom_drawable_60651228712254789628" stackId="3" startPc="268440507"/>
-        <entry endPc="268440843" name="rez_cmp_local_text_label" stackId="4" startPc="268440507"/>
-        <entry endPc="268440843" name="rez_cmp_local_text_value" stackId="5" startPc="268440507"/>
-        <entry arg="true" endPc="268441144" name="dc" stackId="1" startPc="268440844"/>
-        <entry endPc="268441144" name="rez_cmp_local_custom_drawable_18585489193112659381" stackId="2" startPc="268440856"/>
-        <entry endPc="268441144" name="rez_cmp_local_text_label" stackId="3" startPc="268440856"/>
-        <entry endPc="268441144" name="rez_cmp_local_text_value" stackId="4" startPc="268440856"/>
-        <entry arg="true" endPc="268441493" name="dc" stackId="1" startPc="268441145"/>
-        <entry endPc="268441493" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441157"/>
-        <entry endPc="268441493" name="rez_cmp_local_custom_drawable_76812879062777330720" stackId="3" startPc="268441157"/>
-        <entry endPc="268441493" name="rez_cmp_local_text_label" stackId="4" startPc="268441157"/>
-        <entry endPc="268441493" name="rez_cmp_local_text_value" stackId="5" startPc="268441157"/>
-        <entry arg="true" endPc="268441842" name="dc" stackId="1" startPc="268441494"/>
-        <entry endPc="268441842" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441506"/>
-        <entry endPc="268441842" name="rez_cmp_local_custom_drawable_87473601617215684648" stackId="3" startPc="268441506"/>
-        <entry endPc="268441842" name="rez_cmp_local_text_label" stackId="4" startPc="268441506"/>
-        <entry endPc="268441842" name="rez_cmp_local_text_value" stackId="5" startPc="268441506"/>
-        <entry arg="true" endPc="268442143" name="dc" stackId="1" startPc="268441843"/>
-        <entry endPc="268442143" name="rez_cmp_local_custom_drawable_90794205213841546293" stackId="2" startPc="268441855"/>
-        <entry endPc="268442143" name="rez_cmp_local_text_label" stackId="3" startPc="268441855"/>
-        <entry endPc="268442143" name="rez_cmp_local_text_value" stackId="4" startPc="268441855"/>
-        <entry arg="true" endPc="268442516" name="dc" stackId="1" startPc="268442144"/>
-        <entry endPc="268442516" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268442156"/>
-        <entry endPc="268442516" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268442156"/>
-        <entry endPc="268442516" name="rez_cmp_local_custom_drawable_77042451319949712281" stackId="4" startPc="268442156"/>
-        <entry endPc="268442516" name="rez_cmp_local_text_label" stackId="5" startPc="268442156"/>
-        <entry endPc="268442516" name="rez_cmp_local_text_value" stackId="6" startPc="268442156"/>
+        <entry arg="true" endPc="268440241" name="dc" stackId="1" startPc="268439893"/>
+        <entry endPc="268440241" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439905"/>
+        <entry endPc="268440241" name="rez_cmp_local_custom_drawable_23930959821056153411" stackId="3" startPc="268439905"/>
+        <entry endPc="268440241" name="rez_cmp_local_text_label" stackId="4" startPc="268439905"/>
+        <entry endPc="268440241" name="rez_cmp_local_text_value" stackId="5" startPc="268439905"/>
+        <entry arg="true" endPc="268440590" name="dc" stackId="1" startPc="268440242"/>
+        <entry endPc="268440590" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268440254"/>
+        <entry endPc="268440590" name="rez_cmp_local_custom_drawable_15439996031977511401" stackId="3" startPc="268440254"/>
+        <entry endPc="268440590" name="rez_cmp_local_text_label" stackId="4" startPc="268440254"/>
+        <entry endPc="268440590" name="rez_cmp_local_text_value" stackId="5" startPc="268440254"/>
+        <entry arg="true" endPc="268440939" name="dc" stackId="1" startPc="268440591"/>
+        <entry endPc="268440939" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268440603"/>
+        <entry endPc="268440939" name="rez_cmp_local_custom_drawable_12980871765530892871" stackId="3" startPc="268440603"/>
+        <entry endPc="268440939" name="rez_cmp_local_text_label" stackId="4" startPc="268440603"/>
+        <entry endPc="268440939" name="rez_cmp_local_text_value" stackId="5" startPc="268440603"/>
+        <entry arg="true" endPc="268441312" name="dc" stackId="1" startPc="268440940"/>
+        <entry endPc="268441312" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268440952"/>
+        <entry endPc="268441312" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268440952"/>
+        <entry endPc="268441312" name="rez_cmp_local_custom_drawable_34994264215625433106" stackId="4" startPc="268440952"/>
+        <entry endPc="268441312" name="rez_cmp_local_text_label" stackId="5" startPc="268440952"/>
+        <entry endPc="268441312" name="rez_cmp_local_text_value" stackId="6" startPc="268440952"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="roboto_bold_120"/>
@@ -390,6 +351,7 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayBarNee"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_BLACK"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="labelmetric"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="roboto_bold_136"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_ORANGE"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_DK_GRAY"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="COLOR_PINK"/>
@@ -407,10 +369,10 @@
         <dataEntry label="globals/SnelheidApp" offset="571" parentId="globals" symbolId="SnelheidApp" type="class"/>
         <dataEntry label="globals/Rez/Drawables" offset="642" parentId="Rez" symbolId="Drawables" type="module"/>
         <dataEntry label="globals/Rez/Layouts" offset="681" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="792" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="823" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="862" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="1085" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="760" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="791" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="838" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1061" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -494,35 +456,19 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440193" name="BottomRightLayout" parent="Layouts" startPc="268439893">
+        <functionEntry accessMode="public" endPc="268440241" name="Groot" parent="Layouts" startPc="268439893">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440494" name="TopRightLayout" parent="Layouts" startPc="268440194">
+        <functionEntry accessMode="public" endPc="268440590" name="Klein" parent="Layouts" startPc="268440242">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440843" name="Groot" parent="Layouts" startPc="268440495">
+        <functionEntry accessMode="public" endPc="268440939" name="Middel3" parent="Layouts" startPc="268440591">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441144" name="BottomLeftLayout" parent="Layouts" startPc="268440844">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268441493" name="Klein" parent="Layouts" startPc="268441145">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268441842" name="Middel3" parent="Layouts" startPc="268441494">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268442143" name="TopLeftLayout" parent="Layouts" startPc="268441843">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268442516" name="MainLayout" parent="Layouts" startPc="268442144">
+        <functionEntry accessMode="public" endPc="268441312" name="MainLayout" parent="Layouts" startPc="268440940">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

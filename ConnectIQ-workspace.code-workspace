@@ -8,10 +8,6 @@
 			"path": ".\\Snelheid"
 		},
 		{
-			"name": "Test",
-			"path": ".\\Test"
-		},
-		{
 			"name": "HeartRate",
 			"path": ".\\HeartRate"
 		},
@@ -28,8 +24,8 @@
 			"path": ".\\RadarLight"
 		},
 		{
-			"name": "Test",
-			"path": "Test/Test"
+			"name": "HeartZone",
+			"path": ".\\HeartZone"
 		}
 	],
 	"settings": {

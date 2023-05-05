@@ -2,28 +2,59 @@
 import Toybox.Graphics;
 [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 2; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 4; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 3; ]
+using Toybox.AntPlus;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 5; ]
 class RadarLightView extends WatchUi.View{
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 4; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 4; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 6; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 7; @position = 8; ]
+    var mijnList;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 9; ]
     function initialize() as Void {
-C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_6_26_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 7 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_9_26_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 10 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_6_26_stop:
-    }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 11; ]
-    function onLayout(dc as Dc) as Void {
-C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_11_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 11 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_9_26_start" "C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_9_26_stop" ]
+        %mLightNetworkListener.1 = local;
+        %tmp.6 = getm $.Toybox.AntPlus;
+        %tmp.7 = getv function ? %tmp.6 :LightNetworkListener;
+        %tmp.4 = newc %tmp.7 ();
+        lputv %mLightNetworkListener.1 %tmp.4;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 12 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_9_26_start" "C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_9_26_stop" ]
+        %mLightNetwork.2 = local;
+        %tmp.10 = getm $.Toybox.AntPlus;
+        %tmp.11 = getv function ? %tmp.10 :LightNetwork;
+        %tmp.13 = lgetv %mLightNetworkListener.1;
+        %tmp.8 = newc %tmp.11 (%tmp.13);
+        lputv %mLightNetwork.2 %tmp.8;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 13 8 ]
+        %tmp.14 = lgetv %mLightNetwork.2;
+        %tmp.15 = getv function %tmp.14 :getBikeLights;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        putv self :mijnList %tmp.16;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 14 8 ]
+        %tmp.18 = getv ? :System;
+        %tmp.19 = getv function %tmp.18 :println;
+        %tmp.20 = lgetv %mLightNetwork.2;
+        %tmp.21 = getv function %tmp.20 :getBikeLights;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        invoke %tmp.18 %tmp.19(%tmp.22);
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_9_26_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 20; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_20_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 21 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -32,22 +63,35 @@ C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_11_40_sta
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_11_40_stop:
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_20_40_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 18; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 27; ]
     function onShow() as Void {
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 22; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 31; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_22_40_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 24 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_31_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 33 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
-C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_22_40_stop:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc" 34 8 ]
+        %tmp.6 = lgetv %dc;
+        %tmp.7 = getv function %tmp.6 :drawText;
+        %tmp.8 = 10;
+        %tmp.9 = 10;
+        %tmp.10 = getm $.Toybox.Graphics;
+        %tmp.11 = getv %tmp.10 :FONT_TINY;
+        %tmp.13 = getv ? :mijnList;
+        %tmp.14 = getv function %tmp.13 :toString;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        %tmp.16 = getm $.Toybox.Graphics;
+        %tmp.17 = getv %tmp.16 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.6 %tmp.7(%tmp.8, %tmp.9, %tmp.11, %tmp.15, %tmp.17);
+C_Users_Ronnie_Documents_ConnectIQ_RadarLight_source_RadarLightView_mc_31_40_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 30; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\RadarLight\source\RadarLightView.mc"; @line = 45; ]
     function onHide() as Void {
     }
 }

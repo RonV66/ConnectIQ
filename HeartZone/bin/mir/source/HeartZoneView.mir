@@ -1,0 +1,825 @@
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 5; ]
+import Toybox.UserProfile;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 7; ]
+class HeartZoneView extends WatchUi.DataField{
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 9; @position = 15; ]
+    protected
+    var mValue as Float;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 10; @position = 15; ]
+    protected
+    var hartslag as Float;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 11; @position = 15; ]
+    protected
+    var heartRateZones as Array<Number>;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 12; @position = 15; ]
+    protected
+    var heartRateZone1 as Numeric;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 13; @position = 15; ]
+    protected
+    var heartRateZone2 as Numeric;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 14; @position = 15; ]
+    protected
+    var heartRateZone3 as Numeric;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 15; @position = 15; ]
+    protected
+    var heartRateZone4 as Numeric;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 16; @position = 15; ]
+    protected
+    var heartRateZone5 as Numeric;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 17; @position = 15; ]
+    protected
+    var currentZone;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 18; @position = 15; ]
+    protected
+    var labelView;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 19; @position = 15; ]
+    protected
+    var valueView;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 21; ]
+    function initialize() as Void {
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_21_26_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 22 8 ]
+        %tmp.2 = getv ? :DataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 23 8 ]
+        %tmp.4 = 0.0f;
+        putv self :mValue %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 24 8 ]
+        %tmp.5 = 0.0f;
+        putv self :hartslag %tmp.5;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 25 8 ]
+        %tmp.6 = 0;
+        putv self :currentZone %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 26 8 ]
+        %tmp.7 = getm $.Toybox.UserProfile;
+        %tmp.8 = getv function %tmp.7 :getHeartRateZones;
+        %tmp.9 = getm $.Toybox.UserProfile;
+        %tmp.10 = getv function %tmp.9 :getCurrentSport;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = invoke %tmp.7 %tmp.8(%tmp.11);
+        putv self :heartRateZones %tmp.12;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 27 8 ]
+        %tmp.14 = getv ? :heartRateZones;
+        %tmp.15 = 1;
+        %tmp.16 = agetv %tmp.14 %tmp.15;
+        %tmp.18 = getv ? :heartRateZones;
+        %tmp.19 = 0;
+        %tmp.20 = agetv %tmp.18 %tmp.19;
+        %tmp.21 = sub %tmp.16 %tmp.20;
+        putv self :heartRateZone1 %tmp.21;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 28 8 ]
+        %tmp.23 = getv ? :heartRateZones;
+        %tmp.24 = 2;
+        %tmp.25 = agetv %tmp.23 %tmp.24;
+        %tmp.27 = getv ? :heartRateZones;
+        %tmp.28 = 1;
+        %tmp.29 = agetv %tmp.27 %tmp.28;
+        %tmp.30 = sub %tmp.25 %tmp.29;
+        putv self :heartRateZone2 %tmp.30;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 29 8 ]
+        %tmp.32 = getv ? :heartRateZones;
+        %tmp.33 = 3;
+        %tmp.34 = agetv %tmp.32 %tmp.33;
+        %tmp.36 = getv ? :heartRateZones;
+        %tmp.37 = 2;
+        %tmp.38 = agetv %tmp.36 %tmp.37;
+        %tmp.39 = sub %tmp.34 %tmp.38;
+        putv self :heartRateZone3 %tmp.39;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 30 8 ]
+        %tmp.41 = getv ? :heartRateZones;
+        %tmp.42 = 4;
+        %tmp.43 = agetv %tmp.41 %tmp.42;
+        %tmp.45 = getv ? :heartRateZones;
+        %tmp.46 = 3;
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.48 = sub %tmp.43 %tmp.47;
+        putv self :heartRateZone4 %tmp.48;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 31 8 ]
+        %tmp.50 = getv ? :heartRateZones;
+        %tmp.51 = 5;
+        %tmp.52 = agetv %tmp.50 %tmp.51;
+        %tmp.54 = getv ? :heartRateZones;
+        %tmp.55 = 4;
+        %tmp.56 = agetv %tmp.54 %tmp.55;
+        %tmp.57 = sub %tmp.52 %tmp.56;
+        putv self :heartRateZone5 %tmp.57;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_21_26_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 36; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_36_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 37 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_36_40_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_36_40_stop" ]
+        %hoogte.1 = local;
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :getHeight;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %hoogte.1 %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 39 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_39_8_if_stmt:
+        %tmp.5 = lgetv %hoogte.1;
+        %tmp.6 = 75;
+        %tmp.7 = lt %tmp.5 %tmp.6;
+        bf %tmp.7 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_39_8_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_39_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_39_25_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 40 12 ]
+        %tmp.9 = getv ? :View;
+        %tmp.10 = getv function %tmp.9 :setLayout;
+        %tmp.12 = getv ? :Rez;
+        %tmp.13 = getv %tmp.12 :Layouts;
+        %tmp.14 = getv function %tmp.13 :Middel1;
+        %tmp.16 = lgetv %dc;
+        %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
+        invoke %tmp.9 %tmp.10(%tmp.17);
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_39_25_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_39_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_39_8_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 41 15 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_15_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_19_begin:
+        %tmp.19 = lgetv %hoogte.1;
+        %tmp.20 = 75;
+        %tmp.21 = gte %tmp.19 %tmp.20;
+        %tmp.22 = dup %tmp.21;
+        bf %tmp.22 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_38_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_38_true:
+        %tmp.24 = lgetv %hoogte.1;
+        %tmp.25 = 100;
+        %tmp.26 = lt %tmp.24 %tmp.25;
+        %tmp.27 = and %tmp.21 %tmp.26;
+        push %tmp.27;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_38_end:
+        %tmp.28 = phi [%tmp.22 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_19_begin] [%tmp.27 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_38_true] [%tmp.28 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_38_end];
+        bf %tmp.28 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_15_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_15_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_54_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 42 12 ]
+        %tmp.30 = getv ? :View;
+        %tmp.31 = getv function %tmp.30 :setLayout;
+        %tmp.33 = getv ? :Rez;
+        %tmp.34 = getv %tmp.33 :Layouts;
+        %tmp.35 = getv function %tmp.34 :Middel2;
+        %tmp.37 = lgetv %dc;
+        %tmp.38 = invoke %tmp.34 %tmp.35(%tmp.37);
+        invoke %tmp.30 %tmp.31(%tmp.38);
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_54_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_15_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_15_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 43 15 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_43_15_if_stmt:
+        %tmp.40 = lgetv %hoogte.1;
+        %tmp.41 = 100;
+        %tmp.42 = gte %tmp.40 %tmp.41;
+        bf %tmp.42 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_43_15_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_43_15_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_43_34_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 44 12 ]
+        %tmp.44 = getv ? :View;
+        %tmp.45 = getv function %tmp.44 :setLayout;
+        %tmp.47 = getv ? :Rez;
+        %tmp.48 = getv %tmp.47 :Layouts;
+        %tmp.49 = getv function %tmp.48 :Groot;
+        %tmp.51 = lgetv %dc;
+        %tmp.52 = invoke %tmp.48 %tmp.49(%tmp.51);
+        invoke %tmp.44 %tmp.45(%tmp.52);
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_43_34_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_43_15_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_43_15_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_41_15_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_39_8_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 47 8 ]
+        %tmp.54 = getv ? :View;
+        %tmp.55 = getv function %tmp.54 :findDrawableById;
+        %tmp.56 = "value";
+        %tmp.57 = invoke %tmp.54 %tmp.55(%tmp.56);
+        putv self :valueView %tmp.57;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 48 8 ]
+        %tmp.58 = getv self :valueView;
+        %tmp.60 = getv ? :valueView;
+        %tmp.61 = getv %tmp.60 :locY;
+        %tmp.62 = 10;
+        %tmp.63 = add %tmp.61 %tmp.62;
+        putv %tmp.58 :locY %tmp.63;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 51 8 ]
+        %tmp.65 = getv ? :View;
+        %tmp.66 = getv function %tmp.65 :findDrawableById;
+        %tmp.67 = "label";
+        %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
+        %tmp.69 = as %tmp.68 Text;
+        putv self :labelView %tmp.69;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 52 8 ]
+        %tmp.71 = getv ? :labelView;
+        %tmp.72 = getv function %tmp.71 :setText;
+        %tmp.74 = getv ? :Rez;
+        %tmp.75 = getv %tmp.74 :Strings;
+        %tmp.76 = getv %tmp.75 :label;
+        invoke %tmp.71 %tmp.72(%tmp.76);
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_36_40_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 59; ]
+    function compute(info as Activity.Info) as Void {
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_59_52_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 61 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_61_8_if_stmt:
+        %tmp.2 = lgetv %info;
+        %tmp.4 = const :currentHeartRate;
+        %tmp.5 = canhazplz %tmp.2 %tmp.4;
+        bf %tmp.5 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_61_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_61_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_61_38_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 62 12 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_62_12_if_stmt:
+        %tmp.6 = lgetv %info;
+        %tmp.7 = as %tmp.6 { (interface { var currentHeartRate; }) };
+        %tmp.8 = getv %tmp.7 :currentHeartRate;
+        %tmp.9 = null;
+        %tmp.10 = ne %tmp.8 %tmp.9;
+        bf %tmp.10 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_62_12_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_62_12_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_62_46_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 63 16 ]
+        %tmp.11 = lgetv %info;
+        %tmp.12 = as %tmp.11 { (interface { var currentHeartRate; }) };
+        %tmp.13 = getv %tmp.12 :currentHeartRate;
+        %tmp.14 = as %tmp.13 Float;
+        putv self :hartslag %tmp.14;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 65 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_65_16_if_stmt:
+        %tmp.16 = getv ? :hartslag;
+        %tmp.18 = getv ? :heartRateZones;
+        %tmp.19 = 0;
+        %tmp.20 = agetv %tmp.18 %tmp.19;
+        %tmp.21 = lt %tmp.16 %tmp.20;
+        bf %tmp.21 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_65_16_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_65_16_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_65_50_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 65 51 ]
+        %tmp.22 = 0;
+        putv self :currentZone %tmp.22;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 65 68 ]
+        %tmp.23 = 0.0f;
+        putv self :mValue %tmp.23;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_65_50_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_65_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_65_16_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 66 21 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_21_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_25_begin:
+        %tmp.25 = getv ? :hartslag;
+        %tmp.27 = getv ? :heartRateZones;
+        %tmp.28 = 0;
+        %tmp.29 = agetv %tmp.27 %tmp.28;
+        %tmp.30 = gte %tmp.25 %tmp.29;
+        %tmp.31 = dup %tmp.30;
+        bf %tmp.31 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_61_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_61_true:
+        %tmp.33 = getv ? :hartslag;
+        %tmp.35 = getv ? :heartRateZones;
+        %tmp.36 = 1;
+        %tmp.37 = agetv %tmp.35 %tmp.36;
+        %tmp.38 = lt %tmp.33 %tmp.37;
+        %tmp.39 = and %tmp.30 %tmp.38;
+        push %tmp.39;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_61_end:
+        %tmp.40 = phi [%tmp.31 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_25_begin] [%tmp.39 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_61_true] [%tmp.40 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_61_end];
+        bf %tmp.40 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_21_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_21_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_93_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 66 94 ]
+        %tmp.41 = 1;
+        putv self :currentZone %tmp.41;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 66 111 ]
+        %tmp.43 = getv ? :currentZone;
+        %tmp.44 = getv function %tmp.43 :toFloat;
+        %tmp.45 = invoke %tmp.43 %tmp.44();
+        %tmp.47 = getv ? :hartslag;
+        %tmp.48 = getv function %tmp.47 :toFloat;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        %tmp.51 = getv ? :heartRateZones;
+        %tmp.52 = 0;
+        %tmp.53 = agetv %tmp.51 %tmp.52;
+        %tmp.54 = getv function %tmp.53 :toFloat;
+        %tmp.55 = invoke %tmp.53 %tmp.54();
+        %tmp.56 = sub %tmp.49 %tmp.55;
+        %tmp.58 = getv ? :heartRateZone1;
+        %tmp.59 = getv function %tmp.58 :toFloat;
+        %tmp.60 = invoke %tmp.58 %tmp.59();
+        %tmp.61 = div %tmp.56 %tmp.60;
+        %tmp.62 = add %tmp.45 %tmp.61;
+        putv self :mValue %tmp.62;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_93_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_21_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_21_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 67 21 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_21_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_25_begin:
+        %tmp.64 = getv ? :hartslag;
+        %tmp.66 = getv ? :heartRateZones;
+        %tmp.67 = 1;
+        %tmp.68 = agetv %tmp.66 %tmp.67;
+        %tmp.69 = gte %tmp.64 %tmp.68;
+        %tmp.70 = dup %tmp.69;
+        bf %tmp.70 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_61_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_61_true:
+        %tmp.72 = getv ? :hartslag;
+        %tmp.74 = getv ? :heartRateZones;
+        %tmp.75 = 2;
+        %tmp.76 = agetv %tmp.74 %tmp.75;
+        %tmp.77 = lt %tmp.72 %tmp.76;
+        %tmp.78 = and %tmp.69 %tmp.77;
+        push %tmp.78;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_61_end:
+        %tmp.79 = phi [%tmp.70 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_25_begin] [%tmp.78 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_61_true] [%tmp.79 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_61_end];
+        bf %tmp.79 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_21_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_21_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_93_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 67 94 ]
+        %tmp.80 = 2;
+        putv self :currentZone %tmp.80;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 67 111 ]
+        %tmp.82 = getv ? :currentZone;
+        %tmp.83 = getv function %tmp.82 :toFloat;
+        %tmp.84 = invoke %tmp.82 %tmp.83();
+        %tmp.86 = getv ? :hartslag;
+        %tmp.87 = getv function %tmp.86 :toFloat;
+        %tmp.88 = invoke %tmp.86 %tmp.87();
+        %tmp.90 = getv ? :heartRateZones;
+        %tmp.91 = 1;
+        %tmp.92 = agetv %tmp.90 %tmp.91;
+        %tmp.93 = getv function %tmp.92 :toFloat;
+        %tmp.94 = invoke %tmp.92 %tmp.93();
+        %tmp.95 = sub %tmp.88 %tmp.94;
+        %tmp.97 = getv ? :heartRateZone2;
+        %tmp.98 = getv function %tmp.97 :toFloat;
+        %tmp.99 = invoke %tmp.97 %tmp.98();
+        %tmp.100 = div %tmp.95 %tmp.99;
+        %tmp.101 = add %tmp.84 %tmp.100;
+        putv self :mValue %tmp.101;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_93_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_21_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_21_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 68 21 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_21_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_25_begin:
+        %tmp.103 = getv ? :hartslag;
+        %tmp.105 = getv ? :heartRateZones;
+        %tmp.106 = 2;
+        %tmp.107 = agetv %tmp.105 %tmp.106;
+        %tmp.108 = gte %tmp.103 %tmp.107;
+        %tmp.109 = dup %tmp.108;
+        bf %tmp.109 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_61_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_61_true:
+        %tmp.111 = getv ? :hartslag;
+        %tmp.113 = getv ? :heartRateZones;
+        %tmp.114 = 3;
+        %tmp.115 = agetv %tmp.113 %tmp.114;
+        %tmp.116 = lt %tmp.111 %tmp.115;
+        %tmp.117 = and %tmp.108 %tmp.116;
+        push %tmp.117;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_61_end:
+        %tmp.118 = phi [%tmp.109 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_25_begin] [%tmp.117 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_61_true] [%tmp.118 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_61_end];
+        bf %tmp.118 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_21_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_21_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_93_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 68 94 ]
+        %tmp.119 = 3;
+        putv self :currentZone %tmp.119;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 68 111 ]
+        %tmp.121 = getv ? :currentZone;
+        %tmp.122 = getv function %tmp.121 :toFloat;
+        %tmp.123 = invoke %tmp.121 %tmp.122();
+        %tmp.125 = getv ? :hartslag;
+        %tmp.126 = getv function %tmp.125 :toFloat;
+        %tmp.127 = invoke %tmp.125 %tmp.126();
+        %tmp.129 = getv ? :heartRateZones;
+        %tmp.130 = 2;
+        %tmp.131 = agetv %tmp.129 %tmp.130;
+        %tmp.132 = getv function %tmp.131 :toFloat;
+        %tmp.133 = invoke %tmp.131 %tmp.132();
+        %tmp.134 = sub %tmp.127 %tmp.133;
+        %tmp.136 = getv ? :heartRateZone3;
+        %tmp.137 = getv function %tmp.136 :toFloat;
+        %tmp.138 = invoke %tmp.136 %tmp.137();
+        %tmp.139 = div %tmp.134 %tmp.138;
+        %tmp.140 = add %tmp.123 %tmp.139;
+        putv self :mValue %tmp.140;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_93_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_21_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_21_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 69 21 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_21_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_25_begin:
+        %tmp.142 = getv ? :hartslag;
+        %tmp.144 = getv ? :heartRateZones;
+        %tmp.145 = 3;
+        %tmp.146 = agetv %tmp.144 %tmp.145;
+        %tmp.147 = gte %tmp.142 %tmp.146;
+        %tmp.148 = dup %tmp.147;
+        bf %tmp.148 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_61_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_61_true:
+        %tmp.150 = getv ? :hartslag;
+        %tmp.152 = getv ? :heartRateZones;
+        %tmp.153 = 4;
+        %tmp.154 = agetv %tmp.152 %tmp.153;
+        %tmp.155 = lt %tmp.150 %tmp.154;
+        %tmp.156 = and %tmp.147 %tmp.155;
+        push %tmp.156;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_61_end:
+        %tmp.157 = phi [%tmp.148 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_25_begin] [%tmp.156 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_61_true] [%tmp.157 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_61_end];
+        bf %tmp.157 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_21_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_21_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_93_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 69 94 ]
+        %tmp.158 = 4;
+        putv self :currentZone %tmp.158;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 69 111 ]
+        %tmp.160 = getv ? :currentZone;
+        %tmp.161 = getv function %tmp.160 :toFloat;
+        %tmp.162 = invoke %tmp.160 %tmp.161();
+        %tmp.164 = getv ? :hartslag;
+        %tmp.165 = getv function %tmp.164 :toFloat;
+        %tmp.166 = invoke %tmp.164 %tmp.165();
+        %tmp.168 = getv ? :heartRateZones;
+        %tmp.169 = 3;
+        %tmp.170 = agetv %tmp.168 %tmp.169;
+        %tmp.171 = getv function %tmp.170 :toFloat;
+        %tmp.172 = invoke %tmp.170 %tmp.171();
+        %tmp.173 = sub %tmp.166 %tmp.172;
+        %tmp.175 = getv ? :heartRateZone4;
+        %tmp.176 = getv function %tmp.175 :toFloat;
+        %tmp.177 = invoke %tmp.175 %tmp.176();
+        %tmp.178 = div %tmp.173 %tmp.177;
+        %tmp.179 = add %tmp.162 %tmp.178;
+        putv self :mValue %tmp.179;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_93_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_21_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_21_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 70 21 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_21_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_25_begin:
+        %tmp.181 = getv ? :hartslag;
+        %tmp.183 = getv ? :heartRateZones;
+        %tmp.184 = 4;
+        %tmp.185 = agetv %tmp.183 %tmp.184;
+        %tmp.186 = gte %tmp.181 %tmp.185;
+        %tmp.187 = dup %tmp.186;
+        bf %tmp.187 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_61_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_61_true:
+        %tmp.189 = getv ? :hartslag;
+        %tmp.191 = getv ? :heartRateZones;
+        %tmp.192 = 5;
+        %tmp.193 = agetv %tmp.191 %tmp.192;
+        %tmp.194 = lt %tmp.189 %tmp.193;
+        %tmp.195 = and %tmp.186 %tmp.194;
+        push %tmp.195;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_61_end:
+        %tmp.196 = phi [%tmp.187 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_25_begin] [%tmp.195 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_61_true] [%tmp.196 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_61_end];
+        bf %tmp.196 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_21_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_21_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_93_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 70 94 ]
+        %tmp.197 = 5;
+        putv self :currentZone %tmp.197;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 70 111 ]
+        %tmp.199 = getv ? :currentZone;
+        %tmp.200 = getv function %tmp.199 :toFloat;
+        %tmp.201 = invoke %tmp.199 %tmp.200();
+        %tmp.203 = getv ? :hartslag;
+        %tmp.204 = getv function %tmp.203 :toFloat;
+        %tmp.205 = invoke %tmp.203 %tmp.204();
+        %tmp.207 = getv ? :heartRateZones;
+        %tmp.208 = 4;
+        %tmp.209 = agetv %tmp.207 %tmp.208;
+        %tmp.210 = getv function %tmp.209 :toFloat;
+        %tmp.211 = invoke %tmp.209 %tmp.210();
+        %tmp.212 = sub %tmp.205 %tmp.211;
+        %tmp.214 = getv ? :heartRateZone5;
+        %tmp.215 = getv function %tmp.214 :toFloat;
+        %tmp.216 = invoke %tmp.214 %tmp.215();
+        %tmp.217 = div %tmp.212 %tmp.216;
+        %tmp.218 = add %tmp.201 %tmp.217;
+        putv self :mValue %tmp.218;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_93_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_21_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_21_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 71 21 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_71_21_if_stmt:
+        %tmp.220 = getv ? :hartslag;
+        %tmp.222 = getv ? :heartRateZones;
+        %tmp.223 = 5;
+        %tmp.224 = agetv %tmp.222 %tmp.223;
+        %tmp.225 = gt %tmp.220 %tmp.224;
+        bf %tmp.225 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_71_21_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_71_21_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_71_55_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 71 56 ]
+        %tmp.226 = 6;
+        putv self :currentZone %tmp.226;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 71 73 ]
+        %tmp.227 = 6.0;
+        putv self :hartslag %tmp.227;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_71_55_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_71_21_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_71_21_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_70_21_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_69_21_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_68_21_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_67_21_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_66_21_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_65_16_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_62_46_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_62_12_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_62_12_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_72_19_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 73 16 ]
+        %tmp.228 = 0;
+        putv self :currentZone %tmp.228;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 74 16 ]
+        %tmp.229 = 0.0f;
+        putv self :mValue %tmp.229;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_72_19_stop:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_62_12_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 76 12 ]
+        %tmp.231 = getv ? :System;
+        %tmp.232 = getv function %tmp.231 :print;
+        %tmp.234 = getv ? :mValue;
+        %tmp.235 = "-";
+        %tmp.236 = add %tmp.234 %tmp.235;
+        invoke %tmp.231 %tmp.232(%tmp.236);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 78 12 ]
+        %tmp.238 = getv ? :System;
+        %tmp.239 = getv function %tmp.238 :println;
+        %tmp.241 = getv ? :hartslag;
+        invoke %tmp.238 %tmp.239(%tmp.241);
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_61_38_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_61_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_61_8_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_59_52_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 84; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_84_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 86 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_84_40_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_84_40_stop" ]
+        %achtergrond.1 = local;
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "Background";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Text;
+        lputv %achtergrond.1 %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 88 8 ]
+        %tmp.8 = getv ? :currentZone;
+        push %tmp.8;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_switchCaseBegin:
+        %tmp.9 = dup %tmp.8;
+        %tmp.10 = 0;
+        %tmp.11 = getv function %tmp.9 :equals;
+        %tmp.12 = invoke %tmp.9 %tmp.11 (%tmp.10);
+        bt %tmp.12 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_89_12;
+        %tmp.13 = dup %tmp.8;
+        %tmp.14 = 1;
+        %tmp.15 = getv function %tmp.13 :equals;
+        %tmp.16 = invoke %tmp.13 %tmp.15 (%tmp.14);
+        bt %tmp.16 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_99_12;
+        %tmp.17 = dup %tmp.8;
+        %tmp.18 = 2;
+        %tmp.19 = getv function %tmp.17 :equals;
+        %tmp.20 = invoke %tmp.17 %tmp.19 (%tmp.18);
+        bt %tmp.20 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_104_12;
+        %tmp.21 = dup %tmp.8;
+        %tmp.22 = 3;
+        %tmp.23 = getv function %tmp.21 :equals;
+        %tmp.24 = invoke %tmp.21 %tmp.23 (%tmp.22);
+        bt %tmp.24 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_109_12;
+        %tmp.25 = dup %tmp.8;
+        %tmp.26 = 4;
+        %tmp.27 = getv function %tmp.25 :equals;
+        %tmp.28 = invoke %tmp.25 %tmp.27 (%tmp.26);
+        bt %tmp.28 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_114_12;
+        %tmp.29 = dup %tmp.8;
+        %tmp.30 = 5;
+        %tmp.31 = getv function %tmp.29 :equals;
+        %tmp.32 = invoke %tmp.29 %tmp.31 (%tmp.30);
+        bt %tmp.32 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_119_12;
+        %tmp.33 = dup %tmp.8;
+        %tmp.34 = 6;
+        %tmp.35 = getv function %tmp.33 :equals;
+        %tmp.36 = invoke %tmp.33 %tmp.35 (%tmp.34);
+        bt %tmp.36 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_124_12;
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_defaultCodeBegin;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_89_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 90 16 ]
+        %tmp.37 = lgetv %achtergrond.1;
+        %tmp.38 = getv function %tmp.37 :setColor;
+        %tmp.39 = self;
+        %tmp.40 = getv function %tmp.39 :getBackgroundColor;
+        %tmp.41 = invoke %tmp.39 %tmp.40();
+        invoke %tmp.37 %tmp.38(%tmp.41);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 91 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_91_16_if_stmt:
+        %tmp.42 = self;
+        %tmp.43 = getv function %tmp.42 :getBackgroundColor;
+        %tmp.44 = invoke %tmp.42 %tmp.43();
+        %tmp.45 = getm $.Toybox.Graphics;
+        %tmp.46 = getv %tmp.45 :COLOR_BLACK;
+        %tmp.47 = eq %tmp.44 %tmp.46;
+        bf %tmp.47 @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_91_16_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_91_16_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_91_66_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 92 20 ]
+        %tmp.49 = getv ? :labelView;
+        %tmp.50 = getv function %tmp.49 :setColor;
+        %tmp.51 = getm $.Toybox.Graphics;
+        %tmp.52 = getv %tmp.51 :COLOR_WHITE;
+        invoke %tmp.49 %tmp.50(%tmp.52);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 93 20 ]
+        %tmp.54 = getv ? :valueView;
+        %tmp.55 = getv function %tmp.54 :setColor;
+        %tmp.56 = getm $.Toybox.Graphics;
+        %tmp.57 = getv %tmp.56 :COLOR_WHITE;
+        invoke %tmp.54 %tmp.55(%tmp.57);
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_91_66_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_91_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_91_16_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_94_23_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 95 20 ]
+        %tmp.59 = getv ? :labelView;
+        %tmp.60 = getv function %tmp.59 :setColor;
+        %tmp.61 = getm $.Toybox.Graphics;
+        %tmp.62 = getv %tmp.61 :COLOR_BLACK;
+        invoke %tmp.59 %tmp.60(%tmp.62);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 96 20 ]
+        %tmp.64 = getv ? :valueView;
+        %tmp.65 = getv function %tmp.64 :setColor;
+        %tmp.66 = getm $.Toybox.Graphics;
+        %tmp.67 = getv %tmp.66 :COLOR_BLACK;
+        invoke %tmp.64 %tmp.65(%tmp.67);
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_94_23_stop:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_91_16_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 98 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_99_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 100 16 ]
+        %tmp.68 = lgetv %achtergrond.1;
+        %tmp.69 = getv function %tmp.68 :setColor;
+        %tmp.70 = getm $.Toybox.Graphics;
+        %tmp.71 = getv %tmp.70 :COLOR_LT_GRAY;
+        invoke %tmp.68 %tmp.69(%tmp.71);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 101 16 ]
+        %tmp.73 = getv ? :labelView;
+        %tmp.74 = getv function %tmp.73 :setColor;
+        %tmp.75 = getm $.Toybox.Graphics;
+        %tmp.76 = getv %tmp.75 :COLOR_WHITE;
+        invoke %tmp.73 %tmp.74(%tmp.76);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 102 16 ]
+        %tmp.78 = getv ? :valueView;
+        %tmp.79 = getv function %tmp.78 :setColor;
+        %tmp.80 = getm $.Toybox.Graphics;
+        %tmp.81 = getv %tmp.80 :COLOR_WHITE;
+        invoke %tmp.78 %tmp.79(%tmp.81);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 103 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_104_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 105 16 ]
+        %tmp.82 = lgetv %achtergrond.1;
+        %tmp.83 = getv function %tmp.82 :setColor;
+        %tmp.84 = getm $.Toybox.Graphics;
+        %tmp.85 = getv %tmp.84 :COLOR_DK_BLUE;
+        invoke %tmp.82 %tmp.83(%tmp.85);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 106 16 ]
+        %tmp.87 = getv ? :labelView;
+        %tmp.88 = getv function %tmp.87 :setColor;
+        %tmp.89 = getm $.Toybox.Graphics;
+        %tmp.90 = getv %tmp.89 :COLOR_WHITE;
+        invoke %tmp.87 %tmp.88(%tmp.90);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 107 16 ]
+        %tmp.92 = getv ? :valueView;
+        %tmp.93 = getv function %tmp.92 :setColor;
+        %tmp.94 = getm $.Toybox.Graphics;
+        %tmp.95 = getv %tmp.94 :COLOR_WHITE;
+        invoke %tmp.92 %tmp.93(%tmp.95);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 108 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_109_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 110 16 ]
+        %tmp.96 = lgetv %achtergrond.1;
+        %tmp.97 = getv function %tmp.96 :setColor;
+        %tmp.98 = getm $.Toybox.Graphics;
+        %tmp.99 = getv %tmp.98 :COLOR_DK_GREEN;
+        invoke %tmp.96 %tmp.97(%tmp.99);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 111 16 ]
+        %tmp.101 = getv ? :labelView;
+        %tmp.102 = getv function %tmp.101 :setColor;
+        %tmp.103 = getm $.Toybox.Graphics;
+        %tmp.104 = getv %tmp.103 :COLOR_WHITE;
+        invoke %tmp.101 %tmp.102(%tmp.104);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 112 16 ]
+        %tmp.106 = getv ? :valueView;
+        %tmp.107 = getv function %tmp.106 :setColor;
+        %tmp.108 = getm $.Toybox.Graphics;
+        %tmp.109 = getv %tmp.108 :COLOR_WHITE;
+        invoke %tmp.106 %tmp.107(%tmp.109);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 113 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_114_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 115 16 ]
+        %tmp.110 = lgetv %achtergrond.1;
+        %tmp.111 = getv function %tmp.110 :setColor;
+        %tmp.112 = 0xFAA918;
+        invoke %tmp.110 %tmp.111(%tmp.112);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 116 16 ]
+        %tmp.114 = getv ? :labelView;
+        %tmp.115 = getv function %tmp.114 :setColor;
+        %tmp.116 = getm $.Toybox.Graphics;
+        %tmp.117 = getv %tmp.116 :COLOR_WHITE;
+        invoke %tmp.114 %tmp.115(%tmp.117);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 117 16 ]
+        %tmp.119 = getv ? :valueView;
+        %tmp.120 = getv function %tmp.119 :setColor;
+        %tmp.121 = getm $.Toybox.Graphics;
+        %tmp.122 = getv %tmp.121 :COLOR_WHITE;
+        invoke %tmp.119 %tmp.120(%tmp.122);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 118 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_119_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 120 16 ]
+        %tmp.123 = lgetv %achtergrond.1;
+        %tmp.124 = getv function %tmp.123 :setColor;
+        %tmp.125 = getm $.Toybox.Graphics;
+        %tmp.126 = getv %tmp.125 :COLOR_RED;
+        invoke %tmp.123 %tmp.124(%tmp.126);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 121 16 ]
+        %tmp.128 = getv ? :labelView;
+        %tmp.129 = getv function %tmp.128 :setColor;
+        %tmp.130 = getm $.Toybox.Graphics;
+        %tmp.131 = getv %tmp.130 :COLOR_WHITE;
+        invoke %tmp.128 %tmp.129(%tmp.131);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 122 16 ]
+        %tmp.133 = getv ? :valueView;
+        %tmp.134 = getv function %tmp.133 :setColor;
+        %tmp.135 = getm $.Toybox.Graphics;
+        %tmp.136 = getv %tmp.135 :COLOR_WHITE;
+        invoke %tmp.133 %tmp.134(%tmp.136);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 123 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_124_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 125 16 ]
+        %tmp.137 = lgetv %achtergrond.1;
+        %tmp.138 = getv function %tmp.137 :setColor;
+        %tmp.139 = getm $.Toybox.Graphics;
+        %tmp.140 = getv %tmp.139 :COLOR_DK_RED;
+        invoke %tmp.137 %tmp.138(%tmp.140);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 126 16 ]
+        %tmp.142 = getv ? :labelView;
+        %tmp.143 = getv function %tmp.142 :setColor;
+        %tmp.144 = getm $.Toybox.Graphics;
+        %tmp.145 = getv %tmp.144 :COLOR_WHITE;
+        invoke %tmp.142 %tmp.143(%tmp.145);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 127 16 ]
+        %tmp.147 = getv ? :valueView;
+        %tmp.148 = getv function %tmp.147 :setColor;
+        %tmp.149 = getm $.Toybox.Graphics;
+        %tmp.150 = getv %tmp.149 :COLOR_WHITE;
+        invoke %tmp.147 %tmp.148(%tmp.150);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 128 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_defaultCodeBegin:
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_88_8_switchCaseEnd:
+        pop;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 131 8 ]
+        %tmp.152 = getv ? :valueView;
+        %tmp.153 = getv function %tmp.152 :setText;
+        %tmp.155 = getv ? :mValue;
+        %tmp.156 = getv function %tmp.155 :format;
+        %tmp.157 = "%.1f";
+        %tmp.158 = invoke %tmp.155 %tmp.156(%tmp.157);
+        invoke %tmp.152 %tmp.153(%tmp.158);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc" 134 8 ]
+        %tmp.160 = getv ? :View;
+        %tmp.161 = getv function %tmp.160 :onUpdate;
+        %tmp.163 = lgetv %dc;
+        invoke %tmp.160 %tmp.161(%tmp.163);
+C_Users_Ronnie_Documents_ConnectIQ_HeartZone_source_HeartZoneView_mc_84_40_stop:
+    }
+}
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartZone\source\HeartZoneView.mc"; @line = 1; ]
+<init> {
+}

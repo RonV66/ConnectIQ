@@ -391,7 +391,7 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_source_PowerDataFieldView_mc_9
         %tmp.73 = getv function %tmp.72 :loadResource;
         %tmp.75 = getv ? :Rez;
         %tmp.76 = getv %tmp.75 :Fonts;
-        %tmp.77 = getv %tmp.76 :roboto_bold_120;
+        %tmp.77 = getv %tmp.76 :roboto_bold_136;
         %tmp.78 = invoke %tmp.72 %tmp.73(%tmp.77);
         putv self :robotoFont %tmp.78;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\source\PowerDataFieldView.mc" 97 12 ]

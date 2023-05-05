@@ -93,7 +93,7 @@ class PowerDataFieldView extends WatchUi.DataField {
         valueView.locY = valueView.locY + 10;
 
         if (hoogte >= 160) {
-            robotoFont = WatchUi.loadResource(Rez.Fonts.roboto_bold_120);
+            robotoFont = WatchUi.loadResource(Rez.Fonts.roboto_bold_136);
             valueView.setFont(robotoFont);
             valueView.locX = breedte / 2;
             valueView.locY = (hoogte / 2) - (dc.getFontHeight(robotoFont) / 2);

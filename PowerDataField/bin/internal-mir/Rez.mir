@@ -1,63 +1,65 @@
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 12; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 12; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 12; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
         var roboto_bold_120 as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var roboto_bold_136 as Symbol;
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 16; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 17; ]
     module JsonData {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 16; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 17; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 19; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 20; ]
     module Layouts {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 19; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 20; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 20; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 21; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 21 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 22 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 23 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
-            %rez_cmp_local_custom_drawable_19354966441171381249.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 24 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_stop" ]
+            %rez_cmp_local_custom_drawable_20406886191573491952.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_19354966441171381249.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 25 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+            lputv %rez_cmp_local_custom_drawable_20406886191573491952.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 26 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -94,8 +96,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 27 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 28 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -132,8 +134,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.91 = aputv %tmp.90 %tmp.87 %tmp.89;
             %tmp.50 = newc %tmp.53 (%tmp.91);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 29 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 30 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.94 = getm $.Toybox.WatchUi;
             %tmp.95 = getv function ? %tmp.94 :Text;
@@ -169,9 +171,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.131 = aputv %tmp.130 %tmp.127 %tmp.129;
             %tmp.92 = newc %tmp.95 (%tmp.131);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.92;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 31 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 32 12 ]
             %tmp.132 = newa Array<WatchUi.Drawable> 4;
-            %tmp.134 = lgetv %rez_cmp_local_custom_drawable_19354966441171381249.2;
+            %tmp.134 = lgetv %rez_cmp_local_custom_drawable_20406886191573491952.2;
             %tmp.135 = dup %tmp.132;
             %tmp.136 = aputv %tmp.135 0 %tmp.134;
             %tmp.138 = lgetv %rez_cmp_local_text_label.3;
@@ -184,26 +186,26 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.147 = dup %tmp.144;
             %tmp.148 = aputv %tmp.147 3 %tmp.146;
             ret %tmp.148;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_21_74_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 34; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 35; ]
         function Klein(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 35 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 36 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 37 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop" ]
-            %rez_cmp_local_custom_drawable_92990477555402652514.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 38 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_stop" ]
+            %rez_cmp_local_custom_drawable_20590818161988306795.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_92990477555402652514.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 39 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_20590818161988306795.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 40 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -240,8 +242,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 41 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 42 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -287,8 +289,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 43 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 44 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.103 = getm $.Toybox.WatchUi;
             %tmp.104 = getv function ? %tmp.103 :Text;
@@ -324,9 +326,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
             %tmp.101 = newc %tmp.104 (%tmp.140);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.101;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 45 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 46 12 ]
             %tmp.141 = newa Array<WatchUi.Drawable> 4;
-            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_92990477555402652514.2;
+            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_20590818161988306795.2;
             %tmp.144 = dup %tmp.141;
             %tmp.145 = aputv %tmp.144 0 %tmp.143;
             %tmp.147 = lgetv %rez_cmp_local_text_label.3;
@@ -339,26 +341,26 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 3 %tmp.155;
             ret %tmp.157;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_34_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_35_69_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 48; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 49; ]
         function Middel1(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 49 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 50 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 51 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_stop" ]
-            %rez_cmp_local_custom_drawable_11346827810045732805.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 52 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_stop" ]
+            %rez_cmp_local_custom_drawable_37822531771531821416.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_11346827810045732805.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 53 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_37822531771531821416.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 54 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -395,8 +397,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 55 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 56 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -442,8 +444,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 57 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 58 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.103 = getm $.Toybox.WatchUi;
             %tmp.104 = getv function ? %tmp.103 :Text;
@@ -479,9 +481,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
             %tmp.101 = newc %tmp.104 (%tmp.140);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.101;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 59 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 60 12 ]
             %tmp.141 = newa Array<WatchUi.Drawable> 4;
-            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_11346827810045732805.2;
+            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_37822531771531821416.2;
             %tmp.144 = dup %tmp.141;
             %tmp.145 = aputv %tmp.144 0 %tmp.143;
             %tmp.147 = lgetv %rez_cmp_local_text_label.3;
@@ -494,26 +496,26 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 3 %tmp.155;
             ret %tmp.157;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_48_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_49_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 62; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 63; ]
         function Middel2(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 63 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 64 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 65 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_stop" ]
-            %rez_cmp_local_custom_drawable_19152485024803572851.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 66 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_custom_drawable_13710188964340359377.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_19152485024803572851.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 67 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_13710188964340359377.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 68 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -550,8 +552,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 69 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 70 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -597,8 +599,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 71 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 72 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.103 = getm $.Toybox.WatchUi;
             %tmp.104 = getv function ? %tmp.103 :Text;
@@ -634,9 +636,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
             %tmp.101 = newc %tmp.104 (%tmp.140);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.101;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 73 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 74 12 ]
             %tmp.141 = newa Array<WatchUi.Drawable> 4;
-            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_19152485024803572851.2;
+            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_13710188964340359377.2;
             %tmp.144 = dup %tmp.141;
             %tmp.145 = aputv %tmp.144 0 %tmp.143;
             %tmp.147 = lgetv %rez_cmp_local_text_label.3;
@@ -649,26 +651,26 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 3 %tmp.155;
             ret %tmp.157;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_62_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_63_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 76; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 77; ]
         function Groot(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 77 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 78 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 79 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_stop" ]
-            %rez_cmp_local_custom_drawable_19587317618697024294.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 80 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_stop" ]
+            %rez_cmp_local_custom_drawable_34342967316097118401.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_19587317618697024294.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 81 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_34342967316097118401.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 82 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -705,8 +707,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 83 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 84 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -752,8 +754,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 85 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 86 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.103 = getm $.Toybox.WatchUi;
             %tmp.104 = getv function ? %tmp.103 :Text;
@@ -784,14 +786,14 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.134 = aputv %tmp.133 %tmp.130 %tmp.132;
             %tmp.136 = const :font;
             %tmp.137 = getm $.Toybox.Graphics;
-            %tmp.138 = getv %tmp.137 :FONT_SMALL;
+            %tmp.138 = getv %tmp.137 :FONT_LARGE;
             %tmp.139 = dup %tmp.134;
             %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
             %tmp.101 = newc %tmp.104 (%tmp.140);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.101;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 87 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 88 12 ]
             %tmp.141 = newa Array<WatchUi.Drawable> 4;
-            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_19587317618697024294.2;
+            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_34342967316097118401.2;
             %tmp.144 = dup %tmp.141;
             %tmp.145 = aputv %tmp.144 0 %tmp.143;
             %tmp.147 = lgetv %rez_cmp_local_text_label.3;
@@ -804,58 +806,1185 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Re
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 3 %tmp.155;
             ret %tmp.157;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_76_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B4061_00_source_Rez_mcgen_77_69_stop:
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 91; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 92; ]
     module Menus {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 91; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 92; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 94; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 95; ]
     module Strings {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 94; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 95; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 95; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 96; @position = 27; initialized = true; ]
         var sweetspot as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 96; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 97; @position = 27; initialized = true; ]
         var ftp as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 97; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 98; @position = 27; initialized = true; ]
         var display as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 98; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 99; @position = 27; initialized = true; ]
         var sec0 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 99; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 100; @position = 27; initialized = true; ]
         var displayBarNee as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 100; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 101; @position = 27; initialized = true; ]
         var displayWatts as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 101; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 102; @position = 27; initialized = true; ]
         var label as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 102; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 103; @position = 27; initialized = true; ]
         var errorFtp as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 103; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 104; @position = 27; initialized = true; ]
         var displayBar as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 104; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 105; @position = 27; initialized = true; ]
         var sec30 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 105; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 106; @position = 27; initialized = true; ]
         var displayBarJa as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 106; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 107; @position = 27; initialized = true; ]
         var AppName as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 107; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 108; @position = 27; initialized = true; ]
         var wattperkg as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 108; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 109; @position = 27; initialized = true; ]
         var powerGemiddeldeTijd as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 109; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 110; @position = 27; initialized = true; ]
         var sec5 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 110; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 111; @position = 27; initialized = true; ]
         var sec10 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 111; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 112; @position = 27; initialized = true; ]
         var sec3 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 112; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 113; @position = 27; initialized = true; ]
         var displayWperKG as Symbol;
     }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 116; ]
+    module Styles {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 116; ]
+        <init> {
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 117; ]
+        module system_size__menu_header {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 118; @position = 18; ]
+            const height as Number = 0;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 121; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 121; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 122; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 125; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 125; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 126; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 129; ]
+        module prompt_loc__body_no_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 129; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 130; @position = 18; ]
+            const x as Number = 8;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 131; @position = 18; ]
+            const y as Number = 14;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 134; ]
+        module system_icon_dark__about {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 134; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 135; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_dark__about.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 136; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 137; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 138; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 141; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 142; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 145; ]
+        module confirmation_color_dark__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 145; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 147 18 ]
+                %tmp.158 = getm $.Toybox.Graphics;
+                %tmp.159 = getv %tmp.158 :COLOR_TRANSPARENT;
+                putv self :background %tmp.159;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 146; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 147; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 150; ]
+        module system_icon_light__question {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 150; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 151; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_light__question.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 152; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 153; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 154; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 157; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 158; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 161; ]
+        module prompt_font__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 162; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 165; ]
+        module system_icon_dark__discard {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 165; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 166; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_dark__discard.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 167; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 168; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 169; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 172; ]
+        module system_size__menu_item {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 173; @position = 18; ]
+            const width as Number = 246;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 174; @position = 18; ]
+            const height as Number = 70;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 177; ]
+        module prompt_color_dark__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 177; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 179 18 ]
+                %tmp.160 = getm $.Toybox.Graphics;
+                %tmp.161 = getv %tmp.160 :COLOR_TRANSPARENT;
+                putv self :background %tmp.161;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 178; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 179; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 182; ]
+        module system_icon_destructive__cancel {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 182; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 183; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_destructive__cancel.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 184; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 185; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 186; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 189; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 189; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 190; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 193; ]
+        module system_color_dark__text {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 193; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 195 18 ]
+                %tmp.162 = getm $.Toybox.Graphics;
+                %tmp.163 = getv %tmp.162 :COLOR_TRANSPARENT;
+                putv self :background %tmp.163;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 194; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 195; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 198; ]
+        module system_icon_destructive__discard {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 198; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 199; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_destructive__discard.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 200; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 201; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 202; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 205; ]
+        module prompt_loc__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 206; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 209; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 209; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 210; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 213; ]
+        module prompt_color_light__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 213; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 215 18 ]
+                %tmp.164 = getm $.Toybox.Graphics;
+                %tmp.165 = getv %tmp.164 :COLOR_TRANSPARENT;
+                putv self :background %tmp.165;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 214; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 215; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 218; ]
+        module prompt_size__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 218; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 219; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 222; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 222; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 223; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 226; ]
+        module confirmation_font__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 226; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 227 18 ]
+                %tmp.166 = getm $.Toybox.Graphics;
+                %tmp.167 = getv %tmp.166 :TEXT_JUSTIFY_CENTER;
+                %tmp.168 = getm $.Toybox.Graphics;
+                %tmp.169 = getv %tmp.168 :TEXT_JUSTIFY_VCENTER;
+                %tmp.170 = bitor %tmp.167 %tmp.169;
+                putv self :justification %tmp.170;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 228 18 ]
+                %tmp.171 = getm $.Toybox.Graphics;
+                %tmp.172 = getv %tmp.171 :FONT_MEDIUM;
+                putv self :font %tmp.172;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 227; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 228; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 231; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 232; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 235; ]
+        module system_color_dark__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 235; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 236; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 237; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 240; ]
+        module system_icon_light__cancel {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 240; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 241; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_light__cancel.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 242; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 243; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 244; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 247; ]
+        module system_size__launch_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 247; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 248; @position = 18; ]
+            const scaleX as Number = 35;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 249; @position = 18; ]
+            const scaleY as Number = 35;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 250; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 253; ]
+        module confirmation_input__confirm {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 253; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 254 18 ]
+                %tmp.173 = getm $.Toybox.WatchUi;
+                %tmp.174 = getv %tmp.173 :KEY_ENTER;
+                putv self :button %tmp.174;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 254; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 257; ]
+        module system_icon_light__about {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 257; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 258; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_light__about.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 259; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 260; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 261; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 264; ]
+        module system_size__toast_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            const scaleX as Number = 32;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 266; @position = 18; ]
+            const scaleY as Number = 32;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 267; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 270; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 270; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 271; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\confirmation_icon__hint_x.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 272; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 273; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 274; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 277; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 278; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 281; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 281; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 282; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 285; ]
+        module prompt_font__body_with_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 285; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 286 18 ]
+                %tmp.175 = getm $.Toybox.Graphics;
+                %tmp.176 = getv %tmp.175 :TEXT_JUSTIFY_CENTER;
+                %tmp.177 = getm $.Toybox.Graphics;
+                %tmp.178 = getv %tmp.177 :TEXT_JUSTIFY_VCENTER;
+                %tmp.179 = bitor %tmp.176 %tmp.178;
+                putv self :justification %tmp.179;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 287 18 ]
+                %tmp.180 = getm $.Toybox.Graphics;
+                %tmp.181 = getv %tmp.180 :FONT_MEDIUM;
+                putv self :font %tmp.181;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 286; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 287; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 290; ]
+        module confirmation_loc__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 290; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 291; @position = 18; ]
+            const x as Number = 1;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 292; @position = 18; ]
+            const y as Number = 23;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 295; ]
+        module prompt_color_dark__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 295; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 296; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 297; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 300; ]
+        module system_loc__hint_action_menu {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 300; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 301; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 304; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 304; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 305; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\confirmation_icon__hint_completion.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 306; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 307; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 308; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 311; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 311; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 312; @position = 18; ]
+            const x as Number = 214;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 313; @position = 18; ]
+            const y as Number = 249;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 314; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 315; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 318; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 318; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 319; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 322; ]
+        module activity_color_dark__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 323; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 324; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 327; ]
+        module prompt_size__body_no_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 328; @position = 18; ]
+            const width as Number = 230;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 329; @position = 18; ]
+            const height as Number = 225;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 332; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 333; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 336; ]
+        module system_size__menu_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 337; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 338; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 339; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 342; ]
+        module system_icon_destructive__warning {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 342; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 343; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_destructive__warning.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 344; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 345; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 346; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 349; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 350; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 353; ]
+        module prompt_color_light__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 353; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 354; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 355; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 358; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 358; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 359; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 362; ]
+        module system_icon_dark__cancel {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 362; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 363; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_dark__cancel.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 364; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 365; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 366; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 369; ]
+        module confirmation_input__delete {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 369; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 370 18 ]
+                %tmp.182 = getm $.Toybox.WatchUi;
+                %tmp.183 = getv %tmp.182 :KEY_ESC;
+                putv self :button %tmp.183;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 370; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 373; ]
+        module prompt_size__body_with_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 373; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 374; @position = 18; ]
+            const width as Number = 230;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 375; @position = 18; ]
+            const height as Number = 135;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 378; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 378; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 379; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 382; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 382; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 383; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 386; ]
+        module system_color_light__text {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 388 18 ]
+                %tmp.184 = getm $.Toybox.Graphics;
+                %tmp.185 = getv %tmp.184 :COLOR_TRANSPARENT;
+                putv self :background %tmp.185;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 387; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 388; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 391; ]
+        module system_input__action_menu {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 391; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 392 18 ]
+                %tmp.186 = getm $.Toybox.WatchUi;
+                %tmp.187 = getv %tmp.186 :KEY_MENU;
+                putv self :button %tmp.187;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 392; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 395; ]
+        module system_icon_dark__hint_button_middle_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 395; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 396; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 399; ]
+        module system_icon_light__save {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 399; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 400; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_light__save.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 401; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 402; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 403; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 406; ]
+        module system_icon_light__check {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 407; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_light__check.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 408; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 409; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 410; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 413; ]
+        module prompt_color_light__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 413; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 415 18 ]
+                %tmp.188 = getm $.Toybox.Graphics;
+                %tmp.189 = getv %tmp.188 :COLOR_TRANSPARENT;
+                putv self :background %tmp.189;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 414; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 415; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 418; ]
+        module system_loc__subwindow {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 418; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 419; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 422; ]
+        module confirmation_input__reject {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 422; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 423 18 ]
+                %tmp.190 = getm $.Toybox.WatchUi;
+                %tmp.191 = getv %tmp.190 :KEY_ESC;
+                putv self :button %tmp.191;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 423; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 426; ]
+        module system_icon_light__warning {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 427; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_light__warning.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 428; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 429; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 430; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 433; ]
+        module system_icon_light__revert {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 433; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 434; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_light__revert.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 435; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 436; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 437; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 440; ]
+        module system_size__subwindow {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 441; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 444; ]
+        module confirmation_color_light__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 444; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 446 18 ]
+                %tmp.192 = getm $.Toybox.Graphics;
+                %tmp.193 = getv %tmp.192 :COLOR_TRANSPARENT;
+                putv self :background %tmp.193;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 445; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 446; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 449; ]
+        module activity_color_light__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 449; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 450; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 451; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 454; ]
+        module system_icon_dark__check {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 454; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 455; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_dark__check.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 456; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 457; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 458; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 461; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 461; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 462; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 463; @position = 18; ]
+            const y as Number = 30;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 464; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 465; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 468; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 468; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 469; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 470; @position = 18; ]
+            const y as Number = 249;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 471; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 472; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 475; ]
+        module system_size__screen {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 475; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 476; @position = 18; ]
+            const width as Number = 246;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 477; @position = 18; ]
+            const height as Number = 322;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 480; ]
+        module system_color_light__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 480; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 481; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 482; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 485; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 485; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 486; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 489; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 490; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 491; @position = 18; ]
+            const y as Number = 30;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 492; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 493; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 496; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 496; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 497; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 500; ]
+        module system_icon_dark__revert {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 501; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_dark__revert.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 502; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 503; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 504; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 507; ]
+        module activity_color_dark__text {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 507; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 509 18 ]
+                %tmp.194 = getm $.Toybox.Graphics;
+                %tmp.195 = getv %tmp.194 :COLOR_TRANSPARENT;
+                putv self :background %tmp.195;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 508; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 509; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 512; ]
+        module confirmation_input__keep {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 512; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 513 18 ]
+                %tmp.196 = getm $.Toybox.WatchUi;
+                %tmp.197 = getv %tmp.196 :KEY_ENTER;
+                putv self :button %tmp.197;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 513; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 516; ]
+        module prompt_loc__body_with_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 516; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 517; @position = 18; ]
+            const x as Number = 8;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 518; @position = 18; ]
+            const y as Number = 93;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 521; ]
+        module system_icon_dark__question {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 521; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 522; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_dark__question.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 523; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 524; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 525; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 528; ]
+        module system_icon_light__discard {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 528; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 529; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_light__discard.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 530; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 531; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 532; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 535; ]
+        module device_info {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 535; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 537 18 ]
+                %tmp.198 = getm $.Toybox.System;
+                %tmp.199 = getv %tmp.198 :SCREEN_SHAPE_RECTANGLE;
+                putv self :screenShape %tmp.199;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 536; @position = 18; ]
+            const screenWidth as Number = 246;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 537; @position = 18; ]
+            const screenShape;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 538; @position = 18; ]
+            const hasNightMode as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 539; @position = 18; ]
+            const screenHeight as Number = 322;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 540; @position = 18; ]
+            const hasTouchScreen as Boolean = false;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 543; ]
+        module system_icon_dark__search {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 544; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_dark__search.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 545; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 546; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 547; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 550; ]
+        module activity_color_light__text {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 550; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 552 18 ]
+                %tmp.200 = getm $.Toybox.Graphics;
+                %tmp.201 = getv %tmp.200 :COLOR_TRANSPARENT;
+                putv self :background %tmp.201;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 551; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 552; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 555; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 555; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 556; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\confirmation_icon__hint_completion.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 557; @position = 18; ]
+            const disableTransparency as Boolean = false;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 558; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 559; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 562; ]
+        module system_icon_dark__save {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 562; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 563; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_dark__save.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 564; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 565; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 566; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 569; ]
+        module prompt_font__body_no_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 569; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 570 18 ]
+                %tmp.202 = getm $.Toybox.Graphics;
+                %tmp.203 = getv %tmp.202 :TEXT_JUSTIFY_CENTER;
+                %tmp.204 = getm $.Toybox.Graphics;
+                %tmp.205 = getv %tmp.204 :TEXT_JUSTIFY_VCENTER;
+                %tmp.206 = bitor %tmp.203 %tmp.205;
+                putv self :justification %tmp.206;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 571 18 ]
+                %tmp.207 = getm $.Toybox.Graphics;
+                %tmp.208 = getv %tmp.207 :FONT_MEDIUM;
+                putv self :font %tmp.208;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 570; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 571; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 574; ]
+        module system_icon_light__search {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 574; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 575; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_light__search.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 576; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 577; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 578; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 581; ]
+        module prompt_size__title_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 581; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 582; @position = 18; ]
+            const scaleX as Number = 55;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 583; @position = 18; ]
+            const scaleY as Number = 55;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 584; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 587; ]
+        module system_icon_dark__warning {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 588; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_dark__warning.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 589; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 590; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 591; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 594; ]
+        module prompt_loc__title_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 594; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 595; @position = 18; ]
+            const x as Number = 123;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 596; @position = 18; ]
+            const y as Number = 44;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 597; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 598; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 601; ]
+        module prompt_color_dark__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 601; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen" 603 18 ]
+                %tmp.209 = getm $.Toybox.Graphics;
+                %tmp.210 = getv %tmp.209 :COLOR_TRANSPARENT;
+                putv self :background %tmp.210;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 602; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 603; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 606; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 607; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\confirmation_icon__hint_back.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 608; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 609; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 610; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 613; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 613; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 614; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 617; ]
+        module confirmation_size__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 617; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 618; @position = 18; ]
+            const width as Number = 246;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 619; @position = 18; ]
+            const height as Number = 236;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 622; ]
+        module system_icon_positive__check {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 622; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 623; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge540\\system_icon_positive__check.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 624; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 625; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 626; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+    }
 }
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B4061-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }

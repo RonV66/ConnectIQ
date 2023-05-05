@@ -1,68 +1,68 @@
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 12; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 12; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 15; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 15; ]
     module JsonData {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 15; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 15; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 18; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 18; ]
     module Layouts {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 18; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 18; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 19; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 19; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 20 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 20 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getHeight;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 22 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 22 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             %tmp.4 = lgetv %dc;
             %tmp.5 = getv function %tmp.4 :getWidth;
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 24 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_stop" ]
-            %rez_cmp_local_custom_drawable_23788756117356503219.3 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 24 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_custom_drawable_32304054516577545161.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_23788756117356503219.3 %tmp.7;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 26 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_stop" ]
+            lputv %rez_cmp_local_custom_drawable_32304054516577545161.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 26 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_text_label.4 = local;
             %tmp.13 = getm $.Toybox.WatchUi;
             %tmp.14 = getv function ? %tmp.13 :Text;
@@ -106,8 +106,8 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
             %tmp.11 = newc %tmp.14 (%tmp.60);
             lputv %rez_cmp_local_text_label.4 %tmp.11;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 28 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 28 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_text_value.5 = local;
             %tmp.63 = getm $.Toybox.WatchUi;
             %tmp.64 = getv function ? %tmp.63 :Text;
@@ -151,9 +151,9 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
             %tmp.61 = newc %tmp.64 (%tmp.110);
             lputv %rez_cmp_local_text_value.5 %tmp.61;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 30 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 30 12 ]
             %tmp.111 = newa Array<WatchUi.Drawable> 3;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_23788756117356503219.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_32304054516577545161.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;
@@ -163,26 +163,26 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.122 = dup %tmp.119;
             %tmp.123 = aputv %tmp.122 2 %tmp.121;
             ret %tmp.123;
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_19_74_stop:
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 33; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 33; ]
         function Klein(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 34 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 34 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 36 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_stop" ]
-            %rez_cmp_local_custom_drawable_16183394001975545159.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 36 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop" ]
+            %rez_cmp_local_custom_drawable_76498376117632923122.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_16183394001975545159.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 38 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_76498376117632923122.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 38 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -219,8 +219,8 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 40 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 40 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -266,9 +266,9 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 42 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 42 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_16183394001975545159.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_76498376117632923122.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -278,26 +278,26 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.112 = dup %tmp.109;
             %tmp.113 = aputv %tmp.112 2 %tmp.111;
             ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_33_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_33_69_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 45; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 45; ]
         function Middel1(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 46 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 46 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 48 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_stop" ]
-            %rez_cmp_local_custom_drawable_40573099693724699916.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 48 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop" ]
+            %rez_cmp_local_custom_drawable_88695657619265344601.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_40573099693724699916.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 50 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_88695657619265344601.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 50 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -334,8 +334,8 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 52 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 52 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -381,9 +381,9 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 54 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 54 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_40573099693724699916.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_88695657619265344601.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -393,26 +393,26 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.112 = dup %tmp.109;
             %tmp.113 = aputv %tmp.112 2 %tmp.111;
             ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_45_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_45_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 57; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 57; ]
         function Middel2(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 58 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 58 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 60 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_stop" ]
-            %rez_cmp_local_custom_drawable_12733985371227253506.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 60 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
+            %rez_cmp_local_custom_drawable_13647579891335670629.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_12733985371227253506.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 62 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_13647579891335670629.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 62 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -449,8 +449,8 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 64 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 64 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -496,9 +496,9 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 66 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 66 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_12733985371227253506.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_13647579891335670629.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -508,26 +508,26 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.112 = dup %tmp.109;
             %tmp.113 = aputv %tmp.112 2 %tmp.111;
             ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_57_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_57_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 69; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 69; ]
         function Middel3(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 70 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 70 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 72 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_stop" ]
-            %rez_cmp_local_custom_drawable_19540682021567093290.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 72 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop" ]
+            %rez_cmp_local_custom_drawable_14022910301369797473.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_19540682021567093290.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 74 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_14022910301369797473.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 74 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -564,8 +564,8 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 76 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 76 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -611,9 +611,9 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 78 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 78 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_19540682021567093290.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_14022910301369797473.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -623,26 +623,26 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.112 = dup %tmp.109;
             %tmp.113 = aputv %tmp.112 2 %tmp.111;
             ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_69_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_69_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 81; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 81; ]
         function Groot(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 82 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 82 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 84 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_stop" ]
-            %rez_cmp_local_custom_drawable_18620892181857544889.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 84 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop" ]
+            %rez_cmp_local_custom_drawable_17240758687368131692.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_18620892181857544889.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 86 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_17240758687368131692.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 86 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -674,13 +674,13 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
             %tmp.45 = const :font;
             %tmp.46 = getm $.Toybox.Graphics;
-            %tmp.47 = getv %tmp.46 :FONT_SMALL;
+            %tmp.47 = getv %tmp.46 :FONT_LARGE;
             %tmp.48 = dup %tmp.43;
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 88 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 88 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_start" "C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -726,9 +726,9 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen" 90 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen" 90 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_18620892181857544889.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_17240758687368131692.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -738,26 +738,26 @@ C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcg
             %tmp.112 = dup %tmp.109;
             %tmp.113 = aputv %tmp.112 2 %tmp.111;
             ret %tmp.113;
-C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3122_00_source_Rez_mcgen_81_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_HeartRate_bin_gen_006_B3843_00_source_Rez_mcgen_81_69_stop:
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 94; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 94; ]
     module Menus {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 94; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 94; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 97; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 97; ]
     module Strings {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 97; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 97; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 98; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 98; @position = 27; initialized = true; ]
         var label as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 99; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 99; @position = 27; initialized = true; ]
         var AppName as Symbol;
     }
 }
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\HeartRate\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }
