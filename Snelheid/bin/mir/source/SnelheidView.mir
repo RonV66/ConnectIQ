@@ -177,290 +177,322 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_51_54_stop:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_51_15_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 53 15 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_15_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_19_begin:
         %tmp.43 = getv ? :hoogte;
         %tmp.44 = 100;
         %tmp.45 = gte %tmp.43 %tmp.44;
-        bf %tmp.45 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_15_if_end;
+        %tmp.46 = dup %tmp.45;
+        bf %tmp.46 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_39_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_39_true:
+        %tmp.48 = getv ? :hoogte;
+        %tmp.49 = 160;
+        %tmp.50 = lt %tmp.48 %tmp.49;
+        %tmp.51 = and %tmp.45 %tmp.50;
+        push %tmp.51;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_39_end:
+        %tmp.52 = phi [%tmp.46 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_19_begin] [%tmp.51 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_39_true] [%tmp.52 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_39_end];
+        bf %tmp.52 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_15_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_15_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_34_start:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_55_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 54 12 ]
-        %tmp.47 = getv ? :View;
-        %tmp.48 = getv function %tmp.47 :setLayout;
-        %tmp.50 = getv ? :Rez;
-        %tmp.51 = getv %tmp.50 :Layouts;
-        %tmp.52 = getv function %tmp.51 :Groot;
-        %tmp.54 = lgetv %dc;
-        %tmp.55 = invoke %tmp.51 %tmp.52(%tmp.54);
-        invoke %tmp.47 %tmp.48(%tmp.55);
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_34_stop:
+        %tmp.54 = getv ? :View;
+        %tmp.55 = getv function %tmp.54 :setLayout;
+        %tmp.57 = getv ? :Rez;
+        %tmp.58 = getv %tmp.57 :Layouts;
+        %tmp.59 = getv function %tmp.58 :Middel3;
+        %tmp.61 = lgetv %dc;
+        %tmp.62 = invoke %tmp.58 %tmp.59(%tmp.61);
+        invoke %tmp.54 %tmp.55(%tmp.62);
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_55_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_15_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_15_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 55 15 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_55_15_if_stmt:
+        %tmp.64 = getv ? :hoogte;
+        %tmp.65 = 160;
+        %tmp.66 = gte %tmp.64 %tmp.65;
+        bf %tmp.66 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_55_15_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_55_15_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_55_34_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 56 12 ]
+        %tmp.68 = getv ? :View;
+        %tmp.69 = getv function %tmp.68 :setLayout;
+        %tmp.71 = getv ? :Rez;
+        %tmp.72 = getv %tmp.71 :Layouts;
+        %tmp.73 = getv function %tmp.72 :Groot;
+        %tmp.75 = lgetv %dc;
+        %tmp.76 = invoke %tmp.72 %tmp.73(%tmp.75);
+        invoke %tmp.68 %tmp.69(%tmp.76);
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_55_34_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_55_15_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_55_15_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_53_15_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_51_15_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_49_8_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 57 8 ]
-        %tmp.57 = getv ? :View;
-        %tmp.58 = getv function %tmp.57 :findDrawableById;
-        %tmp.59 = "value";
-        %tmp.60 = invoke %tmp.57 %tmp.58(%tmp.59);
-        putv self :valueView %tmp.60;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 58 8 ]
-        %tmp.61 = getv self :valueView;
-        %tmp.63 = getv ? :valueView;
-        %tmp.64 = getv %tmp.63 :locY;
-        %tmp.65 = 10;
-        %tmp.66 = add %tmp.64 %tmp.65;
-        putv %tmp.61 :locY %tmp.66;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 59 8 ]
+        %tmp.78 = getv ? :View;
+        %tmp.79 = getv function %tmp.78 :findDrawableById;
+        %tmp.80 = "value";
+        %tmp.81 = invoke %tmp.78 %tmp.79(%tmp.80);
+        putv self :valueView %tmp.81;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 60 8 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_60_8_if_stmt:
-        %tmp.68 = getv ? :hoogte;
-        %tmp.69 = 160;
-        %tmp.70 = gte %tmp.68 %tmp.69;
-        bf %tmp.70 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_60_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_60_8_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_60_27_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 61 12 ]
-        %tmp.71 = getm $.Toybox.WatchUi;
-        %tmp.72 = getv function %tmp.71 :loadResource;
-        %tmp.74 = getv ? :Rez;
-        %tmp.75 = getv %tmp.74 :Fonts;
-        %tmp.76 = getv %tmp.75 :roboto_bold_136;
-        %tmp.77 = invoke %tmp.71 %tmp.72(%tmp.76);
-        putv self :robotoFont %tmp.77;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 62 12 ]
-        %tmp.79 = getv ? :valueView;
-        %tmp.80 = getv function %tmp.79 :setFont;
-        %tmp.82 = getv ? :robotoFont;
-        invoke %tmp.79 %tmp.80(%tmp.82);
+        %tmp.82 = getv self :valueView;
+        %tmp.84 = getv ? :valueView;
+        %tmp.85 = getv %tmp.84 :locY;
+        %tmp.86 = 10;
+        %tmp.87 = add %tmp.85 %tmp.86;
+        putv %tmp.82 :locY %tmp.87;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 62 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_62_8_if_stmt:
+        %tmp.89 = getv ? :hoogte;
+        %tmp.90 = 160;
+        %tmp.91 = gte %tmp.89 %tmp.90;
+        bf %tmp.91 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_62_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_62_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_62_27_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 63 12 ]
-        %tmp.83 = getv self :valueView;
-        %tmp.85 = getv ? :breedte;
-        %tmp.86 = 2;
-        %tmp.87 = div %tmp.85 %tmp.86;
-        putv %tmp.83 :locX %tmp.87;
+        %tmp.92 = getm $.Toybox.WatchUi;
+        %tmp.93 = getv function %tmp.92 :loadResource;
+        %tmp.95 = getv ? :Rez;
+        %tmp.96 = getv %tmp.95 :Fonts;
+        %tmp.97 = getv %tmp.96 :roboto_bold_136;
+        %tmp.98 = invoke %tmp.92 %tmp.93(%tmp.97);
+        putv self :robotoFont %tmp.98;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 64 12 ]
-        %tmp.88 = getv self :valueView;
-        %tmp.90 = getv ? :hoogte;
-        %tmp.91 = 2;
-        %tmp.92 = div %tmp.90 %tmp.91;
-        %tmp.93 = lgetv %dc;
-        %tmp.94 = getv function %tmp.93 :getFontHeight;
-        %tmp.96 = getv ? :robotoFont;
-        %tmp.97 = invoke %tmp.93 %tmp.94(%tmp.96);
-        %tmp.98 = 2;
-        %tmp.99 = div %tmp.97 %tmp.98;
-        %tmp.100 = sub %tmp.92 %tmp.99;
-        putv %tmp.88 :locY %tmp.100;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_60_27_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_60_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_60_8_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 68 8 ]
-        %tmp.102 = getv ? :View;
-        %tmp.103 = getv function %tmp.102 :findDrawableById;
-        %tmp.104 = "label";
-        %tmp.105 = invoke %tmp.102 %tmp.103(%tmp.104);
-        %tmp.106 = as %tmp.105 Text;
-        putv self :labelView %tmp.106;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 69 8 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_69_8_if_stmt:
-        %tmp.108 = getv ? :mMetric;
-        %tmp.110 = getv ? :System;
-        %tmp.111 = getv %tmp.110 :UNIT_METRIC;
-        %tmp.112 = eq %tmp.108 %tmp.111;
-        bf %tmp.112 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_69_8_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_69_8_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_69_43_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 70 12 ]
-        %tmp.114 = getv ? :labelView;
-        %tmp.115 = getv function %tmp.114 :setText;
-        %tmp.117 = getv ? :Rez;
-        %tmp.118 = getv %tmp.117 :Strings;
-        %tmp.119 = getv %tmp.118 :labelmetric;
-        invoke %tmp.114 %tmp.115(%tmp.119);
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_69_43_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_69_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_69_8_if_false:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_15_start:
+        %tmp.100 = getv ? :valueView;
+        %tmp.101 = getv function %tmp.100 :setFont;
+        %tmp.103 = getv ? :robotoFont;
+        invoke %tmp.100 %tmp.101(%tmp.103);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 65 12 ]
+        %tmp.104 = getv self :valueView;
+        %tmp.106 = getv ? :breedte;
+        %tmp.107 = 2;
+        %tmp.108 = div %tmp.106 %tmp.107;
+        putv %tmp.104 :locX %tmp.108;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 66 12 ]
+        %tmp.109 = getv self :valueView;
+        %tmp.111 = getv ? :hoogte;
+        %tmp.112 = 2;
+        %tmp.113 = div %tmp.111 %tmp.112;
+        %tmp.114 = lgetv %dc;
+        %tmp.115 = getv function %tmp.114 :getFontHeight;
+        %tmp.117 = getv ? :robotoFont;
+        %tmp.118 = invoke %tmp.114 %tmp.115(%tmp.117);
+        %tmp.119 = 2;
+        %tmp.120 = div %tmp.118 %tmp.119;
+        %tmp.121 = sub %tmp.113 %tmp.120;
+        putv %tmp.109 :locY %tmp.121;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_62_27_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_62_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_62_8_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 70 8 ]
+        %tmp.123 = getv ? :View;
+        %tmp.124 = getv function %tmp.123 :findDrawableById;
+        %tmp.125 = "label";
+        %tmp.126 = invoke %tmp.123 %tmp.124(%tmp.125);
+        %tmp.127 = as %tmp.126 Text;
+        putv self :labelView %tmp.127;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 71 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_8_if_stmt:
+        %tmp.129 = getv ? :mMetric;
+        %tmp.131 = getv ? :System;
+        %tmp.132 = getv %tmp.131 :UNIT_METRIC;
+        %tmp.133 = eq %tmp.129 %tmp.132;
+        bf %tmp.133 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_8_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_43_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 72 12 ]
-        %tmp.121 = getv ? :labelView;
-        %tmp.122 = getv function %tmp.121 :setText;
-        %tmp.124 = getv ? :Rez;
-        %tmp.125 = getv %tmp.124 :Strings;
-        %tmp.126 = getv %tmp.125 :labelstatute;
-        invoke %tmp.121 %tmp.122(%tmp.126);
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_15_stop:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_69_8_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 76 8 ]
-        %tmp.128 = getv ? :Application;
-        %tmp.129 = getv %tmp.128 :Properties;
-        %tmp.130 = getv function %tmp.129 :getValue;
-        %tmp.131 = "achtergrondhoog";
-        %tmp.132 = invoke %tmp.129 %tmp.130(%tmp.131);
-        putv self :achtergrondhoog %tmp.132;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 77 8 ]
-        %tmp.134 = getv ? :Application;
-        %tmp.135 = getv %tmp.134 :Properties;
-        %tmp.136 = getv function %tmp.135 :getValue;
-        %tmp.137 = "achtergrondlaag";
-        %tmp.138 = invoke %tmp.135 %tmp.136(%tmp.137);
-        putv self :achtergrondlaag %tmp.138;
+        %tmp.135 = getv ? :labelView;
+        %tmp.136 = getv function %tmp.135 :setText;
+        %tmp.138 = getv ? :Rez;
+        %tmp.139 = getv %tmp.138 :Strings;
+        %tmp.140 = getv %tmp.139 :labelmetric;
+        invoke %tmp.135 %tmp.136(%tmp.140);
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_43_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_8_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_73_15_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 74 12 ]
+        %tmp.142 = getv ? :labelView;
+        %tmp.143 = getv function %tmp.142 :setText;
+        %tmp.145 = getv ? :Rez;
+        %tmp.146 = getv %tmp.145 :Strings;
+        %tmp.147 = getv %tmp.146 :labelstatute;
+        invoke %tmp.142 %tmp.143(%tmp.147);
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_73_15_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_71_8_if_end:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 78 8 ]
-        %tmp.140 = getv ? :Application;
-        %tmp.141 = getv %tmp.140 :Properties;
-        %tmp.142 = getv function %tmp.141 :getValue;
-        %tmp.143 = "voorgrondhoog";
-        %tmp.144 = invoke %tmp.141 %tmp.142(%tmp.143);
-        putv self :voorgrondhoog %tmp.144;
+        %tmp.149 = getv ? :Application;
+        %tmp.150 = getv %tmp.149 :Properties;
+        %tmp.151 = getv function %tmp.150 :getValue;
+        %tmp.152 = "achtergrondhoog";
+        %tmp.153 = invoke %tmp.150 %tmp.151(%tmp.152);
+        putv self :achtergrondhoog %tmp.153;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 79 8 ]
-        %tmp.146 = getv ? :Application;
-        %tmp.147 = getv %tmp.146 :Properties;
-        %tmp.148 = getv function %tmp.147 :getValue;
-        %tmp.149 = "voorgrondlaag";
-        %tmp.150 = invoke %tmp.147 %tmp.148(%tmp.149);
-        putv self :voorgrondlaag %tmp.150;
+        %tmp.155 = getv ? :Application;
+        %tmp.156 = getv %tmp.155 :Properties;
+        %tmp.157 = getv function %tmp.156 :getValue;
+        %tmp.158 = "achtergrondlaag";
+        %tmp.159 = invoke %tmp.156 %tmp.157(%tmp.158);
+        putv self :achtergrondlaag %tmp.159;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 80 8 ]
+        %tmp.161 = getv ? :Application;
+        %tmp.162 = getv %tmp.161 :Properties;
+        %tmp.163 = getv function %tmp.162 :getValue;
+        %tmp.164 = "voorgrondhoog";
+        %tmp.165 = invoke %tmp.162 %tmp.163(%tmp.164);
+        putv self :voorgrondhoog %tmp.165;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 81 8 ]
-        %tmp.151 = 19;
-        putv self :aantalblokjes %tmp.151;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 82 8 ]
-        %tmp.152 = 9;
-        putv self :midden %tmp.152;
+        %tmp.167 = getv ? :Application;
+        %tmp.168 = getv %tmp.167 :Properties;
+        %tmp.169 = getv function %tmp.168 :getValue;
+        %tmp.170 = "voorgrondlaag";
+        %tmp.171 = invoke %tmp.168 %tmp.169(%tmp.170);
+        putv self :voorgrondlaag %tmp.171;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 83 8 ]
-        %tmp.154 = getv ? :breedte;
-        %tmp.156 = getv ? :aantalblokjes;
-        %tmp.157 = div %tmp.154 %tmp.156;
-        putv self :blokjeB %tmp.157;
+        %tmp.172 = 19;
+        putv self :aantalblokjes %tmp.172;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 84 8 ]
-        %tmp.158 = 10;
-        putv self :blokjeH %tmp.158;
+        %tmp.173 = 9;
+        putv self :midden %tmp.173;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 85 8 ]
-        %tmp.159 = 15;
-        putv self :blokjeHH %tmp.159;
+        %tmp.175 = getv ? :breedte;
+        %tmp.177 = getv ? :aantalblokjes;
+        %tmp.178 = div %tmp.175 %tmp.177;
+        putv self :blokjeB %tmp.178;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 86 8 ]
-        %tmp.160 = 20;
-        putv self :blokjeHHH %tmp.160;
+        %tmp.179 = 10;
+        putv self :blokjeH %tmp.179;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 87 8 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_87_8_if_stmt:
-        %tmp.162 = getv ? :hoogte;
-        %tmp.163 = 120;
-        %tmp.164 = lt %tmp.162 %tmp.163;
-        bf %tmp.164 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_87_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_87_8_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_87_26_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 88 12 ]
-        %tmp.165 = 8;
-        putv self :blokjeH %tmp.165;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 89 12 ]
-        %tmp.166 = 11;
-        putv self :blokjeHH %tmp.166;
+        %tmp.180 = 15;
+        putv self :blokjeHH %tmp.180;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 88 8 ]
+        %tmp.181 = 20;
+        putv self :blokjeHHH %tmp.181;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 89 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_89_8_if_stmt:
+        %tmp.183 = getv ? :hoogte;
+        %tmp.184 = 120;
+        %tmp.185 = lt %tmp.183 %tmp.184;
+        bf %tmp.185 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_89_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_89_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_89_26_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 90 12 ]
-        %tmp.167 = 14;
-        putv self :blokjeHHH %tmp.167;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_87_26_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_87_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_87_8_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 92 8 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_92_8_if_stmt:
-        %tmp.169 = getv ? :hoogte;
-        %tmp.170 = 100;
-        %tmp.171 = lt %tmp.169 %tmp.170;
-        bf %tmp.171 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_92_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_92_8_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_92_26_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 93 12 ]
-        %tmp.172 = 4;
-        putv self :blokjeH %tmp.172;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 94 12 ]
-        %tmp.173 = 6;
-        putv self :blokjeHH %tmp.173;
+        %tmp.186 = 8;
+        putv self :blokjeH %tmp.186;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 91 12 ]
+        %tmp.187 = 11;
+        putv self :blokjeHH %tmp.187;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 92 12 ]
+        %tmp.188 = 14;
+        putv self :blokjeHHH %tmp.188;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_89_26_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_89_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_89_8_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 94 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_94_8_if_stmt:
+        %tmp.190 = getv ? :hoogte;
+        %tmp.191 = 100;
+        %tmp.192 = lt %tmp.190 %tmp.191;
+        bf %tmp.192 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_94_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_94_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_94_26_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 95 12 ]
-        %tmp.174 = 8;
-        putv self :blokjeHHH %tmp.174;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_92_26_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_92_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_92_8_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 97 8 ]
-        %tmp.176 = getv ? :breedte;
-        %tmp.178 = getv ? :aantalblokjes;
-        %tmp.180 = getv ? :blokjeB;
-        %tmp.181 = mul %tmp.178 %tmp.180;
-        %tmp.182 = sub %tmp.176 %tmp.181;
-        %tmp.183 = 2;
-        %tmp.184 = div %tmp.182 %tmp.183;
-        putv self :inspringen %tmp.184;
+        %tmp.193 = 4;
+        putv self :blokjeH %tmp.193;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 96 12 ]
+        %tmp.194 = 6;
+        putv self :blokjeHH %tmp.194;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 97 12 ]
+        %tmp.195 = 8;
+        putv self :blokjeHHH %tmp.195;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_94_26_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_94_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_94_8_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 99 8 ]
+        %tmp.197 = getv ? :breedte;
+        %tmp.199 = getv ? :aantalblokjes;
+        %tmp.201 = getv ? :blokjeB;
+        %tmp.202 = mul %tmp.199 %tmp.201;
+        %tmp.203 = sub %tmp.197 %tmp.202;
+        %tmp.204 = 2;
+        %tmp.205 = div %tmp.203 %tmp.204;
+        putv self :inspringen %tmp.205;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_45_40_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc"; @line = 100; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc"; @line = 102; ]
     function compute(info as Activity.Info) as Void {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_100_52_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 101 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_102_52_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 103 8 ]
         %tmp.1 = 0;
         putv self :verschil %tmp.1;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 102 8 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_102_8_if_stmt:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 104 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_8_if_stmt:
         %tmp.3 = lgetv %info;
         %tmp.5 = const :currentSpeed;
         %tmp.6 = canhazplz %tmp.3 %tmp.5;
-        bf %tmp.6 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_102_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_102_8_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_102_36_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 103 12 ]
+        bf %tmp.6 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_36_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 105 12 ]
         %tmp.7 = lgetv %info;
         %tmp.8 = as %tmp.7 { (interface { var currentSpeed; }) };
         %tmp.9 = getv %tmp.8 :currentSpeed;
         putv self :currentSpeed %tmp.9;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 104 12 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_12_if_stmt:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 106 12 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_106_12_if_stmt:
         %tmp.11 = getv ? :currentSpeed;
         %tmp.12 = null;
         %tmp.13 = ne %tmp.11 %tmp.12;
-        bf %tmp.13 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_12_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_12_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_38_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 105 16 ]
+        bf %tmp.13 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_106_12_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_106_12_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_106_38_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 107 16 ]
         %tmp.15 = getv ? :currentSpeed;
         %tmp.16 = as %tmp.15 { (!Null) };
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_begin:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_begin:
         %tmp.18 = getv ? :mMetric;
         %tmp.20 = getv ? :System;
         %tmp.21 = getv %tmp.20 :UNIT_METRIC;
         %tmp.22 = eq %tmp.18 %tmp.21;
-        bf %tmp.22 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_true:
+        bf %tmp.22 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_true:
         %tmp.23 = 3.6;
         push %tmp.23;
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_false:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_false:
         %tmp.24 = 2.23693629;
         push %tmp.24;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_end:
-        %tmp.25 = phi [%tmp.22 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_begin] [%tmp.23 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_true] [%tmp.24 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_false] [%tmp.25 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_105_41_end];
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_end:
+        %tmp.25 = phi [%tmp.22 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_begin] [%tmp.23 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_true] [%tmp.24 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_false] [%tmp.25 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_41_end];
         %tmp.26 = mul %tmp.16 %tmp.25;
         putv self :mValue %tmp.26;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 106 16 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 108 16 ]
         %tmp.27 = lgetv %info;
         %tmp.28 = as %tmp.27 { (interface { var currentSpeed; }) };
         %tmp.29 = getv %tmp.28 :averageSpeed;
         putv self :averageSpeed %tmp.29;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 107 16 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_16_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_20_begin:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 109 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_16_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_20_begin:
         %tmp.31 = getv ? :averageSpeed;
         %tmp.32 = null;
         %tmp.33 = ne %tmp.31 %tmp.32;
         %tmp.34 = dup %tmp.33;
-        bf %tmp.34 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_47_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_47_true:
+        bf %tmp.34 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_47_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_47_true:
         %tmp.36 = getv ? :averageSpeed;
         %tmp.37 = as %tmp.36 { (!Null) };
         %tmp.38 = 0;
         %tmp.39 = ne %tmp.37 %tmp.38;
         %tmp.40 = and %tmp.33 %tmp.39;
         push %tmp.40;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_47_end:
-        %tmp.41 = phi [%tmp.34 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_20_begin] [%tmp.40 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_47_true] [%tmp.41 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_47_end];
-        bf %tmp.41 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_16_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_16_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_68_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 108 20 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_47_end:
+        %tmp.41 = phi [%tmp.34 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_20_begin] [%tmp.40 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_47_true] [%tmp.41 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_47_end];
+        bf %tmp.41 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_16_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_68_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 110 20 ]
         %tmp.43 = getv ? :currentSpeed;
         %tmp.44 = as %tmp.43 { (!Null) };
         %tmp.46 = getv ? :averageSpeed;
@@ -472,59 +504,59 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_68_start:
         %tmp.53 = as %tmp.52 { (!Null) };
         %tmp.54 = div %tmp.50 %tmp.53;
         putv self :V %tmp.54;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 109 20 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_begin:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 111 20 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_begin:
         %tmp.56 = getv ? :V;
         %tmp.57 = 5;
         %tmp.58 = gt %tmp.56 %tmp.57;
-        bf %tmp.58 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_true:
+        bf %tmp.58 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_true:
         %tmp.59 = 1;
         push %tmp.59;
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_false:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_begin:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_false:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_begin:
         %tmp.61 = getv ? :V;
         %tmp.62 = 5;
         %tmp.63 = sub 0 %tmp.62;
         %tmp.64 = lt %tmp.61 %tmp.63;
-        bf %tmp.64 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_true:
+        bf %tmp.64 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_true:
         %tmp.65 = 1;
         %tmp.66 = sub 0 %tmp.65;
         push %tmp.66;
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_false:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_false:
         %tmp.67 = 0;
         push %tmp.67;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_end:
-        %tmp.68 = phi [%tmp.64 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_begin] [%tmp.66 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_true] [%tmp.67 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_false] [%tmp.68 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_46_end];
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_end:
+        %tmp.68 = phi [%tmp.64 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_begin] [%tmp.66 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_true] [%tmp.67 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_false] [%tmp.68 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_46_end];
         push %tmp.68;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_end:
-        %tmp.69 = phi [%tmp.58 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_begin] [%tmp.59 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_true] [%tmp.68 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_false] [%tmp.69 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_31_end];
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_end:
+        %tmp.69 = phi [%tmp.58 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_begin] [%tmp.59 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_true] [%tmp.68 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_false] [%tmp.69 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_31_end];
         putv self :verschil %tmp.69;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_68_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_16_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_107_16_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_38_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_12_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_12_if_false:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_19_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 112 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_68_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_109_16_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_106_38_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_106_12_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_106_12_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_113_19_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 114 16 ]
         %tmp.70 = 0.0f;
         putv self :mValue %tmp.70;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_111_19_stop:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_12_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_102_36_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_102_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_102_8_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_100_52_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_113_19_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_106_12_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_36_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_104_8_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_102_52_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc"; @line = 117; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc"; @line = 119; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_117_40_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 119 8 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_117_40_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_117_40_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_119_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 121 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_119_40_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_119_40_stop" ]
         %achtergrond.1 = local;
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :findDrawableById;
@@ -532,118 +564,118 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_117_40_start:
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         %tmp.6 = as %tmp.5 Text;
         lputv %achtergrond.1 %tmp.6;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 121 8 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 123 8 ]
         %tmp.8 = getv ? :verschil;
         push %tmp.8;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_121_8_switchCaseBegin:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_123_8_switchCaseBegin:
         %tmp.9 = dup %tmp.8;
         %tmp.10 = 0;
         %tmp.11 = getv function %tmp.9 :equals;
         %tmp.12 = invoke %tmp.9 %tmp.11 (%tmp.10);
-        bt %tmp.12 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_122_12;
+        bt %tmp.12 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_12;
         %tmp.13 = dup %tmp.8;
         %tmp.14 = 1;
         %tmp.15 = getv function %tmp.13 :equals;
         %tmp.16 = invoke %tmp.13 %tmp.15 (%tmp.14);
-        bt %tmp.16 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_132_12;
+        bt %tmp.16 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_134_12;
         %tmp.17 = dup %tmp.8;
         %tmp.18 = 1;
         %tmp.19 = sub 0 %tmp.18;
         %tmp.20 = getv function %tmp.17 :equals;
         %tmp.21 = invoke %tmp.17 %tmp.20 (%tmp.19);
-        bt %tmp.21 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_137_12;
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_121_8_defaultCodeBegin;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_122_12:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 123 16 ]
+        bt %tmp.21 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_139_12;
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_123_8_defaultCodeBegin;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 125 16 ]
         %tmp.22 = lgetv %achtergrond.1;
         %tmp.23 = getv function %tmp.22 :setColor;
         %tmp.24 = self;
         %tmp.25 = getv function %tmp.24 :getBackgroundColor;
         %tmp.26 = invoke %tmp.24 %tmp.25();
         invoke %tmp.22 %tmp.23(%tmp.26);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 124 16 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_16_if_stmt:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 126 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_126_16_if_stmt:
         %tmp.27 = self;
         %tmp.28 = getv function %tmp.27 :getBackgroundColor;
         %tmp.29 = invoke %tmp.27 %tmp.28();
         %tmp.30 = getm $.Toybox.Graphics;
         %tmp.31 = getv %tmp.30 :COLOR_BLACK;
         %tmp.32 = eq %tmp.29 %tmp.31;
-        bf %tmp.32 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_16_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_16_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_66_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 125 20 ]
+        bf %tmp.32 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_126_16_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_126_16_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_126_66_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 127 20 ]
         %tmp.34 = getv ? :labelView;
         %tmp.35 = getv function %tmp.34 :setColor;
         %tmp.36 = getm $.Toybox.Graphics;
         %tmp.37 = getv %tmp.36 :COLOR_WHITE;
         invoke %tmp.34 %tmp.35(%tmp.37);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 126 20 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 128 20 ]
         %tmp.39 = getv ? :valueView;
         %tmp.40 = getv function %tmp.39 :setColor;
         %tmp.41 = getm $.Toybox.Graphics;
         %tmp.42 = getv %tmp.41 :COLOR_WHITE;
         invoke %tmp.39 %tmp.40(%tmp.42);
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_66_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_16_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_16_if_false:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_127_23_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 128 20 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_126_66_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_126_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_126_16_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_129_23_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 130 20 ]
         %tmp.44 = getv ? :labelView;
         %tmp.45 = getv function %tmp.44 :setColor;
         %tmp.46 = getm $.Toybox.Graphics;
         %tmp.47 = getv %tmp.46 :COLOR_BLACK;
         invoke %tmp.44 %tmp.45(%tmp.47);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 129 20 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 131 20 ]
         %tmp.49 = getv ? :valueView;
         %tmp.50 = getv function %tmp.49 :setColor;
         %tmp.51 = getm $.Toybox.Graphics;
         %tmp.52 = getv %tmp.51 :COLOR_BLACK;
         invoke %tmp.49 %tmp.50(%tmp.52);
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_127_23_stop:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_124_16_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 131 16 ]
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_121_8_switchCaseEnd;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_132_12:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_129_23_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_126_16_if_end:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 133 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_123_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_134_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 135 16 ]
         %tmp.54 = getv ? :labelView;
         %tmp.55 = getv function %tmp.54 :setColor;
         %tmp.57 = getv ? :voorgrondhoog;
         invoke %tmp.54 %tmp.55(%tmp.57);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 134 16 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 136 16 ]
         %tmp.59 = getv ? :valueView;
         %tmp.60 = getv function %tmp.59 :setColor;
         %tmp.62 = getv ? :voorgrondhoog;
         invoke %tmp.59 %tmp.60(%tmp.62);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 135 16 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 137 16 ]
         %tmp.63 = lgetv %achtergrond.1;
         %tmp.64 = getv function %tmp.63 :setColor;
         %tmp.66 = getv ? :achtergrondhoog;
         invoke %tmp.63 %tmp.64(%tmp.66);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 136 16 ]
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_121_8_switchCaseEnd;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_137_12:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 138 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_123_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_139_12:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 140 16 ]
         %tmp.68 = getv ? :labelView;
         %tmp.69 = getv function %tmp.68 :setColor;
         %tmp.71 = getv ? :voorgrondlaag;
         invoke %tmp.68 %tmp.69(%tmp.71);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 139 16 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 141 16 ]
         %tmp.73 = getv ? :valueView;
         %tmp.74 = getv function %tmp.73 :setColor;
         %tmp.76 = getv ? :voorgrondlaag;
         invoke %tmp.73 %tmp.74(%tmp.76);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 140 16 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 142 16 ]
         %tmp.77 = lgetv %achtergrond.1;
         %tmp.78 = getv function %tmp.77 :setColor;
         %tmp.80 = getv ? :achtergrondlaag;
         invoke %tmp.77 %tmp.78(%tmp.80);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 141 16 ]
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_121_8_switchCaseEnd;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_121_8_defaultCodeBegin:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_121_8_switchCaseEnd:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 143 16 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_123_8_switchCaseEnd;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_123_8_defaultCodeBegin:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_123_8_switchCaseEnd:
         pop;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 145 8 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 147 8 ]
         %tmp.82 = getv ? :valueView;
         %tmp.83 = getv function %tmp.82 :setText;
         %tmp.85 = getv ? :mValue;
@@ -651,20 +683,20 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_121_8_switchC
         %tmp.87 = "%.1f";
         %tmp.88 = invoke %tmp.85 %tmp.86(%tmp.87);
         invoke %tmp.82 %tmp.83(%tmp.88);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 148 8 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 150 8 ]
         %tmp.90 = getv ? :View;
         %tmp.91 = getv function %tmp.90 :onUpdate;
         %tmp.93 = lgetv %dc;
         invoke %tmp.90 %tmp.91(%tmp.93);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 150 8 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_8_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_12_begin:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 152 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_8_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_12_begin:
         %tmp.95 = getv ? :hoogte;
         %tmp.96 = 90;
         %tmp.97 = gt %tmp.95 %tmp.96;
         %tmp.98 = dup %tmp.97;
-        bf %tmp.98 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_30_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_30_true:
+        bf %tmp.98 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_30_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_30_true:
         %tmp.100 = getv ? :Application;
         %tmp.101 = getv %tmp.100 :Properties;
         %tmp.102 = getv function %tmp.101 :getValue;
@@ -672,481 +704,483 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_30_true:
         %tmp.104 = invoke %tmp.101 %tmp.102(%tmp.103);
         %tmp.105 = and %tmp.97 %tmp.104;
         push %tmp.105;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_30_end:
-        %tmp.106 = phi [%tmp.98 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_12_begin] [%tmp.105 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_30_true] [%tmp.106 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_30_end];
-        bf %tmp.106 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_8_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_79_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 151 12 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_151_12_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_30_end:
+        %tmp.106 = phi [%tmp.98 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_12_begin] [%tmp.105 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_30_true] [%tmp.106 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_30_end];
+        bf %tmp.106 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_79_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 153 12 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_12_if_stmt:
         %tmp.108 = getv ? :V;
         %tmp.109 = 35.0000;
         %tmp.110 = sub 0 %tmp.109;
         %tmp.111 = lt %tmp.108 %tmp.110;
-        bf %tmp.111 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_151_12_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_151_12_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_151_31_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 151 32 ]
+        bf %tmp.111 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_12_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_12_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_31_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 153 32 ]
         %tmp.112 = 0;
         putv self :midden %tmp.112;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_151_31_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_151_12_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_151_12_if_false:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 152 17 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_17_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_21_begin:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_31_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_12_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_12_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 154 17 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_17_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_21_begin:
         %tmp.114 = getv ? :V;
         %tmp.115 = 35.0000;
         %tmp.116 = sub 0 %tmp.115;
         %tmp.117 = gte %tmp.114 %tmp.116;
         %tmp.118 = dup %tmp.117;
-        bf %tmp.118 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_41_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_41_true:
+        bf %tmp.118 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_41_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_41_true:
         %tmp.120 = getv ? :V;
         %tmp.121 = 31.1112;
         %tmp.122 = sub 0 %tmp.121;
         %tmp.123 = lt %tmp.120 %tmp.122;
         %tmp.124 = and %tmp.117 %tmp.123;
         push %tmp.124;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_41_end:
-        %tmp.125 = phi [%tmp.118 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_21_begin] [%tmp.124 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_41_true] [%tmp.125 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_41_end];
-        bf %tmp.125 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_17_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_17_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_58_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 152 59 ]
-        %tmp.126 = 1;
-        putv self :midden %tmp.126;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_58_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_17_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_17_if_false:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 153 17 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_17_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_21_begin:
-        %tmp.128 = getv ? :V;
-        %tmp.129 = 31.1112;
-        %tmp.130 = sub 0 %tmp.129;
-        %tmp.131 = gte %tmp.128 %tmp.130;
-        %tmp.132 = dup %tmp.131;
-        bf %tmp.132 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_41_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_41_true:
-        %tmp.134 = getv ? :V;
-        %tmp.135 = 27.2223;
-        %tmp.136 = sub 0 %tmp.135;
-        %tmp.137 = lt %tmp.134 %tmp.136;
-        %tmp.138 = and %tmp.131 %tmp.137;
-        push %tmp.138;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_41_end:
-        %tmp.139 = phi [%tmp.132 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_21_begin] [%tmp.138 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_41_true] [%tmp.139 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_41_end];
-        bf %tmp.139 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_17_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_17_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_58_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 153 59 ]
-        %tmp.140 = 2;
-        putv self :midden %tmp.140;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_58_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_17_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_17_if_false:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 154 17 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_17_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_21_begin:
-        %tmp.142 = getv ? :V;
-        %tmp.143 = 27.2223;
-        %tmp.144 = sub 0 %tmp.143;
-        %tmp.145 = gte %tmp.142 %tmp.144;
-        %tmp.146 = dup %tmp.145;
-        bf %tmp.146 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_41_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_41_true:
-        %tmp.148 = getv ? :V;
-        %tmp.149 = 23.3334;
-        %tmp.150 = sub 0 %tmp.149;
-        %tmp.151 = lt %tmp.148 %tmp.150;
-        %tmp.152 = and %tmp.145 %tmp.151;
-        push %tmp.152;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_41_end:
-        %tmp.153 = phi [%tmp.146 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_21_begin] [%tmp.152 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_41_true] [%tmp.153 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_41_end];
-        bf %tmp.153 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_17_if_false;
+        %tmp.125 = phi [%tmp.118 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_21_begin] [%tmp.124 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_41_true] [%tmp.125 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_41_end];
+        bf %tmp.125 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_58_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 154 59 ]
-        %tmp.154 = 3;
-        putv self :midden %tmp.154;
+        %tmp.126 = 1;
+        putv self :midden %tmp.126;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_58_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 155 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_21_begin:
-        %tmp.156 = getv ? :V;
-        %tmp.157 = 23.3334;
-        %tmp.158 = sub 0 %tmp.157;
-        %tmp.159 = gte %tmp.156 %tmp.158;
-        %tmp.160 = dup %tmp.159;
-        bf %tmp.160 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_41_end;
+        %tmp.128 = getv ? :V;
+        %tmp.129 = 31.1112;
+        %tmp.130 = sub 0 %tmp.129;
+        %tmp.131 = gte %tmp.128 %tmp.130;
+        %tmp.132 = dup %tmp.131;
+        bf %tmp.132 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_41_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_41_true:
-        %tmp.162 = getv ? :V;
-        %tmp.163 = 19.4445;
-        %tmp.164 = sub 0 %tmp.163;
-        %tmp.165 = lt %tmp.162 %tmp.164;
-        %tmp.166 = and %tmp.159 %tmp.165;
-        push %tmp.166;
+        %tmp.134 = getv ? :V;
+        %tmp.135 = 27.2223;
+        %tmp.136 = sub 0 %tmp.135;
+        %tmp.137 = lt %tmp.134 %tmp.136;
+        %tmp.138 = and %tmp.131 %tmp.137;
+        push %tmp.138;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_41_end:
-        %tmp.167 = phi [%tmp.160 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_21_begin] [%tmp.166 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_41_true] [%tmp.167 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_41_end];
-        bf %tmp.167 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_17_if_false;
+        %tmp.139 = phi [%tmp.132 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_21_begin] [%tmp.138 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_41_true] [%tmp.139 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_41_end];
+        bf %tmp.139 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_58_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 155 59 ]
-        %tmp.168 = 4;
-        putv self :midden %tmp.168;
+        %tmp.140 = 2;
+        putv self :midden %tmp.140;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_58_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 156 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_21_begin:
-        %tmp.170 = getv ? :V;
-        %tmp.171 = 19.4445;
-        %tmp.172 = sub 0 %tmp.171;
-        %tmp.173 = gte %tmp.170 %tmp.172;
-        %tmp.174 = dup %tmp.173;
-        bf %tmp.174 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_41_end;
+        %tmp.142 = getv ? :V;
+        %tmp.143 = 27.2223;
+        %tmp.144 = sub 0 %tmp.143;
+        %tmp.145 = gte %tmp.142 %tmp.144;
+        %tmp.146 = dup %tmp.145;
+        bf %tmp.146 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_41_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_41_true:
-        %tmp.176 = getv ? :V;
-        %tmp.177 = 15.5556;
-        %tmp.178 = sub 0 %tmp.177;
-        %tmp.179 = lt %tmp.176 %tmp.178;
-        %tmp.180 = and %tmp.173 %tmp.179;
-        push %tmp.180;
+        %tmp.148 = getv ? :V;
+        %tmp.149 = 23.3334;
+        %tmp.150 = sub 0 %tmp.149;
+        %tmp.151 = lt %tmp.148 %tmp.150;
+        %tmp.152 = and %tmp.145 %tmp.151;
+        push %tmp.152;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_41_end:
-        %tmp.181 = phi [%tmp.174 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_21_begin] [%tmp.180 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_41_true] [%tmp.181 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_41_end];
-        bf %tmp.181 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_17_if_false;
+        %tmp.153 = phi [%tmp.146 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_21_begin] [%tmp.152 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_41_true] [%tmp.153 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_41_end];
+        bf %tmp.153 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_58_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 156 59 ]
-        %tmp.182 = 5;
-        putv self :midden %tmp.182;
+        %tmp.154 = 3;
+        putv self :midden %tmp.154;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_58_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 157 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_21_begin:
-        %tmp.184 = getv ? :V;
-        %tmp.185 = 15.5556;
-        %tmp.186 = sub 0 %tmp.185;
-        %tmp.187 = gte %tmp.184 %tmp.186;
-        %tmp.188 = dup %tmp.187;
-        bf %tmp.188 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_41_end;
+        %tmp.156 = getv ? :V;
+        %tmp.157 = 23.3334;
+        %tmp.158 = sub 0 %tmp.157;
+        %tmp.159 = gte %tmp.156 %tmp.158;
+        %tmp.160 = dup %tmp.159;
+        bf %tmp.160 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_41_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_41_true:
-        %tmp.190 = getv ? :V;
-        %tmp.191 = 11.6667;
-        %tmp.192 = sub 0 %tmp.191;
-        %tmp.193 = lt %tmp.190 %tmp.192;
-        %tmp.194 = and %tmp.187 %tmp.193;
-        push %tmp.194;
+        %tmp.162 = getv ? :V;
+        %tmp.163 = 19.4445;
+        %tmp.164 = sub 0 %tmp.163;
+        %tmp.165 = lt %tmp.162 %tmp.164;
+        %tmp.166 = and %tmp.159 %tmp.165;
+        push %tmp.166;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_41_end:
-        %tmp.195 = phi [%tmp.188 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_21_begin] [%tmp.194 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_41_true] [%tmp.195 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_41_end];
-        bf %tmp.195 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_17_if_false;
+        %tmp.167 = phi [%tmp.160 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_21_begin] [%tmp.166 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_41_true] [%tmp.167 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_41_end];
+        bf %tmp.167 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_58_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 157 59 ]
-        %tmp.196 = 6;
-        putv self :midden %tmp.196;
+        %tmp.168 = 4;
+        putv self :midden %tmp.168;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_58_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 158 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_21_begin:
-        %tmp.198 = getv ? :V;
-        %tmp.199 = 11.6667;
-        %tmp.200 = sub 0 %tmp.199;
-        %tmp.201 = gte %tmp.198 %tmp.200;
-        %tmp.202 = dup %tmp.201;
-        bf %tmp.202 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_41_end;
+        %tmp.170 = getv ? :V;
+        %tmp.171 = 19.4445;
+        %tmp.172 = sub 0 %tmp.171;
+        %tmp.173 = gte %tmp.170 %tmp.172;
+        %tmp.174 = dup %tmp.173;
+        bf %tmp.174 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_41_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_41_true:
-        %tmp.204 = getv ? :V;
-        %tmp.205 = 7.7778;
-        %tmp.206 = sub 0 %tmp.205;
-        %tmp.207 = lt %tmp.204 %tmp.206;
-        %tmp.208 = and %tmp.201 %tmp.207;
-        push %tmp.208;
+        %tmp.176 = getv ? :V;
+        %tmp.177 = 15.5556;
+        %tmp.178 = sub 0 %tmp.177;
+        %tmp.179 = lt %tmp.176 %tmp.178;
+        %tmp.180 = and %tmp.173 %tmp.179;
+        push %tmp.180;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_41_end:
-        %tmp.209 = phi [%tmp.202 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_21_begin] [%tmp.208 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_41_true] [%tmp.209 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_41_end];
-        bf %tmp.209 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_17_if_false;
+        %tmp.181 = phi [%tmp.174 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_21_begin] [%tmp.180 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_41_true] [%tmp.181 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_41_end];
+        bf %tmp.181 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_58_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 158 59 ]
-        %tmp.210 = 7;
-        putv self :midden %tmp.210;
+        %tmp.182 = 5;
+        putv self :midden %tmp.182;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_58_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 159 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_21_begin:
+        %tmp.184 = getv ? :V;
+        %tmp.185 = 15.5556;
+        %tmp.186 = sub 0 %tmp.185;
+        %tmp.187 = gte %tmp.184 %tmp.186;
+        %tmp.188 = dup %tmp.187;
+        bf %tmp.188 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_true:
+        %tmp.190 = getv ? :V;
+        %tmp.191 = 11.6667;
+        %tmp.192 = sub 0 %tmp.191;
+        %tmp.193 = lt %tmp.190 %tmp.192;
+        %tmp.194 = and %tmp.187 %tmp.193;
+        push %tmp.194;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_end:
+        %tmp.195 = phi [%tmp.188 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_21_begin] [%tmp.194 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_true] [%tmp.195 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_end];
+        bf %tmp.195 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_58_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 159 59 ]
+        %tmp.196 = 6;
+        putv self :midden %tmp.196;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_58_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 160 17 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_17_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_21_begin:
+        %tmp.198 = getv ? :V;
+        %tmp.199 = 11.6667;
+        %tmp.200 = sub 0 %tmp.199;
+        %tmp.201 = gte %tmp.198 %tmp.200;
+        %tmp.202 = dup %tmp.201;
+        bf %tmp.202 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_41_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_41_true:
+        %tmp.204 = getv ? :V;
+        %tmp.205 = 7.7778;
+        %tmp.206 = sub 0 %tmp.205;
+        %tmp.207 = lt %tmp.204 %tmp.206;
+        %tmp.208 = and %tmp.201 %tmp.207;
+        push %tmp.208;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_41_end:
+        %tmp.209 = phi [%tmp.202 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_21_begin] [%tmp.208 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_41_true] [%tmp.209 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_41_end];
+        bf %tmp.209 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_17_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_17_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_58_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 160 59 ]
+        %tmp.210 = 7;
+        putv self :midden %tmp.210;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_58_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_17_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_17_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 161 17 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_17_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_21_begin:
         %tmp.212 = getv ? :V;
         %tmp.213 = 7.7778;
         %tmp.214 = sub 0 %tmp.213;
         %tmp.215 = gte %tmp.212 %tmp.214;
         %tmp.216 = dup %tmp.215;
-        bf %tmp.216 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_true:
+        bf %tmp.216 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_41_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_41_true:
         %tmp.218 = getv ? :V;
         %tmp.219 = 3.8889;
         %tmp.220 = sub 0 %tmp.219;
         %tmp.221 = lt %tmp.218 %tmp.220;
         %tmp.222 = and %tmp.215 %tmp.221;
         push %tmp.222;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_end:
-        %tmp.223 = phi [%tmp.216 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_21_begin] [%tmp.222 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_true] [%tmp.223 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_41_end];
-        bf %tmp.223 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_58_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 159 59 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_41_end:
+        %tmp.223 = phi [%tmp.216 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_21_begin] [%tmp.222 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_41_true] [%tmp.223 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_41_end];
+        bf %tmp.223 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_17_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_17_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_58_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 161 59 ]
         %tmp.224 = 8;
         putv self :midden %tmp.224;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_58_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_false:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 161 17 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_17_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_21_begin:
-        %tmp.226 = getv ? :V;
-        %tmp.227 = 3.8889;
-        %tmp.228 = sub 0 %tmp.227;
-        %tmp.229 = gte %tmp.226 %tmp.228;
-        %tmp.230 = dup %tmp.229;
-        bf %tmp.230 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_40_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_40_true:
-        %tmp.232 = getv ? :V;
-        %tmp.233 = 3.8889;
-        %tmp.234 = lt %tmp.232 %tmp.233;
-        %tmp.235 = and %tmp.229 %tmp.234;
-        push %tmp.235;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_40_end:
-        %tmp.236 = phi [%tmp.230 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_21_begin] [%tmp.235 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_40_true] [%tmp.236 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_40_end];
-        bf %tmp.236 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_17_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_17_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_55_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 161 56 ]
-        %tmp.237 = 9;
-        putv self :midden %tmp.237;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_55_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_58_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 163 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_21_begin:
+        %tmp.226 = getv ? :V;
+        %tmp.227 = 3.8889;
+        %tmp.228 = sub 0 %tmp.227;
+        %tmp.229 = gte %tmp.226 %tmp.228;
+        %tmp.230 = dup %tmp.229;
+        bf %tmp.230 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_40_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_40_true:
+        %tmp.232 = getv ? :V;
+        %tmp.233 = 3.8889;
+        %tmp.234 = lt %tmp.232 %tmp.233;
+        %tmp.235 = and %tmp.229 %tmp.234;
+        push %tmp.235;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_40_end:
+        %tmp.236 = phi [%tmp.230 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_21_begin] [%tmp.235 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_40_true] [%tmp.236 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_40_end];
+        bf %tmp.236 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_55_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 163 56 ]
+        %tmp.237 = 9;
+        putv self :midden %tmp.237;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_55_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 165 17 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_17_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_21_begin:
         %tmp.239 = getv ? :V;
         %tmp.240 = 7.7778;
         %tmp.241 = lt %tmp.239 %tmp.240;
         %tmp.242 = dup %tmp.241;
-        bf %tmp.242 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_39_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_39_true:
+        bf %tmp.242 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_39_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_39_true:
         %tmp.244 = getv ? :V;
         %tmp.245 = 3.8889;
         %tmp.246 = gte %tmp.244 %tmp.245;
         %tmp.247 = and %tmp.241 %tmp.246;
         push %tmp.247;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_39_end:
-        %tmp.248 = phi [%tmp.242 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_21_begin] [%tmp.247 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_39_true] [%tmp.248 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_39_end];
-        bf %tmp.248 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_56_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 163 57 ]
-        %tmp.249 = 10;
-        putv self :midden %tmp.249;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_56_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_false:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 164 17 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_17_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_21_begin:
-        %tmp.251 = getv ? :V;
-        %tmp.252 = 11.6667;
-        %tmp.253 = lt %tmp.251 %tmp.252;
-        %tmp.254 = dup %tmp.253;
-        bf %tmp.254 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_39_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_39_true:
-        %tmp.256 = getv ? :V;
-        %tmp.257 = 7.7778;
-        %tmp.258 = gte %tmp.256 %tmp.257;
-        %tmp.259 = and %tmp.253 %tmp.258;
-        push %tmp.259;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_39_end:
-        %tmp.260 = phi [%tmp.254 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_21_begin] [%tmp.259 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_39_true] [%tmp.260 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_39_end];
-        bf %tmp.260 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_17_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_17_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_56_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 164 57 ]
-        %tmp.261 = 11;
-        putv self :midden %tmp.261;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_56_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_17_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_17_if_false:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 165 17 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_17_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_21_begin:
-        %tmp.263 = getv ? :V;
-        %tmp.264 = 15.5556;
-        %tmp.265 = lt %tmp.263 %tmp.264;
-        %tmp.266 = dup %tmp.265;
-        bf %tmp.266 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_39_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_39_true:
-        %tmp.268 = getv ? :V;
-        %tmp.269 = 11.6667;
-        %tmp.270 = gte %tmp.268 %tmp.269;
-        %tmp.271 = and %tmp.265 %tmp.270;
-        push %tmp.271;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_39_end:
-        %tmp.272 = phi [%tmp.266 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_21_begin] [%tmp.271 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_39_true] [%tmp.272 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_39_end];
-        bf %tmp.272 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_17_if_false;
+        %tmp.248 = phi [%tmp.242 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_21_begin] [%tmp.247 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_39_true] [%tmp.248 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_39_end];
+        bf %tmp.248 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_56_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 165 57 ]
-        %tmp.273 = 12;
-        putv self :midden %tmp.273;
+        %tmp.249 = 10;
+        putv self :midden %tmp.249;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_56_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 166 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_21_begin:
-        %tmp.275 = getv ? :V;
-        %tmp.276 = 19.4445;
-        %tmp.277 = lt %tmp.275 %tmp.276;
-        %tmp.278 = dup %tmp.277;
-        bf %tmp.278 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_39_end;
+        %tmp.251 = getv ? :V;
+        %tmp.252 = 11.6667;
+        %tmp.253 = lt %tmp.251 %tmp.252;
+        %tmp.254 = dup %tmp.253;
+        bf %tmp.254 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_39_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_39_true:
-        %tmp.280 = getv ? :V;
-        %tmp.281 = 15.5556;
-        %tmp.282 = gte %tmp.280 %tmp.281;
-        %tmp.283 = and %tmp.277 %tmp.282;
-        push %tmp.283;
+        %tmp.256 = getv ? :V;
+        %tmp.257 = 7.7778;
+        %tmp.258 = gte %tmp.256 %tmp.257;
+        %tmp.259 = and %tmp.253 %tmp.258;
+        push %tmp.259;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_39_end:
-        %tmp.284 = phi [%tmp.278 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_21_begin] [%tmp.283 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_39_true] [%tmp.284 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_39_end];
-        bf %tmp.284 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_17_if_false;
+        %tmp.260 = phi [%tmp.254 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_21_begin] [%tmp.259 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_39_true] [%tmp.260 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_39_end];
+        bf %tmp.260 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_56_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 166 57 ]
-        %tmp.285 = 13;
-        putv self :midden %tmp.285;
+        %tmp.261 = 11;
+        putv self :midden %tmp.261;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_56_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 167 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_21_begin:
-        %tmp.287 = getv ? :V;
-        %tmp.288 = 23.3334;
-        %tmp.289 = lt %tmp.287 %tmp.288;
-        %tmp.290 = dup %tmp.289;
-        bf %tmp.290 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_39_end;
+        %tmp.263 = getv ? :V;
+        %tmp.264 = 15.5556;
+        %tmp.265 = lt %tmp.263 %tmp.264;
+        %tmp.266 = dup %tmp.265;
+        bf %tmp.266 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_39_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_39_true:
-        %tmp.292 = getv ? :V;
-        %tmp.293 = 19.4445;
-        %tmp.294 = gte %tmp.292 %tmp.293;
-        %tmp.295 = and %tmp.289 %tmp.294;
-        push %tmp.295;
+        %tmp.268 = getv ? :V;
+        %tmp.269 = 11.6667;
+        %tmp.270 = gte %tmp.268 %tmp.269;
+        %tmp.271 = and %tmp.265 %tmp.270;
+        push %tmp.271;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_39_end:
-        %tmp.296 = phi [%tmp.290 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_21_begin] [%tmp.295 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_39_true] [%tmp.296 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_39_end];
-        bf %tmp.296 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_17_if_false;
+        %tmp.272 = phi [%tmp.266 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_21_begin] [%tmp.271 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_39_true] [%tmp.272 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_39_end];
+        bf %tmp.272 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_56_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 167 57 ]
-        %tmp.297 = 14;
-        putv self :midden %tmp.297;
+        %tmp.273 = 12;
+        putv self :midden %tmp.273;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_56_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 168 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_21_begin:
-        %tmp.299 = getv ? :V;
-        %tmp.300 = 27.2223;
-        %tmp.301 = lt %tmp.299 %tmp.300;
-        %tmp.302 = dup %tmp.301;
-        bf %tmp.302 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_39_end;
+        %tmp.275 = getv ? :V;
+        %tmp.276 = 19.4445;
+        %tmp.277 = lt %tmp.275 %tmp.276;
+        %tmp.278 = dup %tmp.277;
+        bf %tmp.278 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_39_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_39_true:
-        %tmp.304 = getv ? :V;
-        %tmp.305 = 23.3334;
-        %tmp.306 = gte %tmp.304 %tmp.305;
-        %tmp.307 = and %tmp.301 %tmp.306;
-        push %tmp.307;
+        %tmp.280 = getv ? :V;
+        %tmp.281 = 15.5556;
+        %tmp.282 = gte %tmp.280 %tmp.281;
+        %tmp.283 = and %tmp.277 %tmp.282;
+        push %tmp.283;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_39_end:
-        %tmp.308 = phi [%tmp.302 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_21_begin] [%tmp.307 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_39_true] [%tmp.308 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_39_end];
-        bf %tmp.308 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_17_if_false;
+        %tmp.284 = phi [%tmp.278 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_21_begin] [%tmp.283 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_39_true] [%tmp.284 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_39_end];
+        bf %tmp.284 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_56_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 168 57 ]
-        %tmp.309 = 15;
-        putv self :midden %tmp.309;
+        %tmp.285 = 13;
+        putv self :midden %tmp.285;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_56_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 169 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_21_begin:
-        %tmp.311 = getv ? :V;
-        %tmp.312 = 31.1112;
-        %tmp.313 = lt %tmp.311 %tmp.312;
-        %tmp.314 = dup %tmp.313;
-        bf %tmp.314 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_39_end;
+        %tmp.287 = getv ? :V;
+        %tmp.288 = 23.3334;
+        %tmp.289 = lt %tmp.287 %tmp.288;
+        %tmp.290 = dup %tmp.289;
+        bf %tmp.290 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_39_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_39_true:
-        %tmp.316 = getv ? :V;
-        %tmp.317 = 27.2223;
-        %tmp.318 = gte %tmp.316 %tmp.317;
-        %tmp.319 = and %tmp.313 %tmp.318;
-        push %tmp.319;
+        %tmp.292 = getv ? :V;
+        %tmp.293 = 19.4445;
+        %tmp.294 = gte %tmp.292 %tmp.293;
+        %tmp.295 = and %tmp.289 %tmp.294;
+        push %tmp.295;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_39_end:
-        %tmp.320 = phi [%tmp.314 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_21_begin] [%tmp.319 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_39_true] [%tmp.320 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_39_end];
-        bf %tmp.320 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_17_if_false;
+        %tmp.296 = phi [%tmp.290 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_21_begin] [%tmp.295 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_39_true] [%tmp.296 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_39_end];
+        bf %tmp.296 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_56_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 169 57 ]
-        %tmp.321 = 16;
-        putv self :midden %tmp.321;
+        %tmp.297 = 14;
+        putv self :midden %tmp.297;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_56_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 170 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_17_if_stmt:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_21_begin:
-        %tmp.323 = getv ? :V;
-        %tmp.324 = 35.0000;
-        %tmp.325 = lt %tmp.323 %tmp.324;
-        %tmp.326 = dup %tmp.325;
-        bf %tmp.326 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_39_end;
+        %tmp.299 = getv ? :V;
+        %tmp.300 = 27.2223;
+        %tmp.301 = lt %tmp.299 %tmp.300;
+        %tmp.302 = dup %tmp.301;
+        bf %tmp.302 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_39_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_39_true:
-        %tmp.328 = getv ? :V;
-        %tmp.329 = 31.1112;
-        %tmp.330 = gte %tmp.328 %tmp.329;
-        %tmp.331 = and %tmp.325 %tmp.330;
-        push %tmp.331;
+        %tmp.304 = getv ? :V;
+        %tmp.305 = 23.3334;
+        %tmp.306 = gte %tmp.304 %tmp.305;
+        %tmp.307 = and %tmp.301 %tmp.306;
+        push %tmp.307;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_39_end:
-        %tmp.332 = phi [%tmp.326 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_21_begin] [%tmp.331 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_39_true] [%tmp.332 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_39_end];
-        bf %tmp.332 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_17_if_false;
+        %tmp.308 = phi [%tmp.302 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_21_begin] [%tmp.307 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_39_true] [%tmp.308 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_39_end];
+        bf %tmp.308 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_17_if_false;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_17_if_true:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_56_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 170 57 ]
-        %tmp.333 = 17;
-        putv self :midden %tmp.333;
+        %tmp.309 = 15;
+        putv self :midden %tmp.309;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_56_stop:
         goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_17_if_end;
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_17_if_false:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 171 17 ]
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_17_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_21_begin:
+        %tmp.311 = getv ? :V;
+        %tmp.312 = 31.1112;
+        %tmp.313 = lt %tmp.311 %tmp.312;
+        %tmp.314 = dup %tmp.313;
+        bf %tmp.314 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_39_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_39_true:
+        %tmp.316 = getv ? :V;
+        %tmp.317 = 27.2223;
+        %tmp.318 = gte %tmp.316 %tmp.317;
+        %tmp.319 = and %tmp.313 %tmp.318;
+        push %tmp.319;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_39_end:
+        %tmp.320 = phi [%tmp.314 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_21_begin] [%tmp.319 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_39_true] [%tmp.320 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_39_end];
+        bf %tmp.320 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_17_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_17_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_56_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 171 57 ]
+        %tmp.321 = 16;
+        putv self :midden %tmp.321;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_56_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_17_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_17_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 172 17 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_17_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_21_begin:
+        %tmp.323 = getv ? :V;
+        %tmp.324 = 35.0000;
+        %tmp.325 = lt %tmp.323 %tmp.324;
+        %tmp.326 = dup %tmp.325;
+        bf %tmp.326 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_39_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_39_true:
+        %tmp.328 = getv ? :V;
+        %tmp.329 = 31.1112;
+        %tmp.330 = gte %tmp.328 %tmp.329;
+        %tmp.331 = and %tmp.325 %tmp.330;
+        push %tmp.331;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_39_end:
+        %tmp.332 = phi [%tmp.326 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_21_begin] [%tmp.331 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_39_true] [%tmp.332 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_39_end];
+        bf %tmp.332 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_17_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_17_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_56_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 172 57 ]
+        %tmp.333 = 17;
+        putv self :midden %tmp.333;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_56_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_17_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_17_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 173 17 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_17_if_stmt:
         %tmp.335 = getv ? :V;
         %tmp.336 = 35.0000;
         %tmp.337 = gt %tmp.335 %tmp.336;
-        bf %tmp.337 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_17_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_17_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_35_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 171 36 ]
+        bf %tmp.337 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_17_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_17_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_35_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 173 36 ]
         %tmp.338 = 18;
         putv self :midden %tmp.338;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_35_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_17_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_35_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_17_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_17_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_172_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_171_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_170_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_169_17_if_end:
@@ -1154,34 +1188,32 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_168_17_if_end
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_167_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_166_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_165_17_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_164_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_163_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_161_17_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_160_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_159_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_158_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_157_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_156_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_155_17_if_end:
 C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_154_17_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_17_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_17_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_151_12_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 173 12 ]
-        for @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_test @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_incr @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_init:
-        [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_begin" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_end" ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_153_12_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 175 12 ]
+        for @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_test @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_incr @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_init:
+        [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_begin" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_end" ]
         %x.2 = local;
         %tmp.339 = 0;
         lputv %x.2 %tmp.339;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_test:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_test:
         %tmp.341 = lgetv %x.2;
         %tmp.343 = getv ? :aantalblokjes;
         %tmp.344 = lt %tmp.341 %tmp.343;
-        bf %tmp.344 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_begin:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_50_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 174 16 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_50_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_50_stop" ]
+        bf %tmp.344 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_begin:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_50_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 176 16 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_50_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_50_stop" ]
         %blokjemidden.3 = local;
         %tmp.345 = newa 2;
         %tmp.347 = getv ? :midden;
@@ -1195,20 +1227,20 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_50_start:
         %tmp.356 = dup %tmp.351;
         %tmp.357 = aputv %tmp.356 1 %tmp.355;
         lputv %blokjemidden.3 %tmp.357;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 175 16 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_50_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_50_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 177 16 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_50_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_50_stop" ]
         %blokjehoog.4 = local;
         %tmp.359 = getv ? :midden;
         lputv %blokjehoog.4 %tmp.359;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 176 16 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_176_16_if_stmt:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 178 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_178_16_if_stmt:
         %tmp.361 = getv ? :midden;
         %tmp.363 = getv ? :vorigemidden;
         %tmp.364 = gt %tmp.361 %tmp.363;
-        bf %tmp.364 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_176_16_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_176_16_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_176_43_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 177 20 ]
+        bf %tmp.364 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_178_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_178_16_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_178_43_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 179 20 ]
         %tmp.365 = newa 2;
         %tmp.367 = getv ? :midden;
         %tmp.368 = 1;
@@ -1221,21 +1253,21 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_176_43_start:
         %tmp.376 = dup %tmp.371;
         %tmp.377 = aputv %tmp.376 1 %tmp.375;
         lputv %blokjemidden.3 %tmp.377;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 178 20 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 180 20 ]
         %tmp.379 = getv ? :midden;
         lputv %blokjehoog.4 %tmp.379;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_176_43_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_176_16_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_176_16_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 180 16 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_180_16_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_178_43_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_178_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_178_16_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 182 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_182_16_if_stmt:
         %tmp.381 = getv ? :midden;
         %tmp.383 = getv ? :vorigemidden;
         %tmp.384 = lt %tmp.381 %tmp.383;
-        bf %tmp.384 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_180_16_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_180_16_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_180_43_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 181 20 ]
+        bf %tmp.384 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_182_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_182_16_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_182_43_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 183 20 ]
         %tmp.385 = newa 2;
         %tmp.387 = getv ? :midden;
         %tmp.388 = 2;
@@ -1248,23 +1280,23 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_180_43_start:
         %tmp.396 = dup %tmp.391;
         %tmp.397 = aputv %tmp.396 1 %tmp.395;
         lputv %blokjemidden.3 %tmp.397;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 182 20 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 184 20 ]
         %tmp.399 = getv ? :midden;
         lputv %blokjehoog.4 %tmp.399;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_180_43_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_180_16_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_180_16_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 184 16 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_16_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_20_begin:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_182_43_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_182_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_182_16_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 186 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_16_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_20_begin:
         %tmp.401 = lgetv %x.2;
         %tmp.403 = lgetv %blokjemidden.3;
         %tmp.404 = 0;
         %tmp.405 = agetv %tmp.403 %tmp.404;
         %tmp.406 = eq %tmp.401 %tmp.405;
         %tmp.407 = dup %tmp.406;
-        bt %tmp.407 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_46_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_46_false:
+        bt %tmp.407 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_46_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_46_false:
         %tmp.409 = lgetv %x.2;
         %tmp.411 = lgetv %blokjemidden.3;
         %tmp.412 = 1;
@@ -1272,12 +1304,12 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_46_false:
         %tmp.414 = eq %tmp.409 %tmp.413;
         %tmp.415 = or %tmp.406 %tmp.414;
         push %tmp.415;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_46_end:
-        %tmp.416 = phi [%tmp.407 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_20_begin] [%tmp.415 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_46_false] [%tmp.416 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_46_end];
-        bf %tmp.416 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_16_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_16_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_70_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 185 20 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_46_end:
+        %tmp.416 = phi [%tmp.407 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_20_begin] [%tmp.415 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_46_false] [%tmp.416 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_46_end];
+        bf %tmp.416 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_16_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_16_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_70_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 187 20 ]
         %tmp.417 = lgetv %dc;
         %tmp.418 = getv function %tmp.417 :fillRoundedRectangle;
         %tmp.420 = getv ? :inspringen;
@@ -1292,18 +1324,18 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_70_start:
         %tmp.435 = getv ? :blokjeHH;
         %tmp.436 = 1;
         invoke %tmp.417 %tmp.418(%tmp.426, %tmp.431, %tmp.433, %tmp.435, %tmp.436);
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_70_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_16_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_16_if_false:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 186 23 ]
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_23_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_70_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_16_if_false:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 188 23 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_23_if_stmt:
         %tmp.438 = lgetv %x.2;
         %tmp.440 = lgetv %blokjehoog.4;
         %tmp.441 = eq %tmp.438 %tmp.440;
-        bf %tmp.441 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_23_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_23_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_44_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 187 20 ]
+        bf %tmp.441 @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_23_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_23_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_44_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 189 20 ]
         %tmp.442 = lgetv %dc;
         %tmp.443 = getv function %tmp.442 :fillRoundedRectangle;
         %tmp.445 = getv ? :inspringen;
@@ -1318,11 +1350,11 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_44_start:
         %tmp.460 = getv ? :blokjeHHH;
         %tmp.461 = 1;
         invoke %tmp.442 %tmp.443(%tmp.451, %tmp.456, %tmp.458, %tmp.460, %tmp.461);
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_44_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_23_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_23_if_false:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_23_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 189 20 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_44_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_23_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_23_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_190_23_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 191 20 ]
         %tmp.462 = lgetv %dc;
         %tmp.463 = getv function %tmp.462 :fillRoundedRectangle;
         %tmp.465 = getv ? :inspringen;
@@ -1337,25 +1369,25 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_23_start:
         %tmp.480 = getv ? :blokjeH;
         %tmp.481 = 1;
         invoke %tmp.462 %tmp.463(%tmp.471, %tmp.476, %tmp.478, %tmp.480, %tmp.481);
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_23_stop:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_23_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_184_16_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_50_stop:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_incr:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 173 ]
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_190_23_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_188_23_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_186_16_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_50_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_incr:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 175 ]
         %tmp.482 = lgetv %x.2;
         %tmp.483 = 1;
         %tmp.484 = add %tmp.482 %tmp.483;
         lputv %x.2 %tmp.484;
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_test;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_173_12_for_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 192 12 ]
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_test;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_175_12_for_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc" 194 12 ]
         %tmp.486 = getv ? :midden;
         putv self :vorigemidden %tmp.486;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_79_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_8_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_150_8_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_117_40_stop:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_79_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_152_8_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_Snelheid_source_SnelheidView_mc_119_40_stop:
     }
 }
 [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\source\SnelheidView.mc"; @line = 1; ]

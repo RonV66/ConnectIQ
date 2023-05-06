@@ -61,7 +61,6 @@ class HeartZoneView extends WatchUi.DataField {
         if(info has :currentHeartRate){
             if(info.currentHeartRate != null) {
                 hartslag = info.currentHeartRate as Float;
-                //System.print(hartslag + "-" + heartRateZones + "-");
                 if (hartslag < heartRateZones[0]) {currentZone = 0; mValue = 0.0f;}
                 else if ((hartslag >= heartRateZones[0]) and (hartslag < heartRateZones[1])) {currentZone = 1; mValue = currentZone.toFloat() + ((hartslag.toFloat() - heartRateZones[0].toFloat()) / heartRateZone1.toFloat());}
                 else if ((hartslag >= heartRateZones[1]) and (hartslag < heartRateZones[2])) {currentZone = 2; mValue = currentZone.toFloat() + ((hartslag.toFloat() - heartRateZones[1].toFloat()) / heartRateZone2.toFloat());}
@@ -73,9 +72,6 @@ class HeartZoneView extends WatchUi.DataField {
                 currentZone = 0;
                 mValue = 0.0f;
             }
-            System.print(mValue + "-");
-            //System.print(((hartslag.toFloat() - heartRateZones[0].toFloat())/heartRateZone1.toFloat()) + "-");
-            System.println(hartslag);
         }
     }
 

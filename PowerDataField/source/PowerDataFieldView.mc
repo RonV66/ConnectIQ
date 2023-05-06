@@ -85,10 +85,12 @@ class PowerDataFieldView extends WatchUi.DataField {
             View.setLayout(Rez.Layouts.Middel1(dc));
         } else if ((hoogte >= 75) and (hoogte < 100)) {
             View.setLayout(Rez.Layouts.Middel2(dc));
-        } else if (hoogte >= 100) {
+        } else if ((hoogte >= 100) and (hoogte < 160)) {
+            View.setLayout(Rez.Layouts.Middel3(dc));
+        } else if (hoogte >= 160) {
             View.setLayout(Rez.Layouts.Groot(dc));
         }
- 
+
         valueView = View.findDrawableById("value") as Text;
         valueView.locY = valueView.locY + 10;
 
