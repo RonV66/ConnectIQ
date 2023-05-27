@@ -1,0 +1,15 @@
+<strings>
+    <string id="AppName">ETAplus</string>
+
+    <string id="label1">ETA</string>
+    <string id="label2">Time</string>
+    <string id="label3">Dist</string>
+    <string id="label3km">Dist (km)</string>
+    <string id="label3ml">Dist (ml)</string>
+    <string id="label3m">Dist (m)</string>
+    <string id="label3y">Dist (y)</string>
+
+    <string id="tijdDisplay">Time to display</string>
+    <string id="tijdDisplay0">Time to go</string>
+    <string id="tijdDisplay1">Time of day</string>
+</strings>

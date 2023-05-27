@@ -26,6 +26,10 @@
 		{
 			"name": "HeartZone",
 			"path": ".\\HeartZone"
+		},
+		{
+			"name": "ETAplus",
+			"path": ".\\ETAplus"
 		}
 	],
 	"settings": {

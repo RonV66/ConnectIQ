@@ -61,10 +61,10 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 26 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
-            %rez_cmp_local_custom_drawable_20829035152022894440.3 = local;
+            %rez_cmp_local_custom_drawable_31418532311699154856.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_20829035152022894440.3 %tmp.7;
+            lputv %rez_cmp_local_custom_drawable_31418532311699154856.3 %tmp.7;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 28 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_label.4 = local;
@@ -157,7 +157,7 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_text_value.5 %tmp.61;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 32 12 ]
             %tmp.111 = newa Array<WatchUi.Drawable> 3;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_20829035152022894440.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_31418532311699154856.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;
@@ -181,10 +181,10 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 38 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_stop" ]
-            %rez_cmp_local_custom_drawable_14235527922946069792.2 = local;
+            %rez_cmp_local_custom_drawable_10616808755179995671.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_14235527922946069792.2 %tmp.4;
+            lputv %rez_cmp_local_custom_drawable_10616808755179995671.2 %tmp.4;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 40 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_stop" ]
             %rez_cmp_local_text_label.3 = local;
@@ -272,7 +272,7 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_text_value.4 %tmp.50;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 44 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_14235527922946069792.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_10616808755179995671.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -296,10 +296,10 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 50 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_47_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_47_71_stop" ]
-            %rez_cmp_local_custom_drawable_10161336001194433640.2 = local;
+            %rez_cmp_local_custom_drawable_36218752685366113019.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_10161336001194433640.2 %tmp.4;
+            lputv %rez_cmp_local_custom_drawable_36218752685366113019.2 %tmp.4;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 52 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_47_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_47_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
@@ -387,7 +387,7 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_text_value.4 %tmp.50;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 56 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_10161336001194433640.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_36218752685366113019.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -411,10 +411,10 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 62 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_stop" ]
-            %rez_cmp_local_custom_drawable_66559693718382525791.2 = local;
+            %rez_cmp_local_custom_drawable_20757532287965880151.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_66559693718382525791.2 %tmp.4;
+            lputv %rez_cmp_local_custom_drawable_20757532287965880151.2 %tmp.4;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 64 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_59_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
@@ -502,7 +502,7 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_text_value.4 %tmp.50;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 68 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_66559693718382525791.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_20757532287965880151.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -526,10 +526,10 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 74 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_stop" ]
-            %rez_cmp_local_custom_drawable_17407985371164990719.2 = local;
+            %rez_cmp_local_custom_drawable_11786528227838381351.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_17407985371164990719.2 %tmp.4;
+            lputv %rez_cmp_local_custom_drawable_11786528227838381351.2 %tmp.4;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 76 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_71_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
@@ -617,7 +617,7 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_text_value.4 %tmp.50;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 80 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_17407985371164990719.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_11786528227838381351.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;
@@ -641,10 +641,10 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 86 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_83_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_83_69_stop" ]
-            %rez_cmp_local_custom_drawable_10900402416735834478.2 = local;
+            %rez_cmp_local_custom_drawable_14187754311650969170.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_10900402416735834478.2 %tmp.4;
+            lputv %rez_cmp_local_custom_drawable_14187754311650969170.2 %tmp.4;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 88 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_83_69_start" "C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcgen_83_69_stop" ]
             %rez_cmp_local_text_label.3 = local;
@@ -732,7 +732,7 @@ C_Users_Ronnie_Documents_ConnectIQ_Snelheid_bin_gen_006_B3843_00_source_Rez_mcge
             lputv %rez_cmp_local_text_value.4 %tmp.50;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\Snelheid\bin\gen\006-B3843-00\source\Rez.mcgen" 92 12 ]
             %tmp.101 = newa Array<WatchUi.Drawable> 3;
-            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_10900402416735834478.2;
+            %tmp.103 = lgetv %rez_cmp_local_custom_drawable_14187754311650969170.2;
             %tmp.104 = dup %tmp.101;
             %tmp.105 = aputv %tmp.104 0 %tmp.103;
             %tmp.107 = lgetv %rez_cmp_local_text_label.3;

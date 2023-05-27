@@ -1,0 +1,756 @@
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 5; ]
+import Toybox.Time;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 6; ]
+import Toybox.Time.Gregorian;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 8; ]
+class ETAplusView extends WatchUi.DataField{
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 8; ]
+    <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 18 15 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :getDeviceSettings;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        %tmp.5 = getv %tmp.4 :paceUnits;
+        putv self :mMetric %tmp.5;
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 10; @position = 15; ]
+    protected
+    var mValue1;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 11; @position = 15; ]
+    protected
+    var mValue2;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 12; @position = 15; ]
+    protected
+    var mValue3 as Float = 0.0;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 13; @position = 15; ]
+    protected
+    var breedte;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 14; @position = 15; ]
+    protected
+    var eenvijfde;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 15; @position = 15; ]
+    protected
+    var hoogte;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 16; @position = 15; ]
+    protected
+    var etaInSeconds as Float = 0.0;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 18; @position = 15; ]
+    protected
+    var mMetric;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 20; @position = 15; ]
+    protected
+    var valueView1;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 21; @position = 15; ]
+    protected
+    var labelView1;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 22; @position = 15; ]
+    protected
+    var valueView2;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 23; @position = 15; ]
+    protected
+    var labelView2;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 24; @position = 15; ]
+    protected
+    var valueView3;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 25; @position = 15; ]
+    protected
+    var labelView3;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 27; ]
+    function initialize() as Void {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_27_26_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 28 8 ]
+        %tmp.2 = getv ? :DataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 29 8 ]
+        %tmp.4 = "--:--";
+        putv self :mValue1 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 30 8 ]
+        %tmp.5 = "--:--";
+        putv self :mValue2 %tmp.5;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 31 8 ]
+        %tmp.6 = 0.0;
+        putv self :mValue3 %tmp.6;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_27_26_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 36; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_36_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 37 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :getHeight;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        putv self :hoogte %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 38 8 ]
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :getWidth;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        putv self :breedte %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 39 8 ]
+        %tmp.8 = getv ? :breedte;
+        %tmp.9 = 5;
+        %tmp.10 = div %tmp.8 %tmp.9;
+        putv self :eenvijfde %tmp.10;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 41 8 ]
+        %tmp.12 = getv ? :View;
+        %tmp.13 = getv function %tmp.12 :setLayout;
+        %tmp.15 = getv ? :Rez;
+        %tmp.16 = getv %tmp.15 :Layouts;
+        %tmp.17 = getv function %tmp.16 :Klein;
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.19);
+        invoke %tmp.12 %tmp.13(%tmp.20);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 43 8 ]
+        %tmp.22 = getv ? :View;
+        %tmp.23 = getv function %tmp.22 :findDrawableById;
+        %tmp.24 = "value1";
+        %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
+        putv self :valueView1 %tmp.25;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 44 8 ]
+        %tmp.26 = getv self :valueView1;
+        %tmp.28 = getv ? :eenvijfde;
+        putv %tmp.26 :locX %tmp.28;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 45 8 ]
+        %tmp.29 = getv self :valueView1;
+        %tmp.31 = getv ? :valueView1;
+        %tmp.32 = getv %tmp.31 :locY;
+        %tmp.33 = 10;
+        %tmp.34 = add %tmp.32 %tmp.33;
+        putv %tmp.29 :locY %tmp.34;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 46 8 ]
+        %tmp.36 = getv ? :View;
+        %tmp.37 = getv function %tmp.36 :findDrawableById;
+        %tmp.38 = "label1";
+        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
+        %tmp.40 = as %tmp.39 Text;
+        putv self :labelView1 %tmp.40;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 47 8 ]
+        %tmp.41 = getv self :labelView1;
+        %tmp.43 = getv ? :eenvijfde;
+        putv %tmp.41 :locX %tmp.43;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 48 8 ]
+        %tmp.45 = getv ? :labelView1;
+        %tmp.46 = getv function %tmp.45 :setText;
+        %tmp.48 = getv ? :Rez;
+        %tmp.49 = getv %tmp.48 :Strings;
+        %tmp.50 = getv %tmp.49 :label1;
+        invoke %tmp.45 %tmp.46(%tmp.50);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 50 8 ]
+        %tmp.52 = getv ? :View;
+        %tmp.53 = getv function %tmp.52 :findDrawableById;
+        %tmp.54 = "value2";
+        %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
+        putv self :valueView2 %tmp.55;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 51 8 ]
+        %tmp.56 = getv self :valueView2;
+        %tmp.58 = getv ? :valueView2;
+        %tmp.59 = getv %tmp.58 :locY;
+        %tmp.60 = 10;
+        %tmp.61 = add %tmp.59 %tmp.60;
+        putv %tmp.56 :locY %tmp.61;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 52 8 ]
+        %tmp.63 = getv ? :View;
+        %tmp.64 = getv function %tmp.63 :findDrawableById;
+        %tmp.65 = "label2";
+        %tmp.66 = invoke %tmp.63 %tmp.64(%tmp.65);
+        %tmp.67 = as %tmp.66 Text;
+        putv self :labelView2 %tmp.67;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 53 8 ]
+        %tmp.69 = getv ? :labelView2;
+        %tmp.70 = getv function %tmp.69 :setText;
+        %tmp.72 = getv ? :Rez;
+        %tmp.73 = getv %tmp.72 :Strings;
+        %tmp.74 = getv %tmp.73 :label2;
+        invoke %tmp.69 %tmp.70(%tmp.74);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 55 8 ]
+        %tmp.76 = getv ? :View;
+        %tmp.77 = getv function %tmp.76 :findDrawableById;
+        %tmp.78 = "value3";
+        %tmp.79 = invoke %tmp.76 %tmp.77(%tmp.78);
+        putv self :valueView3 %tmp.79;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 56 8 ]
+        %tmp.80 = getv self :valueView3;
+        %tmp.82 = getv ? :eenvijfde;
+        %tmp.83 = 4;
+        %tmp.84 = mul %tmp.82 %tmp.83;
+        putv %tmp.80 :locX %tmp.84;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 57 8 ]
+        %tmp.85 = getv self :valueView3;
+        %tmp.87 = getv ? :valueView3;
+        %tmp.88 = getv %tmp.87 :locY;
+        %tmp.89 = 10;
+        %tmp.90 = add %tmp.88 %tmp.89;
+        putv %tmp.85 :locY %tmp.90;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 58 8 ]
+        %tmp.92 = getv ? :View;
+        %tmp.93 = getv function %tmp.92 :findDrawableById;
+        %tmp.94 = "label3";
+        %tmp.95 = invoke %tmp.92 %tmp.93(%tmp.94);
+        %tmp.96 = as %tmp.95 Text;
+        putv self :labelView3 %tmp.96;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 59 8 ]
+        %tmp.97 = getv self :labelView3;
+        %tmp.99 = getv ? :eenvijfde;
+        %tmp.100 = 4;
+        %tmp.101 = mul %tmp.99 %tmp.100;
+        putv %tmp.97 :locX %tmp.101;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 60 8 ]
+        %tmp.103 = getv ? :labelView3;
+        %tmp.104 = getv function %tmp.103 :setText;
+        %tmp.106 = getv ? :Rez;
+        %tmp.107 = getv %tmp.106 :Strings;
+        %tmp.108 = getv %tmp.107 :label3;
+        invoke %tmp.103 %tmp.104(%tmp.108);
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_36_40_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 67; ]
+    function compute(info as Activity.Info) as Void {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_67_52_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 69 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_8_if_stmt:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_12_begin:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_12_begin:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_12_begin:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_12_begin:
+        %tmp.1 = lgetv %info;
+        %tmp.2 = getv %tmp.1 :averageSpeed;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        %tmp.5 = dup %tmp.4;
+        bf %tmp.5 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_45_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_45_true:
+        %tmp.6 = lgetv %info;
+        %tmp.7 = getv %tmp.6 :averageSpeed;
+        %tmp.8 = 0;
+        %tmp.9 = ne %tmp.7 %tmp.8;
+        %tmp.10 = and %tmp.4 %tmp.9;
+        push %tmp.10;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_45_end:
+        %tmp.11 = phi [%tmp.5 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_12_begin] [%tmp.10 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_45_true] [%tmp.11 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_45_end];
+        %tmp.12 = dup %tmp.11;
+        bf %tmp.12 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_75_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_75_true:
+        %tmp.13 = lgetv %info;
+        %tmp.14 = getv %tmp.13 :currentSpeed;
+        %tmp.15 = 0;
+        %tmp.16 = ne %tmp.14 %tmp.15;
+        %tmp.17 = and %tmp.11 %tmp.16;
+        push %tmp.17;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_75_end:
+        %tmp.18 = phi [%tmp.12 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_12_begin] [%tmp.17 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_75_true] [%tmp.18 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_75_end];
+        %tmp.19 = dup %tmp.18;
+        bf %tmp.19 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_104_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_104_true:
+        %tmp.20 = lgetv %info;
+        %tmp.21 = getv %tmp.20 :distanceToDestination;
+        %tmp.22 = null;
+        %tmp.23 = ne %tmp.21 %tmp.22;
+        %tmp.24 = and %tmp.18 %tmp.23;
+        push %tmp.24;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_104_end:
+        %tmp.25 = phi [%tmp.19 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_12_begin] [%tmp.24 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_104_true] [%tmp.25 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_104_end];
+        %tmp.26 = dup %tmp.25;
+        bf %tmp.26 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_145_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_145_true:
+        %tmp.27 = lgetv %info;
+        %tmp.28 = getv %tmp.27 :distanceToDestination;
+        %tmp.29 = 0;
+        %tmp.30 = ne %tmp.28 %tmp.29;
+        %tmp.31 = and %tmp.25 %tmp.30;
+        push %tmp.31;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_145_end:
+        %tmp.32 = phi [%tmp.26 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_12_begin] [%tmp.31 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_145_true] [%tmp.32 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_145_end];
+        bf %tmp.32 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_8_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 71 12 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_71_12_if_stmt:
+        %tmp.33 = lgetv %info;
+        %tmp.34 = getv %tmp.33 :currentSpeed;
+        %tmp.35 = lgetv %info;
+        %tmp.36 = getv %tmp.35 :averageSpeed;
+        %tmp.37 = div %tmp.34 %tmp.36;
+        %tmp.38 = 1.333;
+        %tmp.39 = gte %tmp.37 %tmp.38;
+        bf %tmp.39 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_71_12_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_71_12_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_71_66_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 72 16 ]
+        %tmp.40 = lgetv %info;
+        %tmp.41 = getv %tmp.40 :distanceToDestination;
+        %tmp.42 = lgetv %info;
+        %tmp.43 = getv %tmp.42 :averageSpeed;
+        %tmp.44 = lgetv %info;
+        %tmp.45 = getv %tmp.44 :currentSpeed;
+        %tmp.46 = 3;
+        %tmp.47 = mul %tmp.45 %tmp.46;
+        %tmp.48 = add %tmp.43 %tmp.47;
+        %tmp.49 = 4;
+        %tmp.50 = div %tmp.48 %tmp.49;
+        %tmp.51 = div %tmp.41 %tmp.50;
+        putv self :etaInSeconds %tmp.51;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_71_66_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_71_12_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_71_12_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_74_17_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 75 16 ]
+        %tmp.52 = lgetv %info;
+        %tmp.53 = getv %tmp.52 :distanceToDestination;
+        %tmp.54 = lgetv %info;
+        %tmp.55 = getv %tmp.54 :averageSpeed;
+        %tmp.56 = 3;
+        %tmp.57 = mul %tmp.55 %tmp.56;
+        %tmp.58 = lgetv %info;
+        %tmp.59 = getv %tmp.58 :currentSpeed;
+        %tmp.60 = add %tmp.57 %tmp.59;
+        %tmp.61 = 4;
+        %tmp.62 = div %tmp.60 %tmp.61;
+        %tmp.63 = div %tmp.53 %tmp.62;
+        putv self :etaInSeconds %tmp.63;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_74_17_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_71_12_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 79 12 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_stop" ]
+        %Uur.1 = local;
+        %tmp.65 = getv ? :Math;
+        %tmp.66 = getv function %tmp.65 :floor;
+        %tmp.68 = getv ? :etaInSeconds;
+        %tmp.69 = 3600;
+        %tmp.70 = div %tmp.68 %tmp.69;
+        %tmp.71 = invoke %tmp.65 %tmp.66(%tmp.70);
+        lputv %Uur.1 %tmp.71;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 80 12 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_stop" ]
+        %Minuut.2 = local;
+        %tmp.73 = getv ? :Math;
+        %tmp.74 = getv function %tmp.73 :floor;
+        %tmp.76 = getv ? :etaInSeconds;
+        %tmp.78 = lgetv %Uur.1;
+        %tmp.79 = 3600;
+        %tmp.80 = mul %tmp.78 %tmp.79;
+        %tmp.81 = sub %tmp.76 %tmp.80;
+        %tmp.82 = 60;
+        %tmp.83 = div %tmp.81 %tmp.82;
+        %tmp.84 = invoke %tmp.73 %tmp.74(%tmp.83);
+        lputv %Minuut.2 %tmp.84;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 81 12 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_stop" ]
+        %Seconden.3 = local;
+        %tmp.86 = getv ? :Math;
+        %tmp.87 = getv function %tmp.86 :floor;
+        %tmp.89 = getv ? :etaInSeconds;
+        %tmp.91 = lgetv %Uur.1;
+        %tmp.92 = 3600;
+        %tmp.93 = mul %tmp.91 %tmp.92;
+        %tmp.94 = sub %tmp.89 %tmp.93;
+        %tmp.96 = lgetv %Minuut.2;
+        %tmp.97 = 60;
+        %tmp.98 = mul %tmp.96 %tmp.97;
+        %tmp.99 = sub %tmp.94 %tmp.98;
+        %tmp.100 = invoke %tmp.86 %tmp.87(%tmp.99);
+        lputv %Seconden.3 %tmp.100;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 82 12 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_82_12_if_stmt:
+        %tmp.102 = lgetv %Uur.1;
+        %tmp.103 = 0;
+        %tmp.104 = gt %tmp.102 %tmp.103;
+        bf %tmp.104 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_82_12_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_82_12_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_82_25_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 83 16 ]
+        %tmp.105 = lgetv %Uur.1;
+        %tmp.106 = getv function %tmp.105 :format;
+        %tmp.107 = "%02d";
+        %tmp.108 = invoke %tmp.105 %tmp.106(%tmp.107);
+        %tmp.109 = ":";
+        %tmp.110 = add %tmp.108 %tmp.109;
+        %tmp.111 = lgetv %Minuut.2;
+        %tmp.112 = getv function %tmp.111 :format;
+        %tmp.113 = "%02d";
+        %tmp.114 = invoke %tmp.111 %tmp.112(%tmp.113);
+        %tmp.115 = add %tmp.110 %tmp.114;
+        putv self :mValue1 %tmp.115;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_82_25_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_82_12_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_82_12_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_84_19_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 85 16 ]
+        %tmp.116 = lgetv %Minuut.2;
+        %tmp.117 = getv function %tmp.116 :format;
+        %tmp.118 = "%02d";
+        %tmp.119 = invoke %tmp.116 %tmp.117(%tmp.118);
+        %tmp.120 = ":";
+        %tmp.121 = add %tmp.119 %tmp.120;
+        %tmp.122 = lgetv %Seconden.3;
+        %tmp.123 = getv function %tmp.122 :format;
+        %tmp.124 = "%02d";
+        %tmp.125 = invoke %tmp.122 %tmp.123(%tmp.124);
+        %tmp.126 = add %tmp.121 %tmp.125;
+        putv self :mValue1 %tmp.126;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_84_19_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_82_12_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 88 12 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_stop" ]
+        %tijdNu.4 = local;
+        %tmp.129 = getm $.Toybox.Time;
+        %tmp.130 = getv function ? %tmp.129 :Moment;
+        %tmp.131 = getm $.Toybox.Time;
+        %tmp.132 = getv function %tmp.131 :now;
+        %tmp.133 = invoke %tmp.131 %tmp.132();
+        %tmp.134 = getv function %tmp.133 :value;
+        %tmp.135 = invoke %tmp.133 %tmp.134();
+        %tmp.127 = newc %tmp.130 (%tmp.135);
+        lputv %tijdNu.4 %tmp.127;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 89 12 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_stop" ]
+        %tijdTegaanInSeconds.5 = local;
+        %tmp.138 = getm $.Toybox.Time;
+        %tmp.139 = getv function ? %tmp.138 :Duration;
+        %tmp.141 = getv ? :etaInSeconds;
+        %tmp.142 = getv function %tmp.141 :toNumber;
+        %tmp.143 = invoke %tmp.141 %tmp.142();
+        %tmp.136 = newc %tmp.139 (%tmp.143);
+        lputv %tijdTegaanInSeconds.5 %tmp.136;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 90 12 ]
+        %tmp.144 = lgetv %tijdNu.4;
+        %tmp.145 = getv function %tmp.144 :add;
+        %tmp.147 = lgetv %tijdTegaanInSeconds.5;
+        %tmp.148 = invoke %tmp.144 %tmp.145(%tmp.147);
+        lputv %tijdNu.4 %tmp.148;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 91 12 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_stop" ]
+        %tijdETAGregorian.6 = local;
+        %tmp.149 = getm $.Toybox.Time.Gregorian;
+        %tmp.150 = getv function %tmp.149 :info;
+        %tmp.152 = lgetv %tijdNu.4;
+        %tmp.153 = getm $.Toybox.Time;
+        %tmp.154 = getv %tmp.153 :FORMAT_SHORT;
+        %tmp.155 = invoke %tmp.149 %tmp.150(%tmp.152, %tmp.154);
+        lputv %tijdETAGregorian.6 %tmp.155;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 92 12 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_stop" ]
+        %dateString.7 = local;
+        %tmp.156 = getm $.Toybox.Lang;
+        %tmp.157 = getv function %tmp.156 :format;
+        %tmp.158 = "$1$:$2$";
+        %tmp.159 = newa 2;
+        %tmp.160 = lgetv %tijdETAGregorian.6;
+        %tmp.161 = getv %tmp.160 :hour;
+        %tmp.162 = getv function %tmp.161 :format;
+        %tmp.163 = "%02d";
+        %tmp.164 = invoke %tmp.161 %tmp.162(%tmp.163);
+        %tmp.165 = dup %tmp.159;
+        %tmp.166 = aputv %tmp.165 0 %tmp.164;
+        %tmp.167 = lgetv %tijdETAGregorian.6;
+        %tmp.168 = getv %tmp.167 :min;
+        %tmp.169 = getv function %tmp.168 :format;
+        %tmp.170 = "%02d";
+        %tmp.171 = invoke %tmp.168 %tmp.169(%tmp.170);
+        %tmp.172 = dup %tmp.166;
+        %tmp.173 = aputv %tmp.172 1 %tmp.171;
+        %tmp.174 = invoke %tmp.156 %tmp.157(%tmp.158, %tmp.173);
+        lputv %dateString.7 %tmp.174;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 99 12 ]
+        %tmp.176 = lgetv %dateString.7;
+        putv self :mValue2 %tmp.176;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 100 12 ]
+        %tmp.177 = lgetv %info;
+        %tmp.178 = getv %tmp.177 :distanceToDestination;
+        putv self :mValue3 %tmp.178;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 102 12 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_102_12_if_stmt:
+        %tmp.180 = getv ? :mMetric;
+        %tmp.182 = getv ? :System;
+        %tmp.183 = getv %tmp.182 :UNIT_METRIC;
+        %tmp.184 = eq %tmp.180 %tmp.183;
+        bf %tmp.184 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_102_12_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_102_12_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_102_47_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 103 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_103_16_if_stmt:
+        %tmp.186 = getv ? :mValue3;
+        %tmp.187 = 1000;
+        %tmp.188 = lt %tmp.186 %tmp.187;
+        bf %tmp.188 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_103_16_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_103_16_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_103_36_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 104 20 ]
+        %tmp.189 = lgetv %info;
+        %tmp.190 = getv %tmp.189 :distanceToDestination;
+        putv self :mValue3 %tmp.190;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_103_36_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_103_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_103_16_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_105_23_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 106 20 ]
+        %tmp.191 = lgetv %info;
+        %tmp.192 = getv %tmp.191 :distanceToDestination;
+        %tmp.193 = 1000;
+        %tmp.194 = div %tmp.192 %tmp.193;
+        putv self :mValue3 %tmp.194;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_105_23_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_103_16_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_102_47_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_102_12_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_102_12_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_108_19_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 109 16 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_109_16_if_stmt:
+        %tmp.196 = getv ? :mValue3;
+        %tmp.197 = 1609.344;
+        %tmp.198 = lt %tmp.196 %tmp.197;
+        bf %tmp.198 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_109_16_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_109_16_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_109_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 110 20 ]
+        %tmp.199 = lgetv %info;
+        %tmp.200 = getv %tmp.199 :distanceToDestination;
+        %tmp.201 = 1.093613;
+        %tmp.202 = mul %tmp.200 %tmp.201;
+        putv self :mValue3 %tmp.202;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_109_40_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_109_16_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_109_16_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_111_23_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 112 20 ]
+        %tmp.203 = lgetv %info;
+        %tmp.204 = getv %tmp.203 :distanceToDestination;
+        %tmp.205 = 1609.344;
+        %tmp.206 = div %tmp.204 %tmp.205;
+        putv self :mValue3 %tmp.206;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_111_23_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_109_16_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_108_19_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_102_12_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_180_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_8_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_116_15_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 117 12 ]
+        %tmp.207 = "--:--";
+        putv self :mValue1 %tmp.207;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 118 12 ]
+        %tmp.208 = "--:--";
+        putv self :mValue2 %tmp.208;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 119 12 ]
+        %tmp.209 = 0.0;
+        putv self :mValue3 %tmp.209;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_116_15_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_69_8_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_67_52_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 125; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_125_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 127 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "Background";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Text;
+        %tmp.7 = getv function %tmp.6 :setColor;
+        %tmp.8 = self;
+        %tmp.9 = getv function %tmp.8 :getBackgroundColor;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        invoke %tmp.6 %tmp.7(%tmp.10);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 130 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_130_8_if_stmt:
+        %tmp.11 = self;
+        %tmp.12 = getv function %tmp.11 :getBackgroundColor;
+        %tmp.13 = invoke %tmp.11 %tmp.12();
+        %tmp.14 = getm $.Toybox.Graphics;
+        %tmp.15 = getv %tmp.14 :COLOR_BLACK;
+        %tmp.16 = eq %tmp.13 %tmp.15;
+        bf %tmp.16 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_130_8_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_130_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_130_58_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 131 12 ]
+        %tmp.18 = getv ? :valueView1;
+        %tmp.19 = getv function %tmp.18 :setColor;
+        %tmp.20 = getm $.Toybox.Graphics;
+        %tmp.21 = getv %tmp.20 :COLOR_WHITE;
+        invoke %tmp.18 %tmp.19(%tmp.21);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 132 12 ]
+        %tmp.23 = getv ? :labelView1;
+        %tmp.24 = getv function %tmp.23 :setColor;
+        %tmp.25 = getm $.Toybox.Graphics;
+        %tmp.26 = getv %tmp.25 :COLOR_WHITE;
+        invoke %tmp.23 %tmp.24(%tmp.26);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 133 12 ]
+        %tmp.28 = getv ? :valueView2;
+        %tmp.29 = getv function %tmp.28 :setColor;
+        %tmp.30 = getm $.Toybox.Graphics;
+        %tmp.31 = getv %tmp.30 :COLOR_WHITE;
+        invoke %tmp.28 %tmp.29(%tmp.31);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 134 12 ]
+        %tmp.33 = getv ? :labelView2;
+        %tmp.34 = getv function %tmp.33 :setColor;
+        %tmp.35 = getm $.Toybox.Graphics;
+        %tmp.36 = getv %tmp.35 :COLOR_WHITE;
+        invoke %tmp.33 %tmp.34(%tmp.36);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 135 12 ]
+        %tmp.38 = getv ? :valueView3;
+        %tmp.39 = getv function %tmp.38 :setColor;
+        %tmp.40 = getm $.Toybox.Graphics;
+        %tmp.41 = getv %tmp.40 :COLOR_WHITE;
+        invoke %tmp.38 %tmp.39(%tmp.41);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 136 12 ]
+        %tmp.43 = getv ? :labelView3;
+        %tmp.44 = getv function %tmp.43 :setColor;
+        %tmp.45 = getm $.Toybox.Graphics;
+        %tmp.46 = getv %tmp.45 :COLOR_WHITE;
+        invoke %tmp.43 %tmp.44(%tmp.46);
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_130_58_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_130_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_130_8_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_137_15_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 138 12 ]
+        %tmp.48 = getv ? :valueView1;
+        %tmp.49 = getv function %tmp.48 :setColor;
+        %tmp.50 = getm $.Toybox.Graphics;
+        %tmp.51 = getv %tmp.50 :COLOR_BLACK;
+        invoke %tmp.48 %tmp.49(%tmp.51);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 139 12 ]
+        %tmp.53 = getv ? :labelView1;
+        %tmp.54 = getv function %tmp.53 :setColor;
+        %tmp.55 = getm $.Toybox.Graphics;
+        %tmp.56 = getv %tmp.55 :COLOR_BLACK;
+        invoke %tmp.53 %tmp.54(%tmp.56);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 140 12 ]
+        %tmp.58 = getv ? :valueView2;
+        %tmp.59 = getv function %tmp.58 :setColor;
+        %tmp.60 = getm $.Toybox.Graphics;
+        %tmp.61 = getv %tmp.60 :COLOR_BLACK;
+        invoke %tmp.58 %tmp.59(%tmp.61);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 141 12 ]
+        %tmp.63 = getv ? :labelView2;
+        %tmp.64 = getv function %tmp.63 :setColor;
+        %tmp.65 = getm $.Toybox.Graphics;
+        %tmp.66 = getv %tmp.65 :COLOR_BLACK;
+        invoke %tmp.63 %tmp.64(%tmp.66);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 142 12 ]
+        %tmp.68 = getv ? :valueView3;
+        %tmp.69 = getv function %tmp.68 :setColor;
+        %tmp.70 = getm $.Toybox.Graphics;
+        %tmp.71 = getv %tmp.70 :COLOR_BLACK;
+        invoke %tmp.68 %tmp.69(%tmp.71);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 143 12 ]
+        %tmp.73 = getv ? :labelView3;
+        %tmp.74 = getv function %tmp.73 :setColor;
+        %tmp.75 = getm $.Toybox.Graphics;
+        %tmp.76 = getv %tmp.75 :COLOR_BLACK;
+        invoke %tmp.73 %tmp.74(%tmp.76);
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_137_15_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_130_8_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 145 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_145_8_if_stmt:
+        %tmp.78 = getv ? :mMetric;
+        %tmp.80 = getv ? :System;
+        %tmp.81 = getv %tmp.80 :UNIT_METRIC;
+        %tmp.82 = eq %tmp.78 %tmp.81;
+        bf %tmp.82 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_145_8_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_145_8_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_145_43_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 146 12 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_146_12_if_stmt:
+        %tmp.84 = getv ? :mValue3;
+        %tmp.85 = 1000;
+        %tmp.86 = lt %tmp.84 %tmp.85;
+        bf %tmp.86 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_146_12_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_146_12_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_146_32_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 147 16 ]
+        %tmp.88 = getv ? :labelView3;
+        %tmp.89 = getv function %tmp.88 :setText;
+        %tmp.91 = getv ? :Rez;
+        %tmp.92 = getv %tmp.91 :Strings;
+        %tmp.93 = getv %tmp.92 :label3m;
+        invoke %tmp.88 %tmp.89(%tmp.93);
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_146_32_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_146_12_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_146_12_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_148_19_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 149 16 ]
+        %tmp.95 = getv ? :labelView3;
+        %tmp.96 = getv function %tmp.95 :setText;
+        %tmp.98 = getv ? :Rez;
+        %tmp.99 = getv %tmp.98 :Strings;
+        %tmp.100 = getv %tmp.99 :label3km;
+        invoke %tmp.95 %tmp.96(%tmp.100);
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_148_19_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_146_12_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_145_43_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_145_8_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_145_8_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_151_15_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 152 12 ]
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_152_12_if_stmt:
+        %tmp.102 = getv ? :mValue3;
+        %tmp.103 = 1609.344;
+        %tmp.104 = lt %tmp.102 %tmp.103;
+        bf %tmp.104 @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_152_12_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_152_12_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_152_36_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 153 16 ]
+        %tmp.106 = getv ? :labelView3;
+        %tmp.107 = getv function %tmp.106 :setText;
+        %tmp.109 = getv ? :Rez;
+        %tmp.110 = getv %tmp.109 :Strings;
+        %tmp.111 = getv %tmp.110 :label3y;
+        invoke %tmp.106 %tmp.107(%tmp.111);
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_152_36_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_152_12_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_152_12_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_154_19_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 155 16 ]
+        %tmp.113 = getv ? :labelView3;
+        %tmp.114 = getv function %tmp.113 :setText;
+        %tmp.116 = getv ? :Rez;
+        %tmp.117 = getv %tmp.116 :Strings;
+        %tmp.118 = getv %tmp.117 :label3ml;
+        invoke %tmp.113 %tmp.114(%tmp.118);
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_154_19_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_152_12_if_end:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_151_15_stop:
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_145_8_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 158 8 ]
+        %tmp.120 = getv ? :valueView1;
+        %tmp.121 = getv function %tmp.120 :setText;
+        %tmp.123 = getv ? :mValue1;
+        invoke %tmp.120 %tmp.121(%tmp.123);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 159 8 ]
+        %tmp.125 = getv ? :valueView2;
+        %tmp.126 = getv function %tmp.125 :setText;
+        %tmp.128 = getv ? :mValue2;
+        invoke %tmp.125 %tmp.126(%tmp.128);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 160 8 ]
+        %tmp.130 = getv ? :valueView3;
+        %tmp.131 = getv function %tmp.130 :setText;
+        %tmp.133 = getv ? :mValue3;
+        %tmp.134 = getv function %tmp.133 :format;
+        %tmp.135 = "%.0f";
+        %tmp.136 = invoke %tmp.133 %tmp.134(%tmp.135);
+        invoke %tmp.130 %tmp.131(%tmp.136);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc" 163 8 ]
+        %tmp.138 = getv ? :View;
+        %tmp.139 = getv function %tmp.138 :onUpdate;
+        %tmp.141 = lgetv %dc;
+        invoke %tmp.138 %tmp.139(%tmp.141);
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_source_ETAplusView_mc_125_40_stop:
+    }
+}
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\source\ETAplusView.mc"; @line = 1; ]
+<init> {
+}

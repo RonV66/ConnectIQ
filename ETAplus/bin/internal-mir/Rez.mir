@@ -1,0 +1,1864 @@
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var LauncherIcon as Symbol;
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
+    module Fonts {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 15; ]
+    module JsonData {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 15; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 18; ]
+    module Layouts {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 18; ]
+        <init> {
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 19; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 20 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_var_dc_getHeight.1 = local;
+            %tmp.1 = lgetv %dc;
+            %tmp.2 = getv function %tmp.1 :getHeight;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 22 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_var_dc_getWidth.2 = local;
+            %tmp.4 = lgetv %dc;
+            %tmp.5 = getv function %tmp.4 :getWidth;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 24 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_custom_drawable_20343602216618045134.3 = local;
+            %tmp.10 = getv ? :Background;
+            %tmp.7 = newc %tmp.10 ();
+            lputv %rez_cmp_local_custom_drawable_20343602216618045134.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 26 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_text_label1.4 = local;
+            %tmp.13 = getm $.Toybox.WatchUi;
+            %tmp.14 = getv function ? %tmp.13 :Text;
+            %tmp.15 = newd 6;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "label1";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.22 = const :color;
+            %tmp.23 = getm $.Toybox.Graphics;
+            %tmp.24 = getv %tmp.23 :COLOR_LT_GRAY;
+            %tmp.25 = dup %tmp.20;
+            %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+            %tmp.28 = const :locX;
+            %tmp.29 = getm $.Toybox.WatchUi;
+            %tmp.30 = getv %tmp.29 :LAYOUT_HALIGN_LEFT;
+            %tmp.31 = dup %tmp.26;
+            %tmp.32 = aputv %tmp.31 %tmp.28 %tmp.30;
+            %tmp.34 = const :locY;
+            %tmp.36 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.37 = lgetv %dc;
+            %tmp.38 = getv function %tmp.37 :getFontHeight;
+            %tmp.39 = getm $.Toybox.Graphics;
+            %tmp.40 = getv %tmp.39 :FONT_TINY;
+            %tmp.41 = invoke %tmp.37 %tmp.38(%tmp.40);
+            %tmp.42 = sub %tmp.36 %tmp.41;
+            %tmp.43 = 0.5;
+            %tmp.44 = mul %tmp.42 %tmp.43;
+            %tmp.45 = dup %tmp.32;
+            %tmp.46 = aputv %tmp.45 %tmp.34 %tmp.44;
+            %tmp.48 = const :justification;
+            %tmp.49 = getm $.Toybox.Graphics;
+            %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_CENTER;
+            %tmp.51 = dup %tmp.46;
+            %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+            %tmp.54 = const :font;
+            %tmp.55 = getm $.Toybox.Graphics;
+            %tmp.56 = getv %tmp.55 :FONT_TINY;
+            %tmp.57 = dup %tmp.52;
+            %tmp.58 = aputv %tmp.57 %tmp.54 %tmp.56;
+            %tmp.11 = newc %tmp.14 (%tmp.58);
+            lputv %rez_cmp_local_text_label1.4 %tmp.11;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 28 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_text_value1.5 = local;
+            %tmp.61 = getm $.Toybox.WatchUi;
+            %tmp.62 = getv function ? %tmp.61 :Text;
+            %tmp.63 = newd 6;
+            %tmp.65 = const :identifier;
+            %tmp.66 = "value1";
+            %tmp.67 = dup %tmp.63;
+            %tmp.68 = aputv %tmp.67 %tmp.65 %tmp.66;
+            %tmp.70 = const :color;
+            %tmp.71 = getm $.Toybox.Graphics;
+            %tmp.72 = getv %tmp.71 :COLOR_WHITE;
+            %tmp.73 = dup %tmp.68;
+            %tmp.74 = aputv %tmp.73 %tmp.70 %tmp.72;
+            %tmp.76 = const :locX;
+            %tmp.77 = getm $.Toybox.WatchUi;
+            %tmp.78 = getv %tmp.77 :LAYOUT_HALIGN_LEFT;
+            %tmp.79 = dup %tmp.74;
+            %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
+            %tmp.82 = const :locY;
+            %tmp.84 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.85 = lgetv %dc;
+            %tmp.86 = getv function %tmp.85 :getFontHeight;
+            %tmp.87 = getm $.Toybox.Graphics;
+            %tmp.88 = getv %tmp.87 :FONT_LARGE;
+            %tmp.89 = invoke %tmp.85 %tmp.86(%tmp.88);
+            %tmp.90 = sub %tmp.84 %tmp.89;
+            %tmp.91 = 0.5;
+            %tmp.92 = mul %tmp.90 %tmp.91;
+            %tmp.93 = dup %tmp.80;
+            %tmp.94 = aputv %tmp.93 %tmp.82 %tmp.92;
+            %tmp.96 = const :justification;
+            %tmp.97 = getm $.Toybox.Graphics;
+            %tmp.98 = getv %tmp.97 :TEXT_JUSTIFY_CENTER;
+            %tmp.99 = dup %tmp.94;
+            %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
+            %tmp.102 = const :font;
+            %tmp.103 = getm $.Toybox.Graphics;
+            %tmp.104 = getv %tmp.103 :FONT_LARGE;
+            %tmp.105 = dup %tmp.100;
+            %tmp.106 = aputv %tmp.105 %tmp.102 %tmp.104;
+            %tmp.59 = newc %tmp.62 (%tmp.106);
+            lputv %rez_cmp_local_text_value1.5 %tmp.59;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 30 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_text_label2.6 = local;
+            %tmp.109 = getm $.Toybox.WatchUi;
+            %tmp.110 = getv function ? %tmp.109 :Text;
+            %tmp.111 = newd 6;
+            %tmp.113 = const :identifier;
+            %tmp.114 = "label2";
+            %tmp.115 = dup %tmp.111;
+            %tmp.116 = aputv %tmp.115 %tmp.113 %tmp.114;
+            %tmp.118 = const :color;
+            %tmp.119 = getm $.Toybox.Graphics;
+            %tmp.120 = getv %tmp.119 :COLOR_LT_GRAY;
+            %tmp.121 = dup %tmp.116;
+            %tmp.122 = aputv %tmp.121 %tmp.118 %tmp.120;
+            %tmp.124 = const :locX;
+            %tmp.126 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.127 = 0.5;
+            %tmp.128 = mul %tmp.126 %tmp.127;
+            %tmp.129 = dup %tmp.122;
+            %tmp.130 = aputv %tmp.129 %tmp.124 %tmp.128;
+            %tmp.132 = const :locY;
+            %tmp.134 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.135 = lgetv %dc;
+            %tmp.136 = getv function %tmp.135 :getFontHeight;
+            %tmp.137 = getm $.Toybox.Graphics;
+            %tmp.138 = getv %tmp.137 :FONT_TINY;
+            %tmp.139 = invoke %tmp.135 %tmp.136(%tmp.138);
+            %tmp.140 = sub %tmp.134 %tmp.139;
+            %tmp.141 = 0.5;
+            %tmp.142 = mul %tmp.140 %tmp.141;
+            %tmp.143 = dup %tmp.130;
+            %tmp.144 = aputv %tmp.143 %tmp.132 %tmp.142;
+            %tmp.146 = const :justification;
+            %tmp.147 = getm $.Toybox.Graphics;
+            %tmp.148 = getv %tmp.147 :TEXT_JUSTIFY_CENTER;
+            %tmp.149 = dup %tmp.144;
+            %tmp.150 = aputv %tmp.149 %tmp.146 %tmp.148;
+            %tmp.152 = const :font;
+            %tmp.153 = getm $.Toybox.Graphics;
+            %tmp.154 = getv %tmp.153 :FONT_TINY;
+            %tmp.155 = dup %tmp.150;
+            %tmp.156 = aputv %tmp.155 %tmp.152 %tmp.154;
+            %tmp.107 = newc %tmp.110 (%tmp.156);
+            lputv %rez_cmp_local_text_label2.6 %tmp.107;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 32 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_text_value2.7 = local;
+            %tmp.159 = getm $.Toybox.WatchUi;
+            %tmp.160 = getv function ? %tmp.159 :Text;
+            %tmp.161 = newd 6;
+            %tmp.163 = const :identifier;
+            %tmp.164 = "value2";
+            %tmp.165 = dup %tmp.161;
+            %tmp.166 = aputv %tmp.165 %tmp.163 %tmp.164;
+            %tmp.168 = const :color;
+            %tmp.169 = getm $.Toybox.Graphics;
+            %tmp.170 = getv %tmp.169 :COLOR_WHITE;
+            %tmp.171 = dup %tmp.166;
+            %tmp.172 = aputv %tmp.171 %tmp.168 %tmp.170;
+            %tmp.174 = const :locX;
+            %tmp.176 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.177 = 0.5;
+            %tmp.178 = mul %tmp.176 %tmp.177;
+            %tmp.179 = dup %tmp.172;
+            %tmp.180 = aputv %tmp.179 %tmp.174 %tmp.178;
+            %tmp.182 = const :locY;
+            %tmp.184 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.185 = lgetv %dc;
+            %tmp.186 = getv function %tmp.185 :getFontHeight;
+            %tmp.187 = getm $.Toybox.Graphics;
+            %tmp.188 = getv %tmp.187 :FONT_LARGE;
+            %tmp.189 = invoke %tmp.185 %tmp.186(%tmp.188);
+            %tmp.190 = sub %tmp.184 %tmp.189;
+            %tmp.191 = 0.5;
+            %tmp.192 = mul %tmp.190 %tmp.191;
+            %tmp.193 = dup %tmp.180;
+            %tmp.194 = aputv %tmp.193 %tmp.182 %tmp.192;
+            %tmp.196 = const :justification;
+            %tmp.197 = getm $.Toybox.Graphics;
+            %tmp.198 = getv %tmp.197 :TEXT_JUSTIFY_CENTER;
+            %tmp.199 = dup %tmp.194;
+            %tmp.200 = aputv %tmp.199 %tmp.196 %tmp.198;
+            %tmp.202 = const :font;
+            %tmp.203 = getm $.Toybox.Graphics;
+            %tmp.204 = getv %tmp.203 :FONT_LARGE;
+            %tmp.205 = dup %tmp.200;
+            %tmp.206 = aputv %tmp.205 %tmp.202 %tmp.204;
+            %tmp.157 = newc %tmp.160 (%tmp.206);
+            lputv %rez_cmp_local_text_value2.7 %tmp.157;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 34 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_text_label3.8 = local;
+            %tmp.209 = getm $.Toybox.WatchUi;
+            %tmp.210 = getv function ? %tmp.209 :Text;
+            %tmp.211 = newd 6;
+            %tmp.213 = const :identifier;
+            %tmp.214 = "label3";
+            %tmp.215 = dup %tmp.211;
+            %tmp.216 = aputv %tmp.215 %tmp.213 %tmp.214;
+            %tmp.218 = const :color;
+            %tmp.219 = getm $.Toybox.Graphics;
+            %tmp.220 = getv %tmp.219 :COLOR_LT_GRAY;
+            %tmp.221 = dup %tmp.216;
+            %tmp.222 = aputv %tmp.221 %tmp.218 %tmp.220;
+            %tmp.224 = const :locX;
+            %tmp.225 = getm $.Toybox.WatchUi;
+            %tmp.226 = getv %tmp.225 :LAYOUT_HALIGN_RIGHT;
+            %tmp.227 = dup %tmp.222;
+            %tmp.228 = aputv %tmp.227 %tmp.224 %tmp.226;
+            %tmp.230 = const :locY;
+            %tmp.232 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.233 = lgetv %dc;
+            %tmp.234 = getv function %tmp.233 :getFontHeight;
+            %tmp.235 = getm $.Toybox.Graphics;
+            %tmp.236 = getv %tmp.235 :FONT_TINY;
+            %tmp.237 = invoke %tmp.233 %tmp.234(%tmp.236);
+            %tmp.238 = sub %tmp.232 %tmp.237;
+            %tmp.239 = 0.5;
+            %tmp.240 = mul %tmp.238 %tmp.239;
+            %tmp.241 = dup %tmp.228;
+            %tmp.242 = aputv %tmp.241 %tmp.230 %tmp.240;
+            %tmp.244 = const :justification;
+            %tmp.245 = getm $.Toybox.Graphics;
+            %tmp.246 = getv %tmp.245 :TEXT_JUSTIFY_CENTER;
+            %tmp.247 = dup %tmp.242;
+            %tmp.248 = aputv %tmp.247 %tmp.244 %tmp.246;
+            %tmp.250 = const :font;
+            %tmp.251 = getm $.Toybox.Graphics;
+            %tmp.252 = getv %tmp.251 :FONT_TINY;
+            %tmp.253 = dup %tmp.248;
+            %tmp.254 = aputv %tmp.253 %tmp.250 %tmp.252;
+            %tmp.207 = newc %tmp.210 (%tmp.254);
+            lputv %rez_cmp_local_text_label3.8 %tmp.207;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 36 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_text_value3.9 = local;
+            %tmp.257 = getm $.Toybox.WatchUi;
+            %tmp.258 = getv function ? %tmp.257 :Text;
+            %tmp.259 = newd 6;
+            %tmp.261 = const :identifier;
+            %tmp.262 = "value3";
+            %tmp.263 = dup %tmp.259;
+            %tmp.264 = aputv %tmp.263 %tmp.261 %tmp.262;
+            %tmp.266 = const :color;
+            %tmp.267 = getm $.Toybox.Graphics;
+            %tmp.268 = getv %tmp.267 :COLOR_WHITE;
+            %tmp.269 = dup %tmp.264;
+            %tmp.270 = aputv %tmp.269 %tmp.266 %tmp.268;
+            %tmp.272 = const :locX;
+            %tmp.273 = getm $.Toybox.WatchUi;
+            %tmp.274 = getv %tmp.273 :LAYOUT_HALIGN_RIGHT;
+            %tmp.275 = dup %tmp.270;
+            %tmp.276 = aputv %tmp.275 %tmp.272 %tmp.274;
+            %tmp.278 = const :locY;
+            %tmp.280 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.281 = lgetv %dc;
+            %tmp.282 = getv function %tmp.281 :getFontHeight;
+            %tmp.283 = getm $.Toybox.Graphics;
+            %tmp.284 = getv %tmp.283 :FONT_LARGE;
+            %tmp.285 = invoke %tmp.281 %tmp.282(%tmp.284);
+            %tmp.286 = sub %tmp.280 %tmp.285;
+            %tmp.287 = 0.5;
+            %tmp.288 = mul %tmp.286 %tmp.287;
+            %tmp.289 = dup %tmp.276;
+            %tmp.290 = aputv %tmp.289 %tmp.278 %tmp.288;
+            %tmp.292 = const :justification;
+            %tmp.293 = getm $.Toybox.Graphics;
+            %tmp.294 = getv %tmp.293 :TEXT_JUSTIFY_CENTER;
+            %tmp.295 = dup %tmp.290;
+            %tmp.296 = aputv %tmp.295 %tmp.292 %tmp.294;
+            %tmp.298 = const :font;
+            %tmp.299 = getm $.Toybox.Graphics;
+            %tmp.300 = getv %tmp.299 :FONT_LARGE;
+            %tmp.301 = dup %tmp.296;
+            %tmp.302 = aputv %tmp.301 %tmp.298 %tmp.300;
+            %tmp.255 = newc %tmp.258 (%tmp.302);
+            lputv %rez_cmp_local_text_value3.9 %tmp.255;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 38 12 ]
+            %tmp.303 = newa Array<WatchUi.Drawable> 7;
+            %tmp.305 = lgetv %rez_cmp_local_custom_drawable_20343602216618045134.3;
+            %tmp.306 = dup %tmp.303;
+            %tmp.307 = aputv %tmp.306 0 %tmp.305;
+            %tmp.309 = lgetv %rez_cmp_local_text_label1.4;
+            %tmp.310 = dup %tmp.307;
+            %tmp.311 = aputv %tmp.310 1 %tmp.309;
+            %tmp.313 = lgetv %rez_cmp_local_text_value1.5;
+            %tmp.314 = dup %tmp.311;
+            %tmp.315 = aputv %tmp.314 2 %tmp.313;
+            %tmp.317 = lgetv %rez_cmp_local_text_label2.6;
+            %tmp.318 = dup %tmp.315;
+            %tmp.319 = aputv %tmp.318 3 %tmp.317;
+            %tmp.321 = lgetv %rez_cmp_local_text_value2.7;
+            %tmp.322 = dup %tmp.319;
+            %tmp.323 = aputv %tmp.322 4 %tmp.321;
+            %tmp.325 = lgetv %rez_cmp_local_text_label3.8;
+            %tmp.326 = dup %tmp.323;
+            %tmp.327 = aputv %tmp.326 5 %tmp.325;
+            %tmp.329 = lgetv %rez_cmp_local_text_value3.9;
+            %tmp.330 = dup %tmp.327;
+            %tmp.331 = aputv %tmp.330 6 %tmp.329;
+            ret %tmp.331;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop:
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 41; ]
+        function Klein(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 42 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
+            %rez_cmp_local_var_dc_getHeight.1 = local;
+            %tmp.1 = lgetv %dc;
+            %tmp.2 = getv function %tmp.1 :getHeight;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 44 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
+            %rez_cmp_local_var_dc_getWidth.2 = local;
+            %tmp.4 = lgetv %dc;
+            %tmp.5 = getv function %tmp.4 :getWidth;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 46 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
+            %rez_cmp_local_custom_drawable_18951897971234450225.3 = local;
+            %tmp.10 = getv ? :Background;
+            %tmp.7 = newc %tmp.10 ();
+            lputv %rez_cmp_local_custom_drawable_18951897971234450225.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 48 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
+            %rez_cmp_local_text_label1.4 = local;
+            %tmp.13 = getm $.Toybox.WatchUi;
+            %tmp.14 = getv function ? %tmp.13 :Text;
+            %tmp.15 = newd 6;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "label1";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.22 = const :color;
+            %tmp.23 = getm $.Toybox.Graphics;
+            %tmp.24 = getv %tmp.23 :COLOR_BLACK;
+            %tmp.25 = dup %tmp.20;
+            %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+            %tmp.28 = const :locX;
+            %tmp.29 = getm $.Toybox.WatchUi;
+            %tmp.30 = getv %tmp.29 :LAYOUT_HALIGN_LEFT;
+            %tmp.31 = dup %tmp.26;
+            %tmp.32 = aputv %tmp.31 %tmp.28 %tmp.30;
+            %tmp.34 = const :locY;
+            %tmp.35 = getm $.Toybox.WatchUi;
+            %tmp.36 = getv %tmp.35 :LAYOUT_VALIGN_TOP;
+            %tmp.37 = dup %tmp.32;
+            %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
+            %tmp.40 = const :justification;
+            %tmp.41 = getm $.Toybox.Graphics;
+            %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_CENTER;
+            %tmp.43 = dup %tmp.38;
+            %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
+            %tmp.46 = const :font;
+            %tmp.47 = getm $.Toybox.Graphics;
+            %tmp.48 = getv %tmp.47 :FONT_TINY;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.11 = newc %tmp.14 (%tmp.50);
+            lputv %rez_cmp_local_text_label1.4 %tmp.11;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 50 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
+            %rez_cmp_local_text_value1.5 = local;
+            %tmp.53 = getm $.Toybox.WatchUi;
+            %tmp.54 = getv function ? %tmp.53 :Text;
+            %tmp.55 = newd 6;
+            %tmp.57 = const :identifier;
+            %tmp.58 = "value1";
+            %tmp.59 = dup %tmp.55;
+            %tmp.60 = aputv %tmp.59 %tmp.57 %tmp.58;
+            %tmp.62 = const :color;
+            %tmp.63 = getm $.Toybox.Graphics;
+            %tmp.64 = getv %tmp.63 :COLOR_WHITE;
+            %tmp.65 = dup %tmp.60;
+            %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
+            %tmp.68 = const :locX;
+            %tmp.69 = getm $.Toybox.WatchUi;
+            %tmp.70 = getv %tmp.69 :LAYOUT_HALIGN_LEFT;
+            %tmp.71 = dup %tmp.66;
+            %tmp.72 = aputv %tmp.71 %tmp.68 %tmp.70;
+            %tmp.74 = const :locY;
+            %tmp.76 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.77 = lgetv %dc;
+            %tmp.78 = getv function %tmp.77 :getFontHeight;
+            %tmp.79 = getm $.Toybox.Graphics;
+            %tmp.80 = getv %tmp.79 :FONT_NUMBER_MILD;
+            %tmp.81 = invoke %tmp.77 %tmp.78(%tmp.80);
+            %tmp.82 = sub %tmp.76 %tmp.81;
+            %tmp.83 = 0.5;
+            %tmp.84 = mul %tmp.82 %tmp.83;
+            %tmp.85 = dup %tmp.72;
+            %tmp.86 = aputv %tmp.85 %tmp.74 %tmp.84;
+            %tmp.88 = const :justification;
+            %tmp.89 = getm $.Toybox.Graphics;
+            %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
+            %tmp.91 = dup %tmp.86;
+            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
+            %tmp.94 = const :font;
+            %tmp.95 = getm $.Toybox.Graphics;
+            %tmp.96 = getv %tmp.95 :FONT_NUMBER_MILD;
+            %tmp.97 = dup %tmp.92;
+            %tmp.98 = aputv %tmp.97 %tmp.94 %tmp.96;
+            %tmp.51 = newc %tmp.54 (%tmp.98);
+            lputv %rez_cmp_local_text_value1.5 %tmp.51;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 52 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
+            %rez_cmp_local_text_label2.6 = local;
+            %tmp.101 = getm $.Toybox.WatchUi;
+            %tmp.102 = getv function ? %tmp.101 :Text;
+            %tmp.103 = newd 6;
+            %tmp.105 = const :identifier;
+            %tmp.106 = "label2";
+            %tmp.107 = dup %tmp.103;
+            %tmp.108 = aputv %tmp.107 %tmp.105 %tmp.106;
+            %tmp.110 = const :color;
+            %tmp.111 = getm $.Toybox.Graphics;
+            %tmp.112 = getv %tmp.111 :COLOR_BLACK;
+            %tmp.113 = dup %tmp.108;
+            %tmp.114 = aputv %tmp.113 %tmp.110 %tmp.112;
+            %tmp.116 = const :locX;
+            %tmp.118 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.119 = 0.5;
+            %tmp.120 = mul %tmp.118 %tmp.119;
+            %tmp.121 = dup %tmp.114;
+            %tmp.122 = aputv %tmp.121 %tmp.116 %tmp.120;
+            %tmp.124 = const :locY;
+            %tmp.125 = getm $.Toybox.WatchUi;
+            %tmp.126 = getv %tmp.125 :LAYOUT_VALIGN_TOP;
+            %tmp.127 = dup %tmp.122;
+            %tmp.128 = aputv %tmp.127 %tmp.124 %tmp.126;
+            %tmp.130 = const :justification;
+            %tmp.131 = getm $.Toybox.Graphics;
+            %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_CENTER;
+            %tmp.133 = dup %tmp.128;
+            %tmp.134 = aputv %tmp.133 %tmp.130 %tmp.132;
+            %tmp.136 = const :font;
+            %tmp.137 = getm $.Toybox.Graphics;
+            %tmp.138 = getv %tmp.137 :FONT_TINY;
+            %tmp.139 = dup %tmp.134;
+            %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
+            %tmp.99 = newc %tmp.102 (%tmp.140);
+            lputv %rez_cmp_local_text_label2.6 %tmp.99;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 54 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
+            %rez_cmp_local_text_value2.7 = local;
+            %tmp.143 = getm $.Toybox.WatchUi;
+            %tmp.144 = getv function ? %tmp.143 :Text;
+            %tmp.145 = newd 6;
+            %tmp.147 = const :identifier;
+            %tmp.148 = "value2";
+            %tmp.149 = dup %tmp.145;
+            %tmp.150 = aputv %tmp.149 %tmp.147 %tmp.148;
+            %tmp.152 = const :color;
+            %tmp.153 = getm $.Toybox.Graphics;
+            %tmp.154 = getv %tmp.153 :COLOR_WHITE;
+            %tmp.155 = dup %tmp.150;
+            %tmp.156 = aputv %tmp.155 %tmp.152 %tmp.154;
+            %tmp.158 = const :locX;
+            %tmp.160 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.161 = 0.5;
+            %tmp.162 = mul %tmp.160 %tmp.161;
+            %tmp.163 = dup %tmp.156;
+            %tmp.164 = aputv %tmp.163 %tmp.158 %tmp.162;
+            %tmp.166 = const :locY;
+            %tmp.168 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.169 = lgetv %dc;
+            %tmp.170 = getv function %tmp.169 :getFontHeight;
+            %tmp.171 = getm $.Toybox.Graphics;
+            %tmp.172 = getv %tmp.171 :FONT_NUMBER_MILD;
+            %tmp.173 = invoke %tmp.169 %tmp.170(%tmp.172);
+            %tmp.174 = sub %tmp.168 %tmp.173;
+            %tmp.175 = 0.5;
+            %tmp.176 = mul %tmp.174 %tmp.175;
+            %tmp.177 = dup %tmp.164;
+            %tmp.178 = aputv %tmp.177 %tmp.166 %tmp.176;
+            %tmp.180 = const :justification;
+            %tmp.181 = getm $.Toybox.Graphics;
+            %tmp.182 = getv %tmp.181 :TEXT_JUSTIFY_CENTER;
+            %tmp.183 = dup %tmp.178;
+            %tmp.184 = aputv %tmp.183 %tmp.180 %tmp.182;
+            %tmp.186 = const :font;
+            %tmp.187 = getm $.Toybox.Graphics;
+            %tmp.188 = getv %tmp.187 :FONT_NUMBER_MILD;
+            %tmp.189 = dup %tmp.184;
+            %tmp.190 = aputv %tmp.189 %tmp.186 %tmp.188;
+            %tmp.141 = newc %tmp.144 (%tmp.190);
+            lputv %rez_cmp_local_text_value2.7 %tmp.141;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 56 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
+            %rez_cmp_local_text_label3.8 = local;
+            %tmp.193 = getm $.Toybox.WatchUi;
+            %tmp.194 = getv function ? %tmp.193 :Text;
+            %tmp.195 = newd 6;
+            %tmp.197 = const :identifier;
+            %tmp.198 = "label3";
+            %tmp.199 = dup %tmp.195;
+            %tmp.200 = aputv %tmp.199 %tmp.197 %tmp.198;
+            %tmp.202 = const :color;
+            %tmp.203 = getm $.Toybox.Graphics;
+            %tmp.204 = getv %tmp.203 :COLOR_BLACK;
+            %tmp.205 = dup %tmp.200;
+            %tmp.206 = aputv %tmp.205 %tmp.202 %tmp.204;
+            %tmp.208 = const :locX;
+            %tmp.209 = getm $.Toybox.WatchUi;
+            %tmp.210 = getv %tmp.209 :LAYOUT_HALIGN_RIGHT;
+            %tmp.211 = dup %tmp.206;
+            %tmp.212 = aputv %tmp.211 %tmp.208 %tmp.210;
+            %tmp.214 = const :locY;
+            %tmp.215 = getm $.Toybox.WatchUi;
+            %tmp.216 = getv %tmp.215 :LAYOUT_VALIGN_TOP;
+            %tmp.217 = dup %tmp.212;
+            %tmp.218 = aputv %tmp.217 %tmp.214 %tmp.216;
+            %tmp.220 = const :justification;
+            %tmp.221 = getm $.Toybox.Graphics;
+            %tmp.222 = getv %tmp.221 :TEXT_JUSTIFY_CENTER;
+            %tmp.223 = dup %tmp.218;
+            %tmp.224 = aputv %tmp.223 %tmp.220 %tmp.222;
+            %tmp.226 = const :font;
+            %tmp.227 = getm $.Toybox.Graphics;
+            %tmp.228 = getv %tmp.227 :FONT_TINY;
+            %tmp.229 = dup %tmp.224;
+            %tmp.230 = aputv %tmp.229 %tmp.226 %tmp.228;
+            %tmp.191 = newc %tmp.194 (%tmp.230);
+            lputv %rez_cmp_local_text_label3.8 %tmp.191;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 58 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
+            %rez_cmp_local_text_value3.9 = local;
+            %tmp.233 = getm $.Toybox.WatchUi;
+            %tmp.234 = getv function ? %tmp.233 :Text;
+            %tmp.235 = newd 6;
+            %tmp.237 = const :identifier;
+            %tmp.238 = "value3";
+            %tmp.239 = dup %tmp.235;
+            %tmp.240 = aputv %tmp.239 %tmp.237 %tmp.238;
+            %tmp.242 = const :color;
+            %tmp.243 = getm $.Toybox.Graphics;
+            %tmp.244 = getv %tmp.243 :COLOR_WHITE;
+            %tmp.245 = dup %tmp.240;
+            %tmp.246 = aputv %tmp.245 %tmp.242 %tmp.244;
+            %tmp.248 = const :locX;
+            %tmp.249 = getm $.Toybox.WatchUi;
+            %tmp.250 = getv %tmp.249 :LAYOUT_HALIGN_RIGHT;
+            %tmp.251 = dup %tmp.246;
+            %tmp.252 = aputv %tmp.251 %tmp.248 %tmp.250;
+            %tmp.254 = const :locY;
+            %tmp.256 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.257 = lgetv %dc;
+            %tmp.258 = getv function %tmp.257 :getFontHeight;
+            %tmp.259 = getm $.Toybox.Graphics;
+            %tmp.260 = getv %tmp.259 :FONT_NUMBER_MILD;
+            %tmp.261 = invoke %tmp.257 %tmp.258(%tmp.260);
+            %tmp.262 = sub %tmp.256 %tmp.261;
+            %tmp.263 = 0.5;
+            %tmp.264 = mul %tmp.262 %tmp.263;
+            %tmp.265 = dup %tmp.252;
+            %tmp.266 = aputv %tmp.265 %tmp.254 %tmp.264;
+            %tmp.268 = const :justification;
+            %tmp.269 = getm $.Toybox.Graphics;
+            %tmp.270 = getv %tmp.269 :TEXT_JUSTIFY_CENTER;
+            %tmp.271 = dup %tmp.266;
+            %tmp.272 = aputv %tmp.271 %tmp.268 %tmp.270;
+            %tmp.274 = const :font;
+            %tmp.275 = getm $.Toybox.Graphics;
+            %tmp.276 = getv %tmp.275 :FONT_NUMBER_MILD;
+            %tmp.277 = dup %tmp.272;
+            %tmp.278 = aputv %tmp.277 %tmp.274 %tmp.276;
+            %tmp.231 = newc %tmp.234 (%tmp.278);
+            lputv %rez_cmp_local_text_value3.9 %tmp.231;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 60 12 ]
+            %tmp.279 = newa Array<WatchUi.Drawable> 7;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_18951897971234450225.3;
+            %tmp.282 = dup %tmp.279;
+            %tmp.283 = aputv %tmp.282 0 %tmp.281;
+            %tmp.285 = lgetv %rez_cmp_local_text_label1.4;
+            %tmp.286 = dup %tmp.283;
+            %tmp.287 = aputv %tmp.286 1 %tmp.285;
+            %tmp.289 = lgetv %rez_cmp_local_text_value1.5;
+            %tmp.290 = dup %tmp.287;
+            %tmp.291 = aputv %tmp.290 2 %tmp.289;
+            %tmp.293 = lgetv %rez_cmp_local_text_label2.6;
+            %tmp.294 = dup %tmp.291;
+            %tmp.295 = aputv %tmp.294 3 %tmp.293;
+            %tmp.297 = lgetv %rez_cmp_local_text_value2.7;
+            %tmp.298 = dup %tmp.295;
+            %tmp.299 = aputv %tmp.298 4 %tmp.297;
+            %tmp.301 = lgetv %rez_cmp_local_text_label3.8;
+            %tmp.302 = dup %tmp.299;
+            %tmp.303 = aputv %tmp.302 5 %tmp.301;
+            %tmp.305 = lgetv %rez_cmp_local_text_value3.9;
+            %tmp.306 = dup %tmp.303;
+            %tmp.307 = aputv %tmp.306 6 %tmp.305;
+            ret %tmp.307;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop:
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 63; ]
+        function Middel1(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 64 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_var_dc_getHeight.1 = local;
+            %tmp.1 = lgetv %dc;
+            %tmp.2 = getv function %tmp.1 :getHeight;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 66 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_var_dc_getWidth.2 = local;
+            %tmp.4 = lgetv %dc;
+            %tmp.5 = getv function %tmp.4 :getWidth;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 68 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_custom_drawable_13811704719201255553.3 = local;
+            %tmp.10 = getv ? :Background;
+            %tmp.7 = newc %tmp.10 ();
+            lputv %rez_cmp_local_custom_drawable_13811704719201255553.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 70 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_text_label1.4 = local;
+            %tmp.13 = getm $.Toybox.WatchUi;
+            %tmp.14 = getv function ? %tmp.13 :Text;
+            %tmp.15 = newd 6;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "label1";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.22 = const :color;
+            %tmp.23 = getm $.Toybox.Graphics;
+            %tmp.24 = getv %tmp.23 :COLOR_BLACK;
+            %tmp.25 = dup %tmp.20;
+            %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+            %tmp.28 = const :locX;
+            %tmp.29 = getm $.Toybox.WatchUi;
+            %tmp.30 = getv %tmp.29 :LAYOUT_HALIGN_LEFT;
+            %tmp.31 = dup %tmp.26;
+            %tmp.32 = aputv %tmp.31 %tmp.28 %tmp.30;
+            %tmp.34 = const :locY;
+            %tmp.35 = getm $.Toybox.WatchUi;
+            %tmp.36 = getv %tmp.35 :LAYOUT_VALIGN_TOP;
+            %tmp.37 = dup %tmp.32;
+            %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
+            %tmp.40 = const :justification;
+            %tmp.41 = getm $.Toybox.Graphics;
+            %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_CENTER;
+            %tmp.43 = dup %tmp.38;
+            %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
+            %tmp.46 = const :font;
+            %tmp.47 = getm $.Toybox.Graphics;
+            %tmp.48 = getv %tmp.47 :FONT_TINY;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.11 = newc %tmp.14 (%tmp.50);
+            lputv %rez_cmp_local_text_label1.4 %tmp.11;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 72 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_text_value1.5 = local;
+            %tmp.53 = getm $.Toybox.WatchUi;
+            %tmp.54 = getv function ? %tmp.53 :Text;
+            %tmp.55 = newd 6;
+            %tmp.57 = const :identifier;
+            %tmp.58 = "value1";
+            %tmp.59 = dup %tmp.55;
+            %tmp.60 = aputv %tmp.59 %tmp.57 %tmp.58;
+            %tmp.62 = const :color;
+            %tmp.63 = getm $.Toybox.Graphics;
+            %tmp.64 = getv %tmp.63 :COLOR_WHITE;
+            %tmp.65 = dup %tmp.60;
+            %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
+            %tmp.68 = const :locX;
+            %tmp.69 = getm $.Toybox.WatchUi;
+            %tmp.70 = getv %tmp.69 :LAYOUT_HALIGN_LEFT;
+            %tmp.71 = dup %tmp.66;
+            %tmp.72 = aputv %tmp.71 %tmp.68 %tmp.70;
+            %tmp.74 = const :locY;
+            %tmp.76 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.77 = lgetv %dc;
+            %tmp.78 = getv function %tmp.77 :getFontHeight;
+            %tmp.79 = getm $.Toybox.Graphics;
+            %tmp.80 = getv %tmp.79 :FONT_NUMBER_MEDIUM;
+            %tmp.81 = invoke %tmp.77 %tmp.78(%tmp.80);
+            %tmp.82 = sub %tmp.76 %tmp.81;
+            %tmp.83 = 0.5;
+            %tmp.84 = mul %tmp.82 %tmp.83;
+            %tmp.85 = dup %tmp.72;
+            %tmp.86 = aputv %tmp.85 %tmp.74 %tmp.84;
+            %tmp.88 = const :justification;
+            %tmp.89 = getm $.Toybox.Graphics;
+            %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
+            %tmp.91 = dup %tmp.86;
+            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
+            %tmp.94 = const :font;
+            %tmp.95 = getm $.Toybox.Graphics;
+            %tmp.96 = getv %tmp.95 :FONT_NUMBER_MEDIUM;
+            %tmp.97 = dup %tmp.92;
+            %tmp.98 = aputv %tmp.97 %tmp.94 %tmp.96;
+            %tmp.51 = newc %tmp.54 (%tmp.98);
+            lputv %rez_cmp_local_text_value1.5 %tmp.51;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 74 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_text_label2.6 = local;
+            %tmp.101 = getm $.Toybox.WatchUi;
+            %tmp.102 = getv function ? %tmp.101 :Text;
+            %tmp.103 = newd 6;
+            %tmp.105 = const :identifier;
+            %tmp.106 = "label2";
+            %tmp.107 = dup %tmp.103;
+            %tmp.108 = aputv %tmp.107 %tmp.105 %tmp.106;
+            %tmp.110 = const :color;
+            %tmp.111 = getm $.Toybox.Graphics;
+            %tmp.112 = getv %tmp.111 :COLOR_BLACK;
+            %tmp.113 = dup %tmp.108;
+            %tmp.114 = aputv %tmp.113 %tmp.110 %tmp.112;
+            %tmp.116 = const :locX;
+            %tmp.118 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.119 = 0.5;
+            %tmp.120 = mul %tmp.118 %tmp.119;
+            %tmp.121 = dup %tmp.114;
+            %tmp.122 = aputv %tmp.121 %tmp.116 %tmp.120;
+            %tmp.124 = const :locY;
+            %tmp.125 = getm $.Toybox.WatchUi;
+            %tmp.126 = getv %tmp.125 :LAYOUT_VALIGN_TOP;
+            %tmp.127 = dup %tmp.122;
+            %tmp.128 = aputv %tmp.127 %tmp.124 %tmp.126;
+            %tmp.130 = const :justification;
+            %tmp.131 = getm $.Toybox.Graphics;
+            %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_CENTER;
+            %tmp.133 = dup %tmp.128;
+            %tmp.134 = aputv %tmp.133 %tmp.130 %tmp.132;
+            %tmp.136 = const :font;
+            %tmp.137 = getm $.Toybox.Graphics;
+            %tmp.138 = getv %tmp.137 :FONT_TINY;
+            %tmp.139 = dup %tmp.134;
+            %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
+            %tmp.99 = newc %tmp.102 (%tmp.140);
+            lputv %rez_cmp_local_text_label2.6 %tmp.99;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 76 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_text_value2.7 = local;
+            %tmp.143 = getm $.Toybox.WatchUi;
+            %tmp.144 = getv function ? %tmp.143 :Text;
+            %tmp.145 = newd 6;
+            %tmp.147 = const :identifier;
+            %tmp.148 = "value2";
+            %tmp.149 = dup %tmp.145;
+            %tmp.150 = aputv %tmp.149 %tmp.147 %tmp.148;
+            %tmp.152 = const :color;
+            %tmp.153 = getm $.Toybox.Graphics;
+            %tmp.154 = getv %tmp.153 :COLOR_WHITE;
+            %tmp.155 = dup %tmp.150;
+            %tmp.156 = aputv %tmp.155 %tmp.152 %tmp.154;
+            %tmp.158 = const :locX;
+            %tmp.160 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.161 = 0.5;
+            %tmp.162 = mul %tmp.160 %tmp.161;
+            %tmp.163 = dup %tmp.156;
+            %tmp.164 = aputv %tmp.163 %tmp.158 %tmp.162;
+            %tmp.166 = const :locY;
+            %tmp.168 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.169 = lgetv %dc;
+            %tmp.170 = getv function %tmp.169 :getFontHeight;
+            %tmp.171 = getm $.Toybox.Graphics;
+            %tmp.172 = getv %tmp.171 :FONT_NUMBER_MEDIUM;
+            %tmp.173 = invoke %tmp.169 %tmp.170(%tmp.172);
+            %tmp.174 = sub %tmp.168 %tmp.173;
+            %tmp.175 = 0.5;
+            %tmp.176 = mul %tmp.174 %tmp.175;
+            %tmp.177 = dup %tmp.164;
+            %tmp.178 = aputv %tmp.177 %tmp.166 %tmp.176;
+            %tmp.180 = const :justification;
+            %tmp.181 = getm $.Toybox.Graphics;
+            %tmp.182 = getv %tmp.181 :TEXT_JUSTIFY_CENTER;
+            %tmp.183 = dup %tmp.178;
+            %tmp.184 = aputv %tmp.183 %tmp.180 %tmp.182;
+            %tmp.186 = const :font;
+            %tmp.187 = getm $.Toybox.Graphics;
+            %tmp.188 = getv %tmp.187 :FONT_NUMBER_MEDIUM;
+            %tmp.189 = dup %tmp.184;
+            %tmp.190 = aputv %tmp.189 %tmp.186 %tmp.188;
+            %tmp.141 = newc %tmp.144 (%tmp.190);
+            lputv %rez_cmp_local_text_value2.7 %tmp.141;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 78 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_text_label3.8 = local;
+            %tmp.193 = getm $.Toybox.WatchUi;
+            %tmp.194 = getv function ? %tmp.193 :Text;
+            %tmp.195 = newd 6;
+            %tmp.197 = const :identifier;
+            %tmp.198 = "label3";
+            %tmp.199 = dup %tmp.195;
+            %tmp.200 = aputv %tmp.199 %tmp.197 %tmp.198;
+            %tmp.202 = const :color;
+            %tmp.203 = getm $.Toybox.Graphics;
+            %tmp.204 = getv %tmp.203 :COLOR_BLACK;
+            %tmp.205 = dup %tmp.200;
+            %tmp.206 = aputv %tmp.205 %tmp.202 %tmp.204;
+            %tmp.208 = const :locX;
+            %tmp.209 = getm $.Toybox.WatchUi;
+            %tmp.210 = getv %tmp.209 :LAYOUT_HALIGN_RIGHT;
+            %tmp.211 = dup %tmp.206;
+            %tmp.212 = aputv %tmp.211 %tmp.208 %tmp.210;
+            %tmp.214 = const :locY;
+            %tmp.215 = getm $.Toybox.WatchUi;
+            %tmp.216 = getv %tmp.215 :LAYOUT_VALIGN_TOP;
+            %tmp.217 = dup %tmp.212;
+            %tmp.218 = aputv %tmp.217 %tmp.214 %tmp.216;
+            %tmp.220 = const :justification;
+            %tmp.221 = getm $.Toybox.Graphics;
+            %tmp.222 = getv %tmp.221 :TEXT_JUSTIFY_CENTER;
+            %tmp.223 = dup %tmp.218;
+            %tmp.224 = aputv %tmp.223 %tmp.220 %tmp.222;
+            %tmp.226 = const :font;
+            %tmp.227 = getm $.Toybox.Graphics;
+            %tmp.228 = getv %tmp.227 :FONT_TINY;
+            %tmp.229 = dup %tmp.224;
+            %tmp.230 = aputv %tmp.229 %tmp.226 %tmp.228;
+            %tmp.191 = newc %tmp.194 (%tmp.230);
+            lputv %rez_cmp_local_text_label3.8 %tmp.191;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 80 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_text_value3.9 = local;
+            %tmp.233 = getm $.Toybox.WatchUi;
+            %tmp.234 = getv function ? %tmp.233 :Text;
+            %tmp.235 = newd 6;
+            %tmp.237 = const :identifier;
+            %tmp.238 = "value3";
+            %tmp.239 = dup %tmp.235;
+            %tmp.240 = aputv %tmp.239 %tmp.237 %tmp.238;
+            %tmp.242 = const :color;
+            %tmp.243 = getm $.Toybox.Graphics;
+            %tmp.244 = getv %tmp.243 :COLOR_WHITE;
+            %tmp.245 = dup %tmp.240;
+            %tmp.246 = aputv %tmp.245 %tmp.242 %tmp.244;
+            %tmp.248 = const :locX;
+            %tmp.249 = getm $.Toybox.WatchUi;
+            %tmp.250 = getv %tmp.249 :LAYOUT_HALIGN_RIGHT;
+            %tmp.251 = dup %tmp.246;
+            %tmp.252 = aputv %tmp.251 %tmp.248 %tmp.250;
+            %tmp.254 = const :locY;
+            %tmp.256 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.257 = lgetv %dc;
+            %tmp.258 = getv function %tmp.257 :getFontHeight;
+            %tmp.259 = getm $.Toybox.Graphics;
+            %tmp.260 = getv %tmp.259 :FONT_NUMBER_MEDIUM;
+            %tmp.261 = invoke %tmp.257 %tmp.258(%tmp.260);
+            %tmp.262 = sub %tmp.256 %tmp.261;
+            %tmp.263 = 0.5;
+            %tmp.264 = mul %tmp.262 %tmp.263;
+            %tmp.265 = dup %tmp.252;
+            %tmp.266 = aputv %tmp.265 %tmp.254 %tmp.264;
+            %tmp.268 = const :justification;
+            %tmp.269 = getm $.Toybox.Graphics;
+            %tmp.270 = getv %tmp.269 :TEXT_JUSTIFY_CENTER;
+            %tmp.271 = dup %tmp.266;
+            %tmp.272 = aputv %tmp.271 %tmp.268 %tmp.270;
+            %tmp.274 = const :font;
+            %tmp.275 = getm $.Toybox.Graphics;
+            %tmp.276 = getv %tmp.275 :FONT_NUMBER_MEDIUM;
+            %tmp.277 = dup %tmp.272;
+            %tmp.278 = aputv %tmp.277 %tmp.274 %tmp.276;
+            %tmp.231 = newc %tmp.234 (%tmp.278);
+            lputv %rez_cmp_local_text_value3.9 %tmp.231;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 82 12 ]
+            %tmp.279 = newa Array<WatchUi.Drawable> 7;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_13811704719201255553.3;
+            %tmp.282 = dup %tmp.279;
+            %tmp.283 = aputv %tmp.282 0 %tmp.281;
+            %tmp.285 = lgetv %rez_cmp_local_text_label1.4;
+            %tmp.286 = dup %tmp.283;
+            %tmp.287 = aputv %tmp.286 1 %tmp.285;
+            %tmp.289 = lgetv %rez_cmp_local_text_value1.5;
+            %tmp.290 = dup %tmp.287;
+            %tmp.291 = aputv %tmp.290 2 %tmp.289;
+            %tmp.293 = lgetv %rez_cmp_local_text_label2.6;
+            %tmp.294 = dup %tmp.291;
+            %tmp.295 = aputv %tmp.294 3 %tmp.293;
+            %tmp.297 = lgetv %rez_cmp_local_text_value2.7;
+            %tmp.298 = dup %tmp.295;
+            %tmp.299 = aputv %tmp.298 4 %tmp.297;
+            %tmp.301 = lgetv %rez_cmp_local_text_label3.8;
+            %tmp.302 = dup %tmp.299;
+            %tmp.303 = aputv %tmp.302 5 %tmp.301;
+            %tmp.305 = lgetv %rez_cmp_local_text_value3.9;
+            %tmp.306 = dup %tmp.303;
+            %tmp.307 = aputv %tmp.306 6 %tmp.305;
+            ret %tmp.307;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop:
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 85; ]
+        function Middel2(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 86 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
+            %rez_cmp_local_var_dc_getHeight.1 = local;
+            %tmp.1 = lgetv %dc;
+            %tmp.2 = getv function %tmp.1 :getHeight;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 88 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
+            %rez_cmp_local_var_dc_getWidth.2 = local;
+            %tmp.4 = lgetv %dc;
+            %tmp.5 = getv function %tmp.4 :getWidth;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 90 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
+            %rez_cmp_local_custom_drawable_18723377984185489151.3 = local;
+            %tmp.10 = getv ? :Background;
+            %tmp.7 = newc %tmp.10 ();
+            lputv %rez_cmp_local_custom_drawable_18723377984185489151.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 92 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
+            %rez_cmp_local_text_label1.4 = local;
+            %tmp.13 = getm $.Toybox.WatchUi;
+            %tmp.14 = getv function ? %tmp.13 :Text;
+            %tmp.15 = newd 6;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "label1";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.22 = const :color;
+            %tmp.23 = getm $.Toybox.Graphics;
+            %tmp.24 = getv %tmp.23 :COLOR_BLACK;
+            %tmp.25 = dup %tmp.20;
+            %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+            %tmp.28 = const :locX;
+            %tmp.29 = getm $.Toybox.WatchUi;
+            %tmp.30 = getv %tmp.29 :LAYOUT_HALIGN_LEFT;
+            %tmp.31 = dup %tmp.26;
+            %tmp.32 = aputv %tmp.31 %tmp.28 %tmp.30;
+            %tmp.34 = const :locY;
+            %tmp.35 = getm $.Toybox.WatchUi;
+            %tmp.36 = getv %tmp.35 :LAYOUT_VALIGN_TOP;
+            %tmp.37 = dup %tmp.32;
+            %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
+            %tmp.40 = const :justification;
+            %tmp.41 = getm $.Toybox.Graphics;
+            %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_CENTER;
+            %tmp.43 = dup %tmp.38;
+            %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
+            %tmp.46 = const :font;
+            %tmp.47 = getm $.Toybox.Graphics;
+            %tmp.48 = getv %tmp.47 :FONT_SMALL;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.11 = newc %tmp.14 (%tmp.50);
+            lputv %rez_cmp_local_text_label1.4 %tmp.11;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 94 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
+            %rez_cmp_local_text_value1.5 = local;
+            %tmp.53 = getm $.Toybox.WatchUi;
+            %tmp.54 = getv function ? %tmp.53 :Text;
+            %tmp.55 = newd 6;
+            %tmp.57 = const :identifier;
+            %tmp.58 = "value1";
+            %tmp.59 = dup %tmp.55;
+            %tmp.60 = aputv %tmp.59 %tmp.57 %tmp.58;
+            %tmp.62 = const :color;
+            %tmp.63 = getm $.Toybox.Graphics;
+            %tmp.64 = getv %tmp.63 :COLOR_WHITE;
+            %tmp.65 = dup %tmp.60;
+            %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
+            %tmp.68 = const :locX;
+            %tmp.69 = getm $.Toybox.WatchUi;
+            %tmp.70 = getv %tmp.69 :LAYOUT_HALIGN_LEFT;
+            %tmp.71 = dup %tmp.66;
+            %tmp.72 = aputv %tmp.71 %tmp.68 %tmp.70;
+            %tmp.74 = const :locY;
+            %tmp.76 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.77 = lgetv %dc;
+            %tmp.78 = getv function %tmp.77 :getFontHeight;
+            %tmp.79 = getm $.Toybox.Graphics;
+            %tmp.80 = getv %tmp.79 :FONT_NUMBER_HOT;
+            %tmp.81 = invoke %tmp.77 %tmp.78(%tmp.80);
+            %tmp.82 = sub %tmp.76 %tmp.81;
+            %tmp.83 = 0.5;
+            %tmp.84 = mul %tmp.82 %tmp.83;
+            %tmp.85 = dup %tmp.72;
+            %tmp.86 = aputv %tmp.85 %tmp.74 %tmp.84;
+            %tmp.88 = const :justification;
+            %tmp.89 = getm $.Toybox.Graphics;
+            %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
+            %tmp.91 = dup %tmp.86;
+            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
+            %tmp.94 = const :font;
+            %tmp.95 = getm $.Toybox.Graphics;
+            %tmp.96 = getv %tmp.95 :FONT_NUMBER_HOT;
+            %tmp.97 = dup %tmp.92;
+            %tmp.98 = aputv %tmp.97 %tmp.94 %tmp.96;
+            %tmp.51 = newc %tmp.54 (%tmp.98);
+            lputv %rez_cmp_local_text_value1.5 %tmp.51;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 96 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
+            %rez_cmp_local_text_label2.6 = local;
+            %tmp.101 = getm $.Toybox.WatchUi;
+            %tmp.102 = getv function ? %tmp.101 :Text;
+            %tmp.103 = newd 6;
+            %tmp.105 = const :identifier;
+            %tmp.106 = "label2";
+            %tmp.107 = dup %tmp.103;
+            %tmp.108 = aputv %tmp.107 %tmp.105 %tmp.106;
+            %tmp.110 = const :color;
+            %tmp.111 = getm $.Toybox.Graphics;
+            %tmp.112 = getv %tmp.111 :COLOR_BLACK;
+            %tmp.113 = dup %tmp.108;
+            %tmp.114 = aputv %tmp.113 %tmp.110 %tmp.112;
+            %tmp.116 = const :locX;
+            %tmp.118 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.119 = 0.5;
+            %tmp.120 = mul %tmp.118 %tmp.119;
+            %tmp.121 = dup %tmp.114;
+            %tmp.122 = aputv %tmp.121 %tmp.116 %tmp.120;
+            %tmp.124 = const :locY;
+            %tmp.125 = getm $.Toybox.WatchUi;
+            %tmp.126 = getv %tmp.125 :LAYOUT_VALIGN_TOP;
+            %tmp.127 = dup %tmp.122;
+            %tmp.128 = aputv %tmp.127 %tmp.124 %tmp.126;
+            %tmp.130 = const :justification;
+            %tmp.131 = getm $.Toybox.Graphics;
+            %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_CENTER;
+            %tmp.133 = dup %tmp.128;
+            %tmp.134 = aputv %tmp.133 %tmp.130 %tmp.132;
+            %tmp.136 = const :font;
+            %tmp.137 = getm $.Toybox.Graphics;
+            %tmp.138 = getv %tmp.137 :FONT_SMALL;
+            %tmp.139 = dup %tmp.134;
+            %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
+            %tmp.99 = newc %tmp.102 (%tmp.140);
+            lputv %rez_cmp_local_text_label2.6 %tmp.99;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 98 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
+            %rez_cmp_local_text_value2.7 = local;
+            %tmp.143 = getm $.Toybox.WatchUi;
+            %tmp.144 = getv function ? %tmp.143 :Text;
+            %tmp.145 = newd 6;
+            %tmp.147 = const :identifier;
+            %tmp.148 = "value2";
+            %tmp.149 = dup %tmp.145;
+            %tmp.150 = aputv %tmp.149 %tmp.147 %tmp.148;
+            %tmp.152 = const :color;
+            %tmp.153 = getm $.Toybox.Graphics;
+            %tmp.154 = getv %tmp.153 :COLOR_WHITE;
+            %tmp.155 = dup %tmp.150;
+            %tmp.156 = aputv %tmp.155 %tmp.152 %tmp.154;
+            %tmp.158 = const :locX;
+            %tmp.160 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.161 = 0.5;
+            %tmp.162 = mul %tmp.160 %tmp.161;
+            %tmp.163 = dup %tmp.156;
+            %tmp.164 = aputv %tmp.163 %tmp.158 %tmp.162;
+            %tmp.166 = const :locY;
+            %tmp.168 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.169 = lgetv %dc;
+            %tmp.170 = getv function %tmp.169 :getFontHeight;
+            %tmp.171 = getm $.Toybox.Graphics;
+            %tmp.172 = getv %tmp.171 :FONT_NUMBER_HOT;
+            %tmp.173 = invoke %tmp.169 %tmp.170(%tmp.172);
+            %tmp.174 = sub %tmp.168 %tmp.173;
+            %tmp.175 = 0.5;
+            %tmp.176 = mul %tmp.174 %tmp.175;
+            %tmp.177 = dup %tmp.164;
+            %tmp.178 = aputv %tmp.177 %tmp.166 %tmp.176;
+            %tmp.180 = const :justification;
+            %tmp.181 = getm $.Toybox.Graphics;
+            %tmp.182 = getv %tmp.181 :TEXT_JUSTIFY_CENTER;
+            %tmp.183 = dup %tmp.178;
+            %tmp.184 = aputv %tmp.183 %tmp.180 %tmp.182;
+            %tmp.186 = const :font;
+            %tmp.187 = getm $.Toybox.Graphics;
+            %tmp.188 = getv %tmp.187 :FONT_NUMBER_HOT;
+            %tmp.189 = dup %tmp.184;
+            %tmp.190 = aputv %tmp.189 %tmp.186 %tmp.188;
+            %tmp.141 = newc %tmp.144 (%tmp.190);
+            lputv %rez_cmp_local_text_value2.7 %tmp.141;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 100 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
+            %rez_cmp_local_text_label3.8 = local;
+            %tmp.193 = getm $.Toybox.WatchUi;
+            %tmp.194 = getv function ? %tmp.193 :Text;
+            %tmp.195 = newd 6;
+            %tmp.197 = const :identifier;
+            %tmp.198 = "label3";
+            %tmp.199 = dup %tmp.195;
+            %tmp.200 = aputv %tmp.199 %tmp.197 %tmp.198;
+            %tmp.202 = const :color;
+            %tmp.203 = getm $.Toybox.Graphics;
+            %tmp.204 = getv %tmp.203 :COLOR_BLACK;
+            %tmp.205 = dup %tmp.200;
+            %tmp.206 = aputv %tmp.205 %tmp.202 %tmp.204;
+            %tmp.208 = const :locX;
+            %tmp.209 = getm $.Toybox.WatchUi;
+            %tmp.210 = getv %tmp.209 :LAYOUT_HALIGN_RIGHT;
+            %tmp.211 = dup %tmp.206;
+            %tmp.212 = aputv %tmp.211 %tmp.208 %tmp.210;
+            %tmp.214 = const :locY;
+            %tmp.215 = getm $.Toybox.WatchUi;
+            %tmp.216 = getv %tmp.215 :LAYOUT_VALIGN_TOP;
+            %tmp.217 = dup %tmp.212;
+            %tmp.218 = aputv %tmp.217 %tmp.214 %tmp.216;
+            %tmp.220 = const :justification;
+            %tmp.221 = getm $.Toybox.Graphics;
+            %tmp.222 = getv %tmp.221 :TEXT_JUSTIFY_CENTER;
+            %tmp.223 = dup %tmp.218;
+            %tmp.224 = aputv %tmp.223 %tmp.220 %tmp.222;
+            %tmp.226 = const :font;
+            %tmp.227 = getm $.Toybox.Graphics;
+            %tmp.228 = getv %tmp.227 :FONT_SMALL;
+            %tmp.229 = dup %tmp.224;
+            %tmp.230 = aputv %tmp.229 %tmp.226 %tmp.228;
+            %tmp.191 = newc %tmp.194 (%tmp.230);
+            lputv %rez_cmp_local_text_label3.8 %tmp.191;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 102 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
+            %rez_cmp_local_text_value3.9 = local;
+            %tmp.233 = getm $.Toybox.WatchUi;
+            %tmp.234 = getv function ? %tmp.233 :Text;
+            %tmp.235 = newd 6;
+            %tmp.237 = const :identifier;
+            %tmp.238 = "value3";
+            %tmp.239 = dup %tmp.235;
+            %tmp.240 = aputv %tmp.239 %tmp.237 %tmp.238;
+            %tmp.242 = const :color;
+            %tmp.243 = getm $.Toybox.Graphics;
+            %tmp.244 = getv %tmp.243 :COLOR_WHITE;
+            %tmp.245 = dup %tmp.240;
+            %tmp.246 = aputv %tmp.245 %tmp.242 %tmp.244;
+            %tmp.248 = const :locX;
+            %tmp.249 = getm $.Toybox.WatchUi;
+            %tmp.250 = getv %tmp.249 :LAYOUT_HALIGN_RIGHT;
+            %tmp.251 = dup %tmp.246;
+            %tmp.252 = aputv %tmp.251 %tmp.248 %tmp.250;
+            %tmp.254 = const :locY;
+            %tmp.256 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.257 = lgetv %dc;
+            %tmp.258 = getv function %tmp.257 :getFontHeight;
+            %tmp.259 = getm $.Toybox.Graphics;
+            %tmp.260 = getv %tmp.259 :FONT_NUMBER_HOT;
+            %tmp.261 = invoke %tmp.257 %tmp.258(%tmp.260);
+            %tmp.262 = sub %tmp.256 %tmp.261;
+            %tmp.263 = 0.5;
+            %tmp.264 = mul %tmp.262 %tmp.263;
+            %tmp.265 = dup %tmp.252;
+            %tmp.266 = aputv %tmp.265 %tmp.254 %tmp.264;
+            %tmp.268 = const :justification;
+            %tmp.269 = getm $.Toybox.Graphics;
+            %tmp.270 = getv %tmp.269 :TEXT_JUSTIFY_CENTER;
+            %tmp.271 = dup %tmp.266;
+            %tmp.272 = aputv %tmp.271 %tmp.268 %tmp.270;
+            %tmp.274 = const :font;
+            %tmp.275 = getm $.Toybox.Graphics;
+            %tmp.276 = getv %tmp.275 :FONT_NUMBER_HOT;
+            %tmp.277 = dup %tmp.272;
+            %tmp.278 = aputv %tmp.277 %tmp.274 %tmp.276;
+            %tmp.231 = newc %tmp.234 (%tmp.278);
+            lputv %rez_cmp_local_text_value3.9 %tmp.231;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 104 12 ]
+            %tmp.279 = newa Array<WatchUi.Drawable> 7;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_18723377984185489151.3;
+            %tmp.282 = dup %tmp.279;
+            %tmp.283 = aputv %tmp.282 0 %tmp.281;
+            %tmp.285 = lgetv %rez_cmp_local_text_label1.4;
+            %tmp.286 = dup %tmp.283;
+            %tmp.287 = aputv %tmp.286 1 %tmp.285;
+            %tmp.289 = lgetv %rez_cmp_local_text_value1.5;
+            %tmp.290 = dup %tmp.287;
+            %tmp.291 = aputv %tmp.290 2 %tmp.289;
+            %tmp.293 = lgetv %rez_cmp_local_text_label2.6;
+            %tmp.294 = dup %tmp.291;
+            %tmp.295 = aputv %tmp.294 3 %tmp.293;
+            %tmp.297 = lgetv %rez_cmp_local_text_value2.7;
+            %tmp.298 = dup %tmp.295;
+            %tmp.299 = aputv %tmp.298 4 %tmp.297;
+            %tmp.301 = lgetv %rez_cmp_local_text_label3.8;
+            %tmp.302 = dup %tmp.299;
+            %tmp.303 = aputv %tmp.302 5 %tmp.301;
+            %tmp.305 = lgetv %rez_cmp_local_text_value3.9;
+            %tmp.306 = dup %tmp.303;
+            %tmp.307 = aputv %tmp.306 6 %tmp.305;
+            ret %tmp.307;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop:
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 107; ]
+        function Middel3(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 108 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
+            %rez_cmp_local_var_dc_getHeight.1 = local;
+            %tmp.1 = lgetv %dc;
+            %tmp.2 = getv function %tmp.1 :getHeight;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 110 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
+            %rez_cmp_local_var_dc_getWidth.2 = local;
+            %tmp.4 = lgetv %dc;
+            %tmp.5 = getv function %tmp.4 :getWidth;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 112 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
+            %rez_cmp_local_custom_drawable_19418629344431542657.3 = local;
+            %tmp.10 = getv ? :Background;
+            %tmp.7 = newc %tmp.10 ();
+            lputv %rez_cmp_local_custom_drawable_19418629344431542657.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 114 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
+            %rez_cmp_local_text_label1.4 = local;
+            %tmp.13 = getm $.Toybox.WatchUi;
+            %tmp.14 = getv function ? %tmp.13 :Text;
+            %tmp.15 = newd 6;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "label1";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.22 = const :color;
+            %tmp.23 = getm $.Toybox.Graphics;
+            %tmp.24 = getv %tmp.23 :COLOR_BLACK;
+            %tmp.25 = dup %tmp.20;
+            %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+            %tmp.28 = const :locX;
+            %tmp.29 = getm $.Toybox.WatchUi;
+            %tmp.30 = getv %tmp.29 :LAYOUT_HALIGN_LEFT;
+            %tmp.31 = dup %tmp.26;
+            %tmp.32 = aputv %tmp.31 %tmp.28 %tmp.30;
+            %tmp.34 = const :locY;
+            %tmp.35 = getm $.Toybox.WatchUi;
+            %tmp.36 = getv %tmp.35 :LAYOUT_VALIGN_TOP;
+            %tmp.37 = dup %tmp.32;
+            %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
+            %tmp.40 = const :justification;
+            %tmp.41 = getm $.Toybox.Graphics;
+            %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_CENTER;
+            %tmp.43 = dup %tmp.38;
+            %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
+            %tmp.46 = const :font;
+            %tmp.47 = getm $.Toybox.Graphics;
+            %tmp.48 = getv %tmp.47 :FONT_SMALL;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.11 = newc %tmp.14 (%tmp.50);
+            lputv %rez_cmp_local_text_label1.4 %tmp.11;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 116 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
+            %rez_cmp_local_text_value1.5 = local;
+            %tmp.53 = getm $.Toybox.WatchUi;
+            %tmp.54 = getv function ? %tmp.53 :Text;
+            %tmp.55 = newd 6;
+            %tmp.57 = const :identifier;
+            %tmp.58 = "value1";
+            %tmp.59 = dup %tmp.55;
+            %tmp.60 = aputv %tmp.59 %tmp.57 %tmp.58;
+            %tmp.62 = const :color;
+            %tmp.63 = getm $.Toybox.Graphics;
+            %tmp.64 = getv %tmp.63 :COLOR_WHITE;
+            %tmp.65 = dup %tmp.60;
+            %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
+            %tmp.68 = const :locX;
+            %tmp.69 = getm $.Toybox.WatchUi;
+            %tmp.70 = getv %tmp.69 :LAYOUT_HALIGN_LEFT;
+            %tmp.71 = dup %tmp.66;
+            %tmp.72 = aputv %tmp.71 %tmp.68 %tmp.70;
+            %tmp.74 = const :locY;
+            %tmp.76 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.77 = lgetv %dc;
+            %tmp.78 = getv function %tmp.77 :getFontHeight;
+            %tmp.79 = getm $.Toybox.Graphics;
+            %tmp.80 = getv %tmp.79 :FONT_NUMBER_HOT;
+            %tmp.81 = invoke %tmp.77 %tmp.78(%tmp.80);
+            %tmp.82 = sub %tmp.76 %tmp.81;
+            %tmp.83 = 0.5;
+            %tmp.84 = mul %tmp.82 %tmp.83;
+            %tmp.85 = dup %tmp.72;
+            %tmp.86 = aputv %tmp.85 %tmp.74 %tmp.84;
+            %tmp.88 = const :justification;
+            %tmp.89 = getm $.Toybox.Graphics;
+            %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
+            %tmp.91 = dup %tmp.86;
+            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
+            %tmp.94 = const :font;
+            %tmp.95 = getm $.Toybox.Graphics;
+            %tmp.96 = getv %tmp.95 :FONT_NUMBER_HOT;
+            %tmp.97 = dup %tmp.92;
+            %tmp.98 = aputv %tmp.97 %tmp.94 %tmp.96;
+            %tmp.51 = newc %tmp.54 (%tmp.98);
+            lputv %rez_cmp_local_text_value1.5 %tmp.51;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 118 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
+            %rez_cmp_local_text_label2.6 = local;
+            %tmp.101 = getm $.Toybox.WatchUi;
+            %tmp.102 = getv function ? %tmp.101 :Text;
+            %tmp.103 = newd 6;
+            %tmp.105 = const :identifier;
+            %tmp.106 = "label2";
+            %tmp.107 = dup %tmp.103;
+            %tmp.108 = aputv %tmp.107 %tmp.105 %tmp.106;
+            %tmp.110 = const :color;
+            %tmp.111 = getm $.Toybox.Graphics;
+            %tmp.112 = getv %tmp.111 :COLOR_BLACK;
+            %tmp.113 = dup %tmp.108;
+            %tmp.114 = aputv %tmp.113 %tmp.110 %tmp.112;
+            %tmp.116 = const :locX;
+            %tmp.118 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.119 = 0.5;
+            %tmp.120 = mul %tmp.118 %tmp.119;
+            %tmp.121 = dup %tmp.114;
+            %tmp.122 = aputv %tmp.121 %tmp.116 %tmp.120;
+            %tmp.124 = const :locY;
+            %tmp.125 = getm $.Toybox.WatchUi;
+            %tmp.126 = getv %tmp.125 :LAYOUT_VALIGN_TOP;
+            %tmp.127 = dup %tmp.122;
+            %tmp.128 = aputv %tmp.127 %tmp.124 %tmp.126;
+            %tmp.130 = const :justification;
+            %tmp.131 = getm $.Toybox.Graphics;
+            %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_CENTER;
+            %tmp.133 = dup %tmp.128;
+            %tmp.134 = aputv %tmp.133 %tmp.130 %tmp.132;
+            %tmp.136 = const :font;
+            %tmp.137 = getm $.Toybox.Graphics;
+            %tmp.138 = getv %tmp.137 :FONT_SMALL;
+            %tmp.139 = dup %tmp.134;
+            %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
+            %tmp.99 = newc %tmp.102 (%tmp.140);
+            lputv %rez_cmp_local_text_label2.6 %tmp.99;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 120 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
+            %rez_cmp_local_text_value2.7 = local;
+            %tmp.143 = getm $.Toybox.WatchUi;
+            %tmp.144 = getv function ? %tmp.143 :Text;
+            %tmp.145 = newd 6;
+            %tmp.147 = const :identifier;
+            %tmp.148 = "value2";
+            %tmp.149 = dup %tmp.145;
+            %tmp.150 = aputv %tmp.149 %tmp.147 %tmp.148;
+            %tmp.152 = const :color;
+            %tmp.153 = getm $.Toybox.Graphics;
+            %tmp.154 = getv %tmp.153 :COLOR_WHITE;
+            %tmp.155 = dup %tmp.150;
+            %tmp.156 = aputv %tmp.155 %tmp.152 %tmp.154;
+            %tmp.158 = const :locX;
+            %tmp.160 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.161 = 0.5;
+            %tmp.162 = mul %tmp.160 %tmp.161;
+            %tmp.163 = dup %tmp.156;
+            %tmp.164 = aputv %tmp.163 %tmp.158 %tmp.162;
+            %tmp.166 = const :locY;
+            %tmp.168 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.169 = lgetv %dc;
+            %tmp.170 = getv function %tmp.169 :getFontHeight;
+            %tmp.171 = getm $.Toybox.Graphics;
+            %tmp.172 = getv %tmp.171 :FONT_NUMBER_HOT;
+            %tmp.173 = invoke %tmp.169 %tmp.170(%tmp.172);
+            %tmp.174 = sub %tmp.168 %tmp.173;
+            %tmp.175 = 0.5;
+            %tmp.176 = mul %tmp.174 %tmp.175;
+            %tmp.177 = dup %tmp.164;
+            %tmp.178 = aputv %tmp.177 %tmp.166 %tmp.176;
+            %tmp.180 = const :justification;
+            %tmp.181 = getm $.Toybox.Graphics;
+            %tmp.182 = getv %tmp.181 :TEXT_JUSTIFY_CENTER;
+            %tmp.183 = dup %tmp.178;
+            %tmp.184 = aputv %tmp.183 %tmp.180 %tmp.182;
+            %tmp.186 = const :font;
+            %tmp.187 = getm $.Toybox.Graphics;
+            %tmp.188 = getv %tmp.187 :FONT_NUMBER_HOT;
+            %tmp.189 = dup %tmp.184;
+            %tmp.190 = aputv %tmp.189 %tmp.186 %tmp.188;
+            %tmp.141 = newc %tmp.144 (%tmp.190);
+            lputv %rez_cmp_local_text_value2.7 %tmp.141;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 122 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
+            %rez_cmp_local_text_label3.8 = local;
+            %tmp.193 = getm $.Toybox.WatchUi;
+            %tmp.194 = getv function ? %tmp.193 :Text;
+            %tmp.195 = newd 6;
+            %tmp.197 = const :identifier;
+            %tmp.198 = "label3";
+            %tmp.199 = dup %tmp.195;
+            %tmp.200 = aputv %tmp.199 %tmp.197 %tmp.198;
+            %tmp.202 = const :color;
+            %tmp.203 = getm $.Toybox.Graphics;
+            %tmp.204 = getv %tmp.203 :COLOR_BLACK;
+            %tmp.205 = dup %tmp.200;
+            %tmp.206 = aputv %tmp.205 %tmp.202 %tmp.204;
+            %tmp.208 = const :locX;
+            %tmp.209 = getm $.Toybox.WatchUi;
+            %tmp.210 = getv %tmp.209 :LAYOUT_HALIGN_RIGHT;
+            %tmp.211 = dup %tmp.206;
+            %tmp.212 = aputv %tmp.211 %tmp.208 %tmp.210;
+            %tmp.214 = const :locY;
+            %tmp.215 = getm $.Toybox.WatchUi;
+            %tmp.216 = getv %tmp.215 :LAYOUT_VALIGN_TOP;
+            %tmp.217 = dup %tmp.212;
+            %tmp.218 = aputv %tmp.217 %tmp.214 %tmp.216;
+            %tmp.220 = const :justification;
+            %tmp.221 = getm $.Toybox.Graphics;
+            %tmp.222 = getv %tmp.221 :TEXT_JUSTIFY_CENTER;
+            %tmp.223 = dup %tmp.218;
+            %tmp.224 = aputv %tmp.223 %tmp.220 %tmp.222;
+            %tmp.226 = const :font;
+            %tmp.227 = getm $.Toybox.Graphics;
+            %tmp.228 = getv %tmp.227 :FONT_SMALL;
+            %tmp.229 = dup %tmp.224;
+            %tmp.230 = aputv %tmp.229 %tmp.226 %tmp.228;
+            %tmp.191 = newc %tmp.194 (%tmp.230);
+            lputv %rez_cmp_local_text_label3.8 %tmp.191;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 124 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
+            %rez_cmp_local_text_value3.9 = local;
+            %tmp.233 = getm $.Toybox.WatchUi;
+            %tmp.234 = getv function ? %tmp.233 :Text;
+            %tmp.235 = newd 6;
+            %tmp.237 = const :identifier;
+            %tmp.238 = "value3";
+            %tmp.239 = dup %tmp.235;
+            %tmp.240 = aputv %tmp.239 %tmp.237 %tmp.238;
+            %tmp.242 = const :color;
+            %tmp.243 = getm $.Toybox.Graphics;
+            %tmp.244 = getv %tmp.243 :COLOR_WHITE;
+            %tmp.245 = dup %tmp.240;
+            %tmp.246 = aputv %tmp.245 %tmp.242 %tmp.244;
+            %tmp.248 = const :locX;
+            %tmp.249 = getm $.Toybox.WatchUi;
+            %tmp.250 = getv %tmp.249 :LAYOUT_HALIGN_RIGHT;
+            %tmp.251 = dup %tmp.246;
+            %tmp.252 = aputv %tmp.251 %tmp.248 %tmp.250;
+            %tmp.254 = const :locY;
+            %tmp.256 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.257 = lgetv %dc;
+            %tmp.258 = getv function %tmp.257 :getFontHeight;
+            %tmp.259 = getm $.Toybox.Graphics;
+            %tmp.260 = getv %tmp.259 :FONT_NUMBER_HOT;
+            %tmp.261 = invoke %tmp.257 %tmp.258(%tmp.260);
+            %tmp.262 = sub %tmp.256 %tmp.261;
+            %tmp.263 = 0.5;
+            %tmp.264 = mul %tmp.262 %tmp.263;
+            %tmp.265 = dup %tmp.252;
+            %tmp.266 = aputv %tmp.265 %tmp.254 %tmp.264;
+            %tmp.268 = const :justification;
+            %tmp.269 = getm $.Toybox.Graphics;
+            %tmp.270 = getv %tmp.269 :TEXT_JUSTIFY_CENTER;
+            %tmp.271 = dup %tmp.266;
+            %tmp.272 = aputv %tmp.271 %tmp.268 %tmp.270;
+            %tmp.274 = const :font;
+            %tmp.275 = getm $.Toybox.Graphics;
+            %tmp.276 = getv %tmp.275 :FONT_NUMBER_HOT;
+            %tmp.277 = dup %tmp.272;
+            %tmp.278 = aputv %tmp.277 %tmp.274 %tmp.276;
+            %tmp.231 = newc %tmp.234 (%tmp.278);
+            lputv %rez_cmp_local_text_value3.9 %tmp.231;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 126 12 ]
+            %tmp.279 = newa Array<WatchUi.Drawable> 7;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_19418629344431542657.3;
+            %tmp.282 = dup %tmp.279;
+            %tmp.283 = aputv %tmp.282 0 %tmp.281;
+            %tmp.285 = lgetv %rez_cmp_local_text_label1.4;
+            %tmp.286 = dup %tmp.283;
+            %tmp.287 = aputv %tmp.286 1 %tmp.285;
+            %tmp.289 = lgetv %rez_cmp_local_text_value1.5;
+            %tmp.290 = dup %tmp.287;
+            %tmp.291 = aputv %tmp.290 2 %tmp.289;
+            %tmp.293 = lgetv %rez_cmp_local_text_label2.6;
+            %tmp.294 = dup %tmp.291;
+            %tmp.295 = aputv %tmp.294 3 %tmp.293;
+            %tmp.297 = lgetv %rez_cmp_local_text_value2.7;
+            %tmp.298 = dup %tmp.295;
+            %tmp.299 = aputv %tmp.298 4 %tmp.297;
+            %tmp.301 = lgetv %rez_cmp_local_text_label3.8;
+            %tmp.302 = dup %tmp.299;
+            %tmp.303 = aputv %tmp.302 5 %tmp.301;
+            %tmp.305 = lgetv %rez_cmp_local_text_value3.9;
+            %tmp.306 = dup %tmp.303;
+            %tmp.307 = aputv %tmp.306 6 %tmp.305;
+            ret %tmp.307;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop:
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 129; ]
+        function Groot(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 130 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
+            %rez_cmp_local_var_dc_getHeight.1 = local;
+            %tmp.1 = lgetv %dc;
+            %tmp.2 = getv function %tmp.1 :getHeight;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 132 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
+            %rez_cmp_local_var_dc_getWidth.2 = local;
+            %tmp.4 = lgetv %dc;
+            %tmp.5 = getv function %tmp.4 :getWidth;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 134 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
+            %rez_cmp_local_custom_drawable_14067197215478223125.3 = local;
+            %tmp.10 = getv ? :Background;
+            %tmp.7 = newc %tmp.10 ();
+            lputv %rez_cmp_local_custom_drawable_14067197215478223125.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 136 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
+            %rez_cmp_local_text_label1.4 = local;
+            %tmp.13 = getm $.Toybox.WatchUi;
+            %tmp.14 = getv function ? %tmp.13 :Text;
+            %tmp.15 = newd 6;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "label1";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.22 = const :color;
+            %tmp.23 = getm $.Toybox.Graphics;
+            %tmp.24 = getv %tmp.23 :COLOR_BLACK;
+            %tmp.25 = dup %tmp.20;
+            %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+            %tmp.28 = const :locX;
+            %tmp.29 = getm $.Toybox.WatchUi;
+            %tmp.30 = getv %tmp.29 :LAYOUT_HALIGN_LEFT;
+            %tmp.31 = dup %tmp.26;
+            %tmp.32 = aputv %tmp.31 %tmp.28 %tmp.30;
+            %tmp.34 = const :locY;
+            %tmp.35 = getm $.Toybox.WatchUi;
+            %tmp.36 = getv %tmp.35 :LAYOUT_VALIGN_TOP;
+            %tmp.37 = dup %tmp.32;
+            %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
+            %tmp.40 = const :justification;
+            %tmp.41 = getm $.Toybox.Graphics;
+            %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_CENTER;
+            %tmp.43 = dup %tmp.38;
+            %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
+            %tmp.46 = const :font;
+            %tmp.47 = getm $.Toybox.Graphics;
+            %tmp.48 = getv %tmp.47 :FONT_SMALL;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.11 = newc %tmp.14 (%tmp.50);
+            lputv %rez_cmp_local_text_label1.4 %tmp.11;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 138 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
+            %rez_cmp_local_text_value1.5 = local;
+            %tmp.53 = getm $.Toybox.WatchUi;
+            %tmp.54 = getv function ? %tmp.53 :Text;
+            %tmp.55 = newd 6;
+            %tmp.57 = const :identifier;
+            %tmp.58 = "value1";
+            %tmp.59 = dup %tmp.55;
+            %tmp.60 = aputv %tmp.59 %tmp.57 %tmp.58;
+            %tmp.62 = const :color;
+            %tmp.63 = getm $.Toybox.Graphics;
+            %tmp.64 = getv %tmp.63 :COLOR_WHITE;
+            %tmp.65 = dup %tmp.60;
+            %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
+            %tmp.68 = const :locX;
+            %tmp.69 = getm $.Toybox.WatchUi;
+            %tmp.70 = getv %tmp.69 :LAYOUT_HALIGN_LEFT;
+            %tmp.71 = dup %tmp.66;
+            %tmp.72 = aputv %tmp.71 %tmp.68 %tmp.70;
+            %tmp.74 = const :locY;
+            %tmp.76 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.77 = lgetv %dc;
+            %tmp.78 = getv function %tmp.77 :getFontHeight;
+            %tmp.79 = getm $.Toybox.Graphics;
+            %tmp.80 = getv %tmp.79 :FONT_NUMBER_THAI_HOT;
+            %tmp.81 = invoke %tmp.77 %tmp.78(%tmp.80);
+            %tmp.82 = sub %tmp.76 %tmp.81;
+            %tmp.83 = 0.5;
+            %tmp.84 = mul %tmp.82 %tmp.83;
+            %tmp.85 = dup %tmp.72;
+            %tmp.86 = aputv %tmp.85 %tmp.74 %tmp.84;
+            %tmp.88 = const :justification;
+            %tmp.89 = getm $.Toybox.Graphics;
+            %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
+            %tmp.91 = dup %tmp.86;
+            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
+            %tmp.94 = const :font;
+            %tmp.95 = getm $.Toybox.Graphics;
+            %tmp.96 = getv %tmp.95 :FONT_NUMBER_THAI_HOT;
+            %tmp.97 = dup %tmp.92;
+            %tmp.98 = aputv %tmp.97 %tmp.94 %tmp.96;
+            %tmp.51 = newc %tmp.54 (%tmp.98);
+            lputv %rez_cmp_local_text_value1.5 %tmp.51;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 140 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
+            %rez_cmp_local_text_label2.6 = local;
+            %tmp.101 = getm $.Toybox.WatchUi;
+            %tmp.102 = getv function ? %tmp.101 :Text;
+            %tmp.103 = newd 6;
+            %tmp.105 = const :identifier;
+            %tmp.106 = "label2";
+            %tmp.107 = dup %tmp.103;
+            %tmp.108 = aputv %tmp.107 %tmp.105 %tmp.106;
+            %tmp.110 = const :color;
+            %tmp.111 = getm $.Toybox.Graphics;
+            %tmp.112 = getv %tmp.111 :COLOR_BLACK;
+            %tmp.113 = dup %tmp.108;
+            %tmp.114 = aputv %tmp.113 %tmp.110 %tmp.112;
+            %tmp.116 = const :locX;
+            %tmp.118 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.119 = 0.5;
+            %tmp.120 = mul %tmp.118 %tmp.119;
+            %tmp.121 = dup %tmp.114;
+            %tmp.122 = aputv %tmp.121 %tmp.116 %tmp.120;
+            %tmp.124 = const :locY;
+            %tmp.125 = getm $.Toybox.WatchUi;
+            %tmp.126 = getv %tmp.125 :LAYOUT_VALIGN_TOP;
+            %tmp.127 = dup %tmp.122;
+            %tmp.128 = aputv %tmp.127 %tmp.124 %tmp.126;
+            %tmp.130 = const :justification;
+            %tmp.131 = getm $.Toybox.Graphics;
+            %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_CENTER;
+            %tmp.133 = dup %tmp.128;
+            %tmp.134 = aputv %tmp.133 %tmp.130 %tmp.132;
+            %tmp.136 = const :font;
+            %tmp.137 = getm $.Toybox.Graphics;
+            %tmp.138 = getv %tmp.137 :FONT_SMALL;
+            %tmp.139 = dup %tmp.134;
+            %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
+            %tmp.99 = newc %tmp.102 (%tmp.140);
+            lputv %rez_cmp_local_text_label2.6 %tmp.99;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 142 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
+            %rez_cmp_local_text_value2.7 = local;
+            %tmp.143 = getm $.Toybox.WatchUi;
+            %tmp.144 = getv function ? %tmp.143 :Text;
+            %tmp.145 = newd 6;
+            %tmp.147 = const :identifier;
+            %tmp.148 = "value2";
+            %tmp.149 = dup %tmp.145;
+            %tmp.150 = aputv %tmp.149 %tmp.147 %tmp.148;
+            %tmp.152 = const :color;
+            %tmp.153 = getm $.Toybox.Graphics;
+            %tmp.154 = getv %tmp.153 :COLOR_WHITE;
+            %tmp.155 = dup %tmp.150;
+            %tmp.156 = aputv %tmp.155 %tmp.152 %tmp.154;
+            %tmp.158 = const :locX;
+            %tmp.160 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.161 = 0.5;
+            %tmp.162 = mul %tmp.160 %tmp.161;
+            %tmp.163 = dup %tmp.156;
+            %tmp.164 = aputv %tmp.163 %tmp.158 %tmp.162;
+            %tmp.166 = const :locY;
+            %tmp.168 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.169 = lgetv %dc;
+            %tmp.170 = getv function %tmp.169 :getFontHeight;
+            %tmp.171 = getm $.Toybox.Graphics;
+            %tmp.172 = getv %tmp.171 :FONT_NUMBER_THAI_HOT;
+            %tmp.173 = invoke %tmp.169 %tmp.170(%tmp.172);
+            %tmp.174 = sub %tmp.168 %tmp.173;
+            %tmp.175 = 0.5;
+            %tmp.176 = mul %tmp.174 %tmp.175;
+            %tmp.177 = dup %tmp.164;
+            %tmp.178 = aputv %tmp.177 %tmp.166 %tmp.176;
+            %tmp.180 = const :justification;
+            %tmp.181 = getm $.Toybox.Graphics;
+            %tmp.182 = getv %tmp.181 :TEXT_JUSTIFY_CENTER;
+            %tmp.183 = dup %tmp.178;
+            %tmp.184 = aputv %tmp.183 %tmp.180 %tmp.182;
+            %tmp.186 = const :font;
+            %tmp.187 = getm $.Toybox.Graphics;
+            %tmp.188 = getv %tmp.187 :FONT_NUMBER_THAI_HOT;
+            %tmp.189 = dup %tmp.184;
+            %tmp.190 = aputv %tmp.189 %tmp.186 %tmp.188;
+            %tmp.141 = newc %tmp.144 (%tmp.190);
+            lputv %rez_cmp_local_text_value2.7 %tmp.141;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 144 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
+            %rez_cmp_local_text_label3.8 = local;
+            %tmp.193 = getm $.Toybox.WatchUi;
+            %tmp.194 = getv function ? %tmp.193 :Text;
+            %tmp.195 = newd 6;
+            %tmp.197 = const :identifier;
+            %tmp.198 = "label3";
+            %tmp.199 = dup %tmp.195;
+            %tmp.200 = aputv %tmp.199 %tmp.197 %tmp.198;
+            %tmp.202 = const :color;
+            %tmp.203 = getm $.Toybox.Graphics;
+            %tmp.204 = getv %tmp.203 :COLOR_BLACK;
+            %tmp.205 = dup %tmp.200;
+            %tmp.206 = aputv %tmp.205 %tmp.202 %tmp.204;
+            %tmp.208 = const :locX;
+            %tmp.209 = getm $.Toybox.WatchUi;
+            %tmp.210 = getv %tmp.209 :LAYOUT_HALIGN_RIGHT;
+            %tmp.211 = dup %tmp.206;
+            %tmp.212 = aputv %tmp.211 %tmp.208 %tmp.210;
+            %tmp.214 = const :locY;
+            %tmp.215 = getm $.Toybox.WatchUi;
+            %tmp.216 = getv %tmp.215 :LAYOUT_VALIGN_TOP;
+            %tmp.217 = dup %tmp.212;
+            %tmp.218 = aputv %tmp.217 %tmp.214 %tmp.216;
+            %tmp.220 = const :justification;
+            %tmp.221 = getm $.Toybox.Graphics;
+            %tmp.222 = getv %tmp.221 :TEXT_JUSTIFY_CENTER;
+            %tmp.223 = dup %tmp.218;
+            %tmp.224 = aputv %tmp.223 %tmp.220 %tmp.222;
+            %tmp.226 = const :font;
+            %tmp.227 = getm $.Toybox.Graphics;
+            %tmp.228 = getv %tmp.227 :FONT_SMALL;
+            %tmp.229 = dup %tmp.224;
+            %tmp.230 = aputv %tmp.229 %tmp.226 %tmp.228;
+            %tmp.191 = newc %tmp.194 (%tmp.230);
+            lputv %rez_cmp_local_text_label3.8 %tmp.191;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 146 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
+            %rez_cmp_local_text_value3.9 = local;
+            %tmp.233 = getm $.Toybox.WatchUi;
+            %tmp.234 = getv function ? %tmp.233 :Text;
+            %tmp.235 = newd 6;
+            %tmp.237 = const :identifier;
+            %tmp.238 = "value3";
+            %tmp.239 = dup %tmp.235;
+            %tmp.240 = aputv %tmp.239 %tmp.237 %tmp.238;
+            %tmp.242 = const :color;
+            %tmp.243 = getm $.Toybox.Graphics;
+            %tmp.244 = getv %tmp.243 :COLOR_WHITE;
+            %tmp.245 = dup %tmp.240;
+            %tmp.246 = aputv %tmp.245 %tmp.242 %tmp.244;
+            %tmp.248 = const :locX;
+            %tmp.249 = getm $.Toybox.WatchUi;
+            %tmp.250 = getv %tmp.249 :LAYOUT_HALIGN_RIGHT;
+            %tmp.251 = dup %tmp.246;
+            %tmp.252 = aputv %tmp.251 %tmp.248 %tmp.250;
+            %tmp.254 = const :locY;
+            %tmp.256 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.257 = lgetv %dc;
+            %tmp.258 = getv function %tmp.257 :getFontHeight;
+            %tmp.259 = getm $.Toybox.Graphics;
+            %tmp.260 = getv %tmp.259 :FONT_NUMBER_THAI_HOT;
+            %tmp.261 = invoke %tmp.257 %tmp.258(%tmp.260);
+            %tmp.262 = sub %tmp.256 %tmp.261;
+            %tmp.263 = 0.5;
+            %tmp.264 = mul %tmp.262 %tmp.263;
+            %tmp.265 = dup %tmp.252;
+            %tmp.266 = aputv %tmp.265 %tmp.254 %tmp.264;
+            %tmp.268 = const :justification;
+            %tmp.269 = getm $.Toybox.Graphics;
+            %tmp.270 = getv %tmp.269 :TEXT_JUSTIFY_CENTER;
+            %tmp.271 = dup %tmp.266;
+            %tmp.272 = aputv %tmp.271 %tmp.268 %tmp.270;
+            %tmp.274 = const :font;
+            %tmp.275 = getm $.Toybox.Graphics;
+            %tmp.276 = getv %tmp.275 :FONT_NUMBER_THAI_HOT;
+            %tmp.277 = dup %tmp.272;
+            %tmp.278 = aputv %tmp.277 %tmp.274 %tmp.276;
+            %tmp.231 = newc %tmp.234 (%tmp.278);
+            lputv %rez_cmp_local_text_value3.9 %tmp.231;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 148 12 ]
+            %tmp.279 = newa Array<WatchUi.Drawable> 7;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_14067197215478223125.3;
+            %tmp.282 = dup %tmp.279;
+            %tmp.283 = aputv %tmp.282 0 %tmp.281;
+            %tmp.285 = lgetv %rez_cmp_local_text_label1.4;
+            %tmp.286 = dup %tmp.283;
+            %tmp.287 = aputv %tmp.286 1 %tmp.285;
+            %tmp.289 = lgetv %rez_cmp_local_text_value1.5;
+            %tmp.290 = dup %tmp.287;
+            %tmp.291 = aputv %tmp.290 2 %tmp.289;
+            %tmp.293 = lgetv %rez_cmp_local_text_label2.6;
+            %tmp.294 = dup %tmp.291;
+            %tmp.295 = aputv %tmp.294 3 %tmp.293;
+            %tmp.297 = lgetv %rez_cmp_local_text_value2.7;
+            %tmp.298 = dup %tmp.295;
+            %tmp.299 = aputv %tmp.298 4 %tmp.297;
+            %tmp.301 = lgetv %rez_cmp_local_text_label3.8;
+            %tmp.302 = dup %tmp.299;
+            %tmp.303 = aputv %tmp.302 5 %tmp.301;
+            %tmp.305 = lgetv %rez_cmp_local_text_value3.9;
+            %tmp.306 = dup %tmp.303;
+            %tmp.307 = aputv %tmp.306 6 %tmp.305;
+            ret %tmp.307;
+C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop:
+        }
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 152; ]
+    module Menus {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 152; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 155; ]
+    module Strings {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 155; ]
+        <init> {
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 156; @position = 27; initialized = true; ]
+        var label3y as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 157; @position = 27; initialized = true; ]
+        var label3m as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 158; @position = 27; initialized = true; ]
+        var tijdDisplay0 as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 159; @position = 27; initialized = true; ]
+        var label3km as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 160; @position = 27; initialized = true; ]
+        var tijdDisplay1 as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 161; @position = 27; initialized = true; ]
+        var label3ml as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 162; @position = 27; initialized = true; ]
+        var tijdDisplay as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 163; @position = 27; initialized = true; ]
+        var label1 as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 164; @position = 27; initialized = true; ]
+        var label2 as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 165; @position = 27; initialized = true; ]
+        var AppName as Symbol;
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 166; @position = 27; initialized = true; ]
+        var label3 as Symbol;
+    }
+}
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

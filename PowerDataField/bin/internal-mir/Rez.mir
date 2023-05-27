@@ -1,65 +1,65 @@
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 12; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 12; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
         var roboto_bold_120 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
         var roboto_bold_136 as Symbol;
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 17; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 17; ]
     module JsonData {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 17; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 17; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 20; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 20; ]
     module Layouts {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 20; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 20; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 21; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 21; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 22 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 22 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 24 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
-            %rez_cmp_local_custom_drawable_18751910281056925402.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 24 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
+            %rez_cmp_local_custom_drawable_15970727962487069469.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_18751910281056925402.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 26 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
+            lputv %rez_cmp_local_custom_drawable_15970727962487069469.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 26 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -96,8 +96,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 28 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 28 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -134,8 +134,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.91 = aputv %tmp.90 %tmp.87 %tmp.89;
             %tmp.50 = newc %tmp.53 (%tmp.91);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 30 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 30 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.94 = getm $.Toybox.WatchUi;
             %tmp.95 = getv function ? %tmp.94 :Text;
@@ -171,9 +171,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.131 = aputv %tmp.130 %tmp.127 %tmp.129;
             %tmp.92 = newc %tmp.95 (%tmp.131);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.92;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 32 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 32 12 ]
             %tmp.132 = newa Array<WatchUi.Drawable> 4;
-            %tmp.134 = lgetv %rez_cmp_local_custom_drawable_18751910281056925402.2;
+            %tmp.134 = lgetv %rez_cmp_local_custom_drawable_15970727962487069469.2;
             %tmp.135 = dup %tmp.132;
             %tmp.136 = aputv %tmp.135 0 %tmp.134;
             %tmp.138 = lgetv %rez_cmp_local_text_label.3;
@@ -186,26 +186,26 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.147 = dup %tmp.144;
             %tmp.148 = aputv %tmp.147 3 %tmp.146;
             ret %tmp.148;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_21_74_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 35; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 35; ]
         function Klein(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 36 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 36 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 38 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_stop" ]
-            %rez_cmp_local_custom_drawable_46701929720210570011.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 38 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_stop" ]
+            %rez_cmp_local_custom_drawable_14177908617289570231.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_46701929720210570011.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 40 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_14177908617289570231.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 40 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -242,8 +242,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 42 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 42 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -289,8 +289,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 44 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 44 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.103 = getm $.Toybox.WatchUi;
             %tmp.104 = getv function ? %tmp.103 :Text;
@@ -326,9 +326,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
             %tmp.101 = newc %tmp.104 (%tmp.140);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.101;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 46 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 46 12 ]
             %tmp.141 = newa Array<WatchUi.Drawable> 4;
-            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_46701929720210570011.2;
+            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_14177908617289570231.2;
             %tmp.144 = dup %tmp.141;
             %tmp.145 = aputv %tmp.144 0 %tmp.143;
             %tmp.147 = lgetv %rez_cmp_local_text_label.3;
@@ -341,26 +341,26 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 3 %tmp.155;
             ret %tmp.157;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_35_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_35_69_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 49; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 49; ]
         function Middel1(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 50 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 50 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 52 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_stop" ]
-            %rez_cmp_local_custom_drawable_20468586751115643466.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 52 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_stop" ]
+            %rez_cmp_local_custom_drawable_43736172418418893071.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_20468586751115643466.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 54 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_43736172418418893071.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 54 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -397,8 +397,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 56 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 56 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -444,8 +444,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 58 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 58 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.103 = getm $.Toybox.WatchUi;
             %tmp.104 = getv function ? %tmp.103 :Text;
@@ -481,9 +481,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
             %tmp.101 = newc %tmp.104 (%tmp.140);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.101;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 60 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 60 12 ]
             %tmp.141 = newa Array<WatchUi.Drawable> 4;
-            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_20468586751115643466.2;
+            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_43736172418418893071.2;
             %tmp.144 = dup %tmp.141;
             %tmp.145 = aputv %tmp.144 0 %tmp.143;
             %tmp.147 = lgetv %rez_cmp_local_text_label.3;
@@ -496,26 +496,26 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 3 %tmp.155;
             ret %tmp.157;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_49_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_49_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 63; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 63; ]
         function Middel2(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 64 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 64 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 66 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
-            %rez_cmp_local_custom_drawable_10008727912554186971.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 66 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_stop" ]
+            %rez_cmp_local_custom_drawable_16353674301034527569.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_10008727912554186971.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 68 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_16353674301034527569.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 68 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -552,8 +552,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 70 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 70 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -599,8 +599,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 72 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 72 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.103 = getm $.Toybox.WatchUi;
             %tmp.104 = getv function ? %tmp.103 :Text;
@@ -636,9 +636,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
             %tmp.101 = newc %tmp.104 (%tmp.140);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.101;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 74 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 74 12 ]
             %tmp.141 = newa Array<WatchUi.Drawable> 4;
-            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_10008727912554186971.2;
+            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_16353674301034527569.2;
             %tmp.144 = dup %tmp.141;
             %tmp.145 = aputv %tmp.144 0 %tmp.143;
             %tmp.147 = lgetv %rez_cmp_local_text_label.3;
@@ -651,26 +651,26 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 3 %tmp.155;
             ret %tmp.157;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_63_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 77; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 77; ]
         function Middel3(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 78 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 78 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 80 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_stop" ]
-            %rez_cmp_local_custom_drawable_18547309747748390351.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 80 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_stop" ]
+            %rez_cmp_local_custom_drawable_89125124024328444814.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_18547309747748390351.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 82 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_stop" ]
+            lputv %rez_cmp_local_custom_drawable_89125124024328444814.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 82 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -707,8 +707,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 84 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 84 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -754,8 +754,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 86 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 86 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.103 = getm $.Toybox.WatchUi;
             %tmp.104 = getv function ? %tmp.103 :Text;
@@ -791,9 +791,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
             %tmp.101 = newc %tmp.104 (%tmp.140);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.101;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 88 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 88 12 ]
             %tmp.141 = newa Array<WatchUi.Drawable> 4;
-            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_18547309747748390351.2;
+            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_89125124024328444814.2;
             %tmp.144 = dup %tmp.141;
             %tmp.145 = aputv %tmp.144 0 %tmp.143;
             %tmp.147 = lgetv %rez_cmp_local_text_label.3;
@@ -806,26 +806,26 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 3 %tmp.155;
             ret %tmp.157;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_77_71_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_77_71_stop:
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 91; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 91; ]
         function Groot(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 92 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 92 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getWidth;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 94 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_stop" ]
-            %rez_cmp_local_custom_drawable_60182431688351485712.2 = local;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 94 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_stop" ]
+            %rez_cmp_local_custom_drawable_49460790018944719758.2 = local;
             %tmp.7 = getv ? :Background;
             %tmp.4 = newc %tmp.7 ();
-            lputv %rez_cmp_local_custom_drawable_60182431688351485712.2 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 96 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_stop" ]
+            lputv %rez_cmp_local_custom_drawable_49460790018944719758.2 %tmp.4;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 96 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_stop" ]
             %rez_cmp_local_text_label.3 = local;
             %tmp.10 = getm $.Toybox.WatchUi;
             %tmp.11 = getv function ? %tmp.10 :Text;
@@ -862,8 +862,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
             %tmp.8 = newc %tmp.11 (%tmp.49);
             lputv %rez_cmp_local_text_label.3 %tmp.8;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 98 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 98 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_stop" ]
             %rez_cmp_local_text_value.4 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
@@ -909,8 +909,8 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
             lputv %rez_cmp_local_text_value.4 %tmp.50;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 100 12 ]
-            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 100 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_start" "C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_stop" ]
             %rez_cmp_local_text_sweetspot.5 = local;
             %tmp.103 = getm $.Toybox.WatchUi;
             %tmp.104 = getv function ? %tmp.103 :Text;
@@ -946,9 +946,9 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.140 = aputv %tmp.139 %tmp.136 %tmp.138;
             %tmp.101 = newc %tmp.104 (%tmp.140);
             lputv %rez_cmp_local_text_sweetspot.5 %tmp.101;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen" 102 12 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen" 102 12 ]
             %tmp.141 = newa Array<WatchUi.Drawable> 4;
-            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_60182431688351485712.2;
+            %tmp.143 = lgetv %rez_cmp_local_custom_drawable_49460790018944719758.2;
             %tmp.144 = dup %tmp.141;
             %tmp.145 = aputv %tmp.144 0 %tmp.143;
             %tmp.147 = lgetv %rez_cmp_local_text_label.3;
@@ -961,58 +961,58 @@ C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Re
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 3 %tmp.155;
             ret %tmp.157;
-C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3843_00_source_Rez_mcgen_91_69_stop:
+C_Users_Ronnie_Documents_ConnectIQ_PowerDataField_bin_gen_006_B3122_00_source_Rez_mcgen_91_69_stop:
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 106; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 106; ]
     module Menus {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 106; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 106; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 109; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 109; ]
     module Strings {
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 109; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 109; ]
         <init> {
         }
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 110; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 110; @position = 27; initialized = true; ]
         var sweetspot as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 111; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 111; @position = 27; initialized = true; ]
         var ftp as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 112; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 112; @position = 27; initialized = true; ]
         var display as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 113; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 113; @position = 27; initialized = true; ]
         var sec0 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 114; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 114; @position = 27; initialized = true; ]
         var displayBarNee as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 115; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 115; @position = 27; initialized = true; ]
         var displayWatts as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 116; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 116; @position = 27; initialized = true; ]
         var label as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 117; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 117; @position = 27; initialized = true; ]
         var errorFtp as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 118; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 118; @position = 27; initialized = true; ]
         var displayBar as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 119; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 119; @position = 27; initialized = true; ]
         var sec30 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 120; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 120; @position = 27; initialized = true; ]
         var displayBarJa as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 121; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 121; @position = 27; initialized = true; ]
         var AppName as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 122; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 122; @position = 27; initialized = true; ]
         var wattperkg as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 123; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 123; @position = 27; initialized = true; ]
         var powerGemiddeldeTijd as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 124; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 124; @position = 27; initialized = true; ]
         var sec5 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 125; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 125; @position = 27; initialized = true; ]
         var sec10 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 126; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 126; @position = 27; initialized = true; ]
         var sec3 as Symbol;
-        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 127; @position = 27; initialized = true; ]
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 127; @position = 27; initialized = true; ]
         var displayWperKG as Symbol;
     }
 }
-[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3843-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\PowerDataField\bin\gen\006-B3122-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }

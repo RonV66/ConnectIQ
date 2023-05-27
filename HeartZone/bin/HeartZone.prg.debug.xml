@@ -21,146 +21,154 @@
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneBackground.mc" id="10" lineNum="23" parent="globals/Background" pc="268435666" symbol="draw"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneBackground.mc" id="10" lineNum="24" parent="globals/Background" pc="268435668" symbol="draw"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneBackground.mc" id="10" lineNum="25" parent="globals/Background" pc="268435693" symbol="draw"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268435706" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268435706" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="12" lineNum="7" parent="globals/HeartZoneView" pc="268435730" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="36" parent="globals/HeartZoneView" pc="268435749" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="37" parent="globals/HeartZoneView" pc="268435753" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="39" parent="globals/HeartZoneView" pc="268435766" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="40" parent="globals/HeartZoneView" pc="268435777" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="41" parent="globals/HeartZoneView" pc="268435831" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="42" parent="globals/HeartZoneView" pc="268435856" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="43" parent="globals/HeartZoneView" pc="268435910" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="44" parent="globals/HeartZoneView" pc="268435921" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="47" parent="globals/HeartZoneView" pc="268435975" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="48" parent="globals/HeartZoneView" pc="268436009" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="51" parent="globals/HeartZoneView" pc="268436043" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="52" parent="globals/HeartZoneView" pc="268436077" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="59" parent="globals/HeartZoneView" pc="268436120" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="61" parent="globals/HeartZoneView" pc="268436122" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="62" parent="globals/HeartZoneView" pc="268436133" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="63" parent="globals/HeartZoneView" pc="268436146" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="65" parent="globals/HeartZoneView" pc="268436162" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="65" parent="globals/HeartZoneView" pc="268436188" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="65" parent="globals/HeartZoneView" pc="268436201" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="66" parent="globals/HeartZoneView" pc="268436217" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="66" parent="globals/HeartZoneView" pc="268436272" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="66" parent="globals/HeartZoneView" pc="268436285" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="67" parent="globals/HeartZoneView" pc="268436373" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="67" parent="globals/HeartZoneView" pc="268436428" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="67" parent="globals/HeartZoneView" pc="268436441" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="68" parent="globals/HeartZoneView" pc="268436529" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="68" parent="globals/HeartZoneView" pc="268436584" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="68" parent="globals/HeartZoneView" pc="268436597" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="69" parent="globals/HeartZoneView" pc="268436685" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="69" parent="globals/HeartZoneView" pc="268436740" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="69" parent="globals/HeartZoneView" pc="268436753" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="70" parent="globals/HeartZoneView" pc="268436841" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="70" parent="globals/HeartZoneView" pc="268436896" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="70" parent="globals/HeartZoneView" pc="268436909" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="71" parent="globals/HeartZoneView" pc="268436997" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="71" parent="globals/HeartZoneView" pc="268437023" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="71" parent="globals/HeartZoneView" pc="268437036" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="73" parent="globals/HeartZoneView" pc="268437055" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="74" parent="globals/HeartZoneView" pc="268437068" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="76" parent="globals/HeartZoneView" pc="268437081" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="78" parent="globals/HeartZoneView" pc="268437113" symbol="compute"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="21" parent="globals/HeartZoneView" pc="268437143" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="22" parent="globals/HeartZoneView" pc="268437145" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="23" parent="globals/HeartZoneView" pc="268437163" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="24" parent="globals/HeartZoneView" pc="268437176" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="25" parent="globals/HeartZoneView" pc="268437189" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="26" parent="globals/HeartZoneView" pc="268437202" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="27" parent="globals/HeartZoneView" pc="268437240" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="28" parent="globals/HeartZoneView" pc="268437277" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="29" parent="globals/HeartZoneView" pc="268437314" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="30" parent="globals/HeartZoneView" pc="268437351" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="31" parent="globals/HeartZoneView" pc="268437388" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="84" parent="globals/HeartZoneView" pc="268437426" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="86" parent="globals/HeartZoneView" pc="268437430" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="88" parent="globals/HeartZoneView" pc="268437458" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="90" parent="globals/HeartZoneView" pc="268437609" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="91" parent="globals/HeartZoneView" pc="268437632" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="92" parent="globals/HeartZoneView" pc="268437652" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="93" parent="globals/HeartZoneView" pc="268437675" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="95" parent="globals/HeartZoneView" pc="268437701" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="96" parent="globals/HeartZoneView" pc="268437724" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="98" parent="globals/HeartZoneView" pc="268437747" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="100" parent="globals/HeartZoneView" pc="268437750" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="101" parent="globals/HeartZoneView" pc="268437767" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="102" parent="globals/HeartZoneView" pc="268437790" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="103" parent="globals/HeartZoneView" pc="268437813" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="105" parent="globals/HeartZoneView" pc="268437816" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="106" parent="globals/HeartZoneView" pc="268437833" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="107" parent="globals/HeartZoneView" pc="268437856" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="108" parent="globals/HeartZoneView" pc="268437879" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="110" parent="globals/HeartZoneView" pc="268437882" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="111" parent="globals/HeartZoneView" pc="268437899" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="112" parent="globals/HeartZoneView" pc="268437922" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="113" parent="globals/HeartZoneView" pc="268437945" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="115" parent="globals/HeartZoneView" pc="268437948" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="116" parent="globals/HeartZoneView" pc="268437965" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="117" parent="globals/HeartZoneView" pc="268437988" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="118" parent="globals/HeartZoneView" pc="268438011" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="120" parent="globals/HeartZoneView" pc="268438014" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="121" parent="globals/HeartZoneView" pc="268438031" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="122" parent="globals/HeartZoneView" pc="268438054" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="123" parent="globals/HeartZoneView" pc="268438077" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="125" parent="globals/HeartZoneView" pc="268438080" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="126" parent="globals/HeartZoneView" pc="268438097" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="127" parent="globals/HeartZoneView" pc="268438120" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="128" parent="globals/HeartZoneView" pc="268438143" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="131" parent="globals/HeartZoneView" pc="268438147" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="134" parent="globals/HeartZoneView" pc="268438187" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="45" parent="globals/Rez/Layouts" pc="268438212" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="46" parent="globals/Rez/Layouts" pc="268438224" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="48" parent="globals/Rez/Layouts" pc="268438237" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="50" parent="globals/Rez/Layouts" pc="268438265" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="52" parent="globals/Rez/Layouts" pc="268438380" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="54" parent="globals/Rez/Layouts" pc="268438524" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="57" parent="globals/Rez/Layouts" pc="268438561" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="58" parent="globals/Rez/Layouts" pc="268438573" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="60" parent="globals/Rez/Layouts" pc="268438586" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="62" parent="globals/Rez/Layouts" pc="268438614" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="64" parent="globals/Rez/Layouts" pc="268438729" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="66" parent="globals/Rez/Layouts" pc="268438873" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="81" parent="globals/Rez/Layouts" pc="268438910" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="82" parent="globals/Rez/Layouts" pc="268438922" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="84" parent="globals/Rez/Layouts" pc="268438935" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="86" parent="globals/Rez/Layouts" pc="268438963" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="88" parent="globals/Rez/Layouts" pc="268439078" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="90" parent="globals/Rez/Layouts" pc="268439222" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="33" parent="globals/Rez/Layouts" pc="268439259" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="34" parent="globals/Rez/Layouts" pc="268439271" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="36" parent="globals/Rez/Layouts" pc="268439284" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="38" parent="globals/Rez/Layouts" pc="268439312" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="40" parent="globals/Rez/Layouts" pc="268439427" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="42" parent="globals/Rez/Layouts" pc="268439571" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="69" parent="globals/Rez/Layouts" pc="268439608" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="70" parent="globals/Rez/Layouts" pc="268439620" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="72" parent="globals/Rez/Layouts" pc="268439633" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="74" parent="globals/Rez/Layouts" pc="268439661" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="76" parent="globals/Rez/Layouts" pc="268439776" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="78" parent="globals/Rez/Layouts" pc="268439920" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="19" parent="globals/Rez/Layouts" pc="268439957" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="20" parent="globals/Rez/Layouts" pc="268439969" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268439982" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268439995" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268440023" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="28" parent="globals/Rez/Layouts" pc="268440158" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="30" parent="globals/Rez/Layouts" pc="268440293" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="46" parent="globals/HeartZoneView" pc="268435749" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="47" parent="globals/HeartZoneView" pc="268435753" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="49" parent="globals/HeartZoneView" pc="268435766" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="50" parent="globals/HeartZoneView" pc="268435777" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="51" parent="globals/HeartZoneView" pc="268435831" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="52" parent="globals/HeartZoneView" pc="268435856" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="53" parent="globals/HeartZoneView" pc="268435910" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="54" parent="globals/HeartZoneView" pc="268435921" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="57" parent="globals/HeartZoneView" pc="268435975" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="58" parent="globals/HeartZoneView" pc="268436009" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="61" parent="globals/HeartZoneView" pc="268436043" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="13" lineNum="62" parent="globals/HeartZoneView" pc="268436077" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="69" parent="globals/HeartZoneView" pc="268436120" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="71" parent="globals/HeartZoneView" pc="268436122" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="72" parent="globals/HeartZoneView" pc="268436133" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="73" parent="globals/HeartZoneView" pc="268436146" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="74" parent="globals/HeartZoneView" pc="268436162" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="74" parent="globals/HeartZoneView" pc="268436188" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="74" parent="globals/HeartZoneView" pc="268436201" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="75" parent="globals/HeartZoneView" pc="268436217" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="75" parent="globals/HeartZoneView" pc="268436272" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="75" parent="globals/HeartZoneView" pc="268436285" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="76" parent="globals/HeartZoneView" pc="268436337" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="76" parent="globals/HeartZoneView" pc="268436392" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="76" parent="globals/HeartZoneView" pc="268436405" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="77" parent="globals/HeartZoneView" pc="268436457" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="77" parent="globals/HeartZoneView" pc="268436512" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="77" parent="globals/HeartZoneView" pc="268436525" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="78" parent="globals/HeartZoneView" pc="268436577" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="78" parent="globals/HeartZoneView" pc="268436632" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="78" parent="globals/HeartZoneView" pc="268436645" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="79" parent="globals/HeartZoneView" pc="268436697" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="79" parent="globals/HeartZoneView" pc="268436752" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="79" parent="globals/HeartZoneView" pc="268436765" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="80" parent="globals/HeartZoneView" pc="268436817" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="80" parent="globals/HeartZoneView" pc="268436843" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="80" parent="globals/HeartZoneView" pc="268436856" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="82" parent="globals/HeartZoneView" pc="268436875" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="14" lineNum="83" parent="globals/HeartZoneView" pc="268436888" symbol="compute"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="26" parent="globals/HeartZoneView" pc="268436905" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="27" parent="globals/HeartZoneView" pc="268436907" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="28" parent="globals/HeartZoneView" pc="268436925" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="29" parent="globals/HeartZoneView" pc="268436938" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="30" parent="globals/HeartZoneView" pc="268436951" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="31" parent="globals/HeartZoneView" pc="268436964" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="32" parent="globals/HeartZoneView" pc="268437002" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="33" parent="globals/HeartZoneView" pc="268437048" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="34" parent="globals/HeartZoneView" pc="268437094" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="35" parent="globals/HeartZoneView" pc="268437140" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="36" parent="globals/HeartZoneView" pc="268437186" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="37" parent="globals/HeartZoneView" pc="268437232" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="38" parent="globals/HeartZoneView" pc="268437263" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="39" parent="globals/HeartZoneView" pc="268437294" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="40" parent="globals/HeartZoneView" pc="268437325" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="15" lineNum="41" parent="globals/HeartZoneView" pc="268437356" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="90" parent="globals/HeartZoneView" pc="268437388" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="92" parent="globals/HeartZoneView" pc="268437392" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="94" parent="globals/HeartZoneView" pc="268437420" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="96" parent="globals/HeartZoneView" pc="268437571" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="97" parent="globals/HeartZoneView" pc="268437594" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="98" parent="globals/HeartZoneView" pc="268437614" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="99" parent="globals/HeartZoneView" pc="268437637" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="101" parent="globals/HeartZoneView" pc="268437663" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="102" parent="globals/HeartZoneView" pc="268437686" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="104" parent="globals/HeartZoneView" pc="268437709" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="106" parent="globals/HeartZoneView" pc="268437712" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="107" parent="globals/HeartZoneView" pc="268437729" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="108" parent="globals/HeartZoneView" pc="268437752" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="109" parent="globals/HeartZoneView" pc="268437775" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="111" parent="globals/HeartZoneView" pc="268437778" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="112" parent="globals/HeartZoneView" pc="268437795" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="113" parent="globals/HeartZoneView" pc="268437818" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="114" parent="globals/HeartZoneView" pc="268437841" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="116" parent="globals/HeartZoneView" pc="268437844" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="117" parent="globals/HeartZoneView" pc="268437861" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="118" parent="globals/HeartZoneView" pc="268437884" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="119" parent="globals/HeartZoneView" pc="268437907" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="121" parent="globals/HeartZoneView" pc="268437910" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="122" parent="globals/HeartZoneView" pc="268437927" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="123" parent="globals/HeartZoneView" pc="268437950" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="124" parent="globals/HeartZoneView" pc="268437973" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="126" parent="globals/HeartZoneView" pc="268437976" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="127" parent="globals/HeartZoneView" pc="268437993" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="128" parent="globals/HeartZoneView" pc="268438016" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="129" parent="globals/HeartZoneView" pc="268438039" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="131" parent="globals/HeartZoneView" pc="268438042" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="132" parent="globals/HeartZoneView" pc="268438059" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="133" parent="globals/HeartZoneView" pc="268438082" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="134" parent="globals/HeartZoneView" pc="268438105" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="137" parent="globals/HeartZoneView" pc="268438109" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\source\\HeartZoneView.mc" id="16" lineNum="140" parent="globals/HeartZoneView" pc="268438149" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="17" lineNum="45" parent="globals/Rez/Layouts" pc="268438174" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="17" lineNum="46" parent="globals/Rez/Layouts" pc="268438186" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="17" lineNum="48" parent="globals/Rez/Layouts" pc="268438199" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="17" lineNum="50" parent="globals/Rez/Layouts" pc="268438227" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="17" lineNum="52" parent="globals/Rez/Layouts" pc="268438342" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="17" lineNum="54" parent="globals/Rez/Layouts" pc="268438486" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="18" lineNum="57" parent="globals/Rez/Layouts" pc="268438523" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="18" lineNum="58" parent="globals/Rez/Layouts" pc="268438535" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="18" lineNum="60" parent="globals/Rez/Layouts" pc="268438548" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="18" lineNum="62" parent="globals/Rez/Layouts" pc="268438576" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="18" lineNum="64" parent="globals/Rez/Layouts" pc="268438691" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="18" lineNum="66" parent="globals/Rez/Layouts" pc="268438835" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="81" parent="globals/Rez/Layouts" pc="268438872" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="82" parent="globals/Rez/Layouts" pc="268438884" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="84" parent="globals/Rez/Layouts" pc="268438897" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="86" parent="globals/Rez/Layouts" pc="268438925" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="88" parent="globals/Rez/Layouts" pc="268439040" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="19" lineNum="90" parent="globals/Rez/Layouts" pc="268439184" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="20" lineNum="33" parent="globals/Rez/Layouts" pc="268439221" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="20" lineNum="34" parent="globals/Rez/Layouts" pc="268439233" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="20" lineNum="36" parent="globals/Rez/Layouts" pc="268439246" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="20" lineNum="38" parent="globals/Rez/Layouts" pc="268439274" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="20" lineNum="40" parent="globals/Rez/Layouts" pc="268439389" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="20" lineNum="42" parent="globals/Rez/Layouts" pc="268439533" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="21" lineNum="69" parent="globals/Rez/Layouts" pc="268439570" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="21" lineNum="70" parent="globals/Rez/Layouts" pc="268439582" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="21" lineNum="72" parent="globals/Rez/Layouts" pc="268439595" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="21" lineNum="74" parent="globals/Rez/Layouts" pc="268439623" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="21" lineNum="76" parent="globals/Rez/Layouts" pc="268439738" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="21" lineNum="78" parent="globals/Rez/Layouts" pc="268439882" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="22" lineNum="19" parent="globals/Rez/Layouts" pc="268439919" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="22" lineNum="20" parent="globals/Rez/Layouts" pc="268439931" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268439944" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268439957" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268439985" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="22" lineNum="28" parent="globals/Rez/Layouts" pc="268440120" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\HeartZone\\bin\\gen\\006-B4062-00\\source\\Rez.mcgen" id="22" lineNum="30" parent="globals/Rez/Layouts" pc="268440255" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="14" symbol="hartslag"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="27" method="true" symbol="MainLayout"/>
-        <entry field="true" id="22" symbol="mValue"/>
+        <entry id="32" method="true" symbol="MainLayout"/>
+        <entry field="true" id="19" symbol="heartRateZoneFloat5"/>
+        <entry field="true" id="18" symbol="heartRateZoneFloat4"/>
+        <entry field="true" id="17" symbol="heartRateZoneFloat3"/>
+        <entry field="true" id="16" symbol="heartRateZoneFloat2"/>
+        <entry field="true" id="15" symbol="heartRateZoneFloat1"/>
+        <entry field="true" id="27" symbol="mValue"/>
         <entry id="9" object="true" symbol="HeartZoneApp"/>
         <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="31" symbol="AppName"/>
-        <entry id="25" method="true" symbol="Groot"/>
+        <entry field="true" id="36" symbol="AppName"/>
+        <entry id="30" method="true" symbol="Groot"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8388631" module="true" symbol="Activity"/>
@@ -170,7 +178,7 @@
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="23" symbol="valueView"/>
+        <entry field="true" id="28" symbol="valueView"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="12" module="true" symbol="Menus"/>
@@ -178,31 +186,26 @@
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry field="true" id="20" symbol="heartRateZones"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="19" symbol="heartRateZone5"/>
-        <entry field="true" id="18" symbol="heartRateZone4"/>
-        <entry field="true" id="17" symbol="heartRateZone3"/>
-        <entry field="true" id="16" symbol="heartRateZone2"/>
-        <entry field="true" id="15" symbol="heartRateZone1"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
         <entry id="8389137" method="true" symbol="compute"/>
         <entry id="8389131" method="true" symbol="setColor"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-        <entry id="30" method="true" symbol="Middel3"/>
-        <entry id="29" method="true" symbol="Middel2"/>
-        <entry id="28" method="true" symbol="Middel1"/>
+        <entry id="35" method="true" symbol="Middel3"/>
+        <entry id="34" method="true" symbol="Middel2"/>
+        <entry id="33" method="true" symbol="Middel1"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="10" object="true" symbol="HeartZoneView"/>
-        <entry id="26" method="true" symbol="Klein"/>
+        <entry id="31" method="true" symbol="Klein"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="8389130" symbol="mColor"/>
         <entry id="8389068" method="true" symbol="draw"/>
         <entry field="true" id="13" symbol="currentZone"/>
-        <entry field="true" id="24" symbol="LauncherIcon"/>
+        <entry field="true" id="29" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry field="true" id="21" symbol="labelView"/>
+        <entry field="true" id="26" symbol="labelView"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
@@ -214,6 +217,11 @@
         <entry id="8389347" symbol="color"/>
         <entry id="11" module="true" symbol="Layouts"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="25" symbol="heartRateZonesFloat4"/>
+        <entry field="true" id="24" symbol="heartRateZonesFloat3"/>
+        <entry field="true" id="23" symbol="heartRateZonesFloat2"/>
+        <entry field="true" id="22" symbol="heartRateZonesFloat1"/>
+        <entry field="true" id="21" symbol="heartRateZonesFloat0"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
@@ -222,40 +230,40 @@
         <entry arg="true" endPc="268435705" name="dc" stackId="1" startPc="268435666"/>
         <entry arg="true" endPc="268436119" name="dc" stackId="1" startPc="268435749"/>
         <entry endPc="268436118" name="hoogte" stackId="2" startPc="268435753"/>
-        <entry arg="true" endPc="268437142" name="info" stackId="1" startPc="268436120"/>
-        <entry arg="true" endPc="268438211" name="dc" stackId="1" startPc="268437426"/>
-        <entry endPc="268438210" name="achtergrond" stackId="2" startPc="268437430"/>
-        <entry arg="true" endPc="268438560" name="dc" stackId="1" startPc="268438212"/>
-        <entry endPc="268438560" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438224"/>
-        <entry endPc="268438560" name="rez_cmp_local_custom_drawable_18268099416122669281" stackId="3" startPc="268438224"/>
-        <entry endPc="268438560" name="rez_cmp_local_text_label" stackId="4" startPc="268438224"/>
-        <entry endPc="268438560" name="rez_cmp_local_text_value" stackId="5" startPc="268438224"/>
-        <entry arg="true" endPc="268438909" name="dc" stackId="1" startPc="268438561"/>
-        <entry endPc="268438909" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438573"/>
-        <entry endPc="268438909" name="rez_cmp_local_custom_drawable_65296978216396732572" stackId="3" startPc="268438573"/>
-        <entry endPc="268438909" name="rez_cmp_local_text_label" stackId="4" startPc="268438573"/>
-        <entry endPc="268438909" name="rez_cmp_local_text_value" stackId="5" startPc="268438573"/>
-        <entry arg="true" endPc="268439258" name="dc" stackId="1" startPc="268438910"/>
-        <entry endPc="268439258" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438922"/>
-        <entry endPc="268439258" name="rez_cmp_local_custom_drawable_11649705941195598350" stackId="3" startPc="268438922"/>
-        <entry endPc="268439258" name="rez_cmp_local_text_label" stackId="4" startPc="268438922"/>
-        <entry endPc="268439258" name="rez_cmp_local_text_value" stackId="5" startPc="268438922"/>
-        <entry arg="true" endPc="268439607" name="dc" stackId="1" startPc="268439259"/>
-        <entry endPc="268439607" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439271"/>
-        <entry endPc="268439607" name="rez_cmp_local_custom_drawable_20953057571799363307" stackId="3" startPc="268439271"/>
-        <entry endPc="268439607" name="rez_cmp_local_text_label" stackId="4" startPc="268439271"/>
-        <entry endPc="268439607" name="rez_cmp_local_text_value" stackId="5" startPc="268439271"/>
-        <entry arg="true" endPc="268439956" name="dc" stackId="1" startPc="268439608"/>
-        <entry endPc="268439956" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439620"/>
-        <entry endPc="268439956" name="rez_cmp_local_custom_drawable_15466445572131695444" stackId="3" startPc="268439620"/>
-        <entry endPc="268439956" name="rez_cmp_local_text_label" stackId="4" startPc="268439620"/>
-        <entry endPc="268439956" name="rez_cmp_local_text_value" stackId="5" startPc="268439620"/>
-        <entry arg="true" endPc="268440329" name="dc" stackId="1" startPc="268439957"/>
-        <entry endPc="268440329" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439969"/>
-        <entry endPc="268440329" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268439969"/>
-        <entry endPc="268440329" name="rez_cmp_local_custom_drawable_12343761223827359979" stackId="4" startPc="268439969"/>
-        <entry endPc="268440329" name="rez_cmp_local_text_label" stackId="5" startPc="268439969"/>
-        <entry endPc="268440329" name="rez_cmp_local_text_value" stackId="6" startPc="268439969"/>
+        <entry arg="true" endPc="268436904" name="info" stackId="1" startPc="268436120"/>
+        <entry arg="true" endPc="268438173" name="dc" stackId="1" startPc="268437388"/>
+        <entry endPc="268438172" name="achtergrond" stackId="2" startPc="268437392"/>
+        <entry arg="true" endPc="268438522" name="dc" stackId="1" startPc="268438174"/>
+        <entry endPc="268438522" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438186"/>
+        <entry endPc="268438522" name="rez_cmp_local_custom_drawable_18649958771508705215" stackId="3" startPc="268438186"/>
+        <entry endPc="268438522" name="rez_cmp_local_text_label" stackId="4" startPc="268438186"/>
+        <entry endPc="268438522" name="rez_cmp_local_text_value" stackId="5" startPc="268438186"/>
+        <entry arg="true" endPc="268438871" name="dc" stackId="1" startPc="268438523"/>
+        <entry endPc="268438871" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438535"/>
+        <entry endPc="268438871" name="rez_cmp_local_custom_drawable_16099141021518918557" stackId="3" startPc="268438535"/>
+        <entry endPc="268438871" name="rez_cmp_local_text_label" stackId="4" startPc="268438535"/>
+        <entry endPc="268438871" name="rez_cmp_local_text_value" stackId="5" startPc="268438535"/>
+        <entry arg="true" endPc="268439220" name="dc" stackId="1" startPc="268438872"/>
+        <entry endPc="268439220" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438884"/>
+        <entry endPc="268439220" name="rez_cmp_local_custom_drawable_46707299575299450497" stackId="3" startPc="268438884"/>
+        <entry endPc="268439220" name="rez_cmp_local_text_label" stackId="4" startPc="268438884"/>
+        <entry endPc="268439220" name="rez_cmp_local_text_value" stackId="5" startPc="268438884"/>
+        <entry arg="true" endPc="268439569" name="dc" stackId="1" startPc="268439221"/>
+        <entry endPc="268439569" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439233"/>
+        <entry endPc="268439569" name="rez_cmp_local_custom_drawable_78520540545029611917" stackId="3" startPc="268439233"/>
+        <entry endPc="268439569" name="rez_cmp_local_text_label" stackId="4" startPc="268439233"/>
+        <entry endPc="268439569" name="rez_cmp_local_text_value" stackId="5" startPc="268439233"/>
+        <entry arg="true" endPc="268439918" name="dc" stackId="1" startPc="268439570"/>
+        <entry endPc="268439918" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439582"/>
+        <entry endPc="268439918" name="rez_cmp_local_custom_drawable_88448088619469768071" stackId="3" startPc="268439582"/>
+        <entry endPc="268439918" name="rez_cmp_local_text_label" stackId="4" startPc="268439582"/>
+        <entry endPc="268439918" name="rez_cmp_local_text_value" stackId="5" startPc="268439582"/>
+        <entry arg="true" endPc="268440291" name="dc" stackId="1" startPc="268439919"/>
+        <entry endPc="268440291" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439931"/>
+        <entry endPc="268440291" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268439931"/>
+        <entry endPc="268440291" name="rez_cmp_local_custom_drawable_18771543992115064505" stackId="4" startPc="268439931"/>
+        <entry endPc="268440291" name="rez_cmp_local_text_label" stackId="5" startPc="268439931"/>
+        <entry endPc="268440291" name="rez_cmp_local_text_value" stackId="6" startPc="268439931"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -268,12 +276,12 @@
         <dataEntry label="globals/Background" offset="237" parentId="globals" symbolId="Background" type="class"/>
         <dataEntry label="globals/Rez" offset="308" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/HeartZoneView" offset="387" parentId="globals" symbolId="HeartZoneView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="546" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="585" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="664" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="695" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="726" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="773" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="586" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="625" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="704" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="735" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="766" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="813" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="HeartZoneApp" startPc="268435460">
@@ -320,14 +328,14 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437142" name="compute" parent="HeartZoneView" startPc="268436120">
+        <functionEntry accessMode="public" endPc="268436904" name="compute" parent="HeartZoneView" startPc="268436120">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437425" name="initialize" parent="HeartZoneView" startPc="268437143">
+        <functionEntry accessMode="public" endPc="268437387" name="initialize" parent="HeartZoneView" startPc="268436905">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438211" name="onUpdate" parent="HeartZoneView" startPc="268437426">
+        <functionEntry accessMode="public" endPc="268438173" name="onUpdate" parent="HeartZoneView" startPc="268437388">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -349,27 +357,27 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438560" name="Middel1" parent="Layouts" startPc="268438212">
+        <functionEntry accessMode="public" endPc="268438522" name="Middel1" parent="Layouts" startPc="268438174">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438909" name="Middel2" parent="Layouts" startPc="268438561">
+        <functionEntry accessMode="public" endPc="268438871" name="Middel2" parent="Layouts" startPc="268438523">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439258" name="Groot" parent="Layouts" startPc="268438910">
+        <functionEntry accessMode="public" endPc="268439220" name="Groot" parent="Layouts" startPc="268438872">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439607" name="Klein" parent="Layouts" startPc="268439259">
+        <functionEntry accessMode="public" endPc="268439569" name="Klein" parent="Layouts" startPc="268439221">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439956" name="Middel3" parent="Layouts" startPc="268439608">
+        <functionEntry accessMode="public" endPc="268439918" name="Middel3" parent="Layouts" startPc="268439570">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440329" name="MainLayout" parent="Layouts" startPc="268439957">
+        <functionEntry accessMode="public" endPc="268440291" name="MainLayout" parent="Layouts" startPc="268439919">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

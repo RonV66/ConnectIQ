@@ -304,33 +304,33 @@
         <entry arg="true" endPc="268439172" name="dc" stackId="1" startPc="268439133"/>
         <entry arg="true" endPc="268439634" name="dc" stackId="1" startPc="268439286"/>
         <entry endPc="268439634" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439298"/>
-        <entry endPc="268439634" name="rez_cmp_local_custom_drawable_10161336001194433640" stackId="3" startPc="268439298"/>
+        <entry endPc="268439634" name="rez_cmp_local_custom_drawable_36218752685366113019" stackId="3" startPc="268439298"/>
         <entry endPc="268439634" name="rez_cmp_local_text_label" stackId="4" startPc="268439298"/>
         <entry endPc="268439634" name="rez_cmp_local_text_value" stackId="5" startPc="268439298"/>
         <entry arg="true" endPc="268439983" name="dc" stackId="1" startPc="268439635"/>
         <entry endPc="268439983" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439647"/>
-        <entry endPc="268439983" name="rez_cmp_local_custom_drawable_66559693718382525791" stackId="3" startPc="268439647"/>
+        <entry endPc="268439983" name="rez_cmp_local_custom_drawable_20757532287965880151" stackId="3" startPc="268439647"/>
         <entry endPc="268439983" name="rez_cmp_local_text_label" stackId="4" startPc="268439647"/>
         <entry endPc="268439983" name="rez_cmp_local_text_value" stackId="5" startPc="268439647"/>
         <entry arg="true" endPc="268440332" name="dc" stackId="1" startPc="268439984"/>
         <entry endPc="268440332" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439996"/>
-        <entry endPc="268440332" name="rez_cmp_local_custom_drawable_10900402416735834478" stackId="3" startPc="268439996"/>
+        <entry endPc="268440332" name="rez_cmp_local_custom_drawable_14187754311650969170" stackId="3" startPc="268439996"/>
         <entry endPc="268440332" name="rez_cmp_local_text_label" stackId="4" startPc="268439996"/>
         <entry endPc="268440332" name="rez_cmp_local_text_value" stackId="5" startPc="268439996"/>
         <entry arg="true" endPc="268440681" name="dc" stackId="1" startPc="268440333"/>
         <entry endPc="268440681" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268440345"/>
-        <entry endPc="268440681" name="rez_cmp_local_custom_drawable_14235527922946069792" stackId="3" startPc="268440345"/>
+        <entry endPc="268440681" name="rez_cmp_local_custom_drawable_10616808755179995671" stackId="3" startPc="268440345"/>
         <entry endPc="268440681" name="rez_cmp_local_text_label" stackId="4" startPc="268440345"/>
         <entry endPc="268440681" name="rez_cmp_local_text_value" stackId="5" startPc="268440345"/>
         <entry arg="true" endPc="268441030" name="dc" stackId="1" startPc="268440682"/>
         <entry endPc="268441030" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268440694"/>
-        <entry endPc="268441030" name="rez_cmp_local_custom_drawable_17407985371164990719" stackId="3" startPc="268440694"/>
+        <entry endPc="268441030" name="rez_cmp_local_custom_drawable_11786528227838381351" stackId="3" startPc="268440694"/>
         <entry endPc="268441030" name="rez_cmp_local_text_label" stackId="4" startPc="268440694"/>
         <entry endPc="268441030" name="rez_cmp_local_text_value" stackId="5" startPc="268440694"/>
         <entry arg="true" endPc="268441403" name="dc" stackId="1" startPc="268441031"/>
         <entry endPc="268441403" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268441043"/>
         <entry endPc="268441403" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268441043"/>
-        <entry endPc="268441403" name="rez_cmp_local_custom_drawable_20829035152022894440" stackId="4" startPc="268441043"/>
+        <entry endPc="268441403" name="rez_cmp_local_custom_drawable_31418532311699154856" stackId="4" startPc="268441043"/>
         <entry endPc="268441403" name="rez_cmp_local_text_label" stackId="5" startPc="268441043"/>
         <entry endPc="268441403" name="rez_cmp_local_text_value" stackId="6" startPc="268441043"/>
     </localVars>

@@ -21,7 +21,7 @@
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="9" lineNum="7" parent="globals/PowerDataFieldApp" pc="268435682" symbol="initialize"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="9" lineNum="8" parent="globals/PowerDataFieldApp" pc="268435684" symbol="initialize"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldApp.mc" id="10" lineNum="16" parent="globals/PowerDataFieldApp" pc="268435703" symbol="onStop"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268435706" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268435706" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="12" lineNum="7" parent="globals/PowerDataFieldView" pc="268435730" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="12" lineNum="21" parent="globals/PowerDataFieldView" pc="268435748" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="13" lineNum="137" parent="globals/PowerDataFieldView" pc="268435763" symbol="compute"/>
@@ -221,48 +221,48 @@
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="280" parent="globals/PowerDataFieldView" pc="268440640" symbol="onUpdate"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="282" parent="globals/PowerDataFieldView" pc="268440713" symbol="onUpdate"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\source\\PowerDataFieldView.mc" id="16" lineNum="285" parent="globals/PowerDataFieldView" pc="268440796" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="49" parent="globals/Rez/Layouts" pc="268440816" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="50" parent="globals/Rez/Layouts" pc="268440828" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="52" parent="globals/Rez/Layouts" pc="268440841" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="54" parent="globals/Rez/Layouts" pc="268440869" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="56" parent="globals/Rez/Layouts" pc="268440984" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="58" parent="globals/Rez/Layouts" pc="268441128" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="17" lineNum="60" parent="globals/Rez/Layouts" pc="268441240" symbol="Middel1"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="63" parent="globals/Rez/Layouts" pc="268441287" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="64" parent="globals/Rez/Layouts" pc="268441299" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="66" parent="globals/Rez/Layouts" pc="268441312" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="68" parent="globals/Rez/Layouts" pc="268441340" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="70" parent="globals/Rez/Layouts" pc="268441455" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="72" parent="globals/Rez/Layouts" pc="268441599" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="18" lineNum="74" parent="globals/Rez/Layouts" pc="268441711" symbol="Middel2"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="91" parent="globals/Rez/Layouts" pc="268441758" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="92" parent="globals/Rez/Layouts" pc="268441770" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="94" parent="globals/Rez/Layouts" pc="268441783" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="96" parent="globals/Rez/Layouts" pc="268441811" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="98" parent="globals/Rez/Layouts" pc="268441926" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="100" parent="globals/Rez/Layouts" pc="268442070" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="19" lineNum="102" parent="globals/Rez/Layouts" pc="268442182" symbol="Groot"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="35" parent="globals/Rez/Layouts" pc="268442229" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="36" parent="globals/Rez/Layouts" pc="268442241" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="38" parent="globals/Rez/Layouts" pc="268442254" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="40" parent="globals/Rez/Layouts" pc="268442282" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="42" parent="globals/Rez/Layouts" pc="268442397" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="44" parent="globals/Rez/Layouts" pc="268442541" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="20" lineNum="46" parent="globals/Rez/Layouts" pc="268442653" symbol="Klein"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="77" parent="globals/Rez/Layouts" pc="268442700" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="78" parent="globals/Rez/Layouts" pc="268442712" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="80" parent="globals/Rez/Layouts" pc="268442725" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="82" parent="globals/Rez/Layouts" pc="268442753" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="84" parent="globals/Rez/Layouts" pc="268442868" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="86" parent="globals/Rez/Layouts" pc="268443012" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="21" lineNum="88" parent="globals/Rez/Layouts" pc="268443124" symbol="Middel3"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="21" parent="globals/Rez/Layouts" pc="268443171" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268443183" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268443196" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268443224" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="28" parent="globals/Rez/Layouts" pc="268443339" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="30" parent="globals/Rez/Layouts" pc="268443454" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3843-00\\source\\Rez.mcgen" id="22" lineNum="32" parent="globals/Rez/Layouts" pc="268443566" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="49" parent="globals/Rez/Layouts" pc="268440816" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="50" parent="globals/Rez/Layouts" pc="268440828" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="52" parent="globals/Rez/Layouts" pc="268440841" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="54" parent="globals/Rez/Layouts" pc="268440869" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="56" parent="globals/Rez/Layouts" pc="268440984" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="58" parent="globals/Rez/Layouts" pc="268441128" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="17" lineNum="60" parent="globals/Rez/Layouts" pc="268441240" symbol="Middel1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="63" parent="globals/Rez/Layouts" pc="268441287" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="64" parent="globals/Rez/Layouts" pc="268441299" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="66" parent="globals/Rez/Layouts" pc="268441312" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="68" parent="globals/Rez/Layouts" pc="268441340" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="70" parent="globals/Rez/Layouts" pc="268441455" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="72" parent="globals/Rez/Layouts" pc="268441599" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="18" lineNum="74" parent="globals/Rez/Layouts" pc="268441711" symbol="Middel2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="91" parent="globals/Rez/Layouts" pc="268441758" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="92" parent="globals/Rez/Layouts" pc="268441770" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="94" parent="globals/Rez/Layouts" pc="268441783" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="96" parent="globals/Rez/Layouts" pc="268441811" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="98" parent="globals/Rez/Layouts" pc="268441926" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="100" parent="globals/Rez/Layouts" pc="268442070" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="19" lineNum="102" parent="globals/Rez/Layouts" pc="268442182" symbol="Groot"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="35" parent="globals/Rez/Layouts" pc="268442229" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="36" parent="globals/Rez/Layouts" pc="268442241" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="38" parent="globals/Rez/Layouts" pc="268442254" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="40" parent="globals/Rez/Layouts" pc="268442282" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="42" parent="globals/Rez/Layouts" pc="268442397" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="44" parent="globals/Rez/Layouts" pc="268442541" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="20" lineNum="46" parent="globals/Rez/Layouts" pc="268442653" symbol="Klein"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="77" parent="globals/Rez/Layouts" pc="268442700" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="78" parent="globals/Rez/Layouts" pc="268442712" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="80" parent="globals/Rez/Layouts" pc="268442725" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="82" parent="globals/Rez/Layouts" pc="268442753" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="84" parent="globals/Rez/Layouts" pc="268442868" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="86" parent="globals/Rez/Layouts" pc="268443012" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="21" lineNum="88" parent="globals/Rez/Layouts" pc="268443124" symbol="Middel3"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="21" parent="globals/Rez/Layouts" pc="268443171" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268443183" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268443196" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268443224" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="28" parent="globals/Rez/Layouts" pc="268443339" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="30" parent="globals/Rez/Layouts" pc="268443454" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\PowerDataField\\bin\\gen\\006-B3122-00\\source\\Rez.mcgen" id="22" lineNum="32" parent="globals/Rez/Layouts" pc="268443566" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -379,37 +379,37 @@
         <entry endPc="268440782" name="blokjehoog" stackId="5" startPc="268440296"/>
         <entry arg="true" endPc="268441286" name="dc" stackId="1" startPc="268440816"/>
         <entry endPc="268441286" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268440828"/>
-        <entry endPc="268441286" name="rez_cmp_local_custom_drawable_20468586751115643466" stackId="3" startPc="268440828"/>
+        <entry endPc="268441286" name="rez_cmp_local_custom_drawable_43736172418418893071" stackId="3" startPc="268440828"/>
         <entry endPc="268441286" name="rez_cmp_local_text_label" stackId="4" startPc="268440828"/>
         <entry endPc="268441286" name="rez_cmp_local_text_value" stackId="5" startPc="268440828"/>
         <entry endPc="268441286" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268440828"/>
         <entry arg="true" endPc="268441757" name="dc" stackId="1" startPc="268441287"/>
         <entry endPc="268441757" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441299"/>
-        <entry endPc="268441757" name="rez_cmp_local_custom_drawable_10008727912554186971" stackId="3" startPc="268441299"/>
+        <entry endPc="268441757" name="rez_cmp_local_custom_drawable_16353674301034527569" stackId="3" startPc="268441299"/>
         <entry endPc="268441757" name="rez_cmp_local_text_label" stackId="4" startPc="268441299"/>
         <entry endPc="268441757" name="rez_cmp_local_text_value" stackId="5" startPc="268441299"/>
         <entry endPc="268441757" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268441299"/>
         <entry arg="true" endPc="268442228" name="dc" stackId="1" startPc="268441758"/>
         <entry endPc="268442228" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441770"/>
-        <entry endPc="268442228" name="rez_cmp_local_custom_drawable_60182431688351485712" stackId="3" startPc="268441770"/>
+        <entry endPc="268442228" name="rez_cmp_local_custom_drawable_49460790018944719758" stackId="3" startPc="268441770"/>
         <entry endPc="268442228" name="rez_cmp_local_text_label" stackId="4" startPc="268441770"/>
         <entry endPc="268442228" name="rez_cmp_local_text_value" stackId="5" startPc="268441770"/>
         <entry endPc="268442228" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268441770"/>
         <entry arg="true" endPc="268442699" name="dc" stackId="1" startPc="268442229"/>
         <entry endPc="268442699" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268442241"/>
-        <entry endPc="268442699" name="rez_cmp_local_custom_drawable_46701929720210570011" stackId="3" startPc="268442241"/>
+        <entry endPc="268442699" name="rez_cmp_local_custom_drawable_14177908617289570231" stackId="3" startPc="268442241"/>
         <entry endPc="268442699" name="rez_cmp_local_text_label" stackId="4" startPc="268442241"/>
         <entry endPc="268442699" name="rez_cmp_local_text_value" stackId="5" startPc="268442241"/>
         <entry endPc="268442699" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268442241"/>
         <entry arg="true" endPc="268443170" name="dc" stackId="1" startPc="268442700"/>
         <entry endPc="268443170" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268442712"/>
-        <entry endPc="268443170" name="rez_cmp_local_custom_drawable_18547309747748390351" stackId="3" startPc="268442712"/>
+        <entry endPc="268443170" name="rez_cmp_local_custom_drawable_89125124024328444814" stackId="3" startPc="268442712"/>
         <entry endPc="268443170" name="rez_cmp_local_text_label" stackId="4" startPc="268442712"/>
         <entry endPc="268443170" name="rez_cmp_local_text_value" stackId="5" startPc="268442712"/>
         <entry endPc="268443170" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268442712"/>
         <entry arg="true" endPc="268443612" name="dc" stackId="1" startPc="268443171"/>
         <entry endPc="268443612" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268443183"/>
-        <entry endPc="268443612" name="rez_cmp_local_custom_drawable_18751910281056925402" stackId="3" startPc="268443183"/>
+        <entry endPc="268443612" name="rez_cmp_local_custom_drawable_15970727962487069469" stackId="3" startPc="268443183"/>
         <entry endPc="268443612" name="rez_cmp_local_text_label" stackId="4" startPc="268443183"/>
         <entry endPc="268443612" name="rez_cmp_local_text_value" stackId="5" startPc="268443183"/>
         <entry endPc="268443612" name="rez_cmp_local_text_sweetspot" stackId="6" startPc="268443183"/>

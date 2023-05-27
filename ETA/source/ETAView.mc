@@ -48,7 +48,12 @@ class ETAView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
 
         if ((info.averageSpeed  != null) and (info.averageSpeed  != 0) and (info.currentSpeed != 0) and (info.distanceToDestination != null) and (info.distanceToDestination != 0)) {
-            etaInSeconds = info.distanceToDestination / (((info.averageSpeed * 3) + info.currentSpeed)/4);
+            if ((info.currentSpeed / info.averageSpeed) >= 1.333) {
+                etaInSeconds = info.distanceToDestination / (((info.averageSpeed) + info.currentSpeed * 3)/4);
+            }
+            else {
+                etaInSeconds = info.distanceToDestination / (((info.averageSpeed * 3) + info.currentSpeed)/4);
+            }
 
             if (Application.Properties.getValue("tijdDisplay") == 0) {
 //////////////////

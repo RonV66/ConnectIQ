@@ -9,11 +9,16 @@ class HeartZoneView extends WatchUi.DataField {
     hidden var mValue as Float;
     hidden var hartslag as Float;
     hidden var heartRateZones as Array<Number>;
-    hidden var heartRateZone1 as Numeric;
-    hidden var heartRateZone2 as Numeric;
-    hidden var heartRateZone3 as Numeric;
-    hidden var heartRateZone4 as Numeric;
-    hidden var heartRateZone5 as Numeric;
+    hidden var heartRateZoneFloat1 as Numeric;
+    hidden var heartRateZoneFloat2 as Numeric;
+    hidden var heartRateZoneFloat3 as Numeric;
+    hidden var heartRateZoneFloat4 as Numeric;
+    hidden var heartRateZoneFloat5 as Numeric;
+    hidden var heartRateZonesFloat0 as Float;
+    hidden var heartRateZonesFloat1 as Float;
+    hidden var heartRateZonesFloat2 as Float;
+    hidden var heartRateZonesFloat3 as Float;
+    hidden var heartRateZonesFloat4 as Float;
     hidden var currentZone;
     hidden var labelView;
     hidden var valueView;
@@ -24,11 +29,16 @@ class HeartZoneView extends WatchUi.DataField {
         hartslag = 0.0f;
         currentZone = 0;
         heartRateZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
-        heartRateZone1 = heartRateZones[1] - heartRateZones[0];
-        heartRateZone2 = heartRateZones[2] - heartRateZones[1];
-        heartRateZone3 = heartRateZones[3] - heartRateZones[2];
-        heartRateZone4 = heartRateZones[4] - heartRateZones[3];
-        heartRateZone5 = heartRateZones[5] - heartRateZones[4];
+        heartRateZoneFloat1 = (heartRateZones[1] - heartRateZones[0]).toFloat();
+        heartRateZoneFloat2 = (heartRateZones[2] - heartRateZones[1]).toFloat();
+        heartRateZoneFloat3 = (heartRateZones[3] - heartRateZones[2]).toFloat();
+        heartRateZoneFloat4 = (heartRateZones[4] - heartRateZones[3]).toFloat();
+        heartRateZoneFloat5 = (heartRateZones[5] - heartRateZones[4]).toFloat();
+        heartRateZonesFloat0 = heartRateZones[0].toFloat();
+        heartRateZonesFloat1 = heartRateZones[1].toFloat();
+        heartRateZonesFloat2 = heartRateZones[2].toFloat();
+        heartRateZonesFloat3 = heartRateZones[3].toFloat();
+        heartRateZonesFloat4 = heartRateZones[4].toFloat();
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -62,11 +72,11 @@ class HeartZoneView extends WatchUi.DataField {
             if(info.currentHeartRate != null) {
                 hartslag = info.currentHeartRate as Float;
                 if (hartslag < heartRateZones[0]) {currentZone = 0; mValue = 0.0f;}
-                else if ((hartslag >= heartRateZones[0]) and (hartslag < heartRateZones[1])) {currentZone = 1; mValue = currentZone.toFloat() + ((hartslag.toFloat() - heartRateZones[0].toFloat()) / heartRateZone1.toFloat());}
-                else if ((hartslag >= heartRateZones[1]) and (hartslag < heartRateZones[2])) {currentZone = 2; mValue = currentZone.toFloat() + ((hartslag.toFloat() - heartRateZones[1].toFloat()) / heartRateZone2.toFloat());}
-                else if ((hartslag >= heartRateZones[2]) and (hartslag < heartRateZones[3])) {currentZone = 3; mValue = currentZone.toFloat() + ((hartslag.toFloat() - heartRateZones[2].toFloat()) / heartRateZone3.toFloat());}
-                else if ((hartslag >= heartRateZones[3]) and (hartslag < heartRateZones[4])) {currentZone = 4; mValue = currentZone.toFloat() + ((hartslag.toFloat() - heartRateZones[3].toFloat()) / heartRateZone4.toFloat());}
-                else if ((hartslag >= heartRateZones[4]) and (hartslag < heartRateZones[5])) {currentZone = 5; mValue = currentZone.toFloat() + ((hartslag.toFloat() - heartRateZones[4].toFloat()) / heartRateZone5.toFloat());}  
+                else if ((hartslag >= heartRateZones[0]) and (hartslag < heartRateZones[1])) {currentZone = 1; mValue = 1.0 + ((hartslag.toFloat() - heartRateZonesFloat0) / heartRateZoneFloat1);}
+                else if ((hartslag >= heartRateZones[1]) and (hartslag < heartRateZones[2])) {currentZone = 2; mValue = 2.0 + ((hartslag.toFloat() - heartRateZonesFloat1) / heartRateZoneFloat2);}
+                else if ((hartslag >= heartRateZones[2]) and (hartslag < heartRateZones[3])) {currentZone = 3; mValue = 3.0 + ((hartslag.toFloat() - heartRateZonesFloat2) / heartRateZoneFloat3);}
+                else if ((hartslag >= heartRateZones[3]) and (hartslag < heartRateZones[4])) {currentZone = 4; mValue = 4.0 + ((hartslag.toFloat() - heartRateZonesFloat3) / heartRateZoneFloat4);}
+                else if ((hartslag >= heartRateZones[4]) and (hartslag < heartRateZones[5])) {currentZone = 5; mValue = 5.0 + ((hartslag.toFloat() - heartRateZonesFloat4) / heartRateZoneFloat5);}  
                 else if (hartslag > heartRateZones[5]) {currentZone = 6; hartslag = 6.0;}
             } else {
                 currentZone = 0;
