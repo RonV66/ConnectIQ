@@ -1,0 +1,1448 @@
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var LauncherIcon as Symbol;
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 12; ]
+    module Fonts {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 15; ]
+    module JsonData {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 15; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 18; ]
+    module Layouts {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 18; ]
+        <init> {
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 19; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_Ronnie_Documents_ConnectIQ_WF265_bin_gen_006_B4257_00_source_Rez_mcgen_19_73_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 20 12 ]
+            [ "C_Users_Ronnie_Documents_ConnectIQ_WF265_bin_gen_006_B4257_00_source_Rez_mcgen_19_73_start" "C_Users_Ronnie_Documents_ConnectIQ_WF265_bin_gen_006_B4257_00_source_Rez_mcgen_19_73_stop" ]
+            %rez_cmp_local_text_TimeLabel.1 = local;
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 6;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "TimeLabel";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            %tmp.13 = getm $.Toybox.Graphics;
+            %tmp.14 = getv %tmp.13 :COLOR_BLUE;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :locX;
+            %tmp.19 = 416;
+            %tmp.20 = 0.5;
+            %tmp.21 = mul %tmp.19 %tmp.20;
+            %tmp.22 = dup %tmp.16;
+            %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
+            %tmp.25 = const :locY;
+            %tmp.26 = 416;
+            %tmp.27 = lgetv %dc;
+            %tmp.28 = getv function %tmp.27 :getFontHeight;
+            %tmp.29 = getm $.Toybox.Graphics;
+            %tmp.30 = getv %tmp.29 :FONT_LARGE;
+            %tmp.31 = invoke %tmp.27 %tmp.28(%tmp.30);
+            %tmp.32 = sub %tmp.26 %tmp.31;
+            %tmp.33 = 0.5;
+            %tmp.34 = mul %tmp.32 %tmp.33;
+            %tmp.35 = dup %tmp.23;
+            %tmp.36 = aputv %tmp.35 %tmp.25 %tmp.34;
+            %tmp.38 = const :justification;
+            %tmp.39 = getm $.Toybox.Graphics;
+            %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.44 = const :font;
+            %tmp.45 = getm $.Toybox.Graphics;
+            %tmp.46 = getv %tmp.45 :FONT_LARGE;
+            %tmp.47 = dup %tmp.42;
+            %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
+            %tmp.1 = newc %tmp.4 (%tmp.48);
+            lputv %rez_cmp_local_text_TimeLabel.1 %tmp.1;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 22 12 ]
+            %tmp.49 = newa Array<WatchUi.Drawable> 1;
+            %tmp.51 = lgetv %rez_cmp_local_text_TimeLabel.1;
+            %tmp.52 = dup %tmp.49;
+            %tmp.53 = aputv %tmp.52 0 %tmp.51;
+            ret %tmp.53;
+C_Users_Ronnie_Documents_ConnectIQ_WF265_bin_gen_006_B4257_00_source_Rez_mcgen_19_73_stop:
+        }
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 26; ]
+    module Menus {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 26; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 29; ]
+    module Strings {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 29; ]
+        <init> {
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 30; @position = 27; initialized = true; ]
+        var AppName as Symbol;
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 33; ]
+    module Styles {
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 33; ]
+        <init> {
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 34; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 34; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 35; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 38; ]
+        module system_size__menu_header {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 38; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 39; @position = 18; ]
+            const width as Number = 416;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 40; @position = 18; ]
+            const height as Number = 158;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 43; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 43; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 44; @position = 18; ]
+            const x as Number = 13;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 45; @position = 18; ]
+            const y as Number = 259;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 48; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 48; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 49; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 52; ]
+        module prompt_loc__body_no_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 52; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 53; @position = 18; ]
+            const x as Number = 70;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 54; @position = 18; ]
+            const y as Number = 64;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 57; ]
+        module system_icon_dark__about {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 57; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 58; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__about.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 59; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 60; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 61; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 62; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 65; ]
+        module system_icon_light__question {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 65; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 66; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__question.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 67; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 68; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 69; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 70; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 73; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 73; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 74; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 77; ]
+        module prompt_font__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 77; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 78 18 ]
+                %tmp.54 = getm $.Toybox.Graphics;
+                %tmp.55 = getv %tmp.54 :TEXT_JUSTIFY_CENTER;
+                %tmp.56 = getm $.Toybox.Graphics;
+                %tmp.57 = getv %tmp.56 :TEXT_JUSTIFY_VCENTER;
+                %tmp.58 = bitor %tmp.55 %tmp.57;
+                putv self :justification %tmp.58;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 79 18 ]
+                %tmp.59 = getm $.Toybox.Graphics;
+                %tmp.60 = getv %tmp.59 :FONT_TINY;
+                putv self :font %tmp.60;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 78; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 79; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 82; ]
+        module system_icon_dark__discard {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 82; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 83; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__discard.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 84; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 85; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 86; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 87; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 90; ]
+        module system_size__menu_item {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 90; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 91; @position = 18; ]
+            const width as Number = 416;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 92; @position = 18; ]
+            const height as Number = 100;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 95; ]
+        module system_color_dark__text {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 95; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 97 18 ]
+                %tmp.61 = getm $.Toybox.Graphics;
+                %tmp.62 = getv %tmp.61 :COLOR_TRANSPARENT;
+                putv self :background %tmp.62;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 96; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 97; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 100; ]
+        module system_icon_destructive__discard {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 100; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 101; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_destructive__discard.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 102; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 103; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 106; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 106; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 107; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 108; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 109; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 112; ]
+        module prompt_size__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 112; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 113; @position = 18; ]
+            const width as Number = 263;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 114; @position = 18; ]
+            const height as Number = 89;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 117; ]
+        module confirmation_font__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 117; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 118 18 ]
+                %tmp.63 = getm $.Toybox.Graphics;
+                %tmp.64 = getv %tmp.63 :TEXT_JUSTIFY_CENTER;
+                %tmp.65 = getm $.Toybox.Graphics;
+                %tmp.66 = getv %tmp.65 :TEXT_JUSTIFY_VCENTER;
+                %tmp.67 = bitor %tmp.64 %tmp.66;
+                putv self :justification %tmp.67;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 119 18 ]
+                %tmp.68 = getm $.Toybox.Graphics;
+                %tmp.69 = getv %tmp.68 :FONT_TINY;
+                putv self :font %tmp.69;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 118; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 119; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 122; ]
+        module system_color_dark__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 122; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 123; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 124; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 127; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 127; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 128; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 131; ]
+        module system_size__launch_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 131; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 132; @position = 18; ]
+            const scaleX as Number = 60;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 133; @position = 18; ]
+            const scaleY as Number = 60;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 134; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 137; ]
+        module confirmation_input__confirm {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 137; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 138 18 ]
+                %tmp.70 = getm $.Toybox.WatchUi;
+                %tmp.71 = getv %tmp.70 :KEY_ENTER;
+                putv self :button %tmp.71;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 138; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 141; ]
+        module prompt_font__body_with_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 142 18 ]
+                %tmp.72 = getm $.Toybox.Graphics;
+                %tmp.73 = getv %tmp.72 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.73;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 143 18 ]
+                %tmp.74 = getm $.Toybox.Graphics;
+                %tmp.75 = getv %tmp.74 :FONT_XTINY;
+                putv self :font %tmp.75;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 142; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 143; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 146; ]
+        module confirmation_loc__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 147; @position = 18; ]
+            const x as Number = 65;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 148; @position = 18; ]
+            const y as Number = 95;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 151; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 152; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 155; ]
+        module prompt_color_dark__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 155; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 156; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 157; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 160; ]
+        module system_loc__hint_action_menu {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 160; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 161; @position = 18; ]
+            const x as Number = 343;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 162; @position = 18; ]
+            const y as Number = 81;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 165; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 165; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 166; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\confirmation_icon__hint_completion.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 167; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 168; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 171; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 171; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 172; @position = 18; ]
+            const x as Number = 6;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 173; @position = 18; ]
+            const y as Number = 169;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 176; ]
+        module prompt_size__body_no_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 177; @position = 18; ]
+            const width as Number = 277;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 178; @position = 18; ]
+            const height as Number = 289;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 181; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 182; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 183; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 184; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 187; ]
+        module prompt_color_light__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 187; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 188; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 189; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 192; ]
+        module confirmation_input__delete {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 192; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 193 18 ]
+                %tmp.76 = getm $.Toybox.WatchUi;
+                %tmp.77 = getv %tmp.76 :KEY_DOWN;
+                putv self :button %tmp.77;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 193; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 196; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 197; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 198; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 199; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 202; ]
+        module system_input__action_menu {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 202; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 203 18 ]
+                %tmp.78 = getm $.Toybox.WatchUi;
+                %tmp.79 = getv %tmp.78 :KEY_ENTER;
+                putv self :button %tmp.79;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 203; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 206; ]
+        module system_icon_light__save {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 207; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__save.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 208; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 209; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 210; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 211; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 214; ]
+        module prompt_color_light__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 214; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 216 18 ]
+                %tmp.80 = getm $.Toybox.Graphics;
+                %tmp.81 = getv %tmp.80 :COLOR_TRANSPARENT;
+                putv self :background %tmp.81;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 215; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 216; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 219; ]
+        module system_loc__subwindow {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 220; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 223; ]
+        module system_icon_light__warning {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 223; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 224; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__warning.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 225; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 226; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 227; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 228; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 231; ]
+        module confirmation_color_light__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 231; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 233 18 ]
+                %tmp.82 = getm $.Toybox.Graphics;
+                %tmp.83 = getv %tmp.82 :COLOR_TRANSPARENT;
+                putv self :background %tmp.83;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 232; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 233; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 236; ]
+        module activity_color_light__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 236; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 237; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 238; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 241; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 242; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 245; ]
+        module system_size__screen {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 246; @position = 18; ]
+            const width as Number = 416;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 247; @position = 18; ]
+            const height as Number = 416;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 250; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 250; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 251; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 254; ]
+        module system_color_light__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 255; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 256; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 259; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 259; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 260; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 263; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 264; @position = 18; ]
+            const x as Number = 343;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            const y as Number = 81;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 268; ]
+        module activity_color_dark__text {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 270 18 ]
+                %tmp.84 = getm $.Toybox.Graphics;
+                %tmp.85 = getv %tmp.84 :COLOR_TRANSPARENT;
+                putv self :background %tmp.85;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 269; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 270; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 273; ]
+        module confirmation_input__keep {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 274 18 ]
+                %tmp.86 = getm $.Toybox.WatchUi;
+                %tmp.87 = getv %tmp.86 :KEY_ESC;
+                putv self :button %tmp.87;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 274; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 277; ]
+        module prompt_loc__body_with_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 278; @position = 18; ]
+            const x as Number = 70;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 279; @position = 18; ]
+            const y as Number = 125;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 282; ]
+        module system_icon_dark__search {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 282; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 283; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__search.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 284; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 285; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 286; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 287; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 290; ]
+        module activity_color_light__text {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 290; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 292 18 ]
+                %tmp.88 = getm $.Toybox.Graphics;
+                %tmp.89 = getv %tmp.88 :COLOR_TRANSPARENT;
+                putv self :background %tmp.89;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 291; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 292; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 295; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 295; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 296; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\confirmation_icon__hint_keep.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 297; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 298; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 301; ]
+        module system_icon_dark__save {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 302; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__save.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 303; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 304; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 305; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 306; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 309; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 309; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 310; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 313; ]
+        module system_icon_light__search {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 313; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 314; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__search.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 315; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 316; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 317; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 318; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 321; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 321; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 322; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 323; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 324; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 327; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 328; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 331; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 331; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 332; @position = 18; ]
+            const x as Number = 339;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 333; @position = 18; ]
+            const y as Number = 259;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 336; ]
+        module confirmation_color_dark__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 336; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 338 18 ]
+                %tmp.90 = getm $.Toybox.Graphics;
+                %tmp.91 = getv %tmp.90 :COLOR_TRANSPARENT;
+                putv self :background %tmp.91;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 337; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 338; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 341; ]
+        module prompt_color_dark__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 341; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 343 18 ]
+                %tmp.92 = getm $.Toybox.Graphics;
+                %tmp.93 = getv %tmp.92 :COLOR_TRANSPARENT;
+                putv self :background %tmp.93;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 342; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 343; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 346; ]
+        module system_icon_destructive__cancel {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 346; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 347; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_destructive__cancel.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 348; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 349; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 352; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 352; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 353; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 354; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 355; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 358; ]
+        module prompt_loc__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 358; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 359; @position = 18; ]
+            const x as Number = 76;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 360; @position = 18; ]
+            const y as Number = 31;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 363; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 363; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 364; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 367; ]
+        module prompt_color_light__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 367; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 369 18 ]
+                %tmp.94 = getm $.Toybox.Graphics;
+                %tmp.95 = getv %tmp.94 :COLOR_TRANSPARENT;
+                putv self :background %tmp.95;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 368; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 369; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 372; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 372; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 373; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 374; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 375; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 378; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 378; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 379; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 380; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 381; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 384; ]
+        module system_icon_light__cancel {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 384; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 385; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__cancel.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 386; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 387; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 388; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 389; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 392; ]
+        module system_icon_light__about {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 392; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 393; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__about.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 394; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 395; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 396; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 397; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 400; ]
+        module system_size__toast_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 401; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 402; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 403; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 406; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 407; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 410; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 411; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\confirmation_icon__hint_reject.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 412; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 413; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 416; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 416; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 417; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 418; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 419; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 422; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 422; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 423; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 426; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 427; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 430; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 431; @position = 18; ]
+            const x as Number = 13;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 432; @position = 18; ]
+            const y as Number = 259;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 435; ]
+        module activity_color_dark__background {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 436; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 437; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 440; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 441; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 442; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 443; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 446; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 446; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 447; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 450; ]
+        module system_size__menu_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 451; @position = 18; ]
+            const scaleX as Number = 50;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 452; @position = 18; ]
+            const scaleY as Number = 50;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 453; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 456; ]
+        module system_icon_destructive__warning {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 456; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 457; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_destructive__warning.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 458; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 459; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 462; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 462; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 463; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 466; ]
+        module system_icon_dark__cancel {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 466; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 467; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__cancel.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 468; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 469; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 470; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 471; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 474; ]
+        module prompt_size__body_with_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 475; @position = 18; ]
+            const width as Number = 277;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 476; @position = 18; ]
+            const height as Number = 228;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 479; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 480; @position = 18; ]
+            const x as Number = 343;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 481; @position = 18; ]
+            const y as Number = 81;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 484; ]
+        module system_color_light__text {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 484; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 486 18 ]
+                %tmp.96 = getm $.Toybox.Graphics;
+                %tmp.97 = getv %tmp.96 :COLOR_TRANSPARENT;
+                putv self :background %tmp.97;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 485; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 486; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 489; ]
+        module system_icon_light__check {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 490; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__check.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 491; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 492; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 493; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 494; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 497; ]
+        module confirmation_input__reject {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 497; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 498 18 ]
+                %tmp.98 = getm $.Toybox.WatchUi;
+                %tmp.99 = getv %tmp.98 :KEY_DOWN;
+                putv self :button %tmp.99;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 498; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 501; ]
+        module system_icon_light__revert {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 501; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 502; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__revert.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 503; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 504; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 505; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 506; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 509; ]
+        module system_size__subwindow {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 509; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 510; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 513; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 513; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 514; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 517; ]
+        module system_icon_dark__check {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 517; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 518; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__check.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 519; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 520; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 521; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 522; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 525; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 525; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 526; @position = 18; ]
+            const x as Number = 339;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 527; @position = 18; ]
+            const y as Number = 257;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 530; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 531; @position = 18; ]
+            const x as Number = 13;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 532; @position = 18; ]
+            const y as Number = 259;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 535; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 535; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 536; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 539; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 539; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 540; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 541; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 542; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 545; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 545; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 546; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 547; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 548; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 551; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 551; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 552; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 555; ]
+        module system_icon_dark__revert {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 555; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 556; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__revert.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 557; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 558; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 559; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 560; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 563; ]
+        module system_icon_dark__question {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 563; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 564; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__question.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 565; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 566; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 567; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 568; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 571; ]
+        module system_icon_light__discard {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 571; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 572; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__discard.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 573; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 574; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 575; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 576; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 579; ]
+        module device_info {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 579; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 581 18 ]
+                %tmp.100 = getm $.Toybox.System;
+                %tmp.101 = getv %tmp.100 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.101;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 580; @position = 18; ]
+            const screenWidth as Number = 416;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 581; @position = 18; ]
+            const screenShape;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 582; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 583; @position = 18; ]
+            const screenHeight as Number = 416;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 584; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 585; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 588; ]
+        module prompt_font__body_no_title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 588; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 589 18 ]
+                %tmp.102 = getm $.Toybox.Graphics;
+                %tmp.103 = getv %tmp.102 :TEXT_JUSTIFY_CENTER;
+                %tmp.104 = getm $.Toybox.Graphics;
+                %tmp.105 = getv %tmp.104 :TEXT_JUSTIFY_VCENTER;
+                %tmp.106 = bitor %tmp.103 %tmp.105;
+                putv self :justification %tmp.106;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 590 18 ]
+                %tmp.107 = getm $.Toybox.Graphics;
+                %tmp.108 = getv %tmp.107 :FONT_XTINY;
+                putv self :font %tmp.108;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 589; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 590; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 593; ]
+        module prompt_size__title_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 593; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 594; @position = 18; ]
+            const scaleX as Float = 0.13;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 595; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 598; ]
+        module system_icon_dark__warning {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 598; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 599; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_dark__warning.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 600; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 601; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 602; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 603; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 606; ]
+        module prompt_loc__title_icon {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 607; @position = 18; ]
+            const x as Number = 208;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 608; @position = 18; ]
+            const y as Number = 34;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 609; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 610; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 613; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 613; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 614; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 617; ]
+        module prompt_color_dark__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 617; ]
+            <init> {
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen" 619 18 ]
+                %tmp.109 = getm $.Toybox.Graphics;
+                %tmp.110 = getv %tmp.109 :COLOR_TRANSPARENT;
+                putv self :background %tmp.110;
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 618; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 619; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 622; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 622; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 623; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\confirmation_icon__hint_delete.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 624; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 625; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 628; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 628; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 629; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 630; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 631; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 634; ]
+        module confirmation_size__body {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 634; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 635; @position = 18; ]
+            const width as Number = 285;
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 636; @position = 18; ]
+            const height as Number = 226;
+        }
+        [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 639; ]
+        module system_icon_positive__check {
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 639; ]
+            <init> {
+            }
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 640; @position = 18; ]
+            const filename as String = "C:\\Users\\Ronnie\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr265\\system_icon_positive__check.svg";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 641; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 642; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WF265\bin\gen\006-B4257-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

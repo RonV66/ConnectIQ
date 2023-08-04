@@ -27,4 +27,14 @@
     <string id="displayBar">Bar tonen</string>
     <string id="displayBarNee">Nee</string>    
     <string id="displayBarJa">Ja</string>
+
+    <string id="average">Gebruik Gemiddelde Snelheid</string>
+    <string id="averageNee">Nee</string>    
+    <string id="averageJa">Ja</string>
+
+    <string id="averageSnelheid">Snelheid instellen</string>
+    <string id="errorAverageSnelheid">Een numerieke waarde tussen 10 en 100 alstublieft</string>
+
+    <string id="averageBandbreedte">Bandbreedte in procenten</string>
+    <string id="erroraverageBandbreedte">Een numerieke waarde tussen 1 en 25 alstublieft</string>
 </strings>

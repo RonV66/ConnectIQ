@@ -17,6 +17,15 @@
             "name": "Run Tests",
             "runTests": true,
             "device": "${command:GetTargetDevice}"
+        },
+        {
+            "type": "monkeyc",
+            "request": "launch",
+            "name": "Run Complication Apps",
+            "stopAtLaunch": false,
+            "complicationSubscriberFolder": "${command:GetComplicationSubscriberFolder}",
+            "complicationPublisherFolder": "${command:GetComplicationPublisherFolder}",
+            "device": "${command:GetTargetDevice}"
         }
     ]
 }

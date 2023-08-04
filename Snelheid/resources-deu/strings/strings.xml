@@ -27,4 +27,14 @@
     <string id="displayBar">Balken anzeigen</string>
     <string id="displayBarNee">Nein</string>    
     <string id="displayBarJa">Ja</string>
+
+    <string id="average">Durchschnittliche Geschwindigkeit Verwenden</string>
+    <string id="averageNee">Nein</string>    
+    <string id="averageJa">Ja</string>
+
+    <string id="averageSnelheid">Geschwindigkeit einstellen</string>
+    <string id="errorAverageSnelheid">Ein numerischer Wert zwischen 10 und 100 bitte</string>
+
+    <string id="averageBandbreedte">Bandbreite in Prozent</string>
+    <string id="erroraverageBandbreedte">Ein numerischer Wert zwischen 1 und 25 bitte</string>
 </strings>

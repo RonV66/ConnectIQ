@@ -1,0 +1,61 @@
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 6; ]
+class Background extends WatchUi.Drawable{
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 8; ]
+    function initialize() as Void {
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceBackground_mc_8_26_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc" 9 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceBackground_mc_8_26_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceBackground_mc_8_26_stop" ]
+        %dictionary.1 = local;
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        %tmp.4 = "Background";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc" 13 8 ]
+        %tmp.8 = getv ? :Drawable;
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.11 = lgetv %dictionary.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceBackground_mc_8_26_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 16; ]
+    function draw(dc as Dc) as Void {
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceBackground_mc_16_36_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc" 18 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_TRANSPARENT;
+        %tmp.5 = getm $.Toybox.Application;
+        %tmp.6 = getv %tmp.5 :Properties;
+        %tmp.7 = getv function %tmp.6 :getValue;
+        %tmp.8 = "BackgroundColor";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        %tmp.10 = as %tmp.9 Number;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.10);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc" 19 8 ]
+        %tmp.11 = lgetv %dc;
+        %tmp.12 = getv function %tmp.11 :clear;
+        invoke %tmp.11 %tmp.12();
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceBackground_mc_16_36_stop:
+    }
+}
+[ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceBackground.mc"; @line = 1; ]
+<init> {
+}

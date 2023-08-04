@@ -57,10 +57,10 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 24 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
-            %rez_cmp_local_custom_drawable_20343602216618045134.3 = local;
+            %rez_cmp_local_custom_drawable_17224474431076888088.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_20343602216618045134.3 %tmp.7;
+            lputv %rez_cmp_local_custom_drawable_17224474431076888088.3 %tmp.7;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 26 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_text_label1.4 = local;
@@ -329,7 +329,7 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value3.9 %tmp.255;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 38 12 ]
             %tmp.303 = newa Array<WatchUi.Drawable> 7;
-            %tmp.305 = lgetv %rez_cmp_local_custom_drawable_20343602216618045134.3;
+            %tmp.305 = lgetv %rez_cmp_local_custom_drawable_17224474431076888088.3;
             %tmp.306 = dup %tmp.303;
             %tmp.307 = aputv %tmp.306 0 %tmp.305;
             %tmp.309 = lgetv %rez_cmp_local_text_label1.4;
@@ -372,10 +372,10 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 46 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
-            %rez_cmp_local_custom_drawable_18951897971234450225.3 = local;
+            %rez_cmp_local_custom_drawable_10240569561235278615.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_18951897971234450225.3 %tmp.7;
+            lputv %rez_cmp_local_custom_drawable_10240569561235278615.3 %tmp.7;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 48 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_41_69_stop" ]
             %rez_cmp_local_text_label1.4 = local;
@@ -623,7 +623,7 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value3.9 %tmp.231;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 60 12 ]
             %tmp.279 = newa Array<WatchUi.Drawable> 7;
-            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_18951897971234450225.3;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_10240569561235278615.3;
             %tmp.282 = dup %tmp.279;
             %tmp.283 = aputv %tmp.282 0 %tmp.281;
             %tmp.285 = lgetv %rez_cmp_local_text_label1.4;
@@ -666,10 +666,10 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 68 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
-            %rez_cmp_local_custom_drawable_13811704719201255553.3 = local;
+            %rez_cmp_local_custom_drawable_23003513817097004332.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_13811704719201255553.3 %tmp.7;
+            lputv %rez_cmp_local_custom_drawable_23003513817097004332.3 %tmp.7;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 70 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_63_71_stop" ]
             %rez_cmp_local_text_label1.4 = local;
@@ -917,7 +917,7 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value3.9 %tmp.231;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 82 12 ]
             %tmp.279 = newa Array<WatchUi.Drawable> 7;
-            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_13811704719201255553.3;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_23003513817097004332.3;
             %tmp.282 = dup %tmp.279;
             %tmp.283 = aputv %tmp.282 0 %tmp.281;
             %tmp.285 = lgetv %rez_cmp_local_text_label1.4;
@@ -960,10 +960,10 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 90 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
-            %rez_cmp_local_custom_drawable_18723377984185489151.3 = local;
+            %rez_cmp_local_custom_drawable_17186749991766812010.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_18723377984185489151.3 %tmp.7;
+            lputv %rez_cmp_local_custom_drawable_17186749991766812010.3 %tmp.7;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 92 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_85_71_stop" ]
             %rez_cmp_local_text_label1.4 = local;
@@ -1211,7 +1211,7 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value3.9 %tmp.231;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 104 12 ]
             %tmp.279 = newa Array<WatchUi.Drawable> 7;
-            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_18723377984185489151.3;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_17186749991766812010.3;
             %tmp.282 = dup %tmp.279;
             %tmp.283 = aputv %tmp.282 0 %tmp.281;
             %tmp.285 = lgetv %rez_cmp_local_text_label1.4;
@@ -1254,10 +1254,10 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 112 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
-            %rez_cmp_local_custom_drawable_19418629344431542657.3 = local;
+            %rez_cmp_local_custom_drawable_17074693993933920117.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_19418629344431542657.3 %tmp.7;
+            lputv %rez_cmp_local_custom_drawable_17074693993933920117.3 %tmp.7;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 114 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_107_71_stop" ]
             %rez_cmp_local_text_label1.4 = local;
@@ -1505,7 +1505,7 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value3.9 %tmp.231;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 126 12 ]
             %tmp.279 = newa Array<WatchUi.Drawable> 7;
-            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_19418629344431542657.3;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_17074693993933920117.3;
             %tmp.282 = dup %tmp.279;
             %tmp.283 = aputv %tmp.282 0 %tmp.281;
             %tmp.285 = lgetv %rez_cmp_local_text_label1.4;
@@ -1548,10 +1548,10 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 134 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
-            %rez_cmp_local_custom_drawable_14067197215478223125.3 = local;
+            %rez_cmp_local_custom_drawable_96871948437737613745.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_14067197215478223125.3 %tmp.7;
+            lputv %rez_cmp_local_custom_drawable_96871948437737613745.3 %tmp.7;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 136 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_start" "C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen_129_69_stop" ]
             %rez_cmp_local_text_label1.4 = local;
@@ -1799,7 +1799,7 @@ C_Users_Ronnie_Documents_ConnectIQ_ETAplus_bin_gen_006_B3843_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value3.9 %tmp.231;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\ETAplus\bin\gen\006-B3843-00\source\Rez.mcgen" 148 12 ]
             %tmp.279 = newa Array<WatchUi.Drawable> 7;
-            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_14067197215478223125.3;
+            %tmp.281 = lgetv %rez_cmp_local_custom_drawable_96871948437737613745.3;
             %tmp.282 = dup %tmp.279;
             %tmp.283 = aputv %tmp.282 0 %tmp.281;
             %tmp.285 = lgetv %rez_cmp_local_text_label1.4;

@@ -5,6 +5,9 @@
         <property id="voorgrondlaag" type="number">0xFFFFFF</property>
         <property id="voorgrondhoog" type="number">0xFFFFFF</property>
         <property id="displayBar" type="number">1</property>
+        <property id="average" type="number">1</property>
+        <property id="averageSnelheid" type="number">30</property>
+        <property id="averageBandbreedte" type="number">5</property>
     </properties>
 
     <settings>
@@ -85,6 +88,18 @@
                 <listEntry value="0">@Strings.displayBarNee</listEntry>
                 <listEntry value="1">@Strings.displayBarJa</listEntry>
             </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.average" title="@Strings.average">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.averageNee</listEntry>
+                <listEntry value="1">@Strings.averageJa</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.averageSnelheid" title="@Strings.averageSnelheid">
+            <settingConfig type="numeric" errorMessage="@Strings.errorAverageSnelheid" min="10" max="100" required="true"/>
+        </setting>
+        <setting propertyKey="@Properties.averageBandbreedte" title="@Strings.averageBandbreedte">
+            <settingConfig type="numeric" errorMessage="@Strings.averageBandbreedte" min="1" max="25" required="true"/>
         </setting>
     </settings>
 </resources>

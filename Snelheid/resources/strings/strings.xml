@@ -27,4 +27,14 @@
     <string id="displayBar">Display Bar</string>
     <string id="displayBarNee">No</string>    
     <string id="displayBarJa">Yes</string>
+
+    <string id="average">Use Average Speed</string>
+    <string id="averageNee">No</string>    
+    <string id="averageJa">Yes</string>
+
+    <string id="averageSnelheid">Set Speed</string>
+    <string id="errorAverageSnelheid">A numeric value between 10 and 100 please</string>
+
+    <string id="averageBandbreedte">Bandwidth in percentages</string>
+    <string id="erroraverageBandbreedte">A numeric value between 1 and 25 please</string>
 </strings>

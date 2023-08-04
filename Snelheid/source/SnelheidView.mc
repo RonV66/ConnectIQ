@@ -105,10 +105,21 @@ class SnelheidView extends WatchUi.DataField {
             currentSpeed = info.currentSpeed;
             if (currentSpeed != null) {
                 mValue = currentSpeed * ((mMetric == System.UNIT_METRIC) ? (3.6) : (2.23693629));
-                averageSpeed = info.averageSpeed;
+
+                if (Application.Properties.getValue("average")) {
+                    averageSpeed = info.averageSpeed;
+                } else {
+                    if (mMetric == System.UNIT_METRIC) {
+                        averageSpeed = Application.Properties.getValue("averageSnelheid") * 0.27778;
+                    } else {
+                        averageSpeed = Application.Properties.getValue("averageSnelheid") * 0.44704;
+                    }
+                }
+
                 if ((averageSpeed != null) and (averageSpeed != 0)) {
                     V = ((currentSpeed - averageSpeed) * 100) / averageSpeed;
-                    verschil = (V > 5) ? 1 : ((V < -5) ? -1 : 0);
+                    var bandbreedte = Application.Properties.getValue("averageBandbreedte");
+                    verschil = (V > bandbreedte) ? 1 : ((V < (-1 * bandbreedte)) ? -1 : 0);
                 }
             } else {
                 mValue = 0.0f;

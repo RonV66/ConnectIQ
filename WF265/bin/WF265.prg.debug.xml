@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\Ronnie\Documents\ConnectIQ\WF265\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265App.mc" id="1" lineNum="5" parent="globals/WF265App" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265App.mc" id="2" lineNum="12" parent="globals/WF265App" pc="268435479" symbol="onStart"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265App.mc" id="3" lineNum="20" parent="globals/WF265App" pc="268435482" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265App.mc" id="3" lineNum="21" parent="globals/WF265App" pc="268435484" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265App.mc" id="4" lineNum="7" parent="globals/WF265App" pc="268435525" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265App.mc" id="4" lineNum="8" parent="globals/WF265App" pc="268435527" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265App.mc" id="5" lineNum="16" parent="globals/WF265App" pc="268435546" symbol="onStop"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265App.mc" id="6" lineNum="26" parent="globals" pc="268435549" symbol="getApp"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265App.mc" id="6" lineNum="27" parent="globals" pc="268435559" symbol="getApp"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="7" lineNum="6" parent="globals/WF265View" pc="268435575" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="10" lineNum="13" parent="globals/WF265View" pc="268435594" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="10" lineNum="14" parent="globals/WF265View" pc="268435596" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="12" lineNum="8" parent="globals/WF265View" pc="268435638" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="12" lineNum="9" parent="globals/WF265View" pc="268435640" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="14" lineNum="24" parent="globals/WF265View" pc="268435659" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="14" lineNum="26" parent="globals/WF265View" pc="268435663" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="14" lineNum="27" parent="globals/WF265View" pc="268435680" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="14" lineNum="28" parent="globals/WF265View" pc="268435754" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="14" lineNum="29" parent="globals/WF265View" pc="268435782" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\source\\WF265View.mc" id="14" lineNum="32" parent="globals/WF265View" pc="268435796" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="15" lineNum="7" parent="globals/Rez" pc="268435821" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268435845" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268435857" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WF265\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268435992" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="14" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="12" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="10" object="true" symbol="WF265View"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="9" object="true" symbol="WF265App"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="11" module="true" symbol="Layouts"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435637" name="dc" stackId="1" startPc="268435594"/>
+        <entry arg="true" endPc="268435820" name="dc" stackId="1" startPc="268435659"/>
+        <entry endPc="268435819" name="clockTime" stackId="2" startPc="268435663"/>
+        <entry endPc="268435819" name="timeString" stackId="3" startPc="268435663"/>
+        <entry endPc="268435819" name="view" stackId="4" startPc="268435663"/>
+        <entry arg="true" endPc="268436008" name="dc" stackId="1" startPc="268435845"/>
+        <entry endPc="268436008" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268435857"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/WF265App" offset="158" parentId="globals" symbolId="WF265App" type="class"/>
+        <dataEntry label="globals/WF265View" offset="229" parentId="globals" symbolId="WF265View" type="class"/>
+        <dataEntry label="globals/Rez" offset="324" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="403" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="442" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="481" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="512" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="543" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="582" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="WF265App" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435481" name="onStart" parent="WF265App" startPc="268435479">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="getInitialView" parent="WF265App" startPc="268435482">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435545" name="initialize" parent="WF265App" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435548" name="onStop" parent="WF265App" startPc="268435546">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435574" name="getApp" startPc="268435549">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435593" name="&lt;init&gt;" parent="WF265View" startPc="268435575">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="WF265View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="WF265View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435637" name="onLayout" parent="WF265View" startPc="268435594">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="WF265View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435658" name="initialize" parent="WF265View" startPc="268435638">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="WF265View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435820" name="onUpdate" parent="WF265View" startPc="268435659">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435844" name="&lt;init&gt;" parent="Rez" startPc="268435821">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436008" name="WatchFace" parent="Layouts" startPc="268435845">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

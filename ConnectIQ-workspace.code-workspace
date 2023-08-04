@@ -30,6 +30,14 @@
 		{
 			"name": "ETAplus",
 			"path": ".\\ETAplus"
+		},
+		{
+			"name": "WatchFace",
+			"path": ".\\WatchFace"
+		},
+		{
+			"name": "WF265",
+			"path": "WF265"
 		}
 	],
 	"settings": {
