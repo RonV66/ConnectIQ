@@ -20,78 +20,94 @@ class WatchFaceView extends WatchUi.WatchFace{
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = getv %tmp.3 :is24Hour;
         putv self :is24 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 39 5 ]
-        %tmp.5 = newa 2;
-        %tmp.6 = 100;
-        %tmp.7 = dup %tmp.5;
-        %tmp.8 = aputv %tmp.7 0 %tmp.6;
-        %tmp.9 = 100;
-        %tmp.10 = dup %tmp.8;
-        %tmp.11 = aputv %tmp.10 1 %tmp.9;
-        putv self :ssloc %tmp.11;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 66 5 ]
-        %tmp.12 = newa 2;
-        %tmp.13 = 1;
-        %tmp.14 = dup %tmp.12;
-        %tmp.15 = aputv %tmp.14 0 %tmp.13;
-        %tmp.16 = 2;
-        %tmp.17 = dup %tmp.15;
-        %tmp.18 = aputv %tmp.17 1 %tmp.16;
-        putv self :text_padding %tmp.18;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 28 5 ]
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        putv self :background_color %tmp.6;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 31 5 ]
+        %tmp.7 = getm $.Toybox.Graphics;
+        %tmp.8 = getv %tmp.7 :COLOR_WHITE;
+        putv self :foreground_color %tmp.8;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 33 5 ]
+        %tmp.9 = getm $.Toybox.Graphics;
+        %tmp.10 = getv %tmp.9 :COLOR_RED;
+        putv self :second_hand_color %tmp.10;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 34 5 ]
+        %tmp.11 = getm $.Toybox.Graphics;
+        %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+        putv self :hour_min_hand_color %tmp.12;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 38 5 ]
+        %tmp.13 = newa 2;
+        %tmp.14 = 100;
+        %tmp.15 = dup %tmp.13;
+        %tmp.16 = aputv %tmp.15 0 %tmp.14;
+        %tmp.17 = 100;
+        %tmp.18 = dup %tmp.16;
+        %tmp.19 = aputv %tmp.18 1 %tmp.17;
+        putv self :ssloc %tmp.19;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 65 5 ]
+        %tmp.20 = newa 2;
+        %tmp.21 = 1;
+        %tmp.22 = dup %tmp.20;
+        %tmp.23 = aputv %tmp.22 0 %tmp.21;
+        %tmp.24 = 2;
+        %tmp.25 = dup %tmp.23;
+        %tmp.26 = aputv %tmp.25 1 %tmp.24;
+        putv self :text_padding %tmp.26;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 67 5 ]
+        %tmp.27 = newa 2;
+        %tmp.28 = 44;
+        %tmp.29 = dup %tmp.27;
+        %tmp.30 = aputv %tmp.29 0 %tmp.28;
+        %tmp.31 = 19;
+        %tmp.32 = dup %tmp.30;
+        %tmp.33 = aputv %tmp.32 1 %tmp.31;
+        putv self :dow_size %tmp.33;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 68 5 ]
-        %tmp.19 = newa 2;
-        %tmp.20 = 44;
-        %tmp.21 = dup %tmp.19;
-        %tmp.22 = aputv %tmp.21 0 %tmp.20;
-        %tmp.23 = 19;
-        %tmp.24 = dup %tmp.22;
-        %tmp.25 = aputv %tmp.24 1 %tmp.23;
-        putv self :dow_size %tmp.25;
+        %tmp.34 = newa 2;
+        %tmp.35 = 24;
+        %tmp.36 = dup %tmp.34;
+        %tmp.37 = aputv %tmp.36 0 %tmp.35;
+        %tmp.38 = 19;
+        %tmp.39 = dup %tmp.37;
+        %tmp.40 = aputv %tmp.39 1 %tmp.38;
+        putv self :date_size %tmp.40;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 69 5 ]
-        %tmp.26 = newa 2;
-        %tmp.27 = 24;
-        %tmp.28 = dup %tmp.26;
-        %tmp.29 = aputv %tmp.28 0 %tmp.27;
-        %tmp.30 = 19;
-        %tmp.31 = dup %tmp.29;
-        %tmp.32 = aputv %tmp.31 1 %tmp.30;
-        putv self :date_size %tmp.32;
+        %tmp.41 = newa 2;
+        %tmp.42 = 48;
+        %tmp.43 = dup %tmp.41;
+        %tmp.44 = aputv %tmp.43 0 %tmp.42;
+        %tmp.45 = 19;
+        %tmp.46 = dup %tmp.44;
+        %tmp.47 = aputv %tmp.46 1 %tmp.45;
+        putv self :time_size %tmp.47;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 70 5 ]
-        %tmp.33 = newa 2;
-        %tmp.34 = 48;
-        %tmp.35 = dup %tmp.33;
-        %tmp.36 = aputv %tmp.35 0 %tmp.34;
-        %tmp.37 = 19;
-        %tmp.38 = dup %tmp.36;
-        %tmp.39 = aputv %tmp.38 1 %tmp.37;
-        putv self :time_size %tmp.39;
+        %tmp.48 = newa 2;
+        %tmp.49 = 40;
+        %tmp.50 = dup %tmp.48;
+        %tmp.51 = aputv %tmp.50 0 %tmp.49;
+        %tmp.52 = 19;
+        %tmp.53 = dup %tmp.51;
+        %tmp.54 = aputv %tmp.53 1 %tmp.52;
+        putv self :floors_size %tmp.54;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 71 5 ]
-        %tmp.40 = newa 2;
-        %tmp.41 = 40;
-        %tmp.42 = dup %tmp.40;
-        %tmp.43 = aputv %tmp.42 0 %tmp.41;
-        %tmp.44 = 19;
-        %tmp.45 = dup %tmp.43;
-        %tmp.46 = aputv %tmp.45 1 %tmp.44;
-        putv self :floors_size %tmp.46;
+        %tmp.55 = newa 2;
+        %tmp.56 = 32;
+        %tmp.57 = dup %tmp.55;
+        %tmp.58 = aputv %tmp.57 0 %tmp.56;
+        %tmp.59 = 19;
+        %tmp.60 = dup %tmp.58;
+        %tmp.61 = aputv %tmp.60 1 %tmp.59;
+        putv self :battery_size %tmp.61;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 72 5 ]
-        %tmp.47 = newa 2;
-        %tmp.48 = 32;
-        %tmp.49 = dup %tmp.47;
-        %tmp.50 = aputv %tmp.49 0 %tmp.48;
-        %tmp.51 = 19;
-        %tmp.52 = dup %tmp.50;
-        %tmp.53 = aputv %tmp.52 1 %tmp.51;
-        putv self :battery_size %tmp.53;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 73 5 ]
-        %tmp.54 = newa 2;
-        %tmp.55 = 94;
-        %tmp.56 = dup %tmp.54;
-        %tmp.57 = aputv %tmp.56 0 %tmp.55;
-        %tmp.58 = 19;
-        %tmp.59 = dup %tmp.57;
-        %tmp.60 = aputv %tmp.59 1 %tmp.58;
-        putv self :status_box_size %tmp.60;
+        %tmp.62 = newa 2;
+        %tmp.63 = 94;
+        %tmp.64 = dup %tmp.62;
+        %tmp.65 = aputv %tmp.64 0 %tmp.63;
+        %tmp.66 = 19;
+        %tmp.67 = dup %tmp.65;
+        %tmp.68 = aputv %tmp.67 1 %tmp.66;
+        putv self :status_box_size %tmp.68;
     }
     [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 10; ]
     static
@@ -132,98 +148,96 @@ class WatchFaceView extends WatchUi.WatchFace{
     [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 27; @position = 5; ]
     var showBoxes;
     [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 28; @position = 5; ]
-    var background_color_1;
+    var background_color;
     [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 29; @position = 5; ]
-    var background_color_2;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 30; @position = 5; ]
     var background_image;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 31; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 30; @position = 5; ]
     var use_background_image;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 32; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 31; @position = 5; ]
     var foreground_color;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 33; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 32; @position = 5; ]
     var box_color;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 34; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 33; @position = 5; ]
     var second_hand_color;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 35; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 34; @position = 5; ]
     var hour_min_hand_color;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 36; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 35; @position = 5; ]
     var text_color;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 37; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 36; @position = 5; ]
     var tick_style;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 38; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 37; @position = 5; ]
     var show_min_ticks;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 39; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 38; @position = 5; ]
     var ssloc;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 40; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 39; @position = 5; ]
     var xmult = 1.2;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 41; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 40; @position = 5; ]
     var ymult = 1.1;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 44; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 43; @position = 5; ]
     var relative_tick_stroke = .01;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 44; @position = 8; ]
+    var relative_hour_tick_length = .04;
     [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 45; @position = 8; ]
-    var relative_hour_tick_length = .08;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 46; @position = 8; ]
     var relative_min_tick_length = .04;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 46; @position = 8; ]
+    var relative_hour_tick_stroke = .02;
     [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 47; @position = 8; ]
-    var relative_hour_tick_stroke = .04;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 48; @position = 8; ]
-    var relative_min_tick_stroke = .04;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 49; @position = 5; ]
+    var relative_min_tick_stroke = .003;
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 48; @position = 5; ]
     var relative_min_circle_tick_size = .01;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 50; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 49; @position = 5; ]
     var relative_hour_circle_tick_size = .02;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 51; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 50; @position = 5; ]
     var relative_hour_triangle_tick_size = .04;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 52; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 51; @position = 5; ]
     var relative_min_triangle_tick_size = .02;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 54; @position = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 53; @position = 8; ]
     var relative_hour_hand_length = .20;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 55; @position = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 54; @position = 8; ]
     var relative_min_hand_length = .40;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 56; @position = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 55; @position = 8; ]
     var relative_sec_hand_length = .42;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 57; @position = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 56; @position = 8; ]
     var relative_hour_hand_stroke = .013;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 58; @position = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 57; @position = 8; ]
     var relative_min_hand_stroke = .013;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 59; @position = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 58; @position = 8; ]
     var relative_sec_hand_stroke = .01;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 61; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 60; @position = 5; ]
     var relative_padding = .03;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 62; @position = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 61; @position = 8; ]
     var relative_padding2 = .01;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 64; @position = 8; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 63; @position = 8; ]
     var relative_center_radius = .025;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 66; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 65; @position = 5; ]
     var text_padding;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 67; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 66; @position = 5; ]
     var box_padding = 2;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 68; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 67; @position = 5; ]
     var dow_size;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 69; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 68; @position = 5; ]
     var date_size;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 70; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 69; @position = 5; ]
     var time_size;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 71; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 70; @position = 5; ]
     var floors_size;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 72; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 71; @position = 5; ]
     var battery_size;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 73; @position = 5; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 72; @position = 5; ]
     var status_box_size;
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 75; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 74; ]
     function initialize() as Void {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_75_26_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 76 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_74_26_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 75 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_75_26_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_74_26_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 80; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 79; ]
     function onLayout(dc as Dc) as Void {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_80_40_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 81 8 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_79_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 80 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -232,406 +246,369 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_80_40_start
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 83 8 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 82 8 ]
         %tmp.10 = lgetv %dc;
         %tmp.11 = getv function %tmp.10 :getWidth;
         %tmp.12 = invoke %tmp.10 %tmp.11();
         putv self :width %tmp.12;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 84 8 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 83 8 ]
         %tmp.13 = lgetv %dc;
         %tmp.14 = getv function %tmp.13 :getHeight;
         %tmp.15 = invoke %tmp.13 %tmp.14();
         putv self :height %tmp.15;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 90 2 ]
-        %tmp.16 = newa 2;
-        %tmp.17 = 44;
-        %tmp.18 = 1.5;
-        %tmp.19 = mul %tmp.17 %tmp.18;
-        %tmp.20 = dup %tmp.16;
-        %tmp.21 = aputv %tmp.20 0 %tmp.19;
-        %tmp.22 = 19;
-        %tmp.23 = 1.5;
-        %tmp.24 = mul %tmp.22 %tmp.23;
-        %tmp.25 = dup %tmp.21;
-        %tmp.26 = aputv %tmp.25 1 %tmp.24;
-        putv self :dow_size %tmp.26;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 91 2 ]
-        %tmp.27 = newa 2;
-        %tmp.28 = 24;
-        %tmp.29 = 1.5;
-        %tmp.30 = mul %tmp.28 %tmp.29;
-        %tmp.31 = dup %tmp.27;
-        %tmp.32 = aputv %tmp.31 0 %tmp.30;
-        %tmp.33 = 19;
-        %tmp.34 = 1.5;
-        %tmp.35 = mul %tmp.33 %tmp.34;
-        %tmp.36 = dup %tmp.32;
-        %tmp.37 = aputv %tmp.36 1 %tmp.35;
-        putv self :date_size %tmp.37;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 92 2 ]
-        %tmp.38 = newa 2;
-        %tmp.39 = 48;
-        %tmp.40 = 1.5;
-        %tmp.41 = mul %tmp.39 %tmp.40;
-        %tmp.42 = dup %tmp.38;
-        %tmp.43 = aputv %tmp.42 0 %tmp.41;
-        %tmp.44 = 19;
-        %tmp.45 = 1.5;
-        %tmp.46 = mul %tmp.44 %tmp.45;
-        %tmp.47 = dup %tmp.43;
-        %tmp.48 = aputv %tmp.47 1 %tmp.46;
-        putv self :time_size %tmp.48;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 93 2 ]
-        %tmp.49 = newa 2;
-        %tmp.50 = 48;
-        %tmp.51 = 1.5;
-        %tmp.52 = mul %tmp.50 %tmp.51;
-        %tmp.53 = dup %tmp.49;
-        %tmp.54 = aputv %tmp.53 0 %tmp.52;
-        %tmp.55 = 19;
-        %tmp.56 = 1.5;
-        %tmp.57 = mul %tmp.55 %tmp.56;
-        %tmp.58 = dup %tmp.54;
-        %tmp.59 = aputv %tmp.58 1 %tmp.57;
-        putv self :floors_size %tmp.59;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 94 2 ]
-        %tmp.60 = newa 2;
-        %tmp.61 = 32;
-        %tmp.62 = 1.5;
-        %tmp.63 = mul %tmp.61 %tmp.62;
-        %tmp.64 = dup %tmp.60;
-        %tmp.65 = aputv %tmp.64 0 %tmp.63;
-        %tmp.66 = 19;
-        %tmp.67 = 1.5;
-        %tmp.68 = mul %tmp.66 %tmp.67;
-        %tmp.69 = dup %tmp.65;
-        %tmp.70 = aputv %tmp.69 1 %tmp.68;
-        putv self :battery_size %tmp.70;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 95 2 ]
-        %tmp.71 = newa 2;
-        %tmp.72 = 94;
-        %tmp.73 = 1.5;
-        %tmp.74 = mul %tmp.72 %tmp.73;
-        %tmp.75 = dup %tmp.71;
-        %tmp.76 = aputv %tmp.75 0 %tmp.74;
-        %tmp.77 = 19;
-        %tmp.78 = 1.5;
-        %tmp.79 = mul %tmp.77 %tmp.78;
-        %tmp.80 = dup %tmp.76;
-        %tmp.81 = aputv %tmp.80 1 %tmp.79;
-        putv self :status_box_size %tmp.81;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_80_40_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_79_40_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 103; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 100; ]
     function onShow() as Void {
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 108; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 105; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_108_40_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 110 8 ]
-        %tmp.1 = self;
-        %tmp.2 = getv function %tmp.1 :setAchterGrondDisplay;
-        %tmp.4 = lgetv %dc;
-        invoke %tmp.1 %tmp.2(%tmp.4);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 112 8 ]
-        %tmp.5 = self;
-        %tmp.6 = getv function %tmp.5 :setClockDisplay;
-        invoke %tmp.5 %tmp.6();
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_108_40_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 112 2 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_stop" ]
+        %clockTime.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 113 2 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_stop" ]
+        %hours.2 = local;
+        %tmp.4 = lgetv %clockTime.1;
+        %tmp.5 = getv %tmp.4 :hour;
+        lputv %hours.2 %tmp.5;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 114 2 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_stop" ]
+        %minutes.3 = local;
+        %tmp.6 = lgetv %clockTime.1;
+        %tmp.7 = getv %tmp.6 :min;
+        lputv %minutes.3 %tmp.7;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 115 2 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_stop" ]
+        %seconds.4 = local;
+        %tmp.8 = lgetv %clockTime.1;
+        %tmp.9 = getv %tmp.8 :sec;
+        lputv %seconds.4 %tmp.9;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 118 8 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :setAchterGrondDisplay;
+        %tmp.13 = lgetv %dc;
+        invoke %tmp.10 %tmp.11(%tmp.13);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 125 5 ]
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = getv function %tmp.14 :setColor;
+        %tmp.17 = getv ? :hour_min_hand_color;
+        %tmp.18 = getm $.Toybox.Graphics;
+        %tmp.19 = getv %tmp.18 :COLOR_TRANSPARENT;
+        invoke %tmp.14 %tmp.15(%tmp.17, %tmp.19);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 126 5 ]
+        %tmp.20 = self;
+        %tmp.21 = getv function %tmp.20 :drawHand;
+        %tmp.23 = lgetv %dc;
+        %tmp.24 = 12;
+        %tmp.26 = lgetv %hours.2;
+        %tmp.28 = getv ? :relative_hour_hand_length;
+        %tmp.30 = getv ? :width;
+        %tmp.31 = mul %tmp.28 %tmp.30;
+        %tmp.33 = getv ? :relative_hour_hand_stroke;
+        %tmp.35 = getv ? :width;
+        %tmp.36 = mul %tmp.33 %tmp.35;
+        invoke %tmp.20 %tmp.21(%tmp.23, %tmp.24, %tmp.26, %tmp.31, %tmp.36);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 127 5 ]
+        %tmp.37 = self;
+        %tmp.38 = getv function %tmp.37 :drawHand;
+        %tmp.40 = lgetv %dc;
+        %tmp.41 = 60;
+        %tmp.43 = lgetv %minutes.3;
+        %tmp.45 = getv ? :relative_min_hand_length;
+        %tmp.47 = getv ? :width;
+        %tmp.48 = mul %tmp.45 %tmp.47;
+        %tmp.50 = getv ? :relative_min_hand_stroke;
+        %tmp.52 = getv ? :width;
+        %tmp.53 = mul %tmp.50 %tmp.52;
+        invoke %tmp.37 %tmp.38(%tmp.40, %tmp.41, %tmp.43, %tmp.48, %tmp.53);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 128 2 ]
+        %tmp.54 = self;
+        %tmp.55 = getv function %tmp.54 :drawSecondHandClip;
+        %tmp.57 = lgetv %dc;
+        %tmp.58 = 60;
+        %tmp.60 = lgetv %seconds.4;
+        %tmp.62 = getv ? :relative_sec_hand_length;
+        %tmp.64 = getv ? :width;
+        %tmp.65 = mul %tmp.62 %tmp.64;
+        %tmp.67 = getv ? :relative_sec_hand_stroke;
+        %tmp.69 = getv ? :width;
+        %tmp.70 = mul %tmp.67 %tmp.69;
+        invoke %tmp.54 %tmp.55(%tmp.57, %tmp.58, %tmp.60, %tmp.65, %tmp.70);
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_105_40_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 127; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 141; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 131; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 145; ]
     function onExitSleep() as Void {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_131_35_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 132 2 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_145_35_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 146 2 ]
         %tmp.1 = false;
         putv self :lowPower %tmp.1;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_131_35_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_145_35_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 136; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 150; ]
     function onEnterSleep() as Void {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_136_36_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 137 2 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_150_36_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 151 2 ]
         %tmp.1 = true;
         putv self :lowPower %tmp.1;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_136_36_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_150_36_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 140; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 154; ]
     private
     function setAchterGrondDisplay(dc as Dc) as Void {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_140_61_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 141 5 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_61_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 155 5 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
-        %tmp.3 = getm $.Toybox.Graphics;
-        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
-        %tmp.5 = getm $.Toybox.Graphics;
-        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        %tmp.4 = getv ? :background_color;
+        %tmp.6 = getv ? :background_color;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 142 5 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 156 5 ]
         %tmp.7 = lgetv %dc;
         %tmp.8 = getv function %tmp.7 :clear;
         invoke %tmp.7 %tmp.8();
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 143 8 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_140_61_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_140_61_stop" ]
-        %tick_style.1 = local;
-        %tmp.9 = 1;
-        lputv %tick_style.1 %tmp.9;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 144 2 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_140_61_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_140_61_stop" ]
-        %show_min_ticks.2 = local;
-        %tmp.10 = true;
-        lputv %show_min_ticks.2 %tmp.10;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 146 5 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_146_5_if_stmt:
-        %tmp.12 = lgetv %tick_style.1;
-        %tmp.13 = 1;
-        %tmp.14 = eq %tmp.12 %tmp.13;
-        bf %tmp.14 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_146_5_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_146_5_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_146_26_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 147 6 ]
-        %tmp.15 = lgetv %dc;
-        %tmp.16 = getv function %tmp.15 :setColor;
-        %tmp.17 = getm $.Toybox.Graphics;
-        %tmp.18 = getv %tmp.17 :COLOR_WHITE;
-        %tmp.19 = getm $.Toybox.Graphics;
-        %tmp.20 = getv %tmp.19 :COLOR_TRANSPARENT;
-        invoke %tmp.15 %tmp.16(%tmp.18, %tmp.20);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 148 3 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_148_3_if_stmt:
-        %tmp.22 = lgetv %show_min_ticks.2;
-        bf %tmp.22 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_148_3_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_148_3_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_148_22_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 149 4 ]
-        %tmp.23 = self;
-        %tmp.24 = getv function %tmp.23 :drawTicks;
-        %tmp.26 = lgetv %dc;
-        %tmp.28 = getv ? :relative_hour_tick_length;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 157 2 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_61_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_61_stop" ]
+        %show_min_ticks.1 = local;
+        %tmp.9 = true;
+        lputv %show_min_ticks.1 %tmp.9;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 159 2 ]
+        %tmp.10 = lgetv %dc;
+        %tmp.11 = getv function %tmp.10 :setColor;
+        %tmp.13 = getv ? :foreground_color;
+        %tmp.14 = getm $.Toybox.Graphics;
+        %tmp.15 = getv %tmp.14 :COLOR_TRANSPARENT;
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 160 2 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_160_2_if_stmt:
+        %tmp.17 = lgetv %show_min_ticks.1;
+        bf %tmp.17 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_160_2_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_160_2_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_160_21_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 161 3 ]
+        %tmp.18 = self;
+        %tmp.19 = getv function %tmp.18 :drawTicksMinuten;
+        %tmp.21 = lgetv %dc;
+        %tmp.23 = getv ? :relative_min_tick_length;
+        %tmp.25 = getv ? :width;
+        %tmp.26 = mul %tmp.23 %tmp.25;
+        %tmp.28 = getv ? :relative_min_tick_stroke;
         %tmp.30 = getv ? :width;
         %tmp.31 = mul %tmp.28 %tmp.30;
-        %tmp.33 = getv ? :relative_hour_tick_stroke;
-        %tmp.35 = getv ? :width;
-        %tmp.36 = mul %tmp.33 %tmp.35;
-        %tmp.37 = 12;
-        invoke %tmp.23 %tmp.24(%tmp.26, %tmp.31, %tmp.36, %tmp.37);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 150 7 ]
-        %tmp.38 = self;
-        %tmp.39 = getv function %tmp.38 :drawTicks;
-        %tmp.41 = lgetv %dc;
-        %tmp.43 = getv ? :relative_min_tick_length;
+        %tmp.32 = 60;
+        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.26, %tmp.31, %tmp.32);
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_160_21_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_160_2_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_160_2_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 163 2 ]
+        %tmp.33 = self;
+        %tmp.34 = getv function %tmp.33 :drawTicksUren;
+        %tmp.36 = lgetv %dc;
+        %tmp.38 = getv ? :relative_hour_tick_length;
+        %tmp.40 = getv ? :width;
+        %tmp.41 = mul %tmp.38 %tmp.40;
+        %tmp.43 = getv ? :relative_hour_tick_stroke;
         %tmp.45 = getv ? :width;
         %tmp.46 = mul %tmp.43 %tmp.45;
-        %tmp.48 = getv ? :relative_min_tick_stroke;
-        %tmp.50 = getv ? :width;
-        %tmp.51 = mul %tmp.48 %tmp.50;
-        %tmp.52 = 60;
-        invoke %tmp.38 %tmp.39(%tmp.41, %tmp.46, %tmp.51, %tmp.52);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_148_22_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_148_3_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_148_3_if_false:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_151_10_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 152 4 ]
-        %tmp.53 = self;
-        %tmp.54 = getv function %tmp.53 :drawTicks;
-        %tmp.56 = lgetv %dc;
-        %tmp.58 = getv ? :relative_min_tick_length;
-        %tmp.60 = getv ? :width;
-        %tmp.61 = mul %tmp.58 %tmp.60;
-        %tmp.63 = getv ? :relative_min_tick_stroke;
-        %tmp.65 = getv ? :width;
-        %tmp.66 = mul %tmp.63 %tmp.65;
-        %tmp.67 = 12;
-        invoke %tmp.53 %tmp.54(%tmp.56, %tmp.61, %tmp.66, %tmp.67);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_151_10_stop:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_148_3_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_146_26_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_146_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_146_5_if_false:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 154 9 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_9_if_stmt:
-        %tmp.69 = lgetv %tick_style.1;
-        %tmp.70 = 2;
-        %tmp.71 = eq %tmp.69 %tmp.70;
-        bf %tmp.71 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_9_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_9_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_29_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 155 3 ]
-        %tmp.72 = lgetv %dc;
-        %tmp.73 = getv function %tmp.72 :setColor;
-        %tmp.74 = getm $.Toybox.Graphics;
-        %tmp.75 = getv %tmp.74 :COLOR_WHITE;
-        %tmp.76 = getm $.Toybox.Graphics;
-        %tmp.77 = getv %tmp.76 :COLOR_TRANSPARENT;
-        invoke %tmp.72 %tmp.73(%tmp.75, %tmp.77);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 156 3 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_156_3_if_stmt:
-        %tmp.79 = lgetv %show_min_ticks.2;
-        bf %tmp.79 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_156_3_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_156_3_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_156_22_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 157 4 ]
-        %tmp.80 = self;
-        %tmp.81 = getv function %tmp.80 :drawTicksCircle;
-        %tmp.83 = lgetv %dc;
-        %tmp.85 = getv ? :relative_hour_circle_tick_size;
-        %tmp.87 = getv ? :width;
-        %tmp.88 = mul %tmp.85 %tmp.87;
-        %tmp.89 = 1;
-        %tmp.90 = 12;
-        invoke %tmp.80 %tmp.81(%tmp.83, %tmp.88, %tmp.89, %tmp.90);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 158 7 ]
-        %tmp.91 = self;
-        %tmp.92 = getv function %tmp.91 :drawTicksCircle;
-        %tmp.94 = lgetv %dc;
-        %tmp.96 = getv ? :relative_min_circle_tick_size;
-        %tmp.98 = getv ? :width;
-        %tmp.99 = mul %tmp.96 %tmp.98;
-        %tmp.100 = 1;
-        %tmp.101 = 60;
-        invoke %tmp.91 %tmp.92(%tmp.94, %tmp.99, %tmp.100, %tmp.101);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_156_22_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_156_3_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_156_3_if_false:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_159_10_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 160 4 ]
-        %tmp.102 = self;
-        %tmp.103 = getv function %tmp.102 :drawTicksCircle;
-        %tmp.105 = lgetv %dc;
-        %tmp.107 = getv ? :relative_min_circle_tick_size;
-        %tmp.109 = getv ? :width;
-        %tmp.110 = mul %tmp.107 %tmp.109;
-        %tmp.111 = 1;
-        %tmp.112 = 12;
-        invoke %tmp.102 %tmp.103(%tmp.105, %tmp.110, %tmp.111, %tmp.112);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_159_10_stop:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_156_3_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_29_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_9_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_9_if_false:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 162 9 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_162_9_if_stmt:
-        %tmp.114 = lgetv %tick_style.1;
-        %tmp.115 = 3;
-        %tmp.116 = eq %tmp.114 %tmp.115;
-        bf %tmp.116 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_162_9_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_162_9_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_162_29_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 163 3 ]
-        %tmp.117 = lgetv %dc;
-        %tmp.118 = getv function %tmp.117 :setColor;
-        %tmp.119 = getm $.Toybox.Graphics;
-        %tmp.120 = getv %tmp.119 :COLOR_WHITE;
-        %tmp.121 = getm $.Toybox.Graphics;
-        %tmp.122 = getv %tmp.121 :COLOR_TRANSPARENT;
-        invoke %tmp.117 %tmp.118(%tmp.120, %tmp.122);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 164 3 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_164_3_if_stmt:
-        %tmp.124 = lgetv %show_min_ticks.2;
-        bf %tmp.124 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_164_3_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_164_3_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_164_22_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 165 4 ]
-        %tmp.125 = self;
-        %tmp.126 = getv function %tmp.125 :drawTicksTriangle;
-        %tmp.128 = lgetv %dc;
-        %tmp.130 = getv ? :relative_hour_triangle_tick_size;
-        %tmp.132 = getv ? :width;
-        %tmp.133 = mul %tmp.130 %tmp.132;
-        %tmp.134 = 1;
-        %tmp.135 = 12;
-        invoke %tmp.125 %tmp.126(%tmp.128, %tmp.133, %tmp.134, %tmp.135);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 166 7 ]
-        %tmp.136 = self;
-        %tmp.137 = getv function %tmp.136 :drawTicksTriangle;
-        %tmp.139 = lgetv %dc;
-        %tmp.141 = getv ? :relative_min_triangle_tick_size;
-        %tmp.143 = getv ? :width;
-        %tmp.144 = mul %tmp.141 %tmp.143;
-        %tmp.145 = 1;
-        %tmp.146 = 60;
-        invoke %tmp.136 %tmp.137(%tmp.139, %tmp.144, %tmp.145, %tmp.146);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_164_22_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_164_3_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_164_3_if_false:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_167_10_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 168 4 ]
-        %tmp.147 = self;
-        %tmp.148 = getv function %tmp.147 :drawTicksTriangle;
-        %tmp.150 = lgetv %dc;
-        %tmp.152 = getv ? :relative_min_triangle_tick_size;
-        %tmp.154 = getv ? :width;
-        %tmp.155 = mul %tmp.152 %tmp.154;
-        %tmp.156 = 1;
-        %tmp.157 = 12;
-        invoke %tmp.147 %tmp.148(%tmp.150, %tmp.155, %tmp.156, %tmp.157);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_167_10_stop:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_164_3_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_162_29_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_162_9_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_162_9_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_9_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_146_5_if_end:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_140_61_stop:
+        %tmp.47 = 12;
+        invoke %tmp.33 %tmp.34(%tmp.36, %tmp.41, %tmp.46, %tmp.47);
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_154_61_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 182; ]
-    function drawTicks(dc, length, stroke, num) {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_182_48_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 183 2 ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 166; ]
+    function drawTicksMinuten(dc, length, stroke, num) {
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_166_55_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 167 2 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setPenWidth;
-        %tmp.3 = lgetv %dc;
-        %tmp.4 = getv function %tmp.3 :getWidth;
-        %tmp.5 = invoke %tmp.3 %tmp.4();
-        %tmp.7 = getv ? :relative_tick_stroke;
-        %tmp.8 = mul %tmp.5 %tmp.7;
-        invoke %tmp.1 %tmp.2(%tmp.8);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 184 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_182_48_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_182_48_stop" ]
+        %tmp.4 = lgetv %stroke;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 168 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_166_55_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_166_55_stop" ]
         %tickAngle.1 = local;
-        %tmp.9 = 360;
-        %tmp.11 = lgetv %num;
-        %tmp.12 = div %tmp.9 %tmp.11;
-        lputv %tickAngle.1 %tmp.12;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 185 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_182_48_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_182_48_stop" ]
+        %tmp.5 = 360;
+        %tmp.7 = lgetv %num;
+        %tmp.8 = div %tmp.5 %tmp.7;
+        lputv %tickAngle.1 %tmp.8;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 169 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_166_55_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_166_55_stop" ]
         %center.2 = local;
-        %tmp.13 = lgetv %dc;
-        %tmp.14 = getv function %tmp.13 :getWidth;
-        %tmp.15 = invoke %tmp.13 %tmp.14();
-        %tmp.16 = 2;
-        %tmp.17 = div %tmp.15 %tmp.16;
-        lputv %center.2 %tmp.17;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 186 5 ]
-        for @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_test @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_incr @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_init:
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_begin" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_end" ]
+        %tmp.9 = lgetv %dc;
+        %tmp.10 = getv function %tmp.9 :getWidth;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = 2;
+        %tmp.13 = div %tmp.11 %tmp.12;
+        lputv %center.2 %tmp.13;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 170 5 ]
+        for @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_test @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_incr @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_init:
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_begin" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_end" ]
         %i.3 = local;
-        %tmp.18 = 0;
-        lputv %i.3 %tmp.18;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_test:
-        %tmp.20 = lgetv %i.3;
-        %tmp.22 = lgetv %num;
-        %tmp.23 = lt %tmp.20 %tmp.22;
-        bf %tmp.23 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_begin:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 187 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_stop" ]
+        %tmp.14 = 0;
+        lputv %i.3 %tmp.14;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_test:
+        %tmp.16 = lgetv %i.3;
+        %tmp.18 = lgetv %num;
+        %tmp.19 = lt %tmp.16 %tmp.18;
+        bf %tmp.19 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_begin:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 171 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_stop" ]
         %angle.4 = local;
-        %tmp.25 = getv ? :Math;
-        %tmp.26 = getv function %tmp.25 :toRadians;
-        %tmp.28 = lgetv %tickAngle.1;
-        %tmp.30 = lgetv %i.3;
-        %tmp.31 = mul %tmp.28 %tmp.30;
-        %tmp.32 = invoke %tmp.25 %tmp.26(%tmp.31);
-        lputv %angle.4 %tmp.32;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 188 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_stop" ]
+        %tmp.21 = getv ? :Math;
+        %tmp.22 = getv function %tmp.21 :toRadians;
+        %tmp.24 = lgetv %tickAngle.1;
+        %tmp.26 = lgetv %i.3;
+        %tmp.27 = mul %tmp.24 %tmp.26;
+        %tmp.28 = invoke %tmp.21 %tmp.22(%tmp.27);
+        lputv %angle.4 %tmp.28;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 172 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_stop" ]
         %x1.5 = local;
+        %tmp.30 = lgetv %center.2;
+        %tmp.32 = getv ? :Math;
+        %tmp.33 = getv function %tmp.32 :round;
+        %tmp.35 = getv ? :Math;
+        %tmp.36 = getv function %tmp.35 :cos;
+        %tmp.38 = lgetv %angle.4;
+        %tmp.39 = invoke %tmp.35 %tmp.36(%tmp.38);
+        %tmp.41 = lgetv %center.2;
+        %tmp.43 = lgetv %length;
+        %tmp.44 = sub %tmp.41 %tmp.43;
+        %tmp.45 = mul %tmp.39 %tmp.44;
+        %tmp.46 = invoke %tmp.32 %tmp.33(%tmp.45);
+        %tmp.47 = add %tmp.30 %tmp.46;
+        lputv %x1.5 %tmp.47;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 173 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_stop" ]
+        %y1.6 = local;
+        %tmp.49 = lgetv %center.2;
+        %tmp.51 = getv ? :Math;
+        %tmp.52 = getv function %tmp.51 :round;
+        %tmp.54 = getv ? :Math;
+        %tmp.55 = getv function %tmp.54 :sin;
+        %tmp.57 = lgetv %angle.4;
+        %tmp.58 = invoke %tmp.54 %tmp.55(%tmp.57);
+        %tmp.60 = lgetv %center.2;
+        %tmp.62 = lgetv %length;
+        %tmp.63 = sub %tmp.60 %tmp.62;
+        %tmp.64 = mul %tmp.58 %tmp.63;
+        %tmp.65 = invoke %tmp.51 %tmp.52(%tmp.64);
+        %tmp.66 = add %tmp.49 %tmp.65;
+        lputv %y1.6 %tmp.66;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 174 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_stop" ]
+        %x2.7 = local;
+        %tmp.68 = lgetv %center.2;
+        %tmp.70 = getv ? :Math;
+        %tmp.71 = getv function %tmp.70 :round;
+        %tmp.73 = getv ? :Math;
+        %tmp.74 = getv function %tmp.73 :cos;
+        %tmp.76 = lgetv %angle.4;
+        %tmp.77 = invoke %tmp.73 %tmp.74(%tmp.76);
+        %tmp.79 = lgetv %center.2;
+        %tmp.80 = mul %tmp.77 %tmp.79;
+        %tmp.81 = invoke %tmp.70 %tmp.71(%tmp.80);
+        %tmp.82 = add %tmp.68 %tmp.81;
+        lputv %x2.7 %tmp.82;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 175 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_stop" ]
+        %y2.8 = local;
+        %tmp.84 = lgetv %center.2;
+        %tmp.86 = getv ? :Math;
+        %tmp.87 = getv function %tmp.86 :round;
+        %tmp.89 = getv ? :Math;
+        %tmp.90 = getv function %tmp.89 :sin;
+        %tmp.92 = lgetv %angle.4;
+        %tmp.93 = invoke %tmp.89 %tmp.90(%tmp.92);
+        %tmp.95 = lgetv %center.2;
+        %tmp.96 = mul %tmp.93 %tmp.95;
+        %tmp.97 = invoke %tmp.86 %tmp.87(%tmp.96);
+        %tmp.98 = add %tmp.84 %tmp.97;
+        lputv %y2.8 %tmp.98;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 176 6 ]
+        %tmp.99 = lgetv %dc;
+        %tmp.100 = getv function %tmp.99 :drawLine;
+        %tmp.102 = lgetv %x1.5;
+        %tmp.104 = lgetv %y1.6;
+        %tmp.106 = lgetv %x2.7;
+        %tmp.108 = lgetv %y2.8;
+        invoke %tmp.99 %tmp.100(%tmp.102, %tmp.104, %tmp.106, %tmp.108);
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_34_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_incr:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 170 ]
+        %tmp.111 = lgetv %i.3;
+        %tmp.112 = add %tmp.111 1;
+        lputv %i.3 %tmp.112;
+        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_test;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_170_5_for_end:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_166_55_stop:
+    }
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 180; ]
+    function drawTicksUren(dc, length, stroke, num) {
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_180_49_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 181 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setPenWidth;
+        %tmp.4 = lgetv %stroke;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 182 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_180_49_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_180_49_stop" ]
+        %tickAngle.1 = local;
+        %tmp.5 = 360;
+        %tmp.7 = lgetv %num;
+        %tmp.8 = div %tmp.5 %tmp.7;
+        lputv %tickAngle.1 %tmp.8;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 183 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_180_49_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_180_49_stop" ]
+        %center.2 = local;
+        %tmp.10 = getv ? :width;
+        %tmp.11 = 2;
+        %tmp.12 = div %tmp.10 %tmp.11;
+        lputv %center.2 %tmp.12;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 184 5 ]
+        for @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_test @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_incr @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_init:
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_begin" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_end" ]
+        %i.3 = local;
+        %tmp.13 = 0;
+        lputv %i.3 %tmp.13;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_test:
+        %tmp.15 = lgetv %i.3;
+        %tmp.17 = lgetv %num;
+        %tmp.18 = lt %tmp.15 %tmp.17;
+        bf %tmp.18 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_begin:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 185 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %angle.4 = local;
+        %tmp.20 = getv ? :Math;
+        %tmp.21 = getv function %tmp.20 :toRadians;
+        %tmp.23 = lgetv %tickAngle.1;
+        %tmp.25 = lgetv %i.3;
+        %tmp.26 = mul %tmp.23 %tmp.25;
+        %tmp.27 = invoke %tmp.20 %tmp.21(%tmp.26);
+        lputv %angle.4 %tmp.27;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 186 3 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %offset.5 = local;
+        %tmp.29 = getv ? :Math;
+        %tmp.30 = getv function %tmp.29 :toRadians;
+        %tmp.31 = 2;
+        %tmp.32 = invoke %tmp.29 %tmp.30(%tmp.31);
+        lputv %offset.5 %tmp.32;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 187 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %x1.6 = local;
         %tmp.34 = lgetv %center.2;
         %tmp.36 = getv ? :Math;
         %tmp.37 = getv function %tmp.36 :round;
@@ -645,10 +622,10 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_star
         %tmp.49 = mul %tmp.43 %tmp.48;
         %tmp.50 = invoke %tmp.36 %tmp.37(%tmp.49);
         %tmp.51 = add %tmp.34 %tmp.50;
-        lputv %x1.5 %tmp.51;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 189 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_stop" ]
-        %y1.6 = local;
+        lputv %x1.6 %tmp.51;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 188 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %y1.7 = local;
         %tmp.53 = lgetv %center.2;
         %tmp.55 = getv ? :Math;
         %tmp.56 = getv function %tmp.55 :round;
@@ -662,280 +639,30 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_star
         %tmp.68 = mul %tmp.62 %tmp.67;
         %tmp.69 = invoke %tmp.55 %tmp.56(%tmp.68);
         %tmp.70 = add %tmp.53 %tmp.69;
-        lputv %y1.6 %tmp.70;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 192 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_stop" ]
-        %x2.7 = local;
+        lputv %y1.7 %tmp.70;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 189 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %x2.8 = local;
         %tmp.72 = lgetv %center.2;
         %tmp.74 = getv ? :Math;
         %tmp.75 = getv function %tmp.74 :round;
         %tmp.77 = getv ? :Math;
         %tmp.78 = getv function %tmp.77 :cos;
         %tmp.80 = lgetv %angle.4;
-        %tmp.81 = invoke %tmp.77 %tmp.78(%tmp.80);
-        %tmp.83 = lgetv %center.2;
-        %tmp.84 = mul %tmp.81 %tmp.83;
-        %tmp.85 = invoke %tmp.74 %tmp.75(%tmp.84);
-        %tmp.86 = add %tmp.72 %tmp.85;
-        lputv %x2.7 %tmp.86;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 193 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_stop" ]
-        %y2.8 = local;
-        %tmp.88 = lgetv %center.2;
-        %tmp.90 = getv ? :Math;
-        %tmp.91 = getv function %tmp.90 :round;
-        %tmp.93 = getv ? :Math;
-        %tmp.94 = getv function %tmp.93 :sin;
-        %tmp.96 = lgetv %angle.4;
-        %tmp.97 = invoke %tmp.93 %tmp.94(%tmp.96);
-        %tmp.99 = lgetv %center.2;
-        %tmp.100 = mul %tmp.97 %tmp.99;
-        %tmp.101 = invoke %tmp.90 %tmp.91(%tmp.100);
-        %tmp.102 = add %tmp.88 %tmp.101;
-        lputv %y2.8 %tmp.102;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 195 6 ]
-        %tmp.103 = lgetv %dc;
-        %tmp.104 = getv function %tmp.103 :drawLine;
-        %tmp.106 = lgetv %x1.5;
-        %tmp.108 = lgetv %y1.6;
-        %tmp.110 = lgetv %x2.7;
-        %tmp.112 = lgetv %y2.8;
-        invoke %tmp.103 %tmp.104(%tmp.106, %tmp.108, %tmp.110, %tmp.112);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_34_stop:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_incr:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 186 ]
-        %tmp.115 = lgetv %i.3;
-        %tmp.116 = add %tmp.115 1;
-        lputv %i.3 %tmp.116;
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_test;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_186_5_for_end:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_182_48_stop:
-    }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 199; ]
-    function drawTicksCircle(dc, size, stroke, num) {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_199_49_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 200 2 ]
-        %tmp.1 = lgetv %dc;
-        %tmp.2 = getv function %tmp.1 :setPenWidth;
-        %tmp.3 = lgetv %dc;
-        %tmp.4 = getv function %tmp.3 :getWidth;
-        %tmp.5 = invoke %tmp.3 %tmp.4();
-        %tmp.7 = getv ? :relative_tick_stroke;
-        %tmp.8 = mul %tmp.5 %tmp.7;
-        invoke %tmp.1 %tmp.2(%tmp.8);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 201 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_199_49_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_199_49_stop" ]
-        %tickAngle.1 = local;
-        %tmp.9 = 360;
-        %tmp.11 = lgetv %num;
-        %tmp.12 = div %tmp.9 %tmp.11;
-        lputv %tickAngle.1 %tmp.12;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 202 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_199_49_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_199_49_stop" ]
-        %center.2 = local;
-        %tmp.13 = lgetv %dc;
-        %tmp.14 = getv function %tmp.13 :getWidth;
-        %tmp.15 = invoke %tmp.13 %tmp.14();
-        %tmp.16 = 2;
-        %tmp.17 = div %tmp.15 %tmp.16;
-        lputv %center.2 %tmp.17;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 203 5 ]
-        for @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_test @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_incr @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_init:
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_begin" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_end" ]
-        %i.3 = local;
-        %tmp.18 = 0;
-        lputv %i.3 %tmp.18;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_test:
-        %tmp.20 = lgetv %i.3;
-        %tmp.22 = lgetv %num;
-        %tmp.23 = lt %tmp.20 %tmp.22;
-        bf %tmp.23 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_begin:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_34_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 204 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_34_stop" ]
-        %angle.4 = local;
-        %tmp.25 = getv ? :Math;
-        %tmp.26 = getv function %tmp.25 :toRadians;
-        %tmp.28 = lgetv %tickAngle.1;
-        %tmp.30 = lgetv %i.3;
-        %tmp.31 = mul %tmp.28 %tmp.30;
-        %tmp.32 = invoke %tmp.25 %tmp.26(%tmp.31);
-        lputv %angle.4 %tmp.32;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 205 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_34_stop" ]
-        %x1.5 = local;
-        %tmp.34 = lgetv %center.2;
-        %tmp.36 = getv ? :Math;
-        %tmp.37 = getv function %tmp.36 :round;
-        %tmp.39 = getv ? :Math;
-        %tmp.40 = getv function %tmp.39 :cos;
-        %tmp.42 = lgetv %angle.4;
-        %tmp.43 = invoke %tmp.39 %tmp.40(%tmp.42);
-        %tmp.45 = lgetv %center.2;
-        %tmp.47 = lgetv %size;
-        %tmp.48 = sub %tmp.45 %tmp.47;
-        %tmp.49 = 1;
-        %tmp.50 = sub %tmp.48 %tmp.49;
-        %tmp.51 = mul %tmp.43 %tmp.50;
-        %tmp.52 = invoke %tmp.36 %tmp.37(%tmp.51);
-        %tmp.53 = add %tmp.34 %tmp.52;
-        %tmp.54 = 1;
-        %tmp.55 = sub %tmp.53 %tmp.54;
-        lputv %x1.5 %tmp.55;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 206 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_34_stop" ]
-        %y1.6 = local;
-        %tmp.57 = lgetv %center.2;
-        %tmp.59 = getv ? :Math;
-        %tmp.60 = getv function %tmp.59 :round;
-        %tmp.62 = getv ? :Math;
-        %tmp.63 = getv function %tmp.62 :sin;
-        %tmp.65 = lgetv %angle.4;
-        %tmp.66 = invoke %tmp.62 %tmp.63(%tmp.65);
-        %tmp.68 = lgetv %center.2;
-        %tmp.70 = lgetv %size;
-        %tmp.71 = sub %tmp.68 %tmp.70;
-        %tmp.72 = 1;
-        %tmp.73 = sub %tmp.71 %tmp.72;
-        %tmp.74 = mul %tmp.66 %tmp.73;
-        %tmp.75 = invoke %tmp.59 %tmp.60(%tmp.74);
-        %tmp.76 = add %tmp.57 %tmp.75;
-        %tmp.77 = 1;
-        %tmp.78 = sub %tmp.76 %tmp.77;
-        lputv %y1.6 %tmp.78;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 207 6 ]
-        %tmp.79 = lgetv %dc;
-        %tmp.80 = getv function %tmp.79 :fillEllipse;
-        %tmp.82 = lgetv %x1.5;
-        %tmp.84 = lgetv %y1.6;
-        %tmp.86 = lgetv %size;
-        %tmp.88 = lgetv %size;
-        invoke %tmp.79 %tmp.80(%tmp.82, %tmp.84, %tmp.86, %tmp.88);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_34_stop:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_incr:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 203 ]
-        %tmp.91 = lgetv %i.3;
-        %tmp.92 = add %tmp.91 1;
-        lputv %i.3 %tmp.92;
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_test;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_203_5_for_end:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_199_49_stop:
-    }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 211; ]
-    function drawTicksTriangle(dc, length, stroke, num) {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_211_53_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 212 2 ]
-        %tmp.1 = lgetv %dc;
-        %tmp.2 = getv function %tmp.1 :setPenWidth;
-        %tmp.3 = lgetv %dc;
-        %tmp.4 = getv function %tmp.3 :getWidth;
-        %tmp.5 = invoke %tmp.3 %tmp.4();
-        %tmp.7 = getv ? :relative_tick_stroke;
-        %tmp.8 = mul %tmp.5 %tmp.7;
-        invoke %tmp.1 %tmp.2(%tmp.8);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 213 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_211_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_211_53_stop" ]
-        %tickAngle.1 = local;
-        %tmp.9 = 360;
-        %tmp.11 = lgetv %num;
-        %tmp.12 = div %tmp.9 %tmp.11;
-        lputv %tickAngle.1 %tmp.12;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 214 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_211_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_211_53_stop" ]
-        %center.2 = local;
-        %tmp.13 = lgetv %dc;
-        %tmp.14 = getv function %tmp.13 :getWidth;
-        %tmp.15 = invoke %tmp.13 %tmp.14();
-        %tmp.16 = 2;
-        %tmp.17 = div %tmp.15 %tmp.16;
-        lputv %center.2 %tmp.17;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 215 5 ]
-        for @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_test @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_incr @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_init:
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_begin" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_end" ]
-        %i.3 = local;
-        %tmp.18 = 0;
-        lputv %i.3 %tmp.18;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_test:
-        %tmp.20 = lgetv %i.3;
-        %tmp.22 = lgetv %num;
-        %tmp.23 = lt %tmp.20 %tmp.22;
-        bf %tmp.23 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_begin:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 216 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_stop" ]
-        %angle.4 = local;
-        %tmp.25 = getv ? :Math;
-        %tmp.26 = getv function %tmp.25 :toRadians;
-        %tmp.28 = lgetv %tickAngle.1;
-        %tmp.30 = lgetv %i.3;
-        %tmp.31 = mul %tmp.28 %tmp.30;
-        %tmp.32 = invoke %tmp.25 %tmp.26(%tmp.31);
-        lputv %angle.4 %tmp.32;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 217 3 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_stop" ]
-        %offset.5 = local;
-        %tmp.34 = getv ? :Math;
-        %tmp.35 = getv function %tmp.34 :toRadians;
-        %tmp.36 = 2;
-        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
-        lputv %offset.5 %tmp.37;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 218 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_stop" ]
-        %x1.6 = local;
-        %tmp.39 = lgetv %center.2;
-        %tmp.41 = getv ? :Math;
-        %tmp.42 = getv function %tmp.41 :round;
-        %tmp.44 = getv ? :Math;
-        %tmp.45 = getv function %tmp.44 :cos;
-        %tmp.47 = lgetv %angle.4;
-        %tmp.48 = invoke %tmp.44 %tmp.45(%tmp.47);
-        %tmp.50 = lgetv %center.2;
-        %tmp.52 = lgetv %length;
-        %tmp.53 = sub %tmp.50 %tmp.52;
-        %tmp.54 = mul %tmp.48 %tmp.53;
-        %tmp.55 = invoke %tmp.41 %tmp.42(%tmp.54);
-        %tmp.56 = add %tmp.39 %tmp.55;
-        lputv %x1.6 %tmp.56;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 219 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_stop" ]
-        %y1.7 = local;
-        %tmp.58 = lgetv %center.2;
-        %tmp.60 = getv ? :Math;
-        %tmp.61 = getv function %tmp.60 :round;
-        %tmp.63 = getv ? :Math;
-        %tmp.64 = getv function %tmp.63 :sin;
-        %tmp.66 = lgetv %angle.4;
-        %tmp.67 = invoke %tmp.63 %tmp.64(%tmp.66);
-        %tmp.69 = lgetv %center.2;
-        %tmp.71 = lgetv %length;
-        %tmp.72 = sub %tmp.69 %tmp.71;
-        %tmp.73 = mul %tmp.67 %tmp.72;
-        %tmp.74 = invoke %tmp.60 %tmp.61(%tmp.73);
-        %tmp.75 = add %tmp.58 %tmp.74;
-        lputv %y1.7 %tmp.75;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 222 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_stop" ]
-        %x2.8 = local;
-        %tmp.77 = lgetv %center.2;
-        %tmp.79 = getv ? :Math;
-        %tmp.80 = getv function %tmp.79 :round;
-        %tmp.82 = getv ? :Math;
-        %tmp.83 = getv function %tmp.82 :cos;
-        %tmp.85 = lgetv %angle.4;
-        %tmp.87 = lgetv %offset.5;
-        %tmp.88 = sub %tmp.85 %tmp.87;
-        %tmp.89 = invoke %tmp.82 %tmp.83(%tmp.88);
-        %tmp.91 = lgetv %center.2;
-        %tmp.92 = mul %tmp.89 %tmp.91;
-        %tmp.93 = invoke %tmp.79 %tmp.80(%tmp.92);
-        %tmp.94 = add %tmp.77 %tmp.93;
+        %tmp.82 = lgetv %offset.5;
+        %tmp.83 = sub %tmp.80 %tmp.82;
+        %tmp.84 = invoke %tmp.77 %tmp.78(%tmp.83);
+        %tmp.86 = lgetv %center.2;
+        %tmp.88 = lgetv %length;
+        %tmp.89 = 2;
+        %tmp.90 = div %tmp.88 %tmp.89;
+        %tmp.91 = sub %tmp.86 %tmp.90;
+        %tmp.92 = mul %tmp.84 %tmp.91;
+        %tmp.93 = invoke %tmp.74 %tmp.75(%tmp.92);
+        %tmp.94 = add %tmp.72 %tmp.93;
         lputv %x2.8 %tmp.94;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 223 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 190 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
         %y2.9 = local;
         %tmp.96 = lgetv %center.2;
         %tmp.98 = getv ? :Math;
@@ -947,91 +674,189 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_star
         %tmp.107 = sub %tmp.104 %tmp.106;
         %tmp.108 = invoke %tmp.101 %tmp.102(%tmp.107);
         %tmp.110 = lgetv %center.2;
-        %tmp.111 = mul %tmp.108 %tmp.110;
-        %tmp.112 = invoke %tmp.98 %tmp.99(%tmp.111);
-        %tmp.113 = add %tmp.96 %tmp.112;
-        lputv %y2.9 %tmp.113;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 225 3 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_stop" ]
+        %tmp.112 = lgetv %length;
+        %tmp.113 = 2;
+        %tmp.114 = div %tmp.112 %tmp.113;
+        %tmp.115 = sub %tmp.110 %tmp.114;
+        %tmp.116 = mul %tmp.108 %tmp.115;
+        %tmp.117 = invoke %tmp.98 %tmp.99(%tmp.116);
+        %tmp.118 = add %tmp.96 %tmp.117;
+        lputv %y2.9 %tmp.118;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 191 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
         %x3.10 = local;
-        %tmp.115 = lgetv %center.2;
-        %tmp.117 = getv ? :Math;
-        %tmp.118 = getv function %tmp.117 :round;
-        %tmp.120 = getv ? :Math;
-        %tmp.121 = getv function %tmp.120 :cos;
-        %tmp.123 = lgetv %angle.4;
-        %tmp.125 = lgetv %offset.5;
-        %tmp.126 = add %tmp.123 %tmp.125;
-        %tmp.127 = invoke %tmp.120 %tmp.121(%tmp.126);
-        %tmp.129 = lgetv %center.2;
-        %tmp.130 = mul %tmp.127 %tmp.129;
-        %tmp.131 = invoke %tmp.117 %tmp.118(%tmp.130);
-        %tmp.132 = add %tmp.115 %tmp.131;
-        lputv %x3.10 %tmp.132;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 226 6 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_stop" ]
-        %y3.11 = local;
+        %tmp.120 = lgetv %center.2;
+        %tmp.122 = getv ? :Math;
+        %tmp.123 = getv function %tmp.122 :round;
+        %tmp.125 = getv ? :Math;
+        %tmp.126 = getv function %tmp.125 :cos;
+        %tmp.128 = lgetv %angle.4;
+        %tmp.130 = lgetv %offset.5;
+        %tmp.131 = sub %tmp.128 %tmp.130;
+        %tmp.132 = invoke %tmp.125 %tmp.126(%tmp.131);
         %tmp.134 = lgetv %center.2;
-        %tmp.136 = getv ? :Math;
-        %tmp.137 = getv function %tmp.136 :round;
-        %tmp.139 = getv ? :Math;
-        %tmp.140 = getv function %tmp.139 :sin;
-        %tmp.142 = lgetv %angle.4;
-        %tmp.144 = lgetv %offset.5;
-        %tmp.145 = add %tmp.142 %tmp.144;
-        %tmp.146 = invoke %tmp.139 %tmp.140(%tmp.145);
-        %tmp.148 = lgetv %center.2;
-        %tmp.149 = mul %tmp.146 %tmp.148;
-        %tmp.150 = invoke %tmp.136 %tmp.137(%tmp.149);
-        %tmp.151 = add %tmp.134 %tmp.150;
-        lputv %y3.11 %tmp.151;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 228 6 ]
-        %tmp.152 = lgetv %dc;
-        %tmp.153 = getv function %tmp.152 :fillPolygon;
-        %tmp.154 = newa 3;
-        %tmp.155 = newa 2;
-        %tmp.157 = lgetv %x1.6;
-        %tmp.158 = dup %tmp.155;
-        %tmp.159 = aputv %tmp.158 0 %tmp.157;
-        %tmp.161 = lgetv %y1.7;
-        %tmp.162 = dup %tmp.159;
-        %tmp.163 = aputv %tmp.162 1 %tmp.161;
-        %tmp.164 = dup %tmp.154;
-        %tmp.165 = aputv %tmp.164 0 %tmp.163;
-        %tmp.166 = newa 2;
-        %tmp.168 = lgetv %x2.8;
-        %tmp.169 = dup %tmp.166;
-        %tmp.170 = aputv %tmp.169 0 %tmp.168;
-        %tmp.172 = lgetv %y2.9;
-        %tmp.173 = dup %tmp.170;
-        %tmp.174 = aputv %tmp.173 1 %tmp.172;
-        %tmp.175 = dup %tmp.165;
-        %tmp.176 = aputv %tmp.175 1 %tmp.174;
-        %tmp.177 = newa 2;
-        %tmp.179 = lgetv %x3.10;
-        %tmp.180 = dup %tmp.177;
-        %tmp.181 = aputv %tmp.180 0 %tmp.179;
-        %tmp.183 = lgetv %y3.11;
-        %tmp.184 = dup %tmp.181;
-        %tmp.185 = aputv %tmp.184 1 %tmp.183;
-        %tmp.186 = dup %tmp.176;
-        %tmp.187 = aputv %tmp.186 2 %tmp.185;
-        invoke %tmp.152 %tmp.153(%tmp.187);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_34_stop:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_incr:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 215 ]
-        %tmp.190 = lgetv %i.3;
-        %tmp.191 = add %tmp.190 1;
-        lputv %i.3 %tmp.191;
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_test;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_215_5_for_end:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_211_53_stop:
+        %tmp.135 = mul %tmp.132 %tmp.134;
+        %tmp.136 = invoke %tmp.122 %tmp.123(%tmp.135);
+        %tmp.137 = add %tmp.120 %tmp.136;
+        lputv %x3.10 %tmp.137;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 192 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %y3.11 = local;
+        %tmp.139 = lgetv %center.2;
+        %tmp.141 = getv ? :Math;
+        %tmp.142 = getv function %tmp.141 :round;
+        %tmp.144 = getv ? :Math;
+        %tmp.145 = getv function %tmp.144 :sin;
+        %tmp.147 = lgetv %angle.4;
+        %tmp.149 = lgetv %offset.5;
+        %tmp.150 = sub %tmp.147 %tmp.149;
+        %tmp.151 = invoke %tmp.144 %tmp.145(%tmp.150);
+        %tmp.153 = lgetv %center.2;
+        %tmp.154 = mul %tmp.151 %tmp.153;
+        %tmp.155 = invoke %tmp.141 %tmp.142(%tmp.154);
+        %tmp.156 = add %tmp.139 %tmp.155;
+        lputv %y3.11 %tmp.156;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 193 3 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %x4.12 = local;
+        %tmp.158 = lgetv %center.2;
+        %tmp.160 = getv ? :Math;
+        %tmp.161 = getv function %tmp.160 :round;
+        %tmp.163 = getv ? :Math;
+        %tmp.164 = getv function %tmp.163 :cos;
+        %tmp.166 = lgetv %angle.4;
+        %tmp.168 = lgetv %offset.5;
+        %tmp.169 = add %tmp.166 %tmp.168;
+        %tmp.170 = invoke %tmp.163 %tmp.164(%tmp.169);
+        %tmp.172 = lgetv %center.2;
+        %tmp.173 = mul %tmp.170 %tmp.172;
+        %tmp.174 = invoke %tmp.160 %tmp.161(%tmp.173);
+        %tmp.175 = add %tmp.158 %tmp.174;
+        lputv %x4.12 %tmp.175;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 194 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %y4.13 = local;
+        %tmp.177 = lgetv %center.2;
+        %tmp.179 = getv ? :Math;
+        %tmp.180 = getv function %tmp.179 :round;
+        %tmp.182 = getv ? :Math;
+        %tmp.183 = getv function %tmp.182 :sin;
+        %tmp.185 = lgetv %angle.4;
+        %tmp.187 = lgetv %offset.5;
+        %tmp.188 = add %tmp.185 %tmp.187;
+        %tmp.189 = invoke %tmp.182 %tmp.183(%tmp.188);
+        %tmp.191 = lgetv %center.2;
+        %tmp.192 = mul %tmp.189 %tmp.191;
+        %tmp.193 = invoke %tmp.179 %tmp.180(%tmp.192);
+        %tmp.194 = add %tmp.177 %tmp.193;
+        lputv %y4.13 %tmp.194;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 195 3 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %x5.14 = local;
+        %tmp.196 = lgetv %center.2;
+        %tmp.198 = getv ? :Math;
+        %tmp.199 = getv function %tmp.198 :round;
+        %tmp.201 = getv ? :Math;
+        %tmp.202 = getv function %tmp.201 :cos;
+        %tmp.204 = lgetv %angle.4;
+        %tmp.206 = lgetv %offset.5;
+        %tmp.207 = add %tmp.204 %tmp.206;
+        %tmp.208 = invoke %tmp.201 %tmp.202(%tmp.207);
+        %tmp.210 = lgetv %center.2;
+        %tmp.212 = lgetv %length;
+        %tmp.213 = 2;
+        %tmp.214 = div %tmp.212 %tmp.213;
+        %tmp.215 = sub %tmp.210 %tmp.214;
+        %tmp.216 = mul %tmp.208 %tmp.215;
+        %tmp.217 = invoke %tmp.198 %tmp.199(%tmp.216);
+        %tmp.218 = add %tmp.196 %tmp.217;
+        lputv %x5.14 %tmp.218;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 196 6 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop" ]
+        %y5.15 = local;
+        %tmp.220 = lgetv %center.2;
+        %tmp.222 = getv ? :Math;
+        %tmp.223 = getv function %tmp.222 :round;
+        %tmp.225 = getv ? :Math;
+        %tmp.226 = getv function %tmp.225 :sin;
+        %tmp.228 = lgetv %angle.4;
+        %tmp.230 = lgetv %offset.5;
+        %tmp.231 = add %tmp.228 %tmp.230;
+        %tmp.232 = invoke %tmp.225 %tmp.226(%tmp.231);
+        %tmp.234 = lgetv %center.2;
+        %tmp.236 = lgetv %length;
+        %tmp.237 = 2;
+        %tmp.238 = div %tmp.236 %tmp.237;
+        %tmp.239 = sub %tmp.234 %tmp.238;
+        %tmp.240 = mul %tmp.232 %tmp.239;
+        %tmp.241 = invoke %tmp.222 %tmp.223(%tmp.240);
+        %tmp.242 = add %tmp.220 %tmp.241;
+        lputv %y5.15 %tmp.242;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 197 6 ]
+        %tmp.243 = lgetv %dc;
+        %tmp.244 = getv function %tmp.243 :fillPolygon;
+        %tmp.245 = newa 5;
+        %tmp.246 = newa 2;
+        %tmp.248 = lgetv %x1.6;
+        %tmp.249 = dup %tmp.246;
+        %tmp.250 = aputv %tmp.249 0 %tmp.248;
+        %tmp.252 = lgetv %y1.7;
+        %tmp.253 = dup %tmp.250;
+        %tmp.254 = aputv %tmp.253 1 %tmp.252;
+        %tmp.255 = dup %tmp.245;
+        %tmp.256 = aputv %tmp.255 0 %tmp.254;
+        %tmp.257 = newa 2;
+        %tmp.259 = lgetv %x2.8;
+        %tmp.260 = dup %tmp.257;
+        %tmp.261 = aputv %tmp.260 0 %tmp.259;
+        %tmp.263 = lgetv %y2.9;
+        %tmp.264 = dup %tmp.261;
+        %tmp.265 = aputv %tmp.264 1 %tmp.263;
+        %tmp.266 = dup %tmp.256;
+        %tmp.267 = aputv %tmp.266 1 %tmp.265;
+        %tmp.268 = newa 2;
+        %tmp.270 = lgetv %x3.10;
+        %tmp.271 = dup %tmp.268;
+        %tmp.272 = aputv %tmp.271 0 %tmp.270;
+        %tmp.274 = lgetv %y3.11;
+        %tmp.275 = dup %tmp.272;
+        %tmp.276 = aputv %tmp.275 1 %tmp.274;
+        %tmp.277 = dup %tmp.267;
+        %tmp.278 = aputv %tmp.277 2 %tmp.276;
+        %tmp.279 = newa 2;
+        %tmp.281 = lgetv %x4.12;
+        %tmp.282 = dup %tmp.279;
+        %tmp.283 = aputv %tmp.282 0 %tmp.281;
+        %tmp.285 = lgetv %y4.13;
+        %tmp.286 = dup %tmp.283;
+        %tmp.287 = aputv %tmp.286 1 %tmp.285;
+        %tmp.288 = dup %tmp.278;
+        %tmp.289 = aputv %tmp.288 3 %tmp.287;
+        %tmp.290 = newa 2;
+        %tmp.292 = lgetv %x5.14;
+        %tmp.293 = dup %tmp.290;
+        %tmp.294 = aputv %tmp.293 0 %tmp.292;
+        %tmp.296 = lgetv %y5.15;
+        %tmp.297 = dup %tmp.294;
+        %tmp.298 = aputv %tmp.297 1 %tmp.296;
+        %tmp.299 = dup %tmp.289;
+        %tmp.300 = aputv %tmp.299 4 %tmp.298;
+        invoke %tmp.243 %tmp.244(%tmp.300);
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_34_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_incr:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 184 ]
+        %tmp.303 = lgetv %i.3;
+        %tmp.304 = add %tmp.303 1;
+        lputv %i.3 %tmp.304;
+        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_test;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_184_5_for_end:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_180_49_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 232; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 201; ]
     function drawHand(dc, num, time, length, stroke) {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 233 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 202 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_stop" ]
         %angle.1 = local;
         %tmp.2 = getv ? :Math;
         %tmp.3 = getv function %tmp.2 :toRadians;
@@ -1047,371 +872,63 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_star
         %tmp.16 = div %tmp.14 %tmp.15;
         %tmp.17 = sub %tmp.11 %tmp.16;
         lputv %angle.1 %tmp.17;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 235 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 203 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_stop" ]
         %center.2 = local;
-        %tmp.18 = lgetv %dc;
-        %tmp.19 = getv function %tmp.18 :getWidth;
-        %tmp.20 = invoke %tmp.18 %tmp.19();
-        %tmp.21 = 2;
-        %tmp.22 = div %tmp.20 %tmp.21;
-        lputv %center.2 %tmp.22;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 237 5 ]
-        %tmp.23 = lgetv %dc;
-        %tmp.24 = getv function %tmp.23 :setPenWidth;
-        %tmp.26 = lgetv %stroke;
-        invoke %tmp.23 %tmp.24(%tmp.26);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 239 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_stop" ]
+        %tmp.19 = getv ? :width;
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        lputv %center.2 %tmp.21;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 205 5 ]
+        %tmp.22 = lgetv %dc;
+        %tmp.23 = getv function %tmp.22 :setPenWidth;
+        %tmp.25 = lgetv %stroke;
+        invoke %tmp.22 %tmp.23(%tmp.25);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 207 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_stop" ]
         %x.3 = local;
-        %tmp.28 = lgetv %center.2;
-        %tmp.30 = getv ? :Math;
-        %tmp.31 = getv function %tmp.30 :round;
-        %tmp.33 = getv ? :Math;
-        %tmp.34 = getv function %tmp.33 :cos;
-        %tmp.36 = lgetv %angle.1;
-        %tmp.37 = invoke %tmp.33 %tmp.34(%tmp.36);
-        %tmp.39 = lgetv %length;
-        %tmp.40 = mul %tmp.37 %tmp.39;
-        %tmp.41 = invoke %tmp.30 %tmp.31(%tmp.40);
-        %tmp.42 = add %tmp.28 %tmp.41;
-        lputv %x.3 %tmp.42;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 240 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_stop" ]
+        %tmp.27 = lgetv %center.2;
+        %tmp.29 = getv ? :Math;
+        %tmp.30 = getv function %tmp.29 :round;
+        %tmp.32 = getv ? :Math;
+        %tmp.33 = getv function %tmp.32 :cos;
+        %tmp.35 = lgetv %angle.1;
+        %tmp.36 = invoke %tmp.32 %tmp.33(%tmp.35);
+        %tmp.38 = lgetv %length;
+        %tmp.39 = mul %tmp.36 %tmp.38;
+        %tmp.40 = invoke %tmp.29 %tmp.30(%tmp.39);
+        %tmp.41 = add %tmp.27 %tmp.40;
+        lputv %x.3 %tmp.41;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 208 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_stop" ]
         %y.4 = local;
-        %tmp.44 = lgetv %center.2;
-        %tmp.46 = getv ? :Math;
-        %tmp.47 = getv function %tmp.46 :round;
-        %tmp.49 = getv ? :Math;
-        %tmp.50 = getv function %tmp.49 :sin;
-        %tmp.52 = lgetv %angle.1;
-        %tmp.53 = invoke %tmp.49 %tmp.50(%tmp.52);
-        %tmp.55 = lgetv %length;
-        %tmp.56 = mul %tmp.53 %tmp.55;
-        %tmp.57 = invoke %tmp.46 %tmp.47(%tmp.56);
-        %tmp.58 = add %tmp.44 %tmp.57;
-        lputv %y.4 %tmp.58;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 242 5 ]
-        %tmp.59 = lgetv %dc;
-        %tmp.60 = getv function %tmp.59 :drawLine;
-        %tmp.62 = lgetv %center.2;
-        %tmp.64 = lgetv %center.2;
-        %tmp.66 = lgetv %x.3;
-        %tmp.68 = lgetv %y.4;
-        invoke %tmp.59 %tmp.60(%tmp.62, %tmp.64, %tmp.66, %tmp.68);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_232_53_stop:
+        %tmp.43 = lgetv %center.2;
+        %tmp.45 = getv ? :Math;
+        %tmp.46 = getv function %tmp.45 :round;
+        %tmp.48 = getv ? :Math;
+        %tmp.49 = getv function %tmp.48 :sin;
+        %tmp.51 = lgetv %angle.1;
+        %tmp.52 = invoke %tmp.48 %tmp.49(%tmp.51);
+        %tmp.54 = lgetv %length;
+        %tmp.55 = mul %tmp.52 %tmp.54;
+        %tmp.56 = invoke %tmp.45 %tmp.46(%tmp.55);
+        %tmp.57 = add %tmp.43 %tmp.56;
+        lputv %y.4 %tmp.57;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 210 5 ]
+        %tmp.58 = lgetv %dc;
+        %tmp.59 = getv function %tmp.58 :drawLine;
+        %tmp.61 = lgetv %center.2;
+        %tmp.63 = lgetv %center.2;
+        %tmp.65 = lgetv %x.3;
+        %tmp.67 = lgetv %y.4;
+        invoke %tmp.58 %tmp.59(%tmp.61, %tmp.63, %tmp.65, %tmp.67);
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_201_53_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 246; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 213; ]
     function drawSecondHandClip(dc, num, time, length, stroke) {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 247 2 ]
-        %tmp.1 = lgetv %dc;
-        %tmp.2 = getv function %tmp.1 :drawBitmap;
-        %tmp.3 = 0;
-        %tmp.4 = 0;
-        %tmp.6 = getv ? :offScreenBuffer;
-        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.6);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 249 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %angle.1 = local;
-        %tmp.8 = getv ? :Math;
-        %tmp.9 = getv function %tmp.8 :toRadians;
-        %tmp.10 = 360;
-        %tmp.12 = lgetv %num;
-        %tmp.13 = div %tmp.10 %tmp.12;
-        %tmp.15 = lgetv %time;
-        %tmp.16 = mul %tmp.13 %tmp.15;
-        %tmp.17 = invoke %tmp.8 %tmp.9(%tmp.16);
-        %tmp.19 = getv ? :Math;
-        %tmp.20 = getv %tmp.19 :PI;
-        %tmp.21 = 2;
-        %tmp.22 = div %tmp.20 %tmp.21;
-        %tmp.23 = sub %tmp.17 %tmp.22;
-        lputv %angle.1 %tmp.23;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 250 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %center.2 = local;
-        %tmp.24 = lgetv %dc;
-        %tmp.25 = getv function %tmp.24 :getWidth;
-        %tmp.26 = invoke %tmp.24 %tmp.25();
-        %tmp.27 = 2;
-        %tmp.28 = div %tmp.26 %tmp.27;
-        lputv %center.2 %tmp.28;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 251 5 ]
-        %tmp.29 = lgetv %dc;
-        %tmp.30 = getv function %tmp.29 :setPenWidth;
-        %tmp.32 = lgetv %stroke;
-        invoke %tmp.29 %tmp.30(%tmp.32);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 253 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %cosval.3 = local;
-        %tmp.34 = getv ? :Math;
-        %tmp.35 = getv function %tmp.34 :round;
-        %tmp.37 = getv ? :Math;
-        %tmp.38 = getv function %tmp.37 :cos;
-        %tmp.40 = lgetv %angle.1;
-        %tmp.41 = invoke %tmp.37 %tmp.38(%tmp.40);
-        %tmp.43 = lgetv %length;
-        %tmp.44 = mul %tmp.41 %tmp.43;
-        %tmp.45 = invoke %tmp.34 %tmp.35(%tmp.44);
-        lputv %cosval.3 %tmp.45;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 254 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %sinval.4 = local;
-        %tmp.47 = getv ? :Math;
-        %tmp.48 = getv function %tmp.47 :round;
-        %tmp.50 = getv ? :Math;
-        %tmp.51 = getv function %tmp.50 :sin;
-        %tmp.53 = lgetv %angle.1;
-        %tmp.54 = invoke %tmp.50 %tmp.51(%tmp.53);
-        %tmp.56 = lgetv %length;
-        %tmp.57 = mul %tmp.54 %tmp.56;
-        %tmp.58 = invoke %tmp.47 %tmp.48(%tmp.57);
-        lputv %sinval.4 %tmp.58;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 256 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %x.5 = local;
-        %tmp.60 = lgetv %center.2;
-        %tmp.62 = lgetv %cosval.3;
-        %tmp.63 = add %tmp.60 %tmp.62;
-        lputv %x.5 %tmp.63;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 257 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %y.6 = local;
-        %tmp.65 = lgetv %center.2;
-        %tmp.67 = lgetv %sinval.4;
-        %tmp.68 = add %tmp.65 %tmp.67;
-        lputv %y.6 %tmp.68;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 258 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %width2.7 = local;
-        %tmp.70 = lgetv %center.2;
-        %tmp.72 = lgetv %x.5;
-        %tmp.73 = sub %tmp.70 %tmp.72;
-        %tmp.74 = getv function %tmp.73 :abs;
-        %tmp.75 = invoke %tmp.73 %tmp.74();
-        lputv %width2.7 %tmp.75;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 259 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %height2.8 = local;
-        %tmp.77 = lgetv %center.2;
-        %tmp.79 = lgetv %y.6;
-        %tmp.80 = sub %tmp.77 %tmp.79;
-        %tmp.81 = getv function %tmp.80 :abs;
-        %tmp.82 = invoke %tmp.80 %tmp.81();
-        lputv %height2.8 %tmp.82;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 260 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %padding.9 = local;
-        %tmp.84 = getv ? :width;
-        %tmp.86 = getv ? :relative_padding;
-        %tmp.87 = mul %tmp.84 %tmp.86;
-        lputv %padding.9 %tmp.87;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 261 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop" ]
-        %padding2.10 = local;
-        %tmp.89 = getv ? :width;
-        %tmp.91 = getv ? :relative_padding2;
-        %tmp.92 = mul %tmp.89 %tmp.91;
-        lputv %padding2.10 %tmp.92;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 263 5 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_5_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_8_begin:
-        %tmp.94 = lgetv %cosval.3;
-        %tmp.95 = 0;
-        %tmp.96 = lt %tmp.94 %tmp.95;
-        %tmp.97 = dup %tmp.96;
-        bf %tmp.97 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_22_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_22_true:
-        %tmp.99 = lgetv %sinval.4;
-        %tmp.100 = 0;
-        %tmp.101 = gt %tmp.99 %tmp.100;
-        %tmp.102 = and %tmp.96 %tmp.101;
-        push %tmp.102;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_22_end:
-        %tmp.103 = phi [%tmp.97 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_8_begin] [%tmp.102 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_22_true] [%tmp.103 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_22_end];
-        bf %tmp.103 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_5_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_34_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 264 6 ]
-        %tmp.104 = lgetv %dc;
-        %tmp.105 = getv function %tmp.104 :setClip;
-        %tmp.107 = lgetv %center.2;
-        %tmp.109 = lgetv %width2.7;
-        %tmp.110 = sub %tmp.107 %tmp.109;
-        %tmp.112 = lgetv %padding2.10;
-        %tmp.113 = sub %tmp.110 %tmp.112;
-        %tmp.115 = lgetv %center.2;
-        %tmp.117 = lgetv %padding.9;
-        %tmp.118 = sub %tmp.115 %tmp.117;
-        %tmp.120 = lgetv %width2.7;
-        %tmp.122 = lgetv %padding.9;
-        %tmp.123 = add %tmp.120 %tmp.122;
-        %tmp.125 = lgetv %padding2.10;
-        %tmp.126 = add %tmp.123 %tmp.125;
-        %tmp.128 = lgetv %height2.8;
-        %tmp.130 = lgetv %padding.9;
-        %tmp.131 = add %tmp.128 %tmp.130;
-        %tmp.133 = lgetv %padding2.10;
-        %tmp.134 = add %tmp.131 %tmp.133;
-        invoke %tmp.104 %tmp.105(%tmp.113, %tmp.118, %tmp.126, %tmp.134);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_34_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_263_5_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 267 5 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_5_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_8_begin:
-        %tmp.136 = lgetv %cosval.3;
-        %tmp.137 = 0;
-        %tmp.138 = lt %tmp.136 %tmp.137;
-        %tmp.139 = dup %tmp.138;
-        bf %tmp.139 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_22_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_22_true:
-        %tmp.141 = lgetv %sinval.4;
-        %tmp.142 = 0;
-        %tmp.143 = lt %tmp.141 %tmp.142;
-        %tmp.144 = and %tmp.138 %tmp.143;
-        push %tmp.144;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_22_end:
-        %tmp.145 = phi [%tmp.139 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_8_begin] [%tmp.144 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_22_true] [%tmp.145 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_22_end];
-        bf %tmp.145 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_5_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_34_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 268 6 ]
-        %tmp.146 = lgetv %dc;
-        %tmp.147 = getv function %tmp.146 :setClip;
-        %tmp.149 = lgetv %center.2;
-        %tmp.151 = lgetv %width2.7;
-        %tmp.152 = sub %tmp.149 %tmp.151;
-        %tmp.154 = lgetv %padding2.10;
-        %tmp.155 = sub %tmp.152 %tmp.154;
-        %tmp.157 = lgetv %center.2;
-        %tmp.159 = lgetv %height2.8;
-        %tmp.160 = sub %tmp.157 %tmp.159;
-        %tmp.162 = lgetv %padding2.10;
-        %tmp.163 = sub %tmp.160 %tmp.162;
-        %tmp.165 = lgetv %width2.7;
-        %tmp.167 = lgetv %padding.9;
-        %tmp.168 = add %tmp.165 %tmp.167;
-        %tmp.170 = lgetv %padding2.10;
-        %tmp.171 = add %tmp.168 %tmp.170;
-        %tmp.173 = lgetv %height2.8;
-        %tmp.175 = lgetv %padding.9;
-        %tmp.176 = add %tmp.173 %tmp.175;
-        %tmp.178 = lgetv %padding2.10;
-        %tmp.179 = add %tmp.176 %tmp.178;
-        invoke %tmp.146 %tmp.147(%tmp.155, %tmp.163, %tmp.171, %tmp.179);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_34_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_267_5_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 271 5 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_5_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_8_begin:
-        %tmp.181 = lgetv %cosval.3;
-        %tmp.182 = 0;
-        %tmp.183 = gt %tmp.181 %tmp.182;
-        %tmp.184 = dup %tmp.183;
-        bf %tmp.184 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_22_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_22_true:
-        %tmp.186 = lgetv %sinval.4;
-        %tmp.187 = 0;
-        %tmp.188 = lt %tmp.186 %tmp.187;
-        %tmp.189 = and %tmp.183 %tmp.188;
-        push %tmp.189;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_22_end:
-        %tmp.190 = phi [%tmp.184 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_8_begin] [%tmp.189 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_22_true] [%tmp.190 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_22_end];
-        bf %tmp.190 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_5_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_34_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 272 6 ]
-        %tmp.191 = lgetv %dc;
-        %tmp.192 = getv function %tmp.191 :setClip;
-        %tmp.194 = lgetv %center.2;
-        %tmp.196 = lgetv %padding.9;
-        %tmp.197 = sub %tmp.194 %tmp.196;
-        %tmp.199 = lgetv %center.2;
-        %tmp.201 = lgetv %height2.8;
-        %tmp.202 = sub %tmp.199 %tmp.201;
-        %tmp.204 = lgetv %padding2.10;
-        %tmp.205 = sub %tmp.202 %tmp.204;
-        %tmp.207 = lgetv %width2.7;
-        %tmp.209 = lgetv %padding.9;
-        %tmp.210 = add %tmp.207 %tmp.209;
-        %tmp.212 = lgetv %padding2.10;
-        %tmp.213 = add %tmp.210 %tmp.212;
-        %tmp.215 = lgetv %height2.8;
-        %tmp.217 = lgetv %padding.9;
-        %tmp.218 = add %tmp.215 %tmp.217;
-        %tmp.220 = lgetv %padding2.10;
-        %tmp.221 = add %tmp.218 %tmp.220;
-        invoke %tmp.191 %tmp.192(%tmp.197, %tmp.205, %tmp.213, %tmp.221);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_34_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_271_5_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 275 5 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_5_if_stmt:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_8_begin:
-        %tmp.223 = lgetv %cosval.3;
-        %tmp.224 = 0;
-        %tmp.225 = gt %tmp.223 %tmp.224;
-        %tmp.226 = dup %tmp.225;
-        bf %tmp.226 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_22_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_22_true:
-        %tmp.228 = lgetv %sinval.4;
-        %tmp.229 = 0;
-        %tmp.230 = gt %tmp.228 %tmp.229;
-        %tmp.231 = and %tmp.225 %tmp.230;
-        push %tmp.231;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_22_end:
-        %tmp.232 = phi [%tmp.226 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_8_begin] [%tmp.231 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_22_true] [%tmp.232 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_22_end];
-        bf %tmp.232 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_5_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_34_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 276 6 ]
-        %tmp.233 = lgetv %dc;
-        %tmp.234 = getv function %tmp.233 :setClip;
-        %tmp.236 = lgetv %center.2;
-        %tmp.238 = lgetv %padding.9;
-        %tmp.239 = sub %tmp.236 %tmp.238;
-        %tmp.241 = lgetv %center.2;
-        %tmp.243 = lgetv %padding.9;
-        %tmp.244 = sub %tmp.241 %tmp.243;
-        %tmp.246 = lgetv %width2.7;
-        %tmp.248 = lgetv %padding.9;
-        %tmp.249 = add %tmp.246 %tmp.248;
-        %tmp.251 = lgetv %padding2.10;
-        %tmp.252 = add %tmp.249 %tmp.251;
-        %tmp.254 = lgetv %height2.8;
-        %tmp.256 = lgetv %padding.9;
-        %tmp.257 = add %tmp.254 %tmp.256;
-        %tmp.259 = lgetv %padding2.10;
-        %tmp.260 = add %tmp.257 %tmp.259;
-        invoke %tmp.233 %tmp.234(%tmp.239, %tmp.244, %tmp.252, %tmp.260);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_34_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_275_5_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 280 5 ]
-        %tmp.261 = lgetv %dc;
-        %tmp.262 = getv function %tmp.261 :setColor;
-        %tmp.264 = getv ? :second_hand_color;
-        %tmp.265 = getm $.Toybox.Graphics;
-        %tmp.266 = getv %tmp.265 :COLOR_TRANSPARENT;
-        invoke %tmp.261 %tmp.262(%tmp.264, %tmp.266);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 281 5 ]
-        %tmp.267 = lgetv %dc;
-        %tmp.268 = getv function %tmp.267 :drawLine;
-        %tmp.270 = lgetv %center.2;
-        %tmp.272 = lgetv %center.2;
-        %tmp.274 = lgetv %x.5;
-        %tmp.276 = lgetv %y.6;
-        invoke %tmp.267 %tmp.268(%tmp.270, %tmp.272, %tmp.274, %tmp.276);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_246_63_stop:
-    }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 285; ]
-    function drawHandOffset(dc, num, offsetNum, time, offsetTime, length, stroke) {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 286 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 214 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_stop" ]
         %angle.1 = local;
         %tmp.2 = getv ? :Math;
         %tmp.3 = getv function %tmp.2 :toRadians;
@@ -1427,92 +944,78 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_star
         %tmp.16 = div %tmp.14 %tmp.15;
         %tmp.17 = sub %tmp.11 %tmp.16;
         lputv %angle.1 %tmp.17;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 287 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_stop" ]
-        %section.2 = local;
-        %tmp.18 = 360.00;
-        %tmp.20 = lgetv %num;
-        %tmp.21 = div %tmp.18 %tmp.20;
-        %tmp.23 = lgetv %offsetNum;
-        %tmp.24 = div %tmp.21 %tmp.23;
-        lputv %section.2 %tmp.24;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 289 5 ]
-        %tmp.25 = lgetv %angle.1;
-        %tmp.27 = getv ? :Math;
-        %tmp.28 = getv function %tmp.27 :toRadians;
-        %tmp.30 = lgetv %section.2;
-        %tmp.32 = lgetv %offsetTime;
-        %tmp.33 = mul %tmp.30 %tmp.32;
-        %tmp.34 = invoke %tmp.27 %tmp.28(%tmp.33);
-        %tmp.35 = add %tmp.25 %tmp.34;
-        lputv %angle.1 %tmp.35;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 291 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_stop" ]
-        %center.3 = local;
-        %tmp.36 = lgetv %dc;
-        %tmp.37 = getv function %tmp.36 :getWidth;
-        %tmp.38 = invoke %tmp.36 %tmp.37();
-        %tmp.39 = 2;
-        %tmp.40 = div %tmp.38 %tmp.39;
-        lputv %center.3 %tmp.40;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 293 5 ]
-        %tmp.41 = lgetv %dc;
-        %tmp.42 = getv function %tmp.41 :setPenWidth;
-        %tmp.44 = lgetv %stroke;
-        invoke %tmp.41 %tmp.42(%tmp.44);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 295 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_stop" ]
-        %x.4 = local;
-        %tmp.46 = lgetv %center.3;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 215 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_stop" ]
+        %center.2 = local;
+        %tmp.19 = getv ? :width;
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        lputv %center.2 %tmp.21;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 217 5 ]
+        %tmp.22 = lgetv %dc;
+        %tmp.23 = getv function %tmp.22 :setPenWidth;
+        %tmp.25 = lgetv %stroke;
+        invoke %tmp.22 %tmp.23(%tmp.25);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 219 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_stop" ]
+        %x.3 = local;
+        %tmp.27 = lgetv %center.2;
+        %tmp.29 = getv ? :Math;
+        %tmp.30 = getv function %tmp.29 :round;
+        %tmp.32 = getv ? :Math;
+        %tmp.33 = getv function %tmp.32 :cos;
+        %tmp.35 = lgetv %angle.1;
+        %tmp.36 = invoke %tmp.32 %tmp.33(%tmp.35);
+        %tmp.38 = lgetv %length;
+        %tmp.39 = mul %tmp.36 %tmp.38;
+        %tmp.40 = invoke %tmp.29 %tmp.30(%tmp.39);
+        %tmp.41 = add %tmp.27 %tmp.40;
+        lputv %x.3 %tmp.41;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 220 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_stop" ]
+        %y.4 = local;
+        %tmp.43 = lgetv %center.2;
+        %tmp.45 = getv ? :Math;
+        %tmp.46 = getv function %tmp.45 :round;
         %tmp.48 = getv ? :Math;
-        %tmp.49 = getv function %tmp.48 :round;
-        %tmp.51 = getv ? :Math;
-        %tmp.52 = getv function %tmp.51 :cos;
-        %tmp.54 = lgetv %angle.1;
-        %tmp.55 = invoke %tmp.51 %tmp.52(%tmp.54);
-        %tmp.57 = lgetv %length;
-        %tmp.58 = mul %tmp.55 %tmp.57;
-        %tmp.59 = invoke %tmp.48 %tmp.49(%tmp.58);
-        %tmp.60 = add %tmp.46 %tmp.59;
-        lputv %x.4 %tmp.60;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 296 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_stop" ]
-        %y.5 = local;
-        %tmp.62 = lgetv %center.3;
-        %tmp.64 = getv ? :Math;
-        %tmp.65 = getv function %tmp.64 :round;
-        %tmp.67 = getv ? :Math;
-        %tmp.68 = getv function %tmp.67 :sin;
-        %tmp.70 = lgetv %angle.1;
-        %tmp.71 = invoke %tmp.67 %tmp.68(%tmp.70);
-        %tmp.73 = lgetv %length;
-        %tmp.74 = mul %tmp.71 %tmp.73;
-        %tmp.75 = invoke %tmp.64 %tmp.65(%tmp.74);
-        %tmp.76 = add %tmp.62 %tmp.75;
-        lputv %y.5 %tmp.76;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 298 5 ]
-        %tmp.77 = lgetv %dc;
-        %tmp.78 = getv function %tmp.77 :drawLine;
-        %tmp.80 = lgetv %center.3;
-        %tmp.82 = lgetv %center.3;
-        %tmp.84 = lgetv %x.4;
-        %tmp.86 = lgetv %y.5;
-        invoke %tmp.77 %tmp.78(%tmp.80, %tmp.82, %tmp.84, %tmp.86);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_285_82_stop:
+        %tmp.49 = getv function %tmp.48 :sin;
+        %tmp.51 = lgetv %angle.1;
+        %tmp.52 = invoke %tmp.48 %tmp.49(%tmp.51);
+        %tmp.54 = lgetv %length;
+        %tmp.55 = mul %tmp.52 %tmp.54;
+        %tmp.56 = invoke %tmp.45 %tmp.46(%tmp.55);
+        %tmp.57 = add %tmp.43 %tmp.56;
+        lputv %y.4 %tmp.57;
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 222 5 ]
+        %tmp.58 = lgetv %dc;
+        %tmp.59 = getv function %tmp.58 :setColor;
+        %tmp.61 = getv ? :second_hand_color;
+        %tmp.62 = getm $.Toybox.Graphics;
+        %tmp.63 = getv %tmp.62 :COLOR_TRANSPARENT;
+        invoke %tmp.58 %tmp.59(%tmp.61, %tmp.63);
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 223 5 ]
+        %tmp.64 = lgetv %dc;
+        %tmp.65 = getv function %tmp.64 :drawLine;
+        %tmp.67 = lgetv %center.2;
+        %tmp.69 = lgetv %center.2;
+        %tmp.71 = lgetv %x.3;
+        %tmp.73 = lgetv %y.4;
+        invoke %tmp.64 %tmp.65(%tmp.67, %tmp.69, %tmp.71, %tmp.73);
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_213_63_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 498; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 422; ]
     private
     function setClockDisplay() {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 499 8 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_422_39_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 423 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_422_39_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_422_39_stop" ]
         %clockTime.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getClockTime;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %clockTime.1 %tmp.3;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 505 8 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 429 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_422_39_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_422_39_stop" ]
         %timeString.2 = local;
         %tmp.4 = getm $.Toybox.Lang;
         %tmp.5 = getv function %tmp.4 :format;
@@ -1538,8 +1041,8 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_star
         %tmp.25 = aputv %tmp.24 2 %tmp.23;
         %tmp.26 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.25);
         lputv %timeString.2 %tmp.26;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 508 8 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 432 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_422_39_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_422_39_stop" ]
         %timeDisplay.3 = local;
         %tmp.28 = getv ? :View;
         %tmp.29 = getv function %tmp.28 :findDrawableById;
@@ -1547,7 +1050,7 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_star
         %tmp.31 = invoke %tmp.28 %tmp.29(%tmp.30);
         %tmp.32 = as %tmp.31 Text;
         lputv %timeDisplay.3 %tmp.32;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 509 8 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 433 8 ]
         %tmp.33 = lgetv %timeDisplay.3;
         %tmp.34 = getv function %tmp.33 :setColor;
         %tmp.35 = getm $.Toybox.Application;
@@ -1557,26 +1060,26 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_star
         %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
         %tmp.40 = as %tmp.39 Number;
         invoke %tmp.33 %tmp.34(%tmp.40);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 510 8 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 434 8 ]
         %tmp.41 = lgetv %timeDisplay.3;
         %tmp.42 = getv function %tmp.41 :setText;
         %tmp.44 = lgetv %timeString.2;
         invoke %tmp.41 %tmp.42(%tmp.44);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_498_39_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_422_39_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 513; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 437; ]
     private
     function setDateDisplay() {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 514 8 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 438 8 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_stop" ]
         %now.1 = local;
         %tmp.2 = getv ? :Time;
         %tmp.3 = getv function %tmp.2 :now;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %now.1 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 515 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 439 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_stop" ]
         %date.2 = local;
         %tmp.5 = getm $.Toybox.Time.Gregorian;
         %tmp.6 = getv function %tmp.5 :info;
@@ -1585,8 +1088,8 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_star
         %tmp.11 = getv %tmp.10 :FORMAT_LONG;
         %tmp.12 = invoke %tmp.5 %tmp.6(%tmp.8, %tmp.11);
         lputv %date.2 %tmp.12;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 516 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 440 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_stop" ]
         %dateString.3 = local;
         %tmp.13 = getm $.Toybox.Lang;
         %tmp.14 = getv function %tmp.13 :format;
@@ -1606,8 +1109,8 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_star
         %tmp.28 = aputv %tmp.27 2 %tmp.26;
         %tmp.29 = invoke %tmp.13 %tmp.14(%tmp.15, %tmp.28);
         lputv %dateString.3 %tmp.29;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 518 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 442 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_stop" ]
         %dateDisplay.4 = local;
         %tmp.31 = getv ? :View;
         %tmp.32 = getv function %tmp.31 :findDrawableById;
@@ -1615,7 +1118,7 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_star
         %tmp.34 = invoke %tmp.31 %tmp.32(%tmp.33);
         %tmp.35 = as %tmp.34 Text;
         lputv %dateDisplay.4 %tmp.35;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 519 8 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 443 8 ]
         %tmp.36 = lgetv %dateDisplay.4;
         %tmp.37 = getv function %tmp.36 :setColor;
         %tmp.38 = getm $.Toybox.Application;
@@ -1625,27 +1128,27 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_star
         %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
         %tmp.43 = as %tmp.42 Number;
         invoke %tmp.36 %tmp.37(%tmp.43);
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 520 5 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 444 5 ]
         %tmp.44 = lgetv %dateDisplay.4;
         %tmp.45 = getv function %tmp.44 :setText;
         %tmp.47 = lgetv %dateString.3;
         invoke %tmp.44 %tmp.45(%tmp.47);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_513_38_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_437_38_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 523; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 447; ]
     private
     function setBatteryDisplay() {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_523_41_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 524 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_523_41_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_523_41_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_447_41_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 448 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_447_41_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_447_41_stop" ]
         %battery.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getSystemStats;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = getv %tmp.3 :battery;
         lputv %battery.1 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 525 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_523_41_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_523_41_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 449 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_447_41_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_447_41_stop" ]
         %batteryDisplay.2 = local;
         %tmp.6 = getv ? :View;
         %tmp.7 = getv function %tmp.6 :findDrawableById;
@@ -1653,7 +1156,7 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_523_41_star
         %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
         %tmp.10 = as %tmp.9 Text;
         lputv %batteryDisplay.2 %tmp.10;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 527 5 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 451 5 ]
         %tmp.11 = lgetv %batteryDisplay.2;
         %tmp.12 = getv function %tmp.11 :setText;
         %tmp.13 = lgetv %battery.1;
@@ -1663,14 +1166,14 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_523_41_star
         %tmp.17 = "%";
         %tmp.18 = add %tmp.16 %tmp.17;
         invoke %tmp.11 %tmp.12(%tmp.18);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_523_41_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_447_41_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 530; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 454; ]
     private
     function setStepCountDisplay() {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_530_43_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 531 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_530_43_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_530_43_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_454_43_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 455 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_454_43_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_454_43_stop" ]
         %stepCount.1 = local;
         %tmp.2 = getv ? :ActivityMonitor;
         %tmp.3 = getv function %tmp.2 :getInfo;
@@ -1679,8 +1182,8 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_530_43_star
         %tmp.6 = getv function %tmp.5 :toString;
         %tmp.7 = invoke %tmp.5 %tmp.6();
         lputv %stepCount.1 %tmp.7;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 532 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_530_43_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_530_43_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 456 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_454_43_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_454_43_stop" ]
         %stepCountDisplay.2 = local;
         %tmp.9 = getv ? :View;
         %tmp.10 = getv function %tmp.9 :findDrawableById;
@@ -1688,19 +1191,19 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_530_43_star
         %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
         %tmp.13 = as %tmp.12 Text;
         lputv %stepCountDisplay.2 %tmp.13;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 534 5 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 458 5 ]
         %tmp.14 = lgetv %stepCountDisplay.2;
         %tmp.15 = getv function %tmp.14 :setText;
         %tmp.17 = lgetv %stepCount.1;
         invoke %tmp.14 %tmp.15(%tmp.17);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_530_43_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_454_43_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 537; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 461; ]
     private
     function setStepGoalDisplay() {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_537_42_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 538 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_537_42_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_537_42_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_461_42_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 462 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_461_42_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_461_42_stop" ]
         %stepGoalPercent.1 = local;
         %tmp.2 = getv ? :ActivityMonitor;
         %tmp.3 = getv function %tmp.2 :getInfo;
@@ -1718,8 +1221,8 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_537_42_star
         %tmp.16 = 100f;
         %tmp.17 = mul %tmp.15 %tmp.16;
         lputv %stepGoalPercent.1 %tmp.17;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 539 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_537_42_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_537_42_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 463 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_461_42_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_461_42_stop" ]
         %stepGoalDisplay.2 = local;
         %tmp.19 = getv ? :View;
         %tmp.20 = getv function %tmp.19 :findDrawableById;
@@ -1727,7 +1230,7 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_537_42_star
         %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
         %tmp.23 = as %tmp.22 Text;
         lputv %stepGoalDisplay.2 %tmp.23;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 541 5 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 465 5 ]
         %tmp.24 = lgetv %stepGoalDisplay.2;
         %tmp.25 = getv function %tmp.24 :setText;
         %tmp.26 = lgetv %stepGoalPercent.1;
@@ -1737,50 +1240,50 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_537_42_star
         %tmp.30 = "%";
         %tmp.31 = add %tmp.29 %tmp.30;
         invoke %tmp.24 %tmp.25(%tmp.31);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_537_42_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_461_42_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 544; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 468; ]
     private
     function setNotificationCountDisplay() {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_544_51_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 545 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_544_51_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_544_51_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_468_51_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 469 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_468_51_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_468_51_stop" ]
         %notificationAmount.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getDeviceSettings;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = getv %tmp.3 :notificationCount;
         lputv %notificationAmount.1 %tmp.4;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 546 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_544_51_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_544_51_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 470 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_468_51_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_468_51_stop" ]
         %formattedNotificationAmount.2 = local;
         %tmp.5 = "";
         lputv %formattedNotificationAmount.2 %tmp.5;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 548 5 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_548_5_if_stmt:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 472 5 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_472_5_if_stmt:
         %tmp.7 = lgetv %notificationAmount.1;
         %tmp.8 = 10;
         %tmp.9 = gt %tmp.7 %tmp.8;
-        bf %tmp.9 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_548_5_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_548_5_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_548_33_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 549 6 ]
+        bf %tmp.9 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_472_5_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_472_5_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_472_33_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 473 6 ]
         %tmp.10 = "10+";
         lputv %formattedNotificationAmount.2 %tmp.10;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_548_33_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_548_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_548_5_if_false:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_551_10_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 552 6 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_472_33_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_472_5_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_472_5_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_475_10_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 476 6 ]
         %tmp.11 = lgetv %notificationAmount.1;
         %tmp.12 = getv function %tmp.11 :format;
         %tmp.13 = "%d";
         %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
         lputv %formattedNotificationAmount.2 %tmp.14;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_551_10_stop:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_548_5_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 554 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_544_51_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_544_51_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_475_10_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_472_5_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 478 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_468_51_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_468_51_stop" ]
         %notificationCountDisplay.3 = local;
         %tmp.16 = getv ? :View;
         %tmp.17 = getv function %tmp.16 :findDrawableById;
@@ -1788,46 +1291,46 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_548_5_if_en
         %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
         %tmp.20 = as %tmp.19 Text;
         lputv %notificationCountDisplay.3 %tmp.20;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 556 5 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 480 5 ]
         %tmp.21 = lgetv %notificationCountDisplay.3;
         %tmp.22 = getv function %tmp.21 :setText;
         %tmp.24 = lgetv %formattedNotificationAmount.2;
         invoke %tmp.21 %tmp.22(%tmp.24);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_544_51_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_468_51_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 559; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 483; ]
     private
     function setHeartrateDisplay() {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_559_43_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 560 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_559_43_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_559_43_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_483_43_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 484 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_483_43_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_483_43_stop" ]
         %heartRate.1 = local;
         %tmp.1 = "";
         lputv %heartRate.1 %tmp.1;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 562 5 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_562_5_if_stmt:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 486 5 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_486_5_if_stmt:
         %tmp.3 = getv ? :ActivityMonitor;
         %tmp.5 = const :INVALID_HR_SAMPLE;
         %tmp.6 = canhazplz %tmp.3 %tmp.5;
-        bf %tmp.6 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_562_5_if_false;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_562_5_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_562_48_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 563 6 ]
+        bf %tmp.6 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_486_5_if_false;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_486_5_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_486_48_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 487 6 ]
         %tmp.7 = self;
         %tmp.8 = getv function %tmp.7 :retrieveHeartrateText;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         lputv %heartRate.1 %tmp.9;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_562_48_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_562_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_562_5_if_false:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_565_10_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 566 6 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_486_48_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_486_5_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_486_5_if_false:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_489_10_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 490 6 ]
         %tmp.10 = "";
         lputv %heartRate.1 %tmp.10;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_565_10_stop:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_562_5_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 568 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_559_43_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_559_43_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_489_10_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_486_5_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 492 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_483_43_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_483_43_stop" ]
         %heartrateDisplay.2 = local;
         %tmp.12 = getv ? :View;
         %tmp.13 = getv function %tmp.12 :findDrawableById;
@@ -1835,19 +1338,19 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_562_5_if_en
         %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
         %tmp.16 = as %tmp.15 Text;
         lputv %heartrateDisplay.2 %tmp.16;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 570 5 ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 494 5 ]
         %tmp.17 = lgetv %heartrateDisplay.2;
         %tmp.18 = getv function %tmp.17 :setText;
         %tmp.20 = lgetv %heartRate.1;
         invoke %tmp.17 %tmp.18(%tmp.20);
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_559_43_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_483_43_stop:
     }
-    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 573; ]
+    [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 497; ]
     private
     function retrieveHeartrateText() {
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_573_45_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 574 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_573_45_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_573_45_stop" ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_497_45_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 498 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_497_45_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_497_45_stop" ]
         %heartrateIterator.1 = local;
         %tmp.2 = getv ? :ActivityMonitor;
         %tmp.3 = getv function %tmp.2 :getHeartRateHistory;
@@ -1855,36 +1358,36 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_573_45_star
         %tmp.5 = false;
         %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
         lputv %heartrateIterator.1 %tmp.6;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 575 5 ]
-        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_573_45_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_573_45_stop" ]
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 499 5 ]
+        [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_497_45_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_497_45_stop" ]
         %currentHeartrate.2 = local;
         %tmp.7 = lgetv %heartrateIterator.1;
         %tmp.8 = getv function %tmp.7 :next;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = getv %tmp.9 :heartRate;
         lputv %currentHeartrate.2 %tmp.10;
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 577 5 ]
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_577_5_if_stmt:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 501 5 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_501_5_if_stmt:
         %tmp.12 = lgetv %currentHeartrate.2;
         %tmp.14 = getv ? :ActivityMonitor;
         %tmp.15 = getv %tmp.14 :INVALID_HR_SAMPLE;
         %tmp.16 = eq %tmp.12 %tmp.15;
-        bf %tmp.16 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_577_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_577_5_if_true:
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_577_63_start:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 578 6 ]
+        bf %tmp.16 @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_501_5_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_501_5_if_true:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_501_63_start:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 502 6 ]
         %tmp.17 = "";
         ret %tmp.17;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_577_63_stop:
-        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_577_5_if_end;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_577_5_if_end:
-[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 580 5 ]
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_501_63_stop:
+        goto @C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_501_5_if_end;
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_501_5_if_end:
+[ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc" 504 5 ]
         %tmp.18 = lgetv %currentHeartrate.2;
         %tmp.19 = getv function %tmp.18 :format;
         %tmp.20 = "%d";
         %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
         ret %tmp.21;
-C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_573_45_stop:
+C_Users_Ronnie_Documents_ConnectIQ_WatchFace_source_WatchFaceView_mc_497_45_stop:
     }
 }
 [ @file = "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\source\WatchFaceView.mc"; @line = 1; ]

@@ -43,10 +43,10 @@ module Rez {
 C_Users_Ronnie_Documents_ConnectIQ_WatchFace_bin_gen_006_B4257_00_source_Rez_mcgen_19_73_start:
 [ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\bin\gen\006-B4257-00\source\Rez.mcgen" 20 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_bin_gen_006_B4257_00_source_Rez_mcgen_19_73_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_bin_gen_006_B4257_00_source_Rez_mcgen_19_73_stop" ]
-            %rez_cmp_local_custom_drawable_18640282184118548490.1 = local;
+            %rez_cmp_local_custom_drawable_49590116138211082865.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_18640282184118548490.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_49590116138211082865.1 %tmp.1;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\bin\gen\006-B4257-00\source\Rez.mcgen" 22 12 ]
             [ "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_bin_gen_006_B4257_00_source_Rez_mcgen_19_73_start" "C_Users_Ronnie_Documents_ConnectIQ_WatchFace_bin_gen_006_B4257_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_TimeDisplay.2 = local;
@@ -94,7 +94,7 @@ C_Users_Ronnie_Documents_ConnectIQ_WatchFace_bin_gen_006_B4257_00_source_Rez_mcg
             lputv %rez_cmp_local_text_TimeDisplay.2 %tmp.5;
 [ "C:\Users\Ronnie\Documents\ConnectIQ\WatchFace\bin\gen\006-B4257-00\source\Rez.mcgen" 24 12 ]
             %tmp.53 = newa Array<WatchUi.Drawable> 2;
-            %tmp.55 = lgetv %rez_cmp_local_custom_drawable_18640282184118548490.1;
+            %tmp.55 = lgetv %rez_cmp_local_custom_drawable_49590116138211082865.1;
             %tmp.56 = dup %tmp.53;
             %tmp.57 = aputv %tmp.56 0 %tmp.55;
             %tmp.59 = lgetv %rez_cmp_local_text_TimeDisplay.2;

@@ -25,14 +25,13 @@ class WatchFaceView extends WatchUi.WatchFace {
 	var RBD = 0;
 	var version;
 	var showBoxes;
-	var background_color_1;
-	var background_color_2;
+	var background_color  = Graphics.COLOR_BLACK;
 	var background_image;
 	var use_background_image;
-	var foreground_color;
+	var foreground_color = Graphics.COLOR_WHITE;
 	var box_color;
-	var second_hand_color;
-	var hour_min_hand_color;
+	var second_hand_color = Graphics.COLOR_RED;
+	var hour_min_hand_color = Graphics.COLOR_WHITE;
 	var text_color;
 	var tick_style;
 	var show_min_ticks;
@@ -42,10 +41,10 @@ class WatchFaceView extends WatchUi.WatchFace {
 	
     //relative to width percentage
 	var relative_tick_stroke = .01;
-    var relative_hour_tick_length = .08;
+    var relative_hour_tick_length = .04;
     var relative_min_tick_length = .04;
-    var relative_hour_tick_stroke = .04;
-    var relative_min_tick_stroke = .04;
+    var relative_hour_tick_stroke = .02;
+    var relative_min_tick_stroke = .003;
 	var relative_min_circle_tick_size = .01;
 	var relative_hour_circle_tick_size = .02;
 	var relative_hour_triangle_tick_size = .04;
@@ -83,17 +82,15 @@ class WatchFaceView extends WatchUi.WatchFace {
         width = dc.getWidth();
         height = dc.getHeight();
 
-//        System.println(breedte + "-" + hoogte);
-
 //		mainFont = WatchUi.loadResource(Rez.Fonts.BigFont);
 //		iconFont = WatchUi.loadResource(Rez.Fonts.BigIconFont);
-		dow_size = [44 * 1.5, 19* 1.5];
+/*		dow_size = [44 * 1.5, 19* 1.5];
 		date_size = [24* 1.5, 19* 1.5];
 		time_size = [48* 1.5, 19* 1.5];
 		floors_size = [48* 1.5, 19* 1.5];
 		battery_size = [32*1.5, 19*1.5];
 		status_box_size = [94*1.5, 19*1.5];
-
+*/
 		//updateValues(dc.getWidth());
     }
 
@@ -107,9 +104,28 @@ class WatchFaceView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Get the current time and format it correctly
+        //setClockDisplay();
+        // Call the parent onUpdate function to redraw the layout
+        //View.onUpdate(dc);
+
+		// Get System Time
+		var clockTime = System.getClockTime();
+		var hours = clockTime.hour;
+		var minutes = clockTime.min;
+		var seconds = clockTime.sec;
+
+		// Set minute and hour circle
         setAchterGrondDisplay(dc);
 
-        setClockDisplay();
+//    	drawDate(dc, centerOnLeft(dc, dow_size[0] + 4 + date_size[0]), width/2 - dow_size[1]/2);	
+//		drawBox(dc);
+//		drawStatusBox(dc, width/2, centerOnLeft(dc, status_box_size[1]));
+
+		//Set hour and minute hand
+	   	dc.setColor(hour_min_hand_color, Graphics.COLOR_TRANSPARENT);
+    	drawHand(dc, 12, hours, relative_hour_hand_length*width, relative_hour_hand_stroke*width);
+    	drawHand(dc, 60, minutes, relative_min_hand_length*width, relative_min_hand_stroke*width);
+		drawSecondHandClip(dc, 60, seconds, relative_sec_hand_length*width, relative_sec_hand_stroke*width);
 
         //setDateDisplay();
         //setBatteryDisplay();
@@ -117,8 +133,6 @@ class WatchFaceView extends WatchUi.WatchFace {
         //setStepGoalDisplay();
         ////setNotificationCountDisplay();
         //setHeartrateDisplay();
-        // Call the parent onUpdate function to redraw the layout
-        //View.onUpdate(dc);
     }
 
     // Called when this View is removed from the screen. Save the
@@ -138,165 +152,77 @@ class WatchFaceView extends WatchUi.WatchFace {
     }
 
     private function setAchterGrondDisplay(dc as Dc) as Void {
-    	dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+    	dc.setColor(background_color, background_color);
     	dc.clear();
-        var tick_style = 1;
 		var show_min_ticks = true;
 
-   		if (tick_style == 1) {
-    		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-			if(show_min_ticks) {
-				drawTicks(dc, relative_hour_tick_length*width, relative_hour_tick_stroke*width, 12);
-    			drawTicks(dc, relative_min_tick_length*width, relative_min_tick_stroke*width, 60);
-			} else {
-				drawTicks(dc, relative_min_tick_length*width, relative_min_tick_stroke*width, 12);
-			}
-		} else if(tick_style == 2) {
-			dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-			if(show_min_ticks) {
-				drawTicksCircle(dc, relative_hour_circle_tick_size*width, 1, 12);
-    			drawTicksCircle(dc, relative_min_circle_tick_size*width, 1, 60);
-			} else {
-				drawTicksCircle(dc, relative_min_circle_tick_size*width, 1, 12);
-			}
-		} else if(tick_style == 3) {
-			dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-			if(show_min_ticks) {
-				drawTicksTriangle(dc, relative_hour_triangle_tick_size*width, 1, 12);
-    			drawTicksTriangle(dc, relative_min_triangle_tick_size*width, 1, 60);
-			} else {
-				drawTicksTriangle(dc, relative_min_triangle_tick_size*width, 1, 12);
-			}
+		dc.setColor(foreground_color, Graphics.COLOR_TRANSPARENT);
+		if(show_min_ticks) {
+			drawTicksMinuten(dc, relative_min_tick_length*width, relative_min_tick_stroke*width, 60);
 		}
-    	/*drawDate(dc, centerOnLeft(dc, dow_size[0] + 4 + date_size[0]), width/2 - dow_size[1]/2);	
-		drawBox(dc);
-		drawStatusBox(dc, width/2, centerOnLeft(dc, status_box_size[1]));
-    	
-    	dc.setColor(hour_min_hand_color, Graphics.COLOR_TRANSPARENT);
-    	drawHandOffset(dc, 12.00, 60.00, hours, minutes, relative_hour_hand_length*width, relative_hour_hand_stroke*width);
-
-    	drawHand(dc, 60, minutes, relative_min_hand_length*width, relative_min_hand_stroke*width);
-		*/
+		drawTicksUren(dc, relative_hour_tick_length*width, relative_hour_tick_stroke*width, 12);
     }
 
-    function drawTicks(dc, length, stroke, num) {
-		dc.setPenWidth(dc.getWidth() * relative_tick_stroke);
+    function drawTicksMinuten(dc, length, stroke, num) {
+		dc.setPenWidth(stroke);
     	var tickAngle = 360/num;
     	var center = dc.getWidth()/2;
     	for(var i = 0; i < num; i++) {
     		var angle = Math.toRadians(tickAngle * i);
     		var x1 = center + Math.round(Math.cos(angle) * (center-length));
     		var y1 = center + Math.round(Math.sin(angle) * (center-length));
-    		//2x^2 = 20
-    		//x=10^0.5
     		var x2 = center + Math.round(Math.cos(angle) * (center));
     		var y2 = center + Math.round(Math.sin(angle) * (center));
-    		
     		dc.drawLine(x1, y1, x2, y2);
     	}
     }
 
-	function drawTicksCircle(dc, size, stroke, num) {
-		dc.setPenWidth(dc.getWidth() * relative_tick_stroke);
+	function drawTicksUren(dc, length, stroke, num) {
+		dc.setPenWidth(stroke);
     	var tickAngle = 360/num;
-    	var center = dc.getWidth()/2;
-    	for(var i = 0; i < num; i++) {
-    		var angle = Math.toRadians(tickAngle * i);
-    		var x1 = center + Math.round(Math.cos(angle) * (center - size - 1)) - 1;
-    		var y1 = center + Math.round(Math.sin(angle) * (center - size - 1)) - 1;    		
-    		dc.fillEllipse(x1, y1, size, size);
-    	}
-	}
-
-	function drawTicksTriangle(dc, length, stroke, num) {
-		dc.setPenWidth(dc.getWidth() * relative_tick_stroke);
-    	var tickAngle = 360/num;
-    	var center = dc.getWidth()/2;
+    	var center = width/2;
     	for(var i = 0; i < num; i++) {
     		var angle = Math.toRadians(tickAngle * i);
 			var offset = Math.toRadians(2);
-    		var x1 = center + Math.round(Math.cos(angle) * (center-length));
-    		var y1 = center + Math.round(Math.sin(angle) * (center-length));
-    		//2x^2 = 20
-    		//x=10^0.5
-    		var x2 = center + Math.round(Math.cos(angle - offset) * (center));
-    		var y2 = center + Math.round(Math.sin(angle - offset) * (center));
-
-			var x3 = center + Math.round(Math.cos(angle + offset) * (center));
-    		var y3 = center + Math.round(Math.sin(angle + offset) * (center));
-    		
-    		dc.fillPolygon([[x1, y1], [x2, y2], [x3, y3]]);
+    		var x1 = center + Math.round(Math.cos(angle) * (center - length));
+    		var y1 = center + Math.round(Math.sin(angle) * (center - length));
+	   		var x2 = center + Math.round(Math.cos(angle - offset) * (center - (length/2)));
+    		var y2 = center + Math.round(Math.sin(angle - offset) * (center - (length/2)));
+    		var x3 = center + Math.round(Math.cos(angle - offset) * (center));
+    		var y3 = center + Math.round(Math.sin(angle - offset) * (center));
+			var x4 = center + Math.round(Math.cos(angle + offset) * (center));
+    		var y4 = center + Math.round(Math.sin(angle + offset) * (center));
+			var x5 = center + Math.round(Math.cos(angle + offset) * (center - (length/2)));
+    		var y5 = center + Math.round(Math.sin(angle + offset) * (center - (length/2)));
+    		dc.fillPolygon([[x1, y1], [x2, y2], [x3, y3], [x4, y4], [x5, y5]]);
     	}
     }
 
     function drawHand(dc, num, time, length, stroke) {
     	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
-    	
-    	var center = dc.getWidth()/2;
-    	
+    	var center = width/2;
+
     	dc.setPenWidth(stroke);
-    	
+
     	var x = center + Math.round((Math.cos(angle) * length));
     	var y = center + Math.round((Math.sin(angle) * length));
-    	
+
     	dc.drawLine(center, center, x, y);
-    	
     }
     
     function drawSecondHandClip(dc, num, time, length, stroke) {
-		dc.drawBitmap(0, 0, offScreenBuffer);
-
     	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
-    	var center = dc.getWidth()/2;
-    	dc.setPenWidth(stroke);
-    	
-    	var cosval = Math.round(Math.cos(angle) * length);
-    	var sinval = Math.round(Math.sin(angle) * length);
-    	
-    	var x = center + cosval;
-    	var y = center + sinval;
-    	var width2 = (center-x).abs();
-    	var height2 = (center-y).abs();
-    	var padding = width * relative_padding;
-    	var padding2 = width * relative_padding2;
-    	
-    	if(cosval < 0 && sinval > 0) {
-    		dc.setClip(center-width2-padding2, center-padding, width2+padding+padding2, height2+padding+padding2);
-    	}
-    	
-    	if(cosval < 0 && sinval < 0) {
-    		dc.setClip(center-width2-padding2, center-height2-padding2, width2+padding+padding2, height2+padding+padding2);
-    	}
-    	
-    	if(cosval > 0 && sinval < 0) {
-    		dc.setClip(center-padding, center-height2-padding2, width2+padding+padding2, height2+padding+padding2);
-    	}
-    	
-    	if(cosval > 0 && sinval > 0) {
-	    	dc.setClip(center-padding, center-padding, width2+padding+padding2, height2+padding+padding2);
-    	}
-    	
+    	var center = width/2;
 
-    	dc.setColor(second_hand_color, Graphics.COLOR_TRANSPARENT);
-    	dc.drawLine(center, center, x, y);    	
-    }
-    
-	//Draws a hand with an offset for a seperate time set (eg. hour hand)
-    function drawHandOffset(dc, num, offsetNum, time, offsetTime, length, stroke) {
-    	var angle = Math.toRadians((360/num) * time ) - Math.PI/2;
-    	var section = 360.00/num/offsetNum;
-    	
-    	angle += Math.toRadians(section * offsetTime);
-    	
-    	var center = dc.getWidth()/2;
-    	
     	dc.setPenWidth(stroke);
-    	
+
     	var x = center + Math.round(Math.cos(angle) * length);
     	var y = center + Math.round(Math.sin(angle) * length);
-    	
+
+    	dc.setColor(second_hand_color, Graphics.COLOR_TRANSPARENT);
     	dc.drawLine(center, center, x, y);
     }
+    
 /*
     function drawStatusBox(dc, x, y) {
 		var status_string = "";
@@ -355,10 +281,8 @@ class WatchFaceView extends WatchUi.WatchFace {
 		boxText.draw(dc);
     }
 */
-/*
-	function drawDate(dc, x, y) {
-//		var width = dc.getWidth();
-//		var height = dc.getHeight();
+
+/*	function drawDate(dc, x, y) {
     	var info = Gregorian.info(Time.now(), Time.FORMAT_LONG);
 		var dowString = info.day_of_week;
 		
