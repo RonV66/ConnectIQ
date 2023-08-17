@@ -6,391 +6,460 @@
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="10" parent="globals/WatchFaceView" pc="268435486" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="16" parent="globals/WatchFaceView" pc="268435504" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="38" parent="globals/WatchFaceView" pc="268435533" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="65" parent="globals/WatchFaceView" pc="268435573" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="67" parent="globals/WatchFaceView" pc="268435613" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="68" parent="globals/WatchFaceView" pc="268435653" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="69" parent="globals/WatchFaceView" pc="268435693" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="70" parent="globals/WatchFaceView" pc="268435733" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="71" parent="globals/WatchFaceView" pc="268435773" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="72" parent="globals/WatchFaceView" pc="268435813" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="3" lineNum="454" parent="globals/WatchFaceView" pc="268435854" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="3" lineNum="455" parent="globals/WatchFaceView" pc="268435858" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="3" lineNum="456" parent="globals/WatchFaceView" pc="268435892" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="3" lineNum="458" parent="globals/WatchFaceView" pc="268435920" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="447" parent="globals/WatchFaceView" pc="268435935" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="448" parent="globals/WatchFaceView" pc="268435939" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="449" parent="globals/WatchFaceView" pc="268435962" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="451" parent="globals/WatchFaceView" pc="268435990" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="79" parent="globals/WatchFaceView" pc="268436025" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="80" parent="globals/WatchFaceView" pc="268436027" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="82" parent="globals/WatchFaceView" pc="268436068" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="83" parent="globals/WatchFaceView" pc="268436087" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="6" lineNum="150" parent="globals/WatchFaceView" pc="268436107" symbol="onEnterSleep"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="6" lineNum="151" parent="globals/WatchFaceView" pc="268436109" symbol="onEnterSleep"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="180" parent="globals/WatchFaceView" pc="268436120" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="181" parent="globals/WatchFaceView" pc="268436124" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="182" parent="globals/WatchFaceView" pc="268436138" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="183" parent="globals/WatchFaceView" pc="268436148" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="184" parent="globals/WatchFaceView" pc="268436164" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="185" parent="globals/WatchFaceView" pc="268436179" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="186" parent="globals/WatchFaceView" pc="268436203" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="187" parent="globals/WatchFaceView" pc="268436227" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="188" parent="globals/WatchFaceView" pc="268436274" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="189" parent="globals/WatchFaceView" pc="268436321" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="190" parent="globals/WatchFaceView" pc="268436377" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="191" parent="globals/WatchFaceView" pc="268436433" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="192" parent="globals/WatchFaceView" pc="268436480" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="193" parent="globals/WatchFaceView" pc="268436527" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="194" parent="globals/WatchFaceView" pc="268436574" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="195" parent="globals/WatchFaceView" pc="268436621" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="196" parent="globals/WatchFaceView" pc="268436677" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="197" parent="globals/WatchFaceView" pc="268436733" symbol="drawTicksUren"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="8" lineNum="461" parent="globals/WatchFaceView" pc="268436935" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="8" lineNum="462" parent="globals/WatchFaceView" pc="268436939" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="8" lineNum="463" parent="globals/WatchFaceView" pc="268437012" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="8" lineNum="465" parent="globals/WatchFaceView" pc="268437040" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="468" parent="globals/WatchFaceView" pc="268437075" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="469" parent="globals/WatchFaceView" pc="268437079" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="470" parent="globals/WatchFaceView" pc="268437102" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="472" parent="globals/WatchFaceView" pc="268437109" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="473" parent="globals/WatchFaceView" pc="268437120" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="476" parent="globals/WatchFaceView" pc="268437130" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="478" parent="globals/WatchFaceView" pc="268437148" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="480" parent="globals/WatchFaceView" pc="268437176" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="483" parent="globals/WatchFaceView" pc="268437191" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="484" parent="globals/WatchFaceView" pc="268437195" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="486" parent="globals/WatchFaceView" pc="268437202" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="487" parent="globals/WatchFaceView" pc="268437219" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="490" parent="globals/WatchFaceView" pc="268437235" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="492" parent="globals/WatchFaceView" pc="268437242" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="494" parent="globals/WatchFaceView" pc="268437270" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="213" parent="globals/WatchFaceView" pc="268437285" symbol="drawSecondHandClip"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="214" parent="globals/WatchFaceView" pc="268437289" symbol="drawSecondHandClip"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="215" parent="globals/WatchFaceView" pc="268437325" symbol="drawSecondHandClip"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="217" parent="globals/WatchFaceView" pc="268437341" symbol="drawSecondHandClip"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="219" parent="globals/WatchFaceView" pc="268437355" symbol="drawSecondHandClip"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="220" parent="globals/WatchFaceView" pc="268437399" symbol="drawSecondHandClip"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="222" parent="globals/WatchFaceView" pc="268437443" symbol="drawSecondHandClip"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="223" parent="globals/WatchFaceView" pc="268437468" symbol="drawSecondHandClip"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="13" lineNum="145" parent="globals/WatchFaceView" pc="268437489" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="13" lineNum="146" parent="globals/WatchFaceView" pc="268437491" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="201" parent="globals/WatchFaceView" pc="268437502" symbol="drawHand"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="202" parent="globals/WatchFaceView" pc="268437506" symbol="drawHand"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="203" parent="globals/WatchFaceView" pc="268437542" symbol="drawHand"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="205" parent="globals/WatchFaceView" pc="268437558" symbol="drawHand"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="207" parent="globals/WatchFaceView" pc="268437572" symbol="drawHand"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="208" parent="globals/WatchFaceView" pc="268437616" symbol="drawHand"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="210" parent="globals/WatchFaceView" pc="268437660" symbol="drawHand"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="15" lineNum="422" parent="globals/WatchFaceView" pc="268437681" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="15" lineNum="423" parent="globals/WatchFaceView" pc="268437685" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="15" lineNum="429" parent="globals/WatchFaceView" pc="268437702" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="15" lineNum="432" parent="globals/WatchFaceView" pc="268437806" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="15" lineNum="433" parent="globals/WatchFaceView" pc="268437834" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="15" lineNum="434" parent="globals/WatchFaceView" pc="268437872" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="437" parent="globals/WatchFaceView" pc="268437887" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="438" parent="globals/WatchFaceView" pc="268437891" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="439" parent="globals/WatchFaceView" pc="268437910" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="440" parent="globals/WatchFaceView" pc="268437934" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="442" parent="globals/WatchFaceView" pc="268438010" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="443" parent="globals/WatchFaceView" pc="268438038" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="444" parent="globals/WatchFaceView" pc="268438076" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="18" lineNum="497" parent="globals/WatchFaceView" pc="268438091" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="18" lineNum="498" parent="globals/WatchFaceView" pc="268438095" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="18" lineNum="499" parent="globals/WatchFaceView" pc="268438117" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="18" lineNum="501" parent="globals/WatchFaceView" pc="268438136" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="18" lineNum="502" parent="globals/WatchFaceView" pc="268438147" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="18" lineNum="504" parent="globals/WatchFaceView" pc="268438156" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="154" parent="globals/WatchFaceView" pc="268438173" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="155" parent="globals/WatchFaceView" pc="268438177" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="156" parent="globals/WatchFaceView" pc="268438205" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="157" parent="globals/WatchFaceView" pc="268438217" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="159" parent="globals/WatchFaceView" pc="268438221" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="160" parent="globals/WatchFaceView" pc="268438246" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="161" parent="globals/WatchFaceView" pc="268438251" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="163" parent="globals/WatchFaceView" pc="268438307" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="166" parent="globals/WatchFaceView" pc="268438361" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="167" parent="globals/WatchFaceView" pc="268438365" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="168" parent="globals/WatchFaceView" pc="268438379" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="169" parent="globals/WatchFaceView" pc="268438389" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="170" parent="globals/WatchFaceView" pc="268438408" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="171" parent="globals/WatchFaceView" pc="268438423" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="172" parent="globals/WatchFaceView" pc="268438447" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="173" parent="globals/WatchFaceView" pc="268438494" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="174" parent="globals/WatchFaceView" pc="268438541" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="175" parent="globals/WatchFaceView" pc="268438585" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="176" parent="globals/WatchFaceView" pc="268438629" symbol="drawTicksMinuten"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="74" parent="globals/WatchFaceView" pc="268438663" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="75" parent="globals/WatchFaceView" pc="268438665" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="105" parent="globals/WatchFaceView" pc="268438684" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="112" parent="globals/WatchFaceView" pc="268438688" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="113" parent="globals/WatchFaceView" pc="268438705" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="114" parent="globals/WatchFaceView" pc="268438715" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="115" parent="globals/WatchFaceView" pc="268438725" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="118" parent="globals/WatchFaceView" pc="268438735" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="125" parent="globals/WatchFaceView" pc="268438749" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="126" parent="globals/WatchFaceView" pc="268438774" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="127" parent="globals/WatchFaceView" pc="268438829" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="128" parent="globals/WatchFaceView" pc="268438884" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="23" lineNum="6" parent="globals/Background" pc="268438940" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="24" lineNum="8" parent="globals/Background" pc="268438959" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="24" lineNum="9" parent="globals/Background" pc="268438963" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="24" lineNum="13" parent="globals/Background" pc="268438984" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="25" lineNum="16" parent="globals/Background" pc="268439005" symbol="draw"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="25" lineNum="18" parent="globals/Background" pc="268439007" symbol="draw"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="25" lineNum="19" parent="globals/Background" pc="268439050" symbol="draw"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="26" lineNum="7" parent="globals/Rez" pc="268439063" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="27" lineNum="5" parent="globals/WatchFaceApp" pc="268439087" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="28" lineNum="12" parent="globals/WatchFaceApp" pc="268439106" symbol="onStart"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="29" lineNum="25" parent="globals/WatchFaceApp" pc="268439109" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="29" lineNum="26" parent="globals/WatchFaceApp" pc="268439111" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="30" lineNum="20" parent="globals/WatchFaceApp" pc="268439128" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="30" lineNum="21" parent="globals/WatchFaceApp" pc="268439130" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="31" lineNum="7" parent="globals/WatchFaceApp" pc="268439171" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="31" lineNum="8" parent="globals/WatchFaceApp" pc="268439173" symbol="initialize"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="32" lineNum="16" parent="globals/WatchFaceApp" pc="268439192" symbol="onStop"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="33" lineNum="19" parent="globals/Rez/Layouts" pc="268439195" symbol="WatchFace"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="33" lineNum="20" parent="globals/Rez/Layouts" pc="268439207" symbol="WatchFace"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="33" lineNum="22" parent="globals/Rez/Layouts" pc="268439235" symbol="WatchFace"/>
-        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="33" lineNum="24" parent="globals/Rez/Layouts" pc="268439370" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="40" parent="globals/WatchFaceView" pc="268435533" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="67" parent="globals/WatchFaceView" pc="268435573" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="69" parent="globals/WatchFaceView" pc="268435613" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="70" parent="globals/WatchFaceView" pc="268435653" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="71" parent="globals/WatchFaceView" pc="268435693" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="72" parent="globals/WatchFaceView" pc="268435733" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="73" parent="globals/WatchFaceView" pc="268435773" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="74" parent="globals/WatchFaceView" pc="268435813" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="3" lineNum="499" parent="globals/WatchFaceView" pc="268435854" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="3" lineNum="500" parent="globals/WatchFaceView" pc="268435858" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="3" lineNum="501" parent="globals/WatchFaceView" pc="268435892" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="3" lineNum="503" parent="globals/WatchFaceView" pc="268435920" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="492" parent="globals/WatchFaceView" pc="268435935" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="493" parent="globals/WatchFaceView" pc="268435939" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="494" parent="globals/WatchFaceView" pc="268435962" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="496" parent="globals/WatchFaceView" pc="268435990" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="81" parent="globals/WatchFaceView" pc="268436025" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="82" parent="globals/WatchFaceView" pc="268436027" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="84" parent="globals/WatchFaceView" pc="268436068" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="85" parent="globals/WatchFaceView" pc="268436087" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="87" parent="globals/WatchFaceView" pc="268436106" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="88" parent="globals/WatchFaceView" pc="268436153" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="6" lineNum="154" parent="globals/WatchFaceView" pc="268436201" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="6" lineNum="155" parent="globals/WatchFaceView" pc="268436203" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="185" parent="globals/WatchFaceView" pc="268436214" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="186" parent="globals/WatchFaceView" pc="268436218" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="187" parent="globals/WatchFaceView" pc="268436228" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="188" parent="globals/WatchFaceView" pc="268436244" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="189" parent="globals/WatchFaceView" pc="268436251" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="190" parent="globals/WatchFaceView" pc="268436272" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="191" parent="globals/WatchFaceView" pc="268436296" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="192" parent="globals/WatchFaceView" pc="268436343" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="193" parent="globals/WatchFaceView" pc="268436390" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="200" parent="globals/WatchFaceView" pc="268436430" symbol="drawTicksUren"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="8" lineNum="506" parent="globals/WatchFaceView" pc="268436454" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="8" lineNum="507" parent="globals/WatchFaceView" pc="268436458" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="8" lineNum="508" parent="globals/WatchFaceView" pc="268436531" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="8" lineNum="510" parent="globals/WatchFaceView" pc="268436559" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="204" parent="globals/WatchFaceView" pc="268436594" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="205" parent="globals/WatchFaceView" pc="268436598" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="206" parent="globals/WatchFaceView" pc="268436612" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="207" parent="globals/WatchFaceView" pc="268436622" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="208" parent="globals/WatchFaceView" pc="268436638" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="209" parent="globals/WatchFaceView" pc="268436653" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="210" parent="globals/WatchFaceView" pc="268436677" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="211" parent="globals/WatchFaceView" pc="268436701" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="212" parent="globals/WatchFaceView" pc="268436748" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="213" parent="globals/WatchFaceView" pc="268436795" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="214" parent="globals/WatchFaceView" pc="268436851" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="215" parent="globals/WatchFaceView" pc="268436907" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="216" parent="globals/WatchFaceView" pc="268436954" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="217" parent="globals/WatchFaceView" pc="268437001" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="218" parent="globals/WatchFaceView" pc="268437048" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="219" parent="globals/WatchFaceView" pc="268437095" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="220" parent="globals/WatchFaceView" pc="268437151" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="221" parent="globals/WatchFaceView" pc="268437207" symbol="drawTicksUren1"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="225" parent="globals/WatchFaceView" pc="268437409" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="226" parent="globals/WatchFaceView" pc="268437413" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="227" parent="globals/WatchFaceView" pc="268437427" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="228" parent="globals/WatchFaceView" pc="268437437" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="229" parent="globals/WatchFaceView" pc="268437453" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="230" parent="globals/WatchFaceView" pc="268437468" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="231" parent="globals/WatchFaceView" pc="268437521" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="232" parent="globals/WatchFaceView" pc="268437545" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="233" parent="globals/WatchFaceView" pc="268437569" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="234" parent="globals/WatchFaceView" pc="268437619" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="235" parent="globals/WatchFaceView" pc="268437669" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="236" parent="globals/WatchFaceView" pc="268437716" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="237" parent="globals/WatchFaceView" pc="268437763" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="238" parent="globals/WatchFaceView" pc="268437810" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="239" parent="globals/WatchFaceView" pc="268437857" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="240" parent="globals/WatchFaceView" pc="268437907" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="10" lineNum="241" parent="globals/WatchFaceView" pc="268437957" symbol="drawTicksUren2"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="11" lineNum="513" parent="globals/WatchFaceView" pc="268438128" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="11" lineNum="514" parent="globals/WatchFaceView" pc="268438132" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="11" lineNum="515" parent="globals/WatchFaceView" pc="268438155" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="11" lineNum="517" parent="globals/WatchFaceView" pc="268438162" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="11" lineNum="518" parent="globals/WatchFaceView" pc="268438173" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="11" lineNum="521" parent="globals/WatchFaceView" pc="268438183" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="11" lineNum="523" parent="globals/WatchFaceView" pc="268438201" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="11" lineNum="525" parent="globals/WatchFaceView" pc="268438229" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="528" parent="globals/WatchFaceView" pc="268438244" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="529" parent="globals/WatchFaceView" pc="268438248" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="531" parent="globals/WatchFaceView" pc="268438255" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="532" parent="globals/WatchFaceView" pc="268438272" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="535" parent="globals/WatchFaceView" pc="268438288" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="537" parent="globals/WatchFaceView" pc="268438295" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="12" lineNum="539" parent="globals/WatchFaceView" pc="268438323" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="258" parent="globals/WatchFaceView" pc="268438338" symbol="drawSecondHandClip"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="259" parent="globals/WatchFaceView" pc="268438342" symbol="drawSecondHandClip"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="260" parent="globals/WatchFaceView" pc="268438378" symbol="drawSecondHandClip"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="262" parent="globals/WatchFaceView" pc="268438394" symbol="drawSecondHandClip"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="264" parent="globals/WatchFaceView" pc="268438408" symbol="drawSecondHandClip"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="265" parent="globals/WatchFaceView" pc="268438452" symbol="drawSecondHandClip"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="267" parent="globals/WatchFaceView" pc="268438496" symbol="drawSecondHandClip"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="14" lineNum="268" parent="globals/WatchFaceView" pc="268438521" symbol="drawSecondHandClip"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="15" lineNum="149" parent="globals/WatchFaceView" pc="268438542" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="15" lineNum="150" parent="globals/WatchFaceView" pc="268438544" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="16" lineNum="246" parent="globals/WatchFaceView" pc="268438555" symbol="drawHand"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="16" lineNum="247" parent="globals/WatchFaceView" pc="268438559" symbol="drawHand"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="16" lineNum="248" parent="globals/WatchFaceView" pc="268438595" symbol="drawHand"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="16" lineNum="250" parent="globals/WatchFaceView" pc="268438611" symbol="drawHand"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="16" lineNum="252" parent="globals/WatchFaceView" pc="268438625" symbol="drawHand"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="16" lineNum="253" parent="globals/WatchFaceView" pc="268438669" symbol="drawHand"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="16" lineNum="255" parent="globals/WatchFaceView" pc="268438713" symbol="drawHand"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="467" parent="globals/WatchFaceView" pc="268438734" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="468" parent="globals/WatchFaceView" pc="268438738" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="474" parent="globals/WatchFaceView" pc="268438755" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="477" parent="globals/WatchFaceView" pc="268438859" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="478" parent="globals/WatchFaceView" pc="268438887" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="17" lineNum="479" parent="globals/WatchFaceView" pc="268438925" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="482" parent="globals/WatchFaceView" pc="268438940" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="483" parent="globals/WatchFaceView" pc="268438944" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="484" parent="globals/WatchFaceView" pc="268438963" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="485" parent="globals/WatchFaceView" pc="268438987" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="487" parent="globals/WatchFaceView" pc="268439063" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="488" parent="globals/WatchFaceView" pc="268439091" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="19" lineNum="489" parent="globals/WatchFaceView" pc="268439129" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="542" parent="globals/WatchFaceView" pc="268439144" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="543" parent="globals/WatchFaceView" pc="268439148" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="544" parent="globals/WatchFaceView" pc="268439170" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="546" parent="globals/WatchFaceView" pc="268439189" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="547" parent="globals/WatchFaceView" pc="268439200" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="20" lineNum="549" parent="globals/WatchFaceView" pc="268439209" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="158" parent="globals/WatchFaceView" pc="268439226" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="159" parent="globals/WatchFaceView" pc="268439228" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="160" parent="globals/WatchFaceView" pc="268439256" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="162" parent="globals/WatchFaceView" pc="268439268" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="163" parent="globals/WatchFaceView" pc="268439293" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="164" parent="globals/WatchFaceView" pc="268439304" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="166" parent="globals/WatchFaceView" pc="268439360" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="167" parent="globals/WatchFaceView" pc="268439413" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="21" lineNum="168" parent="globals/WatchFaceView" pc="268439466" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="171" parent="globals/WatchFaceView" pc="268439500" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="172" parent="globals/WatchFaceView" pc="268439504" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="173" parent="globals/WatchFaceView" pc="268439518" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="174" parent="globals/WatchFaceView" pc="268439528" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="175" parent="globals/WatchFaceView" pc="268439547" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="176" parent="globals/WatchFaceView" pc="268439562" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="177" parent="globals/WatchFaceView" pc="268439586" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="178" parent="globals/WatchFaceView" pc="268439633" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="179" parent="globals/WatchFaceView" pc="268439680" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="180" parent="globals/WatchFaceView" pc="268439724" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="22" lineNum="181" parent="globals/WatchFaceView" pc="268439768" symbol="drawTicksMinuten"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="23" lineNum="76" parent="globals/WatchFaceView" pc="268439802" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="23" lineNum="77" parent="globals/WatchFaceView" pc="268439804" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="107" parent="globals/WatchFaceView" pc="268439823" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="114" parent="globals/WatchFaceView" pc="268439827" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="115" parent="globals/WatchFaceView" pc="268439844" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="116" parent="globals/WatchFaceView" pc="268439854" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="117" parent="globals/WatchFaceView" pc="268439864" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="120" parent="globals/WatchFaceView" pc="268439874" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="127" parent="globals/WatchFaceView" pc="268439888" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="128" parent="globals/WatchFaceView" pc="268439913" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="129" parent="globals/WatchFaceView" pc="268439968" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="130" parent="globals/WatchFaceView" pc="268440023" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceView.mc" id="24" lineNum="131" parent="globals/WatchFaceView" pc="268440034" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="25" lineNum="6" parent="globals/Background" pc="268440093" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="26" lineNum="8" parent="globals/Background" pc="268440112" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="26" lineNum="9" parent="globals/Background" pc="268440116" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="26" lineNum="13" parent="globals/Background" pc="268440137" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="27" lineNum="16" parent="globals/Background" pc="268440158" symbol="draw"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="27" lineNum="18" parent="globals/Background" pc="268440160" symbol="draw"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceBackground.mc" id="27" lineNum="19" parent="globals/Background" pc="268440203" symbol="draw"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="28" lineNum="7" parent="globals/Rez" pc="268440216" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="29" lineNum="5" parent="globals/WatchFaceApp" pc="268440240" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="30" lineNum="12" parent="globals/WatchFaceApp" pc="268440259" symbol="onStart"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="31" lineNum="25" parent="globals/WatchFaceApp" pc="268440262" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="31" lineNum="26" parent="globals/WatchFaceApp" pc="268440264" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="32" lineNum="20" parent="globals/WatchFaceApp" pc="268440281" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="32" lineNum="21" parent="globals/WatchFaceApp" pc="268440283" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="33" lineNum="7" parent="globals/WatchFaceApp" pc="268440324" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="33" lineNum="8" parent="globals/WatchFaceApp" pc="268440326" symbol="initialize"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\source\\WatchFaceApp.mc" id="34" lineNum="16" parent="globals/WatchFaceApp" pc="268440345" symbol="onStop"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="35" lineNum="23" parent="globals/Rez/Layouts" pc="268440348" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="35" lineNum="24" parent="globals/Rez/Layouts" pc="268440360" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="35" lineNum="26" parent="globals/Rez/Layouts" pc="268440388" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Ronnie\\Documents\\ConnectIQ\\WatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="35" lineNum="28" parent="globals/Rez/Layouts" pc="268440523" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="29" symbol="isDistanceMetric"/>
-        <entry field="true" id="52" symbol="relative_sec_hand_stroke"/>
-        <entry field="true" id="31" symbol="lowPower"/>
-        <entry field="true" id="66" symbol="show_min_ticks"/>
-        <entry field="true" id="67" symbol="ssloc"/>
+        <entry field="true" id="32" symbol="isDistanceMetric"/>
+        <entry field="true" id="55" symbol="relative_sec_hand_stroke"/>
+        <entry field="true" id="34" symbol="lowPower"/>
+        <entry field="true" id="69" symbol="show_min_ticks"/>
+        <entry field="true" id="71" symbol="ssloc"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="84" symbol="BigFont"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry field="true" id="75" symbol="xmult"/>
-        <entry field="true" id="69" symbol="text_color"/>
-        <entry id="22" method="true" symbol="drawTicksMinuten"/>
-        <entry id="59" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry field="true" id="79" symbol="xmult"/>
+        <entry field="true" id="73" symbol="text_color"/>
+        <entry id="23" method="true" symbol="drawTicksMinuten"/>
+        <entry id="62" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
         <entry field="true" id="14" symbol="battery_size"/>
-        <entry field="true" id="16" symbol="box_padding"/>
-        <entry field="true" id="34" symbol="offScreenBuffer"/>
-        <entry field="true" id="46" symbol="relative_min_tick_length"/>
-        <entry field="true" id="86" symbol="ColorRed"/>
-        <entry field="true" id="48" symbol="relative_min_triangle_tick_size"/>
+        <entry field="true" id="17" symbol="box_padding"/>
+        <entry field="true" id="37" symbol="offScreenBuffer"/>
+        <entry field="true" id="49" symbol="relative_min_tick_length"/>
+        <entry field="true" id="94" symbol="ColorRed"/>
+        <entry field="true" id="51" symbol="relative_min_triangle_tick_size"/>
         <entry id="9" object="true" symbol="WatchFaceApp"/>
-        <entry field="true" id="71" symbol="tick_style"/>
-        <entry field="true" id="89" symbol="MilitaryFormatTitle"/>
+        <entry field="true" id="75" symbol="tick_style"/>
+        <entry field="true" id="97" symbol="MilitaryFormatTitle"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="83" symbol="ColorBlue"/>
-        <entry field="true" id="68" symbol="status_box_size"/>
-        <entry field="true" id="42" symbol="relative_hour_triangle_tick_size"/>
-        <entry field="true" id="80" symbol="AppName"/>
+        <entry field="true" id="91" symbol="ColorBlue"/>
+        <entry field="true" id="72" symbol="status_box_size"/>
+        <entry field="true" id="45" symbol="relative_hour_triangle_tick_size"/>
+        <entry field="true" id="88" symbol="AppName"/>
         <entry field="true" id="13" symbol="background_image"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="35" symbol="partialUpdates"/>
-        <entry id="56" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
-        <entry field="true" id="64" symbol="showBoxes"/>
-        <entry field="true" id="47" symbol="relative_min_tick_stroke"/>
+        <entry field="true" id="38" symbol="partialUpdates"/>
+        <entry id="59" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;"/>
+        <entry field="true" id="67" symbol="showBoxes"/>
+        <entry field="true" id="50" symbol="relative_min_tick_stroke"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="62" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
-        <entry id="60" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
-        <entry id="23" method="true" symbol="drawTicksUren"/>
-        <entry id="63" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
+        <entry id="65" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry id="63" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;"/>
+        <entry id="24" method="true" symbol="drawTicksUren"/>
+        <entry id="66" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="30" symbol="lowMemDevice"/>
+        <entry field="true" id="33" symbol="lowMemDevice"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry id="54" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
-        <entry field="true" id="50" symbol="relative_padding2"/>
+        <entry id="57" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry field="true" id="53" symbol="relative_padding2"/>
+        <entry id="26" method="true" symbol="drawTicksUren2"/>
+        <entry id="25" method="true" symbol="drawTicksUren1"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry field="true" id="8389067" symbol="height"/>
-        <entry id="58" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
-        <entry id="78" module="true" symbol="Menus"/>
+        <entry id="61" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry field="true" id="70" symbol="show_sec_hand"/>
+        <entry id="82" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry field="true" id="84" symbol="ColorDarkGray"/>
+        <entry field="true" id="92" symbol="ColorDarkGray"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry field="true" id="8389066" symbol="width"/>
-        <entry field="true" id="38" symbol="relative_hour_hand_length"/>
-        <entry field="true" id="36" symbol="relative_center_radius"/>
-        <entry field="true" id="72" symbol="time_size"/>
+        <entry field="true" id="86" symbol="IconFont"/>
+        <entry field="true" id="41" symbol="relative_hour_hand_length"/>
+        <entry field="true" id="39" symbol="relative_center_radius"/>
+        <entry field="true" id="76" symbol="time_size"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="17" symbol="clip"/>
-        <entry field="true" id="18" symbol="date_size"/>
+        <entry field="true" id="18" symbol="clip"/>
+        <entry field="true" id="19" symbol="date_size"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
         <entry field="true" id="8389714" symbol="INVALID_HR_SAMPLE"/>
-        <entry field="true" id="37" symbol="relative_hour_circle_tick_size"/>
-        <entry field="true" id="15" symbol="box_color"/>
-        <entry field="true" id="87" symbol="ColorWhite"/>
+        <entry field="true" id="40" symbol="relative_hour_circle_tick_size"/>
+        <entry field="true" id="16" symbol="box_color"/>
+        <entry field="true" id="95" symbol="ColorWhite"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-        <entry field="true" id="73" symbol="use_background_image"/>
-        <entry field="true" id="82" symbol="ColorBlack"/>
-        <entry field="true" id="28" symbol="is24"/>
+        <entry field="true" id="77" symbol="use_background_image"/>
+        <entry field="true" id="90" symbol="ColorBlack"/>
+        <entry field="true" id="31" symbol="is24"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="70" symbol="text_padding"/>
-        <entry field="true" id="65" symbol="showTicks"/>
-        <entry field="true" id="39" symbol="relative_hour_hand_stroke"/>
-        <entry field="true" id="25" symbol="foreground_color"/>
-        <entry field="true" id="44" symbol="relative_min_hand_length"/>
+        <entry field="true" id="74" symbol="text_padding"/>
+        <entry field="true" id="68" symbol="showTicks"/>
+        <entry field="true" id="15" symbol="bigFont"/>
+        <entry field="true" id="42" symbol="relative_hour_hand_stroke"/>
+        <entry field="true" id="28" symbol="foreground_color"/>
+        <entry field="true" id="47" symbol="relative_min_hand_length"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="27" symbol="iconFont"/>
+        <entry field="true" id="30" symbol="iconFont"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry id="20" method="true" symbol="drawHand"/>
-        <entry field="true" id="24" symbol="floors_size"/>
-        <entry field="true" id="40" symbol="relative_hour_tick_length"/>
+        <entry id="21" method="true" symbol="drawHand"/>
+        <entry field="true" id="27" symbol="floors_size"/>
+        <entry field="true" id="43" symbol="relative_hour_tick_length"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="79" symbol="LauncherIcon"/>
+        <entry field="true" id="83" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry field="true" id="76" symbol="ymult"/>
-        <entry field="true" id="19" symbol="dow_size"/>
-        <entry field="true" id="43" symbol="relative_min_circle_tick_size"/>
+        <entry field="true" id="80" symbol="ymult"/>
+        <entry field="true" id="20" symbol="dow_size"/>
+        <entry field="true" id="46" symbol="relative_min_circle_tick_size"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="81" symbol="BackgroundColorTitle"/>
+        <entry field="true" id="89" symbol="BackgroundColorTitle"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="45" symbol="relative_min_hand_stroke"/>
+        <entry field="true" id="48" symbol="relative_min_hand_stroke"/>
         <entry id="10" object="true" symbol="WatchFaceView"/>
-        <entry field="true" id="74" symbol="version"/>
-        <entry id="57" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
-        <entry field="true" id="85" symbol="ColorLightGray"/>
+        <entry field="true" id="78" symbol="version"/>
+        <entry id="60" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry field="true" id="93" symbol="ColorLightGray"/>
         <entry field="true" id="12" symbol="background_color"/>
         <entry field="true" id="11" symbol="RBD"/>
-        <entry field="true" id="33" symbol="needsProtection"/>
+        <entry field="true" id="36" symbol="needsProtection"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry field="true" id="51" symbol="relative_sec_hand_length"/>
+        <entry field="true" id="54" symbol="relative_sec_hand_length"/>
+        <entry field="true" id="85" symbol="BigIconFont"/>
         <entry id="8389347" symbol="color"/>
-        <entry field="true" id="53" symbol="relative_tick_stroke"/>
-        <entry field="true" id="88" symbol="ForegroundColorTitle"/>
-        <entry field="true" id="41" symbol="relative_hour_tick_stroke"/>
-        <entry id="21" method="true" symbol="drawSecondHandClip"/>
-        <entry id="77" module="true" symbol="Layouts"/>
-        <entry id="61" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
-        <entry field="true" id="32" symbol="mainFont"/>
+        <entry field="true" id="56" symbol="relative_tick_stroke"/>
+        <entry field="true" id="96" symbol="ForegroundColorTitle"/>
+        <entry field="true" id="44" symbol="relative_hour_tick_stroke"/>
+        <entry id="22" method="true" symbol="drawSecondHandClip"/>
+        <entry id="81" module="true" symbol="Layouts"/>
+        <entry id="64" method="true" symbol="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+        <entry field="true" id="35" symbol="mainFont"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="87" symbol="MainFont"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="55" symbol="second_hand_color"/>
+        <entry field="true" id="58" symbol="second_hand_color"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="49" symbol="relative_padding"/>
-        <entry field="true" id="26" symbol="hour_min_hand_color"/>
+        <entry field="true" id="52" symbol="relative_padding"/>
+        <entry field="true" id="29" symbol="hour_min_hand_color"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435933" name="stepCount" stackId="1" startPc="268435858"/>
         <entry endPc="268435933" name="stepCountDisplay" stackId="2" startPc="268435858"/>
         <entry endPc="268436023" name="battery" stackId="1" startPc="268435939"/>
         <entry endPc="268436023" name="batteryDisplay" stackId="2" startPc="268435939"/>
-        <entry arg="true" endPc="268436106" name="dc" stackId="1" startPc="268436025"/>
-        <entry arg="true" endPc="268436934" name="dc" stackId="1" startPc="268436120"/>
-        <entry arg="true" endPc="268436934" name="length" stackId="2" startPc="268436120"/>
-        <entry arg="true" endPc="268436934" name="stroke" stackId="3" startPc="268436120"/>
-        <entry arg="true" endPc="268436934" name="num" stackId="4" startPc="268436120"/>
-        <entry endPc="268436933" name="tickAngle" stackId="5" startPc="268436124"/>
-        <entry endPc="268436933" name="center" stackId="6" startPc="268436124"/>
-        <entry endPc="268436933" name="i" stackId="7" startPc="268436179"/>
-        <entry endPc="268436920" name="angle" stackId="8" startPc="268436179"/>
-        <entry endPc="268436920" name="offset" stackId="9" startPc="268436179"/>
-        <entry endPc="268436920" name="x1" stackId="10" startPc="268436179"/>
-        <entry endPc="268436920" name="y1" stackId="11" startPc="268436179"/>
-        <entry endPc="268436920" name="x2" stackId="12" startPc="268436179"/>
-        <entry endPc="268436920" name="y2" stackId="13" startPc="268436179"/>
-        <entry endPc="268436920" name="x3" stackId="14" startPc="268436179"/>
-        <entry endPc="268436920" name="y3" stackId="15" startPc="268436179"/>
-        <entry endPc="268436920" name="x4" stackId="16" startPc="268436179"/>
-        <entry endPc="268436920" name="y4" stackId="17" startPc="268436179"/>
-        <entry endPc="268436920" name="x5" stackId="18" startPc="268436179"/>
-        <entry endPc="268436920" name="y5" stackId="19" startPc="268436179"/>
-        <entry endPc="268437073" name="stepGoalPercent" stackId="1" startPc="268436939"/>
-        <entry endPc="268437073" name="stepGoalDisplay" stackId="2" startPc="268436939"/>
-        <entry endPc="268437189" name="notificationAmount" stackId="1" startPc="268437079"/>
-        <entry endPc="268437189" name="formattedNotificationAmount" stackId="2" startPc="268437079"/>
-        <entry endPc="268437189" name="notificationCountDisplay" stackId="3" startPc="268437079"/>
-        <entry endPc="268437283" name="heartRate" stackId="1" startPc="268437195"/>
-        <entry endPc="268437283" name="heartrateDisplay" stackId="2" startPc="268437195"/>
-        <entry arg="true" endPc="268437488" name="dc" stackId="1" startPc="268437285"/>
-        <entry arg="true" endPc="268437488" name="num" stackId="2" startPc="268437285"/>
-        <entry arg="true" endPc="268437488" name="time" stackId="3" startPc="268437285"/>
-        <entry arg="true" endPc="268437488" name="length" stackId="4" startPc="268437285"/>
-        <entry arg="true" endPc="268437488" name="stroke" stackId="5" startPc="268437285"/>
-        <entry endPc="268437487" name="angle" stackId="6" startPc="268437289"/>
-        <entry endPc="268437487" name="center" stackId="7" startPc="268437289"/>
-        <entry endPc="268437487" name="x" stackId="8" startPc="268437289"/>
-        <entry endPc="268437487" name="y" stackId="9" startPc="268437289"/>
-        <entry arg="true" endPc="268437680" name="dc" stackId="1" startPc="268437502"/>
-        <entry arg="true" endPc="268437680" name="num" stackId="2" startPc="268437502"/>
-        <entry arg="true" endPc="268437680" name="time" stackId="3" startPc="268437502"/>
-        <entry arg="true" endPc="268437680" name="length" stackId="4" startPc="268437502"/>
-        <entry arg="true" endPc="268437680" name="stroke" stackId="5" startPc="268437502"/>
-        <entry endPc="268437679" name="angle" stackId="6" startPc="268437506"/>
-        <entry endPc="268437679" name="center" stackId="7" startPc="268437506"/>
-        <entry endPc="268437679" name="x" stackId="8" startPc="268437506"/>
-        <entry endPc="268437679" name="y" stackId="9" startPc="268437506"/>
-        <entry endPc="268437885" name="clockTime" stackId="1" startPc="268437685"/>
-        <entry endPc="268437885" name="timeString" stackId="2" startPc="268437685"/>
-        <entry endPc="268437885" name="timeDisplay" stackId="3" startPc="268437685"/>
-        <entry endPc="268438089" name="now" stackId="1" startPc="268437891"/>
-        <entry endPc="268438089" name="date" stackId="2" startPc="268437891"/>
-        <entry endPc="268438089" name="dateString" stackId="3" startPc="268437891"/>
-        <entry endPc="268438089" name="dateDisplay" stackId="4" startPc="268437891"/>
-        <entry endPc="268438172" name="heartrateIterator" stackId="1" startPc="268438095"/>
-        <entry endPc="268438172" name="currentHeartrate" stackId="2" startPc="268438095"/>
-        <entry arg="true" endPc="268438360" name="dc" stackId="1" startPc="268438173"/>
-        <entry endPc="268438359" name="show_min_ticks" stackId="2" startPc="268438177"/>
-        <entry arg="true" endPc="268438662" name="dc" stackId="1" startPc="268438361"/>
-        <entry arg="true" endPc="268438662" name="length" stackId="2" startPc="268438361"/>
-        <entry arg="true" endPc="268438662" name="stroke" stackId="3" startPc="268438361"/>
-        <entry arg="true" endPc="268438662" name="num" stackId="4" startPc="268438361"/>
-        <entry endPc="268438661" name="tickAngle" stackId="5" startPc="268438365"/>
-        <entry endPc="268438661" name="center" stackId="6" startPc="268438365"/>
-        <entry endPc="268438661" name="i" stackId="7" startPc="268438423"/>
-        <entry endPc="268438648" name="angle" stackId="8" startPc="268438423"/>
-        <entry endPc="268438648" name="x1" stackId="9" startPc="268438423"/>
-        <entry endPc="268438648" name="y1" stackId="10" startPc="268438423"/>
-        <entry endPc="268438648" name="x2" stackId="11" startPc="268438423"/>
-        <entry endPc="268438648" name="y2" stackId="12" startPc="268438423"/>
-        <entry arg="true" endPc="268438939" name="dc" stackId="1" startPc="268438684"/>
-        <entry endPc="268438938" name="clockTime" stackId="2" startPc="268438688"/>
-        <entry endPc="268438938" name="hours" stackId="3" startPc="268438688"/>
-        <entry endPc="268438938" name="minutes" stackId="4" startPc="268438688"/>
-        <entry endPc="268438938" name="seconds" stackId="5" startPc="268438688"/>
-        <entry endPc="268439003" name="dictionary" stackId="1" startPc="268438963"/>
-        <entry arg="true" endPc="268439062" name="dc" stackId="1" startPc="268439005"/>
-        <entry arg="true" endPc="268439396" name="dc" stackId="1" startPc="268439195"/>
-        <entry endPc="268439396" name="rez_cmp_local_custom_drawable_49590116138211082865" stackId="2" startPc="268439207"/>
-        <entry endPc="268439396" name="rez_cmp_local_text_TimeDisplay" stackId="3" startPc="268439207"/>
+        <entry arg="true" endPc="268436200" name="dc" stackId="1" startPc="268436025"/>
+        <entry arg="true" endPc="268436453" name="dc" stackId="1" startPc="268436214"/>
+        <entry arg="true" endPc="268436453" name="length" stackId="2" startPc="268436214"/>
+        <entry arg="true" endPc="268436453" name="num" stackId="3" startPc="268436214"/>
+        <entry endPc="268436452" name="tickAngle" stackId="4" startPc="268436218"/>
+        <entry endPc="268436452" name="center" stackId="5" startPc="268436218"/>
+        <entry endPc="268436452" name="getal" stackId="6" startPc="268436218"/>
+        <entry endPc="268436452" name="i" stackId="7" startPc="268436272"/>
+        <entry endPc="268436439" name="angle" stackId="8" startPc="268436272"/>
+        <entry endPc="268436439" name="x1" stackId="9" startPc="268436272"/>
+        <entry endPc="268436439" name="y1" stackId="10" startPc="268436272"/>
+        <entry endPc="268436592" name="stepGoalPercent" stackId="1" startPc="268436458"/>
+        <entry endPc="268436592" name="stepGoalDisplay" stackId="2" startPc="268436458"/>
+        <entry arg="true" endPc="268437408" name="dc" stackId="1" startPc="268436594"/>
+        <entry arg="true" endPc="268437408" name="length" stackId="2" startPc="268436594"/>
+        <entry arg="true" endPc="268437408" name="stroke" stackId="3" startPc="268436594"/>
+        <entry arg="true" endPc="268437408" name="num" stackId="4" startPc="268436594"/>
+        <entry endPc="268437407" name="tickAngle" stackId="5" startPc="268436598"/>
+        <entry endPc="268437407" name="center" stackId="6" startPc="268436598"/>
+        <entry endPc="268437407" name="i" stackId="7" startPc="268436653"/>
+        <entry endPc="268437394" name="angle" stackId="8" startPc="268436653"/>
+        <entry endPc="268437394" name="offset" stackId="9" startPc="268436653"/>
+        <entry endPc="268437394" name="x1" stackId="10" startPc="268436653"/>
+        <entry endPc="268437394" name="y1" stackId="11" startPc="268436653"/>
+        <entry endPc="268437394" name="x2" stackId="12" startPc="268436653"/>
+        <entry endPc="268437394" name="y2" stackId="13" startPc="268436653"/>
+        <entry endPc="268437394" name="x3" stackId="14" startPc="268436653"/>
+        <entry endPc="268437394" name="y3" stackId="15" startPc="268436653"/>
+        <entry endPc="268437394" name="x4" stackId="16" startPc="268436653"/>
+        <entry endPc="268437394" name="y4" stackId="17" startPc="268436653"/>
+        <entry endPc="268437394" name="x5" stackId="18" startPc="268436653"/>
+        <entry endPc="268437394" name="y5" stackId="19" startPc="268436653"/>
+        <entry arg="true" endPc="268438127" name="dc" stackId="1" startPc="268437409"/>
+        <entry arg="true" endPc="268438127" name="length" stackId="2" startPc="268437409"/>
+        <entry arg="true" endPc="268438127" name="stroke" stackId="3" startPc="268437409"/>
+        <entry arg="true" endPc="268438127" name="num" stackId="4" startPc="268437409"/>
+        <entry endPc="268438126" name="tickAngle" stackId="5" startPc="268437413"/>
+        <entry endPc="268438126" name="center" stackId="6" startPc="268437413"/>
+        <entry endPc="268438126" name="i" stackId="7" startPc="268437468"/>
+        <entry endPc="268438110" name="angle" stackId="8" startPc="268437521"/>
+        <entry endPc="268438110" name="offset" stackId="9" startPc="268437521"/>
+        <entry endPc="268438110" name="x2" stackId="10" startPc="268437521"/>
+        <entry endPc="268438110" name="y2" stackId="11" startPc="268437521"/>
+        <entry endPc="268438110" name="x3" stackId="12" startPc="268437521"/>
+        <entry endPc="268438110" name="y3" stackId="13" startPc="268437521"/>
+        <entry endPc="268438110" name="x4" stackId="14" startPc="268437521"/>
+        <entry endPc="268438110" name="y4" stackId="15" startPc="268437521"/>
+        <entry endPc="268438110" name="x5" stackId="16" startPc="268437521"/>
+        <entry endPc="268438110" name="y5" stackId="17" startPc="268437521"/>
+        <entry endPc="268438242" name="notificationAmount" stackId="1" startPc="268438132"/>
+        <entry endPc="268438242" name="formattedNotificationAmount" stackId="2" startPc="268438132"/>
+        <entry endPc="268438242" name="notificationCountDisplay" stackId="3" startPc="268438132"/>
+        <entry endPc="268438336" name="heartRate" stackId="1" startPc="268438248"/>
+        <entry endPc="268438336" name="heartrateDisplay" stackId="2" startPc="268438248"/>
+        <entry arg="true" endPc="268438541" name="dc" stackId="1" startPc="268438338"/>
+        <entry arg="true" endPc="268438541" name="num" stackId="2" startPc="268438338"/>
+        <entry arg="true" endPc="268438541" name="time" stackId="3" startPc="268438338"/>
+        <entry arg="true" endPc="268438541" name="length" stackId="4" startPc="268438338"/>
+        <entry arg="true" endPc="268438541" name="stroke" stackId="5" startPc="268438338"/>
+        <entry endPc="268438540" name="angle" stackId="6" startPc="268438342"/>
+        <entry endPc="268438540" name="center" stackId="7" startPc="268438342"/>
+        <entry endPc="268438540" name="x" stackId="8" startPc="268438342"/>
+        <entry endPc="268438540" name="y" stackId="9" startPc="268438342"/>
+        <entry arg="true" endPc="268438733" name="dc" stackId="1" startPc="268438555"/>
+        <entry arg="true" endPc="268438733" name="num" stackId="2" startPc="268438555"/>
+        <entry arg="true" endPc="268438733" name="time" stackId="3" startPc="268438555"/>
+        <entry arg="true" endPc="268438733" name="length" stackId="4" startPc="268438555"/>
+        <entry arg="true" endPc="268438733" name="stroke" stackId="5" startPc="268438555"/>
+        <entry endPc="268438732" name="angle" stackId="6" startPc="268438559"/>
+        <entry endPc="268438732" name="center" stackId="7" startPc="268438559"/>
+        <entry endPc="268438732" name="x" stackId="8" startPc="268438559"/>
+        <entry endPc="268438732" name="y" stackId="9" startPc="268438559"/>
+        <entry endPc="268438938" name="clockTime" stackId="1" startPc="268438738"/>
+        <entry endPc="268438938" name="timeString" stackId="2" startPc="268438738"/>
+        <entry endPc="268438938" name="timeDisplay" stackId="3" startPc="268438738"/>
+        <entry endPc="268439142" name="now" stackId="1" startPc="268438944"/>
+        <entry endPc="268439142" name="date" stackId="2" startPc="268438944"/>
+        <entry endPc="268439142" name="dateString" stackId="3" startPc="268438944"/>
+        <entry endPc="268439142" name="dateDisplay" stackId="4" startPc="268438944"/>
+        <entry endPc="268439225" name="heartrateIterator" stackId="1" startPc="268439148"/>
+        <entry endPc="268439225" name="currentHeartrate" stackId="2" startPc="268439148"/>
+        <entry arg="true" endPc="268439499" name="dc" stackId="1" startPc="268439226"/>
+        <entry arg="true" endPc="268439801" name="dc" stackId="1" startPc="268439500"/>
+        <entry arg="true" endPc="268439801" name="length" stackId="2" startPc="268439500"/>
+        <entry arg="true" endPc="268439801" name="stroke" stackId="3" startPc="268439500"/>
+        <entry arg="true" endPc="268439801" name="num" stackId="4" startPc="268439500"/>
+        <entry endPc="268439800" name="tickAngle" stackId="5" startPc="268439504"/>
+        <entry endPc="268439800" name="center" stackId="6" startPc="268439504"/>
+        <entry endPc="268439800" name="i" stackId="7" startPc="268439562"/>
+        <entry endPc="268439787" name="angle" stackId="8" startPc="268439562"/>
+        <entry endPc="268439787" name="x1" stackId="9" startPc="268439562"/>
+        <entry endPc="268439787" name="y1" stackId="10" startPc="268439562"/>
+        <entry endPc="268439787" name="x2" stackId="11" startPc="268439562"/>
+        <entry endPc="268439787" name="y2" stackId="12" startPc="268439562"/>
+        <entry arg="true" endPc="268440092" name="dc" stackId="1" startPc="268439823"/>
+        <entry endPc="268440091" name="clockTime" stackId="2" startPc="268439827"/>
+        <entry endPc="268440091" name="hours" stackId="3" startPc="268439827"/>
+        <entry endPc="268440091" name="minutes" stackId="4" startPc="268439827"/>
+        <entry endPc="268440091" name="seconds" stackId="5" startPc="268439827"/>
+        <entry endPc="268440156" name="dictionary" stackId="1" startPc="268440116"/>
+        <entry arg="true" endPc="268440215" name="dc" stackId="1" startPc="268440158"/>
+        <entry arg="true" endPc="268440549" name="dc" stackId="1" startPc="268440348"/>
+        <entry endPc="268440549" name="rez_cmp_local_custom_drawable_19200643641704868874" stackId="2" startPc="268440360"/>
+        <entry endPc="268440549" name="rez_cmp_local_text_TimeDisplay" stackId="3" startPc="268440360"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="BigFont"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="BigIconFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MainFont"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="IconFont"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
         <dataEntry label="globals/WatchFaceView" offset="166" parentId="globals" symbolId="WatchFaceView" type="class"/>
-        <dataEntry label="globals/Background" offset="805" parentId="globals" symbolId="Background" type="class"/>
-        <dataEntry label="globals/Rez" offset="860" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/WatchFaceApp" offset="939" parentId="globals" symbolId="WatchFaceApp" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1018" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1057" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="1096" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="1127" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1158" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="1269" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Background" offset="837" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="892" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/WatchFaceApp" offset="971" parentId="globals" symbolId="WatchFaceApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1050" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1089" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1128" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1159" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1222" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1333" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -405,33 +474,46 @@
         <functionEntry accessMode="private" endPc="268436024" name="&lt;globals/WatchFaceView/&lt;&gt;setBatteryDisplay&gt;" parent="WatchFaceView" startPc="268435935">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436106" name="onLayout" parent="WatchFaceView" startPc="268436025">
+        <functionEntry accessMode="public" endPc="268436200" name="onLayout" parent="WatchFaceView" startPc="268436025">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436119" name="onEnterSleep" parent="WatchFaceView" startPc="268436107">
+        <functionEntry accessMode="public" endPc="268436213" name="onEnterSleep" parent="WatchFaceView" startPc="268436201">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436934" name="drawTicksUren" parent="WatchFaceView" startPc="268436120">
+        <functionEntry accessMode="public" endPc="268436453" name="drawTicksUren" parent="WatchFaceView" startPc="268436214">
+            <param id="dc"/>
+            <param id="length"/>
+            <param id="num"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436593" name="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;" parent="WatchFaceView" startPc="268436454">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437408" name="drawTicksUren1" parent="WatchFaceView" startPc="268436594">
             <param id="dc"/>
             <param id="length"/>
             <param id="stroke"/>
             <param id="num"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437074" name="&lt;globals/WatchFaceView/&lt;&gt;setStepGoalDisplay&gt;" parent="WatchFaceView" startPc="268436935">
+        <functionEntry accessMode="public" endPc="268438127" name="drawTicksUren2" parent="WatchFaceView" startPc="268437409">
+            <param id="dc"/>
+            <param id="length"/>
+            <param id="stroke"/>
+            <param id="num"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437190" name="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;" parent="WatchFaceView" startPc="268437075">
+        <functionEntry accessMode="private" endPc="268438243" name="&lt;globals/WatchFaceView/&lt;&gt;setNotificationCountDisplay&gt;" parent="WatchFaceView" startPc="268438128">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437284" name="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;" parent="WatchFaceView" startPc="268437191">
+        <functionEntry accessMode="private" endPc="268438337" name="&lt;globals/WatchFaceView/&lt;&gt;setHeartrateDisplay&gt;" parent="WatchFaceView" startPc="268438244">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="WatchFaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437488" name="drawSecondHandClip" parent="WatchFaceView" startPc="268437285">
+        <functionEntry accessMode="public" endPc="268438541" name="drawSecondHandClip" parent="WatchFaceView" startPc="268438338">
             <param id="dc"/>
             <param id="num"/>
             <param id="time"/>
@@ -439,10 +521,10 @@
             <param id="stroke"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437501" name="onExitSleep" parent="WatchFaceView" startPc="268437489">
+        <functionEntry accessMode="public" endPc="268438554" name="onExitSleep" parent="WatchFaceView" startPc="268438542">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437680" name="drawHand" parent="WatchFaceView" startPc="268437502">
+        <functionEntry accessMode="public" endPc="268438733" name="drawHand" parent="WatchFaceView" startPc="268438555">
             <param id="dc"/>
             <param id="num"/>
             <param id="time"/>
@@ -450,66 +532,66 @@
             <param id="stroke"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437886" name="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;" parent="WatchFaceView" startPc="268437681">
+        <functionEntry accessMode="private" endPc="268438939" name="&lt;globals/WatchFaceView/&lt;&gt;setClockDisplay&gt;" parent="WatchFaceView" startPc="268438734">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="WatchFaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268438090" name="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;" parent="WatchFaceView" startPc="268437887">
+        <functionEntry accessMode="private" endPc="268439143" name="&lt;globals/WatchFaceView/&lt;&gt;setDateDisplay&gt;" parent="WatchFaceView" startPc="268438940">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268438172" name="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;" parent="WatchFaceView" startPc="268438091">
+        <functionEntry accessMode="private" endPc="268439225" name="&lt;globals/WatchFaceView/&lt;&gt;retrieveHeartrateText&gt;" parent="WatchFaceView" startPc="268439144">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268438360" name="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;" parent="WatchFaceView" startPc="268438173">
+        <functionEntry accessMode="private" endPc="268439499" name="&lt;globals/WatchFaceView/&lt;&gt;setAchterGrondDisplay&gt;" parent="WatchFaceView" startPc="268439226">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438662" name="drawTicksMinuten" parent="WatchFaceView" startPc="268438361">
+        <functionEntry accessMode="public" endPc="268439801" name="drawTicksMinuten" parent="WatchFaceView" startPc="268439500">
             <param id="dc"/>
             <param id="length"/>
             <param id="stroke"/>
             <param id="num"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438683" name="initialize" parent="WatchFaceView" startPc="268438663">
+        <functionEntry accessMode="public" endPc="268439822" name="initialize" parent="WatchFaceView" startPc="268439802">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438939" name="onUpdate" parent="WatchFaceView" startPc="268438684">
+        <functionEntry accessMode="public" endPc="268440092" name="onUpdate" parent="WatchFaceView" startPc="268439823">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438958" name="&lt;init&gt;" parent="Background" startPc="268438940">
+        <functionEntry accessMode="public" endPc="268440111" name="&lt;init&gt;" parent="Background" startPc="268440093">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439004" name="initialize" parent="Background" startPc="268438959">
+        <functionEntry accessMode="public" endPc="268440157" name="initialize" parent="Background" startPc="268440112">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439062" name="draw" parent="Background" startPc="268439005">
+        <functionEntry accessMode="public" endPc="268440215" name="draw" parent="Background" startPc="268440158">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439086" name="&lt;init&gt;" parent="Rez" startPc="268439063">
+        <functionEntry accessMode="public" endPc="268440239" name="&lt;init&gt;" parent="Rez" startPc="268440216">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439105" name="&lt;init&gt;" parent="WatchFaceApp" startPc="268439087">
+        <functionEntry accessMode="public" endPc="268440258" name="&lt;init&gt;" parent="WatchFaceApp" startPc="268440240">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439108" name="onStart" parent="WatchFaceApp" startPc="268439106">
+        <functionEntry accessMode="public" endPc="268440261" name="onStart" parent="WatchFaceApp" startPc="268440259">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439127" name="onSettingsChanged" parent="WatchFaceApp" startPc="268439109">
+        <functionEntry accessMode="public" endPc="268440280" name="onSettingsChanged" parent="WatchFaceApp" startPc="268440262">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439170" name="getInitialView" parent="WatchFaceApp" startPc="268439128">
+        <functionEntry accessMode="public" endPc="268440323" name="getInitialView" parent="WatchFaceApp" startPc="268440281">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439191" name="initialize" parent="WatchFaceApp" startPc="268439171">
+        <functionEntry accessMode="public" endPc="268440344" name="initialize" parent="WatchFaceApp" startPc="268440324">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439194" name="onStop" parent="WatchFaceApp" startPc="268439192">
+        <functionEntry accessMode="public" endPc="268440347" name="onStop" parent="WatchFaceApp" startPc="268440345">
             <param id="state"/>
             <documentation/>
         </functionEntry>
@@ -531,7 +613,7 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439396" name="WatchFace" parent="Layouts" startPc="268439195">
+        <functionEntry accessMode="public" endPc="268440549" name="WatchFace" parent="Layouts" startPc="268440348">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

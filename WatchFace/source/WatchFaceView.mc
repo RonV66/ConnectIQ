@@ -19,12 +19,13 @@ class WatchFaceView extends WatchUi.WatchFace {
 	var partialUpdates = false;
 	var showTicks;
 	var mainFont;
+	var bigFont;
 	var iconFont;
 	var needsProtection = true;
 	var lowMemDevice = true;
 	var RBD = 0;
 	var version;
-	var showBoxes;
+	var showBoxes = true;
 	var background_color  = Graphics.COLOR_BLACK;
 	var background_image;
 	var use_background_image;
@@ -34,7 +35,8 @@ class WatchFaceView extends WatchUi.WatchFace {
 	var hour_min_hand_color = Graphics.COLOR_WHITE;
 	var text_color;
 	var tick_style;
-	var show_min_ticks;
+	var show_min_ticks = true;
+	var show_sec_hand = false;
 	var ssloc = [100, 100];
 	var xmult = 1.2;
 	var ymult = 1.1;
@@ -82,8 +84,8 @@ class WatchFaceView extends WatchUi.WatchFace {
         width = dc.getWidth();
         height = dc.getHeight();
 
-//		mainFont = WatchUi.loadResource(Rez.Fonts.BigFont);
-//		iconFont = WatchUi.loadResource(Rez.Fonts.BigIconFont);
+		bigFont = WatchUi.loadResource(Rez.Fonts.BigFont);
+		iconFont = WatchUi.loadResource(Rez.Fonts.BigIconFont);
 /*		dow_size = [44 * 1.5, 19* 1.5];
 		date_size = [24* 1.5, 19* 1.5];
 		time_size = [48* 1.5, 19* 1.5];
@@ -125,7 +127,9 @@ class WatchFaceView extends WatchUi.WatchFace {
 	   	dc.setColor(hour_min_hand_color, Graphics.COLOR_TRANSPARENT);
     	drawHand(dc, 12, hours, relative_hour_hand_length*width, relative_hour_hand_stroke*width);
     	drawHand(dc, 60, minutes, relative_min_hand_length*width, relative_min_hand_stroke*width);
-		drawSecondHandClip(dc, 60, seconds, relative_sec_hand_length*width, relative_sec_hand_stroke*width);
+		if(show_sec_hand) {
+			drawSecondHandClip(dc, 60, seconds, relative_sec_hand_length*width, relative_sec_hand_stroke*width);
+		}
 
         //setDateDisplay();
         //setBatteryDisplay();
@@ -154,13 +158,14 @@ class WatchFaceView extends WatchUi.WatchFace {
     private function setAchterGrondDisplay(dc as Dc) as Void {
     	dc.setColor(background_color, background_color);
     	dc.clear();
-		var show_min_ticks = true;
 
 		dc.setColor(foreground_color, Graphics.COLOR_TRANSPARENT);
 		if(show_min_ticks) {
 			drawTicksMinuten(dc, relative_min_tick_length*width, relative_min_tick_stroke*width, 60);
 		}
-		drawTicksUren(dc, relative_hour_tick_length*width, relative_hour_tick_stroke*width, 12);
+		drawTicksUren1(dc, relative_hour_tick_length*width, relative_hour_tick_stroke*width, 4);
+		drawTicksUren2(dc, relative_hour_tick_length*width, relative_hour_tick_stroke*width, 12);
+		drawTicksUren(dc, 0.91*width, 12);
     }
 
     function drawTicksMinuten(dc, length, stroke, num) {
@@ -177,24 +182,64 @@ class WatchFaceView extends WatchUi.WatchFace {
     	}
     }
 
-	function drawTicksUren(dc, length, stroke, num) {
+	function drawTicksUren(dc, length, num) {
+    	var tickAngle = 360/num;
+    	var center = width/2;
+		var getal = 1;
+    	for(var i = 4; i < num+4; i++) {
+			var angle = Math.toRadians(tickAngle * i);
+			var x1 = center + Math.round(Math.cos(angle) * (center - length));
+			var y1 = center + Math.round(Math.sin(angle) * (center - length));
+			dc.drawText(
+				x1,
+				y1,
+				bigFont,
+				getal.toString(),
+				Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+			);
+			getal+=1;
+    	}
+    }
+
+	function drawTicksUren1(dc, length, stroke, num) {
 		dc.setPenWidth(stroke);
     	var tickAngle = 360/num;
     	var center = width/2;
     	for(var i = 0; i < num; i++) {
-    		var angle = Math.toRadians(tickAngle * i);
+			var angle = Math.toRadians(tickAngle * i);
 			var offset = Math.toRadians(2);
-    		var x1 = center + Math.round(Math.cos(angle) * (center - length));
-    		var y1 = center + Math.round(Math.sin(angle) * (center - length));
-	   		var x2 = center + Math.round(Math.cos(angle - offset) * (center - (length/2)));
-    		var y2 = center + Math.round(Math.sin(angle - offset) * (center - (length/2)));
-    		var x3 = center + Math.round(Math.cos(angle - offset) * (center));
-    		var y3 = center + Math.round(Math.sin(angle - offset) * (center));
+			var x1 = center + Math.round(Math.cos(angle) * (center - length));
+			var y1 = center + Math.round(Math.sin(angle) * (center - length));
+			var x2 = center + Math.round(Math.cos(angle - offset) * (center - (length/2)));
+			var y2 = center + Math.round(Math.sin(angle - offset) * (center - (length/2)));
+			var x3 = center + Math.round(Math.cos(angle - offset) * (center));
+			var y3 = center + Math.round(Math.sin(angle - offset) * (center));
 			var x4 = center + Math.round(Math.cos(angle + offset) * (center));
-    		var y4 = center + Math.round(Math.sin(angle + offset) * (center));
+			var y4 = center + Math.round(Math.sin(angle + offset) * (center));
 			var x5 = center + Math.round(Math.cos(angle + offset) * (center - (length/2)));
-    		var y5 = center + Math.round(Math.sin(angle + offset) * (center - (length/2)));
-    		dc.fillPolygon([[x1, y1], [x2, y2], [x3, y3], [x4, y4], [x5, y5]]);
+			var y5 = center + Math.round(Math.sin(angle + offset) * (center - (length/2)));
+			dc.fillPolygon([[x1, y1], [x2, y2], [x3, y3], [x4, y4], [x5, y5]]);
+    	}
+    }
+
+	function drawTicksUren2(dc, length, stroke, num) {
+		dc.setPenWidth(stroke);
+    	var tickAngle = 360/num;
+    	var center = width/2;
+    	for(var i = 0; i < num; i++) {
+			if ((i != 0) and (i != 3) and (i != 6) and (i != 9)) {
+				var angle = Math.toRadians(tickAngle * i);
+				var offset = Math.toRadians(1);
+				var x2 = center + Math.round(Math.cos(angle - offset) * (center - length));
+				var y2 = center + Math.round(Math.sin(angle - offset) * (center - length));
+				var x3 = center + Math.round(Math.cos(angle - offset) * (center));
+				var y3 = center + Math.round(Math.sin(angle - offset) * (center));
+				var x4 = center + Math.round(Math.cos(angle + offset) * (center));
+				var y4 = center + Math.round(Math.sin(angle + offset) * (center));
+				var x5 = center + Math.round(Math.cos(angle + offset) * (center - length));
+				var y5 = center + Math.round(Math.sin(angle + offset) * (center - length));
+				dc.fillPolygon([[x2, y2], [x3, y3], [x4, y4], [x5, y5]]);
+			}
     	}
     }
 
@@ -411,8 +456,8 @@ class WatchFaceView extends WatchUi.WatchFace {
 
 		boxText.draw(dc);
 	}
-*/
 
+*/
 
 
 
