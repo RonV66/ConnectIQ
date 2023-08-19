@@ -21,11 +21,11 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_19200643641704868874 = new Background();
+            var rez_cmp_local_custom_drawable_31121513410847691141 = new Background();
 
             var rez_cmp_local_text_TimeDisplay = new WatchUi.Text({:identifier=>"TimeDisplay", :color=>Graphics.COLOR_WHITE, :locX=>(416 * 0.5), :locY=>((416 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_19200643641704868874, rez_cmp_local_text_TimeDisplay] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_31121513410847691141, rez_cmp_local_text_TimeDisplay] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

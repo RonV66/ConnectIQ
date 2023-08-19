@@ -36,7 +36,7 @@ class WatchFaceView extends WatchUi.WatchFace {
 	var text_color;
 	var tick_style;
 	var show_min_ticks = true;
-	var show_sec_hand = false;
+	var show_sec_hand = true;
 	var ssloc = [100, 100];
 	var xmult = 1.2;
 	var ymult = 1.1;
@@ -52,8 +52,8 @@ class WatchFaceView extends WatchUi.WatchFace {
 	var relative_hour_triangle_tick_size = .04;
 	var relative_min_triangle_tick_size = .02;
     
-    var relative_hour_hand_length = .20;
-    var relative_min_hand_length = .40;
+    var relative_hour_hand_length = .30;
+    var relative_min_hand_length = .38;
     var relative_sec_hand_length = .42;
     var relative_hour_hand_stroke = .013;
     var relative_min_hand_stroke = .013;
@@ -125,10 +125,10 @@ class WatchFaceView extends WatchUi.WatchFace {
 
 		//Set hour and minute hand
 	   	dc.setColor(hour_min_hand_color, Graphics.COLOR_TRANSPARENT);
-    	drawHand(dc, 12, hours, relative_hour_hand_length*width, relative_hour_hand_stroke*width);
-    	drawHand(dc, 60, minutes, relative_min_hand_length*width, relative_min_hand_stroke*width);
+    	drawHand(dc, 12, hours, relative_hour_hand_length*width );
+    	drawHand(dc, 60, minutes, relative_min_hand_length*width);
 		if(show_sec_hand) {
-			drawSecondHandClip(dc, 60, seconds, relative_sec_hand_length*width, relative_sec_hand_stroke*width);
+			drawSecondHandClip(dc, 60, seconds, relative_sec_hand_length*width);
 		}
 
         //setDateDisplay();
@@ -163,8 +163,8 @@ class WatchFaceView extends WatchUi.WatchFace {
 		if(show_min_ticks) {
 			drawTicksMinuten(dc, relative_min_tick_length*width, relative_min_tick_stroke*width, 60);
 		}
-		drawTicksUren1(dc, relative_hour_tick_length*width, relative_hour_tick_stroke*width, 4);
-		drawTicksUren2(dc, relative_hour_tick_length*width, relative_hour_tick_stroke*width, 12);
+		drawTicksUren1(dc, relative_hour_tick_length*width, 4);
+		drawTicksUren2(dc, relative_hour_tick_length*width, 12);
 		drawTicksUren(dc, 0.91*width, 12);
     }
 
@@ -201,8 +201,7 @@ class WatchFaceView extends WatchUi.WatchFace {
     	}
     }
 
-	function drawTicksUren1(dc, length, stroke, num) {
-		dc.setPenWidth(stroke);
+	function drawTicksUren1(dc, length, num) {
     	var tickAngle = 360/num;
     	var center = width/2;
     	for(var i = 0; i < num; i++) {
@@ -222,8 +221,7 @@ class WatchFaceView extends WatchUi.WatchFace {
     	}
     }
 
-	function drawTicksUren2(dc, length, stroke, num) {
-		dc.setPenWidth(stroke);
+	function drawTicksUren2(dc, length, num) {
     	var tickAngle = 360/num;
     	var center = width/2;
     	for(var i = 0; i < num; i++) {
@@ -243,29 +241,40 @@ class WatchFaceView extends WatchUi.WatchFace {
     	}
     }
 
-    function drawHand(dc, num, time, length, stroke) {
+    function drawHand(dc, num, time, length) {
     	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
     	var center = width/2;
 
-    	dc.setPenWidth(stroke);
-
-    	var x = center + Math.round((Math.cos(angle) * length));
-    	var y = center + Math.round((Math.sin(angle) * length));
-
-    	dc.drawLine(center, center, x, y);
-    }
-    
-    function drawSecondHandClip(dc, num, time, length, stroke) {
-    	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
-    	var center = width/2;
-
-    	dc.setPenWidth(stroke);
-
+		var offset = Math.toRadians(1.4);
     	var x = center + Math.round(Math.cos(angle) * length);
     	var y = center + Math.round(Math.sin(angle) * length);
+    	var x1 = center + Math.round(Math.cos(angle - offset) * length);
+    	var y1 = center + Math.round(Math.sin(angle - offset) * length);
+    	var x2 = center + Math.round(Math.cos(angle + offset) * length);
+    	var y2 = center + Math.round(Math.sin(angle + offset) * length);
+		var x3 = center + x - x1;
+		var y3 = center + y - y1;
+		var x4 = center + x - x2;
+		var y4 = center + y - y2;
+		dc.fillPolygon([[x1,y1],[x2,y2],[x3,y3],[x4,y4]]);
+    }
+    
+    function drawSecondHandClip(dc, num, time, length) {
+    	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
+		var center = width/2;
 
-    	dc.setColor(second_hand_color, Graphics.COLOR_TRANSPARENT);
-    	dc.drawLine(center, center, x, y);
+      	var x = center + Math.round(Math.cos(angle) * length);
+    	var y = center + Math.round(Math.sin(angle) * length);
+		var a = center - Math.round(Math.cos(angle) * length/4);
+		var b = center - Math.round(Math.sin(angle) * length/4);
+
+		dc.setColor(second_hand_color, Graphics.COLOR_TRANSPARENT);
+		dc.fillPolygon([[a,b],[a,b],[x,y],[x,y]]);
+
+		dc.setPenWidth(5);
+		dc.drawCircle(center, center, 6);
+		dc.setColor(background_color, Graphics.COLOR_TRANSPARENT);
+		dc.fillCircle(center, center, 4);
     }
     
 /*
