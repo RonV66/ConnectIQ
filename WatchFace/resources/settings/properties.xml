@@ -2,4 +2,7 @@
     <property id="BackgroundColor" type="number">0x000000</property>
     <property id="ForegroundColor" type="number">0xFF0000</property>
     <property id="UseMilitaryFormat" type="boolean">false</property>
+
+    <property id="BoxColor" type="number">0xFF0000</property>
+    
 </properties>

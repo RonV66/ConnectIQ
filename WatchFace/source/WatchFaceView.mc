@@ -21,6 +21,7 @@ class WatchFaceView extends WatchUi.WatchFace {
 	var mainFont;
 	var bigFont;
 	var iconFont;
+	var bigIconFont;
 	var needsProtection = true;
 	var lowMemDevice = true;
 	var RBD = 0;
@@ -30,7 +31,7 @@ class WatchFaceView extends WatchUi.WatchFace {
 	var background_image;
 	var use_background_image;
 	var foreground_color = Graphics.COLOR_WHITE;
-	var box_color;
+	var box_color = Graphics.COLOR_WHITE;
 	var second_hand_color = Graphics.COLOR_RED;
 	var hour_min_hand_color = Graphics.COLOR_WHITE;
 	var text_color;
@@ -67,7 +68,8 @@ class WatchFaceView extends WatchUi.WatchFace {
 	var text_padding = [1, 2];
 	var box_padding = 2;
 	var dow_size = [44, 19];
-	var date_size = [24, 19];
+	var date_size_x = 80;
+	var date_size_y = 30;
 	var time_size = [48, 19];
 	var floors_size = [40, 19];
 	var battery_size = [32, 19];
@@ -84,16 +86,11 @@ class WatchFaceView extends WatchUi.WatchFace {
         width = dc.getWidth();
         height = dc.getHeight();
 
+		mainFont = WatchUi.loadResource(Rez.Fonts.MainFont);
 		bigFont = WatchUi.loadResource(Rez.Fonts.BigFont);
-		iconFont = WatchUi.loadResource(Rez.Fonts.BigIconFont);
-/*		dow_size = [44 * 1.5, 19* 1.5];
-		date_size = [24* 1.5, 19* 1.5];
-		time_size = [48* 1.5, 19* 1.5];
-		floors_size = [48* 1.5, 19* 1.5];
-		battery_size = [32*1.5, 19*1.5];
-		status_box_size = [94*1.5, 19*1.5];
-*/
-		//updateValues(dc.getWidth());
+		bigIconFont = WatchUi.loadResource(Rez.Fonts.BigIconFont);
+		iconFont = WatchUi.loadResource(Rez.Fonts.IconFont);
+		
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -119,14 +116,14 @@ class WatchFaceView extends WatchUi.WatchFace {
 		// Set minute and hour circle
         setAchterGrondDisplay(dc);
 
-//    	drawDate(dc, centerOnLeft(dc, dow_size[0] + 4 + date_size[0]), width/2 - dow_size[1]/2);	
+    	drawDate(dc, width*2/3, width/2);
 //		drawBox(dc);
 //		drawStatusBox(dc, width/2, centerOnLeft(dc, status_box_size[1]));
 
 		//Set hour and minute hand
 	   	dc.setColor(hour_min_hand_color, Graphics.COLOR_TRANSPARENT);
-    	drawHand(dc, 12, hours, relative_hour_hand_length*width );
-    	drawHand(dc, 60, minutes, relative_min_hand_length*width);
+    	drawHand(dc, 60, minutes, relative_min_hand_length*width, hour_min_hand_color);
+    	drawHand(dc, 12, hours, relative_hour_hand_length*width, hour_min_hand_color );
 		if(show_sec_hand) {
 			drawSecondHandClip(dc, 60, seconds, relative_sec_hand_length*width);
 		}
@@ -163,15 +160,15 @@ class WatchFaceView extends WatchUi.WatchFace {
 		if(show_min_ticks) {
 			drawTicksMinuten(dc, relative_min_tick_length*width, relative_min_tick_stroke*width, 60);
 		}
+		drawTicksUren(dc, 0.91*width, 12);
 		drawTicksUren1(dc, relative_hour_tick_length*width, 4);
 		drawTicksUren2(dc, relative_hour_tick_length*width, 12);
-		drawTicksUren(dc, 0.91*width, 12);
     }
 
     function drawTicksMinuten(dc, length, stroke, num) {
 		dc.setPenWidth(stroke);
     	var tickAngle = 360/num;
-    	var center = dc.getWidth()/2;
+    	var center = width/2;
     	for(var i = 0; i < num; i++) {
     		var angle = Math.toRadians(tickAngle * i);
     		var x1 = center + Math.round(Math.cos(angle) * (center-length));
@@ -241,13 +238,13 @@ class WatchFaceView extends WatchUi.WatchFace {
     	}
     }
 
-    function drawHand(dc, num, time, length) {
+    function drawHand(dc, num, time, length, kleur) {
     	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
     	var center = width/2;
 
-		var offset = Math.toRadians(1.4);
-    	var x = center + Math.round(Math.cos(angle) * length);
-    	var y = center + Math.round(Math.sin(angle) * length);
+		var offset = Math.toRadians(3.0);
+    	var x = center + Math.round(Math.cos(angle) * (length + 6));
+    	var y = center + Math.round(Math.sin(angle) * (length + 6));
     	var x1 = center + Math.round(Math.cos(angle - offset) * length);
     	var y1 = center + Math.round(Math.sin(angle - offset) * length);
     	var x2 = center + Math.round(Math.cos(angle + offset) * length);
@@ -256,27 +253,64 @@ class WatchFaceView extends WatchUi.WatchFace {
 		var y3 = center + y - y1;
 		var x4 = center + x - x2;
 		var y4 = center + y - y2;
-		dc.fillPolygon([[x1,y1],[x2,y2],[x3,y3],[x4,y4]]);
+	   	dc.setColor(kleur, Graphics.COLOR_TRANSPARENT);
+		dc.fillPolygon([[x1,y1],[x,y],[x2,y2],[x3,y3],[x4,y4]]);
+
+		dc.setPenWidth(2);
+		dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+		dc.drawLine(x1, y1, x, y);
+		dc.drawLine(x, y, x2, y2);
+		dc.drawLine(x2, y2, x3, y3);
+		dc.drawLine(x4, y4, x1, y1);
+
+		if (num == 60) {
+			dc.setColor(kleur, Graphics.COLOR_TRANSPARENT);
+			dc.fillCircle(center, center, 16);
+
+			dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+			dc.drawCircle(center, center, 16);
+		}
+
     }
     
     function drawSecondHandClip(dc, num, time, length) {
     	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
 		var center = width/2;
 
-      	var x = center + Math.round(Math.cos(angle) * length);
+		var offset = Math.toRadians(1.0);
+	  	var x = center + Math.round(Math.cos(angle) * length);
     	var y = center + Math.round(Math.sin(angle) * length);
-		var a = center - Math.round(Math.cos(angle) * length/4);
-		var b = center - Math.round(Math.sin(angle) * length/4);
+    	var x1 = center + Math.round(Math.cos(angle - offset) * length);
+    	var y1 = center + Math.round(Math.sin(angle - offset) * length);
+    	var x2 = center + Math.round(Math.cos(angle + offset) * length);
+    	var y2 = center + Math.round(Math.sin(angle + offset) * length);
+	  	var xx = center - Math.round(Math.cos(angle) * (length/4));
+    	var yy = center - Math.round(Math.sin(angle) * (length/4));
+
+		var x3 = xx + x - x1;
+		var y3 = yy + y - y1;
+		var x4 = xx + x - x2;
+		var y4 = yy + y - y2;
+
+		dc.setPenWidth(2);
+		dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLUE);
+		dc.drawCircle(center, center, 8);
 
 		dc.setColor(second_hand_color, Graphics.COLOR_TRANSPARENT);
-		dc.fillPolygon([[a,b],[a,b],[x,y],[x,y]]);
+		dc.fillPolygon([[x1,y1],[x2,y2],[x3,y3],[x4,y4]]);
 
-		dc.setPenWidth(5);
-		dc.drawCircle(center, center, 6);
-		dc.setColor(background_color, Graphics.COLOR_TRANSPARENT);
-		dc.fillCircle(center, center, 4);
+		dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+		dc.setPenWidth(1);
+		dc.drawLine(x1, y1, x2, y2);
+		dc.drawLine(x2, y2, x3, y3);
+		dc.drawLine(x3, y3, x4, y4);
+		dc.drawLine(x4, y4, x1, y1);
+
+		dc.setColor(second_hand_color, Graphics.COLOR_TRANSPARENT);
+		dc.fillCircle(center, center, 8);
     }
-    
+
+
 /*
     function drawStatusBox(dc, x, y) {
 		var status_string = "";
@@ -336,14 +370,14 @@ class WatchFaceView extends WatchUi.WatchFace {
     }
 */
 
-/*	function drawDate(dc, x, y) {
-    	var info = Gregorian.info(Time.now(), Time.FORMAT_LONG);
-		var dowString = info.day_of_week;
-		
-		drawTextBox(dc, dowString, x, y, dow_size[0], dow_size[1]);
-		drawTextBox(dc, info.day.toString(), x + dow_size[0] + 4, y, date_size[0], date_size[1]);
+	function drawDate(dc, x, y) {
+        var now = Time.now();
+	    var date = Datum.info(now, Time.FORMAT_LONG);
+	    var dateString = Lang.format("$1$ $2$", [date.day_of_week, date.day]);
+
+		drawTextBoxBigFont(dc, dateString, x, y - (date_size_y/2), date_size_x, date_size_y);
     }
-*/
+
 /*    
     function drawTimeBox(dc, x, y) {
 //		var width = dc.getWidth();
@@ -446,8 +480,8 @@ class WatchFaceView extends WatchUi.WatchFace {
 
 		drawTextBox(dc, batteryString, x, y, battery_size[0], battery_size[1]);
 	}
-
-	function drawTextBox(dc, text, x, y, width, height) {
+*/
+	function drawTextBoxBigFont(dc, text, x, y, width, height) {
 		dc.setPenWidth(2);
     	dc.setColor(box_color, Graphics.COLOR_WHITE);
 		if(showBoxes) {
@@ -457,29 +491,25 @@ class WatchFaceView extends WatchUi.WatchFace {
 		var boxText = new WatchUi.Text({
             :text=>text,
             :color=>text_color,
-            :font=>mainFont,
-            :locX =>x + text_padding[0],
+            :font=>bigFont,
+            :locX =>x + (width/2),
             :locY=>y,
-			:justification=>Graphics.TEXT_JUSTIFY_LEFT
+			:justification=>Graphics.TEXT_JUSTIFY_CENTER
         });
 
 		boxText.draw(dc);
 	}
 
-*/
-
-
-
 
 
 /////////////////////////////////////////////////////////////////////////////////////
-    private function setClockDisplay() {
+/*    private function setClockDisplay() {
         var clockTime = System.getClockTime();
-/*        if (!System.getDeviceSettings().is24Hour) {
+        if (!System.getDeviceSettings().is24Hour) {
             if (hours > 12) {
                 hours = hours - 12;
             }
-        }*/
+        }
         var timeString = Lang.format("$1$:$2$:$3$", [clockTime.hour, clockTime.min.format("%02d"), clockTime.sec.format("%02d")]);
 
         // Update the view
@@ -487,7 +517,7 @@ class WatchFaceView extends WatchUi.WatchFace {
         timeDisplay.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         timeDisplay.setText(timeString);
     }
-
+*/
     private function setDateDisplay() {        
         var now = Time.now();
 	    var date = Datum.info(now, Time.FORMAT_LONG);
