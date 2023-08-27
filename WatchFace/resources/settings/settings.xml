@@ -18,8 +18,25 @@
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
-        <settingConfig type="boolean" />
+    <setting propertyKey="@Properties.TextColor" title="@Strings.TextColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
     </setting>
+
+    <setting propertyKey="@Properties.BoxColor" title="@Strings.BoxColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
 
 </settings>

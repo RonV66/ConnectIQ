@@ -21,11 +21,11 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_13326464348576020828 = new Background();
+            var rez_cmp_local_custom_drawable_24178322612275548628 = new Background();
 
             var rez_cmp_local_text_TimeDisplay = new WatchUi.Text({:identifier=>"TimeDisplay", :color=>Graphics.COLOR_WHITE, :locX=>(416 * 0.5), :locY=>((416 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_13326464348576020828, rez_cmp_local_text_TimeDisplay] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_24178322612275548628, rez_cmp_local_text_TimeDisplay] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -34,15 +34,18 @@ module Rez {
 
     module Strings {
         (:initialized) var ColorLightGray as Symbol;
+        (:initialized) var Steps as Symbol;
         (:initialized) var ColorBlue as Symbol;
-        (:initialized) var ColorRed as Symbol;
-        (:initialized) var ForegroundColorTitle as Symbol;
+        (:initialized) var HeartRate as Symbol;
         (:initialized) var BackgroundColorTitle as Symbol;
         (:initialized) var ColorDarkGray as Symbol;
-        (:initialized) var MilitaryFormatTitle as Symbol;
         (:initialized) var ColorBlack as Symbol;
-        (:initialized) var ColorWhite as Symbol;
+        (:initialized) var TextColorTitle as Symbol;
         (:initialized) var AppName as Symbol;
+        (:initialized) var ColorRed as Symbol;
+        (:initialized) var ForegroundColorTitle as Symbol;
+        (:initialized) var BoxColorTitle as Symbol;
+        (:initialized) var ColorWhite as Symbol;
     } // Strings
 
     module Styles {

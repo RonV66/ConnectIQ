@@ -3,6 +3,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.ActivityMonitor;
 using Toybox.Time.Gregorian as Datum;
 //using Toybox.System as Sys;
 //using Toybox.ActivityMonitor as Mon;
@@ -27,11 +28,11 @@ class WatchFaceView extends WatchUi.WatchFace {
 	var RBD = 0;
 	var version;
 	var showBoxes = true;
-	var background_color  = Graphics.COLOR_BLACK;
+	var background_color; // = Graphics.COLOR_BLACK;
 	var background_image;
 	var use_background_image;
-	var foreground_color = Graphics.COLOR_WHITE;
-	var box_color = Graphics.COLOR_WHITE;
+	var foreground_color; // = Graphics.COLOR_WHITE;
+	var box_color; // = Graphics.COLOR_WHITE;
 	var second_hand_color = Graphics.COLOR_RED;
 	var hour_min_hand_color = Graphics.COLOR_WHITE;
 	var text_color;
@@ -65,11 +66,13 @@ class WatchFaceView extends WatchUi.WatchFace {
     
     var relative_center_radius = .025;
 
-	var text_padding = [1, 2];
 	var box_padding = 2;
-	var dow_size = [44, 19];
 	var date_size_x = 80;
 	var date_size_y = 30;
+	var circle_rad = 45;
+
+	var text_padding = [1, 2];
+	var dow_size = [44, 19];
 	var time_size = [48, 19];
 	var floors_size = [40, 19];
 	var battery_size = [32, 19];
@@ -90,50 +93,49 @@ class WatchFaceView extends WatchUi.WatchFace {
 		bigFont = WatchUi.loadResource(Rez.Fonts.BigFont);
 		bigIconFont = WatchUi.loadResource(Rez.Fonts.BigIconFont);
 		iconFont = WatchUi.loadResource(Rez.Fonts.IconFont);
-		
     }
 
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() as Void {
-
+		background_color = Application.Properties.getValue("BackgroundColor");
+        foreground_color = Application.Properties.getValue("ForegroundColor");
+		text_color = Application.Properties.getValue("TextColor");
+		box_color = Application.Properties.getValue("BoxColor");
     }
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        // Get the current time and format it correctly
-        //setClockDisplay();
-        // Call the parent onUpdate function to redraw the layout
-        //View.onUpdate(dc);
+		if (!lowPower) {
+			// Get System Time
+			var clockTime = System.getClockTime();
+			var hours = clockTime.hour;
+			var minutes = clockTime.min;
+			var seconds = clockTime.sec;
 
-		// Get System Time
-		var clockTime = System.getClockTime();
-		var hours = clockTime.hour;
-		var minutes = clockTime.min;
-		var seconds = clockTime.sec;
+			// Set minute and hour circle
+			setAchterGrondDisplay(dc);
 
-		// Set minute and hour circle
-        setAchterGrondDisplay(dc);
+			drawDate(dc, width*2/3, height/2);
+			drawStepBox(dc, width/2, height/4);
+			drawHeartRateBox(dc, width/4, height/2);
 
-    	drawDate(dc, width*2/3, width/2);
-//		drawBox(dc);
-//		drawStatusBox(dc, width/2, centerOnLeft(dc, status_box_size[1]));
+			//Set hour and minute hand
+			dc.setColor(hour_min_hand_color, Graphics.COLOR_TRANSPARENT);
+			drawHandMinuut(dc, 60, minutes, relative_min_hand_length*width, hour_min_hand_color);
+			drawHandUur(dc, 12, hours, minutes, relative_hour_hand_length*width, hour_min_hand_color );
+			if(show_sec_hand) {
+				drawSecondHandClip(dc, 60, seconds, relative_sec_hand_length*width);
+			}
 
-		//Set hour and minute hand
-	   	dc.setColor(hour_min_hand_color, Graphics.COLOR_TRANSPARENT);
-    	drawHand(dc, 60, minutes, relative_min_hand_length*width, hour_min_hand_color);
-    	drawHand(dc, 12, hours, relative_hour_hand_length*width, hour_min_hand_color );
-		if(show_sec_hand) {
-			drawSecondHandClip(dc, 60, seconds, relative_sec_hand_length*width);
+			//setDateDisplay();
+			//setBatteryDisplay();
+			//setStepCountDisplay();
+			//setStepGoalDisplay();
+			////setNotificationCountDisplay();
+			//setHeartrateDisplay();
 		}
-
-        //setDateDisplay();
-        //setBatteryDisplay();
-        //setStepCountDisplay();
-        //setStepGoalDisplay();
-        ////setNotificationCountDisplay();
-        //setHeartrateDisplay();
     }
 
     // Called when this View is removed from the screen. Save the
@@ -238,7 +240,7 @@ class WatchFaceView extends WatchUi.WatchFace {
     	}
     }
 
-    function drawHand(dc, num, time, length, kleur) {
+    function drawHandMinuut(dc, num, time, length, kleur) {
     	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
     	var center = width/2;
 
@@ -270,9 +272,45 @@ class WatchFaceView extends WatchUi.WatchFace {
 			dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
 			dc.drawCircle(center, center, 16);
 		}
-
     }
-    
+
+    function drawHandUur(dc, num, time, offsetTime, length, kleur) {
+		var center = width/2;
+
+    	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
+		var section = 360.00/12/60;
+		angle += Math.toRadians(section * offsetTime);
+
+		var offset = Math.toRadians(3.0);
+    	var x = center + Math.round(Math.cos(angle) * (length + 6));
+    	var y = center + Math.round(Math.sin(angle) * (length + 6));
+    	var x1 = center + Math.round(Math.cos(angle - offset) * length);
+    	var y1 = center + Math.round(Math.sin(angle - offset) * length);
+    	var x2 = center + Math.round(Math.cos(angle + offset) * length);
+    	var y2 = center + Math.round(Math.sin(angle + offset) * length);
+		var x3 = center + x - x1;
+		var y3 = center + y - y1;
+		var x4 = center + x - x2;
+		var y4 = center + y - y2;
+	   	dc.setColor(kleur, Graphics.COLOR_TRANSPARENT);
+		dc.fillPolygon([[x1,y1],[x,y],[x2,y2],[x3,y3],[x4,y4]]);
+
+		dc.setPenWidth(2);
+		dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+		dc.drawLine(x1, y1, x, y);
+		dc.drawLine(x, y, x2, y2);
+		dc.drawLine(x2, y2, x3, y3);
+		dc.drawLine(x4, y4, x1, y1);
+
+		if (num == 60) {
+			dc.setColor(kleur, Graphics.COLOR_TRANSPARENT);
+			dc.fillCircle(center, center, 16);
+
+			dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+			dc.drawCircle(center, center, 16);
+		}
+    }
+
     function drawSecondHandClip(dc, num, time, length) {
     	var angle = Math.toRadians((360/num) * time) - Math.PI/2;
 		var center = width/2;
@@ -309,6 +347,56 @@ class WatchFaceView extends WatchUi.WatchFace {
 		dc.setColor(second_hand_color, Graphics.COLOR_TRANSPARENT);
 		dc.fillCircle(center, center, 8);
     }
+
+	function drawDate(dc, x, y) {
+        var now = Time.now();
+	    var date = Datum.info(now, Time.FORMAT_LONG);
+	    var dateString = Lang.format("$1$ $2$", [date.day_of_week, date.day]);
+
+		drawTextBoxBigFont(dc, dateString, x, y - (date_size_y/2), date_size_x, date_size_y);
+    }
+
+	function drawStepBox(dc, x, y) {
+		var text = Rez.Strings.Steps;
+
+		var steps = ActivityMonitor.getInfo().steps;
+		var stepString = steps.format("%d");
+
+		var stepsGoal = ActivityMonitor.getInfo().stepGoal;
+		var soFar = (steps > stepsGoal) ? 280 : (280 * steps / stepsGoal);
+
+		drawTextCircleBigFont(dc, text, stepString, soFar, x, y, circle_rad, Graphics.COLOR_GREEN);
+	}
+
+	function drawHeartRateBox(dc, x, y) {
+		var text = Rez.Strings.HeartRate;
+
+		var heartRateZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
+		var minimum = heartRateZones[0];
+		var maximum = heartRateZones[5];
+
+		var circleColor = text_color;
+		var soFar = 0;
+		var heartRate = 0;
+		var heartRateString = "--";
+		if(ActivityMonitor has :INVALID_HR_SAMPLE) {
+			var heartrateIterator = ActivityMonitor.getHeartRateHistory(null, false);
+    		heartRate = heartrateIterator.next().heartRate;
+    		if (heartRate != ActivityMonitor.INVALID_HR_SAMPLE) {
+    			heartRateString = heartRate.format("%d");
+				soFar = 280 * (heartRate-minimum) / (maximum-minimum);
+				if (soFar < 0) { soFar = 0; }
+				else if (soFar > 280) { soFar = 280; }
+                if ((heartRate >= heartRateZones[0]) and (heartRate < heartRateZones[1])) {circleColor = Graphics.COLOR_LT_GRAY;}
+                else if ((heartRate >= heartRateZones[1]) and (heartRate < heartRateZones[2])) {circleColor = Graphics.COLOR_BLUE;}
+                else if ((heartRate >= heartRateZones[2]) and (heartRate < heartRateZones[3])) {circleColor = Graphics.COLOR_DK_GREEN;}
+                else if ((heartRate >= heartRateZones[3]) and (heartRate < heartRateZones[4])) {circleColor = 0xFAA918;}  //Graphics.COLOR_ORANGE
+                else if (heartRate >= heartRateZones[4]) {circleColor = Graphics.COLOR_RED;}
+			}
+		}
+
+		drawTextCircleBigFont(dc, text, heartRateString, soFar, x, y, circle_rad, circleColor);
+	}
 
 
 /*
@@ -370,52 +458,86 @@ class WatchFaceView extends WatchUi.WatchFace {
     }
 */
 
-	function drawDate(dc, x, y) {
-        var now = Time.now();
-	    var date = Datum.info(now, Time.FORMAT_LONG);
-	    var dateString = Lang.format("$1$ $2$", [date.day_of_week, date.day]);
 
-		drawTextBoxBigFont(dc, dateString, x, y - (date_size_y/2), date_size_x, date_size_y);
-    }
-
-/*    
-    function drawTimeBox(dc, x, y) {
-//		var width = dc.getWidth();
-    	var info = Gregorian.info(Time.now(), Time.FORMAT_LONG);
-    	var clockTime = System.getClockTime();
-		var hours = clockTime.hour.format("%02d").toNumber();
-		var hourString = hours;
-
-		if(!is24 && hours > 12) {
-			hours -= 12;
-			hourString = hours;
+	function drawTextBoxMainFont(dc, text, x, y, width, height) {
+		dc.setPenWidth(2);
+    	dc.setColor(box_color, Graphics.COLOR_TRANSPARENT);
+		if(showBoxes) {
+   			dc.drawRoundedRectangle(x, y, width, height, box_padding);
 		}
+    	
+		var boxText = new WatchUi.Text({
+            :text=>text,
+            :color=>text_color,
+            :font=>mainFont,
+            :locX =>x + (width/2),
+            :locY=>y,
+			:justification=>Graphics.TEXT_JUSTIFY_CENTER
+        });
 
-		if(hours < 10) {
-			hourString = " " + hourString;
-		}
-
-		drawTextBox(dc, hourString + ":" + clockTime.min.format("%02d"), x, y, time_size[0], time_size[1]);
-    }
-*/
-/*	
-	function drawStepBox(dc, x, y) {
-//		var width = dc.getWidth();
-		var steps = ActivityMonitor.getInfo().steps;
-		var stepString;
-		if(steps > 99999) {
-			stepString = "99+k";
-		} else {
-			stepString = (steps.toDouble()/1000).format("%.1f") + "k";
-		}
-		// System.out.println(steps);
-
-		drawTextBox(dc, stepString, x, y, time_size[0], time_size[1]);
+		boxText.draw(dc);
 	}
-*/
+
+	function drawTextBoxBigFont(dc, text, x, y, width, height) {
+		dc.setPenWidth(2);
+    	dc.setColor(box_color, Graphics.COLOR_TRANSPARENT);
+		if(showBoxes) {
+   			dc.drawRoundedRectangle(x, y, width, height, box_padding);
+		}
+    	
+		var boxText = new WatchUi.Text({
+            :text=>text,
+            :color=>text_color,
+            :font=>bigFont,
+            :locX =>x + (width/2),
+            :locY=>y,
+			:justification=>Graphics.TEXT_JUSTIFY_CENTER
+        });
+
+		boxText.draw(dc);
+	}
+
+	function drawTextCircleBigFont(dc, text, waarde, soFar, x, y, radian, honderdpercent) {
+		soFar = 230 - soFar;
+		soFar = ((soFar < 0) ? (soFar + 360) : soFar);
+
+		dc.setPenWidth(1);
+    	dc.setColor(box_color, Graphics.COLOR_TRANSPARENT);
+		if(showBoxes) {
+			dc.drawArc(x,y,radian, dc.ARC_CLOCKWISE, 230, 310);
+			dc.setPenWidth(3);
+			dc.setColor(honderdpercent, Graphics.COLOR_TRANSPARENT);
+			if (soFar != 230) {
+				dc.drawArc(x,y,radian,dc.ARC_CLOCKWISE, 230, soFar);
+			}
+		}
+
+		var h = dc.getFontHeight(bigFont) / 2;
+		var boxText = new WatchUi.Text({
+            :text => waarde,
+            :color => text_color,
+            :font => bigFont,
+            :locX => x,
+            :locY => y - h,
+			:justification => Graphics.TEXT_JUSTIFY_CENTER
+        });
+		boxText.draw(dc);
+		boxText = new WatchUi.Text({
+            :text => text,
+            :color => text_color,
+            :font => mainFont,
+            :locX => x,
+            :locY => y + radian/2,
+			:justification => Graphics.TEXT_JUSTIFY_CENTER
+        });
+		boxText.draw(dc);
+	}
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
 /*
 	function drawFloorsBox(dc, x, y) {
-//		var width = dc.getWidth();
 		var floors;
 		var floorString;
 
@@ -481,28 +603,10 @@ class WatchFaceView extends WatchUi.WatchFace {
 		drawTextBox(dc, batteryString, x, y, battery_size[0], battery_size[1]);
 	}
 */
-	function drawTextBoxBigFont(dc, text, x, y, width, height) {
-		dc.setPenWidth(2);
-    	dc.setColor(box_color, Graphics.COLOR_WHITE);
-		if(showBoxes) {
-   			dc.drawRoundedRectangle(x, y, width, height, box_padding);
-		}
-    	
-		var boxText = new WatchUi.Text({
-            :text=>text,
-            :color=>text_color,
-            :font=>bigFont,
-            :locX =>x + (width/2),
-            :locY=>y,
-			:justification=>Graphics.TEXT_JUSTIFY_CENTER
-        });
-
-		boxText.draw(dc);
-	}
 
 
 
-/////////////////////////////////////////////////////////////////////////////////////
+
 /*    private function setClockDisplay() {
         var clockTime = System.getClockTime();
         if (!System.getDeviceSettings().is24Hour) {
@@ -518,6 +622,7 @@ class WatchFaceView extends WatchUi.WatchFace {
         timeDisplay.setText(timeString);
     }
 */
+/*
     private function setDateDisplay() {        
         var now = Time.now();
 	    var date = Datum.info(now, Time.FORMAT_LONG);
@@ -563,29 +668,6 @@ class WatchFaceView extends WatchUi.WatchFace {
 
     	notificationCountDisplay.setText(formattedNotificationAmount);
     }
-    
-    private function setHeartrateDisplay() {
-    	var heartRate = "";
-    	
-    	if(ActivityMonitor has :INVALID_HR_SAMPLE) {
-    		heartRate = retrieveHeartrateText();
-    	}
-    	else {
-    		heartRate = "";
-    	}
-    	var heartrateDisplay = View.findDrawableById("HeartrateDisplay") as Text;
-
-    	heartrateDisplay.setText(heartRate);
-    }
-    
-    private function retrieveHeartrateText() {
-    	var heartrateIterator = ActivityMonitor.getHeartRateHistory(null, false);
-    	var currentHeartrate = heartrateIterator.next().heartRate;
-
-    	if(currentHeartrate == ActivityMonitor.INVALID_HR_SAMPLE) {
-	    	return "";
-	    }
-    	return currentHeartrate.format("%d");
-    }
+*/    
 
 }
